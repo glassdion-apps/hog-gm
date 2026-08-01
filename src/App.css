@@ -628,4 +628,132 @@ nav button.active {
   .checklist {
     grid-template-columns: 1fr;
   }
+}.team-page {
+  display: grid;
+  gap: 20px;
+}
+
+.team-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 30px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0f766e, #2563eb);
+  color: white;
+  box-shadow: 0 18px 45px rgba(37, 99, 235, 0.18);
+}
+
+.team-summary h2 {
+  margin: 8px 0;
+  font-size: clamp(34px, 4vw, 50px);
+}
+
+.team-summary p:not(.eyebrow) {
+  max-width: 650px;
+  margin-bottom: 0;
+  color: #dbeafe;
+  line-height: 1.6;
+}
+
+.team-grade {
+  min-width: 210px;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  background: rgba(9, 30, 66, 0.35);
+}
+
+.team-grade span,
+.team-grade strong,
+.team-grade small {
+  display: block;
+}
+
+.team-grade span,
+.team-grade small {
+  color: #dbeafe;
+}
+
+.team-grade strong {
+  margin: 8px 0;
+  color: #86efac;
+  font-size: 42px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 20px;
+}
+
+.roster-list {
+  display: grid;
+  gap: 10px;
+}
+
+.roster-row {
+  display: grid;
+  grid-template-columns: 70px 1fr 70px;
+  align-items: center;
+  gap: 12px;
+  padding: 13px;
+  border: 1px solid #dce5ee;
+  border-radius: 11px;
+  background: #f8fafc;
+}
+
+.slot-label {
+  color: #1e40af;
+  font-weight: 900;
+}
+
+.roster-row select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd7e3;
+  border-radius: 8px;
+  background: white;
+  color: #172033;
+}
+
+.slot-score {
+  color: #172033;
+  font-weight: 900;
+  text-align: right;
+}
+
+.team-metrics {
+  display: grid;
+}
+
+.clear-roster-button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  background: #fff1f2;
+  color: #b91c1c;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.clear-roster-button:hover {
+  background: #ffe4e6;
+}
+
+@media (max-width: 850px) {
+  .team-summary {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .team-grade {
+    width: 100%;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
 }
