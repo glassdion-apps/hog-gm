@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import { players as sharedPlayers } from './data/players'
 import Sidebar from './components/Sidebar'
 import Dashboard from './pages/Dashboard'
+import { players } from './data/players'
 type Page =
   | 'dashboard'
   | 'board'
@@ -11,18 +11,7 @@ type Page =
   | 'managers'
   | 'encyclopedia'
 
-const players = [
-  { rank: 1, name: 'Jahmyr Gibbs', position: 'RB', tier: 'Franchise', score: 100, action: 'HAMMER' },
-  { rank: 2, name: 'Bijan Robinson', position: 'RB', tier: 'Franchise', score: 99.9, action: 'HAMMER' },
-  { rank: 3, name: "Ja'Marr Chase", position: 'WR', tier: 'Franchise', score: 99.8, action: 'TARGET' },
-  { rank: 4, name: 'Josh Allen', position: 'QB', tier: 'Franchise', score: 99, action: 'HAMMER' },
-  { rank: 5, name: 'James Cook', position: 'RB', tier: 'Cornerstone', score: 95.9, action: 'TARGET' },
-  { rank: 6, name: 'Trey McBride', position: 'TE', tier: 'Cornerstone', score: 95.7, action: 'BUY' },
-  { rank: 7, name: 'Nico Collins', position: 'WR', tier: 'Cornerstone', score: 95.4, action: 'TARGET' },
-  { rank: 8, name: 'Lamar Jackson', position: 'QB', tier: 'Cornerstone', score: 96.8, action: 'BUY' },
-  { rank: 9, name: 'Jalen Hurts', position: 'QB', tier: 'Cornerstone', score: 96.5, action: 'TARGET' },
-  { rank: 10, name: 'Malik Nabers', position: 'WR', tier: 'League Winner', score: 95.6, action: 'TARGET' },
-]
+
 
 function App() {
   const [page, setPage] = useState<Page>('dashboard')
@@ -150,7 +139,9 @@ function BigBoard() {
       )}
     </section>
   )
-}function WarRoom() {
+}
+
+function WarRoom() {
   const recommendation = players.find(
     (player) => player.name === 'Josh Allen',
   )
@@ -162,7 +153,7 @@ function BigBoard() {
   return (
     <div className="war-room">
       <section className="war-decision">
-        <div>F
+        <div>
           <p className="eyebrow light">On the clock · Pick 1.12</p>
           <h2>{recommendation?.name}</h2>
 
@@ -279,7 +270,9 @@ function ChecklistItem({ text }: { text: string }) {
       <span>{text}</span>
     </label>
   )
-}type RosterSlot = {
+}
+
+type RosterSlot = {
   id: string
   label: string
   allowed: string[]
