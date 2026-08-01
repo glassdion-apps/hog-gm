@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import { players as sharedPlayers } from './data/players'
+import Sidebar from './components/Sidebar'
 
 type Page =
   | 'dashboard'
@@ -36,55 +38,10 @@ function App() {
 
   return (
     <div className="app">
-      <aside className="sidebar">
-        <div className="brand">
-          <div className="brand-logo">H</div>
-
-          <div>
-            <strong>HOG GM</strong>
-            <span>Honda on Grand</span>
-          </div>
-        </div>
-
-        <nav>
-          <NavButton
-            label="Dashboard"
-            active={page === 'dashboard'}
-            onClick={() => setPage('dashboard')}
-          />
-
-          <NavButton
-            label="Big Board"
-            active={page === 'board'}
-            onClick={() => setPage('board')}
-          />
-
-          <NavButton
-            label="War Room"
-            active={page === 'warroom'}
-            onClick={() => setPage('warroom')}
-          />
-
-          <NavButton
-            label="My Team"
-            active={page === 'team'}
-            onClick={() => setPage('team')}
-          />
-
-          <NavButton
-            label="Managers"
-            active={page === 'managers'}
-            onClick={() => setPage('managers')}
-          />
-
-          <NavButton
-            label="Player Encyclopedia"
-            active={page === 'encyclopedia'}
-            onClick={() => setPage('encyclopedia')}
-          />
-        </nav>
-      </aside>
-
+      <Sidebar
+  currentPage={page}
+  onPageChange={(newPage) => setPage(newPage as Page)}
+/>
       <main className="main">
         <header className="topbar">
           <div>
@@ -111,23 +68,10 @@ function App() {
   )
 }
 
-function NavButton({
-  label,
-  active,
-  onClick,
-}: {
-  label: string
-  active: boolean
-  onClick: () => void
-}) {
-  return (
-    <button className={active ? 'active' : ''} onClick={onClick}>
-      {label}
-    </button>
-  )
-}
 
 function Dashboard() {
+  console.log(sharedPlayers)
+
   return (
     <>
       <section className="hero">
@@ -281,7 +225,7 @@ function BigBoard() {
   return (
     <div className="war-room">
       <section className="war-decision">
-        <div>
+        <div>F
           <p className="eyebrow light">On the clock · Pick 1.12</p>
           <h2>{recommendation?.name}</h2>
 
