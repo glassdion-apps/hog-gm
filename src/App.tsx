@@ -10,10 +10,16 @@ type Page =
   | 'encyclopedia'
 
 const players = [
-  { name: 'Josh Allen', position: 'QB', tier: 'Franchise', action: 'HAMMER' },
-  { name: 'James Cook', position: 'RB', tier: 'Cornerstone', action: 'TARGET' },
-  { name: 'Nico Collins', position: 'WR', tier: 'Cornerstone', action: 'TARGET' },
-  { name: 'Trey McBride', position: 'TE', tier: 'Cornerstone', action: 'BUY' },
+  { rank: 1, name: 'Jahmyr Gibbs', position: 'RB', tier: 'Franchise', score: 100, action: 'HAMMER' },
+  { rank: 2, name: 'Bijan Robinson', position: 'RB', tier: 'Franchise', score: 99.9, action: 'HAMMER' },
+  { rank: 3, name: "Ja'Marr Chase", position: 'WR', tier: 'Franchise', score: 99.8, action: 'TARGET' },
+  { rank: 4, name: 'Josh Allen', position: 'QB', tier: 'Franchise', score: 99, action: 'HAMMER' },
+  { rank: 5, name: 'James Cook', position: 'RB', tier: 'Cornerstone', score: 95.9, action: 'TARGET' },
+  { rank: 6, name: 'Trey McBride', position: 'TE', tier: 'Cornerstone', score: 95.7, action: 'BUY' },
+  { rank: 7, name: 'Nico Collins', position: 'WR', tier: 'Cornerstone', score: 95.4, action: 'TARGET' },
+  { rank: 8, name: 'Lamar Jackson', position: 'QB', tier: 'Cornerstone', score: 96.8, action: 'BUY' },
+  { rank: 9, name: 'Jalen Hurts', position: 'QB', tier: 'Cornerstone', score: 96.5, action: 'TARGET' },
+  { rank: 10, name: 'Malik Nabers', position: 'WR', tier: 'League Winner', score: 95.6, action: 'TARGET' },
 ]
 
 function App() {
@@ -93,7 +99,7 @@ function App() {
         </header>
 
         {page === 'dashboard' && <Dashboard />}
-        {page === 'board' && <Placeholder title="Big Board" />}
+        {page === 'board' && <BigBoard />}
         {page === 'warroom' && <Placeholder title="War Room" />}
         {page === 'team' && <Placeholder title="My Team" />}
         {page === 'managers' && <Placeholder title="Manager Tracker" />}
@@ -182,7 +188,88 @@ function Dashboard() {
     </>
   )
 }
+function BigBoard() {
+  const [search, setSearch] = useState('')
+  const [position, setPosition] = useState('ALL')
 
+  const filteredPlayers = players.filter((player) => {
+    const matchesSearch = player.name
+      .toLowerCase()
+      .includes(search.toLowerCase())
+
+    const matchesPosition =
+      position === 'ALL' || player.position === position
+
+    return matchesSearch && matchesPosition
+  })
+
+  return (
+    <section className="panel">
+      <div className="panel-header board-header">
+        <div>
+          <p className="eyebrow">Honda rankings</p>
+          <h3>Championship Big Board</h3>
+        </div>
+
+        <div className="board-controls">
+          <input
+            type="search"
+            placeholder="Search players"
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+          />
+
+          <select
+            value={position}
+            onChange={(event) => setPosition(event.target.value)}
+          >
+            <option value="ALL">All positions</option>
+            <option value="QB">Quarterbacks</option>
+            <option value="RB">Running backs</option>
+            <option value="WR">Wide receivers</option>
+            <option value="TE">Tight ends</option>
+          </select>
+        </div>
+      </div>
+
+      <div className="big-board">
+        <div className="board-row board-labels">
+          <span>Rank</span>
+          <span>Player</span>
+          <span>Position</span>
+          <span>Tier</span>
+          <span>HOG Score</span>
+          <span>Command</span>
+        </div>
+
+        {filteredPlayers.map((player) => (
+          <div className="board-row" key={player.name}>
+            <strong>#{player.rank}</strong>
+
+            <div className="board-player">
+              <strong>{player.name}</strong>
+              <small>Available</small>
+            </div>
+
+            <span className="position-chip">{player.position}</span>
+            <span>{player.tier}</span>
+            <strong>{player.score}</strong>
+
+            <span className={`command ${player.action.toLowerCase()}`}>
+              {player.action}
+            </span>
+          </div>
+        ))}
+      </div>
+
+      {filteredPlayers.length === 0 && (
+        <div className="empty-state">
+          No players match the current filters.
+        </div>
+      )}
+    </section>
+  )
+}
 function Metric({
   label,
   value,
