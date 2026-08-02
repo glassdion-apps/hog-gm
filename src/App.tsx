@@ -6,6 +6,8 @@ import BigBoard from './pages/BigBoard'
 import WarRoom from './pages/WarRoom'
 import MyTeam from './pages/MyTeam'
 import Managers from './pages/Managers'
+import PlayerEncyclopedia from './pages/PlayerEncyclopedia'
+
 
 type Page =
   | 'dashboard'
@@ -52,22 +54,11 @@ function App() {
         {page === 'warroom' && <WarRoom />}
         {page === 'team' && <MyTeam />}
         {page === 'managers' && <Managers />}
-        {page === 'encyclopedia' && (
-          <Placeholder title="Player Encyclopedia" />
-        )}
+        {page === 'encyclopedia' && <PlayerEncyclopedia />}
       </main>
     </div>
   )
 }
 
-function Placeholder({ title }: { title: string }) {
-  return (
-    <section className="panel">
-      <p className="eyebrow">HOG GM module</p>
-      <h2>{title}</h2>
-      <p>This section will be built next.</p>
-    </section>
-  )
-}
 
 export default App
