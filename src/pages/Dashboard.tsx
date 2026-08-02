@@ -1,4 +1,5 @@
 type DashboardProps = {
+  draftedPlayerNames: string[]
   onSelectPlayer: (playerName: string) => void
 }
 
@@ -23,27 +24,37 @@ function Metric({
 }
 
 export default function Dashboard({
+  draftedPlayerNames,
   onSelectPlayer,
 }: DashboardProps) {
+  const availablePlayers = players.filter(
+    (player) => !draftedPlayerNames.includes(player.name),
+  )
+  const recommendation = availablePlayers[0]
   return (
     <>
       <section className="hero">
         <div>
           <p className="eyebrow light">On the clock · Pick 1.12</p>
-
-          <h2>Josh Allen</h2>
+      
+          <h2>{recommendation?.name ?? 'Draft Complete'}</h2>
 
           <p className="hero-text">
-            Elite positional advantage under Honda’s six-point passing
-            touchdown scoring.
+            {recommendation
+              ? recommendation.xFactor
+              : 'No available players remain on the board.'}
           </p>
-        </div>
 
-        <div className="recommendation">
-          <span>Recommendation</span>
-          <strong>HAMMER</strong>
-          <small>96% confidence</small>
-        </div>
+          </div>
+             <div className="recommendation">
+            <span>Recommendation</span>
+            <strong>{recommendation?.action ?? 'DONE'}</strong>
+            <small>
+              {recommendation
+                ? `${Math.round(recommendation.score)}% confidence`
+                : 'All players drafted'}
+            </small>
+          </div>
       </section>
 
       <section className="metrics">
@@ -66,7 +77,7 @@ export default function Dashboard({
         </div>
 
         <div className="player-list">
-          {players.map((player) => (
+          {availablePlayers.map((player) => (
             <button
               className="player-row dashboard-player-button"
               key={player.name}

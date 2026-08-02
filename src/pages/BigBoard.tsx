@@ -2,10 +2,14 @@ import { useState } from 'react'
 import { players } from '../data/players'
 
 type BigBoardProps = {
+  draftedPlayerNames: string[]
+  onDraftPlayer: (playerName: string) => void
   onSelectPlayer: (playerName: string) => void
 }
 
 export default function BigBoard({
+  draftedPlayerNames,
+  onDraftPlayer,
   onSelectPlayer,
 }: BigBoardProps) {
   const [search, setSearch] = useState('')
@@ -58,35 +62,45 @@ export default function BigBoard({
           <span>Position</span>
           <span>Tier</span>
           <span>HOG Score</span>
-          <span>Command</span>
+          <span>Status</span>
         </div>
 
-        {filteredPlayers.map((player) => (
-          <button
-            className="board-row board-player-button"
-            key={player.name}
-            onClick={() => onSelectPlayer(player.name)}
-          >
-            <strong>#{player.rank}</strong>
+        {filteredPlayers.map((player) => {
+          const isDrafted = draftedPlayerNames.includes(player.name)
 
-            <div className="board-player">
-              <strong>{player.name}</strong>
-              <small>Available</small>
-            </div>
-
-            <span className="position-chip">{player.position}</span>
-            <span>{player.tier}</span>
-            <strong>{player.score}</strong>
-
-            <span
-              className={`command ${player.action
-                .toLowerCase()
-                .replaceAll(' ', '-')}`}
+          return (
+            <button
+              className={
+                isDrafted
+                  ? 'board-row board-player-button drafted'
+                  : 'board-row board-player-button'
+              }
+              key={player.name}
+              onClick={() => onSelectPlayer(player.name)}
             >
-              {player.action}
-            </span>
-          </button>
-        ))}
+              <strong>#{player.rank}</strong>
+
+              <div className="board-player">
+                <strong>{player.name}</strong>
+                <small>{isDrafted ? 'Drafted' : 'Available'}</small>
+              </div>
+
+              <span className="position-chip">{player.position}</span>
+              <span>{player.tier}</span>
+              <strong>{player.score}</strong>
+
+              <span
+                className="draft-status-button"
+                onClick={(event) => {
+                  event.stopPropagation()
+                  onDraftPlayer(player.name)
+                }}
+              >
+                {isDrafted ? 'Drafted' : 'Draft'}
+              </span>
+            </button>
+          )
+        })}
       </div>
 
       {filteredPlayers.length === 0 && (

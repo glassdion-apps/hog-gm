@@ -19,6 +19,8 @@ type Page =
 function App() {
   const [page, setPage] = useState<Page>('dashboard')
   const [selectedPlayerName, setSelectedPlayerName] = useState('')
+  const [draftedPlayerNames, setDraftedPlayerNames] = useState<string[]>([])
+
   const pageTitles: Record<Page, string> = {
     dashboard: 'Dashboard',
     board: 'Big Board',
@@ -26,6 +28,19 @@ function App() {
     team: 'My Team',
     managers: 'Managers',
     encyclopedia: 'Player Encyclopedia',
+  }
+
+  function draftPlayer(playerName: string) {
+    setDraftedPlayerNames((current) =>
+      current.includes(playerName)
+        ? current
+        : [...current, playerName],
+    )
+  }
+
+  function openPlayer(playerName: string) {
+    setSelectedPlayerName(playerName)
+    setPage('encyclopedia')
   }
 
   return (
@@ -50,25 +65,27 @@ function App() {
 
         {page === 'dashboard' && (
           <Dashboard
-            onSelectPlayer={(playerName) => {
-              setSelectedPlayerName(playerName)
-              setPage('encyclopedia')
-            }}
+            draftedPlayerNames={draftedPlayerNames}
+            onSelectPlayer={openPlayer}
           />
         )}
+
         {page === 'board' && (
           <BigBoard
-            onSelectPlayer={(playerName) => {
-              setSelectedPlayerName(playerName)
-              setPage('encyclopedia')
-            }}
+            draftedPlayerNames={draftedPlayerNames}
+            onDraftPlayer={draftPlayer}
+            onSelectPlayer={openPlayer}
           />
         )}
+
         {page === 'warroom' && <WarRoom />}
         {page === 'team' && <MyTeam />}
         {page === 'managers' && <Managers />}
+
         {page === 'encyclopedia' && (
-          <PlayerEncyclopedia initialSelectedPlayerName={selectedPlayerName} />
+          <PlayerEncyclopedia
+            initialSelectedPlayerName={selectedPlayerName}
+          />
         )}
       </main>
     </div>
