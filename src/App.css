@@ -1040,3 +1040,49 @@ nav button.active {
   border-color: #2563eb;
   background: #eff6ff;
 }
+.draft-order-list {
+  display: grid;
+  gap: 10px;
+}
+
+.draft-order-row {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #dce5ee;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+.draft-order-row strong,
+.draft-order-row small {
+  display: block;
+}
+
+.draft-order-row small {
+  margin-top: 3px;
+  color: #718196;
+}
+
+.draft-slot {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background: #dbeafe;
+  color: #1e40af;
+  font-weight: 900;
+}
+.current-manager {
+  border-color: #2563eb;
+  background: #eff6ff;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+}
+
+.current-manager .draft-slot {
+  background: #2563eb;
+  color: white;
+}
