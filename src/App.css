@@ -757,3 +757,71 @@ nav button.active {
     grid-template-columns: 1fr;
   }
 }
+.manager-list {
+  display: grid;
+  gap: 14px;
+}
+
+.manager-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px;
+  border: 1px solid #dce5ee;
+  border-radius: 14px;
+  background: #f8fafc;
+}
+
+.manager-card > div:first-child strong,
+.manager-card > div:first-child span {
+  display: block;
+}
+
+.manager-card > div:first-child strong {
+  color: #172033;
+  font-size: 17px;
+}
+
+.manager-card > div:first-child span {
+  margin-top: 4px;
+  color: #718196;
+  font-size: 13px;
+}
+
+.manager-meta {
+  display: flex;
+  gap: 28px;
+}
+
+.manager-meta div {
+  min-width: 90px;
+}
+
+.manager-meta small,
+.manager-meta strong {
+  display: block;
+}
+
+.manager-meta small {
+  color: #718196;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.manager-meta strong {
+  margin-top: 4px;
+  color: #172033;
+}
+
+@media (max-width: 700px) {
+  .manager-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .manager-meta {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

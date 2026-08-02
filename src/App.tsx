@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard'
 import BigBoard from './pages/BigBoard'
 import WarRoom from './pages/WarRoom'
 import MyTeam from './pages/MyTeam'
+import Managers from './pages/Managers'
 
 type Page =
   | 'dashboard'
@@ -13,8 +14,6 @@ type Page =
   | 'team'
   | 'managers'
   | 'encyclopedia'
-
-
 
 function App() {
   const [page, setPage] = useState<Page>('dashboard')
@@ -31,9 +30,10 @@ function App() {
   return (
     <div className="app">
       <Sidebar
-  currentPage={page}
-  onPageChange={(newPage) => setPage(newPage as Page)}
-/>
+        currentPage={page}
+        onPageChange={(newPage) => setPage(newPage as Page)}
+      />
+
       <main className="main">
         <header className="topbar">
           <div>
@@ -51,7 +51,7 @@ function App() {
         {page === 'board' && <BigBoard />}
         {page === 'warroom' && <WarRoom />}
         {page === 'team' && <MyTeam />}
-        {page === 'managers' && <Placeholder title="Manager Tracker" />}
+        {page === 'managers' && <Managers />}
         {page === 'encyclopedia' && (
           <Placeholder title="Player Encyclopedia" />
         )}
