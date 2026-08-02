@@ -1,7 +1,14 @@
 import { useState } from 'react'
 import { players } from '../data/players'
 
-export default function BigBoard() {const [search, setSearch] = useState('')
+type BigBoardProps = {
+  onSelectPlayer: (playerName: string) => void
+}
+
+export default function BigBoard({
+  onSelectPlayer,
+}: BigBoardProps) {
+  const [search, setSearch] = useState('')
   const [position, setPosition] = useState('ALL')
 
   const filteredPlayers = players.filter((player) => {
@@ -55,7 +62,11 @@ export default function BigBoard() {const [search, setSearch] = useState('')
         </div>
 
         {filteredPlayers.map((player) => (
-          <div className="board-row" key={player.name}>
+          <button
+            className="board-row board-player-button"
+            key={player.name}
+            onClick={() => onSelectPlayer(player.name)}
+          >
             <strong>#{player.rank}</strong>
 
             <div className="board-player">
@@ -67,10 +78,14 @@ export default function BigBoard() {const [search, setSearch] = useState('')
             <span>{player.tier}</span>
             <strong>{player.score}</strong>
 
-            <span className={`command ${player.action.toLowerCase()}`}>
+            <span
+              className={`command ${player.action
+                .toLowerCase()
+                .replaceAll(' ', '-')}`}
+            >
               {player.action}
             </span>
-          </div>
+          </button>
         ))}
       </div>
 
@@ -79,6 +94,6 @@ export default function BigBoard() {const [search, setSearch] = useState('')
           No players match the current filters.
         </div>
       )}
-        </section>
+    </section>
   )
 }

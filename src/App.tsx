@@ -18,7 +18,7 @@ type Page =
 
 function App() {
   const [page, setPage] = useState<Page>('dashboard')
-
+  const [selectedPlayerName, setSelectedPlayerName] = useState('')
   const pageTitles: Record<Page, string> = {
     dashboard: 'Dashboard',
     board: 'Big Board',
@@ -49,11 +49,20 @@ function App() {
         </header>
 
         {page === 'dashboard' && <Dashboard />}
-        {page === 'board' && <BigBoard />}
+        {page === 'board' && (
+          <BigBoard
+            onSelectPlayer={(playerName) => {
+              setSelectedPlayerName(playerName)
+              setPage('encyclopedia')
+              }}
+            />
+        )}
         {page === 'warroom' && <WarRoom />}
         {page === 'team' && <MyTeam />}
         {page === 'managers' && <Managers />}
-        {page === 'encyclopedia' && <PlayerEncyclopedia />}
+        {page === 'encyclopedia' && (
+          <PlayerEncyclopedia initialSelectedPlayerName={selectedPlayerName} />
+    )}
       </main>
     </div>
   )
