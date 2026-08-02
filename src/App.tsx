@@ -48,21 +48,28 @@ function App() {
           </div>
         </header>
 
-        {page === 'dashboard' && <Dashboard />}
+        {page === 'dashboard' && (
+          <Dashboard
+            onSelectPlayer={(playerName) => {
+              setSelectedPlayerName(playerName)
+              setPage('encyclopedia')
+            }}
+          />
+        )}
         {page === 'board' && (
           <BigBoard
             onSelectPlayer={(playerName) => {
               setSelectedPlayerName(playerName)
               setPage('encyclopedia')
-              }}
-            />
+            }}
+          />
         )}
         {page === 'warroom' && <WarRoom />}
         {page === 'team' && <MyTeam />}
         {page === 'managers' && <Managers />}
         {page === 'encyclopedia' && (
           <PlayerEncyclopedia initialSelectedPlayerName={selectedPlayerName} />
-    )}
+        )}
       </main>
     </div>
   )

@@ -1028,3 +1028,15 @@ nav button.active {
     grid-template-columns: 1fr;
   }
 }
+.dashboard-player-button {
+  width: 100%;
+  border: 1px solid #dde5ee;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dashboard-player-button:hover {
+  border-color: #2563eb;
+  background: #eff6ff;
+}

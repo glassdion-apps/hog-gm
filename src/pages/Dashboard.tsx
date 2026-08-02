@@ -1,3 +1,7 @@
+type DashboardProps = {
+  onSelectPlayer: (playerName: string) => void
+}
+
 import { players } from '../data/players'
 
 function Metric({
@@ -18,7 +22,9 @@ function Metric({
   )
 }
 
-export default function Dashboard() {
+export default function Dashboard({
+  onSelectPlayer,
+}: DashboardProps) {
   return (
     <>
       <section className="hero">
@@ -61,7 +67,11 @@ export default function Dashboard() {
 
         <div className="player-list">
           {players.map((player) => (
-            <div className="player-row" key={player.name}>
+            <button
+              className="player-row dashboard-player-button"
+              key={player.name}
+              onClick={() => onSelectPlayer(player.name)}
+            >
               <div className="player-position">{player.position}</div>
 
               <div className="player-info">
@@ -76,7 +86,7 @@ export default function Dashboard() {
               >
                 {player.action}
               </span>
-            </div>
+            </button>
           ))}
         </div>
       </section>
