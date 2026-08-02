@@ -1,6 +1,10 @@
 import { players } from '../data/players'
 import { draftManagers } from '../data/managers'
 
+type WarRoomProps = {
+    currentPickIndex: number
+}
+
 function DecisionFactor({
     label,
     value,
@@ -30,7 +34,9 @@ function ChecklistItem({ text }: { text: string }) {
     )
 }
 
-export default function WarRoom() {
+export default function WarRoom({
+    currentPickIndex,
+}: WarRoomProps) {
     const recommendation = players.find(
         (player) => player.name === 'Josh Allen',
     )
@@ -38,13 +44,21 @@ export default function WarRoom() {
     const alternatives = players
         .filter((player) => player.name !== 'Josh Allen')
         .slice(0, 4)
-    const currentManager = draftManagers[0]
+    const currentManager =
+        draftManagers[currentPickIndex % draftManagers.length]
+
+    const roundNumber =
+        Math.floor(currentPickIndex / draftManagers.length) + 1
+
+    const pickInRound =
+        (currentPickIndex % draftManagers.length) + 1
     return (
         <div className="war-room">
             <section className="war-decision">
                 <div>
                     <p className="eyebrow light">
-                        On the clock · Pick 1.01 · {currentManager.name}
+                        On the clock · Pick {roundNumber}.
+                        {String(pickInRound).padStart(2, '0')} · {currentManager.name}
                     </p>
                     <h2>{recommendation?.name}</h2>
 

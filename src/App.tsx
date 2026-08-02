@@ -20,6 +20,7 @@ function App() {
   const [page, setPage] = useState<Page>('dashboard')
   const [selectedPlayerName, setSelectedPlayerName] = useState('')
   const [draftedPlayerNames, setDraftedPlayerNames] = useState<string[]>([])
+  const [currentPickIndex, setCurrentPickIndex] = useState(0)
 
   const pageTitles: Record<Page, string> = {
     dashboard: 'Dashboard',
@@ -30,13 +31,18 @@ function App() {
     encyclopedia: 'Player Encyclopedia',
   }
 
-  function draftPlayer(playerName: string) {
-    setDraftedPlayerNames((current) =>
-      current.includes(playerName)
-        ? current
-        : [...current, playerName],
-    )
+function draftPlayer(playerName: string) {
+  if (draftedPlayerNames.includes(playerName)) {
+    return
   }
+
+  setDraftedPlayerNames((current) => [
+    ...current,
+    playerName,
+  ])
+
+  setCurrentPickIndex((current) => current + 1)
+}
 
   function openPlayer(playerName: string) {
     setSelectedPlayerName(playerName)
@@ -78,7 +84,9 @@ function App() {
           />
         )}
 
-        {page === 'warroom' && <WarRoom />}
+        {page === 'warroom' && (
+          <WarRoom currentPickIndex={currentPickIndex} />
+        )}
         {page === 'team' && <MyTeam />}
         {page === 'managers' && <Managers />}
 
