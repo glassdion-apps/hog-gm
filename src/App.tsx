@@ -8,7 +8,6 @@ import MyTeam from './pages/MyTeam'
 import Managers from './pages/Managers'
 import PlayerEncyclopedia from './pages/PlayerEncyclopedia'
 
-
 type Page =
   | 'dashboard'
   | 'board'
@@ -59,6 +58,5 @@ function App() {
     </div>
   )
 }
-
 
 export default App

@@ -939,3 +939,92 @@ nav button.active {
     grid-template-columns: 1fr 1fr;
   }
 }
+.player-team {
+  margin-top: -14px;
+  color: #718196;
+}
+
+.profile-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.profile-section {
+  padding: 18px;
+  border: 1px solid #dce5ee;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.profile-section h3 {
+  margin-top: 0;
+  color: #172033;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.detail-row span {
+  color: #718196;
+}
+
+.detail-row strong {
+  color: #172033;
+}
+
+.flag-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.flag-list li {
+  margin-bottom: 10px;
+  line-height: 1.45;
+}
+
+.green-flags li::marker {
+  color: #16a34a;
+}
+
+.red-flags li::marker {
+  color: #dc2626;
+}
+
+.x-factor-card {
+  margin-top: 18px;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  color: white;
+}
+
+.x-factor-card span,
+.x-factor-card strong {
+  display: block;
+}
+
+.x-factor-card span {
+  color: #bfdbfe;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.x-factor-card strong {
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+  .profile-details-grid {
+    grid-template-columns: 1fr;
+  }
+}
