@@ -24,6 +24,9 @@ function App() {
   const [draftHistory, setDraftHistory] = useState<
     { player: string; manager: string; pick: number }[]
   >([])
+  const [managerRosters, setManagerRosters] = useState<
+    Record<string, string[]>
+  >({})
   const [currentPickIndex, setCurrentPickIndex] = useState(0)
 
   const pageTitles: Record<Page, string> = {
@@ -56,6 +59,14 @@ function App() {
         pick: currentPickIndex + 1,
       },
     ])
+
+    setManagerRosters((current) => ({
+      ...current,
+      [currentManager.name]: [
+        ...(current[currentManager.name] ?? []),
+        playerName,
+      ],
+    }))
 
     setCurrentPickIndex((current) => current + 1)
   }
@@ -109,7 +120,9 @@ function App() {
           />
         )}
         {page === 'team' && <MyTeam />}
-        {page === 'managers' && <Managers />}
+        {page === 'managers' && (
+          <Managers managerRosters={managerRosters} />
+        )}
 
         {page === 'encyclopedia' && (
           <PlayerEncyclopedia

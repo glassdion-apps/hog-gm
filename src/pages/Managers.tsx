@@ -1,31 +1,12 @@
-const managers = [
-  {
-    name: "Jimmy's Johnson",
-    tendency: 'Running back early',
-    likelyNeed: 'RB',
-    snipeRisk: 'High',
-  },
-  {
-    name: 'Kentucky Dave',
-    tendency: 'Wide receiver heavy',
-    likelyNeed: 'WR',
-    snipeRisk: 'Medium',
-  },
-  {
-    name: 'Papi',
-    tendency: 'Targets elite tight ends',
-    likelyNeed: 'TE',
-    snipeRisk: 'High',
-  },
-  {
-    name: 'EL JEFE',
-    tendency: 'Quarterback aggressive',
-    likelyNeed: 'QB',
-    snipeRisk: 'Medium',
-  },
-]
+import { draftManagers } from '../data/managers'
 
-export default function Managers() {
+type ManagersProps = {
+  managerRosters: Record<string, string[]>
+}
+
+export default function Managers({
+  managerRosters,
+}: ManagersProps) {
   return (
     <section className="panel">
       <div className="panel-header">
@@ -36,22 +17,32 @@ export default function Managers() {
       </div>
 
       <div className="manager-list">
-        {managers.map((manager) => (
+        {draftManagers.map((manager) => (
           <article className="manager-card" key={manager.name}>
             <div>
               <strong>{manager.name}</strong>
               <span>{manager.tendency}</span>
+
+              <div className="manager-roster">
+                {(managerRosters[manager.name] ?? []).length === 0 ? (
+                  <small>No players drafted yet</small>
+                ) : (
+                  (managerRosters[manager.name] ?? []).map((playerName) => (
+                    <span key={playerName}>{playerName}</span>
+                  ))
+                )}
+              </div>
             </div>
 
             <div className="manager-meta">
               <div>
-                <small>Likely Need</small>
-                <strong>{manager.likelyNeed}</strong>
+                <small>Draft Slot</small>
+                <strong>#{manager.id}</strong>
               </div>
 
               <div>
-                <small>Snipe Risk</small>
-                <strong>{manager.snipeRisk}</strong>
+                <small>Tendency</small>
+                <strong>{manager.tendency}</strong>
               </div>
             </div>
           </article>
