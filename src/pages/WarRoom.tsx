@@ -3,6 +3,11 @@ import { draftManagers } from '../data/managers'
 
 type WarRoomProps = {
     currentPickIndex: number
+    draftHistory: {
+        player: string
+        manager: string
+        pick: number
+    }[]
 }
 
 function DecisionFactor({
@@ -36,6 +41,7 @@ function ChecklistItem({ text }: { text: string }) {
 
 export default function WarRoom({
     currentPickIndex,
+    draftHistory,
 }: WarRoomProps) {
     const recommendation = players.find(
         (player) => player.name === 'Josh Allen',
@@ -168,6 +174,31 @@ export default function WarRoom({
                     ))}
                 </div>
             </section>
+         <section className="panel">
+  <p className="eyebrow">Draft history</p>
+  <h3>Recent Picks</h3>
+
+  <div className="draft-history-list">
+    {draftHistory.length === 0 ? (
+      <p className="empty-state">
+        No picks have been made yet.
+      </p>
+    ) : (
+      draftHistory.map((pick) => (
+        <div className="draft-history-row" key={pick.pick}>
+          <span className="draft-history-pick">
+            {pick.pick}
+          </span>
+
+          <div>
+            <strong>{pick.player}</strong>
+            <small>{pick.manager}</small>
+          </div>
+        </div>
+      ))
+    )}
+  </div>
+</section>   
         </div>
     )
 }

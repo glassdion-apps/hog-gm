@@ -7,6 +7,7 @@ import WarRoom from './pages/WarRoom'
 import MyTeam from './pages/MyTeam'
 import Managers from './pages/Managers'
 import PlayerEncyclopedia from './pages/PlayerEncyclopedia'
+import { draftManagers } from './data/managers'
 
 type Page =
   | 'dashboard'
@@ -20,6 +21,9 @@ function App() {
   const [page, setPage] = useState<Page>('dashboard')
   const [selectedPlayerName, setSelectedPlayerName] = useState('')
   const [draftedPlayerNames, setDraftedPlayerNames] = useState<string[]>([])
+  const [draftHistory, setDraftHistory] = useState<
+    { player: string; manager: string; pick: number }[]
+  >([])
   const [currentPickIndex, setCurrentPickIndex] = useState(0)
 
   const pageTitles: Record<Page, string> = {
@@ -31,18 +35,30 @@ function App() {
     encyclopedia: 'Player Encyclopedia',
   }
 
-function draftPlayer(playerName: string) {
-  if (draftedPlayerNames.includes(playerName)) {
-    return
+  function draftPlayer(playerName: string) {
+    if (draftedPlayerNames.includes(playerName)) {
+      return
+    }
+
+    const currentManager =
+      draftManagers[currentPickIndex % draftManagers.length]
+
+    setDraftedPlayerNames((current) => [
+      ...current,
+      playerName,
+    ])
+
+    setDraftHistory((current) => [
+      ...current,
+      {
+        player: playerName,
+        manager: currentManager.name,
+        pick: currentPickIndex + 1,
+      },
+    ])
+
+    setCurrentPickIndex((current) => current + 1)
   }
-
-  setDraftedPlayerNames((current) => [
-    ...current,
-    playerName,
-  ])
-
-  setCurrentPickIndex((current) => current + 1)
-}
 
   function openPlayer(playerName: string) {
     setSelectedPlayerName(playerName)
@@ -85,7 +101,10 @@ function draftPlayer(playerName: string) {
         )}
 
         {page === 'warroom' && (
-          <WarRoom currentPickIndex={currentPickIndex} />
+          <WarRoom
+            currentPickIndex={currentPickIndex}
+            draftHistory={draftHistory}
+          />
         )}
         {page === 'team' && <MyTeam />}
         {page === 'managers' && <Managers />}
