@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import { players } from '../data/players'
 
+type MyTeamProps = {
+  draftedPlayerNames: string[]
+}
+
 type RosterSlot = {
   id: string
   label: string
@@ -37,10 +41,30 @@ function DecisionFactor({
   )
 }
 
-export default function MyTeam() {
+export default function MyTeam({
+  draftedPlayerNames,
+}: MyTeamProps) {
   const [roster, setRoster] = useState<Record<string, string>>({})
 
-  const selectedPlayers = Object.values(roster).filter(Boolean)
+  const myDraftedPlayers = players.filter((player) =>
+    draftedPlayerNames.includes(player.name),
+  )
+
+  const autoRoster = { ...roster }
+
+  for (const player of myDraftedPlayers) {
+    const openSlot = rosterSlots.find(
+      (slot) =>
+        slot.allowed.includes(player.position) &&
+        !autoRoster[slot.id],
+    )
+
+    if (openSlot) {
+      autoRoster[openSlot.id] = player.name
+    }
+  }
+
+  const selectedPlayers = Object.values(autoRoster).filter(Boolean)
 
   const rosterScore = selectedPlayers.reduce((total, playerName) => {
     const player = players.find((item) => item.name === playerName)
@@ -73,14 +97,40 @@ export default function MyTeam() {
 
   return (
     <div className="team-page">
+      <section className="panel">
+        <p className="eyebrow">Drafted by you</p>
+        <h3>Live Roster</h3>
+
+        {myDraftedPlayers.length === 0 ? (
+          <p>No players drafted yet.</p>
+        ) : (
+          <div className="player-list">
+            {myDraftedPlayers.map((player) => (
+              <div className="player-row" key={player.name}>
+                <div className="player-position">
+                  {player.position}
+                </div>
+
+                <div className="player-info">
+                  <strong>{player.name}</strong>
+                  <span>{player.tier}</span>
+                </div>
+
+                <strong>{player.score}</strong>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
+
       <section className="team-summary">
         <div>
           <p className="eyebrow light">Roster construction</p>
           <h2>My Championship Build</h2>
 
           <p>
-            Fill each starting slot to evaluate positional strength and
-            overall roster quality.
+            Drafted players automatically fill the best available starting
+            roster slot.
           </p>
         </div>
 
@@ -106,7 +156,7 @@ export default function MyTeam() {
                   slot.allowed.includes(player.position) &&
                   (
                     !selectedPlayers.includes(player.name) ||
-                    roster[slot.id] === player.name
+                    autoRoster[slot.id] === player.name
                   ),
               )
 
@@ -115,7 +165,7 @@ export default function MyTeam() {
                   <div className="slot-label">{slot.label}</div>
 
                   <select
-                    value={roster[slot.id] ?? ''}
+                    value={autoRoster[slot.id] ?? ''}
                     onChange={(event) =>
                       updateSlot(slot.id, event.target.value)
                     }
@@ -123,17 +173,20 @@ export default function MyTeam() {
                     <option value="">Open roster slot</option>
 
                     {availablePlayers.map((player) => (
-                      <option value={player.name} key={player.name}>
+                      <option
+                        value={player.name}
+                        key={player.name}
+                      >
                         {player.name} · {player.position}
                       </option>
                     ))}
                   </select>
 
                   <div className="slot-score">
-                    {roster[slot.id]
+                    {autoRoster[slot.id]
                       ? players.find(
                           (player) =>
-                            player.name === roster[slot.id],
+                            player.name === autoRoster[slot.id],
                         )?.score
                       : '—'}
                   </div>
@@ -182,7 +235,7 @@ export default function MyTeam() {
             className="clear-roster-button"
             onClick={() => setRoster({})}
           >
-            Clear Roster
+            Clear Manual Adjustments
           </button>
         </article>
       </section>

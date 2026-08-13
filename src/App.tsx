@@ -119,7 +119,11 @@ function App() {
             onDraftPlayer={draftPlayer}
           />
         )}
-        {page === 'team' && <MyTeam />}
+        {page === 'team' && (
+          <MyTeam
+            draftedPlayerNames={managerRosters['You'] ?? []}
+          />
+        )}
         {page === 'managers' && (
           <Managers managerRosters={managerRosters} />
         )}
