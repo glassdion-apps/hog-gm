@@ -8,6 +8,8 @@ type WarRoomProps = {
         manager: string
         pick: number
     }[]
+    draftedPlayerNames: string[]
+    onDraftPlayer: (playerName: string) => void
 }
 
 function DecisionFactor({
@@ -42,13 +44,17 @@ function ChecklistItem({ text }: { text: string }) {
 export default function WarRoom({
     currentPickIndex,
     draftHistory,
+    draftedPlayerNames,
+    onDraftPlayer,
 }: WarRoomProps) {
-    const recommendation = players.find(
-        (player) => player.name === 'Josh Allen',
+    const availablePlayers = players.filter(
+        (player) => !draftedPlayerNames.includes(player.name),
     )
 
-    const alternatives = players
-        .filter((player) => player.name !== 'Josh Allen')
+    const recommendation = availablePlayers[0]
+
+    const alternatives = availablePlayers
+        .filter((player) => player.name !== recommendation?.name)
         .slice(0, 4)
     const currentManager =
         draftManagers[currentPickIndex % draftManagers.length]
@@ -146,7 +152,10 @@ export default function WarRoom({
                     <ChecklistItem text="Roster construction approved" />
                 </div>
 
-                <button className="draft-button">
+                <button
+                    className="draft-button"
+                    onClick={() => recommendation && onDraftPlayer(recommendation.name)}
+                >
                     Draft {recommendation?.name}
                 </button>
             </section>
@@ -174,31 +183,31 @@ export default function WarRoom({
                     ))}
                 </div>
             </section>
-         <section className="panel">
-  <p className="eyebrow">Draft history</p>
-  <h3>Recent Picks</h3>
+            <section className="panel">
+                <p className="eyebrow">Draft history</p>
+                <h3>Recent Picks</h3>
 
-  <div className="draft-history-list">
-    {draftHistory.length === 0 ? (
-      <p className="empty-state">
-        No picks have been made yet.
-      </p>
-    ) : (
-      draftHistory.map((pick) => (
-        <div className="draft-history-row" key={pick.pick}>
-          <span className="draft-history-pick">
-            {pick.pick}
-          </span>
+                <div className="draft-history-list">
+                    {draftHistory.length === 0 ? (
+                        <p className="empty-state">
+                            No picks have been made yet.
+                        </p>
+                    ) : (
+                        draftHistory.map((pick) => (
+                            <div className="draft-history-row" key={pick.pick}>
+                                <span className="draft-history-pick">
+                                    {pick.pick}
+                                </span>
 
-          <div>
-            <strong>{pick.player}</strong>
-            <small>{pick.manager}</small>
-          </div>
-        </div>
-      ))
-    )}
-  </div>
-</section>   
+                                <div>
+                                    <strong>{pick.player}</strong>
+                                    <small>{pick.manager}</small>
+                                </div>
+                            </div>
+                        ))
+                    )}
+                </div>
+            </section>
         </div>
     )
 }

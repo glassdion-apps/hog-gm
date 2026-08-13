@@ -104,6 +104,8 @@ function App() {
           <WarRoom
             currentPickIndex={currentPickIndex}
             draftHistory={draftHistory}
+            draftedPlayerNames={draftedPlayerNames}
+            onDraftPlayer={draftPlayer}
           />
         )}
         {page === 'team' && <MyTeam />}
