@@ -10,6 +10,7 @@ type WarRoomProps = {
     }[]
     draftedPlayerNames: string[]
     onDraftPlayer: (playerName: string) => void
+    onSimulateNextPick: () => void
 }
 
 function DecisionFactor({
@@ -46,7 +47,9 @@ export default function WarRoom({
     draftHistory,
     draftedPlayerNames,
     onDraftPlayer,
+    onSimulateNextPick,
 }: WarRoomProps) {
+
     const availablePlayers = players.filter(
         (player) => !draftedPlayerNames.includes(player.name),
     )
@@ -158,6 +161,14 @@ export default function WarRoom({
                 >
                     Draft {recommendation?.name}
                 </button>
+               
+                <button
+                    className="draft-button"
+                    onClick={onSimulateNextPick}
+                >
+                    Sim Next Pick
+                </button>
+                
             </section>
             <section className="panel">
                 <p className="eyebrow">Draft order</p>

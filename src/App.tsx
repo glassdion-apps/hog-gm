@@ -8,6 +8,7 @@ import MyTeam from './pages/MyTeam'
 import Managers from './pages/Managers'
 import PlayerEncyclopedia from './pages/PlayerEncyclopedia'
 import { draftManagers } from './data/managers'
+import { getBestPlayerForManager } from './utils/draftAI'
 
 type Page =
   | 'dashboard'
@@ -70,7 +71,21 @@ function App() {
 
     setCurrentPickIndex((current) => current + 1)
   }
+  function simulateNextPick() {
+    const currentManager =
+      draftManagers[currentPickIndex % draftManagers.length]
 
+    const player = getBestPlayerForManager(
+      currentManager,
+      draftedPlayerNames,
+    )
+
+    if (!player) {
+      return
+    }
+
+    draftPlayer(player.name)
+  }
   function openPlayer(playerName: string) {
     setSelectedPlayerName(playerName)
     setPage('encyclopedia')
@@ -117,6 +132,7 @@ function App() {
             draftHistory={draftHistory}
             draftedPlayerNames={draftedPlayerNames}
             onDraftPlayer={draftPlayer}
+            onSimulateNextPick={simulateNextPick}
           />
         )}
         {page === 'team' && (
