@@ -1086,3 +1086,149 @@ nav button.active {
   background: #2563eb;
   color: white;
 }
+.decision-breakdown {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.decision-breakdown div {
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.decision-breakdown span,
+.decision-breakdown strong {
+  display: block;
+}
+
+.decision-breakdown span {
+  font-size: 11px;
+  color: #bfdbfe;
+}
+
+.decision-breakdown strong {
+  margin-top: 4px;
+  font-size: 18px;
+  color: white;
+}
+
+.decision-engine-panel {
+  margin-top: 16px;
+}
+
+.decision-engine-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.decision-engine-score {
+  min-width: 140px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #172033;
+  text-align: center;
+}
+
+.decision-engine-score span,
+.decision-engine-score strong {
+  display: block;
+}
+
+.decision-engine-score span {
+  color: #cbd5e1;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.decision-engine-score strong {
+  margin-top: 6px;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.decision-engine-panel .decision-breakdown {
+  margin-top: 0;
+}
+
+.decision-engine-panel .decision-breakdown div {
+  padding: 18px;
+  border: 1px solid #dce5ee;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.decision-engine-panel .decision-breakdown span {
+  display: block;
+  color: #4b5563;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.decision-engine-panel .decision-breakdown strong {
+  display: block;
+  margin-top: 8px;
+  color: #172033;
+  font-size: 28px;
+  font-weight: 700;
+}
+.war-actions {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.primary-action {
+  background: #16a34a;
+}
+
+.primary-action:hover {
+  background: #15803d;
+}
+
+.secondary-action {
+  width: auto;
+  min-width: 180px;
+  border: 1px solid #cbd7e3;
+  background: #f8fafc;
+  color: #172033;
+}
+
+.secondary-action:hover {
+  background: #eef4fb;
+}
+.checklist {
+  gap: 10px;
+}
+
+.checklist-item {
+  padding: 12px 14px;
+  background: white;
+}
+
+.checklist-item:hover {
+  border-color: #94a3b8;
+  background: #f8fafc;
+}
+.draft-order-list {
+  gap: 6px;
+}
+
+.draft-order-row {
+  padding: 9px 12px;
+}
+
+.draft-slot {
+  width: 32px;
+  height: 32px;
+  font-size: 13px;
+}

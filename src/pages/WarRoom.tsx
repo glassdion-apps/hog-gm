@@ -1,5 +1,10 @@
 import { players } from '../data/players'
 import { draftManagers } from '../data/managers'
+import { getBestAvailableValue } from '../utils/valueEngine'
+import { getPositionalScarcity } from '../utils/scarcity'
+import { getSurvivalChance } from '../utils/survival'
+import { getManagerSnipeRisk } from '../utils/snipeRisk'
+
 
 type WarRoomProps = {
     currentPickIndex: number
@@ -54,8 +59,42 @@ export default function WarRoom({
         (player) => !draftedPlayerNames.includes(player.name),
     )
 
-    const recommendation = availablePlayers[0]
+    const bestValue = getBestAvailableValue(
+        draftedPlayerNames,
+    )
 
+    const recommendation = bestValue?.player
+
+    const decisionScore = bestValue?.valueScore ?? 0
+
+    const baseScore = bestValue?.baseScore ?? 0
+
+    const adpBonus = bestValue?.adpBonus ?? 0
+
+    const riskBonus = bestValue?.riskBonus ?? 0
+
+    const hondaEdge = bestValue?.hondaEdge ?? 0
+
+    const positionalScarcity = recommendation
+        ? getPositionalScarcity(
+            draftedPlayerNames,
+            recommendation.position,
+        )
+        : 'Low'
+    const survivalChance = recommendation
+        ? getSurvivalChance(
+            currentPickIndex,
+            recommendation.publicAdp,
+        )
+        : 0
+
+    const managerSnipeRisk = recommendation
+        ? getManagerSnipeRisk(
+            currentPickIndex,
+            recommendation.position,
+            draftManagers,
+        )
+        : 'Low'
     const alternatives = availablePlayers
         .filter((player) => player.name !== recommendation?.name)
         .slice(0, 4)
@@ -85,8 +124,50 @@ export default function WarRoom({
 
                 <div className="war-command">
                     <span>Draft Command</span>
+
                     <strong>{recommendation?.action}</strong>
-                    <small>96% confidence</small>
+
+                    <small>Decision Score: {decisionScore.toFixed(1)}</small>
+                </div>
+
+            </section>
+
+            <section className="panel decision-engine-panel">
+                <div className="decision-engine-header">
+                    <div>
+                        <p className="eyebrow">Honda Intelligence</p>
+                        <h3>Decision Engine</h3>
+                    </div>
+
+                    <div className="decision-engine-score">
+                        <span>Overall Score</span>
+                        <strong>{decisionScore.toFixed(1)}</strong>
+                    </div>
+                </div>
+
+                <div className="decision-breakdown">
+                    <div>
+                        <span>HOG Score</span>
+                        <strong>{baseScore.toFixed(1)}</strong>
+                    </div>
+
+                    <div>
+                        <span>Honda Edge</span>
+                        <strong>
+                            {hondaEdge >= 0 ? '+' : ''}
+                            {hondaEdge.toFixed(1)}
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>ADP Bonus</span>
+                        <strong>+{adpBonus.toFixed(1)}</strong>
+                    </div>
+
+                    <div>
+                        <span>Risk Bonus</span>
+                        <strong>+{riskBonus.toFixed(1)}</strong>
+                    </div>
                 </div>
             </section>
 
@@ -104,18 +185,22 @@ export default function WarRoom({
 
                         <DecisionFactor
                             label="Positional scarcity"
-                            value="High"
-                            positive
+                            value={positionalScarcity}
+                            positive={
+                                positionalScarcity === 'High' ||
+                                positionalScarcity === 'Very High' ||
+                                positionalScarcity === 'Critical'
+                            }
                         />
 
                         <DecisionFactor
                             label="Survival to next pick"
-                            value="13%"
+                            value={`${survivalChance}%`}
                         />
 
                         <DecisionFactor
                             label="Manager snipe risk"
-                            value="Very High"
+                            value={managerSnipeRisk}
                         />
                     </div>
                 </article>
@@ -155,20 +240,22 @@ export default function WarRoom({
                     <ChecklistItem text="Roster construction approved" />
                 </div>
 
-                <button
-                    className="draft-button"
-                    onClick={() => recommendation && onDraftPlayer(recommendation.name)}
-                >
-                    Draft {recommendation?.name}
-                </button>
-               
-                <button
-                    className="draft-button"
-                    onClick={onSimulateNextPick}
-                >
-                    Sim Next Pick
-                </button>
-                
+                <div className="war-actions">
+                    <button
+                        className="draft-button primary-action"
+                        onClick={() => recommendation && onDraftPlayer(recommendation.name)}
+                    >
+                        Draft {recommendation?.name}
+                    </button>
+
+                    <button
+                        className="draft-button secondary-action"
+                        onClick={onSimulateNextPick}
+                    >
+                        Sim Next Pick
+                    </button>
+                </div>
+
             </section>
             <section className="panel">
                 <p className="eyebrow">Draft order</p>
