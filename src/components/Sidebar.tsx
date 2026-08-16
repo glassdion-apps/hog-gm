@@ -4,6 +4,7 @@ type SidebarProps = {
 }
 
 const links = [
+  ['hub', 'Draft Hub'],
   ['dashboard', 'Dashboard'],
   ['board', 'Big Board'],
   ['warroom', 'War Room'],

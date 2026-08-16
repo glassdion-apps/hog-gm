@@ -1,5 +1,6 @@
 import type { DraftManager } from '../types/draft'
 
+
 export const draftManagers: DraftManager[] = [
   {
     id: 1,

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Sidebar from './components/Sidebar'
 import Dashboard from './pages/Dashboard'
@@ -9,8 +9,25 @@ import Managers from './pages/Managers'
 import PlayerEncyclopedia from './pages/PlayerEncyclopedia'
 import { draftManagers } from './data/managers'
 import { getBestPlayerForManager } from './utils/draftAI'
+import DraftHub from './pages/DraftHub'
+
+import {
+  getActiveDraft,
+  getActiveDraftId,
+  listDrafts,
+  saveDraft,
+  createDraft,
+  loadDraft,
+  setActiveDraft,
+} from './utils/draftSessionManager'
+
+import type {
+  DraftSession,
+  DraftSessionIndex,
+} from './utils/draftSessionManager'
 
 type Page =
+  | 'hub'
   | 'dashboard'
   | 'board'
   | 'warroom'
@@ -19,24 +36,93 @@ type Page =
   | 'encyclopedia'
 
 function App() {
-  const [page, setPage] = useState<Page>('dashboard')
+  const savedDraft = getActiveDraft()
+  const savedDraftIndex = listDrafts()
+
+  const [page, setPage] = useState<Page>('hub')
   const [selectedPlayerName, setSelectedPlayerName] = useState('')
-  const [draftedPlayerNames, setDraftedPlayerNames] = useState<string[]>([])
+
+  const [draftedPlayerNames, setDraftedPlayerNames] = useState<string[]>(
+    savedDraft?.draftedPlayerNames ?? [],
+  )
+  const [draftSessions, setDraftSessions] = useState<DraftSessionIndex[]>(
+    savedDraftIndex,
+  )
+
+  const [activeDraftId, setActiveDraftId] = useState<string | null>(
+    getActiveDraftId(),
+  )
   const [draftHistory, setDraftHistory] = useState<
     { player: string; manager: string; pick: number }[]
-  >([])
+  >(
+    savedDraft?.draftHistory ?? [],
+  )
+
   const [managerRosters, setManagerRosters] = useState<
     Record<string, string[]>
-  >({})
-  const [currentPickIndex, setCurrentPickIndex] = useState(0)
+  >(
+    savedDraft?.managerRosters ?? {},
+  )
+
+  const [currentPickIndex, setCurrentPickIndex] = useState(
+    savedDraft?.currentPickIndex ?? 0,
+  )
+  useEffect(() => {
+    if (!activeDraftId) {
+      return
+    }
+
+    const currentSession = getActiveDraft()
+
+    const session: DraftSession = {
+      id: activeDraftId,
+      name: currentSession?.name ?? 'Untitled Draft',
+      updatedAt: new Date().toISOString(),
+      currentPickIndex,
+      draftHistory,
+      draftedPlayerNames,
+      managerRosters,
+    }
+
+    saveDraft(session)
+
+    setDraftSessions(listDrafts())
+  }, [
+    activeDraftId,
+    currentPickIndex,
+    draftHistory,
+    draftedPlayerNames,
+    managerRosters,
+  ])
 
   const pageTitles: Record<Page, string> = {
+    hub: 'Draft Hub',
     dashboard: 'Dashboard',
     board: 'Big Board',
     warroom: 'War Room',
     team: 'My Team',
     managers: 'Managers',
     encyclopedia: 'Player Encyclopedia',
+  }
+  
+  function startNewDraft() {
+    const draftNumber = draftSessions.length + 1
+
+    const newSession = createDraft(
+      `Mock Draft #${draftNumber}`,
+    )
+
+    setActiveDraftId(newSession.id)
+    setActiveDraft(newSession.id)
+
+    setDraftedPlayerNames([])
+    setDraftHistory([])
+    setManagerRosters({})
+    setCurrentPickIndex(0)
+
+    setDraftSessions(listDrafts())
+
+    setPage('warroom')
   }
 
   function draftPlayer(playerName: string) {
@@ -90,7 +176,23 @@ function App() {
     setSelectedPlayerName(playerName)
     setPage('encyclopedia')
   }
+  function openDraft(id: string) {
+    const session = loadDraft(id)
 
+    if (!session) {
+      return
+    }
+
+    setActiveDraftId(id)
+    setActiveDraft(id)
+
+    setDraftedPlayerNames(session.draftedPlayerNames)
+    setDraftHistory(session.draftHistory)
+    setManagerRosters(session.managerRosters)
+    setCurrentPickIndex(session.currentPickIndex)
+
+    setPage('warroom')
+  }
   return (
     <div className="app">
       <Sidebar
@@ -110,6 +212,14 @@ function App() {
             Honda on Grand
           </div>
         </header>
+        {page === 'hub' && (
+          <DraftHub
+            draftSessions={draftSessions}
+            activeDraftId={activeDraftId}
+            onOpenDraft={openDraft}
+            onNewDraft={startNewDraft}
+          />
+        )}
 
         {page === 'dashboard' && (
           <Dashboard
@@ -133,6 +243,7 @@ function App() {
             draftedPlayerNames={draftedPlayerNames}
             onDraftPlayer={draftPlayer}
             onSimulateNextPick={simulateNextPick}
+            managerRosters={managerRosters}
           />
         )}
         {page === 'team' && (
