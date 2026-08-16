@@ -17,8 +17,10 @@ import {
   listDrafts,
   saveDraft,
   createDraft,
-  loadDraft,
   setActiveDraft,
+  loadDraft,
+  deleteDraft,
+  renameDraft,
 } from './utils/draftSessionManager'
 
 import type {
@@ -104,12 +106,75 @@ function App() {
     managers: 'Managers',
     encyclopedia: 'Player Encyclopedia',
   }
-  
+
+  function removeDraft(id: string) {
+    const draft = draftSessions.find(
+      (item) => item.id === id,
+    )
+
+    if (!draft) {
+      return
+    }
+
+    const confirmed = window.confirm(
+      `Delete "${draft.name}"? This cannot be undone.`,
+    )
+
+    if (!confirmed) {
+      return
+    }
+
+    deleteDraft(id)
+
+    const remainingDrafts = listDrafts()
+    setDraftSessions(remainingDrafts)
+
+    if (activeDraftId === id) {
+      setActiveDraftId(null)
+
+      setDraftedPlayerNames([])
+      setDraftHistory([])
+      setManagerRosters({})
+      setCurrentPickIndex(0)
+    }
+  }
+
+  function renameSavedDraft(id: string) {
+    const draft = draftSessions.find(
+      (item) => item.id === id,
+    )
+
+    if (!draft) {
+      return
+    }
+
+    const newName = window.prompt(
+      'Rename draft',
+      draft.name,
+    )
+
+    if (!newName || newName.trim() === '') {
+      return
+    }
+
+    renameDraft(id, newName.trim())
+    setDraftSessions(listDrafts())
+  }
+
   function startNewDraft() {
-    const draftNumber = draftSessions.length + 1
+    const defaultName = `Mock Draft #${draftSessions.length + 1}`
+
+    const draftName = window.prompt(
+      'Name this draft',
+      defaultName,
+    )
+
+    if (!draftName || draftName.trim() === '') {
+      return
+    }
 
     const newSession = createDraft(
-      `Mock Draft #${draftNumber}`,
+      draftName.trim(),
     )
 
     setActiveDraftId(newSession.id)
@@ -218,6 +283,8 @@ function App() {
             activeDraftId={activeDraftId}
             onOpenDraft={openDraft}
             onNewDraft={startNewDraft}
+            onDeleteDraft={removeDraft}
+            onRenameDraft={renameSavedDraft}
           />
         )}
 

@@ -1,29 +1,29 @@
 export type DraftSession = {
-  id: string
-  name: string
-  updatedAt: string
-  currentPickIndex: number
-  draftHistory: {
-    player: string
-    manager: string
-    pick: number
-  }[]
-  draftedPlayerNames: string[]
-  managerRosters: Record<string, string[]>
+    id: string
+    name: string
+    updatedAt: string
+    currentPickIndex: number
+    draftHistory: {
+        player: string
+        manager: string
+        pick: number
+    }[]
+    draftedPlayerNames: string[]
+    managerRosters: Record<string, string[]>
 }
 
 export type DraftSessionIndex = {
-  id: string
-  name: string
-  updatedAt: string
-  currentPickIndex: number
+    id: string
+    name: string
+    updatedAt: string
+    currentPickIndex: number
 }
 
 const DRAFT_INDEX_KEY = 'hog-gm-drafts'
 const ACTIVE_DRAFT_KEY = 'hog-gm-active-draft-id'
 
 function getDraftKey(id: string) {
-  return `hog-gm-draft-${id}`
+    return `hog-gm-draft-${id}`
 }
 
 export function listDrafts(): DraftSessionIndex[] {
@@ -34,132 +34,138 @@ export function listDrafts(): DraftSessionIndex[] {
   }
 
   try {
-    return JSON.parse(saved) as DraftSessionIndex[]
+    const drafts = JSON.parse(saved) as DraftSessionIndex[]
+
+    return drafts.sort(
+      (a, b) =>
+        new Date(b.updatedAt).getTime() -
+        new Date(a.updatedAt).getTime(),
+    )
   } catch {
     return []
   }
 }
 
 export function loadDraft(id: string): DraftSession | null {
-  const saved = localStorage.getItem(getDraftKey(id))
+    const saved = localStorage.getItem(getDraftKey(id))
 
-  if (!saved) {
-    return null
-  }
+    if (!saved) {
+        return null
+    }
 
-  try {
-    return JSON.parse(saved) as DraftSession
-  } catch {
-    return null
-  }
+    try {
+        return JSON.parse(saved) as DraftSession
+    } catch {
+        return null
+    }
 }
 
 export function getActiveDraftId(): string | null {
-  return localStorage.getItem(ACTIVE_DRAFT_KEY)
+    return localStorage.getItem(ACTIVE_DRAFT_KEY)
 }
 
 export function getActiveDraft(): DraftSession | null {
-  const activeId = getActiveDraftId()
+    const activeId = getActiveDraftId()
 
-  if (!activeId) {
-    return null
-  }
+    if (!activeId) {
+        return null
+    }
 
-  return loadDraft(activeId)
+    return loadDraft(activeId)
 }
 
 export function setActiveDraft(id: string) {
-  localStorage.setItem(ACTIVE_DRAFT_KEY, id)
+    localStorage.setItem(ACTIVE_DRAFT_KEY, id)
 }
 
 export function saveDraft(session: DraftSession) {
-  const updatedSession: DraftSession = {
-    ...session,
-    updatedAt: new Date().toISOString(),
-  }
+    const updatedSession: DraftSession = {
+        ...session,
+        updatedAt: new Date().toISOString(),
+    }
 
-  localStorage.setItem(
-    getDraftKey(session.id),
-    JSON.stringify(updatedSession),
-  )
+    localStorage.setItem(
+        getDraftKey(session.id),
+        JSON.stringify(updatedSession),
+    )
 
-  const currentIndex = listDrafts()
+    const currentIndex = listDrafts()
 
-  const indexEntry: DraftSessionIndex = {
-    id: updatedSession.id,
-    name: updatedSession.name,
-    updatedAt: updatedSession.updatedAt,
-    currentPickIndex: updatedSession.currentPickIndex,
-  }
+    const indexEntry: DraftSessionIndex = {
+        id: updatedSession.id,
+        name: updatedSession.name,
+        updatedAt: updatedSession.updatedAt,
+        currentPickIndex: updatedSession.currentPickIndex,
+    }
 
-  const existingIndex = currentIndex.findIndex(
-    (draft) => draft.id === updatedSession.id,
-  )
+    const existingIndex = currentIndex.findIndex(
+        (draft) => draft.id === updatedSession.id,
+    )
 
-  if (existingIndex >= 0) {
-    currentIndex[existingIndex] = indexEntry
-  } else {
-    currentIndex.push(indexEntry)
-  }
+    if (existingIndex >= 0) {
+        currentIndex[existingIndex] = indexEntry
+    } else {
+        currentIndex.push(indexEntry)
+    }
 
-  localStorage.setItem(
-    DRAFT_INDEX_KEY,
-    JSON.stringify(currentIndex),
-  )
+    localStorage.setItem(
+        DRAFT_INDEX_KEY,
+        JSON.stringify(currentIndex),
+    )
 }
 
 export function createDraft(name: string): DraftSession {
-  const id = crypto.randomUUID()
+    const id = crypto.randomUUID()
 
-  const session: DraftSession = {
-    id,
-    name,
-    updatedAt: new Date().toISOString(),
-    currentPickIndex: 0,
-    draftHistory: [],
-    draftedPlayerNames: [],
-    managerRosters: {},
-  }
+    const session: DraftSession = {
+        id,
+        name,
+        updatedAt: new Date().toISOString(),
+        currentPickIndex: 0,
+        draftHistory: [],
+        draftedPlayerNames: [],
+        managerRosters: {},
+    }
 
-  saveDraft(session)
-  setActiveDraft(id)
+    saveDraft(session)
+    setActiveDraft(id)
 
-  return session
+    return session
 }
 
 export function deleteDraft(id: string) {
-  localStorage.removeItem(getDraftKey(id))
+    localStorage.removeItem(getDraftKey(id))
 
-  const updatedIndex = listDrafts().filter(
-    (draft) => draft.id !== id,
-  )
+    const updatedIndex = listDrafts().filter(
+        (draft) => draft.id !== id,
+    )
 
-  localStorage.setItem(
-    DRAFT_INDEX_KEY,
-    JSON.stringify(updatedIndex),
-  )
+    localStorage.setItem(
+        DRAFT_INDEX_KEY,
+        JSON.stringify(updatedIndex),
+    )
 
-  if (getActiveDraftId() === id) {
-    localStorage.removeItem(ACTIVE_DRAFT_KEY)
-  }
+    if (getActiveDraftId() === id) {
+        localStorage.removeItem(ACTIVE_DRAFT_KEY)
+    }
 }
 
 export function renameDraft(
-  id: string,
-  newName: string,
+    id: string,
+    newName: string,
 ): DraftSession | null {
-  const session = loadDraft(id)
+    const session = loadDraft(id)
 
-  if (!session) {
-    return null
-  }
+    if (!session) {
+        return null
+    }
 
-  const renamedSession: DraftSession = {
-    ...session,
-    name: newName,
-  }
+    const renamedSession: DraftSession = {
+        ...session,
+        name: newName,
+    }
 
-  saveDraft(renamedSession)
+    saveDraft(renamedSession)
 
-  return renamedSession
+    return renamedSession
 }

@@ -1871,3 +1871,8 @@ nav button.active {
   border-color: #2563eb;
   background: #eff6ff;
 }
+.draft-session-row small + small {
+  margin-top: 2px;
+  color: #94a3b8;
+  font-size: 11px;
+}
