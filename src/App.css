@@ -1876,3 +1876,81 @@ nav button.active {
   color: #94a3b8;
   font-size: 11px;
 }
+.draft-story-list {
+  display: grid;
+  gap: 10px;
+}
+
+.draft-story-event {
+  padding: 12px 14px;
+  border-left: 4px solid #94a3b8;
+  border-radius: 9px;
+  background: #f8fafc;
+}
+
+.draft-story-event strong {
+  display: block;
+  color: #172033;
+}
+
+.draft-story-event p {
+  margin: 4px 0 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.story-value {
+  border-left-color: #16a34a;
+}
+
+.story-reach {
+  border-left-color: #dc2626;
+}
+
+.story-run {
+  border-left-color: #d97706;
+}
+.honda-confidence {
+  margin-top: 10px;
+}
+
+.honda-confidence span,
+.honda-confidence strong,
+.honda-confidence small {
+  display: block;
+}
+
+.honda-confidence span {
+  color: #bfdbfe;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.honda-confidence strong {
+  margin-top: 3px;
+  color: white;
+  font-size: 28px;
+}
+
+.honda-confidence small {
+  margin-top: 2px;
+  color: #dbeafe;
+  font-size: 11px;
+}
+.honda-confidence-bar {
+  width: 100%;
+  height: 6px;
+  margin-top: 7px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.honda-confidence-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: white;
+  transition: width 0.2s ease;
+}

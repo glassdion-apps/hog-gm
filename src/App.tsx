@@ -10,6 +10,8 @@ import PlayerEncyclopedia from './pages/PlayerEncyclopedia'
 import { draftManagers } from './data/managers'
 import { getBestPlayerForManager } from './utils/draftAI'
 import DraftHub from './pages/DraftHub'
+import type { DraftStoryEvent } from './utils/draftStory'
+import { getNewDraftStoryEvents } from './utils/draftStoryEngine'
 
 import {
   getActiveDraft,
@@ -50,7 +52,9 @@ function App() {
   const [draftSessions, setDraftSessions] = useState<DraftSessionIndex[]>(
     savedDraftIndex,
   )
-
+  const [draftStory, setDraftStory] = useState<DraftStoryEvent[]>(
+    savedDraft?.draftStory ?? [],
+  )
   const [activeDraftId, setActiveDraftId] = useState<string | null>(
     getActiveDraftId(),
   )
@@ -59,7 +63,25 @@ function App() {
   >(
     savedDraft?.draftHistory ?? [],
   )
+  useEffect(() => {
+    if (draftHistory.length === 0) {
+      return
+    }
 
+    const newEvents = getNewDraftStoryEvents(
+      draftHistory,
+      draftStory,
+    )
+
+    if (newEvents.length === 0) {
+      return
+    }
+
+    setDraftStory((current) => [
+      ...current,
+      ...newEvents,
+    ])
+  }, [draftHistory, draftStory])
   const [managerRosters, setManagerRosters] = useState<
     Record<string, string[]>
   >(
@@ -84,6 +106,7 @@ function App() {
       draftHistory,
       draftedPlayerNames,
       managerRosters,
+      draftStory,
     }
 
     saveDraft(session)
@@ -95,6 +118,7 @@ function App() {
     draftHistory,
     draftedPlayerNames,
     managerRosters,
+    draftStory,
   ])
 
   const pageTitles: Record<Page, string> = {
@@ -136,6 +160,7 @@ function App() {
       setDraftHistory([])
       setManagerRosters({})
       setCurrentPickIndex(0)
+      setDraftStory([])
     }
   }
 
@@ -184,7 +209,7 @@ function App() {
     setDraftHistory([])
     setManagerRosters({})
     setCurrentPickIndex(0)
-
+    setDraftStory([])
     setDraftSessions(listDrafts())
 
     setPage('warroom')
@@ -255,7 +280,7 @@ function App() {
     setDraftHistory(session.draftHistory)
     setManagerRosters(session.managerRosters)
     setCurrentPickIndex(session.currentPickIndex)
-
+    setDraftStory(session.draftStory ?? [])
     setPage('warroom')
   }
   return (
@@ -285,6 +310,7 @@ function App() {
             onNewDraft={startNewDraft}
             onDeleteDraft={removeDraft}
             onRenameDraft={renameSavedDraft}
+
           />
         )}
 
@@ -311,6 +337,7 @@ function App() {
             onDraftPlayer={draftPlayer}
             onSimulateNextPick={simulateNextPick}
             managerRosters={managerRosters}
+            draftStory={draftStory}
           />
         )}
         {page === 'team' && (

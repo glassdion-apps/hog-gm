@@ -1,15 +1,22 @@
+import type { DraftStoryEvent } from './draftStory'
+
 export type DraftSession = {
     id: string
     name: string
     updatedAt: string
     currentPickIndex: number
+
     draftHistory: {
         player: string
         manager: string
         pick: number
     }[]
+
     draftedPlayerNames: string[]
+
     managerRosters: Record<string, string[]>
+
+    draftStory: DraftStoryEvent[]
 }
 
 export type DraftSessionIndex = {
@@ -27,23 +34,23 @@ function getDraftKey(id: string) {
 }
 
 export function listDrafts(): DraftSessionIndex[] {
-  const saved = localStorage.getItem(DRAFT_INDEX_KEY)
+    const saved = localStorage.getItem(DRAFT_INDEX_KEY)
 
-  if (!saved) {
-    return []
-  }
+    if (!saved) {
+        return []
+    }
 
-  try {
-    const drafts = JSON.parse(saved) as DraftSessionIndex[]
+    try {
+        const drafts = JSON.parse(saved) as DraftSessionIndex[]
 
-    return drafts.sort(
-      (a, b) =>
-        new Date(b.updatedAt).getTime() -
-        new Date(a.updatedAt).getTime(),
-    )
-  } catch {
-    return []
-  }
+        return drafts.sort(
+            (a, b) =>
+                new Date(b.updatedAt).getTime() -
+                new Date(a.updatedAt).getTime(),
+        )
+    } catch {
+        return []
+    }
 }
 
 export function loadDraft(id: string): DraftSession | null {
@@ -125,6 +132,7 @@ export function createDraft(name: string): DraftSession {
         draftHistory: [],
         draftedPlayerNames: [],
         managerRosters: {},
+        draftStory: [],
     }
 
     saveDraft(session)

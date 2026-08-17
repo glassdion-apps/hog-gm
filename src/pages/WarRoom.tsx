@@ -7,7 +7,8 @@ import { getManagerNeeds } from '../utils/managerNeeds'
 import { getManagerPrediction } from '../utils/managerPrediction'
 import { getLiveDraftIntel } from '../utils/liveDraftIntel'
 import { getHondaExplanation } from '../utils/hondaExplanation'
-
+import type { DraftStoryEvent } from '../utils/draftStory'
+import { getHondaConfidence } from '../utils/hondaConfidence'
 
 type WarRoomProps = {
     currentPickIndex: number
@@ -20,6 +21,7 @@ type WarRoomProps = {
     onDraftPlayer: (playerName: string) => void
     onSimulateNextPick: () => void
     managerRosters: Record<string, string[]>
+    draftStory: DraftStoryEvent[]
 }
 
 function DecisionFactor({
@@ -58,6 +60,7 @@ export default function WarRoom({
     onDraftPlayer,
     onSimulateNextPick,
     managerRosters,
+    draftStory,
 }: WarRoomProps) {
 
     const availablePlayers = players.filter(
@@ -143,6 +146,13 @@ export default function WarRoom({
         recommendedPlayer: recommendation?.name ?? 'Recommended player',
         liveThreats: liveDraftIntel,
     })
+    const hondaConfidence = getHondaConfidence({
+        hondaEdge,
+        rosterFit,
+        survivalChance,
+        managerSnipeRisk,
+        positionalScarcity,
+    })
     return (
 
 
@@ -173,9 +183,23 @@ export default function WarRoom({
                             : recommendation?.action}
                     </strong>
 
-                    <small>
-                        Decision Score: {decisionScore.toFixed(1)}
-                    </small>
+                    <div className="honda-confidence">
+                        <span>Honda Confidence</span>
+
+                        <strong>
+                            {hondaConfidence.score}%
+                        </strong>
+                        <div className="honda-confidence-bar">
+                            <div
+                                className="honda-confidence-fill"
+                                style={{ width: `${hondaConfidence.score}%` }}
+                            />
+                        </div>
+                        
+                        <small>
+                            {hondaConfidence.label}
+                        </small>
+                    </div>
 
                     <p className="war-command-reason">
                         {hondaExplanation.bullets[0] ??
@@ -512,7 +536,31 @@ export default function WarRoom({
                     </div>
                 </section>
             </div>
+            <section className="panel">
+                <p className="eyebrow">Honda Draft Story</p>
+                <h3>Live Draft Narrative</h3>
 
+                {draftStory.length === 0 ? (
+                    <p className="empty-state">
+                        No major draft events yet.
+                    </p>
+                ) : (
+                    <div className="draft-story-list">
+                        {draftStory
+                            .slice(-5)
+                            .reverse()
+                            .map((event, index) => (
+                                <div
+                                    className={`draft-story-event story-${event.type}`}
+                                    key={`${event.title}-${index}`}
+                                >
+                                    <strong>{event.title}</strong>
+                                    <p>{event.description}</p>
+                                </div>
+                            ))}
+                    </div>
+                )}
+            </section>
             <section className="panel war-review-panel">
                 <div className="war-review-header">
                     <div>
