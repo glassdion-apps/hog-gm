@@ -2975,6 +2975,13 @@ function main() {
       }
     >()
 
+  const liveRosterCounts = {
+    QB: 0,
+    RB: 0,
+    WR: 0,
+    TE: 0,
+  }
+
   for (
     const turn of
     projectedHondaDraftPath
@@ -3253,15 +3260,21 @@ function main() {
           pick.draftSlot,
         )
 
-      const projectedRoster =
-        projectedRosterBySlot.get(
-          pick.draftSlot,
-        ) ?? {
-          QB: 0,
-          RB: 0,
-          WR: 0,
-          TE: 0,
-        }
+      const useLiveRoster = false
+
+      const recommendationRoster =
+        useLiveRoster
+          ? liveRosterCounts
+          : (
+            projectedRosterBySlot.get(
+              pick.draftSlot,
+            ) ?? {
+              QB: 0,
+              RB: 0,
+              WR: 0,
+              TE: 0,
+            }
+          )
 
 
       if (!slotRisk) {
@@ -3311,7 +3324,7 @@ function main() {
                 position
                   ? getPositionNeedScore(
                     position,
-                    projectedRoster,
+                    recommendationRoster,
                     Math.floor(
                       (
                         pick.round + 1

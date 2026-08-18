@@ -68,9 +68,38 @@ export default function WarRoom({
         (player) => !draftedPlayerNames.includes(player.name),
     )
 
+    const myRosterNames =
+        managerRosters['You'] ?? []
+
+    const liveRosterCounts = {
+        QB: 0,
+        RB: 0,
+        WR: 0,
+        TE: 0,
+    }
+
+    for (const playerName of myRosterNames) {
+        const player = players.find(
+            (item) => item.name === playerName,
+        )
+
+        if (
+            player?.position === 'QB' ||
+            player?.position === 'RB' ||
+            player?.position === 'WR' ||
+            player?.position === 'TE'
+        ) {
+            liveRosterCounts[player.position] += 1
+        }
+
+
+    }
+
+
     const decision = getHondaDecision(
         draftedPlayerNames,
         currentPickIndex,
+        liveRosterCounts,
     )
 
     const recommendation = decision?.player
@@ -80,7 +109,11 @@ export default function WarRoom({
     const adpBonus = decision?.adpBonus ?? 0
     const riskBonus = decision?.riskBonus ?? 0
     const hondaEdge = decision?.hondaEdge ?? 0
-    const liveRankings = getHondaRankings(draftedPlayerNames).slice(0, 5)
+    const liveRankings =
+        getHondaRankings(
+            draftedPlayerNames,
+            liveRosterCounts,
+        ).slice(0, 5)
 
     const positionalScarcity =
         decision?.positionalScarcity ?? 'Low'
@@ -98,6 +131,9 @@ export default function WarRoom({
         draftManagers[currentPickIndex % draftManagers.length]
 
     const rosterFit = decision?.rosterFit ?? 0
+
+    const liveRosterNeed =
+        decision?.liveRosterNeed ?? 0
 
     const roundNumber =
         Math.floor(currentPickIndex / draftManagers.length) + 1
@@ -270,7 +306,7 @@ export default function WarRoom({
                                 {hondaForecast.adviceReason}
                             </p>
 
-                            
+
                             <div className="forecast-comparison">
 
                                 <div className="forecast-side">
@@ -385,6 +421,15 @@ export default function WarRoom({
                                 {rosterFit.toFixed(1)}
                             </strong>
                         </div>
+
+                        <div>
+                            <span>Live Roster Need</span>
+                            <strong>
+                                {liveRosterNeed >= 0 ? '+' : ''}
+                                {liveRosterNeed.toFixed(1)}
+                            </strong>
+                        </div>
+
                     </div>
                 </section>
 

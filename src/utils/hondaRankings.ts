@@ -1,9 +1,18 @@
 import { players } from '../data/players'
 import { getRosterFitScore } from './rosterFit'
 
+import {
+  getLiveRosterNeedScore,
+  type LiveRosterCounts,
+} from './liveRosterNeed'
+
+
 export function getHondaRankings(
   draftedPlayerNames: string[],
+  liveRosterCounts?: LiveRosterCounts,
 ) {
+
+  
   const availablePlayers = players.filter(
     (player) => !draftedPlayerNames.includes(player.name),
   )
@@ -13,6 +22,21 @@ export function getHondaRankings(
       draftedPlayerNames,
       player.position,
     )
+
+    const position =
+      player.position as
+      | 'QB'
+      | 'RB'
+      | 'WR'
+      | 'TE'
+
+    const liveRosterNeed =
+      liveRosterCounts
+        ? getLiveRosterNeedScore(
+          position,
+          liveRosterCounts,
+        )
+        : 0
 
     const publicAdpNumber = Number(
       player.publicAdp.replace(/[^\d.]/g, ''),
@@ -26,7 +50,8 @@ export function getHondaRankings(
     const score =
       player.score +
       rosterFit +
-      hondaEdge
+      hondaEdge +
+      liveRosterNeed
 
     return {
       player,
