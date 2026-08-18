@@ -2283,855 +2283,665 @@ function main() {
       Map<string, number>
     >
 
+  type WaitRiskTracker = Map<
+    string,
+    Map<
+      string,
+      {
+        available: number
+        survived: number
+      }
+    >
+  >
 
-function simulateHondaDraftPath(
-  startingPlayers: typeof availableHondaDraftBoard,
-  simulationSeed = 1,
-  availabilityTracker?: AvailabilityTracker,
-) {
-  let availablePlayers =
-    [...startingPlayers]
 
-  const rosterCounts = {
-    QB: 0,
-    RB: 0,
-    WR: 0,
-    TE: 0,
-  }
-
-  const draftPath = []
-
-  for (
-    let firstPickIndex = 0;
-    firstPickIndex < 14;
-    firstPickIndex += 2
+  function simulateHondaDraftPath(
+    startingPlayers: typeof availableHondaDraftBoard,
+    simulationSeed = 1,
+    availabilityTracker?: AvailabilityTracker,
+    waitRiskTracker?: WaitRiskTracker,
   ) {
-    const firstPick =
-      myDraftPlanWithLiveGaps[
-        firstPickIndex
-      ]
 
-    const secondPick =
-      myDraftPlanWithLiveGaps[
-        firstPickIndex + 1
-      ]
+    let availablePlayers =
+      [...startingPlayers]
 
-    if (!firstPick || !secondPick) {
-      break
+    const rosterCounts = {
+      QB: 0,
+      RB: 0,
+      WR: 0,
+      TE: 0,
     }
 
-    /*
-     * Availability at the first pick
-     * of this turn.
-     */
-    if (availabilityTracker) {
-      if (
-        !availabilityTracker.has(
-          firstPick.draftSlot,
-        )
-      ) {
-        availabilityTracker.set(
-          firstPick.draftSlot,
-          new Map<string, number>(),
-        )
-      }
+    const draftPath = []
 
-      const firstSlotTracker =
-        availabilityTracker.get(
-          firstPick.draftSlot,
-        )
-
-      if (firstSlotTracker) {
-        for (
-          const player of
-          availablePlayers
-        ) {
-          firstSlotTracker.set(
-            player.name,
-            (
-              firstSlotTracker.get(
-                player.name,
-              ) ?? 0
-            ) + 1,
-          )
-        }
-      }
-    }
-
-    /*
-     * Evaluate the turn.
-     */
-    const evaluation =
-      evaluateTurnPair(
-        firstPickIndex,
-        availablePlayers,
-        rosterCounts,
-      )
-
-    const bestOutcome =
-      evaluation[0]
-
-    if (!bestOutcome) {
-      break
-    }
-
-    /*
-     * Availability at the second pick.
-     * Player one has already been taken
-     * by us, so remove only player one.
-     */
-    if (availabilityTracker) {
-      if (
-        !availabilityTracker.has(
-          secondPick.draftSlot,
-        )
-      ) {
-        availabilityTracker.set(
-          secondPick.draftSlot,
-          new Map<string, number>(),
-        )
-      }
-
-      const secondSlotTracker =
-        availabilityTracker.get(
-          secondPick.draftSlot,
-        )
-
-      if (secondSlotTracker) {
-        for (
-          const player of
-          availablePlayers
-        ) {
-          if (
-            player.name ===
-            bestOutcome.playerOne.name
-          ) {
-            continue
-          }
-
-          secondSlotTracker.set(
-            player.name,
-            (
-              secondSlotTracker.get(
-                player.name,
-              ) ?? 0
-            ) + 1,
-          )
-        }
-      }
-    }
-
-    const positionOne =
-      bestOutcome.playerOne.position as
-        | 'QB'
-        | 'RB'
-        | 'WR'
-        | 'TE'
-
-    const positionTwo =
-      bestOutcome.playerTwo.position as
-        | 'QB'
-        | 'RB'
-        | 'WR'
-        | 'TE'
-
-    rosterCounts[positionOne] += 1
-    rosterCounts[positionTwo] += 1
-
-    draftPath.push({
-      firstDraftSlot:
-        firstPick.draftSlot,
-
-      secondDraftSlot:
-        secondPick.draftSlot,
-
-      playerOne:
-        bestOutcome.playerOne,
-
-      playerTwo:
-        bestOutcome.playerTwo,
-
-      projectedNextPlayer:
-        bestOutcome.projectedNextPlayer,
-
-      score:
-        bestOutcome.score,
-
-      rosterAfterTurn: {
-        ...rosterCounts,
-      },
-    })
-
-    /*
-     * Remove both Honda picks.
-     */
-    const selectedNames =
-      new Set<string>([
-        bestOutcome.playerOne.name,
-        bestOutcome.playerTwo.name,
-      ])
-
-    availablePlayers =
-      availablePlayers.filter(
-        (player) =>
-          !selectedNames.has(
-            player.name,
-          ),
-      )
-
-    /*
-     * Simulate opponents until
-     * our next turn.
-     */
-    const liveGap =
-      secondPick.livePicksUntilNext
-
-    if (
-      liveGap !== null &&
-      liveGap > 0
+    for (
+      let firstPickIndex = 0;
+      firstPickIndex < 14;
+      firstPickIndex += 2
     ) {
-      const opponentSimulation =
-        simulateOpponentPicks(
-          availablePlayers,
-          liveGap,
-          simulationSeed +
-            firstPickIndex * 1000,
-        )
+      const firstPick =
+        myDraftPlanWithLiveGaps[
+        firstPickIndex
+        ]
 
-      availablePlayers =
-        opponentSimulation
-          .remainingPlayers
-    }
-  }
+      const secondPick =
+        myDraftPlanWithLiveGaps[
+        firstPickIndex + 1
+        ]
 
-  /*
-   * Final standalone pick: 15.12
-   */
-  const finalPick =
-    myDraftPlanWithLiveGaps[14]
-
-  if (
-    finalPick &&
-    availablePlayers.length > 0
-  ) {
-    /*
-     * Record availability at 15.12.
-     */
-    if (availabilityTracker) {
-      if (
-        !availabilityTracker.has(
-          finalPick.draftSlot,
-        )
-      ) {
-        availabilityTracker.set(
-          finalPick.draftSlot,
-          new Map<string, number>(),
-        )
+      if (!firstPick || !secondPick) {
+        break
       }
 
-      const finalSlotTracker =
-        availabilityTracker.get(
-          finalPick.draftSlot,
-        )
-
-      if (finalSlotTracker) {
-        for (
-          const player of
-          availablePlayers
+      /*
+       * Availability at the first pick
+       * of this turn.
+       */
+      if (availabilityTracker) {
+        if (
+          !availabilityTracker.has(
+            firstPick.draftSlot,
+          )
         ) {
-          finalSlotTracker.set(
-            player.name,
-            (
-              finalSlotTracker.get(
-                player.name,
-              ) ?? 0
-            ) + 1,
+          availabilityTracker.set(
+            firstPick.draftSlot,
+            new Map<string, number>(),
           )
         }
-      }
-    }
 
-    /*
-     * Only positions still below
-     * their roster target.
-     */
-    const finalCandidates =
-      availablePlayers
-        .filter((player) => {
-          const position =
-            player.position as
-              | 'QB'
-              | 'RB'
-              | 'WR'
-              | 'TE'
-
-          return (
-            rosterCounts[position] <
-            rosterTargets[position]
+        const firstSlotTracker =
+          availabilityTracker.get(
+            firstPick.draftSlot,
           )
-        })
-        .slice(0, 12)
 
-    const bestFinalPlayer =
-      [...finalCandidates]
-        .sort((a, b) => {
-          const aUpside =
-            ratingOutOfFive(
-              a.upside,
+        if (firstSlotTracker) {
+          for (
+            const player of
+            availablePlayers
+          ) {
+            firstSlotTracker.set(
+              player.name,
+              (
+                firstSlotTracker.get(
+                  player.name,
+                ) ?? 0
+              ) + 1,
             )
+          }
+        }
+      }
 
-          const bUpside =
-            ratingOutOfFive(
-              b.upside,
+      /*
+       * Evaluate the turn.
+       */
+      const evaluation =
+        evaluateTurnPair(
+          firstPickIndex,
+          availablePlayers,
+          rosterCounts,
+        )
+
+      const bestOutcome =
+        evaluation[0]
+
+      if (!bestOutcome) {
+        break
+      }
+
+      /*
+       * Availability at the second pick.
+       * Player one has already been taken
+       * by us, so remove only player one.
+       */
+      if (availabilityTracker) {
+        if (
+          !availabilityTracker.has(
+            secondPick.draftSlot,
+          )
+        ) {
+          availabilityTracker.set(
+            secondPick.draftSlot,
+            new Map<string, number>(),
+          )
+        }
+
+        const secondSlotTracker =
+          availabilityTracker.get(
+            secondPick.draftSlot,
+          )
+
+        if (secondSlotTracker) {
+          for (
+            const player of
+            availablePlayers
+          ) {
+            if (
+              player.name ===
+              bestOutcome.playerOne.name
+            ) {
+              continue
+            }
+
+            secondSlotTracker.set(
+              player.name,
+              (
+                secondSlotTracker.get(
+                  player.name,
+                ) ?? 0
+              ) + 1,
             )
+          }
+        }
+      }
+      /*
+       * Counterfactual wait-risk simulation.
+       *
+       * At the second pick of our turn,
+       * playerOne has already been drafted
+       * by us, so remove only playerOne.
+       */
+      const availableForSecondPick =
+        availablePlayers.filter(
+          (player) =>
+            player.name !==
+            bestOutcome.playerOne.name,
+        )
 
-          const aBust =
-            ratingOutOfFive(
-              a.bust,
+      const waitWindow =
+        secondPick.livePicksUntilNext
+
+      if (
+        waitRiskTracker &&
+        waitWindow !== null &&
+        waitWindow > 0
+      ) {
+        if (
+          !waitRiskTracker.has(
+            secondPick.draftSlot,
+          )
+        ) {
+          waitRiskTracker.set(
+            secondPick.draftSlot,
+            new Map(),
+          )
+        }
+
+        const slotRiskTracker =
+          waitRiskTracker.get(
+            secondPick.draftSlot,
+          )
+
+        const counterfactualOpponentDraft =
+          simulateOpponentPicks(
+            availableForSecondPick,
+            waitWindow,
+            simulationSeed +
+            firstPickIndex * 1000 +
+            777,
+          )
+
+        const survivingNames =
+          new Set<string>(
+            counterfactualOpponentDraft
+              .remainingPlayers
+              .map(
+                (player) =>
+                  player.name,
+              ),
+          )
+
+        if (slotRiskTracker) {
+          for (
+            const player of
+            availableForSecondPick
+          ) {
+            const previous =
+              slotRiskTracker.get(
+                player.name,
+              ) ?? {
+                available: 0,
+                survived: 0,
+              }
+
+            slotRiskTracker.set(
+              player.name,
+              {
+                available:
+                  previous.available + 1,
+
+                survived:
+                  previous.survived +
+                  (
+                    survivingNames.has(
+                      player.name,
+                    )
+                      ? 1
+                      : 0
+                  ),
+              },
             )
+          }
+        }
+      }
 
-          const bBust =
-            ratingOutOfFive(
-              b.bust,
-            )
+      const positionOne =
+        bestOutcome.playerOne.position as
+        | 'QB'
+        | 'RB'
+        | 'WR'
+        | 'TE'
 
-          const aScore =
-            a.valueOverReplacement +
-            aUpside * 2 -
-            aBust
+      const positionTwo =
+        bestOutcome.playerTwo.position as
+        | 'QB'
+        | 'RB'
+        | 'WR'
+        | 'TE'
 
-          const bScore =
-            b.valueOverReplacement +
-            bUpside * 2 -
-            bBust
-
-          return bScore - aScore
-        })[0]
-
-    if (bestFinalPlayer) {
-      const finalPosition =
-        bestFinalPlayer.position as
-          | 'QB'
-          | 'RB'
-          | 'WR'
-          | 'TE'
-
-      rosterCounts[finalPosition] += 1
+      rosterCounts[positionOne] += 1
+      rosterCounts[positionTwo] += 1
 
       draftPath.push({
         firstDraftSlot:
-          finalPick.draftSlot,
+          firstPick.draftSlot,
 
         secondDraftSlot:
-          null,
+          secondPick.draftSlot,
 
         playerOne:
-          bestFinalPlayer,
+          bestOutcome.playerOne,
 
         playerTwo:
-          null,
+          bestOutcome.playerTwo,
 
         projectedNextPlayer:
-          null,
+          bestOutcome.projectedNextPlayer,
 
         score:
-          Number(
-            (
-              bestFinalPlayer
-                .valueOverReplacement +
-              ratingOutOfFive(
-                bestFinalPlayer.upside,
-              ) * 2 -
-              ratingOutOfFive(
-                bestFinalPlayer.bust,
-              )
-            ).toFixed(1),
-          ),
+          bestOutcome.score,
 
         rosterAfterTurn: {
           ...rosterCounts,
         },
       })
-    }
-  }
 
-  return draftPath
-}
+      /*
+       * Remove both Honda picks.
+       */
+      const selectedNames =
+        new Set<string>([
+          bestOutcome.playerOne.name,
+          bestOutcome.playerTwo.name,
+        ])
 
+      availablePlayers =
+        availablePlayers.filter(
+          (player) =>
+            !selectedNames.has(
+              player.name,
+            ),
+        )
 
-
-
-console.log('')
-console.log('My Live Pick Gaps:')
-console.log('')
-
-myDraftPlanWithLiveGaps.forEach(
-  (pick) => {
-    const liveGapText =
-      pick.livePicksUntilNext === null
-        ? 'FINAL PICK'
-        : `${pick.livePicksUntilNext} live picks`
-
-    console.log(
-      `${pick.draftSlot} | ${liveGapText}`,
-    )
-  },
-)
-
-console.log('')
-
-console.log('')
-console.log('My Pick Gaps:')
-console.log('')
-
-myDraftPlanWithNextPick.forEach(
-  (pick) => {
-    const nextText =
-      pick.nextDraftSlot
-        ? `${pick.nextDraftSlot} in ${pick.picksUntilNext} picks`
-        : 'No next pick'
-
-    console.log(
-      `${pick.draftSlot} | Overall ${pick.overallPick} | Next: ${nextText}`,
-    )
-  },
-)
-
-const myDraftPlanWithTurnType =
-  myDraftPlanWithNextPick.map((pick) => {
-    let turnType:
-      | 'TURN PICK'
-      | 'LONG WAIT PICK'
-      | 'FINAL PICK'
-
-    if (pick.picksUntilNext === null) {
-      turnType = 'FINAL PICK'
-    } else if (pick.picksUntilNext <= 1) {
-      turnType = 'TURN PICK'
-    } else {
-      turnType = 'LONG WAIT PICK'
-    }
-
-    return {
-      ...pick,
-      turnType,
-    }
-  })
-
-const myDraftPlanWithRiskWindow =
-  myDraftPlanWithTurnType.map((pick) => {
-    const survivalWindow =
-      pick.picksUntilNext === null
-        ? null
-        : pick.picksUntilNext
-
-    return {
-      ...pick,
-      survivalWindow,
-    }
-  })
-
-console.log('')
-console.log('My Draft Turn Types:')
-console.log('')
-
-myDraftPlanWithTurnType.forEach(
-  (pick) => {
-    console.log(
-      `${pick.draftSlot} | ${pick.turnType}`,
-    )
-  },
-)
-
-console.log('My Draft Risk Windows:')
-console.log('')
-
-myDraftPlanWithRiskWindow.forEach(
-  (pick) => {
-    const windowText =
-      pick.survivalWindow === null
-        ? 'FINAL PICK'
-        : `${pick.survivalWindow} picks`
-
-    console.log(
-      `${pick.draftSlot} | Risk Window: ${windowText}`,
-    )
-  },
-)
-
-const getPlayerDecision = (
-  player: {
-    hondaDraftRank: number
-  },
-  currentOverallPick: number,
-  nextOverallPick: number | null,
-) => {
-  if (nextOverallPick === null) {
-    return 'TAKE NOW'
-  }
-
-  const picksUntilPlayer =
-    player.hondaDraftRank -
-    currentOverallPick
-
-  const picksUntilNextTurn =
-    nextOverallPick -
-    currentOverallPick
-
-  if (picksUntilPlayer <= 0) {
-    return 'TAKE NOW'
-  }
-
-  if (
-    picksUntilPlayer <
-    picksUntilNextTurn - 4
-  ) {
-    return 'TAKE NOW'
-  }
-
-  if (
-    picksUntilPlayer <=
-    picksUntilNextTurn + 4
-  ) {
-    return 'BORDERLINE'
-  }
-
-  return 'LIKELY SAFE TO WAIT'
-}
-
-const openingPick =
-  myDraftPlanWithRiskWindow[0]
-
-
-const picksBeforeOpeningPick =
-  openingPick
-    ? openingPick.overallPick - 1
-    : 0
-
-const simulatedDraftedBeforeOpening =
-  availableHondaDraftBoard
-    .slice(0, picksBeforeOpeningPick)
-
-const simulatedDraftedNames =
-  new Set<string>(
-    simulatedDraftedBeforeOpening.map(
-      (player) => player.name,
-    ),
-  )
-
-const openingAvailablePlayers =
-  availableHondaDraftBoard.filter(
-    (player) =>
-      !simulatedDraftedNames.has(
-        player.name,
-      ),
-  )
-
-const openingTurnEvaluation =
-  evaluateTurnPair(
-    0,
-    openingAvailablePlayers,
-  )
-console.log('')
-console.log(
-  'Reusable Opening Turn Evaluation:',
-)
-console.log('')
-
-openingTurnEvaluation
-  .slice(0, 10)
-  .forEach((outcome, index) => {
-    const nextPlayer =
-      outcome.projectedNextPlayer
-
-    const nextText =
-      nextPlayer
-        ? `${nextPlayer.name} (${nextPlayer.position})`
-        : 'None'
-
-    console.log(
-      `${index + 1}. ${outcome.playerOne.name} + ${outcome.playerTwo.name} | Next Turn: ${nextText} | Balance +${outcome.rosterBalanceBonus} | Score ${outcome.score}`,
-    )
-  })
-
-console.log('')
-
-const projectedHondaDraftPath =
-  simulateHondaDraftPath(
-    openingAvailablePlayers,
-  )
-
-console.log('')
-console.log(
-  'Projected Honda Draft Path:',
-)
-console.log('')
-
-projectedHondaDraftPath.forEach(
-  (turn, index) => {
-    const secondPlayerText =
-      turn.playerTwo
-        ? ` + ${turn.playerTwo.name} (${turn.playerTwo.position})`
-        : ''
-
-    const slotText =
-      turn.secondDraftSlot
-        ? `${turn.firstDraftSlot}/${turn.secondDraftSlot}`
-        : turn.firstDraftSlot
-
-    console.log(
-      `Turn ${index + 1} | ${slotText} | ${turn.playerOne.name} (${turn.playerOne.position})${secondPlayerText} | Roster QB ${turn.rosterAfterTurn.QB} RB ${turn.rosterAfterTurn.RB} WR ${turn.rosterAfterTurn.WR} TE ${turn.rosterAfterTurn.TE} | Score ${turn.score}`,
-    )
-  },
-)
-
-const simulationCount = 100
-
-const availabilityFrequencyBySlot:
-  AvailabilityTracker =
-  new Map()
-
-
-
-const playerFrequencyBySlot =
-  new Map<
-    string,
-    Map<string, number>
-  >()
-
-for (
-  let simulationIndex = 0;
-  simulationIndex < simulationCount;
-  simulationIndex++
-) {
-
-  const simulatedPath =
-    simulateHondaDraftPath(
-      openingAvailablePlayers,
-      simulationIndex + 1,
-      availabilityFrequencyBySlot,
-    )
-
-  for (const turn of simulatedPath) {
-    const picks = [
-      {
-        slot: turn.firstDraftSlot,
-        player: turn.playerOne,
-      },
-      {
-        slot: turn.secondDraftSlot,
-        player: turn.playerTwo,
-      },
-    ]
-
-    for (const pick of picks) {
-      if (
-        !pick.slot ||
-        !pick.player
-      ) {
-        continue
-      }
+      /*
+       * Simulate opponents until
+       * our next turn.
+       */
+      const liveGap =
+        secondPick.livePicksUntilNext
 
       if (
-        !playerFrequencyBySlot.has(
-          pick.slot,
-        )
+        liveGap !== null &&
+        liveGap > 0
       ) {
-        playerFrequencyBySlot.set(
-          pick.slot,
-          new Map<string, number>(),
-        )
+        const opponentSimulation =
+          simulateOpponentPicks(
+            availablePlayers,
+            liveGap,
+            simulationSeed +
+            firstPickIndex * 1000,
+          )
+
+        availablePlayers =
+          opponentSimulation
+            .remainingPlayers
       }
-
-      const slotFrequency =
-        playerFrequencyBySlot.get(
-          pick.slot,
-        )
-
-      if (!slotFrequency) {
-        continue
-      }
-
-      slotFrequency.set(
-        pick.player.name,
-        (
-          slotFrequency.get(
-            pick.player.name,
-          ) ?? 0
-        ) + 1,
-      )
     }
-  }
-}
-console.log('')
-console.log(
-  `Honda ${simulationCount}-Simulation Availability:`,
-)
-console.log('')
 
-for (const pick of mySnakeDraftPicks) {
-  const slotAvailability =
-    availabilityFrequencyBySlot.get(
-      pick.draftSlot,
-    )
+    /*
+     * Final standalone pick: 15.12
+     */
+    const finalPick =
+      myDraftPlanWithLiveGaps[14]
 
-  if (!slotAvailability) {
-    continue
-  }
+    if (
+      finalPick &&
+      availablePlayers.length > 0
+    ) {
+      /*
+       * Record availability at 15.12.
+       */
+      if (availabilityTracker) {
+        if (
+          !availabilityTracker.has(
+            finalPick.draftSlot,
+          )
+        ) {
+          availabilityTracker.set(
+            finalPick.draftSlot,
+            new Map<string, number>(),
+          )
+        }
 
-  const leaders =
-    [...slotAvailability.entries()]
-      .sort((a, b) => {
-        const playerA =
-          availableHondaDraftBoard.find(
-            (player) =>
-              player.name === a[0],
+        const finalSlotTracker =
+          availabilityTracker.get(
+            finalPick.draftSlot,
           )
 
-        const playerB =
-          availableHondaDraftBoard.find(
-            (player) =>
-              player.name === b[0],
-          )
+        if (finalSlotTracker) {
+          for (
+            const player of
+            availablePlayers
+          ) {
+            finalSlotTracker.set(
+              player.name,
+              (
+                finalSlotTracker.get(
+                  player.name,
+                ) ?? 0
+              ) + 1,
+            )
+          }
+        }
+      }
 
-        return (
-          (playerA?.hondaDraftRank ?? 999) -
-          (playerB?.hondaDraftRank ?? 999)
-        )
-      })
-      .slice(0, 10)
+      /*
+       * Only positions still below
+       * their roster target.
+       */
+      const finalCandidates =
+        availablePlayers
+          .filter((player) => {
+            const position =
+              player.position as
+              | 'QB'
+              | 'RB'
+              | 'WR'
+              | 'TE'
 
-  console.log(
-    `${pick.draftSlot}:`,
-  )
+            return (
+              rosterCounts[position] <
+              rosterTargets[position]
+            )
+          })
+          .slice(0, 12)
 
-  leaders.forEach(
-    ([playerName, count], index) => {
-      const percentage =
-        Number(
-          (
-            count /
-            simulationCount *
-            100
-          ).toFixed(1),
-        )
+      const bestFinalPlayer =
+        [...finalCandidates]
+          .sort((a, b) => {
+            const aUpside =
+              ratingOutOfFive(
+                a.upside,
+              )
+
+            const bUpside =
+              ratingOutOfFive(
+                b.upside,
+              )
+
+            const aBust =
+              ratingOutOfFive(
+                a.bust,
+              )
+
+            const bBust =
+              ratingOutOfFive(
+                b.bust,
+              )
+
+            const aScore =
+              a.valueOverReplacement +
+              aUpside * 2 -
+              aBust
+
+            const bScore =
+              b.valueOverReplacement +
+              bUpside * 2 -
+              bBust
+
+            return bScore - aScore
+          })[0]
+
+      if (bestFinalPlayer) {
+        const finalPosition =
+          bestFinalPlayer.position as
+          | 'QB'
+          | 'RB'
+          | 'WR'
+          | 'TE'
+
+        rosterCounts[finalPosition] += 1
+
+        draftPath.push({
+          firstDraftSlot:
+            finalPick.draftSlot,
+
+          secondDraftSlot:
+            null,
+
+          playerOne:
+            bestFinalPlayer,
+
+          playerTwo:
+            null,
+
+          projectedNextPlayer:
+            null,
+
+          score:
+            Number(
+              (
+                bestFinalPlayer
+                  .valueOverReplacement +
+                ratingOutOfFive(
+                  bestFinalPlayer.upside,
+                ) * 2 -
+                ratingOutOfFive(
+                  bestFinalPlayer.bust,
+                )
+              ).toFixed(1),
+            ),
+
+          rosterAfterTurn: {
+            ...rosterCounts,
+          },
+        })
+      }
+    }
+
+    return draftPath
+  }
+
+
+
+
+  console.log('')
+  console.log('My Live Pick Gaps:')
+  console.log('')
+
+  myDraftPlanWithLiveGaps.forEach(
+    (pick) => {
+      const liveGapText =
+        pick.livePicksUntilNext === null
+          ? 'FINAL PICK'
+          : `${pick.livePicksUntilNext} live picks`
 
       console.log(
-        `  ${index + 1}. ${playerName} | Available ${count}/${simulationCount} | ${percentage}%`,
+        `${pick.draftSlot} | ${liveGapText}`,
       )
     },
   )
 
   console.log('')
-}
-console.log('')
-console.log(
-  `Honda ${simulationCount}-Simulation Draft Frequencies:`,
-)
-console.log('')
 
-for (const pick of mySnakeDraftPicks) {
-  const slotFrequency =
-    playerFrequencyBySlot.get(
-      pick.draftSlot,
-    )
+  console.log('')
+  console.log('My Pick Gaps:')
+  console.log('')
 
-  if (!slotFrequency) {
-    continue
-  }
-
-  const leaders =
-    [...slotFrequency.entries()]
-      .sort(
-        (a, b) =>
-          b[1] - a[1],
-      )
-      .slice(0, 5)
-
-  console.log(
-    `${pick.draftSlot}:`,
-  )
-
-  leaders.forEach(
-    ([playerName, count], index) => {
-      const percentage =
-        Number(
-          (
-            count /
-            simulationCount *
-            100
-          ).toFixed(1),
-        )
+  myDraftPlanWithNextPick.forEach(
+    (pick) => {
+      const nextText =
+        pick.nextDraftSlot
+          ? `${pick.nextDraftSlot} in ${pick.picksUntilNext} picks`
+          : 'No next pick'
 
       console.log(
-        `  ${index + 1}. ${playerName} | ${count}/${simulationCount} | ${percentage}%`,
+        `${pick.draftSlot} | Overall ${pick.overallPick} | Next: ${nextText}`,
       )
     },
   )
 
+  const myDraftPlanWithTurnType =
+    myDraftPlanWithNextPick.map((pick) => {
+      let turnType:
+        | 'TURN PICK'
+        | 'LONG WAIT PICK'
+        | 'FINAL PICK'
+
+      if (pick.picksUntilNext === null) {
+        turnType = 'FINAL PICK'
+      } else if (pick.picksUntilNext <= 1) {
+        turnType = 'TURN PICK'
+      } else {
+        turnType = 'LONG WAIT PICK'
+      }
+
+      return {
+        ...pick,
+        turnType,
+      }
+    })
+
+  const myDraftPlanWithRiskWindow =
+    myDraftPlanWithTurnType.map((pick) => {
+      const survivalWindow =
+        pick.picksUntilNext === null
+          ? null
+          : pick.picksUntilNext
+
+      return {
+        ...pick,
+        survivalWindow,
+      }
+    })
+
   console.log('')
-}
+  console.log('My Draft Turn Types:')
+  console.log('')
 
-console.log('')
+  myDraftPlanWithTurnType.forEach(
+    (pick) => {
+      console.log(
+        `${pick.draftSlot} | ${pick.turnType}`,
+      )
+    },
+  )
+
+  console.log('My Draft Risk Windows:')
+  console.log('')
+
+  myDraftPlanWithRiskWindow.forEach(
+    (pick) => {
+      const windowText =
+        pick.survivalWindow === null
+          ? 'FINAL PICK'
+          : `${pick.survivalWindow} picks`
+
+      console.log(
+        `${pick.draftSlot} | Risk Window: ${windowText}`,
+      )
+    },
+  )
+
+  const getPlayerDecision = (
+    player: {
+      hondaDraftRank: number
+    },
+    currentOverallPick: number,
+    nextOverallPick: number | null,
+  ) => {
+    if (nextOverallPick === null) {
+      return 'TAKE NOW'
+    }
+
+    const picksUntilPlayer =
+      player.hondaDraftRank -
+      currentOverallPick
+
+    const picksUntilNextTurn =
+      nextOverallPick -
+      currentOverallPick
+
+    if (picksUntilPlayer <= 0) {
+      return 'TAKE NOW'
+    }
+
+    if (
+      picksUntilPlayer <
+      picksUntilNextTurn - 4
+    ) {
+      return 'TAKE NOW'
+    }
+
+    if (
+      picksUntilPlayer <=
+      picksUntilNextTurn + 4
+    ) {
+      return 'BORDERLINE'
+    }
+
+    return 'LIKELY SAFE TO WAIT'
+  }
+
+  const openingPick =
+    myDraftPlanWithRiskWindow[0]
 
 
+  const picksBeforeOpeningPick =
+    openingPick
+      ? openingPick.overallPick - 1
+      : 0
 
-const projectedFirstTurnPicks =
-  openingTurnEvaluation[0]
+  const simulatedDraftedBeforeOpening =
+    availableHondaDraftBoard
+      .slice(0, picksBeforeOpeningPick)
 
-if (projectedFirstTurnPicks) {
-  const selectedNames =
-    new Set<string>([
-      projectedFirstTurnPicks.playerOne.name,
-      projectedFirstTurnPicks.playerTwo.name,
-    ])
-
-  const playersAfterOpeningTurn =
-    openingAvailablePlayers.filter(
-      (player) =>
-        !selectedNames.has(
-          player.name,
-        ),
-    )
-
-  const liveGapTo312 =
-    myDraftPlanWithLiveGaps[1]
-      ?.livePicksUntilNext ?? 0
-
-  const simulatedTakenBefore312 =
-    playersAfterOpeningTurn.slice(
-      0,
-      liveGapTo312,
-    )
-
-  const simulatedTakenNames =
+  const simulatedDraftedNames =
     new Set<string>(
-      simulatedTakenBefore312.map(
+      simulatedDraftedBeforeOpening.map(
         (player) => player.name,
       ),
     )
 
-  const availableAt312 =
-    playersAfterOpeningTurn.filter(
+  const openingAvailablePlayers =
+    availableHondaDraftBoard.filter(
       (player) =>
-        !simulatedTakenNames.has(
+        !simulatedDraftedNames.has(
           player.name,
         ),
     )
 
-  const secondTurnEvaluation =
+  const openingTurnEvaluation =
     evaluateTurnPair(
-      2,
-      availableAt312,
+      0,
+      openingAvailablePlayers,
     )
-
   console.log('')
   console.log(
-    'Reusable 3.12 / 4.01 Turn Evaluation:',
+    'Reusable Opening Turn Evaluation:',
   )
   console.log('')
 
-  secondTurnEvaluation
+  openingTurnEvaluation
     .slice(0, 10)
     .forEach((outcome, index) => {
       const nextPlayer =
@@ -3148,80 +2958,439 @@ if (projectedFirstTurnPicks) {
     })
 
   console.log('')
-}
 
-const openingTurnCandidates =
-  openingAvailablePlayers
-    .slice(0, 12)
+  const projectedHondaDraftPath =
+    simulateHondaDraftPath(
+      openingAvailablePlayers,
+    )
 
-const openingTurnPairs: {
-  playerOne: typeof openingTurnCandidates[number]
-  playerTwo: typeof openingTurnCandidates[number]
-  combinedVor: number
-}[] = []
+  console.log('')
+  console.log(
+    'Projected Honda Draft Path:',
+  )
+  console.log('')
 
-for (
-  let i = 0;
-  i < openingTurnCandidates.length;
-  i++
-) {
+  projectedHondaDraftPath.forEach(
+    (turn, index) => {
+      const secondPlayerText =
+        turn.playerTwo
+          ? ` + ${turn.playerTwo.name} (${turn.playerTwo.position})`
+          : ''
+
+      const slotText =
+        turn.secondDraftSlot
+          ? `${turn.firstDraftSlot}/${turn.secondDraftSlot}`
+          : turn.firstDraftSlot
+
+      console.log(
+        `Turn ${index + 1} | ${slotText} | ${turn.playerOne.name} (${turn.playerOne.position})${secondPlayerText} | Roster QB ${turn.rosterAfterTurn.QB} RB ${turn.rosterAfterTurn.RB} WR ${turn.rosterAfterTurn.WR} TE ${turn.rosterAfterTurn.TE} | Score ${turn.score}`,
+      )
+    },
+  )
+
+  const simulationCount = 100
+
+  const availabilityFrequencyBySlot:
+    AvailabilityTracker =
+    new Map()
+
+  const waitRiskBySlot:
+    WaitRiskTracker =
+    new Map()
+
+
+  const playerFrequencyBySlot =
+    new Map<
+      string,
+      Map<string, number>
+    >()
+
   for (
-    let j = i + 1;
-    j < openingTurnCandidates.length;
-    j++
+    let simulationIndex = 0;
+    simulationIndex < simulationCount;
+    simulationIndex++
   ) {
-    const playerOne =
-      openingTurnCandidates[i]
 
-    const playerTwo =
-      openingTurnCandidates[j]
+    const simulatedPath =
+      simulateHondaDraftPath(
+        openingAvailablePlayers,
+        simulationIndex + 1,
+        availabilityFrequencyBySlot,
+        waitRiskBySlot,
+      )
 
-    if (!playerOne || !playerTwo) {
+    for (const turn of simulatedPath) {
+      const picks = [
+        {
+          slot: turn.firstDraftSlot,
+          player: turn.playerOne,
+        },
+        {
+          slot: turn.secondDraftSlot,
+          player: turn.playerTwo,
+        },
+      ]
+
+      for (const pick of picks) {
+        if (
+          !pick.slot ||
+          !pick.player
+        ) {
+          continue
+        }
+
+        if (
+          !playerFrequencyBySlot.has(
+            pick.slot,
+          )
+        ) {
+          playerFrequencyBySlot.set(
+            pick.slot,
+            new Map<string, number>(),
+          )
+        }
+
+        const slotFrequency =
+          playerFrequencyBySlot.get(
+            pick.slot,
+          )
+
+        if (!slotFrequency) {
+          continue
+        }
+
+        slotFrequency.set(
+          pick.player.name,
+          (
+            slotFrequency.get(
+              pick.player.name,
+            ) ?? 0
+          ) + 1,
+        )
+      }
+    }
+  }
+  console.log('')
+  console.log(
+    `Honda ${simulationCount}-Simulation Availability:`,
+  )
+  console.log('')
+
+  for (const pick of mySnakeDraftPicks) {
+    const slotAvailability =
+      availabilityFrequencyBySlot.get(
+        pick.draftSlot,
+      )
+
+    if (!slotAvailability) {
       continue
     }
 
-    openingTurnPairs.push({
-      playerOne,
-      playerTwo,
+    const leaders =
+      [...slotAvailability.entries()]
+        .sort((a, b) => {
+          const playerA =
+            availableHondaDraftBoard.find(
+              (player) =>
+                player.name === a[0],
+            )
 
-      combinedVor:
-        Number(
-          (
-            playerOne.valueOverReplacement +
-            playerTwo.valueOverReplacement
-          ).toFixed(1),
-        ),
-    })
+          const playerB =
+            availableHondaDraftBoard.find(
+              (player) =>
+                player.name === b[0],
+            )
+
+          return (
+            (playerA?.hondaDraftRank ?? 999) -
+            (playerB?.hondaDraftRank ?? 999)
+          )
+        })
+        .slice(0, 10)
+
+    console.log(
+      `${pick.draftSlot}:`,
+    )
+
+    leaders.forEach(
+      ([playerName, count], index) => {
+        const percentage =
+          Number(
+            (
+              count /
+              simulationCount *
+              100
+            ).toFixed(1),
+          )
+
+        console.log(
+          `  ${index + 1}. ${playerName} | Available ${count}/${simulationCount} | ${percentage}%`,
+        )
+      },
+    )
+    function getWaitUrgencyScore(
+      survivalRate: number,
+    ) {
+      return Number(
+        (
+          (1 - survivalRate) * 20
+        ).toFixed(1),
+      )
+    }
+
+    console.log('')
+    console.log(
+      `Honda ${simulationCount}-Simulation Wait Risk:`,
+
+    )
+    console.log('')
+
+    for (
+      const pick of
+      myDraftPlanWithLiveGaps
+    ) {
+      if (
+        pick.livePicksUntilNext === null ||
+        pick.livePicksUntilNext <= 0
+      ) {
+        continue
+      }
+
+      const slotRisk =
+        waitRiskBySlot.get(
+          pick.draftSlot,
+        )
+
+      if (!slotRisk) {
+        continue
+      }
+
+      const players =
+        [...slotRisk.entries()]
+          .map(
+            ([playerName, stats]) => {
+              const player =
+                availableHondaDraftBoard.find(
+                  (candidate) =>
+                    candidate.name ===
+                    playerName,
+                )
+
+              const survivalRate =
+                stats.available > 0
+                  ? stats.survived /
+                  stats.available
+                  : 0
+
+              const urgencyScore =
+                getWaitUrgencyScore(
+                  survivalRate,
+                )
+
+              const playerValueScore =
+                player
+                  ? Math.max(
+                    0,
+                    200 -
+                    player.hondaDraftRank,
+                  ) / 10
+                  : 0
+
+              const decisionScore =
+                Number(
+                  (
+                    playerValueScore +
+                    urgencyScore
+                  ).toFixed(1),
+                )
+
+              return {
+                playerName,
+                hondaDraftRank:
+                  player?.hondaDraftRank ??
+                  999,
+                available:
+                  stats.available,
+                survived:
+                  stats.survived,
+                survivalRate,
+                urgencyScore,
+                playerValueScore,
+                decisionScore,
+              }
+            },
+          )
+          .sort((a, b) => {
+            const aReliable =
+              a.available >= 20
+
+            const bReliable =
+              b.available >= 20
+
+            if (aReliable !== bReliable) {
+              return aReliable ? -1 : 1
+            }
+
+            return (
+              a.hondaDraftRank -
+              b.hondaDraftRank
+            )
+          })
+          .slice(0, 12)
+
+      console.log(
+        `${pick.draftSlot} → ${pick.nextDraftSlot} | ${pick.livePicksUntilNext} live picks:`,
+      )
+
+      const recommendedPlayers =
+        players
+          .filter(
+            (player) =>
+              player.available >= 20,
+          )
+          .slice(0, 3)
+
+      if (recommendedPlayers.length > 0) {
+        console.log('')
+        console.log('  Honda Actions:')
+
+        recommendedPlayers.forEach(
+          (player, index) => {
+            const survivalPercent =
+              Number(
+                (
+                  player.survivalRate *
+                  100
+                ).toFixed(1),
+              )
+
+            let action:
+              | 'DRAFT'
+              | 'CONSIDER'
+              | 'WAIT'
+
+            if (survivalPercent < 35) {
+              action = 'DRAFT'
+            } else if (
+              survivalPercent < 70
+            ) {
+              action = 'CONSIDER'
+            } else {
+              action = 'WAIT'
+            }
+
+            console.log(
+              `    ${index + 1}. ${action}: ${player.playerName} | Score ${player.decisionScore} | Survival ${survivalPercent}%`,
+            )
+          },
+        )
+
+        console.log('')
+      }
+
+      players.forEach(
+        (player, index) => {
+          const survivalPercent =
+            Number(
+              (
+                player.survivalRate *
+                100
+              ).toFixed(1),
+            )
+
+          let decision:
+            | 'TAKE NOW'
+            | 'BORDERLINE'
+            | 'SAFE TO WAIT'
+            | 'LOW SAMPLE'
+
+          if (player.available < 20) {
+            decision = 'LOW SAMPLE'
+          } else if (survivalPercent < 35) {
+            decision = 'TAKE NOW'
+          } else if (
+            survivalPercent < 70
+          ) {
+            decision = 'BORDERLINE'
+          } else {
+            decision = 'SAFE TO WAIT'
+          }
+
+          console.log(
+            `  ${index + 1}. ${player.playerName} | Rank ${player.hondaDraftRank} | Survives ${player.survived}/${player.available} | ${survivalPercent}% | ${decision}`,
+          )
+        },
+      )
+
+      console.log('')
+
+      console.log('')
+    }
+    console.log('')
   }
-}
+  console.log('')
+  console.log(
+    `Honda ${simulationCount}-Simulation Draft Frequencies:`,
+  )
+  console.log('')
 
-openingTurnPairs.sort(
-  (a, b) =>
-    b.combinedVor -
-    a.combinedVor,
-)
+  for (const pick of mySnakeDraftPicks) {
+    const slotFrequency =
+      playerFrequencyBySlot.get(
+        pick.draftSlot,
+      )
 
-const secondPick =
-  myDraftPlanWithLiveGaps[1]
+    if (!slotFrequency) {
+      continue
+    }
 
-const picksBeforeThirdRoundTurn =
-  secondPick?.livePicksUntilNext ?? 0
+    const leaders =
+      [...slotFrequency.entries()]
+        .sort(
+          (a, b) =>
+            b[1] - a[1],
+        )
+        .slice(0, 5)
 
-console.log('')
-console.log(
-  `Live picks between 2.01 and 3.12: ${picksBeforeThirdRoundTurn}`,
-)
-console.log('')
+    console.log(
+      `${pick.draftSlot}:`,
+    )
 
-const openingTurnPairOutcomes =
-  openingTurnPairs.map((pair) => {
+    leaders.forEach(
+      ([playerName, count], index) => {
+        const percentage =
+          Number(
+            (
+              count /
+              simulationCount *
+              100
+            ).toFixed(1),
+          )
+
+        console.log(
+          `  ${index + 1}. ${playerName} | ${count}/${simulationCount} | ${percentage}%`,
+        )
+      },
+    )
+
+    console.log('')
+  }
+
+  console.log('')
+
+
+
+  const projectedFirstTurnPicks =
+    openingTurnEvaluation[0]
+
+  if (projectedFirstTurnPicks) {
     const selectedNames =
       new Set<string>([
-        pair.playerOne.name,
-        pair.playerTwo.name,
+        projectedFirstTurnPicks.playerOne.name,
+        projectedFirstTurnPicks.playerTwo.name,
       ])
 
-    const remainingPlayers =
+    const playersAfterOpeningTurn =
       openingAvailablePlayers.filter(
         (player) =>
           !selectedNames.has(
@@ -3229,10 +3398,14 @@ const openingTurnPairOutcomes =
           ),
       )
 
+    const liveGapTo312 =
+      myDraftPlanWithLiveGaps[1]
+        ?.livePicksUntilNext ?? 0
+
     const simulatedTakenBefore312 =
-      remainingPlayers.slice(
+      playersAfterOpeningTurn.slice(
         0,
-        picksBeforeThirdRoundTurn,
+        liveGapTo312,
       )
 
     const simulatedTakenNames =
@@ -3243,322 +3416,453 @@ const openingTurnPairOutcomes =
       )
 
     const availableAt312 =
-      remainingPlayers.filter(
+      playersAfterOpeningTurn.filter(
         (player) =>
           !simulatedTakenNames.has(
             player.name,
           ),
       )
 
-    const bestPlayerAt312 =
-      availableAt312[0] ?? null
-
-    const positions = [
-      pair.playerOne.position,
-      pair.playerTwo.position,
-    ]
-
-    let rosterBalanceBonus = 0
-
-    if (
-      positions.includes('RB') &&
-      positions.includes('WR')
-    ) {
-      rosterBalanceBonus = 4
-    } else if (
-      positions.includes('RB') &&
-      positions.includes('TE')
-    ) {
-      rosterBalanceBonus = 2
-    } else if (
-      positions.includes('WR') &&
-      positions.includes('TE')
-    ) {
-      rosterBalanceBonus = 2
-    }
-
-    const threePickVor =
-      Number(
-        (
-          pair.combinedVor +
-          (
-            bestPlayerAt312
-              ?.valueOverReplacement ?? 0
-          ) +
-          rosterBalanceBonus
-        ).toFixed(1),
+    const secondTurnEvaluation =
+      evaluateTurnPair(
+        2,
+        availableAt312,
       )
 
-    return {
-      ...pair,
-      bestPlayerAt312,
-      rosterBalanceBonus,
-      threePickVor,
+    console.log('')
+    console.log(
+      'Reusable 3.12 / 4.01 Turn Evaluation:',
+    )
+    console.log('')
+
+    secondTurnEvaluation
+      .slice(0, 10)
+      .forEach((outcome, index) => {
+        const nextPlayer =
+          outcome.projectedNextPlayer
+
+        const nextText =
+          nextPlayer
+            ? `${nextPlayer.name} (${nextPlayer.position})`
+            : 'None'
+
+        console.log(
+          `${index + 1}. ${outcome.playerOne.name} + ${outcome.playerTwo.name} | Next Turn: ${nextText} | Balance +${outcome.rosterBalanceBonus} | Score ${outcome.score}`,
+        )
+      })
+
+    console.log('')
+  }
+
+  const openingTurnCandidates =
+    openingAvailablePlayers
+      .slice(0, 12)
+
+  const openingTurnPairs: {
+    playerOne: typeof openingTurnCandidates[number]
+    playerTwo: typeof openingTurnCandidates[number]
+    combinedVor: number
+  }[] = []
+
+  for (
+    let i = 0;
+    i < openingTurnCandidates.length;
+    i++
+  ) {
+    for (
+      let j = i + 1;
+      j < openingTurnCandidates.length;
+      j++
+    ) {
+      const playerOne =
+        openingTurnCandidates[i]
+
+      const playerTwo =
+        openingTurnCandidates[j]
+
+      if (!playerOne || !playerTwo) {
+        continue
+      }
+
+      openingTurnPairs.push({
+        playerOne,
+        playerTwo,
+
+        combinedVor:
+          Number(
+            (
+              playerOne.valueOverReplacement +
+              playerTwo.valueOverReplacement
+            ).toFixed(1),
+          ),
+      })
     }
-  })
+  }
 
-openingTurnPairOutcomes.sort(
-  (a, b) =>
-    b.threePickVor -
-    a.threePickVor,
-)
+  openingTurnPairs.sort(
+    (a, b) =>
+      b.combinedVor -
+      a.combinedVor,
+  )
 
-console.log('')
-console.log(
-  'Opening Pair + Projected 3.12:',
-)
-console.log('')
+  const secondPick =
+    myDraftPlanWithLiveGaps[1]
 
-openingTurnPairOutcomes
-  .slice(0, 10)
-  .forEach((outcome, index) => {
-    const thirdPlayer =
-      outcome.bestPlayerAt312
+  const picksBeforeThirdRoundTurn =
+    secondPick?.livePicksUntilNext ?? 0
 
-    const thirdText =
-      thirdPlayer
-        ? `${thirdPlayer.name} (${thirdPlayer.position})`
-        : 'None'
-
-    console.log(
-      `${index + 1}. ${outcome.playerOne.name} + ${outcome.playerTwo.name} | 3.12: ${thirdText} | Balance +${outcome.rosterBalanceBonus} | Score ${outcome.threePickVor}`,
-    )
-  })
-
-console.log('')
-
-
-
-console.log('')
-console.log('Top Opening Turn Pairs:')
-console.log('')
-
-openingTurnPairs
-  .slice(0, 10)
-  .forEach((pair, index) => {
-    console.log(
-      `${index + 1}. ${pair.playerOne.name} (${pair.playerOne.position}) + ${pair.playerTwo.name} (${pair.playerTwo.position}) | Combined VOR ${pair.combinedVor}`,
-    )
-  })
-
-console.log('')
-
-console.log('')
-console.log(
-  'Simulated Picks Before 1.12:',
-)
-console.log('')
-
-simulatedDraftedBeforeOpening
-  .forEach((player, index) => {
-    console.log(
-      `${index + 1}. ${player.name} | ${player.position}`,
-    )
-  })
-
-console.log('')
-
-
-
-if (openingPick) {
   console.log('')
   console.log(
-    'Opening Pick Decision Board:',
+    `Live picks between 2.01 and 3.12: ${picksBeforeThirdRoundTurn}`,
   )
   console.log('')
 
-  openingAvailablePlayers
-    .slice(0, 15)
-    .forEach((player) => {
-      const decision =
-        getPlayerDecision(
-          player,
-          openingPick.overallPick,
-          openingPick.nextOverallPick,
+  const openingTurnPairOutcomes =
+    openingTurnPairs.map((pair) => {
+      const selectedNames =
+        new Set<string>([
+          pair.playerOne.name,
+          pair.playerTwo.name,
+        ])
+
+      const remainingPlayers =
+        openingAvailablePlayers.filter(
+          (player) =>
+            !selectedNames.has(
+              player.name,
+            ),
         )
 
+      const simulatedTakenBefore312 =
+        remainingPlayers.slice(
+          0,
+          picksBeforeThirdRoundTurn,
+        )
+
+      const simulatedTakenNames =
+        new Set<string>(
+          simulatedTakenBefore312.map(
+            (player) => player.name,
+          ),
+        )
+
+      const availableAt312 =
+        remainingPlayers.filter(
+          (player) =>
+            !simulatedTakenNames.has(
+              player.name,
+            ),
+        )
+
+      const bestPlayerAt312 =
+        availableAt312[0] ?? null
+
+      const positions = [
+        pair.playerOne.position,
+        pair.playerTwo.position,
+      ]
+
+      let rosterBalanceBonus = 0
+
+      if (
+        positions.includes('RB') &&
+        positions.includes('WR')
+      ) {
+        rosterBalanceBonus = 4
+      } else if (
+        positions.includes('RB') &&
+        positions.includes('TE')
+      ) {
+        rosterBalanceBonus = 2
+      } else if (
+        positions.includes('WR') &&
+        positions.includes('TE')
+      ) {
+        rosterBalanceBonus = 2
+      }
+
+      const threePickVor =
+        Number(
+          (
+            pair.combinedVor +
+            (
+              bestPlayerAt312
+                ?.valueOverReplacement ?? 0
+            ) +
+            rosterBalanceBonus
+          ).toFixed(1),
+        )
+
+      return {
+        ...pair,
+        bestPlayerAt312,
+        rosterBalanceBonus,
+        threePickVor,
+      }
+    })
+
+  openingTurnPairOutcomes.sort(
+    (a, b) =>
+      b.threePickVor -
+      a.threePickVor,
+  )
+
+  console.log('')
+  console.log(
+    'Opening Pair + Projected 3.12:',
+  )
+  console.log('')
+
+  openingTurnPairOutcomes
+    .slice(0, 10)
+    .forEach((outcome, index) => {
+      const thirdPlayer =
+        outcome.bestPlayerAt312
+
+      const thirdText =
+        thirdPlayer
+          ? `${thirdPlayer.name} (${thirdPlayer.position})`
+          : 'None'
+
       console.log(
-        `${player.name} | Rank ${player.hondaDraftRank} | ${decision}`,
+        `${index + 1}. ${outcome.playerOne.name} + ${outcome.playerTwo.name} | 3.12: ${thirdText} | Balance +${outcome.rosterBalanceBonus} | Score ${outcome.threePickVor}`,
       )
     })
 
   console.log('')
-}
 
 
-
-console.log('')
-
-console.log('')
-
-
-console.log('')
-
-console.log('')
-
-
-
-console.log('')
-console.log('Keeper Draft Slots:')
-console.log('')
-
-realDraftSlots
-  .filter(
-    (slot) =>
-      slot.isKeeper,
-  )
-  .forEach((slot) => {
-    console.log(
-      `${slot.draftSlot} | Overall ${slot.overallPick} | ${slot.keeper}`,
-    )
-  })
-
-console.log('')
-
-console.log('')
-console.log('Keepers Removed From Availability:')
-console.log('')
-
-leagueDraftConfig.keepers.forEach(
-  (keeper) => {
-    console.log(
-      `${keeper.player} | ${keeper.round}.${String(
-        keeper.pickInRound,
-      ).padStart(2, '0')} | Overall ${keeper.overallPick}`,
-    )
-  },
-)
-
-console.log('')
-console.log(
-  `Available Honda players after keepers: ${availableHondaDraftBoard.length}`,
-)
-console.log('')
-
-console.log('')
-console.log('My Actual Draft Picks:')
-console.log('')
-
-mySnakeDraftPicks.forEach((pick) => {
-  console.log(
-    `Round ${pick.round} | ${pick.draftSlot} | Overall ${pick.overallPick}`,
-  )
-})
-
-
-const draftableOutputPath = path.join(
-  outputFolder,
-  'honda-draftable.json',
-)
-
-fs.writeFileSync(
-  draftableOutputPath,
-  JSON.stringify(
-    hondaDraftBoardWithRound,
-    null,
-    2,
-  )
-)
-
-console.log('')
-console.log(
-  `✅ Draftable player pool written to: ${draftableOutputPath}`,
-)
-
-console.log(
-  `Draftable players: ${hondaDraftBoard.length}`,
-)
-
-const draftablePositionCounts = {
-  QB: hondaDraftBoard.filter(
-    (player) => player.position === 'QB',
-  ).length,
-
-  RB: hondaDraftBoard.filter(
-    (player) => player.position === 'RB',
-  ).length,
-
-  WR: hondaDraftBoard.filter(
-    (player) => player.position === 'WR',
-  ).length,
-
-  TE: hondaDraftBoard.filter(
-    (player) => player.position === 'TE',
-  ).length,
-}
-
-console.log('')
-console.log('Draftable Position Counts:')
-console.log(draftablePositionCounts)
-console.log('')
-
-console.log('')
-console.log('Top 20 Honda Draft Board:')
-console.log('')
-
-hondaDraftBoardWithRound
-  .slice(0, 20)
-  .forEach((player) => {
-    console.log(
-      `${player.hondaDraftRank}. ${player.name} | ${player.position} | Slot ${player.projectedDraftSlot} | VOR ${player.valueOverReplacement}`,
-    )
-  })
-
-console.log('')
-
-
-
-fs.writeFileSync(
-  canonicalOutputPath,
-  JSON.stringify(
-    playersWithDraftValue,
-    null,
-    2,
-  ),
-)
-
-console.log('')
-console.log(
-  `✅ Canonical player pool written to: ${canonicalOutputPath}`,
-)
-
-console.log(
-  `Total canonical players: ${canonicalPlayers.length}`,
-)
-
-console.log('')
-console.log('Honda Position Leaders:')
-console.log('')
-
-for (const position of [
-  'QB',
-  'RB',
-  'WR',
-  'TE',
-]) {
-  const leaders =
-    playersWithVorRank
-      .filter(
-        (player) =>
-          player.position === position,
-      )
-      .sort(
-        (a, b) =>
-          a.hondaPositionRank -
-          b.hondaPositionRank,
-      )
-      .slice(0, 5)
-
-  console.log(`${position}:`)
-
-  leaders.forEach((player) => {
-    console.log(
-      `${player.hondaPositionRank}. ${player.name} | VOR Rank ${player.vorRank} | PTS ${player.hondaProjectedPoints}`,
-    )
-  })
 
   console.log('')
-}
+  console.log('Top Opening Turn Pairs:')
+  console.log('')
+
+  openingTurnPairs
+    .slice(0, 10)
+    .forEach((pair, index) => {
+      console.log(
+        `${index + 1}. ${pair.playerOne.name} (${pair.playerOne.position}) + ${pair.playerTwo.name} (${pair.playerTwo.position}) | Combined VOR ${pair.combinedVor}`,
+      )
+    })
+
+  console.log('')
+
+  console.log('')
+  console.log(
+    'Simulated Picks Before 1.12:',
+  )
+  console.log('')
+
+  simulatedDraftedBeforeOpening
+    .forEach((player, index) => {
+      console.log(
+        `${index + 1}. ${player.name} | ${player.position}`,
+      )
+    })
+
+  console.log('')
+
+
+
+  if (openingPick) {
+    console.log('')
+    console.log(
+      'Opening Pick Decision Board:',
+    )
+    console.log('')
+
+    openingAvailablePlayers
+      .slice(0, 15)
+      .forEach((player) => {
+        const decision =
+          getPlayerDecision(
+            player,
+            openingPick.overallPick,
+            openingPick.nextOverallPick,
+          )
+
+        console.log(
+          `${player.name} | Rank ${player.hondaDraftRank} | ${decision}`,
+        )
+      })
+
+    console.log('')
+  }
+
+
+
+  console.log('')
+
+  console.log('')
+
+
+  console.log('')
+
+  console.log('')
+
+
+
+  console.log('')
+  console.log('Keeper Draft Slots:')
+  console.log('')
+
+  realDraftSlots
+    .filter(
+      (slot) =>
+        slot.isKeeper,
+    )
+    .forEach((slot) => {
+      console.log(
+        `${slot.draftSlot} | Overall ${slot.overallPick} | ${slot.keeper}`,
+      )
+    })
+
+  console.log('')
+
+  console.log('')
+  console.log('Keepers Removed From Availability:')
+  console.log('')
+
+  leagueDraftConfig.keepers.forEach(
+    (keeper) => {
+      console.log(
+        `${keeper.player} | ${keeper.round}.${String(
+          keeper.pickInRound,
+        ).padStart(2, '0')} | Overall ${keeper.overallPick}`,
+      )
+    },
+  )
+
+  console.log('')
+  console.log(
+    `Available Honda players after keepers: ${availableHondaDraftBoard.length}`,
+  )
+  console.log('')
+
+  console.log('')
+  console.log('My Actual Draft Picks:')
+  console.log('')
+
+  mySnakeDraftPicks.forEach((pick) => {
+    console.log(
+      `Round ${pick.round} | ${pick.draftSlot} | Overall ${pick.overallPick}`,
+    )
+  })
+
+
+  const draftableOutputPath = path.join(
+    outputFolder,
+    'honda-draftable.json',
+  )
+
+  fs.writeFileSync(
+    draftableOutputPath,
+    JSON.stringify(
+      hondaDraftBoardWithRound,
+      null,
+      2,
+    )
+  )
+
+  console.log('')
+  console.log(
+    `✅ Draftable player pool written to: ${draftableOutputPath}`,
+  )
+
+  console.log(
+    `Draftable players: ${hondaDraftBoard.length}`,
+  )
+
+  const draftablePositionCounts = {
+    QB: hondaDraftBoard.filter(
+      (player) => player.position === 'QB',
+    ).length,
+
+    RB: hondaDraftBoard.filter(
+      (player) => player.position === 'RB',
+    ).length,
+
+    WR: hondaDraftBoard.filter(
+      (player) => player.position === 'WR',
+    ).length,
+
+    TE: hondaDraftBoard.filter(
+      (player) => player.position === 'TE',
+    ).length,
+  }
+
+  console.log('')
+  console.log('Draftable Position Counts:')
+  console.log(draftablePositionCounts)
+  console.log('')
+
+  console.log('')
+  console.log('Top 20 Honda Draft Board:')
+  console.log('')
+
+  hondaDraftBoardWithRound
+    .slice(0, 20)
+    .forEach((player) => {
+      console.log(
+        `${player.hondaDraftRank}. ${player.name} | ${player.position} | Slot ${player.projectedDraftSlot} | VOR ${player.valueOverReplacement}`,
+      )
+    })
+
+  console.log('')
+
+
+
+  fs.writeFileSync(
+    canonicalOutputPath,
+    JSON.stringify(
+      playersWithDraftValue,
+      null,
+      2,
+    ),
+  )
+
+  console.log('')
+  console.log(
+    `✅ Canonical player pool written to: ${canonicalOutputPath}`,
+  )
+
+  console.log(
+    `Total canonical players: ${canonicalPlayers.length}`,
+  )
+
+  console.log('')
+  console.log('Honda Position Leaders:')
+  console.log('')
+
+  for (const position of [
+    'QB',
+    'RB',
+    'WR',
+    'TE',
+  ]) {
+    const leaders =
+      playersWithVorRank
+        .filter(
+          (player) =>
+            player.position === position,
+        )
+        .sort(
+          (a, b) =>
+            a.hondaPositionRank -
+            b.hondaPositionRank,
+        )
+        .slice(0, 5)
+
+    console.log(`${position}:`)
+
+    leaders.forEach((player) => {
+      console.log(
+        `${player.hondaPositionRank}. ${player.name} | VOR Rank ${player.vorRank} | PTS ${player.hondaProjectedPoints}`,
+      )
+    })
+
+    console.log('')
+  }
 
 }
 
