@@ -45,7 +45,7 @@ export default function WarRoom({
     draftStory,
 }: WarRoomProps) {
 
-    
+
     const myRosterNames =
         managerRosters['You'] ?? []
 
@@ -1184,119 +1184,391 @@ export default function WarRoom({
             </div>
 
             <div className="war-dashboard-grid lower-war-grid">
-                <section className="panel">
-                    <p className="eyebrow">Draft Order</p>
-                    <h3>Honda Managers</h3>
+                <div className="war-dashboard-grid lower-war-grid">
 
-                    <div className="draft-order-list compact-draft-order">
-                        {draftManagers.map((manager) => (
-                            <button
-                                className={
+                    <section className="panel">
+
+                        <div className="compact-panel-header">
+                            <div>
+                                <p className="eyebrow">
+                                    Draft Order
+                                </p>
+
+                                <h3>Honda Managers</h3>
+                            </div>
+
+                            <span className="compact-panel-meta">
+                                {currentManager.name} on clock
+                            </span>
+                        </div>
+
+
+                        <div className="draft-order-list compact-draft-order">
+
+                            {draftManagers.map((manager) => {
+
+                                const roster =
+                                    managerRosters[manager.name] ?? []
+
+                                const isCurrentManager =
                                     manager.id === currentManager.id
-                                        ? 'draft-order-row current-manager manager-detail-button'
-                                        : 'draft-order-row manager-detail-button'
-                                }
-                                key={manager.id}
-                                onClick={() => {
-                                    setSelectedManagerName(manager.name)
-                                    setSelectedPlayerName(null)
-                                }}
-                            >
-                                <span className="draft-slot">
-                                    {manager.id}
-                                </span>
 
-                                <div>
-                                    <strong>{manager.name}</strong>
-                                    <small>{manager.tendency}</small>
-                                </div>
-                            </button>
-                        ))}
-                    </div>
-                </section>
+                                const isHonda =
+                                    manager.name === 'You'
 
-                <section className="panel">
-                    <p className="eyebrow">Draft History</p>
-                    <h3>Recent Picks</h3>
-
-                    <div className="draft-history-list compact-draft-history">
-                        {draftHistory.length === 0 ? (
-                            <p className="empty-state">
-                                No picks have been made yet.
-                            </p>
-                        ) : (
-                            [...draftHistory]
-                                .reverse()
-                                .map((pick) => (
-                                    <div
-                                        className="draft-history-row"
-                                        key={pick.pick}
+                                return (
+                                    <button
+                                        className={
+                                            isCurrentManager
+                                                ? 'draft-order-row current-manager manager-detail-button'
+                                                : 'draft-order-row manager-detail-button'
+                                        }
+                                        key={manager.id}
+                                        onClick={() => {
+                                            setSelectedManagerName(
+                                                manager.name,
+                                            )
+                                            setSelectedPlayerName(null)
+                                        }}
                                     >
-                                        <span className="draft-history-pick">
-                                            {pick.pick}
+
+                                        <span className="draft-slot">
+                                            {manager.id}
                                         </span>
 
-                                        <div>
-                                            <strong>{pick.player}</strong>
-                                            <small>{pick.manager}</small>
+
+                                        <div className="manager-row-info">
+
+                                            <strong>
+                                                {manager.name}
+                                                {isHonda ? ' (You)' : ''}
+                                            </strong>
+
+                                            <small>
+                                                {manager.tendency}
+                                            </small>
+
                                         </div>
-                                    </div>
-                                ))
-                        )}
-                    </div>
-                </section>
+
+
+                                        <div className="manager-row-status">
+
+                                            <strong>
+                                                {roster.length}
+                                            </strong>
+
+                                            <small>
+                                                players
+                                            </small>
+
+                                        </div>
+
+                                    </button>
+                                )
+                            })}
+
+                        </div>
+
+                    </section>
+
+
+                    <section className="panel">
+
+                        <div className="compact-panel-header">
+
+                            <div>
+                                <p className="eyebrow">
+                                    Draft History
+                                </p>
+
+                                <h3>Recent Picks</h3>
+                            </div>
+
+                            <span className="compact-panel-meta">
+                                {draftHistory.length} total
+                            </span>
+
+                        </div>
+
+
+                        <div className="draft-history-list compact-draft-history">
+
+                            {draftHistory.length === 0 ? (
+
+                                <p className="empty-state">
+                                    No picks have been made yet.
+                                </p>
+
+                            ) : (
+
+                                [...draftHistory]
+                                    .reverse()
+                                    .slice(0, 8)
+                                    .map((pick) => {
+
+                                        const draftedPlayer =
+                                            players.find(
+                                                (player) =>
+                                                    player.name ===
+                                                    pick.player,
+                                            )
+
+                                        const pickRound =
+                                            Math.floor(
+                                                (pick.pick - 1) /
+                                                draftManagers.length,
+                                            ) + 1
+
+                                        const pickSlot =
+                                            (
+                                                (pick.pick - 1) %
+                                                draftManagers.length
+                                            ) + 1
+
+                                        return (
+                                            <div
+                                                className="draft-history-row"
+                                                key={pick.pick}
+                                            >
+
+                                                <span className="draft-history-pick">
+                                                    {pickRound}.
+                                                    {String(
+                                                        pickSlot,
+                                                    ).padStart(2, '0')}
+                                                </span>
+
+
+                                                <div className="recent-pick-player">
+
+                                                    <strong>
+                                                        {pick.player}
+                                                    </strong>
+
+                                                    <small>
+                                                        {draftedPlayer?.position ??
+                                                            '—'}
+                                                        {' · '}
+                                                        {pick.manager}
+                                                    </small>
+
+                                                </div>
+
+                                            </div>
+                                        )
+                                    })
+
+                            )}
+
+                        </div>
+
+                    </section>
+
+                </div>
             </div>
             <section className="panel">
-                <p className="eyebrow">Honda Draft Story</p>
-                <h3>Live Draft Narrative</h3>
+
+                <div className="compact-panel-header">
+                    <div>
+                        <p className="eyebrow">
+                            Honda Draft Story
+                        </p>
+
+                        <h3>Live Draft Narrative</h3>
+                    </div>
+
+                    <span className="compact-panel-meta">
+                        {draftStory.length} events
+                    </span>
+                </div>
+
 
                 {draftStory.length === 0 ? (
+
                     <p className="empty-state">
                         No major draft events yet.
                     </p>
+
                 ) : (
-                    <div className="draft-story-list">
+
+                    <div className="draft-story-list compact-story-list">
+
                         {draftStory
-                            .slice(-5)
+                            .slice(-6)
                             .reverse()
                             .map((event, index) => (
+
                                 <div
                                     className={`draft-story-event story-${event.type}`}
                                     key={`${event.title}-${index}`}
                                 >
-                                    <strong>{event.title}</strong>
-                                    <p>{event.description}</p>
+
+                                    <span className="story-marker" />
+
+                                    <div className="story-content">
+
+                                        <strong>
+                                            {event.title}
+                                        </strong>
+
+                                        <p>
+                                            {event.description}
+                                        </p>
+
+                                    </div>
+
                                 </div>
+
                             ))}
+
                     </div>
+
                 )}
+
             </section>
             <section className="panel war-review-panel">
+
                 <div className="war-review-header">
+
                     <div>
-                        <p className="eyebrow">War Room Checklist</p>
-                        <h3>Final Review</h3>
+                        <p className="eyebrow">
+                            Final Review
+                        </p>
+
+                        <h3>
+                            Ready to Draft?
+                        </h3>
                     </div>
 
-                    <span className="on-clock-label">
-                        {currentManager.name} · Pick {roundNumber}.
-                        {String(pickInRound).padStart(2, '0')}
-                    </span>
+                    <div className="review-pick-status">
+
+                        <span>
+                            Pick
+                        </span>
+
+                        <strong>
+                            {roundNumber}.
+                            {String(
+                                pickInRound,
+                            ).padStart(2, '0')}
+                        </strong>
+
+                        <small>
+                            {currentManager.name}
+                        </small>
+
+                    </div>
+
                 </div>
 
-                <div className="checklist">
-                    <ChecklistItem text="Tier break reviewed" />
-                    <ChecklistItem text="Honda ADP checked" />
-                    <ChecklistItem text="Manager tendencies reviewed" />
-                    <ChecklistItem text="Roster construction approved" />
+
+                <div className="review-summary-grid">
+
+                    <div className="review-summary-card">
+
+                        <span>
+                            Recommendation
+                        </span>
+
+                        <strong>
+                            {recommendation?.name ??
+                                'No recommendation'}
+                        </strong>
+
+                        <small>
+                            {recommendation?.position}
+                            {' · '}
+                            {recommendation?.team}
+                        </small>
+
+                    </div>
+
+
+                    <div className="review-summary-card">
+
+                        <span>
+                            Draft Command
+                        </span>
+
+                        <strong>
+                            {hondaForecast.advice}
+                        </strong>
+
+                        <small>
+                            {hondaConfidence.score}% confidence
+                        </small>
+
+                    </div>
+
+
+                    <div className="review-summary-card">
+
+                        <span>
+                            Survival
+                        </span>
+
+                        <strong>
+                            {hondaForecast.survivalPercent.toFixed(0)}%
+                        </strong>
+
+                        <small>
+                            to next Honda pick
+                        </small>
+
+                    </div>
+
+
+                    <div className="review-summary-card">
+
+                        <span>
+                            Cost of Waiting
+                        </span>
+
+                        <strong>
+                            {hondaForecast.costOfWaiting > 0
+                                ? `${hondaForecast.costOfWaiting.toFixed(1)} pts`
+                                : '0.0 pts'}
+                        </strong>
+
+                        <small>
+                            Honda value
+                        </small>
+
+                    </div>
+
                 </div>
+
+
+                <div className="review-checklist">
+
+                    <ChecklistItem
+                        text="Tier break reviewed"
+                    />
+
+                    <ChecklistItem
+                        text="Honda ADP checked"
+                    />
+
+                    <ChecklistItem
+                        text="Manager tendencies reviewed"
+                    />
+
+                    <ChecklistItem
+                        text="Roster construction approved"
+                    />
+
+                </div>
+
 
                 <div className="war-actions">
+
                     <button
                         className="draft-button primary-action"
                         onClick={() =>
                             recommendation &&
-                            onDraftPlayer(recommendation.name)
+                            onDraftPlayer(
+                                recommendation.name,
+                            )
                         }
                     >
                         Draft {recommendation?.name}
@@ -1304,11 +1576,15 @@ export default function WarRoom({
 
                     <button
                         className="draft-button secondary-action"
-                        onClick={onSimulateNextPick}
+                        onClick={
+                            onSimulateNextPick
+                        }
                     >
                         Sim Next Pick
                     </button>
+
                 </div>
+
             </section>
             {selectedManager && (
                 <aside className="player-detail-panel">

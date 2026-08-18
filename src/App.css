@@ -2683,3 +2683,237 @@ nav button.active {
         display: none;
     }
 }
+.compact-panel-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.compact-panel-meta {
+    font-size: 10px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+
+.manager-row-info,
+.recent-pick-player {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.manager-row-info small,
+.recent-pick-player small {
+    margin-top: 2px;
+    font-size: 10px;
+    opacity: 0.62;
+}
+
+.manager-row-status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.manager-row-status strong {
+    font-size: 12px;
+}
+
+.manager-row-status small {
+    font-size: 9px;
+    opacity: 0.55;
+}
+
+.compact-draft-order,
+.compact-draft-history {
+    margin-top: 10px;
+}
+
+.compact-draft-order {
+    max-height: 270px;
+    overflow-y: auto;
+}
+
+.compact-draft-history {
+    max-height: 270px;
+    overflow-y: auto;
+}
+
+.draft-history-row {
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.draft-history-pick {
+    display: grid;
+    place-items: center;
+    min-height: 28px;
+    border-radius: 14px;
+    background: #182840;
+    color: white;
+    font-size: 9px;
+    font-weight: 800;
+}
+.compact-story-list {
+    display: grid;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.draft-story-event {
+    display: grid;
+    grid-template-columns: 4px minmax(0, 1fr);
+    gap: 10px;
+    align-items: stretch;
+    padding: 9px 10px;
+    border: 1px solid #e5eaf1;
+    border-radius: 7px;
+    background: #fff;
+}
+
+.story-marker {
+    width: 4px;
+    border-radius: 4px;
+    background: #9aa8bb;
+}
+
+.story-content {
+    min-width: 0;
+}
+
+.story-content strong {
+    display: block;
+    font-size: 11px;
+}
+
+.story-content p {
+    margin: 3px 0 0;
+    font-size: 10px;
+    line-height: 1.35;
+    opacity: 0.68;
+}
+
+.story-positive .story-marker,
+.story-target .story-marker {
+    background: #24a148;
+}
+
+.story-warning .story-marker,
+.story-threat .story-marker {
+    background: #e99a18;
+}
+
+.story-negative .story-marker,
+.story-snipe .story-marker {
+    background: #d83b36;
+}
+
+.story-info .story-marker {
+    background: #2458d3;
+}
+.war-review-panel {
+    margin-top: 12px;
+}
+
+.war-review-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.review-pick-status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.review-pick-status span,
+.review-pick-status small {
+    font-size: 10px;
+    opacity: 0.62;
+}
+
+.review-pick-status strong {
+    margin: 2px 0;
+    font-size: 18px;
+}
+
+.review-summary-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.review-summary-card {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 14px;
+    border: 1px solid #dbe3ef;
+    border-radius: 7px;
+    background: #f8fafc;
+}
+
+.review-summary-card span {
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.58;
+}
+
+.review-summary-card strong {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.review-summary-card small {
+    margin-top: 3px;
+    font-size: 10px;
+    opacity: 0.62;
+}
+
+.review-checklist {
+    display: grid;
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.war-actions {
+    display: grid;
+    grid-template-columns:
+        minmax(0, 1fr)
+        auto;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.war-actions .primary-action {
+    min-height: 38px;
+}
+
+.war-actions .secondary-action {
+    min-width: 120px;
+}
+
+@media (max-width: 900px) {
+    .review-summary-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 650px) {
+    .review-summary-grid,
+    .review-checklist,
+    .war-actions {
+        grid-template-columns: 1fr;
+    }
+}
