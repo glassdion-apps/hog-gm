@@ -2964,6 +2964,34 @@ function main() {
       openingAvailablePlayers,
     )
 
+  const projectedRosterBySlot =
+    new Map<
+      string,
+      {
+        QB: number
+        RB: number
+        WR: number
+        TE: number
+      }
+    >()
+
+  for (
+    const turn of
+    projectedHondaDraftPath
+  ) {
+    if (
+      turn.secondDraftSlot &&
+      turn.rosterAfterTurn
+    ) {
+      projectedRosterBySlot.set(
+        turn.secondDraftSlot,
+        turn.rosterAfterTurn,
+      )
+    }
+  }
+
+
+
   console.log('')
   console.log(
     'Projected Honda Draft Path:',
@@ -3133,9 +3161,73 @@ function main() {
     ) {
       return Number(
         (
-          (1 - survivalRate) * 20
+          (1 - survivalRate) * 12
         ).toFixed(1),
       )
+    }
+
+    function getPositionNeedScore(
+      position: 'QB' | 'RB' | 'WR' | 'TE',
+      roster: {
+        QB: number
+        RB: number
+        WR: number
+        TE: number
+      },
+      turnNumber: number,
+    ) {
+      const remainingNeed =
+        rosterTargets[position] -
+        roster[position]
+
+      /*
+       * Position is already completely filled.
+       * Late draft QB/TE duplicates get the
+       * strongest penalty.
+       */
+      if (remainingNeed <= 0) {
+        if (
+          turnNumber >= 6 &&
+          position === 'TE'
+        ) {
+          return -16
+        }
+
+        if (
+          turnNumber >= 6 &&
+          position === 'QB'
+        ) {
+          return -14
+        }
+
+        return -10
+      }
+
+      /*
+       * Still need one player at position.
+       */
+      if (remainingNeed === 1) {
+        if (
+          position === 'RB' ||
+          position === 'WR'
+        ) {
+          return 5
+        }
+
+        return 2
+      }
+
+      /*
+       * Still need two players.
+       */
+      if (remainingNeed === 2) {
+        return 4
+      }
+
+      /*
+       * Large remaining roster need.
+       */
+      return 6
     }
 
     console.log('')
@@ -3161,11 +3253,22 @@ function main() {
           pick.draftSlot,
         )
 
+      const projectedRoster =
+        projectedRosterBySlot.get(
+          pick.draftSlot,
+        ) ?? {
+          QB: 0,
+          RB: 0,
+          WR: 0,
+          TE: 0,
+        }
+
+
       if (!slotRisk) {
         continue
       }
 
-      const players =
+      const scoredPlayers =
         [...slotRisk.entries()]
           .map(
             ([playerName, stats]) => {
@@ -3196,11 +3299,35 @@ function main() {
                   ) / 10
                   : 0
 
+              const position =
+                player?.position as
+                | 'QB'
+                | 'RB'
+                | 'WR'
+                | 'TE'
+                | undefined
+
+              const positionNeedScore =
+                position
+                  ? getPositionNeedScore(
+                    position,
+                    projectedRoster,
+                    Math.floor(
+                      (
+                        pick.round + 1
+                      ) / 2,
+                    ),
+                  )
+                  : 0
+
+
+
               const decisionScore =
                 Number(
                   (
                     playerValueScore +
-                    urgencyScore
+                    urgencyScore +
+                    positionNeedScore
                   ).toFixed(1),
                 )
 
@@ -3209,6 +3336,8 @@ function main() {
                 hondaDraftRank:
                   player?.hondaDraftRank ??
                   999,
+                position:
+                  position ?? 'UNKNOWN',
                 available:
                   stats.available,
                 survived:
@@ -3217,6 +3346,7 @@ function main() {
                 urgencyScore,
                 playerValueScore,
                 decisionScore,
+                positionNeedScore,
               }
             },
           )
@@ -3236,17 +3366,23 @@ function main() {
               b.hondaDraftRank
             )
           })
+      const players =
+        scoredPlayers
           .slice(0, 12)
-
       console.log(
         `${pick.draftSlot} → ${pick.nextDraftSlot} | ${pick.livePicksUntilNext} live picks:`,
       )
 
       const recommendedPlayers =
-        players
+        scoredPlayers
           .filter(
             (player) =>
-              player.available >= 20,
+              player.available >= 30,
+          )
+          .sort(
+            (a, b) =>
+              b.decisionScore -
+              a.decisionScore,
           )
           .slice(0, 3)
 
@@ -3279,8 +3415,22 @@ function main() {
               action = 'WAIT'
             }
 
+            const needText =
+              player.positionNeedScore > 0
+                ? `+${player.positionNeedScore}`
+                : `${player.positionNeedScore}`
+
+            const availabilityPercent =
+              Number(
+                (
+                  player.available /
+                  simulationCount *
+                  100
+                ).toFixed(1),
+              )
+
             console.log(
-              `    ${index + 1}. ${action}: ${player.playerName} | Score ${player.decisionScore} | Survival ${survivalPercent}%`,
+              `    ${index + 1}. ${action}: ${player.playerName} (${player.position}) | Rank ${player.hondaDraftRank} | Available ${availabilityPercent}% | Survival ${player.survived}/${player.available} (${survivalPercent}%) | Need ${needText} | Score ${player.decisionScore}`,
             )
           },
         )
@@ -3303,12 +3453,21 @@ function main() {
             | 'BORDERLINE'
             | 'SAFE TO WAIT'
             | 'LOW SAMPLE'
+            | 'PASS'
 
           if (player.available < 20) {
             decision = 'LOW SAMPLE'
-          } else if (survivalPercent < 35) {
+          } else if (
+            player.positionNeedScore <= -10
+          ) {
+            decision = 'PASS'
+          } else if (
+            player.decisionScore >= 15 &&
+            survivalPercent < 35
+          ) {
             decision = 'TAKE NOW'
           } else if (
+            player.decisionScore >= 8 &&
             survivalPercent < 70
           ) {
             decision = 'BORDERLINE'
@@ -3317,7 +3476,7 @@ function main() {
           }
 
           console.log(
-            `  ${index + 1}. ${player.playerName} | Rank ${player.hondaDraftRank} | Survives ${player.survived}/${player.available} | ${survivalPercent}% | ${decision}`,
+            `  ${index + 1}. ${player.playerName} | Rank ${player.hondaDraftRank} | Survives ${player.survived}/${player.available} | ${survivalPercent}% | Need ${player.positionNeedScore} | Score ${player.decisionScore} | ${decision}`,
           )
         },
       )
