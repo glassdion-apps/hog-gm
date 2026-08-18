@@ -45,10 +45,7 @@ export default function WarRoom({
     draftStory,
 }: WarRoomProps) {
 
-    const availablePlayers = players.filter(
-        (player) => !draftedPlayerNames.includes(player.name),
-    )
-
+    
     const myRosterNames =
         managerRosters['You'] ?? []
 
@@ -113,11 +110,6 @@ export default function WarRoom({
 
     const riskBonus = decision?.riskBonus ?? 0
     const hondaEdge = decision?.hondaEdge ?? 0
-    const liveRankings =
-        getHondaRankings(
-            draftedPlayerNames,
-            liveRosterCounts,
-        ).slice(0, 5)
 
     const positionalScarcity =
         decision?.positionalScarcity ?? 'Low'
@@ -136,9 +128,27 @@ export default function WarRoom({
     const managerSnipeRisk =
         decision?.managerSnipeRisk ?? 'Low'
 
-    const alternatives = availablePlayers
-        .filter((player) => player.name !== recommendation?.name)
-        .slice(0, 4)
+    const allLiveRankings =
+        getHondaRankings(
+            draftedPlayerNames,
+            liveRosterCounts,
+        )
+
+    const liveRankings =
+        allLiveRankings.slice(0, 5)
+
+    const alternatives =
+        allLiveRankings
+            .filter(
+                (entry) =>
+                    entry.player.name !==
+                    recommendation?.name,
+            )
+            .slice(0, 4)
+            .map(
+                (entry) =>
+                    entry.player,
+            )
     const currentManager =
         draftManagers[currentPickIndex % draftManagers.length]
 
@@ -839,31 +849,98 @@ export default function WarRoom({
                     <h3>Top Available Players</h3>
 
                     <div className="live-rankings-list">
-                        {liveRankings.map((entry, index) => (
-                            <button
-                                className="live-ranking-row live-ranking-button"
-                                key={entry.player.name}
-                                onClick={() => {
-                                    setSelectedPlayerName(entry.player.name)
-                                    setSelectedManagerName(null)
-                                }}
-                            >
-                                <span className="live-ranking-number">
-                                    #{index + 1}
-                                </span>
 
-                                <div>
-                                    <strong>{entry.player.name}</strong>
-                                    <small>
-                                        {entry.player.position} · {entry.player.tier}
-                                    </small>
-                                </div>
+                        {liveRankings.map((entry, index) => {
+                            const player = entry.player
 
-                                <strong className="live-ranking-score">
-                                    {entry.score.toFixed(1)}
-                                </strong>
-                            </button>
-                        ))}
+                            const projectedPoints =
+                                player.hondaProjectedPoints ??
+                                player.projectedPoints ??
+                                0
+
+                            const vor =
+                                player.valueOverReplacement ??
+                                0
+
+                            const hondaRank =
+                                player.hondaDraftRank ??
+                                player.rank
+
+                            return (
+                                <button
+                                    className="live-ranking-row live-ranking-button"
+                                    key={player.name}
+                                    onClick={() => {
+                                        setSelectedPlayerName(
+                                            player.name,
+                                        )
+                                        setSelectedManagerName(null)
+                                    }}
+                                >
+
+                                    <span className="live-ranking-number">
+                                        #{index + 1}
+                                    </span>
+
+
+                                    <div className="live-ranking-player">
+
+                                        <strong>
+                                            {player.name}
+                                        </strong>
+
+                                        <small>
+                                            {player.position}
+                                            {' · '}
+                                            {player.team}
+                                            {' · '}
+                                            Honda #{hondaRank}
+                                        </small>
+
+                                    </div>
+
+
+                                    <div className="live-ranking-stat">
+
+                                        <span>Proj</span>
+
+                                        <strong>
+                                            {projectedPoints.toFixed(1)}
+                                        </strong>
+
+                                    </div>
+
+
+                                    <div className="live-ranking-stat">
+
+                                        <span>VOR</span>
+
+                                        <strong className={
+                                            vor >= 0
+                                                ? 'positive-value'
+                                                : ''
+                                        }>
+                                            {vor >= 0 ? '+' : ''}
+                                            {vor.toFixed(1)}
+                                        </strong>
+
+                                    </div>
+
+
+                                    <div className="live-ranking-stat live-ranking-score">
+
+                                        <span>Honda</span>
+
+                                        <strong>
+                                            {entry.score.toFixed(1)}
+                                        </strong>
+
+                                    </div>
+
+                                </button>
+                            )
+                        })}
+
                     </div>
                 </section>
                 {selectedPlayer && (
@@ -1049,10 +1126,7 @@ export default function WarRoom({
                         {alternatives.map((player) => {
 
                             const rankingEntry =
-                                getHondaRankings(
-                                    draftedPlayerNames,
-                                    liveRosterCounts,
-                                ).find(
+                                allLiveRankings.find(
                                     (entry) =>
                                         entry.player.name ===
                                         player.name,

@@ -2618,3 +2618,68 @@ nav button.active {
     font-size: 9px;
     opacity: 0.6;
 }
+.live-ranking-row {
+    display: grid;
+    grid-template-columns:
+        34px
+        minmax(180px, 1fr)
+        70px
+        70px
+        72px;
+    gap: 10px;
+    align-items: center;
+}
+
+.live-ranking-player {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.live-ranking-player strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.live-ranking-player small {
+    margin-top: 2px;
+    font-size: 10px;
+    opacity: 0.62;
+}
+
+.live-ranking-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.live-ranking-stat span {
+    font-size: 8px;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.55;
+}
+
+.live-ranking-stat strong {
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.live-ranking-score strong {
+    font-size: 14px;
+    color: #2458d3;
+}
+
+@media (max-width: 900px) {
+    .live-ranking-row {
+        grid-template-columns:
+            30px
+            minmax(150px, 1fr)
+            65px;
+    }
+
+    .live-ranking-stat:not(.live-ranking-score) {
+        display: none;
+    }
+}
