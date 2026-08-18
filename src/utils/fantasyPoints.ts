@@ -1,11 +1,14 @@
 export type ProjectedStats = {
   // Passing
+  passingAttempts?: number
+  passingCompletions?: number
   passingYards?: number
   passingTouchdowns?: number
   interceptions?: number
   passingTwoPointConversions?: number
 
   // Rushing
+  rushingAttempts?: number
   rushingYards?: number
   rushingTouchdowns?: number
   rushingTwoPointConversions?: number

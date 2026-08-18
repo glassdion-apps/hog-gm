@@ -25,25 +25,6 @@ type WarRoomProps = {
     draftStory: DraftStoryEvent[]
 }
 
-function DecisionFactor({
-    label,
-    value,
-    positive = false,
-}: {
-    label: string
-    value: string
-    positive?: boolean
-}) {
-    return (
-        <div className="decision-factor">
-            <span>{label}</span>
-
-            <strong className={positive ? 'positive-value' : ''}>
-                {value}
-            </strong>
-        </div>
-    )
-}
 
 function ChecklistItem({ text }: { text: string }) {
     return (
@@ -105,8 +86,31 @@ export default function WarRoom({
     const recommendation = decision?.player
 
     const decisionScore = decision?.decisionScore ?? 0
-    const baseScore = decision?.baseScore ?? 0
+    const seasonProjectedPoints =
+        recommendation?.hondaProjectedPoints ??
+        recommendation?.projectedPoints ??
+        0
+
+    const projectedPointsPerGame =
+        seasonProjectedPoints / 17
     const adpBonus = decision?.adpBonus ?? 0
+    const replacementPoints =
+        recommendation?.replacementPoints ?? 0
+
+    const valueOverReplacement =
+        recommendation?.valueOverReplacement ?? 0
+
+    const hondaRank =
+        recommendation?.hondaDraftRank ??
+        recommendation?.rank ??
+        0
+
+    const overallRank =
+        recommendation?.fantasyProsRank ??
+        recommendation?.publicAdpOverall ??
+        0
+
+
     const riskBonus = decision?.riskBonus ?? 0
     const hondaEdge = decision?.hondaEdge ?? 0
     const liveRankings =
@@ -118,8 +122,16 @@ export default function WarRoom({
     const positionalScarcity =
         decision?.positionalScarcity ?? 'Low'
 
+    const hondaForecast = getHondaForecast({
+        currentPickIndex,
+        managerRosters,
+        draftedPlayerNames,
+        currentDecisionScore: decisionScore,
+        liveRosterCounts,
+    })
+
     const survivalChance =
-        decision?.survivalChance ?? 0
+        hondaForecast?.survivalPercent ?? 0
 
     const managerSnipeRisk =
         decision?.managerSnipeRisk ?? 'Low'
@@ -191,66 +203,218 @@ export default function WarRoom({
         positionalScarcity,
     })
 
-    const hondaForecast = getHondaForecast({
-        currentPickIndex,
-        managerRosters,
-        draftedPlayerNames,
-        currentDecisionScore: decisionScore,
+    const heroGrade =
+        hondaConfidence.score >= 93
+            ? 'A+'
+            : hondaConfidence.score >= 88
+                ? 'A'
+                : hondaConfidence.score >= 82
+                    ? 'A-'
+                    : hondaConfidence.score >= 76
+                        ? 'B+'
+                        : 'B'
+
+    const rosterTargets = {
+        QB: 2,
+        RB: 5,
+        WR: 6,
+        TE: 2,
+    } as const
+
+    const positionNeeds = (
+        ['RB', 'WR', 'QB', 'TE'] as const
+    ).map((position) => {
+        const remaining =
+            Math.max(
+                0,
+                rosterTargets[position] -
+                liveRosterCounts[position],
+            )
+
+        let level:
+            | 'Critical'
+            | 'High'
+            | 'Medium'
+            | 'Low'
+
+        if (remaining >= 4) {
+            level = 'Critical'
+        } else if (remaining === 3) {
+            level = 'High'
+        } else if (remaining === 2) {
+            level = 'Medium'
+        } else {
+            level = 'Low'
+        }
+
+        return {
+            position,
+            remaining,
+            level,
+        }
     })
+
+    const biggestDropRisk =
+        hondaForecast.picks.find(
+            (pick) =>
+                pick.player !== recommendation?.name &&
+                pick.player !==
+                hondaForecast.futureRecommendation?.name,
+        ) ??
+        hondaForecast.picks.find(
+            (pick) =>
+                pick.player !== recommendation?.name,
+        ) ??
+        null
 
     return (
 
 
 
         <div className="war-room">
+            <section className="war-decision war-decision-hero">
 
-            <section className="war-decision">
-                <div>
+                <div className="hero-player">
+
                     <p className="eyebrow light">
-                        On the clock · Pick {roundNumber}.
-                        {String(pickInRound).padStart(2, '0')} · {currentManager.name}
+                        On the Clock
                     </p>
 
                     <h2>{recommendation?.name}</h2>
 
-                    <p>
-                        Take the elite positional advantage now. Do not assume he survives
-                        until your next selection.
-                    </p>
+                    <div className="hero-player-meta">
+                        <strong>
+                            {recommendation?.position} · {recommendation?.team}
+                        </strong>
+
+                        <span>
+                            {recommendation?.tier}
+                        </span>
+                    </div>
+
+                    <div className="hero-pick-meta">
+                        <strong>
+                            Pick {roundNumber}.
+                            {String(pickInRound).padStart(2, '0')}
+                            {' · '}
+                            Round {roundNumber}
+                        </strong>
+                    </div>
+
+                    <div className="hero-ranks">
+                        <span>
+                            Overall Rank: #{overallRank}
+                        </span>
+
+                        <span>
+                            Honda Rank: #{hondaRank}
+                        </span>
+
+                        <span>
+                            Projection: {seasonProjectedPoints.toFixed(1)} pts
+                        </span>
+                    </div>
+
                 </div>
 
-                <div className="war-command">
-                    <span>Draft Command</span>
 
-                    <strong>
-                        {hondaExplanation.urgency === 'VERY HIGH'
-                            ? 'TARGET NOW'
-                            : recommendation?.action}
-                    </strong>
+                <div className="hero-metrics">
 
-                    <div className="honda-confidence">
-                        <span>Honda Confidence</span>
+                    <div className="hero-metric">
+                        <span>Projected Points</span>
 
                         <strong>
-                            {hondaConfidence.score}%
+                            {seasonProjectedPoints.toFixed(1)}
                         </strong>
-                        <div className="honda-confidence-bar">
-                            <div
-                                className="honda-confidence-fill"
-                                style={{ width: `${hondaConfidence.score}%` }}
-                            />
-                        </div>
+
+                        <small>pts</small>
+                    </div>
+
+
+                    <div className="hero-metric">
+                        <span>Vs Replacement</span>
+
+                        <strong className="positive-value">
+                            {valueOverReplacement >= 0 ? '+' : ''}
+                            {valueOverReplacement.toFixed(1)}
+                        </strong>
 
                         <small>
-                            {hondaConfidence.label}
+                            Replacement: {replacementPoints.toFixed(1)}
                         </small>
                     </div>
 
-                    <p className="war-command-reason">
-                        {hondaExplanation.bullets[0] ??
-                            'Best available Honda value.'}
-                    </p>
+
+                    <div className="hero-metric">
+                        <span>Honda Edge</span>
+
+                        <strong className={
+                            hondaEdge >= 0
+                                ? 'positive-value'
+                                : ''
+                        }>
+                            {hondaEdge >= 0 ? '+' : ''}
+                            {hondaEdge.toFixed(1)}
+                        </strong>
+
+                        <small>
+                            Honda vs market
+                        </small>
+                    </div>
+
+
+                    <div className="hero-grade">
+
+                        <span>Grade</span>
+
+                        <div className="hero-grade-ring">
+                            {heroGrade}
+                        </div>
+
+                    </div>
+
                 </div>
+
+
+                <div className="hero-forecast">
+
+                    <p className="eyebrow light">
+                        Honda Forecast
+                    </p>
+
+                    <div className="hero-forecast-row">
+                        <span>Draft Command</span>
+
+                        <strong>
+                            {hondaForecast.advice}
+                        </strong>
+                    </div>
+
+                    <div className="hero-forecast-row">
+                        <span>Survival</span>
+
+                        <strong>
+                            {hondaForecast.survivalPercent.toFixed(0)}%
+                        </strong>
+                    </div>
+
+                    <div className="hero-forecast-row">
+                        <span>Next Pick</span>
+
+                        <strong>
+                            {hondaForecast.picksUntilNextHondaPick} picks
+                        </strong>
+                    </div>
+
+                    <div className="hero-forecast-divider" />
+
+                    <small>
+                        Based on current roster, rankings,
+                        projections, and simulated draft risk.
+                    </small>
+
+                </div>
+
             </section>
 
             {/* NEW PANEL GOES HERE */}
@@ -272,26 +436,157 @@ export default function WarRoom({
                 <section className="panel forecast-panel">
                     <div className="forecast-header">
                         <div>
-                            <p className="eyebrow">Honda Forecast</p>
-                            <h3>If You Wait</h3>
+                            <p className="eyebrow">
+                                Honda Forecast
+                            </p>
+
+                            <h3>Immediate Targets</h3>
                         </div>
+
+                        <span className="forecast-next-pick">
+                            {hondaForecast.picksUntilNextHondaPick} picks until next turn
+                        </span>
                     </div>
 
-                    <div className="forecast-list">
+                    <div className="immediate-target-grid">
+
+                        <div className="immediate-target-card">
+
+                            <span className="target-card-label">
+                                If You Wait
+                            </span>
+
+                            <strong>
+                                {hondaForecast.futureRecommendation?.name ??
+                                    'No safe fallback'}
+                            </strong>
+
+                            <small>
+                                {hondaForecast.futureRecommendation?.position ??
+                                    '—'}
+                                {' · '}
+                                {hondaForecast.futureSurvivalPercent.toFixed(0)}% survival
+                            </small>
+
+                            <div className="target-card-value">
+                                Honda {hondaForecast.projectedScore.toFixed(1)}
+                            </div>
+
+                        </div>
+
+
+                        <div className="immediate-target-card">
+
+                            <span className="target-card-label">
+                                Biggest Drop
+                            </span>
+
+                            <strong>
+                                {biggestDropRisk?.player ??
+                                    'No major drop'}
+                            </strong>
+
+                            <small>
+                                {biggestDropRisk
+                                    ? `${biggestDropRisk.position} · ${biggestDropRisk.confidence}% chance gone`
+                                    : 'No major threat detected'}
+                            </small>
+
+                            <div className="target-card-value danger-value">
+                                {biggestDropRisk
+                                    ? `${biggestDropRisk.confidence}% at risk`
+                                    : '—'}
+                            </div>
+
+                        </div>
+
+
+                        <div className="immediate-target-card">
+
+                            <span className="target-card-label">
+                                Current Target
+                            </span>
+
+                            <strong>
+                                {recommendation?.name}
+                            </strong>
+
+                            <small>
+                                {recommendation?.position}
+                                {' · '}
+                                {hondaForecast.survivalPercent.toFixed(0)}% survival
+                            </small>
+
+                            <div className="target-card-value">
+                                Honda {decisionScore.toFixed(1)}
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="position-needs-section">
+
+                        <span className="target-card-label">
+                            Position Needs
+                        </span>
+
+                        <div className="position-needs-grid">
+
+                            {positionNeeds.map((need) => (
+                                <div
+                                    className="position-need-card"
+                                    key={need.position}
+                                >
+                                    <strong>
+                                        {need.position}
+                                    </strong>
+
+                                    <span
+                                        className={`position-need-level need-${need.level.toLowerCase()}`}
+                                    >
+                                        {need.level}
+                                    </span>
+
+                                    <small>
+                                        Need {need.remaining} more
+                                    </small>
+                                </div>
+                            ))}
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="forecast-risk-strip">
+
                         {hondaForecast.picks.map((pick) => (
                             <div
-                                className="forecast-row"
-                                key={pick.manager}
+                                className="forecast-risk-player"
+                                key={pick.player}
                             >
-                                <strong>{pick.manager}</strong>
+                                <div>
+                                    <span>{pick.manager}</span>
 
-                                <span>
-                                    {pick.position} · {pick.confidence}% confidence
-                                </span>
+                                    <strong>
+                                        {pick.player}
+                                    </strong>
+                                </div>
 
-                                <strong>{pick.player}</strong>
+                                <div>
+                                    <strong>
+                                        {pick.confidence}%
+                                    </strong>
+
+                                    <small>
+                                        chance gone
+                                    </small>
+                                </div>
                             </div>
                         ))}
+
                     </div>
                     {hondaForecast.futureRecommendation && (
                         <div className="forecast-result">
@@ -318,7 +613,13 @@ export default function WarRoom({
                                     </strong>
 
                                     <small>
-                                        {decisionScore.toFixed(1)}
+                                        Honda {decisionScore.toFixed(1)}
+                                    </small>
+
+                                    <small>
+                                        {hondaForecast.currentSeasonProjection.toFixed(1)} pts
+                                        {' · '}
+                                        {hondaForecast.currentPointsPerGame.toFixed(1)} / game
                                     </small>
 
                                 </div>
@@ -332,7 +633,13 @@ export default function WarRoom({
                                     </strong>
 
                                     <small>
-                                        {hondaForecast.projectedScore.toFixed(1)}
+                                        Honda {hondaForecast.projectedScore.toFixed(1)}
+                                    </small>
+
+                                    <small>
+                                        {hondaForecast.futureSeasonProjection.toFixed(1)} pts
+                                        {' · '}
+                                        {hondaForecast.futurePointsPerGame.toFixed(1)} / game
                                     </small>
 
                                 </div>
@@ -340,15 +647,51 @@ export default function WarRoom({
                             </div>
 
                             <div className="forecast-cost">
-
-                                Cost of Waiting
+                                Picks Until Next Turn
 
                                 <strong>
-                                    {hondaForecast.costOfWaiting.toFixed(1)}
+                                    {hondaForecast.picksUntilNextHondaPick}
                                 </strong>
-
                             </div>
 
+                            <div className="forecast-cost">
+                                Current Player Survival
+
+                                <strong>
+                                    {hondaForecast.survivalPercent.toFixed(1)}%
+                                </strong>
+                            </div>
+
+                            <div className="forecast-cost">
+                                If-You-Wait Survival
+
+                                <strong>
+                                    {hondaForecast.futureSurvivalPercent.toFixed(1)}%
+                                </strong>
+                            </div>
+
+                            <div className="forecast-cost">
+                                Honda Value Lost If You Wait
+
+                                <strong>
+                                    {hondaForecast.costOfWaiting > 0
+                                        ? `${hondaForecast.costOfWaiting.toFixed(1)} pts`
+                                        : hondaForecast.costOfWaiting < 0
+                                            ? `Gain ${Math.abs(hondaForecast.costOfWaiting).toFixed(1)} pts`
+                                            : '0.0 pts'}
+                                </strong>
+                            </div>
+                            <div className="forecast-cost">
+                                Projected Points Lost If You Wait
+
+                                <strong>
+                                    {hondaForecast.projectedPointsLost > 0
+                                        ? `${hondaForecast.projectedPointsLost.toFixed(1)} pts`
+                                        : hondaForecast.projectedPointsLost < 0
+                                            ? `Gain ${Math.abs(hondaForecast.projectedPointsLost).toFixed(1)} pts`
+                                            : '0.0 pts'}
+                                </strong>
+                            </div>
                         </div>
                     )}
                 </section>
@@ -378,60 +721,118 @@ export default function WarRoom({
 
             <div className="war-dashboard-grid">
                 <section className="panel decision-engine-panel">
+
                     <div className="decision-engine-header">
                         <div>
-                            <p className="eyebrow">Honda Intelligence</p>
-                            <h3>Decision Engine</h3>
-                        </div>
+                            <p className="eyebrow">
+                                Honda Intelligence
+                            </p>
 
-                        <div className="decision-engine-score">
-                            <span>Overall Score</span>
-                            <strong>{decisionScore.toFixed(1)}</strong>
+                            <h3>Decision Engine</h3>
                         </div>
                     </div>
 
-                    <div className="decision-breakdown">
-                        <div>
-                            <span>HOG Score</span>
-                            <strong>{baseScore.toFixed(1)}</strong>
+                    <div className="decision-score-strip">
+
+                        <div className="decision-score-card">
+                            <span>Projected Points</span>
+
+                            <strong>
+                                {seasonProjectedPoints.toFixed(1)}
+                            </strong>
+
+                            <small>
+                                {projectedPointsPerGame.toFixed(1)} / game
+                            </small>
                         </div>
 
-                        <div>
+
+                        <div className="decision-score-card">
+                            <span>Vs Replacement</span>
+
+                            <strong className="positive-value">
+                                {valueOverReplacement >= 0 ? '+' : ''}
+                                {valueOverReplacement.toFixed(1)}
+                            </strong>
+
+                            <small>
+                                Season value
+                            </small>
+                        </div>
+
+
+                        <div className="decision-score-card">
                             <span>Honda Edge</span>
+
                             <strong>
                                 {hondaEdge >= 0 ? '+' : ''}
                                 {hondaEdge.toFixed(1)}
                             </strong>
+
+                            <small>
+                                Vs market
+                            </small>
                         </div>
 
-                        <div>
+
+                        <div className="decision-score-card">
                             <span>ADP Bonus</span>
-                            <strong>+{adpBonus.toFixed(1)}</strong>
-                        </div>
 
-                        <div>
-                            <span>Risk Bonus</span>
-                            <strong>+{riskBonus.toFixed(1)}</strong>
-                        </div>
-
-                        <div>
-                            <span>Roster Fit</span>
                             <strong>
-                                {rosterFit >= 0 ? '+' : ''}
-                                {rosterFit.toFixed(1)}
+                                {adpBonus >= 0 ? '+' : ''}
+                                {adpBonus.toFixed(1)}
                             </strong>
+
+                            <small>
+                                Draft value
+                            </small>
                         </div>
 
-                        <div>
-                            <span>Live Roster Need</span>
+
+                        <div className="decision-score-card">
+                            <span>Roster Need</span>
+
                             <strong>
                                 {liveRosterNeed >= 0 ? '+' : ''}
                                 {liveRosterNeed.toFixed(1)}
                             </strong>
+
+                            <small>
+                                {recommendation?.position} need
+                            </small>
+                        </div>
+
+
+                        <div className="decision-score-card">
+                            <span>Risk Bonus</span>
+
+                            <strong>
+                                {riskBonus >= 0 ? '+' : ''}
+                                {riskBonus.toFixed(1)}
+                            </strong>
+
+                            <small>
+                                Player risk
+                            </small>
+                        </div>
+
+
+                        <div className="decision-score-card decision-total-card">
+                            <span>Total Score</span>
+
+                            <strong>
+                                {decisionScore.toFixed(1)}
+                            </strong>
+
+                            <small>
+                                Honda score
+                            </small>
                         </div>
 
                     </div>
+
                 </section>
+
 
                 <section className="panel">
                     <p className="eyebrow">Honda Live Rankings</p>
@@ -530,83 +931,182 @@ export default function WarRoom({
             </div>
 
             <div className="war-dashboard-grid">
-                <section className="panel">
-                    <p className="eyebrow">Decision Factors</p>
-                    <h3>Why This Pick</h3>
-                    <div className="honda-explanation">
-                        <div className="honda-explanation-header">
-                            <div>
-                                <span>Honda Intelligence Summary</span>
-                                <strong>{hondaExplanation.title}</strong>
-                            </div>
 
-                            <div className="honda-urgency">
-                                <span>Urgency</span>
-                                <strong>{hondaExplanation.urgency}</strong>
-                            </div>
+                <section className="panel why-pick-panel">
+
+                    <div className="why-pick-header">
+                        <div>
+                            <p className="eyebrow">
+                                Decision Factors
+                            </p>
+
+                            <h3>Why This Pick</h3>
                         </div>
 
-                        <div className="honda-explanation-list">
-                            {hondaExplanation.bullets.map((bullet) => (
-                                <p key={bullet}>• {bullet}</p>
-                            ))}
+                        <div className="why-confidence">
+                            <span>Confidence</span>
+
+                            <strong>
+                                {hondaConfidence.score}%
+                            </strong>
                         </div>
                     </div>
-                    <div className="factor-list">
-                        <DecisionFactor
-                            label="Honda scoring advantage"
-                            value="+5.0"
-                            positive
-                        />
 
-                        <DecisionFactor
-                            label="Positional scarcity"
-                            value={positionalScarcity}
-                            positive={
-                                positionalScarcity === 'High' ||
-                                positionalScarcity === 'Very High' ||
-                                positionalScarcity === 'Critical'
-                            }
-                        />
 
-                        <DecisionFactor
-                            label="Survival to next pick"
-                            value={`${survivalChance}%`}
-                        />
+                    <div className="why-pick-summary">
 
-                        <DecisionFactor
-                            label="Manager snipe risk"
-                            value={managerSnipeRisk}
-                        />
+                        <strong>
+                            {hondaExplanation.title}
+                        </strong>
+
+                        <div className="why-pick-bullets">
+
+                            {hondaExplanation.bullets
+                                .slice(0, 5)
+                                .map((bullet) => (
+                                    <div
+                                        className="why-pick-bullet"
+                                        key={bullet}
+                                    >
+                                        <span>✓</span>
+
+                                        <p>
+                                            {bullet}
+                                        </p>
+                                    </div>
+                                ))}
+
+                        </div>
+
                     </div>
+
+
+                    <div className="why-factor-list">
+
+                        <div className="why-factor-row">
+                            <span>Honda value edge</span>
+
+                            <strong>
+                                {hondaEdge >= 0 ? '+' : ''}
+                                {hondaEdge.toFixed(1)}
+                            </strong>
+                        </div>
+
+                        <div className="why-factor-row">
+                            <span>Vs replacement</span>
+
+                            <strong className="positive-value">
+                                {valueOverReplacement >= 0 ? '+' : ''}
+                                {valueOverReplacement.toFixed(1)}
+                            </strong>
+                        </div>
+
+                        <div className="why-factor-row">
+                            <span>Survival to next pick</span>
+
+                            <strong>
+                                {hondaForecast.survivalPercent.toFixed(1)}%
+                            </strong>
+                        </div>
+
+                        <div className="why-factor-row">
+                            <span>Roster fit</span>
+
+                            <strong>
+                                {rosterFit >= 0 ? '+' : ''}
+                                {rosterFit.toFixed(1)}
+                            </strong>
+                        </div>
+
+                        <div className="why-factor-row">
+                            <span>Manager snipe risk</span>
+
+                            <strong>
+                                {managerSnipeRisk}
+                            </strong>
+                        </div>
+
+                    </div>
+
                 </section>
 
-                <section className="panel">
-                    <p className="eyebrow">Threat Analysis</p>
-                    <h3>Best Alternatives</h3>
+
+                <section className="panel alternatives-panel">
+
+                    <div className="alternatives-header">
+                        <div>
+                            <p className="eyebrow">
+                                Threat Analysis
+                            </p>
+
+                            <h3>Best Alternatives</h3>
+                        </div>
+                    </div>
+
 
                     <div className="alternative-list">
-                        {alternatives.map((player, index) => (
-                            <button
-                                className="alternative-row alternative-button"
-                                key={player.name}
-                                onClick={() => setSelectedPlayerName(player.name)}
-                            >
-                                <div>
-                                    <strong>{player.name}</strong>
-                                    <span>
-                                        {player.position} · {player.tier}
-                                    </span>
-                                </div>
 
-                                <div className="survival">
-                                    <small>Survival</small>
-                                    <strong>{[18, 61, 42, 54][index]}%</strong>
-                                </div>
-                            </button>
-                        ))}
+                        {alternatives.map((player) => {
+
+                            const rankingEntry =
+                                getHondaRankings(
+                                    draftedPlayerNames,
+                                    liveRosterCounts,
+                                ).find(
+                                    (entry) =>
+                                        entry.player.name ===
+                                        player.name,
+                                )
+
+                            const alternativeScore =
+                                rankingEntry?.score ?? 0
+
+                            const scoreGap =
+                                decisionScore -
+                                alternativeScore
+
+                            return (
+                                <button
+                                    className="alternative-row alternative-button"
+                                    key={player.name}
+                                    onClick={() =>
+                                        setSelectedPlayerName(
+                                            player.name,
+                                        )
+                                    }
+                                >
+                                    <div>
+                                        <strong>
+                                            {player.name}
+                                        </strong>
+
+                                        <span>
+                                            {player.position}
+                                            {' · '}
+                                            {player.tier}
+                                        </span>
+                                    </div>
+
+                                    <div className="alternative-gap">
+                                        <strong>
+                                            -{Math.max(
+                                                0,
+                                                scoreGap,
+                                            ).toFixed(1)}
+                                        </strong>
+
+                                        <small>
+                                            Honda pts
+                                        </small>
+                                    </div>
+                                </button>
+                            )
+                        })}
+
                     </div>
+
                 </section>
+
             </div>
 
             <div className="war-dashboard-grid lower-war-grid">

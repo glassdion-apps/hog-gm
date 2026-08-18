@@ -18,7 +18,10 @@ export function getHondaDecision(
 ) {
 
 
-    const rankings = getHondaRankings(draftedPlayerNames)
+    const rankings = getHondaRankings(
+        draftedPlayerNames,
+        liveRosterCounts,
+    )
     const topRanked = rankings[0]
 
     if (!topRanked) {

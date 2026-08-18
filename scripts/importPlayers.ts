@@ -3941,6 +3941,239 @@ function main() {
     `✅ Draftable player pool written to: ${draftableOutputPath}`,
   )
 
+  const generatedPlayersPath = path.join(
+    process.cwd(),
+    'src',
+    'data',
+    'players',
+    'generated.ts',
+  )
+
+  const generatedFrontendPlayers =
+    hondaDraftBoardWithRound.map(
+      (player) => {
+        const bustRating =
+          ratingOutOfFive(
+            player.bust,
+          )
+
+        const risk:
+          | 'Low'
+          | 'Medium'
+          | 'High' =
+          bustRating >= 4
+            ? 'High'
+            : bustRating === 3
+              ? 'Medium'
+              : 'Low'
+
+        const action =
+          player.hondaDraftRank <= 24
+            ? 'HAMMER'
+            : player.hondaDraftRank <= 72
+              ? 'TARGET'
+              : player.hondaDraftRank <= 180
+                ? 'VALUE'
+                : 'DEPTH'
+
+        const fantasyProsRank =
+          player.fantasyProsRank ??
+          player.hondaDraftRank
+
+        const fantasyProsTier =
+          player.fantasyProsTier ??
+          99
+
+        const score =
+          Number(
+            Math.max(
+              0,
+              100 -
+              (
+                player.hondaDraftRank -
+                1
+              ) * 0.25,
+            ).toFixed(1),
+          )
+
+        return {
+          /*
+           * Existing frontend compatibility fields.
+           */
+          rank:
+            player.hondaDraftRank,
+
+          name:
+            player.name,
+
+          position:
+            player.position,
+
+          team:
+            player.team,
+
+          tier:
+            `Tier ${fantasyProsTier}`,
+
+          score,
+
+          action,
+
+          projectedStats:
+            player.projectedStats,
+
+          hondaAdp:
+            player.projectedDraftSlot,
+
+          publicAdp:
+            String(
+              fantasyProsRank,
+            ),
+
+          hondaAdpOverall:
+            player.hondaDraftRank,
+
+          publicAdpOverall:
+            fantasyProsRank,
+
+          floor:
+            Number(
+              (
+                player.hondaProjectedPoints *
+                0.9
+              ).toFixed(1),
+            ),
+
+          ceiling:
+            Number(
+              (
+                player.hondaProjectedPoints *
+                1.1
+              ).toFixed(1),
+            ),
+
+          risk,
+
+          xFactor:
+            `Honda VOR ${player.valueOverReplacement} | Upside ${player.upside ?? 'N/A'}`,
+
+          greenFlags: [
+            `Honda position rank #${player.hondaPositionRank}`,
+            `VOR rank #${player.vorRank}`,
+            `Upside ${player.upside ?? 'N/A'}`,
+          ],
+
+          redFlags:
+            bustRating >= 4
+              ? [
+                `Bust rating ${player.bust ?? 'N/A'}`,
+              ]
+              : [],
+
+          projectedPoints:
+            player.hondaProjectedPoints,
+
+          byeWeek:
+            player.byeWeek ?? undefined,
+
+          /*
+           * Native Honda import fields.
+           */
+          fantasyProsRank:
+            player.fantasyProsRank ??
+            undefined,
+
+          fantasyProsTier:
+            player.fantasyProsTier ??
+            undefined,
+
+          positionRank:
+            player.positionRank ??
+            undefined,
+
+          upside:
+            player.upside ??
+            undefined,
+
+          bust:
+            player.bust ??
+            undefined,
+
+          strengthOfSchedule:
+            player.strengthOfSchedule ??
+            undefined,
+
+          ecrVsAdp:
+            player.ecrVsAdp ??
+            undefined,
+
+          fantasyProsPoints:
+            player.fantasyProsPoints,
+
+          hondaProjectedPoints:
+            player.hondaProjectedPoints,
+
+          replacementPoints:
+            player.replacementPoints,
+
+          valueOverReplacement:
+            player.valueOverReplacement,
+
+          hondaPositionRank:
+            player.hondaPositionRank,
+
+          vorRank:
+            player.vorRank,
+
+          estimatedMarketAdp:
+            player.estimatedMarketAdp,
+
+          draftValueGap:
+            player.draftValueGap,
+
+          marketLabel:
+            player.marketLabel,
+
+          hondaOverallRank:
+            player.hondaOverallRank,
+
+          hondaDraftRank:
+            player.hondaDraftRank,
+
+          projectedRound:
+            player.projectedRound,
+
+          projectedPickInRound:
+            player.projectedPickInRound,
+
+          projectedDraftSlot:
+            player.projectedDraftSlot,
+        }
+      },
+    )
+
+  const generatedPlayersSource =
+    `import type { Player } from './types'\n\n` +
+    `export const generatedPlayers: Player[] = ` +
+    `${JSON.stringify(
+      generatedFrontendPlayers,
+      null,
+      2,
+    )}\n`
+
+  fs.writeFileSync(
+    generatedPlayersPath,
+    generatedPlayersSource,
+  )
+
+  console.log('')
+  console.log(
+    `✅ Frontend player pool written to: ${generatedPlayersPath}`,
+  )
+  console.log(
+    `Frontend generated players: ${generatedFrontendPlayers.length}`,
+  )
+
   console.log(
     `Draftable players: ${hondaDraftBoard.length}`,
   )

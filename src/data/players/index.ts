@@ -1,15 +1,9 @@
-import { qbs } from './qbs'
-import { rbs } from './rbs'
-import { wrs } from './wrs'
-import { tes } from './tes'
+import { generatedPlayers } from './generated'
 import { kickers } from './kickers'
 import { defenses } from './defenses'
 
 export const players = [
-  ...rbs,
-  ...wrs,
-  ...qbs,
-  ...tes,
+  ...generatedPlayers,
   ...kickers,
   ...defenses,
 ]

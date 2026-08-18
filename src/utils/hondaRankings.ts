@@ -12,7 +12,7 @@ export function getHondaRankings(
   liveRosterCounts?: LiveRosterCounts,
 ) {
 
-  
+
   const availablePlayers = players.filter(
     (player) => !draftedPlayerNames.includes(player.name),
   )
@@ -38,17 +38,46 @@ export function getHondaRankings(
         )
         : 0
 
-    const publicAdpNumber = Number(
-      player.publicAdp.replace(/[^\d.]/g, ''),
-    )
+    const publicRank =
+      player.fantasyProsRank ??
+      player.publicAdpOverall ??
+      player.rank
+
+    const hondaRank =
+      player.hondaDraftRank ??
+      player.rank
+
+    const rawHondaEdge =
+      publicRank - hondaRank
 
     const hondaEdge =
-      Number.isNaN(publicAdpNumber)
-        ? 0
-        : publicAdpNumber - player.rank
+      Math.max(
+        -10,
+        Math.min(
+          10,
+          rawHondaEdge * 0.5,
+        ),
+      )
+
+    const hondaRankValue =
+      Math.max(
+        0,
+        100 -
+        (hondaRank - 1) * 0.5,
+      )
+
+    const vorBonus =
+      Math.max(
+        -10,
+        Math.min(
+          20,
+          (player.valueOverReplacement ?? 0) / 10,
+        ),
+      )
 
     const score =
-      player.score +
+      hondaRankValue +
+      vorBonus +
       rosterFit +
       hondaEdge +
       liveRosterNeed

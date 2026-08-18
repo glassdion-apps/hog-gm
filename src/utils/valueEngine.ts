@@ -2,9 +2,15 @@ import { players } from '../data/players'
 
 export function getBestAvailableValue(
     draftedPlayerNames: string[],
+    targetPlayerName?: string,
 ) {
     const availablePlayers = players.filter(
-        (player) => !draftedPlayerNames.includes(player.name),
+        (player) =>
+            !draftedPlayerNames.includes(player.name) &&
+            (
+                !targetPlayerName ||
+                player.name === targetPlayerName
+            ),
     )
 
     if (availablePlayers.length === 0) {
@@ -23,26 +29,61 @@ export function getBestAvailableValue(
                 ? 0
                 : Math.max(0, 10 - adpNumber)
 
-        const publicAdpNumber = Number(
-            player.publicAdp.replace(/[^\d.]/g, ''),
-        )
+        const publicRank =
+            player.fantasyProsRank ??
+            player.publicAdpOverall ??
+            player.rank
+
+        const hondaRank =
+            player.hondaDraftRank ??
+            player.rank
+
+        const rawHondaEdge =
+            publicRank - hondaRank
 
         const hondaEdge =
-            Number.isNaN(publicAdpNumber)
-                ? 0
-                : publicAdpNumber - player.rank
+            Math.max(
+                -10,
+                Math.min(
+                    10,
+                    rawHondaEdge * 0.5,
+                ),
+            )
+
+        const hondaRankValue =
+            Math.max(
+                0,
+                100 -
+                (hondaRank - 1) * 0.5,
+            )
+
+        const vorBonus =
+            Math.max(
+                -10,
+                Math.min(
+                    20,
+                    (player.valueOverReplacement ?? 0) / 10,
+                ),
+            )
+
+        const riskBonus =
+            player.risk === 'Low'
+                ? 3
+                : player.risk === 'Medium'
+                    ? 1
+                    : 0
 
         const valueScore =
-            player.score +
+            hondaRankValue +
+            vorBonus +
             adpValue +
             hondaEdge +
-            (player.risk === 'Low' ? 3 : 0) +
-            (player.risk === 'Medium' ? 1 : 0)
+            riskBonus
 
         return {
             player,
             valueScore,
-            baseScore: player.score,
+            baseScore: hondaRankValue + vorBonus,
             adpBonus: adpValue,
             hondaEdge,
             riskBonus:
