@@ -9,6 +9,7 @@ import { getLiveDraftIntel } from '../utils/liveDraftIntel'
 import { getHondaExplanation } from '../utils/hondaExplanation'
 import type { DraftStoryEvent } from '../utils/draftStory'
 import { getHondaConfidence } from '../utils/hondaConfidence'
+import { getHondaForecast } from '../utils/hondaForecast'
 
 type WarRoomProps = {
     currentPickIndex: number
@@ -153,6 +154,14 @@ export default function WarRoom({
         managerSnipeRisk,
         positionalScarcity,
     })
+
+    const hondaForecast = getHondaForecast({
+        currentPickIndex,
+        managerRosters,
+        draftedPlayerNames,
+        currentDecisionScore: decisionScore,
+    })
+
     return (
 
 
@@ -195,7 +204,7 @@ export default function WarRoom({
                                 style={{ width: `${hondaConfidence.score}%` }}
                             />
                         </div>
-                        
+
                         <small>
                             {hondaConfidence.label}
                         </small>
@@ -224,7 +233,89 @@ export default function WarRoom({
                         {liveDraftIntel.length} Alerts
                     </span>
                 </div>
+                <section className="panel forecast-panel">
+                    <div className="forecast-header">
+                        <div>
+                            <p className="eyebrow">Honda Forecast</p>
+                            <h3>If You Wait</h3>
+                        </div>
+                    </div>
 
+                    <div className="forecast-list">
+                        {hondaForecast.picks.map((pick) => (
+                            <div
+                                className="forecast-row"
+                                key={pick.manager}
+                            >
+                                <strong>{pick.manager}</strong>
+
+                                <span>
+                                    {pick.position} · {pick.confidence}% confidence
+                                </span>
+
+                                <strong>{pick.player}</strong>
+                            </div>
+                        ))}
+                    </div>
+                    {hondaForecast.futureRecommendation && (
+                        <div className="forecast-result">
+                            <div className={`forecast-advice advice-${hondaForecast.advice
+                                .toLowerCase()
+                                .replaceAll(' ', '-')}`}
+                            >
+                                {hondaForecast.advice}
+                            </div>
+
+                            <p className="forecast-advice-reason">
+                                {hondaForecast.adviceReason}
+                            </p>
+
+                            
+                            <div className="forecast-comparison">
+
+                                <div className="forecast-side">
+
+                                    <span>Take Now</span>
+
+                                    <strong>
+                                        {recommendation?.name}
+                                    </strong>
+
+                                    <small>
+                                        {decisionScore.toFixed(1)}
+                                    </small>
+
+                                </div>
+
+                                <div className="forecast-side">
+
+                                    <span>If You Wait</span>
+
+                                    <strong>
+                                        {hondaForecast.futureRecommendation?.name}
+                                    </strong>
+
+                                    <small>
+                                        {hondaForecast.projectedScore.toFixed(1)}
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div className="forecast-cost">
+
+                                Cost of Waiting
+
+                                <strong>
+                                    {hondaForecast.costOfWaiting.toFixed(1)}
+                                </strong>
+
+                            </div>
+
+                        </div>
+                    )}
+                </section>
                 <div className="live-intel-list">
                     {liveDraftIntel.map((alert) => (
                         <div

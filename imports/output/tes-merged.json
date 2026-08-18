@@ -1,0 +1,2382 @@
+[
+  {
+    "name": "Trey McBride",
+    "team": "ARI",
+    "fantasyProsRank": 19,
+    "fantasyProsTier": 3,
+    "positionRank": "TE2",
+    "byeWeek": 14,
+    "upside": "4 out of 5",
+    "bust": "2 out of 5",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 2,
+    "projectedStats": {
+      "receptions": 109,
+      "receivingYards": 1051.6,
+      "receivingTouchdowns": 6.8,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 254.4,
+    "hondaProjectedPoints": 254.6
+  },
+  {
+    "name": "Brock Bowers",
+    "team": "LV",
+    "fantasyProsRank": 17,
+    "fantasyProsTier": 3,
+    "positionRank": "TE1",
+    "byeWeek": 13,
+    "upside": "5 out of 5",
+    "bust": "2 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 5,
+    "projectedStats": {
+      "receptions": 96.5,
+      "receivingYards": 1026.3,
+      "receivingTouchdowns": 7.5,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 243.9,
+    "hondaProjectedPoints": 243.7
+  },
+  {
+    "name": "Colston Loveland",
+    "team": "CHI",
+    "fantasyProsRank": 40,
+    "fantasyProsTier": 5,
+    "positionRank": "TE3",
+    "byeWeek": 10,
+    "upside": "5 out of 5",
+    "bust": "2 out of 5",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 3,
+    "projectedStats": {
+      "receptions": 78.7,
+      "receivingYards": 929.6,
+      "receivingTouchdowns": 6.7,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 211.3,
+    "hondaProjectedPoints": 211.5
+  },
+  {
+    "name": "Tyler Warren",
+    "team": "IND",
+    "fantasyProsRank": 50,
+    "fantasyProsTier": 5,
+    "positionRank": "TE4",
+    "byeWeek": 13,
+    "upside": "5 out of 5",
+    "bust": "2 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -3,
+    "projectedStats": {
+      "receptions": 83,
+      "receivingYards": 873,
+      "receivingTouchdowns": 5.4,
+      "fumblesLost": 0.3
+    },
+    "fantasyProsPoints": 202.3,
+    "hondaProjectedPoints": 202.1
+  },
+  {
+    "name": "Kyle Pitts Sr.",
+    "team": "ATL",
+    "fantasyProsRank": 79,
+    "fantasyProsTier": 7,
+    "positionRank": "TE7",
+    "byeWeek": 11,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -10,
+    "projectedStats": {
+      "receptions": 79.5,
+      "receivingYards": 881.3,
+      "receivingTouchdowns": 4.7,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 195.7,
+    "hondaProjectedPoints": 195.6
+  },
+  {
+    "name": "Harold Fannin Jr.",
+    "team": "CLE",
+    "fantasyProsRank": 73,
+    "fantasyProsTier": 7,
+    "positionRank": "TE6",
+    "byeWeek": 11,
+    "upside": "4 out of 5",
+    "bust": "2 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -7,
+    "projectedStats": {
+      "receptions": 78.7,
+      "receivingYards": 815.8,
+      "receivingTouchdowns": 5.4,
+      "fumblesLost": 0.8
+    },
+    "fantasyProsPoints": 191,
+    "hondaProjectedPoints": 191.1
+  },
+  {
+    "name": "Sam LaPorta",
+    "team": "DET",
+    "fantasyProsRank": 81,
+    "fantasyProsTier": 7,
+    "positionRank": "TE8",
+    "byeWeek": 6,
+    "upside": "4 out of 5",
+    "bust": "3 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -13,
+    "projectedStats": {
+      "receptions": 70.4,
+      "receivingYards": 814,
+      "receivingTouchdowns": 5.5,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 184.2,
+    "hondaProjectedPoints": 184.4
+  },
+  {
+    "name": "Travis Kelce",
+    "team": "KC",
+    "fantasyProsRank": 95,
+    "fantasyProsTier": 7,
+    "positionRank": "TE9",
+    "byeWeek": 5,
+    "upside": "2 out of 5",
+    "bust": "3 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 2,
+    "projectedStats": {
+      "receptions": 74.9,
+      "receivingYards": 785.2,
+      "receivingTouchdowns": 4.8,
+      "fumblesLost": 0.3
+    },
+    "fantasyProsPoints": 181.9,
+    "hondaProjectedPoints": 181.6
+  },
+  {
+    "name": "Dallas Goedert",
+    "team": "PHI",
+    "fantasyProsRank": 122,
+    "fantasyProsTier": 8,
+    "positionRank": "TE14",
+    "byeWeek": 10,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -6,
+    "projectedStats": {
+      "receptions": 65.5,
+      "receivingYards": 689.4,
+      "receivingTouchdowns": 7.6,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 179.5,
+    "hondaProjectedPoints": 179.6
+  },
+  {
+    "name": "Tucker Kraft",
+    "team": "GB",
+    "fantasyProsRank": 70,
+    "fantasyProsTier": 6,
+    "positionRank": "TE5",
+    "byeWeek": 11,
+    "upside": "4 out of 5",
+    "bust": "2 out of 5",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 0,
+    "projectedStats": {
+      "receptions": 61.5,
+      "receivingYards": 786.4,
+      "receivingTouchdowns": 6.5,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 178.5,
+    "hondaProjectedPoints": 178.7
+  },
+  {
+    "name": "George Kittle",
+    "team": "SF",
+    "fantasyProsRank": 103,
+    "fantasyProsTier": 8,
+    "positionRank": "TE10",
+    "byeWeek": 8,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -11,
+    "projectedStats": {
+      "receptions": 66.3,
+      "receivingYards": 753.4,
+      "receivingTouchdowns": 5.7,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 175.7,
+    "hondaProjectedPoints": 175.4
+  },
+  {
+    "name": "Jake Ferguson",
+    "team": "DAL",
+    "fantasyProsRank": 115,
+    "fantasyProsTier": 8,
+    "positionRank": "TE11",
+    "byeWeek": 14,
+    "upside": "2 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": -5,
+    "projectedStats": {
+      "receptions": 74.1,
+      "receivingYards": 606.7,
+      "receivingTouchdowns": 5.9,
+      "fumblesLost": 1.4
+    },
+    "fantasyProsPoints": 167.6,
+    "hondaProjectedPoints": 167.4
+  },
+  {
+    "name": "Isaiah Likely",
+    "team": "NYG",
+    "fantasyProsRank": 117,
+    "fantasyProsTier": 8,
+    "positionRank": "TE13",
+    "byeWeek": 8,
+    "upside": "4 out of 5",
+    "bust": "3 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -8,
+    "projectedStats": {
+      "receptions": 62.8,
+      "receivingYards": 745.5,
+      "receivingTouchdowns": 5,
+      "fumblesLost": 1.3
+    },
+    "fantasyProsPoints": 165,
+    "hondaProjectedPoints": 164.8
+  },
+  {
+    "name": "Mark Andrews",
+    "team": "BAL",
+    "fantasyProsRank": 129,
+    "fantasyProsTier": 8,
+    "positionRank": "TE15",
+    "byeWeek": 13,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -4,
+    "projectedStats": {
+      "receptions": 59,
+      "receivingYards": 612.7,
+      "receivingTouchdowns": 7.4,
+      "fumblesLost": 0.3
+    },
+    "fantasyProsPoints": 163.9,
+    "hondaProjectedPoints": 164.1
+  },
+  {
+    "name": "Dalton Kincaid",
+    "team": "BUF",
+    "fantasyProsRank": 116,
+    "fantasyProsTier": 8,
+    "positionRank": "TE12",
+    "byeWeek": 7,
+    "upside": "3 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 7,
+    "projectedStats": {
+      "receptions": 57.1,
+      "receivingYards": 707,
+      "receivingTouchdowns": 5.5,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 160.2,
+    "hondaProjectedPoints": 160.4
+  },
+  {
+    "name": "Juwan Johnson",
+    "team": "NO",
+    "fantasyProsRank": 141,
+    "fantasyProsTier": 9,
+    "positionRank": "TE16",
+    "byeWeek": 8,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 14,
+    "projectedStats": {
+      "receptions": 64.8,
+      "receivingYards": 727.6,
+      "receivingTouchdowns": 3.2,
+      "fumblesLost": 1.3
+    },
+    "fantasyProsPoints": 154.4,
+    "hondaProjectedPoints": 154.2
+  },
+  {
+    "name": "Brenton Strange",
+    "team": "JAC",
+    "fantasyProsRank": 150,
+    "fantasyProsTier": 9,
+    "positionRank": "TE18",
+    "byeWeek": 7,
+    "upside": "4 out of 5",
+    "bust": "3 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 7,
+    "projectedStats": {
+      "receptions": 60,
+      "receivingYards": 661.3,
+      "receivingTouchdowns": 4.3,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 151.7,
+    "hondaProjectedPoints": 151.5
+  },
+  {
+    "name": "Hunter Henry",
+    "team": "NE",
+    "fantasyProsRank": 154,
+    "fantasyProsTier": 9,
+    "positionRank": "TE19",
+    "byeWeek": 11,
+    "upside": "2 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 0,
+    "projectedStats": {
+      "receptions": 55.6,
+      "receivingYards": 645.1,
+      "receivingTouchdowns": 5.1,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 150.3,
+    "hondaProjectedPoints": 150.5
+  },
+  {
+    "name": "Dalton Schultz",
+    "team": "HOU",
+    "fantasyProsRank": 167,
+    "fantasyProsTier": 10,
+    "positionRank": "TE20",
+    "byeWeek": 8,
+    "upside": "3 out of 5",
+    "bust": "2 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 14,
+    "projectedStats": {
+      "receptions": 65.8,
+      "receivingYards": 628.5,
+      "receivingTouchdowns": 3.4,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 148.5,
+    "hondaProjectedPoints": 148.7
+  },
+  {
+    "name": "T.J. Hockenson",
+    "team": "MIN",
+    "fantasyProsRank": 174,
+    "fantasyProsTier": 10,
+    "positionRank": "TE22",
+    "byeWeek": 6,
+    "upside": "3 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -16,
+    "projectedStats": {
+      "receptions": 63.9,
+      "receivingYards": 574.5,
+      "receivingTouchdowns": 3.3,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 140.6,
+    "hondaProjectedPoints": 140.7
+  },
+  {
+    "name": "Pat Freiermuth",
+    "team": "PIT",
+    "fantasyProsRank": 232,
+    "fantasyProsTier": 11,
+    "positionRank": "TE27",
+    "byeWeek": 9,
+    "upside": "3 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": -10,
+    "projectedStats": {
+      "receptions": 53,
+      "receivingYards": 560.1,
+      "receivingTouchdowns": 4.3,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 134.1,
+    "hondaProjectedPoints": 134.4
+  },
+  {
+    "name": "Greg Dulcich",
+    "team": "MIA",
+    "fantasyProsRank": 242,
+    "fantasyProsTier": 11,
+    "positionRank": "TE30",
+    "byeWeek": 6,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "5 out of 5 stars",
+    "ecrVsAdp": -24,
+    "projectedStats": {
+      "receptions": 54.6,
+      "receivingYards": 620,
+      "receivingTouchdowns": 3.2,
+      "fumblesLost": 1.2
+    },
+    "fantasyProsPoints": 133.5,
+    "hondaProjectedPoints": 133.4
+  },
+  {
+    "name": "Cade Otton",
+    "team": "TB",
+    "fantasyProsRank": 233,
+    "fantasyProsTier": 11,
+    "positionRank": "TE28",
+    "byeWeek": 10,
+    "upside": "2 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": -14,
+    "projectedStats": {
+      "receptions": 55.2,
+      "receivingYards": 558,
+      "receivingTouchdowns": 3.1,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 129.3,
+    "hondaProjectedPoints": 129.4
+  },
+  {
+    "name": "Kenyon Sadiq",
+    "team": "NYJ",
+    "fantasyProsRank": 213,
+    "fantasyProsTier": 11,
+    "positionRank": "TE25",
+    "byeWeek": 13,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -50,
+    "projectedStats": {
+      "receptions": 49.7,
+      "receivingYards": 546.8,
+      "receivingTouchdowns": 4.1,
+      "fumblesLost": 0.7
+    },
+    "fantasyProsPoints": 127.3,
+    "hondaProjectedPoints": 127.6
+  },
+  {
+    "name": "Chig Okonkwo",
+    "team": "WAS",
+    "fantasyProsRank": 149,
+    "fantasyProsTier": 9,
+    "positionRank": "TE17",
+    "byeWeek": 7,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "1 out of 5 stars",
+    "ecrVsAdp": 19,
+    "projectedStats": {
+      "receptions": 52.8,
+      "receivingYards": 570,
+      "receivingTouchdowns": 2.8,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 126.2,
+    "hondaProjectedPoints": 126.4
+  },
+  {
+    "name": "AJ Barner",
+    "team": "SEA",
+    "fantasyProsRank": 193,
+    "fantasyProsTier": 10,
+    "positionRank": "TE23",
+    "byeWeek": 11,
+    "upside": "4 out of 5",
+    "bust": "2 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 17,
+    "projectedStats": {
+      "receptions": 48.6,
+      "receivingYards": 469.9,
+      "receivingTouchdowns": 4.9,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 124.4,
+    "hondaProjectedPoints": 124.6
+  },
+  {
+    "name": "Terrance Ferguson",
+    "team": "LAR",
+    "fantasyProsRank": 226,
+    "fantasyProsTier": 11,
+    "positionRank": "TE26",
+    "byeWeek": 11,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -21,
+    "projectedStats": {
+      "receptions": 37.3,
+      "receivingYards": 516.8,
+      "receivingTouchdowns": 4.8,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 117.4,
+    "hondaProjectedPoints": 117.4
+  },
+  {
+    "name": "Evan Engram",
+    "team": "DEN",
+    "fantasyProsRank": 240,
+    "fantasyProsTier": 11,
+    "positionRank": "TE29",
+    "byeWeek": 10,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 101,
+    "projectedStats": {
+      "receptions": 53.4,
+      "receivingYards": 475.1,
+      "receivingTouchdowns": 2.7,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 117,
+    "hondaProjectedPoints": 116.9
+  },
+  {
+    "name": "Gunnar Helm",
+    "team": "TEN",
+    "fantasyProsRank": 206,
+    "fantasyProsTier": 10,
+    "positionRank": "TE24",
+    "byeWeek": 9,
+    "upside": "3 out of 5",
+    "bust": "3 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 52,
+    "projectedStats": {
+      "receptions": 48.9,
+      "receivingYards": 444.1,
+      "receivingTouchdowns": 3.1,
+      "fumblesLost": 0.2
+    },
+    "fantasyProsPoints": 111.5,
+    "hondaProjectedPoints": 111.5
+  },
+  {
+    "name": "Oronde Gadsden II",
+    "team": "LAC",
+    "fantasyProsRank": 169,
+    "fantasyProsTier": 10,
+    "positionRank": "TE21",
+    "byeWeek": 7,
+    "upside": "3 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 4,
+    "projectedStats": {
+      "receptions": 40.4,
+      "receivingYards": 509.1,
+      "receivingTouchdowns": 3.2,
+      "fumblesLost": 0.6
+    },
+    "fantasyProsPoints": 109.1,
+    "hondaProjectedPoints": 109.3
+  },
+  {
+    "name": "Mike Gesicki",
+    "team": "CIN",
+    "fantasyProsRank": 305,
+    "fantasyProsTier": 12,
+    "positionRank": "TE37",
+    "byeWeek": 6,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 33,
+    "projectedStats": {
+      "receptions": 41.3,
+      "receivingYards": 434.1,
+      "receivingTouchdowns": 3.6,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 106,
+    "hondaProjectedPoints": 106.1
+  },
+  {
+    "name": "Darren Waller",
+    "team": "CAR",
+    "fantasyProsRank": 346,
+    "fantasyProsTier": 13,
+    "positionRank": "TE45",
+    "byeWeek": 5,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 80,
+    "projectedStats": {
+      "receptions": 37.4,
+      "receivingYards": 392.6,
+      "receivingTouchdowns": 4.3,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 102.5,
+    "hondaProjectedPoints": 102.3
+  },
+  {
+    "name": "Mason Taylor",
+    "team": "NYJ",
+    "fantasyProsRank": 274,
+    "fantasyProsTier": 12,
+    "positionRank": "TE34",
+    "byeWeek": 13,
+    "upside": "1 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -7,
+    "projectedStats": {
+      "receptions": 45.8,
+      "receivingYards": 403.8,
+      "receivingTouchdowns": 2.4,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 100.7,
+    "hondaProjectedPoints": 100.4
+  },
+  {
+    "name": "David Njoku",
+    "team": "LAC",
+    "fantasyProsRank": 249,
+    "fantasyProsTier": 11,
+    "positionRank": "TE31",
+    "byeWeek": 7,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -37,
+    "projectedStats": {
+      "receptions": 38.3,
+      "receivingYards": 363.1,
+      "receivingTouchdowns": 4.3,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 100,
+    "hondaProjectedPoints": 100.2
+  },
+  {
+    "name": "Colby Parkinson",
+    "team": "LAR",
+    "fantasyProsRank": 261,
+    "fantasyProsTier": 12,
+    "positionRank": "TE32",
+    "byeWeek": 11,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 31,
+    "projectedStats": {
+      "receptions": 34.3,
+      "receivingYards": 352.5,
+      "receivingTouchdowns": 4,
+      "fumblesLost": 0.6
+    },
+    "fantasyProsPoints": 92.5,
+    "hondaProjectedPoints": 92.3
+  },
+  {
+    "name": "Michael Mayer",
+    "team": "LV",
+    "fantasyProsRank": 324,
+    "fantasyProsTier": 13,
+    "positionRank": "TE40",
+    "byeWeek": 13,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 80,
+    "projectedStats": {
+      "receptions": 40,
+      "receivingYards": 377.8,
+      "receivingTouchdowns": 2.1,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 90.1,
+    "hondaProjectedPoints": 90.2
+  },
+  {
+    "name": "Dawson Knox",
+    "team": "BUF",
+    "fantasyProsRank": 352,
+    "fantasyProsTier": 13,
+    "positionRank": "TE49",
+    "byeWeek": 7,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -34,
+    "projectedStats": {
+      "receptions": 28.6,
+      "receivingYards": 331.6,
+      "receivingTouchdowns": 2.9,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 79.2,
+    "hondaProjectedPoints": 79
+  },
+  {
+    "name": "Theo Johnson",
+    "team": "NYG",
+    "fantasyProsRank": 280,
+    "fantasyProsTier": 12,
+    "positionRank": "TE35",
+    "byeWeek": 8,
+    "upside": "1 out of 5",
+    "bust": "5 out of 5",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 31,
+    "projectedStats": {
+      "receptions": 27.5,
+      "receivingYards": 313.8,
+      "receivingTouchdowns": 2.9,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 75.9,
+    "hondaProjectedPoints": 76.1
+  },
+  {
+    "name": "Darnell Washington",
+    "team": "PIT",
+    "fantasyProsRank": 321,
+    "fantasyProsTier": 13,
+    "positionRank": "TE39",
+    "byeWeek": 9,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": -36,
+    "projectedStats": {
+      "receptions": 30.7,
+      "receivingYards": 329.3,
+      "receivingTouchdowns": 2,
+      "fumblesLost": 0.6
+    },
+    "fantasyProsPoints": 74.1,
+    "hondaProjectedPoints": 74.4
+  },
+  {
+    "name": "Tyler Higbee",
+    "team": "LAR",
+    "fantasyProsRank": 333,
+    "fantasyProsTier": 13,
+    "positionRank": "TE42",
+    "byeWeek": 11,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -7,
+    "projectedStats": {
+      "receptions": 26.1,
+      "receivingYards": 306.5,
+      "receivingTouchdowns": 2.4,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 71.2,
+    "hondaProjectedPoints": 71.2
+  },
+  {
+    "name": "Erick All Jr.",
+    "team": "CIN",
+    "fantasyProsRank": 347,
+    "fantasyProsTier": 13,
+    "positionRank": "TE46",
+    "byeWeek": 6,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 247,
+    "projectedStats": {
+      "receptions": 30.4,
+      "receivingYards": 268.4,
+      "receivingTouchdowns": 1.9,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 68.7,
+    "hondaProjectedPoints": 68.4
+  },
+  {
+    "name": "Cole Kmet",
+    "team": "CHI",
+    "fantasyProsRank": 342,
+    "fantasyProsTier": 13,
+    "positionRank": "TE44",
+    "byeWeek": 10,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": -51,
+    "projectedStats": {
+      "receptions": 26.2,
+      "receivingYards": 274.4,
+      "receivingTouchdowns": 2.2,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 66.9,
+    "hondaProjectedPoints": 66.6
+  },
+  {
+    "name": "Noah Fant",
+    "team": "NO",
+    "fantasyProsRank": 370,
+    "fantasyProsTier": 14,
+    "positionRank": "TE53",
+    "byeWeek": 8,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 40,
+    "projectedStats": {
+      "receptions": 29.3,
+      "receivingYards": 273.6,
+      "receivingTouchdowns": 1.6,
+      "fumblesLost": 1.6
+    },
+    "fantasyProsPoints": 63.1,
+    "hondaProjectedPoints": 63.1
+  },
+  {
+    "name": "Will Kacmarek",
+    "team": "MIA",
+    "fantasyProsRank": 469,
+    "fantasyProsTier": 15,
+    "positionRank": "TE66",
+    "byeWeek": 6,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "5 out of 5 stars",
+    "ecrVsAdp": 74,
+    "projectedStats": {
+      "receptions": 26.6,
+      "receivingYards": 251,
+      "receivingTouchdowns": 1.9,
+      "fumblesLost": 0.6
+    },
+    "fantasyProsPoints": 61.8,
+    "hondaProjectedPoints": 61.9
+  },
+  {
+    "name": "Austin Hooper",
+    "team": "ATL",
+    "fantasyProsRank": 438,
+    "fantasyProsTier": 15,
+    "positionRank": "TE61",
+    "byeWeek": 11,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 75,
+    "projectedStats": {
+      "receptions": 22.5,
+      "receivingYards": 236.4,
+      "receivingTouchdowns": 1.6,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 55.7,
+    "hondaProjectedPoints": 55.5
+  },
+  {
+    "name": "Charlie Kolar",
+    "team": "LAC",
+    "fantasyProsRank": 366,
+    "fantasyProsTier": 14,
+    "positionRank": "TE52",
+    "byeWeek": 7,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 0,
+    "projectedStats": {
+      "receptions": 20.2,
+      "receivingYards": 230.2,
+      "receivingTouchdowns": 2,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 55.4,
+    "hondaProjectedPoints": 55
+  },
+  {
+    "name": "Josh Oliver",
+    "team": "MIN",
+    "fantasyProsRank": 473,
+    "fantasyProsTier": 15,
+    "positionRank": "TE68",
+    "byeWeek": 6,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -66,
+    "projectedStats": {
+      "receptions": 18.6,
+      "receivingYards": 194.3,
+      "receivingTouchdowns": 2.4,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 52.1,
+    "hondaProjectedPoints": 52.2
+  },
+  {
+    "name": "Daniel Bellinger",
+    "team": "TEN",
+    "fantasyProsRank": 426,
+    "fantasyProsTier": 15,
+    "positionRank": "TE59",
+    "byeWeek": 9,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 119,
+    "projectedStats": {
+      "receptions": 19.3,
+      "receivingYards": 222.2,
+      "receivingTouchdowns": 1.7,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 51.9,
+    "hondaProjectedPoints": 51.7
+  },
+  {
+    "name": "Brock Wright",
+    "team": "DET",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 19.9,
+      "receivingYards": 175.6,
+      "receivingTouchdowns": 2.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 51.2,
+    "hondaProjectedPoints": 51.3
+  },
+  {
+    "name": "Noah Gray",
+    "team": "KC",
+    "fantasyProsRank": 350,
+    "fantasyProsTier": 13,
+    "positionRank": "TE48",
+    "byeWeek": 5,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 3,
+    "projectedStats": {
+      "receptions": 21,
+      "receivingYards": 211.6,
+      "receivingTouchdowns": 1.5,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 50.9,
+    "hondaProjectedPoints": 51
+  },
+  {
+    "name": "Eli Stowers",
+    "team": "PHI",
+    "fantasyProsRank": 269,
+    "fantasyProsTier": 12,
+    "positionRank": "TE33",
+    "byeWeek": 10,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -3,
+    "projectedStats": {
+      "receptions": 20.9,
+      "receivingYards": 214.5,
+      "receivingTouchdowns": 1.4,
+      "fumblesLost": 0.6
+    },
+    "fantasyProsPoints": 49.6,
+    "hondaProjectedPoints": 49.5
+  },
+  {
+    "name": "Tommy Tremble",
+    "team": "CAR",
+    "fantasyProsRank": 399,
+    "fantasyProsTier": 14,
+    "positionRank": "TE57",
+    "byeWeek": 5,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 54,
+    "projectedStats": {
+      "receptions": 20.7,
+      "receivingYards": 188.8,
+      "receivingTouchdowns": 1.6,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 49.3,
+    "hondaProjectedPoints": 49
+  },
+  {
+    "name": "Elijah Arroyo",
+    "team": "SEA",
+    "fantasyProsRank": 327,
+    "fantasyProsTier": 13,
+    "positionRank": "TE41",
+    "byeWeek": 11,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -14,
+    "projectedStats": {
+      "receptions": 19,
+      "receivingYards": 198.7,
+      "receivingTouchdowns": 1.6,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 48.2,
+    "hondaProjectedPoints": 48.3
+  },
+  {
+    "name": "Adam Trautman",
+    "team": "DEN",
+    "fantasyProsRank": 474,
+    "fantasyProsTier": 15,
+    "positionRank": "TE69",
+    "byeWeek": 10,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": -62,
+    "projectedStats": {
+      "receptions": 19.3,
+      "receivingYards": 197.1,
+      "receivingTouchdowns": 1.5,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 47.9,
+    "hondaProjectedPoints": 48
+  },
+  {
+    "name": "Luke Musgrave",
+    "team": "GB",
+    "fantasyProsRank": 395,
+    "fantasyProsTier": 14,
+    "positionRank": "TE54",
+    "byeWeek": 11,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": -36,
+    "projectedStats": {
+      "receptions": 20.5,
+      "receivingYards": 200.5,
+      "receivingTouchdowns": 1.1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 47.2,
+    "hondaProjectedPoints": 47.1
+  },
+  {
+    "name": "Ja'Tavion Sanders",
+    "team": "CAR",
+    "fantasyProsRank": 348,
+    "fantasyProsTier": 13,
+    "positionRank": "TE47",
+    "byeWeek": 5,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 19,
+    "projectedStats": {
+      "receptions": 21.5,
+      "receivingYards": 190.1,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 46.6,
+    "hondaProjectedPoints": 46.3
+  },
+  {
+    "name": "Eli Raridon",
+    "team": "NE",
+    "fantasyProsRank": 356,
+    "fantasyProsTier": 14,
+    "positionRank": "TE50",
+    "byeWeek": 11,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 61,
+    "projectedStats": {
+      "receptions": 18.8,
+      "receivingYards": 192.7,
+      "receivingTouchdowns": 1.5,
+      "fumblesLost": 0.6
+    },
+    "fantasyProsPoints": 46.2,
+    "hondaProjectedPoints": 45.9
+  },
+  {
+    "name": "Elijah Higgins",
+    "team": "ARI",
+    "fantasyProsRank": 463,
+    "fantasyProsTier": 15,
+    "positionRank": "TE65",
+    "byeWeek": 14,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": -97,
+    "projectedStats": {
+      "receptions": 22,
+      "receivingYards": 196.1,
+      "receivingTouchdowns": 0.8,
+      "fumblesLost": 0.6
+    },
+    "fantasyProsPoints": 45.5,
+    "hondaProjectedPoints": 45.2
+  },
+  {
+    "name": "Ben Sims",
+    "team": "MIA",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 19.5,
+      "receivingYards": 184.6,
+      "receivingTouchdowns": 1.2,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 44.9,
+    "hondaProjectedPoints": 45.2
+  },
+  {
+    "name": "Marlin Klein",
+    "team": "HOU",
+    "fantasyProsRank": 481,
+    "fantasyProsTier": 15,
+    "positionRank": "TE70",
+    "byeWeek": 8,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 71,
+    "projectedStats": {
+      "receptions": 19.5,
+      "receivingYards": 192.6,
+      "receivingTouchdowns": 1.1,
+      "fumblesLost": 0.5
+    },
+    "fantasyProsPoints": 44.4,
+    "hondaProjectedPoints": 44.4
+  },
+  {
+    "name": "Davis Allen",
+    "team": "LAR",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 16.9,
+      "receivingYards": 157.3,
+      "receivingTouchdowns": 1.9,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 43.8,
+    "hondaProjectedPoints": 44
+  },
+  {
+    "name": "John Bates",
+    "team": "WAS",
+    "fantasyProsRank": 425,
+    "fantasyProsTier": 15,
+    "positionRank": "TE58",
+    "byeWeek": 7,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "1 out of 5 stars",
+    "ecrVsAdp": 0,
+    "projectedStats": {
+      "receptions": 17.1,
+      "receivingYards": 170,
+      "receivingTouchdowns": 1.6,
+      "fumblesLost": 0.6
+    },
+    "fantasyProsPoints": 42.4,
+    "hondaProjectedPoints": 42.5
+  },
+  {
+    "name": "Jeremy Ruckert",
+    "team": "NYJ",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 19.7,
+      "receivingYards": 146.8,
+      "receivingTouchdowns": 1.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 41.9,
+    "hondaProjectedPoints": 42.2
+  },
+  {
+    "name": "Jake Tonges",
+    "team": "SF",
+    "fantasyProsRank": 313,
+    "fantasyProsTier": 13,
+    "positionRank": "TE38",
+    "byeWeek": 8,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -48,
+    "projectedStats": {
+      "receptions": 16.7,
+      "receivingYards": 167.2,
+      "receivingTouchdowns": 1.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 41.5,
+    "hondaProjectedPoints": 41.2
+  },
+  {
+    "name": "Nate Boerkircher",
+    "team": "JAC",
+    "fantasyProsRank": 488,
+    "fantasyProsTier": 15,
+    "positionRank": "TE72",
+    "byeWeek": 7,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 0,
+    "projectedStats": {
+      "receptions": 14.9,
+      "receivingYards": 156.8,
+      "receivingTouchdowns": 1.3,
+      "fumblesLost": 0.5
+    },
+    "fantasyProsPoints": 37.2,
+    "hondaProjectedPoints": 37.4
+  },
+  {
+    "name": "Connor Heyward",
+    "team": "LV",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 14,
+      "receivingYards": 103,
+      "receivingTouchdowns": 2,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 36.3,
+    "hondaProjectedPoints": 36.3
+  },
+  {
+    "name": "Drew Sample",
+    "team": "CIN",
+    "fantasyProsRank": 508,
+    "fantasyProsTier": 16,
+    "positionRank": "TE76",
+    "byeWeek": 6,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 90,
+    "projectedStats": {
+      "receptions": 15.1,
+      "receivingYards": 123,
+      "receivingTouchdowns": 1.1,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 33.8,
+    "hondaProjectedPoints": 33.8
+  },
+  {
+    "name": "Cade Stover",
+    "team": "HOU",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 15.2,
+      "receivingYards": 128.1,
+      "receivingTouchdowns": 0.9,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 33.1,
+    "hondaProjectedPoints": 33.2
+  },
+  {
+    "name": "Nick Vannett",
+    "team": "SEA",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 10,
+      "receivingYards": 96,
+      "receivingTouchdowns": 2,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 31.6,
+    "hondaProjectedPoints": 31.6
+  },
+  {
+    "name": "Nate Adkins",
+    "team": "DEN",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 11.9,
+      "receivingYards": 88.3,
+      "receivingTouchdowns": 1.8,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 31.7,
+    "hondaProjectedPoints": 31.5
+  },
+  {
+    "name": "Jack Endries",
+    "team": "CIN",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 13,
+      "receivingYards": 123,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 31.3,
+    "hondaProjectedPoints": 31.3
+  },
+  {
+    "name": "Ben Sinnott",
+    "team": "WAS",
+    "fantasyProsRank": 398,
+    "fantasyProsTier": 14,
+    "positionRank": "TE56",
+    "byeWeek": 7,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "1 out of 5 stars",
+    "ecrVsAdp": 0,
+    "projectedStats": {
+      "receptions": 11.1,
+      "receivingYards": 114.4,
+      "receivingTouchdowns": 1.4,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 30.9,
+    "hondaProjectedPoints": 30.9
+  },
+  {
+    "name": "Luke Schoonmaker",
+    "team": "DAL",
+    "fantasyProsRank": 507,
+    "fantasyProsTier": 16,
+    "positionRank": "TE75",
+    "byeWeek": 14,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": -150,
+    "projectedStats": {
+      "receptions": 13.2,
+      "receivingYards": 121.6,
+      "receivingTouchdowns": 0.9,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 31,
+    "hondaProjectedPoints": 30.8
+  },
+  {
+    "name": "Zack Kuntz",
+    "team": "DAL",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 12,
+      "receivingYards": 128,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 30.8,
+    "hondaProjectedPoints": 30.8
+  },
+  {
+    "name": "Charlie Woerner",
+    "team": "ATL",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 14.5,
+      "receivingYards": 127.4,
+      "receivingTouchdowns": 0.6,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 30.7,
+    "hondaProjectedPoints": 30.8
+  },
+  {
+    "name": "Jackson Hawes",
+    "team": "BUF",
+    "fantasyProsRank": 487,
+    "fantasyProsTier": 15,
+    "positionRank": "TE71",
+    "byeWeek": 7,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 35,
+    "projectedStats": {
+      "receptions": 10.5,
+      "receivingYards": 115,
+      "receivingTouchdowns": 1.4,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 30.6,
+    "hondaProjectedPoints": 30.4
+  },
+  {
+    "name": "Hayden Rucci",
+    "team": "SF",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 12,
+      "receivingYards": 118,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 29.8,
+    "hondaProjectedPoints": 29.8
+  },
+  {
+    "name": "Will Mallory",
+    "team": "IND",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 11,
+      "receivingYards": 126,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 29.6,
+    "hondaProjectedPoints": 29.6
+  },
+  {
+    "name": "Tanner Hudson",
+    "team": "CIN",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 13,
+      "receivingYards": 110.1,
+      "receivingTouchdowns": 0.9,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 29.2,
+    "hondaProjectedPoints": 29.2
+  },
+  {
+    "name": "Cam Grandy",
+    "team": "CIN",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 13,
+      "receivingYards": 100,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 29,
+    "hondaProjectedPoints": 29
+  },
+  {
+    "name": "Teagan Quitoriano",
+    "team": "ARI",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 12,
+      "receivingYards": 109,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 28.9,
+    "hondaProjectedPoints": 28.9
+  },
+  {
+    "name": "Grant Calcaterra",
+    "team": "PHI",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 11,
+      "receivingYards": 115.5,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 28.6,
+    "hondaProjectedPoints": 28.6
+  },
+  {
+    "name": "Dallen Bentley",
+    "team": "DEN",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 12,
+      "receivingYards": 104,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 28.4,
+    "hondaProjectedPoints": 28.4
+  },
+  {
+    "name": "Bauer Sharp",
+    "team": "TB",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 11,
+      "receivingYards": 113,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 28.3,
+    "hondaProjectedPoints": 28.3
+  },
+  {
+    "name": "Foster Moreau",
+    "team": "HOU",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 9.3,
+      "receivingYards": 105.6,
+      "receivingTouchdowns": 1.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 27.6,
+    "hondaProjectedPoints": 27.7
+  },
+  {
+    "name": "Tanner Conner",
+    "team": "NYG",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 10,
+      "receivingYards": 113,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 27.3,
+    "hondaProjectedPoints": 27.3
+  },
+  {
+    "name": "Mo Alie-Cox",
+    "team": "IND",
+    "fantasyProsRank": 471,
+    "fantasyProsTier": 15,
+    "positionRank": "TE67",
+    "byeWeek": 13,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": -42,
+    "projectedStats": {
+      "receptions": 10.8,
+      "receivingYards": 110.9,
+      "receivingTouchdowns": 0.9,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 27,
+    "hondaProjectedPoints": 27.1
+  },
+  {
+    "name": "Jaheim Bell",
+    "team": "PIT",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 10,
+      "receivingYards": 98,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 25.8,
+    "hondaProjectedPoints": 25.8
+  },
+  {
+    "name": "Durham Smythe",
+    "team": "BAL",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 9.8,
+      "receivingYards": 94,
+      "receivingTouchdowns": 0.7,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 23.5,
+    "hondaProjectedPoints": 23.2
+  },
+  {
+    "name": "Joe Royer",
+    "team": "CLE",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 8.8,
+      "receivingYards": 81.6,
+      "receivingTouchdowns": 0.7,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 20.9,
+    "hondaProjectedPoints": 21.2
+  },
+  {
+    "name": "Mitchell Evans",
+    "team": "CAR",
+    "fantasyProsRank": 396,
+    "fantasyProsTier": 14,
+    "positionRank": "TE55",
+    "byeWeek": 5,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 248,
+    "projectedStats": {
+      "receptions": 8,
+      "receivingYards": 71,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 21.1,
+    "hondaProjectedPoints": 21.1
+  },
+  {
+    "name": "Max Klare",
+    "team": "LAR",
+    "fantasyProsRank": 338,
+    "fantasyProsTier": 13,
+    "positionRank": "TE43",
+    "byeWeek": 11,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 50,
+    "projectedStats": {
+      "receptions": 7.5,
+      "receivingYards": 82.6,
+      "receivingTouchdowns": 0.7,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 19.8,
+    "hondaProjectedPoints": 20
+  },
+  {
+    "name": "Justin Joly",
+    "team": "DEN",
+    "fantasyProsRank": 361,
+    "fantasyProsTier": 14,
+    "positionRank": "TE51",
+    "byeWeek": 10,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "4 out of 5 stars",
+    "ecrVsAdp": 139,
+    "projectedStats": {
+      "receptions": 8,
+      "receivingYards": 70.9,
+      "receivingTouchdowns": 0.7,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 19,
+    "hondaProjectedPoints": 19.3
+  },
+  {
+    "name": "Brevyn Spann-Ford",
+    "team": "DAL",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 7.4,
+      "receivingYards": 70.9,
+      "receivingTouchdowns": 0.7,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 18.5,
+    "hondaProjectedPoints": 18.7
+  },
+  {
+    "name": "Oscar Delp",
+    "team": "NO",
+    "fantasyProsRank": 282,
+    "fantasyProsTier": 12,
+    "positionRank": "TE36",
+    "byeWeek": 8,
+    "upside": "4 out of 5",
+    "bust": "4 out of 5",
+    "strengthOfSchedule": "2 out of 5 stars",
+    "ecrVsAdp": 249,
+    "projectedStats": {
+      "receptions": 7.8,
+      "receivingYards": 73.3,
+      "receivingTouchdowns": 0.5,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 17.9,
+    "hondaProjectedPoints": 17.9
+  },
+  {
+    "name": "Payne Durham",
+    "team": "TB",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 7.2,
+      "receivingYards": 70.7,
+      "receivingTouchdowns": 0.6,
+      "fumblesLost": 0.1
+    },
+    "fantasyProsPoints": 18,
+    "hondaProjectedPoints": 17.7
+  },
+  {
+    "name": "Sam Roush",
+    "team": "CHI",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 6.8,
+      "receivingYards": 72.9,
+      "receivingTouchdowns": 0.6,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 17.9,
+    "hondaProjectedPoints": 17.7
+  },
+  {
+    "name": "Tip Reiman",
+    "team": "ARI",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 7.9,
+      "receivingYards": 62.2,
+      "receivingTouchdowns": 0.6,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 17.7,
+    "hondaProjectedPoints": 17.7
+  },
+  {
+    "name": "Devin Culp",
+    "team": "TB",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 5.5,
+      "receivingYards": 59,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 17.4,
+    "hondaProjectedPoints": 17.4
+  },
+  {
+    "name": "Ian Thomas",
+    "team": "LV",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 6.9,
+      "receivingYards": 62,
+      "receivingTouchdowns": 0.6,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 16.5,
+    "hondaProjectedPoints": 16.7
+  },
+  {
+    "name": "Hunter Long",
+    "team": "JAC",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 5,
+      "receivingYards": 45,
+      "receivingTouchdowns": 1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 15.5,
+    "hondaProjectedPoints": 15.5
+  },
+  {
+    "name": "Luke Farrell",
+    "team": "SF",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 4.2,
+      "receivingYards": 40.7,
+      "receivingTouchdowns": 0.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 9.9,
+    "hondaProjectedPoints": 10.1
+  },
+  {
+    "name": "Tanner Koziol",
+    "team": "JAC",
+    "fantasyProsRank": 449,
+    "fantasyProsTier": 15,
+    "positionRank": "TE63",
+    "byeWeek": 7,
+    "upside": "-",
+    "bust": "-",
+    "strengthOfSchedule": "3 out of 5 stars",
+    "ecrVsAdp": 75,
+    "projectedStats": {
+      "receptions": 3.9,
+      "receivingYards": 36.6,
+      "receivingTouchdowns": 0.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 9.2,
+    "hondaProjectedPoints": 9.4
+  },
+  {
+    "name": "CJ Dippre",
+    "team": "NE",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 3.9,
+      "receivingYards": 37.3,
+      "receivingTouchdowns": 0.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 9.2,
+    "hondaProjectedPoints": 9.4
+  },
+  {
+    "name": "Tyler Conklin",
+    "team": "DET",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 3.7,
+      "receivingYards": 38,
+      "receivingTouchdowns": 0.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 8.9,
+    "hondaProjectedPoints": 9.3
+  },
+  {
+    "name": "Ko Kieft",
+    "team": "TB",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 3.7,
+      "receivingYards": 36.1,
+      "receivingTouchdowns": 0.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 9.1,
+    "hondaProjectedPoints": 9.1
+  },
+  {
+    "name": "Drew Ogletree",
+    "team": "IND",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 3.7,
+      "receivingYards": 35.3,
+      "receivingTouchdowns": 0.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 8.7,
+    "hondaProjectedPoints": 9
+  },
+  {
+    "name": "Josh Cuevas",
+    "team": "BAL",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 3.3,
+      "receivingYards": 35.8,
+      "receivingTouchdowns": 0.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 8.6,
+    "hondaProjectedPoints": 8.7
+  },
+  {
+    "name": "Josh Whyle",
+    "team": "GB",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 3.6,
+      "receivingYards": 33,
+      "receivingTouchdowns": 0.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 8.6,
+    "hondaProjectedPoints": 8.7
+  },
+  {
+    "name": "Eric Saubert",
+    "team": "SEA",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 3.4,
+      "receivingYards": 34.4,
+      "receivingTouchdowns": 0.3,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 8.6,
+    "hondaProjectedPoints": 8.6
+  },
+  {
+    "name": "Johnny Mundt",
+    "team": "PHI",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 3.5,
+      "receivingYards": 35.4,
+      "receivingTouchdowns": 0.2,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 8.2,
+    "hondaProjectedPoints": 8.2
+  },
+  {
+    "name": "Jack Stoll",
+    "team": "CLE",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 3.6,
+      "receivingYards": 30.3,
+      "receivingTouchdowns": 0.2,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 7.5,
+    "hondaProjectedPoints": 7.8
+  },
+  {
+    "name": "Chris Manhertz",
+    "team": "NYG",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 1.8,
+      "receivingYards": 16.3,
+      "receivingTouchdowns": 0.1,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 4.2,
+    "hondaProjectedPoints": 4
+  },
+  {
+    "name": "Quintin Morris",
+    "team": "JAC",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTouchdowns": 0,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 0,
+    "hondaProjectedPoints": 0
+  },
+  {
+    "name": "Cole Turner",
+    "team": "MIA",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTouchdowns": 0,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 0,
+    "hondaProjectedPoints": 0
+  },
+  {
+    "name": "Jelani Woods",
+    "team": "NYJ",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTouchdowns": 0,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 0,
+    "hondaProjectedPoints": 0
+  },
+  {
+    "name": "Lucas Krull",
+    "team": "DEN",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTouchdowns": 0,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 0,
+    "hondaProjectedPoints": 0
+  },
+  {
+    "name": "Blake Whiteheart",
+    "team": "CLE",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTouchdowns": 0,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 0,
+    "hondaProjectedPoints": 0
+  },
+  {
+    "name": "Julian Hill",
+    "team": "NE",
+    "fantasyProsRank": null,
+    "fantasyProsTier": null,
+    "positionRank": null,
+    "byeWeek": null,
+    "upside": null,
+    "bust": null,
+    "strengthOfSchedule": null,
+    "ecrVsAdp": null,
+    "projectedStats": {
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTouchdowns": 0,
+      "fumblesLost": 0
+    },
+    "fantasyProsPoints": 0,
+    "hondaProjectedPoints": 0
+  }
+]

@@ -1,13 +1,16 @@
 import { players } from '../data/players'
+import type { PlayerPosition } from '../data/players'
 
 export function getManagerNeeds(
   roster: string[],
 ) {
-  const counts = {
+  const positionCounts: Record<PlayerPosition, number> = {
     QB: 0,
     RB: 0,
     WR: 0,
     TE: 0,
+    K: 0,
+    DST: 0,
   }
 
   roster.forEach((playerName) => {
@@ -16,36 +19,42 @@ export function getManagerNeeds(
     )
 
     if (player) {
-      counts[player.position]++
+      positionCounts[player.position]++
     }
   })
 
   return [
     {
       position: 'QB',
-      need: counts.QB === 0 ? 'High' : 'Low',
+      need:
+        positionCounts.QB === 0
+          ? 'High'
+          : 'Low',
     },
     {
       position: 'RB',
       need:
-        counts.RB < 2
+        positionCounts.RB < 2
           ? 'High'
-          : counts.RB < 4
-          ? 'Medium'
-          : 'Low',
+          : positionCounts.RB < 4
+            ? 'Medium'
+            : 'Low',
     },
     {
       position: 'WR',
       need:
-        counts.WR < 2
+        positionCounts.WR < 2
           ? 'High'
-          : counts.WR < 4
-          ? 'Medium'
-          : 'Low',
+          : positionCounts.WR < 4
+            ? 'Medium'
+            : 'Low',
     },
     {
       position: 'TE',
-      need: counts.TE === 0 ? 'High' : 'Low',
+      need:
+        positionCounts.TE === 0
+          ? 'High'
+          : 'Low',
     },
   ]
 }
