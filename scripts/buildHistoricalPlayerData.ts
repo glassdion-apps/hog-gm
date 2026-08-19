@@ -71,33 +71,107 @@ type SeasonEnrichmentFile = {
  * ---------------------------------------------------------
  */
 
+const PLAYER_NAME_ALIASES: Record<string, string> = {
+    'mitch trubisky': 'mitchell trubisky',
+    'will fuller': 'william fuller',
+    'mike badgley': 'michael badgley',
+    'kenneth gainwell': 'kenny gainwell',
+    'chigoziem okonkwo': 'chig okonkwo',
+    'josh palmer': 'joshua palmer',
+    'marquise brown': 'hollywood brown',
+}
+
 function normalizePlayerName(
+    value: string,
+) {
+    const normalized =
+        value
+            .toLowerCase()
+            .trim()
+            .replace(
+                /[’']/g,
+                '',
+            )
+            .replace(
+                /\./g,
+                '',
+            )
+            .replace(
+                /-/g,
+                ' ',
+            )
+            .replace(
+                /\b(jr|sr|ii|iii|iv|v)\b/g,
+                '',
+            )
+            .replace(
+                /\s+/g,
+                ' ',
+            )
+            .trim()
+
+    const alias =
+        PLAYER_NAME_ALIASES[
+        normalized
+        ]
+
+    if (
+        alias
+    ) {
+        return alias
+    }
+
+    return normalized
+}
+
+function normalizeDstName(
     value: string,
 ) {
     return value
         .toLowerCase()
         .trim()
         .replace(
-            /[’']/g,
+            /\bdst\b/g,
             '',
         )
         .replace(
-            /\./g,
-            '',
-        )
-        .replace(
-            /-/g,
+            /[^a-z0-9]+/g,
             ' ',
-        )
-        .replace(
-            /\b(jr|sr|ii|iii|iv|v)\b/g,
-            '',
         )
         .replace(
             /\s+/g,
             ' ',
         )
         .trim()
+}
+
+function dstNamesMatch(
+    hondaName: string,
+    fantasyProsName: string,
+) {
+    const honda =
+        normalizeDstName(
+            hondaName,
+        )
+
+    const fantasyPros =
+        normalizeDstName(
+            fantasyProsName,
+        )
+
+    if (
+        !honda ||
+        !fantasyPros
+    ) {
+        return false
+    }
+
+    return (
+        fantasyPros === honda ||
+        fantasyPros.endsWith(
+            ` ${honda}`,
+        )
+    )
 }
 
 function makePlayerKey(
@@ -345,16 +419,53 @@ function applySeasonEnrichment(
         const item of
         enrichment
     ) {
-        const key =
-            makePlayerKey(
-                season,
-                item.player,
-            )
+        let existing:
+            HistoricalPlayerRecord |
+            undefined
 
-        const existing =
-            records.get(
-                key,
-            )
+        /*
+         * DST names differ between sources:
+         *
+         * Honda:
+         *   Broncos
+         *   49ers
+         *   Rams
+         *
+         * FantasyPros:
+         *   Denver Broncos DST
+         *   San Francisco 49ers DST
+         *   Los Angeles Rams DST
+         */
+        if (
+            item.position ===
+            'DST'
+        ) {
+            existing =
+                Array.from(
+                    records.values(),
+                ).find(
+                    (record) =>
+                        record.season ===
+                        season &&
+                        record.position ===
+                        'DST' &&
+                        dstNamesMatch(
+                            record.player,
+                            item.player,
+                        ),
+                )
+        } else {
+            const key =
+                makePlayerKey(
+                    season,
+                    item.player,
+                )
+
+            existing =
+                records.get(
+                    key,
+                )
+        }
 
         if (
             !existing

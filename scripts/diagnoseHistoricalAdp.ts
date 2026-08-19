@@ -1,4 +1,5 @@
 import fs from 'node:fs'
+import path from 'node:path'
 
 type HistoricalRecord = {
     season: number
@@ -11,14 +12,17 @@ type HistoricalFile = {
     records: HistoricalRecord[]
 }
 
-type AdpRecord = {
-    player: string
-    position?: string
-    publicAdp: number
+type FantasyProsRow = {
+    player?: {
+        name?: string
+    }
+    pos?: string
+    avg?: number | string | null
 }
 
-type AdpFile = {
-    records: AdpRecord[]
+type FantasyProsFile = {
+    season?: number
+    rows?: FantasyProsRow[]
 }
 
 function normalize(
@@ -27,107 +31,96 @@ function normalize(
     return value
         .toLowerCase()
         .trim()
-        .replace(
-            /[’']/g,
-            '',
-        )
-        .replace(
-            /\./g,
-            '',
-        )
-        .replace(
-            /-/g,
-            ' ',
-        )
-        .replace(
-            /\b(jr|sr|ii|iii|iv|v)\b/g,
-            '',
-        )
-        .replace(
-            /\s+/g,
-            ' ',
-        )
+        .replace(/[’']/g, '')
+        .replace(/\./g, '')
+        .replace(/-/g, ' ')
+        .replace(/\b(jr|sr|ii|iii|iv|v)\b/g, '')
+        .replace(/\s+/g, ' ')
         .trim()
+}
+
+function basePosition(
+    value?: string,
+) {
+    if (!value) {
+        return undefined
+    }
+
+    return value
+        .trim()
+        .toUpperCase()
+        .match(/^(QB|RB|WR|TE|K|DST)/)?.[1]
 }
 
 function distance(
     a: string,
     b: string,
 ) {
-    const m =
-        a.length
-
-    const n =
-        b.length
-
     const dp =
         Array.from(
-            {
-                length:
-                    m + 1,
-            },
+            { length: a.length + 1 },
             () =>
                 Array<number>(
-                    n + 1,
-                ).fill(
-                    0,
-                ),
+                    b.length + 1,
+                ).fill(0),
         )
 
     for (
         let i = 0;
-        i <= m;
+        i <= a.length;
         i += 1
     ) {
-        dp[i][0] =
-            i
+        dp[i][0] = i
     }
 
     for (
         let j = 0;
-        j <= n;
+        j <= b.length;
         j += 1
     ) {
-        dp[0][j] =
-            j
+        dp[0][j] = j
     }
 
     for (
         let i = 1;
-        i <= m;
+        i <= a.length;
         i += 1
     ) {
         for (
             let j = 1;
-            j <= n;
+            j <= b.length;
             j += 1
         ) {
             dp[i][j] =
                 Math.min(
-                    dp[i - 1][j] +
-                    1,
-
-                    dp[i][j - 1] +
-                    1,
-
+                    dp[i - 1][j] + 1,
+                    dp[i][j - 1] + 1,
                     dp[i - 1][j - 1] +
-                    (
-                        a[i - 1] ===
+                        (
+                            a[i - 1] ===
                             b[j - 1]
-                            ? 0
-                            : 1
-                    ),
+                                ? 0
+                                : 1
+                        ),
                 )
         }
     }
 
-    return dp[m][n]
+    return dp[a.length][b.length]
 }
+
+const historicalPath =
+    path.join(
+        process.cwd(),
+        'data',
+        'historical-player-data',
+        'historical-player-data.json',
+    )
 
 const historical =
     JSON.parse(
         fs.readFileSync(
-            'data/historical-player-data/historical-player-data.json',
+            historicalPath,
             'utf8',
         ),
     ) as HistoricalFile
@@ -135,104 +128,121 @@ const historical =
 const missing =
     historical.records.filter(
         (record) =>
-            typeof record.publicAdp !==
-            'number',
+            record.publicAdp == null &&
+            record.position !== 'DST',
     )
 
-const seasons =
-    Array.from(
-        new Set(
-            missing.map(
-                (record) =>
-                    record.season,
-            ),
-        ),
-    ).sort(
-        (a, b) =>
-            a - b,
-    )
+console.log('')
+console.log(
+    `Non-DST records without ADP: ${missing.length}`,
+)
 
-for (
-    const season of
-    seasons
-) {
-    const adpFile =
+for (const record of missing) {
+    const sourcePath =
+        path.join(
+            process.cwd(),
+            'data',
+            'historical-adp',
+            `fantasypros-adp-${record.season}.json`,
+        )
+
+    const source =
         JSON.parse(
             fs.readFileSync(
-                `data/historical-player-data/enrichment/${season}.json`,
+                sourcePath,
                 'utf8',
             ),
-        ) as AdpFile
+        ) as FantasyProsFile
 
-    console.log(
-        `\n================ ${season} ================`,
-    )
-
-    const seasonMissing =
-        missing.filter(
-            (record) =>
-                record.season ===
-                season,
+    const target =
+        normalize(
+            record.player,
         )
 
-    for (
-        const honda of
-        seasonMissing
-    ) {
-        const hondaName =
-            normalize(
-                honda.player,
-            )
+    const targetPosition =
+        basePosition(
+            record.position,
+        )
 
-        const candidates =
-            adpFile.records
-                .filter(
-                    (candidate) =>
-                        !honda.position ||
+    const candidates =
+        (source.rows ?? [])
+            .map((row) => {
+                const player =
+                    row.player?.name?.trim() ??
+                    ''
+
+                const position =
+                    basePosition(
+                        row.pos,
+                    )
+
+                const adp =
+                    typeof row.avg === 'number'
+                        ? row.avg
+                        : Number.parseFloat(
+                            String(
+                                row.avg ?? '',
+                            ),
+                        )
+
+                return {
+                    player,
+                    position,
+                    adp,
+                    normalized:
+                        normalize(
+                            player,
+                        ),
+                }
+            })
+            .filter(
+                (candidate) =>
+                    candidate.player &&
+                    Number.isFinite(
+                        candidate.adp,
+                    ) &&
+                    (
+                        !targetPosition ||
                         !candidate.position ||
                         candidate.position ===
-                        honda.position,
-                )
-                .map(
-                    (candidate) => ({
-                        ...candidate,
-
-                        distance:
-                            distance(
-                                hondaName,
-                                normalize(
-                                    candidate.player,
-                                ),
-                            ),
-                    }),
-                )
-                .sort(
-                    (a, b) =>
-                        a.distance -
-                        b.distance ||
-                        a.publicAdp -
-                        b.publicAdp,
-                )
-                .slice(
-                    0,
-                    3,
-                )
-
-        console.log(
-            `\nHONDA: ${honda.player} | ${honda.position ?? '?'}`,
-        )
-
-        for (
-            const candidate of
-            candidates
-        ) {
-            console.log(
-                `   ${candidate.player} | ${candidate.position ?? '?'} | ADP ${candidate.publicAdp} | distance ${candidate.distance}`,
+                            targetPosition
+                    ),
             )
-        }
+            .map(
+                (candidate) => ({
+                    ...candidate,
+                    distance:
+                        distance(
+                            target,
+                            candidate.normalized,
+                        ),
+                }),
+            )
+            .sort(
+                (a, b) =>
+                    a.distance -
+                        b.distance ||
+                    a.adp -
+                        b.adp,
+            )
+            .slice(
+                0,
+                3,
+            )
+
+    console.log('')
+    console.log(
+        `${record.season} | ${record.player} | ${record.position ?? '?'}`,
+    )
+
+    for (const candidate of candidates) {
+        console.log(
+            `  ${candidate.player} | ${candidate.position ?? '?'} | ADP ${candidate.adp} | distance ${candidate.distance}`,
+        )
     }
 }
 
+console.log('')
 console.log(
-    `\nTOTAL WITHOUT ADP: ${missing.length}`,
+    `TOTAL NON-DST WITHOUT ADP: ${missing.length}`,
 )

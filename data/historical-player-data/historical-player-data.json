@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T16:22:38.255Z",
+  "generatedAt": "2026-08-19T16:48:46.667Z",
   "seasons": [
     2018,
     2019,
@@ -171,6 +171,7 @@
       "season": 2018,
       "player": "Broncos",
       "position": "DST",
+      "publicAdp": 151.5,
       "isRookie": false
     },
     {
@@ -221,6 +222,7 @@
       "season": 2018,
       "player": "Chargers",
       "position": "DST",
+      "publicAdp": 132.8,
       "isRookie": false
     },
     {
@@ -294,6 +296,7 @@
       "season": 2018,
       "player": "Cowboys",
       "position": "DST",
+      "publicAdp": 250,
       "isRookie": false
     },
     {
@@ -460,6 +463,7 @@
       "season": 2018,
       "player": "Eagles",
       "position": "DST",
+      "publicAdp": 114,
       "isRookie": false
     },
     {
@@ -502,6 +506,7 @@
       "season": 2018,
       "player": "Falcons",
       "position": "DST",
+      "publicAdp": 216.3,
       "isRookie": false
     },
     {
@@ -559,6 +564,7 @@
       "season": 2018,
       "player": "Jaguars",
       "position": "DST",
+      "publicAdp": 86,
       "isRookie": false
     },
     {
@@ -944,6 +950,8 @@
       "season": 2018,
       "player": "Mitch Trubisky",
       "position": "QB",
+      "team": "TEN",
+      "publicAdp": 175.8,
       "isRookie": false
     },
     {
@@ -980,6 +988,7 @@
       "season": 2018,
       "player": "Patriots",
       "position": "DST",
+      "publicAdp": 171.8,
       "isRookie": false
     },
     {
@@ -1007,6 +1016,7 @@
       "season": 2018,
       "player": "Rams",
       "position": "DST",
+      "publicAdp": 104.8,
       "isRookie": false
     },
     {
@@ -1027,6 +1037,7 @@
       "season": 2018,
       "player": "Ravens",
       "position": "DST",
+      "publicAdp": 132.8,
       "isRookie": false
     },
     {
@@ -1133,6 +1144,7 @@
       "season": 2018,
       "player": "Steelers",
       "position": "DST",
+      "publicAdp": 175.3,
       "isRookie": false
     },
     {
@@ -1189,6 +1201,7 @@
       "season": 2018,
       "player": "Texans",
       "position": "DST",
+      "publicAdp": 138.3,
       "isRookie": false
     },
     {
@@ -1202,6 +1215,7 @@
       "season": 2018,
       "player": "Titans",
       "position": "DST",
+      "publicAdp": 221.3,
       "isRookie": false
     },
     {
@@ -1265,6 +1279,7 @@
       "season": 2018,
       "player": "Vikings",
       "position": "DST",
+      "publicAdp": 112,
       "isRookie": false
     },
     {
@@ -1279,6 +1294,7 @@
       "season": 2018,
       "player": "Will Fuller",
       "position": "WR",
+      "publicAdp": 79.8,
       "isRookie": false
     },
     {
@@ -1402,6 +1418,7 @@
       "season": 2019,
       "player": "Bears",
       "position": "DST",
+      "publicAdp": 83.7,
       "isRookie": false
     },
     {
@@ -1415,6 +1432,7 @@
       "season": 2019,
       "player": "Bills",
       "position": "DST",
+      "publicAdp": 196.7,
       "isRookie": false
     },
     {
@@ -1435,6 +1453,7 @@
       "season": 2019,
       "player": "Broncos",
       "position": "DST",
+      "publicAdp": 155.7,
       "isRookie": false
     },
     {
@@ -1464,6 +1483,7 @@
       "season": 2019,
       "player": "Chargers",
       "position": "DST",
+      "publicAdp": 133,
       "isRookie": false
     },
     {
@@ -1508,6 +1528,7 @@
       "season": 2019,
       "player": "Colts",
       "position": "DST",
+      "publicAdp": 246,
       "isRookie": false
     },
     {
@@ -1537,6 +1558,7 @@
       "season": 2019,
       "player": "Cowboys",
       "position": "DST",
+      "publicAdp": 176.7,
       "isRookie": false
     },
     {
@@ -1743,6 +1765,7 @@
       "season": 2019,
       "player": "Eagles",
       "position": "DST",
+      "publicAdp": 179.7,
       "isRookie": false
     },
     {
@@ -1838,6 +1861,7 @@
       "season": 2019,
       "player": "Jaguars",
       "position": "DST",
+      "publicAdp": 118.5,
       "isRookie": false
     },
     {
@@ -2166,6 +2190,8 @@
       "season": 2019,
       "player": "Marquise Brown",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 191.6,
       "isRookie": true
     },
     {
@@ -2236,6 +2262,7 @@
       "season": 2019,
       "player": "Mike Badgley",
       "position": "K",
+      "publicAdp": 200,
       "isRookie": false
     },
     {
@@ -2264,6 +2291,8 @@
       "season": 2019,
       "player": "Mitch Trubisky",
       "position": "QB",
+      "team": "TEN",
+      "publicAdp": 147.5,
       "isRookie": false
     },
     {
@@ -2321,6 +2350,7 @@
       "season": 2019,
       "player": "Patriots",
       "position": "DST",
+      "publicAdp": 159.5,
       "isRookie": false
     },
     {
@@ -2348,6 +2378,7 @@
       "season": 2019,
       "player": "Rams",
       "position": "DST",
+      "publicAdp": 107,
       "isRookie": false
     },
     {
@@ -2361,6 +2392,7 @@
       "season": 2019,
       "player": "Ravens",
       "position": "DST",
+      "publicAdp": 132.2,
       "isRookie": false
     },
     {
@@ -2402,6 +2434,7 @@
       "season": 2019,
       "player": "Saints",
       "position": "DST",
+      "publicAdp": 162.8,
       "isRookie": false
     },
     {
@@ -2489,6 +2522,7 @@
       "season": 2019,
       "player": "Texans",
       "position": "DST",
+      "publicAdp": 163.5,
       "isRookie": false
     },
     {
@@ -2553,6 +2587,7 @@
       "season": 2019,
       "player": "Vikings",
       "position": "DST",
+      "publicAdp": 130.8,
       "isRookie": false
     },
     {
@@ -2567,6 +2602,7 @@
       "season": 2019,
       "player": "Will Fuller",
       "position": "WR",
+      "publicAdp": 86.8,
       "isRookie": false
     },
     {
@@ -2587,6 +2623,7 @@
       "season": 2021,
       "player": "49ers",
       "position": "DST",
+      "publicAdp": 136.8,
       "isRookie": false
     },
     {
@@ -2690,6 +2727,7 @@
       "season": 2021,
       "player": "Bills",
       "position": "DST",
+      "publicAdp": 139,
       "isRookie": false
     },
     {
@@ -2711,12 +2749,14 @@
       "season": 2021,
       "player": "Broncos",
       "position": "DST",
+      "publicAdp": 163.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Buccaneers",
       "position": "DST",
+      "publicAdp": 105.4,
       "isRookie": false
     },
     {
@@ -2807,12 +2847,14 @@
       "season": 2021,
       "player": "Colts",
       "position": "DST",
+      "publicAdp": 151.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Commanders",
       "position": "DST",
+      "publicAdp": 120,
       "isRookie": false
     },
     {
@@ -3419,6 +3461,8 @@
       "season": 2021,
       "player": "Marquise Brown",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 123.2,
       "isRookie": false
     },
     {
@@ -3574,6 +3618,7 @@
       "season": 2021,
       "player": "Panthers",
       "position": "DST",
+      "publicAdp": 245.8,
       "isRookie": false
     },
     {
@@ -3588,6 +3633,7 @@
       "season": 2021,
       "player": "Patriots",
       "position": "DST",
+      "publicAdp": 158.8,
       "isRookie": false
     },
     {
@@ -3609,12 +3655,14 @@
       "season": 2021,
       "player": "Rams",
       "position": "DST",
+      "publicAdp": 107.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Ravens",
       "position": "DST",
+      "publicAdp": 123.8,
       "isRookie": false
     },
     {
@@ -3705,6 +3753,7 @@
       "season": 2021,
       "player": "Saints",
       "position": "DST",
+      "publicAdp": 189.2,
       "isRookie": false
     },
     {
@@ -3719,6 +3768,7 @@
       "season": 2021,
       "player": "Steelers",
       "position": "DST",
+      "publicAdp": 111.2,
       "isRookie": false
     },
     {
@@ -3885,6 +3935,7 @@
       "season": 2021,
       "player": "Will Fuller",
       "position": "WR",
+      "publicAdp": 109.8,
       "isRookie": false
     },
     {
@@ -3912,6 +3963,7 @@
       "season": 2022,
       "player": "49ers",
       "position": "DST",
+      "publicAdp": 118.8,
       "isRookie": false
     },
     {
@@ -4031,6 +4083,7 @@
       "season": 2022,
       "player": "Bills",
       "position": "DST",
+      "publicAdp": 92,
       "isRookie": false
     },
     {
@@ -4068,18 +4121,21 @@
       "season": 2022,
       "player": "Broncos",
       "position": "DST",
+      "publicAdp": 169,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Browns",
       "position": "DST",
+      "publicAdp": 198,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Buccaneers",
       "position": "DST",
+      "publicAdp": 112.3,
       "isRookie": false
     },
     {
@@ -4163,6 +4219,7 @@
       "season": 2022,
       "player": "Colts",
       "position": "DST",
+      "publicAdp": 123.5,
       "isRookie": false
     },
     {
@@ -4727,6 +4784,8 @@
       "season": 2022,
       "player": "Kenneth Gainwell",
       "position": "RB",
+      "team": "TB",
+      "publicAdp": 146.8,
       "isRookie": false
     },
     {
@@ -4802,6 +4861,8 @@
       "season": 2022,
       "player": "Marquise Brown",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 61.5,
       "isRookie": false
     },
     {
@@ -4905,6 +4966,8 @@
       "season": 2022,
       "player": "Mitch Trubisky",
       "position": "QB",
+      "team": "TEN",
+      "publicAdp": 244.3,
       "isRookie": false
     },
     {
@@ -4941,6 +5004,7 @@
       "season": 2022,
       "player": "Packers",
       "position": "DST",
+      "publicAdp": 142.5,
       "isRookie": false
     },
     {
@@ -4963,6 +5027,7 @@
       "season": 2022,
       "player": "Patriots",
       "position": "DST",
+      "publicAdp": 166,
       "isRookie": false
     },
     {
@@ -4977,6 +5042,7 @@
       "season": 2022,
       "player": "Rams",
       "position": "DST",
+      "publicAdp": 129,
       "isRookie": false
     },
     {
@@ -4998,6 +5064,7 @@
       "season": 2022,
       "player": "Ravens",
       "position": "DST",
+      "publicAdp": 159.8,
       "isRookie": false
     },
     {
@@ -5068,6 +5135,7 @@
       "season": 2022,
       "player": "Saints",
       "position": "DST",
+      "publicAdp": 135.3,
       "isRookie": false
     },
     {
@@ -5136,6 +5204,7 @@
       "season": 2022,
       "player": "Titans",
       "position": "DST",
+      "publicAdp": 222,
       "isRookie": false
     },
     {
@@ -5258,6 +5327,7 @@
       "season": 2023,
       "player": "49ers",
       "position": "DST",
+      "publicAdp": 82.8,
       "isRookie": false
     },
     {
@@ -5369,6 +5439,7 @@
       "season": 2023,
       "player": "Bears",
       "position": "DST",
+      "publicAdp": 222,
       "isRookie": false
     },
     {
@@ -5383,6 +5454,7 @@
       "season": 2023,
       "player": "Bills",
       "position": "DST",
+      "publicAdp": 108.5,
       "isRookie": false
     },
     {
@@ -5436,6 +5508,7 @@
       "season": 2023,
       "player": "Broncos",
       "position": "DST",
+      "publicAdp": 198.8,
       "isRookie": false
     },
     {
@@ -5481,12 +5554,15 @@
       "season": 2023,
       "player": "Chiefs",
       "position": "DST",
+      "publicAdp": 166.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Chigoziem Okonkwo",
       "position": "TE",
+      "team": "WAS",
+      "publicAdp": 154.5,
       "isRookie": false
     },
     {
@@ -5572,6 +5648,7 @@
       "season": 2023,
       "player": "Cowboys",
       "position": "DST",
+      "publicAdp": 118.3,
       "isRookie": false
     },
     {
@@ -5782,6 +5859,7 @@
       "season": 2023,
       "player": "Dolphins",
       "position": "DST",
+      "publicAdp": 145.8,
       "isRookie": false
     },
     {
@@ -5796,6 +5874,7 @@
       "season": 2023,
       "player": "Eagles",
       "position": "DST",
+      "publicAdp": 106,
       "isRookie": false
     },
     {
@@ -6077,6 +6156,7 @@
       "season": 2023,
       "player": "Jets",
       "position": "DST",
+      "publicAdp": 122.3,
       "isRookie": false
     },
     {
@@ -6184,6 +6264,8 @@
       "season": 2023,
       "player": "Kenneth Gainwell",
       "position": "RB",
+      "team": "TB",
+      "publicAdp": 187.5,
       "isRookie": false
     },
     {
@@ -6245,6 +6327,8 @@
       "season": 2023,
       "player": "Marquise Brown",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 91.3,
       "isRookie": false
     },
     {
@@ -6374,6 +6458,7 @@
       "season": 2023,
       "player": "Ravens",
       "position": "DST",
+      "publicAdp": 138.8,
       "isRookie": false
     },
     {
@@ -6411,6 +6496,7 @@
       "season": 2023,
       "player": "Saints",
       "position": "DST",
+      "publicAdp": 154,
       "isRookie": false
     },
     {
@@ -6449,6 +6535,7 @@
       "season": 2023,
       "player": "Steelers",
       "position": "DST",
+      "publicAdp": 141.5,
       "isRookie": false
     },
     {
@@ -6628,6 +6715,7 @@
       "season": 2024,
       "player": "49ers",
       "position": "DST",
+      "publicAdp": 116,
       "isRookie": false
     },
     {
@@ -6710,12 +6798,14 @@
       "season": 2024,
       "player": "Bears",
       "position": "DST",
+      "publicAdp": 187.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Bengals",
       "position": "DST",
+      "publicAdp": 159.8,
       "isRookie": false
     },
     {
@@ -6730,6 +6820,7 @@
       "season": 2024,
       "player": "Bills",
       "position": "DST",
+      "publicAdp": 164.8,
       "isRookie": false
     },
     {
@@ -6807,6 +6898,7 @@
       "season": 2024,
       "player": "Browns",
       "position": "DST",
+      "publicAdp": 134.6,
       "isRookie": false
     },
     {
@@ -6853,6 +6945,7 @@
       "season": 2024,
       "player": "Chargers",
       "position": "DST",
+      "publicAdp": 230,
       "isRookie": false
     },
     {
@@ -6867,6 +6960,7 @@
       "season": 2024,
       "player": "Chiefs",
       "position": "DST",
+      "publicAdp": 160,
       "isRookie": false
     },
     {
@@ -6952,6 +7046,7 @@
       "season": 2024,
       "player": "Cowboys",
       "position": "DST",
+      "publicAdp": 128,
       "isRookie": false
     },
     {
@@ -7108,6 +7203,7 @@
       "season": 2024,
       "player": "Eagles",
       "position": "DST",
+      "publicAdp": 178.6,
       "isRookie": false
     },
     {
@@ -7389,6 +7485,7 @@
       "season": 2024,
       "player": "Jets",
       "position": "DST",
+      "publicAdp": 128.4,
       "isRookie": false
     },
     {
@@ -7458,6 +7555,8 @@
       "season": 2024,
       "player": "Josh Palmer",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 151.4,
       "isRookie": false
     },
     {
@@ -7510,6 +7609,8 @@
       "season": 2024,
       "player": "Kenneth Gainwell",
       "position": "RB",
+      "team": "TB",
+      "publicAdp": 229.3,
       "isRookie": false
     },
     {
@@ -7627,6 +7728,8 @@
       "season": 2024,
       "player": "Marquise Brown",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 110.2,
       "isRookie": false
     },
     {
@@ -7751,6 +7854,7 @@
       "season": 2024,
       "player": "Ravens",
       "position": "DST",
+      "publicAdp": 128.2,
       "isRookie": false
     },
     {
@@ -7805,6 +7909,7 @@
       "season": 2024,
       "player": "Steelers",
       "position": "DST",
+      "publicAdp": 158.6,
       "isRookie": false
     },
     {
@@ -8015,6 +8120,7 @@
       "season": 2025,
       "player": "49ers",
       "position": "DST",
+      "publicAdp": 166,
       "isRookie": false
     },
     {
@@ -8082,6 +8188,7 @@
       "season": 2025,
       "player": "Bears",
       "position": "DST",
+      "publicAdp": 211.4,
       "isRookie": false
     },
     {
@@ -8104,6 +8211,7 @@
       "season": 2025,
       "player": "Bills",
       "position": "DST",
+      "publicAdp": 136.7,
       "isRookie": false
     },
     {
@@ -8182,6 +8290,7 @@
       "season": 2025,
       "player": "Broncos",
       "position": "DST",
+      "publicAdp": 105.2,
       "isRookie": false
     },
     {
@@ -8244,6 +8353,7 @@
       "season": 2025,
       "player": "Cardinals",
       "position": "DST",
+      "publicAdp": 197.3,
       "isRookie": false
     },
     {
@@ -8258,6 +8368,7 @@
       "season": 2025,
       "player": "Chargers",
       "position": "DST",
+      "publicAdp": 213.2,
       "isRookie": false
     },
     {
@@ -8280,6 +8391,7 @@
       "season": 2025,
       "player": "Chiefs",
       "position": "DST",
+      "publicAdp": 173.8,
       "isRookie": false
     },
     {
@@ -8510,6 +8622,7 @@
       "season": 2025,
       "player": "Eagles",
       "position": "DST",
+      "publicAdp": 114.5,
       "isRookie": false
     },
     {
@@ -8788,6 +8901,7 @@
       "season": 2025,
       "player": "Jets",
       "position": "DST",
+      "publicAdp": 223.5,
       "isRookie": false
     },
     {
@@ -9128,6 +9242,7 @@
       "season": 2025,
       "player": "Rams",
       "position": "DST",
+      "publicAdp": 221.2,
       "isRookie": false
     },
     {
@@ -9158,6 +9273,7 @@
       "season": 2025,
       "player": "Ravens",
       "position": "DST",
+      "publicAdp": 120.7,
       "isRookie": false
     },
     {
@@ -9212,6 +9328,7 @@
       "season": 2025,
       "player": "Steelers",
       "position": "DST",
+      "publicAdp": 133.7,
       "isRookie": false
     },
     {
@@ -9369,6 +9486,7 @@
       "season": 2025,
       "player": "Vikings",
       "position": "DST",
+      "publicAdp": 145,
       "isRookie": false
     },
     {
