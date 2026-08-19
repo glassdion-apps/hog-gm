@@ -1,0 +1,3582 @@
+{
+  "generatedAt": "2026-08-19T16:12:34.619Z",
+  "season": 2021,
+  "source": "/Users/dionglassmainmac/Documents/projects/hog-gm/data/historical-adp/fantasypros-adp-2021.json",
+  "scoring": "PPR",
+  "records": [
+    {
+      "season": 2021,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 1,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "publicAdp": 2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "publicAdp": 5.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Davante Adams",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 6.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 8.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Aaron Jones Sr.",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 9.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 9.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "publicAdp": 10.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "publicAdp": 10.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "publicAdp": 10.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "publicAdp": 10.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 14,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Najee Harris",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 15.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 17.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Antonio Gibson",
+      "position": "RB",
+      "publicAdp": 17.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Patrick Mahomes II",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 18.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 18.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 18.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "publicAdp": 20.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Darren Waller",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 22.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "publicAdp": 23.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 23.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "publicAdp": 24.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "George Kittle",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 26.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 27.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 29.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "publicAdp": 30,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "David Montgomery",
+      "position": "RB",
+      "team": "HOU",
+      "publicAdp": 30.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Allen Robinson II",
+      "position": "WR",
+      "publicAdp": 32,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chris Carson",
+      "position": "RB",
+      "publicAdp": 32.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 32.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "James Robinson",
+      "position": "RB",
+      "publicAdp": 33.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 35.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 36.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "team": "CHI",
+      "publicAdp": 36.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Miles Sanders",
+      "position": "RB",
+      "publicAdp": 38.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Robert Woods",
+      "position": "WR",
+      "publicAdp": 38.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 40.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "publicAdp": 41.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chris Godwin Jr.",
+      "position": "WR",
+      "team": "TB",
+      "publicAdp": 42.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 44.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 46,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Julio Jones",
+      "position": "WR",
+      "publicAdp": 46.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kyle Pitts Sr.",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 47,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 49.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Myles Gaskin",
+      "position": "RB",
+      "publicAdp": 49.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 50.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "publicAdp": 50.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Diontae Johnson",
+      "position": "WR",
+      "publicAdp": 51.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "DJ Moore",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 53.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 54.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "publicAdp": 55.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "publicAdp": 56,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mike Davis",
+      "position": "RB",
+      "publicAdp": 56.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "publicAdp": 57.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "team": "MIN",
+      "publicAdp": 58.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Darrell Henderson Jr.",
+      "position": "RB",
+      "publicAdp": 60,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Javonte Williams",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 60.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Brandon Aiyuk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 60.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chase Edmonds",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 62,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "publicAdp": 62.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 64.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 67.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "team": "LV",
+      "publicAdp": 68.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chase Claypool",
+      "position": "WR",
+      "publicAdp": 69.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "publicAdp": 70.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tom Brady",
+      "position": "QB",
+      "publicAdp": 71.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Damien Harris",
+      "position": "RB",
+      "publicAdp": 72,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 72.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 74.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kenny Golladay",
+      "position": "WR",
+      "publicAdp": 74.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 77,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Robbie Chosen",
+      "position": "WR",
+      "publicAdp": 77.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "publicAdp": 79.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 79.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Melvin Gordon III",
+      "position": "RB",
+      "publicAdp": 79.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Logan Thomas",
+      "position": "TE",
+      "publicAdp": 81.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Noah Fant",
+      "position": "TE",
+      "team": "NO",
+      "publicAdp": 84.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "publicAdp": 86.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Trey Sermon",
+      "position": "RB",
+      "team": "ATL",
+      "publicAdp": 87.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Deebo Samuel Sr.",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 88,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 88.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Robert Tonyan",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 88.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "publicAdp": 91.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ronald Jones II",
+      "position": "RB",
+      "publicAdp": 91.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Laviska Shenault Jr.",
+      "position": "WR",
+      "publicAdp": 91.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "publicAdp": 92.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Michael Carter",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 93.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ryan Tannehill",
+      "position": "QB",
+      "publicAdp": 93.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Antonio Brown",
+      "position": "WR",
+      "publicAdp": 94.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Corey Davis",
+      "position": "WR",
+      "publicAdp": 95.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 97,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 99.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 100.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "DJ Chark Jr.",
+      "position": "WR",
+      "publicAdp": 102,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jarvis Landry",
+      "position": "WR",
+      "publicAdp": 103.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tampa Bay Buccaneers DST",
+      "position": "DST",
+      "publicAdp": 105.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "AJ Dillon",
+      "position": "RB",
+      "team": "CAR",
+      "publicAdp": 105.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Michael Pittman Jr.",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 106.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kenyan Drake",
+      "position": "RB",
+      "publicAdp": 106.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Zack Moss",
+      "position": "RB",
+      "publicAdp": 106.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 107.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Los Angeles Rams DST",
+      "position": "DST",
+      "publicAdp": 107.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "William Fuller V",
+      "position": "WR",
+      "publicAdp": 109.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mike Gesicki",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 109.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Pittsburgh Steelers DST",
+      "position": "DST",
+      "publicAdp": 111.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 111.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Higbee",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 112,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 112.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jamaal Williams",
+      "position": "RB",
+      "publicAdp": 116.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Sony Michel",
+      "position": "RB",
+      "publicAdp": 117.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Michael Gallup",
+      "position": "WR",
+      "publicAdp": 118,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Curtis Samuel",
+      "position": "WR",
+      "publicAdp": 118.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Washington Commanders DST",
+      "position": "DST",
+      "publicAdp": 120,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Marvin Jones Jr.",
+      "position": "WR",
+      "publicAdp": 122.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Marquez Callaway",
+      "position": "WR",
+      "publicAdp": 123,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mike Williams",
+      "position": "WR",
+      "publicAdp": 123,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jonnu Smith",
+      "position": "TE",
+      "publicAdp": 123,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Hollywood Brown",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 123.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Baltimore Ravens DST",
+      "position": "DST",
+      "publicAdp": 123.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Nyheim Miller-Hines",
+      "position": "RB",
+      "publicAdp": 124,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Rob Gronkowski",
+      "position": "TE",
+      "publicAdp": 125.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Harrison Butker",
+      "position": "K",
+      "team": "KC",
+      "publicAdp": 127.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Justin Tucker",
+      "position": "K",
+      "publicAdp": 127.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAC",
+      "publicAdp": 128,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Darnell Mooney",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 128.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Henry Ruggs III",
+      "position": "WR",
+      "publicAdp": 129,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "David Johnson",
+      "position": "RB",
+      "publicAdp": 129.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 132.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mecole Hardman Jr.",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 132.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "DeVante Parker",
+      "position": "WR",
+      "publicAdp": 134.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "San Francisco 49ers DST",
+      "position": "DST",
+      "publicAdp": 136.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "publicAdp": 138.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Buffalo Bills DST",
+      "position": "DST",
+      "publicAdp": 139,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "J.D. McKissic",
+      "position": "RB",
+      "publicAdp": 139.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Justin Fields",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 140.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Matt Ryan",
+      "position": "QB",
+      "publicAdp": 141.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Younghoe Koo",
+      "position": "K",
+      "publicAdp": 143.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cole Beasley",
+      "position": "WR",
+      "publicAdp": 143.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "team": "JAC",
+      "publicAdp": 145,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Elijah Moore",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 145.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Phillip Lindsay",
+      "position": "RB",
+      "publicAdp": 146.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Russell Gage Jr.",
+      "position": "WR",
+      "publicAdp": 148.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Trey Lance",
+      "position": "QB",
+      "team": "LAC",
+      "publicAdp": 149,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "James White",
+      "position": "RB",
+      "publicAdp": 151.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Indianapolis Colts DST",
+      "position": "DST",
+      "publicAdp": 151.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "publicAdp": 153.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Alexander Mattison",
+      "position": "RB",
+      "publicAdp": 154.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Bass",
+      "position": "K",
+      "team": "BUF",
+      "publicAdp": 155,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "publicAdp": 157.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "ATL",
+      "publicAdp": 158.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "New England Patriots DST",
+      "position": "DST",
+      "publicAdp": 158.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Evan Engram",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 159.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Denver Broncos DST",
+      "position": "DST",
+      "publicAdp": 163.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jason Sanders",
+      "position": "K",
+      "team": "NYJ",
+      "publicAdp": 163.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ben Roethlisberger",
+      "position": "QB",
+      "publicAdp": 165,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "publicAdp": 165.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jared Cook",
+      "position": "TE",
+      "publicAdp": 165.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ryan Succop",
+      "position": "K",
+      "publicAdp": 165.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tevin Coleman",
+      "position": "RB",
+      "publicAdp": 167.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 168.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 169,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "publicAdp": 172.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Austin Hooper",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 174.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cleveland Browns DST",
+      "position": "DST",
+      "publicAdp": 174.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Giovani Bernard",
+      "position": "RB",
+      "publicAdp": 174.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Nelson Agholor",
+      "position": "WR",
+      "publicAdp": 176.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "team": "CAR",
+      "publicAdp": 176.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mac Jones",
+      "position": "QB",
+      "team": "SF",
+      "publicAdp": 177,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Rodrigo Blankenship",
+      "position": "K",
+      "publicAdp": 177.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Greg Zuerlein",
+      "position": "K",
+      "publicAdp": 177.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kenny Gainwell",
+      "position": "RB",
+      "team": "TB",
+      "publicAdp": 177.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Gerald Everett",
+      "position": "TE",
+      "publicAdp": 179.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ryan Fitzpatrick",
+      "position": "QB",
+      "publicAdp": 182.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Daniel Carlson",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 183.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kansas City Chiefs DST",
+      "position": "DST",
+      "publicAdp": 186.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Derek Carr",
+      "position": "QB",
+      "publicAdp": 186.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jalen Reagor",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 187.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cole Kmet",
+      "position": "TE",
+      "team": "CHI",
+      "publicAdp": 187.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyrell Williams",
+      "position": "WR",
+      "publicAdp": 188.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "New Orleans Saints DST",
+      "position": "DST",
+      "publicAdp": 189.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Rashaad Penny",
+      "position": "RB",
+      "publicAdp": 190.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Terrace Marshall Jr.",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 191,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Miami Dolphins DST",
+      "position": "DST",
+      "publicAdp": 191.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Zach Wilson",
+      "position": "QB",
+      "team": "NO",
+      "publicAdp": 192.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jason Myers",
+      "position": "K",
+      "team": "SEA",
+      "publicAdp": 193.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Latavius Murray",
+      "position": "RB",
+      "publicAdp": 194.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mason Crosby",
+      "position": "K",
+      "publicAdp": 195,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Emmanuel Sanders",
+      "position": "WR",
+      "publicAdp": 195.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "A.J. Green",
+      "position": "WR",
+      "publicAdp": 197,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ty'Son Williams",
+      "position": "RB",
+      "publicAdp": 198.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Randall Cobb",
+      "position": "WR",
+      "publicAdp": 199.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Gabe Davis",
+      "position": "WR",
+      "publicAdp": 204.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Matt Prater",
+      "position": "K",
+      "publicAdp": 207.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Daniel Jones",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 207.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Green Bay Packers DST",
+      "position": "DST",
+      "publicAdp": 207.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Bryan Edwards",
+      "position": "WR",
+      "publicAdp": 207.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Matt Gay",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 209,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "publicAdp": 209.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 210.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Sam Darnold",
+      "position": "QB",
+      "team": "SEA",
+      "publicAdp": 212,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Darrel Williams",
+      "position": "RB",
+      "publicAdp": 213.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Anthony Firkser",
+      "position": "TE",
+      "publicAdp": 215.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Brandon McManus",
+      "position": "K",
+      "publicAdp": 195.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Eric Ebron",
+      "position": "TE",
+      "publicAdp": 217.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Blake Jarwin",
+      "position": "TE",
+      "publicAdp": 219,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 198.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mark Ingram II",
+      "position": "RB",
+      "publicAdp": 221.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Seattle Seahawks DST",
+      "position": "DST",
+      "publicAdp": 222.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Parris Campbell",
+      "position": "WR",
+      "publicAdp": 223.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tarik Cohen",
+      "position": "RB",
+      "publicAdp": 206.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tony Jones Jr.",
+      "position": "RB",
+      "publicAdp": 207,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chicago Bears DST",
+      "position": "DST",
+      "publicAdp": 226.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Adam Trautman",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 207.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Robbie Gould",
+      "position": "K",
+      "publicAdp": 227.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 209.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jamison Crowder",
+      "position": "WR",
+      "publicAdp": 228.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ty Johnson",
+      "position": "RB",
+      "team": "BUF",
+      "publicAdp": 210.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "T.Y. Hilton",
+      "position": "WR",
+      "publicAdp": 210.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Damien Williams",
+      "position": "RB",
+      "publicAdp": 211.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tennessee Titans DST",
+      "position": "DST",
+      "publicAdp": 230.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Minnesota Vikings DST",
+      "position": "DST",
+      "publicAdp": 232.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Carson Wentz",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 231.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 214.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tre'Quan Smith",
+      "position": "WR",
+      "publicAdp": 215.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Malcolm Brown",
+      "position": "RB",
+      "publicAdp": 218.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Marlon Mack",
+      "position": "RB",
+      "publicAdp": 223.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Graham Gano",
+      "position": "K",
+      "publicAdp": 229.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Devontae Booker",
+      "position": "RB",
+      "publicAdp": 200,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Arizona Cardinals DST",
+      "position": "DST",
+      "publicAdp": 227,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Allen Lazard",
+      "position": "WR",
+      "publicAdp": 227.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Wil Lutz",
+      "position": "K",
+      "team": "DEN",
+      "publicAdp": 204.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Los Angeles Chargers DST",
+      "position": "DST",
+      "publicAdp": 245.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 230,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Carolina Panthers DST",
+      "position": "DST",
+      "publicAdp": 245.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Le'Veon Bell",
+      "position": "RB",
+      "publicAdp": 232.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cam Newton",
+      "position": "QB",
+      "publicAdp": 234.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chris Boswell",
+      "position": "K",
+      "team": "PIT",
+      "publicAdp": 239.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jerick McKinnon",
+      "position": "RB",
+      "publicAdp": 235.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Sammy Watkins",
+      "position": "WR",
+      "publicAdp": 236,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "publicAdp": 238,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Boston Scott",
+      "position": "RB",
+      "publicAdp": 238.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cam Akers",
+      "position": "RB",
+      "publicAdp": 271.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "O.J. Howard",
+      "position": "TE",
+      "publicAdp": 254.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kadarius Toney",
+      "position": "WR",
+      "publicAdp": 243.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Todd Gurley II",
+      "position": "RB",
+      "publicAdp": 225.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Teddy Bridgewater",
+      "position": "QB",
+      "publicAdp": 248.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Evan McPherson",
+      "position": "K",
+      "team": "CIN",
+      "publicAdp": 248.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Carlos Hyde",
+      "position": "RB",
+      "publicAdp": 249.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Amari Rodgers",
+      "position": "WR",
+      "publicAdp": 259.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Darrynton Evans",
+      "position": "RB",
+      "publicAdp": 238,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Nico Collins",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 241,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tim Tebow",
+      "position": "TE",
+      "publicAdp": 244.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Benny Snell Jr.",
+      "position": "RB",
+      "publicAdp": 244.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dallas Cowboys DST",
+      "position": "DST",
+      "publicAdp": 245.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Joshua Palmer",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 246,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Hayden Hurst",
+      "position": "TE",
+      "publicAdp": 246.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Hunter Renfrow",
+      "position": "WR",
+      "publicAdp": 260.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Taysom Hill",
+      "position": "TE",
+      "publicAdp": 247,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cordarrelle Patterson",
+      "position": "RB",
+      "publicAdp": 248.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Josh Lambo",
+      "position": "K",
+      "publicAdp": 273.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Salvon Ahmed",
+      "position": "RB",
+      "team": "CHI",
+      "publicAdp": 250.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "J.J. Taylor",
+      "position": "RB",
+      "publicAdp": 251.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Justin Jackson",
+      "position": "RB",
+      "publicAdp": 235,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cairo Santos",
+      "position": "K",
+      "team": "CHI",
+      "publicAdp": 249.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jimmy Graham",
+      "position": "TE",
+      "publicAdp": 260.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Donovan Peoples-Jones",
+      "position": "WR",
+      "publicAdp": 271.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jimmy Garoppolo",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 262.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jordan Akins",
+      "position": "TE",
+      "publicAdp": 186,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "John Brown",
+      "position": "WR",
+      "publicAdp": 273.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "New York Giants DST",
+      "position": "DST",
+      "publicAdp": 272.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dustin Hopkins",
+      "position": "K",
+      "publicAdp": 286.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Giovanni Ricci",
+      "position": "TE",
+      "publicAdp": 200,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dalton Schultz",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 269,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Wayne Gallman Jr.",
+      "position": "RB",
+      "publicAdp": 252.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jeff Wilson Jr.",
+      "position": "RB",
+      "publicAdp": 252.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Javian Hawkins",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 253.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Austin Seibert",
+      "position": "K",
+      "publicAdp": 211,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chase McLaughlin",
+      "position": "K",
+      "team": "TB",
+      "publicAdp": 284,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Juwan Johnson",
+      "position": "TE",
+      "team": "NO",
+      "publicAdp": 259,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dawson Knox",
+      "position": "TE",
+      "team": "BUF",
+      "publicAdp": 274,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Michael Badgley",
+      "position": "K",
+      "publicAdp": 280.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Philadelphia Eagles DST",
+      "position": "DST",
+      "publicAdp": 289,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Elijah Mitchell",
+      "position": "RB",
+      "publicAdp": 219,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Denzel Mims",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 261.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ka'imi Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "publicAdp": 281.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Kroft",
+      "position": "TE",
+      "publicAdp": 265,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Sam Ficken",
+      "position": "K",
+      "publicAdp": 229,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Byron Pringle",
+      "position": "WR",
+      "publicAdp": 267,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jake Elliott",
+      "position": "K",
+      "team": "PHI",
+      "publicAdp": 286,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jacksonville Jaguars DST",
+      "position": "DST",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "DeSean Jackson",
+      "position": "WR",
+      "publicAdp": 280.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Anthony McFarland Jr.",
+      "position": "RB",
+      "publicAdp": 236,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Andy Dalton",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 238,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Joshua Kelley",
+      "position": "RB",
+      "publicAdp": 270.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dan Arnold",
+      "position": "TE",
+      "publicAdp": 270.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Larry Rountree III",
+      "position": "RB",
+      "publicAdp": 271,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jake Funk",
+      "position": "RB",
+      "publicAdp": 240,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Xavier Jones",
+      "position": "RB",
+      "publicAdp": 347,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Las Vegas Raiders DST",
+      "position": "DST",
+      "publicAdp": 243,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Royce Freeman",
+      "position": "RB",
+      "publicAdp": 244,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Detrez Newsome",
+      "position": "RB",
+      "publicAdp": 248,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Stephen Gostkowski",
+      "position": "K",
+      "publicAdp": 249,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Paul McRoberts",
+      "position": "WR",
+      "publicAdp": 250,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jon Brown",
+      "position": "K",
+      "publicAdp": 251,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jaret Patterson",
+      "position": "RB",
+      "team": "LAC",
+      "publicAdp": 277,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Nick Folk",
+      "position": "K",
+      "team": "ATL",
+      "publicAdp": 295,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Nick Tiano",
+      "position": "QB",
+      "publicAdp": 253,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Joey Slye",
+      "position": "K",
+      "team": "TEN",
+      "publicAdp": 300,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Demarcus Robinson",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 278.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "La'Mical Perine",
+      "position": "RB",
+      "publicAdp": 255,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kent Taylor",
+      "position": "TE",
+      "publicAdp": 256,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Anthony Miller",
+      "position": "WR",
+      "publicAdp": 279.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Stevan Ridley",
+      "position": "RB",
+      "publicAdp": 257,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Breshad Perriman",
+      "position": "WR",
+      "publicAdp": 257,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "KJ Hamler",
+      "position": "WR",
+      "publicAdp": 288.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Austin MacGinnis",
+      "position": "K",
+      "publicAdp": 259,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Juwan Green",
+      "position": "WR",
+      "publicAdp": 259,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Van Jefferson",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 294,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Donald Parham Jr.",
+      "position": "TE",
+      "publicAdp": 312.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Taywan Taylor",
+      "position": "WR",
+      "publicAdp": 262,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Samaje Perine",
+      "position": "RB",
+      "team": "CIN",
+      "publicAdp": 282.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Davis",
+      "position": "WR",
+      "publicAdp": 263,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "David Njoku",
+      "position": "TE",
+      "team": "LAC",
+      "publicAdp": 324,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Josh Hammond",
+      "position": "WR",
+      "publicAdp": 266,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Austin Traylor",
+      "position": "TE",
+      "publicAdp": 267,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Brian Hill",
+      "position": "RB",
+      "publicAdp": 267,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Larry Fitzgerald",
+      "position": "WR",
+      "publicAdp": 268,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jarvion Franklin",
+      "position": "RB",
+      "publicAdp": 268,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Manasseh Bailey",
+      "position": "WR",
+      "publicAdp": 269,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chris Herndon IV",
+      "position": "TE",
+      "publicAdp": 292,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Alex Collins",
+      "position": "RB",
+      "publicAdp": 270,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Quinton Flowers",
+      "position": "QB",
+      "publicAdp": 270,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 286.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Darrin Hall",
+      "position": "RB",
+      "publicAdp": 271,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mekhi Sargent",
+      "position": "RB",
+      "publicAdp": 271,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Josh Adams",
+      "position": "RB",
+      "publicAdp": 272,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Pooka Williams Jr.",
+      "position": "RB",
+      "publicAdp": 272,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kyle Juszczyk",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 353.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Qadree Ollison",
+      "position": "RB",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Phillip Andersen",
+      "position": "K",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jamal Robinson",
+      "position": "WR",
+      "publicAdp": 274,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mike White",
+      "position": "QB",
+      "publicAdp": 275,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jeremy Kerley",
+      "position": "WR",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyrod Taylor",
+      "position": "QB",
+      "team": "GB",
+      "publicAdp": 289.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dalton Crossan",
+      "position": "RB",
+      "publicAdp": 277,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Keke Coutee",
+      "position": "WR",
+      "publicAdp": 277,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "JaMycal Hasty",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 277,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ralph Webb",
+      "position": "RB",
+      "publicAdp": 278,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mike Boone",
+      "position": "RB",
+      "publicAdp": 278,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Taylor Russolino",
+      "position": "K",
+      "publicAdp": 279,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Quez Watkins",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Detroit Lions DST",
+      "position": "DST",
+      "publicAdp": 321,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Brandon Wilds",
+      "position": "RB",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chris Evans",
+      "position": "RB",
+      "publicAdp": 297,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Daniel Crawford",
+      "position": "TE",
+      "publicAdp": 281,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Conklin",
+      "position": "TE",
+      "team": "DET",
+      "publicAdp": 339.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Josh Reynolds",
+      "position": "WR",
+      "publicAdp": 302.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Atlanta Falcons DST",
+      "position": "DST",
+      "publicAdp": 314,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Randy Bullock",
+      "position": "K",
+      "publicAdp": 326.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dyami Brown",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 304,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Scotty Miller",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 296,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Adrian Peterson",
+      "position": "RB",
+      "publicAdp": 349.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cincinnati Bengals DST",
+      "position": "DST",
+      "publicAdp": 290,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "C.J. Uzomah",
+      "position": "TE",
+      "publicAdp": 308,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mo Alie-Cox",
+      "position": "TE",
+      "team": "IND",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kendrick Bourne",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 320.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Houston Texans DST",
+      "position": "DST",
+      "publicAdp": 326,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Trace McSorley",
+      "position": "QB",
+      "publicAdp": 292,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "New York Jets DST",
+      "position": "DST",
+      "publicAdp": 316.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Drew Lock",
+      "position": "QB",
+      "team": "SEA",
+      "publicAdp": 296,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Rashard Higgins",
+      "position": "WR",
+      "publicAdp": 313.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jalen Richard",
+      "position": "RB",
+      "publicAdp": 297,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Eno Benjamin",
+      "position": "RB",
+      "publicAdp": 299,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cody Parkey",
+      "position": "K",
+      "publicAdp": 316,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jack Doyle",
+      "position": "TE",
+      "publicAdp": 344.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Travis Fulgham",
+      "position": "WR",
+      "publicAdp": 302,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Olamide Zaccheaus",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 307,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Quintez Cephus",
+      "position": "WR",
+      "publicAdp": 308,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Adam Humphries",
+      "position": "WR",
+      "publicAdp": 309,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dee Eskridge",
+      "position": "WR",
+      "publicAdp": 311,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ke'Shawn Vaughn",
+      "position": "RB",
+      "publicAdp": 313,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tim Patrick",
+      "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 317,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kalen Ballage",
+      "position": "RB",
+      "publicAdp": 318,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chris Conley",
+      "position": "WR",
+      "publicAdp": 319,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "De'Angelo Henderson Sr.",
+      "position": "RB",
+      "publicAdp": 322,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Deonte Harty",
+      "position": "WR",
+      "publicAdp": 325,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "David Moore",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 329,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kerryon Johnson",
+      "position": "RB",
+      "publicAdp": 334,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "D'Onta Foreman",
+      "position": "RB",
+      "publicAdp": 335,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ito Smith",
+      "position": "RB",
+      "publicAdp": 337,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Zach Pascal",
+      "position": "WR",
+      "publicAdp": 341,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ameer Abdullah",
+      "position": "RB",
+      "team": "JAC",
+      "publicAdp": 343,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Devin Funchess",
+      "position": "WR",
+      "publicAdp": 349,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Keelan Cole Sr.",
+      "position": "WR",
+      "publicAdp": 351,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Marquise Goodwin",
+      "position": "WR",
+      "publicAdp": 352,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jonathan Williams",
+      "position": "RB",
+      "publicAdp": 353,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Terry Godwin",
+      "position": "WR",
+      "publicAdp": 354,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Stephen Anderson",
+      "position": "TE",
+      "publicAdp": 355,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Case Cookus",
+      "position": "QB",
+      "publicAdp": 358,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Marcus Mariota",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 359,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Matt Breida",
+      "position": "RB",
+      "publicAdp": 360,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tylan Wallace",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 362,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Antonio Gandy-Golden",
+      "position": "WR",
+      "publicAdp": 365,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "James Washington",
+      "position": "WR",
+      "publicAdp": 366,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "N'Keal Harry",
+      "position": "WR",
+      "publicAdp": 368,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tucker McCann",
+      "position": "K",
+      "publicAdp": 369,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tutu Atwell",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 371,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Preston Williams",
+      "position": "WR",
+      "publicAdp": 372,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jalen Guyton",
+      "position": "WR",
+      "publicAdp": 373,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mohamed Sanu Sr.",
+      "position": "WR",
+      "publicAdp": 374,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cam Sims",
+      "position": "WR",
+      "publicAdp": 375,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Shi Smith",
+      "position": "WR",
+      "publicAdp": 376,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Damiere Byrd",
+      "position": "WR",
+      "publicAdp": 377,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "TEN",
+      "publicAdp": 378,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Albert Wilson",
+      "position": "WR",
+      "publicAdp": 379,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Sam Ehlinger",
+      "position": "QB",
+      "team": "DEN",
+      "publicAdp": 380,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Anthony Schwartz",
+      "position": "WR",
+      "publicAdp": 381,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Antonio Williams",
+      "position": "RB",
+      "publicAdp": 384,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Johnson",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 385,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Antonio Callaway",
+      "position": "WR",
+      "publicAdp": 386,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dez Fitzpatrick",
+      "position": "WR",
+      "publicAdp": 387,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jordan Love",
+      "position": "QB",
+      "team": "GB",
+      "publicAdp": 388,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Foster Moreau",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 389,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ty Montgomery II",
+      "position": "RB",
+      "publicAdp": 391,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "James O'Shaughnessy",
+      "position": "TE",
+      "publicAdp": 392,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tyron Billy-Johnson",
+      "position": "WR",
+      "publicAdp": 393,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Matt Ammendola",
+      "position": "K",
+      "publicAdp": 394,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jacob Eason",
+      "position": "QB",
+      "publicAdp": 395,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jermar Jefferson",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 396,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jaylen Samuels",
+      "position": "RB",
+      "publicAdp": 397,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Colin Kaepernick",
+      "position": "QB",
+      "publicAdp": 399,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ryan Santoso",
+      "position": "K",
+      "publicAdp": 400,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Johnny Manziel",
+      "position": "QB",
+      "publicAdp": 401,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Albert Okwuegbunam Jr.",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 402,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Ray Rice",
+      "position": "RB",
+      "publicAdp": 403,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kylin Hill",
+      "position": "RB",
+      "publicAdp": 404,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Greg Ward",
+      "position": "WR",
+      "publicAdp": 405,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Easop Winston Jr.",
+      "position": "WR",
+      "publicAdp": 406,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Michael Strachan",
+      "position": "WR",
+      "publicAdp": 407,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Devin Smith",
+      "position": "WR",
+      "publicAdp": 408,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Riley Ridley",
+      "position": "WR",
+      "publicAdp": 409,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Aldrick Rosas",
+      "position": "K",
+      "publicAdp": 411,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dazz Newsome",
+      "position": "WR",
+      "publicAdp": 412,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jody Fortson Jr.",
+      "position": "TE",
+      "publicAdp": 413,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Dede Westbrook",
+      "position": "WR",
+      "publicAdp": 414,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tony Romo",
+      "position": "QB",
+      "publicAdp": 415,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Andy Isabella",
+      "position": "WR",
+      "publicAdp": 416,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Zay Jones",
+      "position": "WR",
+      "publicAdp": 417,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "DeeJay Dallas",
+      "position": "RB",
+      "team": "JAC",
+      "publicAdp": 418,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Corey Clement",
+      "position": "RB",
+      "publicAdp": 419,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Demetric Felton Jr.",
+      "position": "RB",
+      "publicAdp": 420,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Will Dissly",
+      "position": "TE",
+      "publicAdp": 421,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Tom Kennedy",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 422,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kylen Granson",
+      "position": "TE",
+      "team": "TEN",
+      "publicAdp": 423,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Devin Duvernay",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 424,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Noah Gray",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 425,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Gerrid Doaks",
+      "position": "RB",
+      "publicAdp": 426,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Simi Fehoko",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 427,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Damoun Patterson",
+      "position": "WR",
+      "publicAdp": 428,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Charlie Woerner",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 429,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Greg Joseph",
+      "position": "K",
+      "publicAdp": 430,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Pharoh Cooper",
+      "position": "WR",
+      "publicAdp": 431,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Kyle Rudolph",
+      "position": "TE",
+      "publicAdp": 432,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jeremy McNichols",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 433,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Brandon Dillon",
+      "position": "TE",
+      "publicAdp": 434,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chad Beebe",
+      "position": "WR",
+      "publicAdp": 436,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Taylor Heinicke",
+      "position": "QB",
+      "publicAdp": 437,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Trent Sherfield Sr.",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 438,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Davis Mills",
+      "position": "QB",
+      "team": "HOU",
+      "publicAdp": 439,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Durham Smythe",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 440,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Chad Henne",
+      "position": "QB",
+      "publicAdp": 441,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Eddy Pineiro",
+      "position": "K",
+      "team": "SF",
+      "publicAdp": 442,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "John Wolford",
+      "position": "QB",
+      "publicAdp": 443,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Mike Glennon",
+      "position": "QB",
+      "publicAdp": 444,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Rex Burkhead",
+      "position": "RB",
+      "publicAdp": 445,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Willie Snead IV",
+      "position": "WR",
+      "publicAdp": 446,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Drew Sample",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 447,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Joe Flacco",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 448,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jacoby Brissett",
+      "position": "QB",
+      "team": "ARI",
+      "publicAdp": 449,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Cornell Powell",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 450,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Harrison Bryant",
+      "position": "TE",
+      "publicAdp": 451,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Gardner Minshew II",
+      "position": "QB",
+      "team": "ARI",
+      "publicAdp": 452,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2021,
+      "player": "Jacob Hollister",
+      "position": "TE",
+      "publicAdp": 453,
+      "adpSource": "FantasyPros PPR Consensus"
+    }
+  ]
+}

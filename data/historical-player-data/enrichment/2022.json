@@ -1,0 +1,2635 @@
+{
+  "generatedAt": "2026-08-19T16:12:34.622Z",
+  "season": 2022,
+  "source": "/Users/dionglassmainmac/Documents/projects/hog-gm/data/historical-adp/fantasypros-adp-2022.json",
+  "scoring": "PPR",
+  "records": [
+    {
+      "season": 2022,
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "publicAdp": 1,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "publicAdp": 3.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 5.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "publicAdp": 5.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "publicAdp": 7.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Najee Harris",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 8.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "publicAdp": 10.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Davante Adams",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 12.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 12.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 13.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 15,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "team": "CHI",
+      "publicAdp": 15.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Deebo Samuel Sr.",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 17,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Aaron Jones Sr.",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 19.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 19.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "publicAdp": 19.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "publicAdp": 20,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 20.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "publicAdp": 20.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 21.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "publicAdp": 22,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Javonte Williams",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 22.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 26.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 28.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 29.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Patrick Mahomes II",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 29.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "publicAdp": 30.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 30.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kyle Pitts Sr.",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 32.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Michael Pittman Jr.",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 33.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 33.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "publicAdp": 34.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "David Montgomery",
+      "position": "RB",
+      "team": "HOU",
+      "publicAdp": 36.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cam Akers",
+      "position": "RB",
+      "publicAdp": 39.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "George Kittle",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 39.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Travis Etienne Jr.",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 40.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 41,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 43.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "DJ Moore",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 43.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Diontae Johnson",
+      "position": "WR",
+      "publicAdp": 43.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Darren Waller",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 44.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mike Williams",
+      "position": "WR",
+      "publicAdp": 46,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 47.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 48.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 49.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Elijah Mitchell",
+      "position": "RB",
+      "publicAdp": 52,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "team": "DEN",
+      "publicAdp": 52,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Breece Hall",
+      "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 52.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 53.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 55.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "publicAdp": 56,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Dalton Schultz",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 57.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 58,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 60.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Hollywood Brown",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 61.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Chris Godwin Jr.",
+      "position": "WR",
+      "team": "TB",
+      "publicAdp": 61.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Allen Robinson II",
+      "position": "WR",
+      "publicAdp": 62.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 63.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "publicAdp": 64,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Antonio Gibson",
+      "position": "RB",
+      "publicAdp": 64.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 65.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "team": "MIN",
+      "publicAdp": 65.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Gabe Davis",
+      "position": "WR",
+      "publicAdp": 67.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "AJ Dillon",
+      "position": "RB",
+      "team": "CAR",
+      "publicAdp": 67.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "publicAdp": 67.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 70.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tom Brady",
+      "position": "QB",
+      "publicAdp": 72,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "publicAdp": 73.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Darnell Mooney",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 73.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "publicAdp": 74.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "publicAdp": 77.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "publicAdp": 80,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 80.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "publicAdp": 82,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 82.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Hunter Renfrow",
+      "position": "WR",
+      "publicAdp": 83.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 83.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Dameon Pierce",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 83.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Damien Harris",
+      "position": "RB",
+      "publicAdp": 83.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Miles Sanders",
+      "position": "RB",
+      "publicAdp": 84.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "publicAdp": 85.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cordarrelle Patterson",
+      "position": "RB",
+      "publicAdp": 85.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 86,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Chase Edmonds",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 86.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Rashaad Penny",
+      "position": "RB",
+      "publicAdp": 87,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 88.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "publicAdp": 88.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Dawson Knox",
+      "position": "TE",
+      "team": "BUF",
+      "publicAdp": 90,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Elijah Moore",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 90,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 90.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Buffalo Bills DST",
+      "position": "DST",
+      "publicAdp": 92,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 92,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 96.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Brandon Aiyuk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 98,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Drake London",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 98.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 100,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 100.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Trey Lance",
+      "position": "QB",
+      "team": "LAC",
+      "publicAdp": 101.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Robert Woods",
+      "position": "WR",
+      "publicAdp": 103,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Allen Lazard",
+      "position": "WR",
+      "publicAdp": 104.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Justin Tucker",
+      "position": "K",
+      "publicAdp": 105.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Melvin Gordon III",
+      "position": "RB",
+      "publicAdp": 107.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 108.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Chris Olave",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 110.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tampa Bay Buccaneers DST",
+      "position": "DST",
+      "publicAdp": 112.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Derek Carr",
+      "position": "QB",
+      "publicAdp": 113.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kenneth Walker III",
+      "position": "RB",
+      "team": "KC",
+      "publicAdp": 116,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Chase Claypool",
+      "position": "WR",
+      "publicAdp": 116.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "James Robinson",
+      "position": "RB",
+      "publicAdp": 117,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Michael Carter",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 117,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "San Francisco 49ers DST",
+      "position": "DST",
+      "publicAdp": 118.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kadarius Toney",
+      "position": "WR",
+      "publicAdp": 119,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "James Cook III",
+      "position": "RB",
+      "team": "BUF",
+      "publicAdp": 120,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cole Kmet",
+      "position": "TE",
+      "team": "CHI",
+      "publicAdp": 121.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Indianapolis Colts DST",
+      "position": "DST",
+      "publicAdp": 123.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "publicAdp": 125.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "George Pickens",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 127.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Los Angeles Rams DST",
+      "position": "DST",
+      "publicAdp": 129,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Harrison Butker",
+      "position": "K",
+      "team": "KC",
+      "publicAdp": 129,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Evan McPherson",
+      "position": "K",
+      "team": "CIN",
+      "publicAdp": 129,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mike Gesicki",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 129,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "publicAdp": 130.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Treylon Burks",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 131.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Daniel Carlson",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 132.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Darrell Henderson Jr.",
+      "position": "RB",
+      "publicAdp": 132.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Bass",
+      "position": "K",
+      "team": "BUF",
+      "publicAdp": 132.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Alexander Mattison",
+      "position": "RB",
+      "publicAdp": 135,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "New Orleans Saints DST",
+      "position": "DST",
+      "publicAdp": 135.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Matt Gay",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 135.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "publicAdp": 137.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Garrett Wilson",
+      "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 138,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Dallas Cowboys DST",
+      "position": "DST",
+      "publicAdp": 138.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Michael Gallup",
+      "position": "WR",
+      "publicAdp": 139.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Nyheim Miller-Hines",
+      "position": "RB",
+      "publicAdp": 140.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "ATL",
+      "publicAdp": 140.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Green Bay Packers DST",
+      "position": "DST",
+      "publicAdp": 142.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Skyy Moore",
+      "position": "WR",
+      "team": "GB",
+      "publicAdp": 142.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Julio Jones",
+      "position": "WR",
+      "publicAdp": 143.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "team": "LV",
+      "publicAdp": 144.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Russell Gage Jr.",
+      "position": "WR",
+      "publicAdp": 145.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kenny Gainwell",
+      "position": "RB",
+      "team": "TB",
+      "publicAdp": 146.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "DJ Chark Jr.",
+      "position": "WR",
+      "publicAdp": 147.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Justin Fields",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 148,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Los Angeles Chargers DST",
+      "position": "DST",
+      "publicAdp": 148.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 148.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Matt Prater",
+      "position": "K",
+      "publicAdp": 151,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Brian Robinson Jr.",
+      "position": "RB",
+      "team": "ATL",
+      "publicAdp": 153.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAC",
+      "publicAdp": 155,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Higbee",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 155.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jarvis Landry",
+      "position": "WR",
+      "publicAdp": 157.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Baltimore Ravens DST",
+      "position": "DST",
+      "publicAdp": 159.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "DeVante Parker",
+      "position": "WR",
+      "publicAdp": 161.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "David Njoku",
+      "position": "TE",
+      "team": "LAC",
+      "publicAdp": 161.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "team": "JAC",
+      "publicAdp": 162.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Noah Fant",
+      "position": "TE",
+      "team": "NO",
+      "publicAdp": 164.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "J.D. McKissic",
+      "position": "RB",
+      "publicAdp": 165.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "New England Patriots DST",
+      "position": "DST",
+      "publicAdp": 166,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 166.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Younghoe Koo",
+      "position": "K",
+      "publicAdp": 166.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mecole Hardman Jr.",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 168.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Denver Broncos DST",
+      "position": "DST",
+      "publicAdp": 169,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Miami Dolphins DST",
+      "position": "DST",
+      "publicAdp": 169.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Albert Okwuegbunam Jr.",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 169.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jamaal Williams",
+      "position": "RB",
+      "publicAdp": 170,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Nick Folk",
+      "position": "K",
+      "team": "ATL",
+      "publicAdp": 172,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Matt Ryan",
+      "position": "QB",
+      "publicAdp": 172.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Brandon McManus",
+      "position": "K",
+      "publicAdp": 173.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jahan Dotson",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 174.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Pittsburgh Steelers DST",
+      "position": "DST",
+      "publicAdp": 174.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Irv Smith Jr.",
+      "position": "TE",
+      "publicAdp": 175.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Romeo Doubs",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 176.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Isaiah McKenzie",
+      "position": "WR",
+      "publicAdp": 176.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Robert Tonyan",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 177.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ryan Succop",
+      "position": "K",
+      "publicAdp": 179,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mark Ingram II",
+      "position": "RB",
+      "publicAdp": 179,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Khalil Herbert",
+      "position": "RB",
+      "publicAdp": 181.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ryan Tannehill",
+      "position": "QB",
+      "publicAdp": 185.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Allgeier",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 186.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mac Jones",
+      "position": "QB",
+      "team": "SF",
+      "publicAdp": 188,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Gerald Everett",
+      "position": "TE",
+      "publicAdp": 189.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Rachaad White",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 193,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Evan Engram",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 193.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "publicAdp": 194.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "publicAdp": 195.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Philadelphia Eagles DST",
+      "position": "DST",
+      "publicAdp": 197.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cleveland Browns DST",
+      "position": "DST",
+      "publicAdp": 198,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Zamir White",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 201.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Robbie Gould",
+      "position": "K",
+      "publicAdp": 201.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 202,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Joshua Palmer",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 202.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Isiah Pacheco",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 178,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Hayden Hurst",
+      "position": "TE",
+      "publicAdp": 206,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kansas City Chiefs DST",
+      "position": "DST",
+      "publicAdp": 183.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Robbie Chosen",
+      "position": "WR",
+      "publicAdp": 208.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Austin Hooper",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 209,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jalen Tolbert",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 210.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kenny Golladay",
+      "position": "WR",
+      "publicAdp": 210.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Christian Watson",
+      "position": "WR",
+      "team": "GB",
+      "publicAdp": 188.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Marvin Jones Jr.",
+      "position": "WR",
+      "publicAdp": 212.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Wil Lutz",
+      "position": "K",
+      "team": "DEN",
+      "publicAdp": 212.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ronald Jones II",
+      "position": "RB",
+      "publicAdp": 191,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Nico Collins",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 213.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Daniel Jones",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 213.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Rodrigo Blankenship",
+      "position": "K",
+      "publicAdp": 214.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "publicAdp": 214.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "team": "CAR",
+      "publicAdp": 193,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Taysom Hill",
+      "position": "TE",
+      "publicAdp": 216.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Greg Joseph",
+      "position": "K",
+      "publicAdp": 195.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Sammy Watkins",
+      "position": "WR",
+      "publicAdp": 217,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Isaiah Spiller",
+      "position": "RB",
+      "publicAdp": 199.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cincinnati Bengals DST",
+      "position": "DST",
+      "publicAdp": 220.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kenyan Drake",
+      "position": "RB",
+      "publicAdp": 221.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Chris Boswell",
+      "position": "K",
+      "team": "PIT",
+      "publicAdp": 202.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jameson Williams",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 202.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kenny Pickett",
+      "position": "QB",
+      "team": "CAR",
+      "publicAdp": 225.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mason Crosby",
+      "position": "K",
+      "publicAdp": 170.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Carson Wentz",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 208.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Logan Thomas",
+      "position": "TE",
+      "publicAdp": 208.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Alec Pierce",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 211.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jerick McKinnon",
+      "position": "RB",
+      "publicAdp": 216.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Van Jefferson",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 217.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jake Elliott",
+      "position": "K",
+      "team": "PHI",
+      "publicAdp": 218,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Marlon Mack",
+      "position": "RB",
+      "publicAdp": 187.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "D'Onta Foreman",
+      "position": "RB",
+      "publicAdp": 219,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Marcus Mariota",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 235.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Isaiah Likely",
+      "position": "TE",
+      "team": "NYG",
+      "publicAdp": 221,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Darrel Williams",
+      "position": "RB",
+      "publicAdp": 191.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tennessee Titans DST",
+      "position": "DST",
+      "publicAdp": 222,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Minnesota Vikings DST",
+      "position": "DST",
+      "publicAdp": 224,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Wan'Dale Robinson",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 224.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Zach Wilson",
+      "position": "QB",
+      "team": "NO",
+      "publicAdp": 239,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "K.J. Osborn",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 226.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Myles Gaskin",
+      "position": "RB",
+      "publicAdp": 200,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Washington Commanders DST",
+      "position": "DST",
+      "publicAdp": 231.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cade York",
+      "position": "K",
+      "team": "NYJ",
+      "publicAdp": 234,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Rex Burkhead",
+      "position": "RB",
+      "publicAdp": 234.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Corey Davis",
+      "position": "WR",
+      "publicAdp": 211.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tyrion Davis-Price",
+      "position": "RB",
+      "publicAdp": 211.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Parris Campbell",
+      "position": "WR",
+      "publicAdp": 212,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "A.J. Green",
+      "position": "WR",
+      "publicAdp": 212,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Graham Gano",
+      "position": "K",
+      "publicAdp": 214.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kyle Rudolph",
+      "position": "TE",
+      "publicAdp": 237.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Dustin Hopkins",
+      "position": "K",
+      "publicAdp": 217,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cameron Brate",
+      "position": "TE",
+      "publicAdp": 240,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jeff Wilson Jr.",
+      "position": "RB",
+      "publicAdp": 167,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Randall Cobb",
+      "position": "WR",
+      "publicAdp": 224.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Eno Benjamin",
+      "position": "RB",
+      "publicAdp": 225,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Dontrell Hilliard",
+      "position": "RB",
+      "publicAdp": 226,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "TEN",
+      "publicAdp": 244.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mike Davis",
+      "position": "RB",
+      "publicAdp": 177,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "KJ Hamler",
+      "position": "WR",
+      "publicAdp": 229,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Arizona Cardinals DST",
+      "position": "DST",
+      "publicAdp": 233.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kendrick Bourne",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 235,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Randy Bullock",
+      "position": "K",
+      "publicAdp": 197,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Sony Michel",
+      "position": "RB",
+      "publicAdp": 240,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Donovan Peoples-Jones",
+      "position": "WR",
+      "publicAdp": 253.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ameer Abdullah",
+      "position": "RB",
+      "team": "JAC",
+      "publicAdp": 242.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Matt Breida",
+      "position": "RB",
+      "publicAdp": 205,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "David Bell",
+      "position": "WR",
+      "publicAdp": 243,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Las Vegas Raiders DST",
+      "position": "DST",
+      "publicAdp": 207,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jason Sanders",
+      "position": "K",
+      "team": "NYJ",
+      "publicAdp": 244,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Austin Seibert",
+      "position": "K",
+      "publicAdp": 208,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Gus Edwards",
+      "position": "RB",
+      "publicAdp": 247,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Chicago Bears DST",
+      "position": "DST",
+      "publicAdp": 247.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "C.J. Uzomah",
+      "position": "TE",
+      "publicAdp": 215,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Samaje Perine",
+      "position": "RB",
+      "team": "CIN",
+      "publicAdp": 249.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Davis Mills",
+      "position": "QB",
+      "team": "HOU",
+      "publicAdp": 250,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jordan Mason",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 220,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Hassan Haskins",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 250.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Carolina Panthers DST",
+      "position": "DST",
+      "publicAdp": 251,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Brevin Jordan",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 223,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jamison Crowder",
+      "position": "WR",
+      "publicAdp": 253.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Curtis Samuel",
+      "position": "WR",
+      "publicAdp": 263.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cairo Santos",
+      "position": "K",
+      "team": "CHI",
+      "publicAdp": 230,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ke'Shawn Vaughn",
+      "position": "RB",
+      "publicAdp": 230,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Damien Williams",
+      "position": "RB",
+      "publicAdp": 231,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Zack Moss",
+      "position": "RB",
+      "publicAdp": 256.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jimmy Garoppolo",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 233,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Brett Maher",
+      "position": "K",
+      "publicAdp": 238,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Boston Scott",
+      "position": "RB",
+      "publicAdp": 262,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "D'Ernest Johnson",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 266.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jason Myers",
+      "position": "K",
+      "team": "SEA",
+      "publicAdp": 244,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Joshua Kelley",
+      "position": "RB",
+      "publicAdp": 244,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "DeAndre Torrey",
+      "position": "RB",
+      "publicAdp": 247,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Mo Alie-Cox",
+      "position": "TE",
+      "team": "IND",
+      "publicAdp": 248,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jake Powell",
+      "position": "TE",
+      "publicAdp": 248,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Anthony Johnson",
+      "publicAdp": 249,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Conklin",
+      "position": "TE",
+      "team": "DET",
+      "publicAdp": 250,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Collin Hill",
+      "position": "QB",
+      "publicAdp": 250,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Chad Muma",
+      "team": "NE",
+      "publicAdp": 251,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ben Johnson",
+      "publicAdp": 252,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Braxton Berrios",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 252,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kyle Juszczyk",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 253,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Austin Walter",
+      "position": "RB",
+      "publicAdp": 253,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Zay Jones",
+      "position": "WR",
+      "publicAdp": 254,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kayvon Thibodeaux",
+      "team": "NYG",
+      "publicAdp": 254,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Karan Higdon",
+      "position": "RB",
+      "publicAdp": 255,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Marquez Callaway",
+      "position": "WR",
+      "publicAdp": 268,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Seattle Seahawks DST",
+      "position": "DST",
+      "publicAdp": 256,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jordan Johnson",
+      "position": "RB",
+      "publicAdp": 256,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Stephen Baggett",
+      "position": "TE",
+      "publicAdp": 257,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Alex Barnes",
+      "position": "RB",
+      "publicAdp": 258,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT",
+      "publicAdp": 258,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Detroit Lions DST",
+      "position": "DST",
+      "publicAdp": 259,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Zach Olstad",
+      "position": "RB",
+      "publicAdp": 259,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Temarrick Hemingway",
+      "position": "TE",
+      "publicAdp": 260,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jerome Washington",
+      "position": "TE",
+      "publicAdp": 261,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "New York Giants DST",
+      "position": "DST",
+      "publicAdp": 262,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Stephon Robinson Jr.",
+      "position": "WR",
+      "publicAdp": 262,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Nick Bawden",
+      "position": "RB",
+      "publicAdp": 263,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Michael Jacobson",
+      "position": "TE",
+      "publicAdp": 264,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jamel Johnson",
+      "position": "WR",
+      "publicAdp": 265,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "publicAdp": 281.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Brandon Barnes",
+      "position": "TE",
+      "publicAdp": 266,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Drew Anderson",
+      "position": "QB",
+      "publicAdp": 267,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Zach Conque",
+      "position": "QB",
+      "publicAdp": 268,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Bobby Wagner",
+      "publicAdp": 269,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kendrick Rogers",
+      "position": "WR",
+      "publicAdp": 270,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Taywan Taylor",
+      "position": "WR",
+      "publicAdp": 271,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "New York Jets DST",
+      "position": "DST",
+      "publicAdp": 272,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Kyle Lewis",
+      "position": "WR",
+      "publicAdp": 272,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ryan Davis",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jonnu Smith",
+      "position": "TE",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Papi White",
+      "position": "WR",
+      "publicAdp": 274,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Laviska Shenault Jr.",
+      "position": "WR",
+      "publicAdp": 275,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Houston Texans DST",
+      "position": "DST",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Krishawn Hogan",
+      "position": "WR",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Brogan Roback",
+      "position": "QB",
+      "publicAdp": 277,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cedrick Wilson Jr.",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 278,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Cole Hunt",
+      "position": "TE",
+      "publicAdp": 278,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "David Watford",
+      "position": "WR",
+      "publicAdp": 279,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Chris Evans",
+      "position": "RB",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Zaire Mitchell-Paden",
+      "position": "TE",
+      "team": "NO",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Brandon Bolden",
+      "position": "RB",
+      "publicAdp": 281,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Josh Smith",
+      "position": "WR",
+      "publicAdp": 281,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Nelson Agholor",
+      "position": "WR",
+      "publicAdp": 283,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Foster Moreau",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 284,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Quez Watkins",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 287,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "J.J. Taylor",
+      "position": "RB",
+      "publicAdp": 288,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Byron Pringle",
+      "position": "WR",
+      "publicAdp": 289,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jacksonville Jaguars DST",
+      "position": "DST",
+      "publicAdp": 290,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Drew Lock",
+      "position": "QB",
+      "team": "SEA",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Jauan Jennings",
+      "position": "WR",
+      "team": "MIN",
+      "publicAdp": 293,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "DeeJay Dallas",
+      "position": "RB",
+      "team": "JAC",
+      "publicAdp": 294,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Ka'imi Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "publicAdp": 295,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Trey Sermon",
+      "position": "RB",
+      "team": "ATL",
+      "publicAdp": 296,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Malik Willis",
+      "position": "QB",
+      "team": "MIA",
+      "publicAdp": 297,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "Joey Slye",
+      "position": "K",
+      "team": "TEN",
+      "publicAdp": 299,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2022,
+      "player": "O.J. Howard",
+      "position": "TE",
+      "publicAdp": 300,
+      "adpSource": "FantasyPros PPR Consensus"
+    }
+  ]
+}

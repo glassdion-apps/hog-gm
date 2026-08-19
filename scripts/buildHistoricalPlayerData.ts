@@ -44,6 +44,27 @@ type HistoricalPlayerDataFile = {
     records: HistoricalPlayerRecord[]
 }
 
+type SeasonInputRecord = {
+    season?: number
+    player: string
+
+    position?: string
+    team?: string
+
+    publicAdp?: number
+    isRookie?: boolean
+
+    adpSource?: string
+}
+
+type SeasonEnrichmentFile = {
+    generatedAt?: string
+    season?: number
+    source?: string
+    scoring?: string
+    records?: SeasonInputRecord[]
+}
+
 /*
  * ---------------------------------------------------------
  * NORMALIZATION
@@ -54,20 +75,29 @@ function normalizePlayerName(
     value: string,
 ) {
     return value
-        .trim()
         .toLowerCase()
+        .trim()
         .replace(
-            /['’]/g,
-            "'",
+            /[’']/g,
+            '',
         )
         .replace(
             /\./g,
             '',
         )
         .replace(
+            /-/g,
+            ' ',
+        )
+        .replace(
+            /\b(jr|sr|ii|iii|iv|v)\b/g,
+            '',
+        )
+        .replace(
             /\s+/g,
             ' ',
         )
+        .trim()
 }
 
 function makePlayerKey(
@@ -98,16 +128,22 @@ const managerHistoryPath =
         'manager-history.json',
     )
 
-const enrichmentDirectory =
+const historicalPlayerDataDirectory =
     path.join(
         projectRoot,
         'data',
         'historical-player-data',
     )
 
+const enrichmentDirectory =
+    path.join(
+        historicalPlayerDataDirectory,
+        'enrichment',
+    )
+
 const outputPath =
     path.join(
-        enrichmentDirectory,
+        historicalPlayerDataDirectory,
         'historical-player-data.json',
     )
 
@@ -149,36 +185,9 @@ function readManagerHistory() {
 
 /*
  * ---------------------------------------------------------
- * READ OPTIONAL SEASON ENRICHMENT FILES
+ * READ SEASON ENRICHMENT
  * ---------------------------------------------------------
- *
- * Eventually each season can have a JSON file:
- *
- * data/historical-player-data/2018.json
- * data/historical-player-data/2019.json
- * ...
- *
- * Format:
- *
- * [
- *   {
- *     "player": "Saquon Barkley",
- *     "team": "NYG",
- *     "publicAdp": 6.2,
- *     "isRookie": true
- *   }
- * ]
  */
-
-type SeasonInputRecord = {
-    player: string
-
-    position?: string
-    team?: string
-
-    publicAdp?: number
-    isRookie?: boolean
-}
 
 function readSeasonEnrichment(
     season: number,
@@ -203,19 +212,46 @@ function readSeasonEnrichment(
                 seasonPath,
                 'utf8',
             ),
-        )
+        ) as
+        | SeasonEnrichmentFile
+        | SeasonInputRecord[]
 
+    /*
+     * Support both formats:
+     *
+     * Old:
+     * [
+     *   { player, publicAdp, ... }
+     * ]
+     *
+     * New importer:
+     * {
+     *   generatedAt,
+     *   season,
+     *   source,
+     *   scoring,
+     *   records: [...]
+     * }
+     */
     if (
-        !Array.isArray(
+        Array.isArray(
             parsed,
         )
     ) {
-        throw new Error(
-            `${seasonPath} must contain a JSON array.`,
-        )
+        return parsed
     }
 
-    return parsed as SeasonInputRecord[]
+    if (
+        Array.isArray(
+            parsed.records,
+        )
+    ) {
+        return parsed.records
+    }
+
+    throw new Error(
+        `${seasonPath} does not contain a valid records array.`,
+    )
 }
 
 /*
@@ -265,6 +301,15 @@ function buildBaseRecords(
 
                 position:
                     pick.position,
+
+                team:
+                    pick.team,
+
+                publicAdp:
+                    pick.publicAdp,
+
+                isRookie:
+                    pick.isRookie,
             },
         )
     }
@@ -284,12 +329,17 @@ function applySeasonEnrichment(
             string,
             HistoricalPlayerRecord
         >,
+
     season: number,
+
     enrichment:
         SeasonInputRecord[],
 ) {
-    let matched = 0
-    let unmatched = 0
+    let matched =
+        0
+
+    let unmatched =
+        0
 
     for (
         const item of
@@ -309,7 +359,8 @@ function applySeasonEnrichment(
         if (
             !existing
         ) {
-            unmatched += 1
+            unmatched +=
+                1
 
             continue
         }
@@ -346,7 +397,8 @@ function applySeasonEnrichment(
                 item.isRookie
         }
 
-        matched += 1
+        matched +=
+            1
     }
 
     return {
@@ -363,13 +415,22 @@ function applySeasonEnrichment(
 
 function main() {
     console.log('')
+
     console.log(
         'Building Honda historical player data...',
     )
+
     console.log('')
 
     const history =
         readManagerHistory()
+
+    fs.mkdirSync(
+        historicalPlayerDataDirectory,
+        {
+            recursive: true,
+        },
+    )
 
     fs.mkdirSync(
         enrichmentDirectory,
@@ -406,6 +467,9 @@ function main() {
 
     console.log('')
 
+    let totalMatched =
+        0
+
     for (
         const season of
         seasons
@@ -416,7 +480,8 @@ function main() {
             )
 
         if (
-            enrichment.length === 0
+            enrichment.length ===
+            0
         ) {
             console.log(
                 `⚠️ ${season}: no enrichment file`,
@@ -435,15 +500,19 @@ function main() {
                 enrichment,
             )
 
+        totalMatched +=
+            matched
+
         console.log(
-            `✅ ${season}: ${matched} matched, ${unmatched} unmatched`,
+            `✅ ${season}: ${matched} Honda players matched, ${unmatched} FantasyPros players unused`,
         )
     }
 
     const output:
         HistoricalPlayerDataFile = {
         generatedAt:
-            new Date().toISOString(),
+            new Date()
+                .toISOString(),
 
         seasons,
 
@@ -502,7 +571,12 @@ function main() {
                 'boolean',
         ).length
 
+    const withoutAdp =
+        output.records.length -
+        withAdp
+
     console.log('')
+
     console.log(
         '--------------------------------',
     )
@@ -516,6 +590,10 @@ function main() {
     )
 
     console.log(
+        `FantasyPros matches: ${totalMatched}`,
+    )
+
+    console.log(
         `With NFL team: ${withTeam}`,
     )
 
@@ -524,10 +602,15 @@ function main() {
     )
 
     console.log(
+        `Without ADP: ${withoutAdp}`,
+    )
+
+    console.log(
         `With rookie status: ${withRookieStatus}`,
     )
 
     console.log('')
+
     console.log(
         `✅ Historical player data written to: ${outputPath}`,
     )

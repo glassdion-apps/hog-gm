@@ -1,0 +1,3480 @@
+{
+  "generatedAt": "2026-08-19T16:12:34.612Z",
+  "season": 2018,
+  "source": "/Users/dionglassmainmac/Documents/projects/hog-gm/data/historical-adp/fantasypros-adp-2018.json",
+  "scoring": "PPR",
+  "records": [
+    {
+      "season": 2018,
+      "player": "Todd Gurley II",
+      "position": "RB",
+      "publicAdp": 1,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Le'Veon Bell",
+      "position": "RB",
+      "publicAdp": 2.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "David Johnson",
+      "position": "RB",
+      "publicAdp": 2.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "publicAdp": 4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Antonio Brown",
+      "position": "WR",
+      "publicAdp": 5.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 6.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 6.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 8.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "publicAdp": 10,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "publicAdp": 10.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 11,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Melvin Gordon III",
+      "position": "RB",
+      "publicAdp": 11.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Julio Jones",
+      "position": "WR",
+      "publicAdp": 12.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "publicAdp": 14.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 14.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "publicAdp": 15.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 16.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Davante Adams",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 18.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Devonta Freeman",
+      "position": "RB",
+      "publicAdp": 19.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "A.J. Green",
+      "position": "WR",
+      "publicAdp": 20.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Rob Gronkowski",
+      "position": "TE",
+      "publicAdp": 20.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 23.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jordan Howard",
+      "position": "RB",
+      "publicAdp": 23.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "publicAdp": 23.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 26.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "LeSean McCoy",
+      "position": "RB",
+      "publicAdp": 26.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "publicAdp": 26.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 28.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "T.Y. Hilton",
+      "position": "WR",
+      "publicAdp": 28.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 29.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "publicAdp": 31.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Larry Fitzgerald",
+      "position": "WR",
+      "publicAdp": 33.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kenyan Drake",
+      "position": "RB",
+      "publicAdp": 34.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "publicAdp": 34.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "publicAdp": 35,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Doug Baldwin",
+      "position": "WR",
+      "publicAdp": 37,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Alex Collins",
+      "position": "RB",
+      "publicAdp": 37.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jarvis Landry",
+      "position": "WR",
+      "publicAdp": 38.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Royce Freeman",
+      "position": "RB",
+      "publicAdp": 41.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 42.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Demaryius Thomas",
+      "position": "WR",
+      "publicAdp": 43.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jay Ajayi",
+      "position": "RB",
+      "publicAdp": 43.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "publicAdp": 44,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "publicAdp": 45.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Golden Tate",
+      "position": "WR",
+      "publicAdp": 45.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Lamar Miller",
+      "position": "RB",
+      "publicAdp": 46.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tom Brady",
+      "position": "QB",
+      "publicAdp": 47.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "publicAdp": 47.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Allen Robinson II",
+      "position": "WR",
+      "publicAdp": 48,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Josh Gordon",
+      "position": "WR",
+      "publicAdp": 48.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mark Ingram II",
+      "position": "RB",
+      "publicAdp": 52.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "publicAdp": 54.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jimmy Graham",
+      "position": "TE",
+      "publicAdp": 54.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marvin Jones Jr.",
+      "position": "WR",
+      "publicAdp": 54.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Hogan",
+      "position": "WR",
+      "publicAdp": 55,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Greg Olsen",
+      "position": "TE",
+      "publicAdp": 56.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dion Lewis",
+      "position": "RB",
+      "publicAdp": 56.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marshawn Lynch",
+      "position": "RB",
+      "publicAdp": 61.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cam Newton",
+      "position": "QB",
+      "publicAdp": 63.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Corey Davis",
+      "position": "WR",
+      "publicAdp": 63.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Carlos Hyde",
+      "position": "RB",
+      "publicAdp": 65.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Michael Crabtree",
+      "position": "WR",
+      "publicAdp": 66.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Evan Engram",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 66.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marquise Goodwin",
+      "position": "WR",
+      "publicAdp": 67,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Emmanuel Sanders",
+      "position": "WR",
+      "publicAdp": 67,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Rex Burkhead",
+      "position": "RB",
+      "publicAdp": 69.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Drew Brees",
+      "position": "QB",
+      "publicAdp": 71.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tevin Coleman",
+      "position": "RB",
+      "publicAdp": 71.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Julian Edelman",
+      "position": "WR",
+      "publicAdp": 72.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Alshon Jeffery",
+      "position": "WR",
+      "publicAdp": 73.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kyle Rudolph",
+      "position": "TE",
+      "publicAdp": 77.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kerryon Johnson",
+      "position": "RB",
+      "publicAdp": 77.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jamaal Williams",
+      "position": "RB",
+      "publicAdp": 78,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "William Fuller V",
+      "position": "WR",
+      "publicAdp": 79.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Sammy Watkins",
+      "position": "WR",
+      "publicAdp": 80.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Carson Wentz",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 81.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Robert Woods",
+      "position": "WR",
+      "publicAdp": 82.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Sony Michel",
+      "position": "RB",
+      "publicAdp": 82.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Devin Funchess",
+      "position": "WR",
+      "publicAdp": 82.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Rashaad Penny",
+      "position": "RB",
+      "publicAdp": 83.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jordan Reed",
+      "position": "TE",
+      "publicAdp": 84.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 85,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Trey Burton",
+      "position": "TE",
+      "publicAdp": 85.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tarik Cohen",
+      "position": "RB",
+      "publicAdp": 85.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Duke Johnson Jr.",
+      "position": "RB",
+      "publicAdp": 86.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "publicAdp": 88,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jamison Crowder",
+      "position": "WR",
+      "publicAdp": 88.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Robbie Chosen",
+      "position": "WR",
+      "publicAdp": 89.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Carson",
+      "position": "RB",
+      "publicAdp": 90.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Andrew Luck",
+      "position": "QB",
+      "publicAdp": 92,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Pierre Garcon",
+      "position": "WR",
+      "publicAdp": 92.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jordy Nelson",
+      "position": "WR",
+      "publicAdp": 93.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Isaiah Crowell",
+      "position": "RB",
+      "publicAdp": 94.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 97,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Randall Cobb",
+      "position": "WR",
+      "publicAdp": 99.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ben Roethlisberger",
+      "position": "QB",
+      "publicAdp": 100.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Nelson Agholor",
+      "position": "WR",
+      "publicAdp": 102,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marlon Mack",
+      "position": "RB",
+      "publicAdp": 104.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jimmy Garoppolo",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 105.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "publicAdp": 105.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Peyton Barber",
+      "position": "RB",
+      "publicAdp": 106.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Matt Ryan",
+      "position": "QB",
+      "publicAdp": 107,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jack Doyle",
+      "position": "TE",
+      "publicAdp": 108.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Thompson",
+      "position": "RB",
+      "publicAdp": 109,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Philip Rivers",
+      "position": "QB",
+      "publicAdp": 109,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ronald Jones II",
+      "position": "RB",
+      "publicAdp": 112.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "David Njoku",
+      "position": "TE",
+      "team": "LAC",
+      "publicAdp": 112.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kelvin Benjamin",
+      "position": "WR",
+      "publicAdp": 113.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kenny Stills",
+      "position": "WR",
+      "publicAdp": 115.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "James White",
+      "position": "RB",
+      "publicAdp": 116,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Aaron Jones Sr.",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 116.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Patrick Mahomes II",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 120.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "publicAdp": 121,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "DeVante Parker",
+      "position": "WR",
+      "publicAdp": 125.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Allen Hurns",
+      "position": "WR",
+      "publicAdp": 125.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Adrian Peterson",
+      "position": "RB",
+      "publicAdp": 125.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "publicAdp": 127.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "C.J. Anderson",
+      "position": "RB",
+      "publicAdp": 130.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Greg Zuerlein",
+      "position": "K",
+      "publicAdp": 134.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Alex Smith",
+      "position": "QB",
+      "publicAdp": 134.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Matt Breida",
+      "position": "RB",
+      "publicAdp": 134.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 135.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Stephen Gostkowski",
+      "position": "K",
+      "publicAdp": 136.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Keelan Cole Sr.",
+      "position": "WR",
+      "publicAdp": 136.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "George Kittle",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 136.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ty Montgomery II",
+      "position": "RB",
+      "publicAdp": 137.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marcus Mariota",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 137.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tyler Eifert",
+      "position": "TE",
+      "publicAdp": 137.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jacksonville Jaguars DST",
+      "position": "DST",
+      "publicAdp": 86,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Derek Carr",
+      "position": "QB",
+      "publicAdp": 138.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "DJ Moore",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 139,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Giovani Bernard",
+      "position": "RB",
+      "publicAdp": 141.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "publicAdp": 141.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Justin Tucker",
+      "position": "K",
+      "publicAdp": 142.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Bilal Powell",
+      "position": "RB",
+      "publicAdp": 142.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Latavius Murray",
+      "position": "RB",
+      "publicAdp": 142.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Michael Gallup",
+      "position": "WR",
+      "publicAdp": 144.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kenny Golladay",
+      "position": "WR",
+      "publicAdp": 144.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Corey Clement",
+      "position": "RB",
+      "publicAdp": 144.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Alfred Morris",
+      "position": "RB",
+      "publicAdp": 145,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Josh Doctson",
+      "position": "WR",
+      "publicAdp": 148.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 150,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Los Angeles Rams DST",
+      "position": "DST",
+      "publicAdp": 104.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cameron Meredith",
+      "position": "WR",
+      "publicAdp": 153,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Theo Riddick",
+      "position": "RB",
+      "publicAdp": 154.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Minnesota Vikings DST",
+      "position": "DST",
+      "publicAdp": 112,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Philadelphia Eagles DST",
+      "position": "DST",
+      "publicAdp": 114,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "LeGarrette Blount",
+      "position": "RB",
+      "publicAdp": 162,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jordan Wilkins",
+      "position": "RB",
+      "publicAdp": 165.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Anthony Miller",
+      "position": "WR",
+      "publicAdp": 166,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Godwin Jr.",
+      "position": "WR",
+      "team": "TB",
+      "publicAdp": 166.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 169.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mike Williams",
+      "position": "WR",
+      "publicAdp": 177.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "John Brown",
+      "position": "WR",
+      "publicAdp": 173.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Baltimore Ravens DST",
+      "position": "DST",
+      "publicAdp": 132.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Los Angeles Chargers DST",
+      "position": "DST",
+      "publicAdp": 132.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "TEN",
+      "publicAdp": 175.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Wil Lutz",
+      "position": "K",
+      "team": "DEN",
+      "publicAdp": 176.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Matt Bryant",
+      "position": "K",
+      "publicAdp": 178.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Boswell",
+      "position": "K",
+      "team": "PIT",
+      "publicAdp": 178.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Harrison Butker",
+      "position": "K",
+      "team": "KC",
+      "publicAdp": 179.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Houston Texans DST",
+      "position": "DST",
+      "publicAdp": 138.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "John Ross",
+      "position": "WR",
+      "publicAdp": 180.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Devontae Booker",
+      "position": "RB",
+      "publicAdp": 141,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jake Elliott",
+      "position": "K",
+      "team": "PHI",
+      "publicAdp": 185.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "O.J. Howard",
+      "position": "TE",
+      "publicAdp": 147.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Danny Amendola",
+      "position": "WR",
+      "publicAdp": 187.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Denver Broncos DST",
+      "position": "DST",
+      "publicAdp": 151.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 194.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Robbie Gould",
+      "position": "K",
+      "publicAdp": 194.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mohamed Sanu Sr.",
+      "position": "WR",
+      "publicAdp": 158,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Austin Seferian-Jenkins",
+      "position": "TE",
+      "publicAdp": 161.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dez Bryant",
+      "position": "WR",
+      "publicAdp": 161.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Rishard Matthews",
+      "position": "WR",
+      "publicAdp": 163.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "New Orleans Saints DST",
+      "position": "DST",
+      "publicAdp": 164.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 164.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Matt Prater",
+      "position": "K",
+      "publicAdp": 202.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "DeSean Jackson",
+      "position": "WR",
+      "publicAdp": 168.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dede Westbrook",
+      "position": "WR",
+      "publicAdp": 168.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chicago Bears DST",
+      "position": "DST",
+      "publicAdp": 169.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jared Cook",
+      "position": "TE",
+      "publicAdp": 171,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Paul Richardson Jr.",
+      "position": "WR",
+      "publicAdp": 171.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "New England Patriots DST",
+      "position": "DST",
+      "publicAdp": 171.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Pittsburgh Steelers DST",
+      "position": "DST",
+      "publicAdp": 175.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mason Crosby",
+      "position": "K",
+      "publicAdp": 209.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Eric Ebron",
+      "position": "TE",
+      "publicAdp": 175.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cameron Brate",
+      "position": "TE",
+      "publicAdp": 175.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Eli Manning",
+      "position": "QB",
+      "publicAdp": 176.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "publicAdp": 178.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Carolina Panthers DST",
+      "position": "DST",
+      "publicAdp": 179.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Charles Clay",
+      "position": "TE",
+      "publicAdp": 179.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Benjamin Watson",
+      "position": "TE",
+      "publicAdp": 187.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Geronimo Allison",
+      "position": "WR",
+      "publicAdp": 190.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tyrod Taylor",
+      "position": "QB",
+      "team": "GB",
+      "publicAdp": 196.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ricky Seals-Jones",
+      "position": "TE",
+      "publicAdp": 198.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Arizona Cardinals DST",
+      "position": "DST",
+      "publicAdp": 199.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marqise Lee",
+      "position": "WR",
+      "publicAdp": 156,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "D'Onta Foreman",
+      "position": "RB",
+      "publicAdp": 164.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Antonio Gates",
+      "position": "TE",
+      "publicAdp": 214.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Adam Vinatieri",
+      "position": "K",
+      "publicAdp": 240.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Doug Martin",
+      "position": "RB",
+      "publicAdp": 173.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Nyheim Miller-Hines",
+      "position": "RB",
+      "publicAdp": 178.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mike Gesicki",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 179.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Javorius Allen",
+      "position": "RB",
+      "publicAdp": 182.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tyrell Williams",
+      "position": "WR",
+      "publicAdp": 183,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Daniel Carlson",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 223.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Blake Bortles",
+      "position": "QB",
+      "publicAdp": 184,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Andy Dalton",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 184.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ted Ginn Jr.",
+      "position": "WR",
+      "publicAdp": 187.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Case Keenum",
+      "position": "QB",
+      "team": "CHI",
+      "publicAdp": 188,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mike Wallace",
+      "position": "WR",
+      "publicAdp": 227.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 189,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Martavis Bryant",
+      "position": "WR",
+      "publicAdp": 190.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Vance McDonald",
+      "position": "TE",
+      "publicAdp": 193.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "T.J. Yeldon",
+      "position": "RB",
+      "publicAdp": 195.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Austin Hooper",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 195.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Robert Kelley",
+      "position": "RB",
+      "publicAdp": 201,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Hayden Hurst",
+      "position": "TE",
+      "publicAdp": 204.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Graham Gano",
+      "position": "K",
+      "publicAdp": 239.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Frank Gore",
+      "position": "RB",
+      "publicAdp": 208.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Spencer Ware",
+      "position": "RB",
+      "publicAdp": 209.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Samaje Perine",
+      "position": "RB",
+      "team": "CIN",
+      "publicAdp": 210.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Ivory",
+      "position": "RB",
+      "publicAdp": 214.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Atlanta Falcons DST",
+      "position": "DST",
+      "publicAdp": 216.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ryan Tannehill",
+      "position": "QB",
+      "publicAdp": 217,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Donte Moncrief",
+      "position": "WR",
+      "publicAdp": 220.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tennessee Titans DST",
+      "position": "DST",
+      "publicAdp": 221.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "James Washington",
+      "position": "WR",
+      "publicAdp": 227.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kalen Ballage",
+      "position": "RB",
+      "publicAdp": 228.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Joe Flacco",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 229,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Terrance Williams",
+      "position": "WR",
+      "publicAdp": 234.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "publicAdp": 235.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ryan Succop",
+      "position": "K",
+      "publicAdp": 240,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Taywan Taylor",
+      "position": "WR",
+      "publicAdp": 240.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Quincy Enunwa",
+      "position": "WR",
+      "publicAdp": 242.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kenneth Dixon",
+      "position": "RB",
+      "publicAdp": 245,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chase Edmonds",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 245,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tre'Quan Smith",
+      "position": "WR",
+      "publicAdp": 246.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Darren Sproles",
+      "position": "RB",
+      "publicAdp": 247.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cole Beasley",
+      "position": "WR",
+      "publicAdp": 248,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Phillip Dorsett II",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 248.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kansas City Chiefs DST",
+      "position": "DST",
+      "publicAdp": 202,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "John Kelly Jr.",
+      "position": "RB",
+      "publicAdp": 252,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Seattle Seahawks DST",
+      "position": "DST",
+      "publicAdp": 207.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jonathan Stewart",
+      "position": "RB",
+      "publicAdp": 255,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Terrelle Pryor Sr.",
+      "position": "WR",
+      "publicAdp": 255.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 255.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 255.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Sam Darnold",
+      "position": "QB",
+      "team": "SEA",
+      "publicAdp": 256.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cordarrelle Patterson",
+      "position": "RB",
+      "publicAdp": 258.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brandon Marshall",
+      "position": "WR",
+      "publicAdp": 259,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brandon McManus",
+      "position": "K",
+      "publicAdp": 260.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Sam Bradford",
+      "position": "QB",
+      "publicAdp": 261.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Josh Lambo",
+      "position": "K",
+      "publicAdp": 263.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Rod Smith",
+      "position": "RB",
+      "publicAdp": 265,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dante Pettis",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 265.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jermaine Kearse",
+      "position": "WR",
+      "publicAdp": 265.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dan Bailey",
+      "position": "K",
+      "publicAdp": 266,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Pharoh Cooper",
+      "position": "WR",
+      "publicAdp": 112,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jake Butt",
+      "position": "TE",
+      "publicAdp": 267.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Detroit Lions DST",
+      "position": "DST",
+      "publicAdp": 235.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tavon Austin",
+      "position": "WR",
+      "publicAdp": 275,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Vernon Davis",
+      "position": "TE",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Nick Foles",
+      "position": "QB",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Corey Coleman",
+      "position": "WR",
+      "publicAdp": 276.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Travis Benjamin",
+      "position": "WR",
+      "publicAdp": 276.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Albert Wilson",
+      "position": "WR",
+      "publicAdp": 277.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ryan Grant",
+      "position": "WR",
+      "publicAdp": 286,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Alex Erickson",
+      "position": "WR",
+      "publicAdp": 151,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Antonio Callaway",
+      "position": "WR",
+      "publicAdp": 280.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ameer Abdullah",
+      "position": "RB",
+      "team": "JAC",
+      "publicAdp": 280.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "publicAdp": 307.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dallas Cowboys DST",
+      "position": "DST",
+      "publicAdp": 250,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Josh Rosen",
+      "position": "QB",
+      "publicAdp": 282,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ryan Griffin",
+      "position": "TE",
+      "publicAdp": 282,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ryan Switzer",
+      "position": "WR",
+      "publicAdp": 160,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "C.J. Prosise",
+      "position": "RB",
+      "publicAdp": 284.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "publicAdp": 285,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Stephen Hauschka",
+      "position": "K",
+      "publicAdp": 285,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Green Bay Packers DST",
+      "position": "DST",
+      "publicAdp": 256,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Wayne Gallman Jr.",
+      "position": "RB",
+      "publicAdp": 286.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ka'imi Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "publicAdp": 258,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cleveland Browns DST",
+      "position": "DST",
+      "publicAdp": 259.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Nick Vannett",
+      "position": "TE",
+      "team": "SEA",
+      "publicAdp": 288.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "DJ Chark Jr.",
+      "position": "WR",
+      "publicAdp": 290.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jakeem Grant Sr.",
+      "position": "WR",
+      "publicAdp": 183,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ed Dickson",
+      "position": "TE",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mike Gillislee",
+      "position": "RB",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Andre Roberts",
+      "position": "WR",
+      "publicAdp": 185,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dustin Hopkins",
+      "position": "K",
+      "publicAdp": 293.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kevin White",
+      "position": "WR",
+      "publicAdp": 293.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Laquon Treadwell",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 294.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Phil Dawson",
+      "position": "K",
+      "publicAdp": 296,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jordan Matthews",
+      "position": "TE",
+      "publicAdp": 201,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jaylen Samuels",
+      "position": "RB",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Willie Snead IV",
+      "position": "WR",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Corey Grant",
+      "position": "RB",
+      "publicAdp": 297.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Luke Willson",
+      "position": "TE",
+      "publicAdp": 298.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Warren III",
+      "position": "RB",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Trevor Davis",
+      "position": "WR",
+      "publicAdp": 208,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kai Forbath",
+      "position": "K",
+      "publicAdp": 276.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Buffalo Bills DST",
+      "position": "DST",
+      "publicAdp": 277.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Malcolm Brown",
+      "position": "RB",
+      "publicAdp": 278.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Elijah McGuire",
+      "position": "RB",
+      "publicAdp": 280.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cincinnati Bengals DST",
+      "position": "DST",
+      "publicAdp": 280.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Sebastian Janikowski",
+      "position": "K",
+      "publicAdp": 305.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Zay Jones",
+      "position": "WR",
+      "publicAdp": 282,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Caleb Sturgis",
+      "position": "K",
+      "publicAdp": 306,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Geoff Swaim",
+      "position": "TE",
+      "publicAdp": 283,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "New York Giants DST",
+      "position": "DST",
+      "publicAdp": 283,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Taylor Gabriel",
+      "position": "WR",
+      "publicAdp": 284.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jesse James",
+      "position": "TE",
+      "publicAdp": 284.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jonathan Williams",
+      "position": "RB",
+      "publicAdp": 285,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Virgil Green",
+      "position": "TE",
+      "publicAdp": 305.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "J'Mon Moore",
+      "position": "WR",
+      "publicAdp": 290,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brandon Zylstra",
+      "position": "WR",
+      "publicAdp": 239,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cairo Santos",
+      "position": "K",
+      "team": "CHI",
+      "publicAdp": 305,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jake Kumerow",
+      "position": "WR",
+      "publicAdp": 296.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Alfred Blue",
+      "position": "RB",
+      "publicAdp": 321.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Washington Commanders DST",
+      "position": "DST",
+      "publicAdp": 298,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Torrey Smith",
+      "position": "WR",
+      "publicAdp": 298,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "San Francisco 49ers DST",
+      "position": "DST",
+      "publicAdp": 300,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "J.J. Nelson",
+      "position": "WR",
+      "publicAdp": 300,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Stephen Anderson",
+      "position": "TE",
+      "publicAdp": 301.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tampa Bay Buccaneers DST",
+      "position": "DST",
+      "publicAdp": 302.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 261,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Adam Shaheen",
+      "position": "TE",
+      "publicAdp": 262,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tyler Kroft",
+      "position": "TE",
+      "publicAdp": 303.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Rico Gathers",
+      "position": "TE",
+      "publicAdp": 265,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Boston Scott",
+      "position": "RB",
+      "publicAdp": 337,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jaron Brown",
+      "position": "WR",
+      "publicAdp": 320,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Gerald Everett",
+      "position": "TE",
+      "publicAdp": 308,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "publicAdp": 329,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brett Maher",
+      "position": "K",
+      "publicAdp": 333,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Curtis Samuel",
+      "position": "WR",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Blake Jarwin",
+      "position": "TE",
+      "publicAdp": 281,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Adam Humphries",
+      "position": "WR",
+      "publicAdp": 313.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Joe Williams",
+      "position": "RB",
+      "publicAdp": 314,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jalen Richard",
+      "position": "RB",
+      "publicAdp": 314,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Wendell Smallwood",
+      "position": "RB",
+      "publicAdp": 332,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cameron Artis-Payne",
+      "position": "RB",
+      "publicAdp": 285,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "John Conner",
+      "position": "RB",
+      "publicAdp": 286,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Travaris Cadet",
+      "position": "RB",
+      "publicAdp": 286,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Trent Taylor",
+      "position": "WR",
+      "publicAdp": 315.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chester Rogers",
+      "position": "WR",
+      "publicAdp": 287,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Keke Coutee",
+      "position": "WR",
+      "publicAdp": 288,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cody Parkey",
+      "position": "K",
+      "publicAdp": 340.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Shane Vereen",
+      "position": "RB",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Garrett Celek",
+      "position": "TE",
+      "publicAdp": 293,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Christine Michael",
+      "position": "RB",
+      "publicAdp": 319.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Stevan Ridley",
+      "position": "RB",
+      "publicAdp": 319.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brice Butler",
+      "position": "WR",
+      "publicAdp": 296,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Matt Barkley",
+      "position": "QB",
+      "publicAdp": 297,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jeremy Maclin",
+      "position": "WR",
+      "publicAdp": 300,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chandler Catanzaro",
+      "position": "K",
+      "publicAdp": 357,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Charles Sims",
+      "position": "RB",
+      "publicAdp": 302,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Phillip Lindsay",
+      "position": "RB",
+      "publicAdp": 323.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "J.D. McKissic",
+      "position": "RB",
+      "publicAdp": 324,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Aldrick Rosas",
+      "position": "K",
+      "publicAdp": 330.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "New York Jets DST",
+      "position": "DST",
+      "publicAdp": 306,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jonnu Smith",
+      "position": "TE",
+      "publicAdp": 306,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jacoby Brissett",
+      "position": "QB",
+      "team": "ARI",
+      "publicAdp": 307,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Josh McCown",
+      "position": "QB",
+      "publicAdp": 308,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "DeAndre Washington",
+      "position": "RB",
+      "publicAdp": 355,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "AJ McCarron",
+      "position": "QB",
+      "publicAdp": 312,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Miami Dolphins DST",
+      "position": "DST",
+      "publicAdp": 313,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kenny Britt",
+      "position": "WR",
+      "publicAdp": 314,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jacquizz Rodgers",
+      "position": "RB",
+      "publicAdp": 316,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Ryan Fitzpatrick",
+      "position": "QB",
+      "publicAdp": 317,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dwayne Allen",
+      "position": "TE",
+      "publicAdp": 318,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Robert Turbin",
+      "position": "RB",
+      "publicAdp": 320,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kyle Juszczyk",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 371,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brandon LaFell",
+      "position": "WR",
+      "publicAdp": 321,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brian Hoyer",
+      "position": "QB",
+      "publicAdp": 323,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Las Vegas Raiders DST",
+      "position": "DST",
+      "publicAdp": 325,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Steven Jackson",
+      "position": "RB",
+      "publicAdp": 326,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tyler Higbee",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 355.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marcus Murphy",
+      "position": "RB",
+      "publicAdp": 346.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Peyton Hillis",
+      "position": "RB",
+      "publicAdp": 328,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Orleans Darkwa",
+      "position": "RB",
+      "publicAdp": 329,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jordan Akins",
+      "position": "TE",
+      "publicAdp": 342.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mark Walton",
+      "position": "RB",
+      "publicAdp": 330,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Michael Roberts",
+      "position": "TE",
+      "publicAdp": 331,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chad Williams",
+      "position": "WR",
+      "publicAdp": 332,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Cody Latimer",
+      "position": "WR",
+      "publicAdp": 333,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tyler Ervin",
+      "position": "RB",
+      "publicAdp": 334,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jordan Leggett",
+      "position": "TE",
+      "publicAdp": 336,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Xavier Grimble",
+      "position": "TE",
+      "publicAdp": 337,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Johnson",
+      "position": "RB",
+      "publicAdp": 338,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Wes Welker",
+      "position": "WR",
+      "publicAdp": 340,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jeff Heuerman",
+      "position": "TE",
+      "publicAdp": 367.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brock Osweiler",
+      "position": "QB",
+      "publicAdp": 342,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dennis Pitta",
+      "position": "TE",
+      "publicAdp": 345,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Randy Moss",
+      "position": "WR",
+      "publicAdp": 347,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tajae Sharpe",
+      "position": "WR",
+      "publicAdp": 348,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tony Romo",
+      "position": "QB",
+      "publicAdp": 349,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Knowshon Moreno",
+      "position": "RB",
+      "publicAdp": 350,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marques Colston",
+      "position": "WR",
+      "publicAdp": 351,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Akeem Hunt",
+      "position": "RB",
+      "publicAdp": 352,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Malcolm Mitchell",
+      "position": "WR",
+      "publicAdp": 353,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kendall Wright",
+      "position": "WR",
+      "publicAdp": 358,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Coby Fleener",
+      "position": "TE",
+      "publicAdp": 360,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Rashard Higgins",
+      "position": "WR",
+      "publicAdp": 361,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Damoun Patterson",
+      "position": "WR",
+      "publicAdp": 362,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Landry Jones",
+      "position": "QB",
+      "publicAdp": 364,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Thomas Rawls",
+      "position": "RB",
+      "publicAdp": 365,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Trenton Cannon",
+      "position": "RB",
+      "publicAdp": 367,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Clive Walford",
+      "position": "TE",
+      "publicAdp": 368,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marcedes Lewis",
+      "position": "TE",
+      "publicAdp": 373,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "C.J. Beathard",
+      "position": "QB",
+      "publicAdp": 374,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Tommylee Lewis",
+      "position": "WR",
+      "publicAdp": 375,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Equanimeous St. Brown",
+      "position": "WR",
+      "publicAdp": 376,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Justin Hardy",
+      "position": "WR",
+      "publicAdp": 377,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Teddy Bridgewater",
+      "position": "QB",
+      "publicAdp": 378,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Justin Watson",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 379,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Johnny Manziel",
+      "position": "QB",
+      "publicAdp": 380,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mike Boone",
+      "position": "RB",
+      "publicAdp": 382,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mark Sanchez",
+      "position": "QB",
+      "publicAdp": 383,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Nathan Peterman",
+      "position": "QB",
+      "publicAdp": 384,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Eddy Pineiro",
+      "position": "K",
+      "team": "SF",
+      "publicAdp": 386,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Colin Kaepernick",
+      "position": "QB",
+      "publicAdp": 387,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Aaron Hernandez",
+      "position": "TE",
+      "publicAdp": 388,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mike Davis",
+      "position": "RB",
+      "publicAdp": 389,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Shelton Gibson",
+      "position": "WR",
+      "publicAdp": 390,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Deonte Thompson",
+      "position": "WR",
+      "publicAdp": 391,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Matt Cassel",
+      "position": "QB",
+      "publicAdp": 394,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "DaeSean Hamilton",
+      "position": "WR",
+      "publicAdp": 396,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Zane Gonzalez",
+      "position": "K",
+      "team": "MIA",
+      "publicAdp": 397,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Javon Wims",
+      "position": "WR",
+      "publicAdp": 398,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Derek Watt",
+      "position": "RB",
+      "publicAdp": 399,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Terrance West",
+      "position": "RB",
+      "publicAdp": 400,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kerwynn Williams",
+      "position": "RB",
+      "publicAdp": 402,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "C.J. Ham",
+      "position": "RB",
+      "publicAdp": 403,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Bennie Fowler III",
+      "position": "WR",
+      "publicAdp": 404,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Seth Roberts",
+      "position": "WR",
+      "publicAdp": 405,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Bruce Ellington",
+      "position": "WR",
+      "publicAdp": 407,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Charcandrick West",
+      "position": "RB",
+      "publicAdp": 408,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mack Hollins",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 409,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brandon Tate",
+      "position": "WR",
+      "publicAdp": 410,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Dwayne Harris",
+      "position": "WR",
+      "publicAdp": 411,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jacob Hollister",
+      "position": "TE",
+      "publicAdp": 412,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brett Hundley",
+      "position": "QB",
+      "publicAdp": 413,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Roc Thomas",
+      "position": "RB",
+      "publicAdp": 415,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Roberto Aguayo",
+      "position": "K",
+      "publicAdp": 416,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 417,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Braxton Berrios",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 418,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Richie James Jr.",
+      "position": "WR",
+      "publicAdp": 419,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Justin Davis",
+      "position": "RB",
+      "publicAdp": 420,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Braxton Miller",
+      "position": "WR",
+      "publicAdp": 421,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Amara Darboh",
+      "position": "WR",
+      "publicAdp": 423,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "T.J. Jones",
+      "position": "WR",
+      "publicAdp": 424,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jason Sanders",
+      "position": "K",
+      "team": "NYJ",
+      "publicAdp": 425,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jeremy Kerley",
+      "position": "WR",
+      "publicAdp": 426,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Conley",
+      "position": "WR",
+      "publicAdp": 427,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Niles Paul",
+      "position": "TE",
+      "publicAdp": 428,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Keith Smith",
+      "position": "RB",
+      "publicAdp": 429,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Patrick DiMarco",
+      "position": "RB",
+      "publicAdp": 430,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Andy Janovich",
+      "position": "RB",
+      "publicAdp": 431,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Joe Webb III",
+      "position": "QB",
+      "publicAdp": 432,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Nick Boyle",
+      "position": "TE",
+      "publicAdp": 433,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Moore",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 434,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jermaine Gresham",
+      "position": "TE",
+      "publicAdp": 435,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Justin Hunter",
+      "position": "WR",
+      "publicAdp": 436,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Demarcus Robinson",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 437,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Brandon Weeden",
+      "position": "QB",
+      "publicAdp": 438,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Demetrius Harris",
+      "position": "TE",
+      "publicAdp": 439,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Seth DeValve",
+      "position": "TE",
+      "publicAdp": 440,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Nate Sudfeld",
+      "position": "QB",
+      "publicAdp": 441,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Lee Smith",
+      "position": "TE",
+      "publicAdp": 442,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Lance Kendricks",
+      "position": "TE",
+      "publicAdp": 443,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Eli Rogers",
+      "position": "WR",
+      "publicAdp": 444,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "A.J. Derby",
+      "position": "TE",
+      "publicAdp": 445,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Benny Cunningham Jr.",
+      "position": "RB",
+      "publicAdp": 446,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chad Hansen",
+      "position": "WR",
+      "publicAdp": 447,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "De'Anthony Thomas",
+      "position": "WR",
+      "publicAdp": 448,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Jamize Olawale",
+      "position": "RB",
+      "publicAdp": 449,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Chris Herndon IV",
+      "position": "TE",
+      "publicAdp": 450,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Nick O'Leary",
+      "position": "TE",
+      "publicAdp": 451,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Logan Paulsen",
+      "position": "TE",
+      "publicAdp": 452,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "publicAdp": 453,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Mason Rudolph",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 454,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Josh Hill",
+      "position": "TE",
+      "publicAdp": 455,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Blaine Gabbert",
+      "position": "QB",
+      "publicAdp": 456,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Kendrick Bourne",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 457,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2018,
+      "player": "Josh Reynolds",
+      "position": "WR",
+      "publicAdp": 458,
+      "adpSource": "FantasyPros PPR Consensus"
+    }
+  ]
+}

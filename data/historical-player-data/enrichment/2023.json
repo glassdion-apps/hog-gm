@@ -1,0 +1,4478 @@
+{
+  "generatedAt": "2026-08-19T16:12:34.625Z",
+  "season": 2023,
+  "source": "/Users/dionglassmainmac/Documents/projects/hog-gm/data/historical-adp/fantasypros-adp-2023.json",
+  "scoring": "PPR",
+  "records": [
+    {
+      "season": 2023,
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "publicAdp": 1,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 2.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "publicAdp": 3.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 5.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "publicAdp": 6.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 7.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "team": "ATL",
+      "publicAdp": 8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 10,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "publicAdp": 12.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Davante Adams",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 12.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 13.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 13.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Patrick Mahomes II",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 14.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 15,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 16,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 16,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 16,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Garrett Wilson",
+      "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 17.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 18.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "publicAdp": 20.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 22.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 24.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chris Olave",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 26.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 27,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Najee Harris",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 28,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 28.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Travis Etienne Jr.",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 28.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 30.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 30.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 31.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "publicAdp": 33,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 33,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 34,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 34.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 34.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Aaron Jones Sr.",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 37.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Deebo Samuel Sr.",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 38,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Breece Hall",
+      "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 40.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "publicAdp": 42,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 43.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "publicAdp": 43.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kenneth Walker III",
+      "position": "RB",
+      "team": "KC",
+      "publicAdp": 43.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Justin Fields",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 44.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "team": "MIN",
+      "publicAdp": 45.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dameon Pierce",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 46.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "publicAdp": 47.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "George Kittle",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 49.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Miles Sanders",
+      "position": "RB",
+      "publicAdp": 50.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Darren Waller",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 50.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "DJ Moore",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 50.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 52.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 54.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAC",
+      "publicAdp": 55,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Christian Watson",
+      "position": "WR",
+      "team": "GB",
+      "publicAdp": 55.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mike Williams",
+      "position": "WR",
+      "publicAdp": 60.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 61.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kyle Pitts Sr.",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 62.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Alexander Mattison",
+      "position": "RB",
+      "publicAdp": 62.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "publicAdp": 63.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 63.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cam Akers",
+      "position": "RB",
+      "publicAdp": 64,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 64.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rachaad White",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 65.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Drake London",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 66.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chris Godwin Jr.",
+      "position": "WR",
+      "team": "TB",
+      "publicAdp": 67,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 70.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "James Cook III",
+      "position": "RB",
+      "team": "BUF",
+      "publicAdp": 71.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 72,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brandon Aiyuk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 72,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Isiah Pacheco",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 72.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Javonte Williams",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 72.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "team": "CHI",
+      "publicAdp": 74.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Diontae Johnson",
+      "position": "WR",
+      "publicAdp": 74.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 75.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "publicAdp": 76,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 76,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Evan Engram",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 78.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Michael Pittman Jr.",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 81.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "San Francisco 49ers DST",
+      "position": "DST",
+      "publicAdp": 82.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "George Pickens",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 83,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "David Njoku",
+      "position": "TE",
+      "team": "LAC",
+      "publicAdp": 85.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "David Montgomery",
+      "position": "RB",
+      "team": "HOU",
+      "publicAdp": 86,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "publicAdp": 89.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Justin Tucker",
+      "position": "K",
+      "publicAdp": 90.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Hollywood Brown",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 91.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jahan Dotson",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 91.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "ATL",
+      "publicAdp": 93.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jordan Addison",
+      "position": "WR",
+      "team": "MIN",
+      "publicAdp": 93.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "AJ Dillon",
+      "position": "RB",
+      "team": "CAR",
+      "publicAdp": 94.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "publicAdp": 95,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 95.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 97.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Khalil Herbert",
+      "position": "RB",
+      "publicAdp": 99,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 101.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jamaal Williams",
+      "position": "RB",
+      "publicAdp": 103.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Philadelphia Eagles DST",
+      "position": "DST",
+      "publicAdp": 106,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 106,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "publicAdp": 106.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 106.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Gabe Davis",
+      "position": "WR",
+      "publicAdp": 108.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Buffalo Bills DST",
+      "position": "DST",
+      "publicAdp": 108.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brian Robinson Jr.",
+      "position": "RB",
+      "team": "ATL",
+      "publicAdp": 109.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "publicAdp": 109.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "publicAdp": 109.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Antonio Gibson",
+      "position": "RB",
+      "publicAdp": 112.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Treylon Burks",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 114,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Daniel Carlson",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 114.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Zay Flowers",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 115,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kadarius Toney",
+      "position": "WR",
+      "publicAdp": 116.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Zach Charbonnet",
+      "position": "RB",
+      "team": "SEA",
+      "publicAdp": 118,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dallas Cowboys DST",
+      "position": "DST",
+      "publicAdp": 118.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Samaje Perine",
+      "position": "RB",
+      "team": "CIN",
+      "publicAdp": 118.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Anthony Richardson Sr.",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 120.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dalton Schultz",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 120.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Daniel Jones",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 120.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "New York Jets DST",
+      "position": "DST",
+      "publicAdp": 122.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "publicAdp": 124.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Quentin Johnston",
+      "position": "WR",
+      "team": "LAC",
+      "publicAdp": 125.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jerick McKinnon",
+      "position": "RB",
+      "publicAdp": 125.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dalton Kincaid",
+      "position": "TE",
+      "team": "BUF",
+      "publicAdp": 127,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Skyy Moore",
+      "position": "WR",
+      "team": "GB",
+      "publicAdp": 127.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "New England Patriots DST",
+      "position": "DST",
+      "publicAdp": 128.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Bass",
+      "position": "K",
+      "team": "BUF",
+      "publicAdp": 129,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cole Kmet",
+      "position": "TE",
+      "team": "CHI",
+      "publicAdp": 129.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Evan McPherson",
+      "position": "K",
+      "team": "CIN",
+      "publicAdp": 130.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Harrison Butker",
+      "position": "K",
+      "team": "KC",
+      "publicAdp": 133.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "publicAdp": 134.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "team": "LV",
+      "publicAdp": 135,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Higbee",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 136.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jason Myers",
+      "position": "K",
+      "team": "SEA",
+      "publicAdp": 136.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "De'Von Achane",
+      "position": "RB",
+      "team": "MIA",
+      "publicAdp": 136.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "publicAdp": 137.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Baltimore Ravens DST",
+      "position": "DST",
+      "publicAdp": 138.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "publicAdp": 138.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Younghoe Koo",
+      "position": "K",
+      "publicAdp": 139,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rashaad Penny",
+      "position": "RB",
+      "publicAdp": 140.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Elijah Mitchell",
+      "position": "RB",
+      "publicAdp": 140.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Pittsburgh Steelers DST",
+      "position": "DST",
+      "publicAdp": 141.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Allen Lazard",
+      "position": "WR",
+      "publicAdp": 143.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Miami Dolphins DST",
+      "position": "DST",
+      "publicAdp": 145.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Juwan Johnson",
+      "position": "TE",
+      "team": "NO",
+      "publicAdp": 147.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "publicAdp": 148,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "team": "JAC",
+      "publicAdp": 150,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Elijah Moore",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 151,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 152,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "New Orleans Saints DST",
+      "position": "DST",
+      "publicAdp": 154,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jameson Williams",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 154,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chig Okonkwo",
+      "position": "TE",
+      "team": "WAS",
+      "publicAdp": 154.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Graham Gano",
+      "position": "K",
+      "publicAdp": 155.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "publicAdp": 156,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 159.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Allgeier",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 160,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jake Elliott",
+      "position": "K",
+      "team": "PHI",
+      "publicAdp": 161,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Gerald Everett",
+      "position": "TE",
+      "publicAdp": 162,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT",
+      "publicAdp": 162.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Derek Carr",
+      "position": "QB",
+      "publicAdp": 163.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Damien Harris",
+      "position": "RB",
+      "publicAdp": 164.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jalin Hyatt",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 166.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kansas City Chiefs DST",
+      "position": "DST",
+      "publicAdp": 166.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brock Purdy",
+      "position": "QB",
+      "team": "SF",
+      "publicAdp": 167,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Sam LaPorta",
+      "position": "TE",
+      "team": "DET",
+      "publicAdp": 168.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kenny Pickett",
+      "position": "QB",
+      "team": "CAR",
+      "publicAdp": 168.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tank Bigsby",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 169.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Zay Jones",
+      "position": "WR",
+      "publicAdp": 173.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Darnell Mooney",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 174,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nico Collins",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 174,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Greg Dulcich",
+      "position": "TE",
+      "team": "MIA",
+      "publicAdp": 176,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 178.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Washington Commanders DST",
+      "position": "DST",
+      "publicAdp": 179.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Deuce Vaughn",
+      "position": "RB",
+      "publicAdp": 180,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Romeo Doubs",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 180.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cincinnati Bengals DST",
+      "position": "DST",
+      "publicAdp": 180.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Bryce Young",
+      "position": "QB",
+      "team": "CAR",
+      "publicAdp": 183.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Green Bay Packers DST",
+      "position": "DST",
+      "publicAdp": 187.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kenny Gainwell",
+      "position": "RB",
+      "team": "TB",
+      "publicAdp": 187.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jordan Love",
+      "position": "QB",
+      "team": "GB",
+      "publicAdp": 189,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Michael Gallup",
+      "position": "WR",
+      "publicAdp": 190,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jonathan Mingo",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 190.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cameron Dicker",
+      "position": "K",
+      "team": "LAC",
+      "publicAdp": 190.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dawson Knox",
+      "position": "TE",
+      "team": "BUF",
+      "publicAdp": 191.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "K.J. Osborn",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 192.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Matt Gay",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 193.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jacksonville Jaguars DST",
+      "position": "DST",
+      "publicAdp": 194.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Roschon Johnson",
+      "position": "RB",
+      "team": "CHI",
+      "publicAdp": 195,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brandon McManus",
+      "position": "K",
+      "publicAdp": 196.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "publicAdp": 198.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Denver Broncos DST",
+      "position": "DST",
+      "publicAdp": 198.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cleveland Browns DST",
+      "position": "DST",
+      "publicAdp": 199.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Seattle Seahawks DST",
+      "position": "DST",
+      "publicAdp": 200,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "DJ Chark Jr.",
+      "position": "WR",
+      "publicAdp": 200.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Sam Howell",
+      "position": "QB",
+      "team": "DAL",
+      "publicAdp": 200.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Luke Musgrave",
+      "position": "TE",
+      "team": "GB",
+      "publicAdp": 200.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 201.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "D'Onta Foreman",
+      "position": "RB",
+      "publicAdp": 170.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jeff Wilson Jr.",
+      "position": "RB",
+      "publicAdp": 172.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Taysom Hill",
+      "position": "TE",
+      "publicAdp": 207.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kendre Miller",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 177.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Greg Zuerlein",
+      "position": "K",
+      "publicAdp": 180,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 210.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "C.J. Stroud",
+      "position": "QB",
+      "team": "HOU",
+      "publicAdp": 211.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "publicAdp": 212.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Deon Jackson",
+      "position": "RB",
+      "publicAdp": 183.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jimmy Garoppolo",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 213.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rashee Rice",
+      "position": "WR",
+      "team": "KC",
+      "publicAdp": 185.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jake Ferguson",
+      "position": "TE",
+      "team": "DAL",
+      "publicAdp": 214.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Marvin Mims Jr.",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 216.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mike Gesicki",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 217,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cordarrelle Patterson",
+      "position": "RB",
+      "publicAdp": 190.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "publicAdp": 218.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Michael Mayer",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 218.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Donovan Peoples-Jones",
+      "position": "WR",
+      "publicAdp": 194.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Conklin",
+      "position": "TE",
+      "team": "DET",
+      "publicAdp": 222.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Parris Campbell",
+      "position": "WR",
+      "publicAdp": 222.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jason Sanders",
+      "position": "K",
+      "team": "NYJ",
+      "publicAdp": 197.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Gus Edwards",
+      "position": "RB",
+      "publicAdp": 223.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Hunter Renfrow",
+      "position": "WR",
+      "publicAdp": 224.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "publicAdp": 201.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Hayden Hurst",
+      "position": "TE",
+      "publicAdp": 227,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nick Folk",
+      "position": "K",
+      "team": "ATL",
+      "publicAdp": 159,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "team": "CAR",
+      "publicAdp": 206,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyjae Spears",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 207.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Justyn Ross",
+      "position": "WR",
+      "publicAdp": 230.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Minnesota Vikings DST",
+      "position": "DST",
+      "publicAdp": 211,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "New York Giants DST",
+      "position": "DST",
+      "publicAdp": 213,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chris Boswell",
+      "position": "K",
+      "team": "PIT",
+      "publicAdp": 214,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Wil Lutz",
+      "position": "K",
+      "team": "DEN",
+      "publicAdp": 217.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "publicAdp": 217.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jayden Reed",
+      "position": "WR",
+      "team": "GB",
+      "publicAdp": 220,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tank Dell",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 265.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ryan Tannehill",
+      "position": "QB",
+      "publicAdp": 240.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jake Moody",
+      "position": "K",
+      "publicAdp": 220.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mac Jones",
+      "position": "QB",
+      "team": "SF",
+      "publicAdp": 222.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tampa Bay Buccaneers DST",
+      "position": "DST",
+      "publicAdp": 223,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Irv Smith Jr.",
+      "position": "TE",
+      "publicAdp": 285,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Alec Pierce",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 226.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Van Jefferson",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 191,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Curtis Samuel",
+      "position": "WR",
+      "publicAdp": 230.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Los Angeles Chargers DST",
+      "position": "DST",
+      "publicAdp": 197.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Carolina Panthers DST",
+      "position": "DST",
+      "publicAdp": 198,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Detroit Lions DST",
+      "position": "DST",
+      "publicAdp": 199,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Isaiah Hodgins",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 233.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Riley Patterson",
+      "position": "K",
+      "team": "MIA",
+      "publicAdp": 201.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Zack Moss",
+      "position": "RB",
+      "publicAdp": 203.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ty Chandler",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 208.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Zamir White",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 209.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "DeVante Parker",
+      "position": "WR",
+      "publicAdp": 239.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "publicAdp": 240.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Greg Joseph",
+      "position": "K",
+      "publicAdp": 212.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Los Angeles Rams DST",
+      "position": "DST",
+      "publicAdp": 212.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Eddy Pineiro",
+      "position": "K",
+      "team": "SF",
+      "publicAdp": 129,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Evan Hull",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 215.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chase Brown",
+      "position": "RB",
+      "team": "CIN",
+      "publicAdp": 246,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mecole Hardman Jr.",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 247.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jerome Ford",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 222,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chicago Bears DST",
+      "position": "DST",
+      "publicAdp": 222,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chase Claypool",
+      "position": "WR",
+      "publicAdp": 248,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Joshua Kelley",
+      "position": "RB",
+      "publicAdp": 222.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Las Vegas Raiders DST",
+      "position": "DST",
+      "publicAdp": 224.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Desmond Ridder",
+      "position": "QB",
+      "publicAdp": 250,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tennessee Titans DST",
+      "position": "DST",
+      "publicAdp": 226,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chase McLaughlin",
+      "position": "K",
+      "team": "TB",
+      "publicAdp": 231,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Noah Fant",
+      "position": "TE",
+      "team": "NO",
+      "publicAdp": 231.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Latavius Murray",
+      "position": "RB",
+      "publicAdp": 234.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "John Metchie III",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 235,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Trey Lance",
+      "position": "QB",
+      "team": "LAC",
+      "publicAdp": 259.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Michael Badgley",
+      "position": "K",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rashid Shaheed",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 259.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Matt Prater",
+      "position": "K",
+      "publicAdp": 241,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Robert Woods",
+      "position": "WR",
+      "publicAdp": 261,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Arizona Cardinals DST",
+      "position": "DST",
+      "publicAdp": 242,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Isaiah Likely",
+      "position": "TE",
+      "team": "NYG",
+      "publicAdp": 262,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 245.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kyren Williams",
+      "position": "RB",
+      "team": "LAR",
+      "publicAdp": 193,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Sean Tucker",
+      "position": "RB",
+      "team": "TB",
+      "publicAdp": 198,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brandon Aubrey",
+      "position": "K",
+      "team": "DAL",
+      "publicAdp": 249,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Anders Carlson",
+      "position": "K",
+      "publicAdp": 251.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Downs",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 252,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kyle Juszczyk",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 253.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cairo Santos",
+      "position": "K",
+      "team": "CHI",
+      "publicAdp": 209,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Darnell Washington",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 254.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tom Brady",
+      "position": "QB",
+      "publicAdp": 214,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cade Otton",
+      "position": "TE",
+      "team": "TB",
+      "publicAdp": 271.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brett Maher",
+      "position": "K",
+      "publicAdp": 216,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jimmy Graham",
+      "position": "TE",
+      "publicAdp": 219,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Wan'Dale Robinson",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 259.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Michael Carter",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 260,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Keaontay Ingram",
+      "position": "RB",
+      "publicAdp": 260,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Richie James Jr.",
+      "position": "WR",
+      "publicAdp": 281.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Indianapolis Colts DST",
+      "position": "DST",
+      "publicAdp": 268,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Puka Nacua",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 265,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Atlanta Falcons DST",
+      "position": "DST",
+      "publicAdp": 231,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Blake Grupe",
+      "position": "K",
+      "team": "IND",
+      "publicAdp": 232,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jermar Jefferson",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 233,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chad Ryland",
+      "position": "K",
+      "team": "ARI",
+      "publicAdp": 266.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cade York",
+      "position": "K",
+      "team": "NYJ",
+      "publicAdp": 280.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Joey Slye",
+      "position": "K",
+      "team": "TEN",
+      "publicAdp": 267,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Joshua Palmer",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 267.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Noah Gray",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 268,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chase Edmonds",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 237,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ka'imi Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "publicAdp": 289.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Malik Cunningham",
+      "position": "QB",
+      "team": "DET",
+      "publicAdp": 241,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rob Gronkowski",
+      "position": "TE",
+      "publicAdp": 242,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tanner Brown",
+      "position": "K",
+      "team": "NO",
+      "publicAdp": 243,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Luke Schoonmaker",
+      "position": "TE",
+      "team": "DAL",
+      "publicAdp": 244,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Houston Texans DST",
+      "position": "DST",
+      "publicAdp": 245,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Robbie Gould",
+      "position": "K",
+      "publicAdp": 246,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Bruce Anderson III",
+      "position": "RB",
+      "publicAdp": 246,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kyle Allen",
+      "position": "QB",
+      "team": "BUF",
+      "publicAdp": 247,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Henry Litwin",
+      "position": "WR",
+      "publicAdp": 248,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Allen Robinson II",
+      "position": "WR",
+      "publicAdp": 274,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jake Bobo",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 249,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Antonio Brown",
+      "position": "WR",
+      "publicAdp": 250,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mason Crosby",
+      "position": "K",
+      "publicAdp": 251,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Calvin Austin III",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 275.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Trey McBride",
+      "position": "TE",
+      "team": "ARI",
+      "publicAdp": 252,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Blake Bell",
+      "position": "TE",
+      "publicAdp": 254,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jaleel McLaughlin",
+      "position": "RB",
+      "team": "DEN",
+      "publicAdp": 254,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Eric Ebron",
+      "position": "TE",
+      "publicAdp": 255,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Trey Palmer",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 256,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Connor Heyward",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 257,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "DeWayne McBride",
+      "position": "RB",
+      "publicAdp": 278.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ben Roethlisberger",
+      "position": "QB",
+      "publicAdp": 258,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Robert Tonyan",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Christopher Dunn",
+      "position": "K",
+      "publicAdp": 260,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Max Duggan",
+      "position": "QB",
+      "publicAdp": 261,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Christian Trahan",
+      "position": "TE",
+      "publicAdp": 261,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Daniel Bellinger",
+      "position": "TE",
+      "team": "TEN",
+      "publicAdp": 280.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Stetson Bennett IV",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 263,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Israel Abanikanda",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 313.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "James Robinson",
+      "position": "RB",
+      "publicAdp": 353,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Adrian Peterson",
+      "position": "RB",
+      "publicAdp": 264,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tristan Vizcaino",
+      "position": "K",
+      "publicAdp": 264,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nikola Kalinic",
+      "position": "TE",
+      "team": "CHI",
+      "publicAdp": 265,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Zack Kuntz",
+      "position": "TE",
+      "team": "DAL",
+      "publicAdp": 265,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jelani Woods",
+      "position": "TE",
+      "team": "NYJ",
+      "publicAdp": 282.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Marvin Jones Jr.",
+      "position": "WR",
+      "publicAdp": 266,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mohamed Ibrahim",
+      "position": "RB",
+      "publicAdp": 266,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chase Cota- DUP",
+      "position": "WR",
+      "publicAdp": 267,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Austin Watkins Jr.",
+      "position": "WR",
+      "publicAdp": 269,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Zach Evans",
+      "position": "RB",
+      "publicAdp": 270,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chris Naggar",
+      "position": "K",
+      "publicAdp": 270,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rico Dowdle",
+      "position": "RB",
+      "team": "PIT",
+      "publicAdp": 271,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Armani Rogers",
+      "position": "TE",
+      "publicAdp": 271,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "John Mitchell",
+      "position": "TE",
+      "publicAdp": 271,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "C.J. Uzomah",
+      "position": "TE",
+      "publicAdp": 272,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Michael Wilson",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 272,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Matt Breida",
+      "position": "RB",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tucker Kraft",
+      "position": "TE",
+      "team": "GB",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Boston Scott",
+      "position": "RB",
+      "publicAdp": 286.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Justin Watson",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 274,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Zach Wilson",
+      "position": "QB",
+      "team": "NO",
+      "publicAdp": 275,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Joseph Ngata",
+      "position": "WR",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Marcus Mariota",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 277,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ronnie Bell",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 278,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Matt Barkley",
+      "position": "QB",
+      "publicAdp": 279,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Logan Thomas",
+      "position": "TE",
+      "publicAdp": 279,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Austin Allen",
+      "position": "TE",
+      "publicAdp": 279,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Will Dissly",
+      "position": "TE",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Albert Okwuegbunam Jr.",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rodrigo Blankenship",
+      "position": "K",
+      "publicAdp": 281,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Khalil Shakir",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 340,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dustin Hopkins",
+      "position": "K",
+      "publicAdp": 282,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Deneric Prince",
+      "position": "RB",
+      "publicAdp": 282,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Durham Smythe",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 283,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Julio Jones",
+      "position": "WR",
+      "publicAdp": 284,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Quez Watkins",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 284,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "TEN",
+      "publicAdp": 285,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyquan Thornton",
+      "position": "WR",
+      "team": "KC",
+      "publicAdp": 285,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Woodrum",
+      "position": "QB",
+      "publicAdp": 286,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Equanimeous St. Brown",
+      "position": "WR",
+      "publicAdp": 286,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nick Sciba",
+      "position": "K",
+      "publicAdp": 287,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Thomas Greaney",
+      "position": "TE",
+      "publicAdp": 287,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Isaiah McKenzie",
+      "position": "WR",
+      "publicAdp": 388.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Oliver",
+      "position": "TE",
+      "team": "MIN",
+      "publicAdp": 288,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jake Browning",
+      "position": "QB",
+      "team": "TB",
+      "publicAdp": 289,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Pierre Strong Jr.",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 289,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cooper Rush",
+      "position": "QB",
+      "team": "ATL",
+      "publicAdp": 290,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cole McDonald",
+      "position": "QB",
+      "publicAdp": 290,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Terrace Marshall Jr.",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kyle Lauletta",
+      "position": "QB",
+      "publicAdp": 292,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Trenton Irwin",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 293,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Danny Etling",
+      "position": "QB",
+      "publicAdp": 294,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Trace McSorley",
+      "position": "QB",
+      "publicAdp": 294,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "KaVontae Turpin",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 295,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cam Newton",
+      "position": "QB",
+      "publicAdp": 296,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jauan Jennings",
+      "position": "WR",
+      "team": "MIN",
+      "publicAdp": 296,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Peyton Hendershot",
+      "position": "TE",
+      "publicAdp": 297,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Malik Flowers",
+      "position": "WR",
+      "publicAdp": 297,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Teddy Bridgewater",
+      "position": "QB",
+      "publicAdp": 298,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "publicAdp": 298,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Drew Lock",
+      "position": "QB",
+      "team": "SEA",
+      "publicAdp": 299,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "J.J. Taylor",
+      "position": "RB",
+      "publicAdp": 300,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Darius Jackson",
+      "position": "RB",
+      "publicAdp": 301,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jack Stoll",
+      "position": "TE",
+      "team": "CLE",
+      "publicAdp": 302,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Troy Fumagalli",
+      "position": "TE",
+      "publicAdp": 303,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Sean Clifford",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 303,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Hill",
+      "position": "TE",
+      "publicAdp": 304,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Binjimen Victor",
+      "position": "WR",
+      "publicAdp": 304,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Devin Duvernay",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 305,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Levine Toilolo",
+      "position": "TE",
+      "publicAdp": 305,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "C.J. Ham",
+      "position": "RB",
+      "publicAdp": 305,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Charlie Jones",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 306,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ryan Succop",
+      "position": "K",
+      "publicAdp": 307,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nate Stanley",
+      "position": "QB",
+      "publicAdp": 307,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Le'Veon Bell",
+      "position": "RB",
+      "publicAdp": 308,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kaden Smith",
+      "position": "TE",
+      "publicAdp": 308,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Marquise Goodwin",
+      "position": "WR",
+      "publicAdp": 309,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nick Bowers",
+      "position": "TE",
+      "publicAdp": 309,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Briley Moore",
+      "position": "TE",
+      "publicAdp": 310,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Grant DuBose",
+      "position": "WR",
+      "publicAdp": 311,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ross Travis",
+      "position": "TE",
+      "publicAdp": 312,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Olamide Zaccheaus",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 312,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jason Brownlee",
+      "position": "WR",
+      "team": "KC",
+      "publicAdp": 313,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Derek Watt",
+      "position": "RB",
+      "publicAdp": 314,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Matt Bushman",
+      "position": "TE",
+      "publicAdp": 314,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jordan Matthews",
+      "position": "TE",
+      "publicAdp": 316,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Hendon Hooker",
+      "position": "QB",
+      "team": "TEN",
+      "publicAdp": 316,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kahale Warring",
+      "position": "TE",
+      "publicAdp": 317,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brock Wright",
+      "position": "TE",
+      "team": "DET",
+      "publicAdp": 317,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "DaeSean Hamilton",
+      "position": "WR",
+      "publicAdp": 318,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jalen Tolbert",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 318,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jonnu Smith",
+      "position": "TE",
+      "publicAdp": 319,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jarrett Stidham",
+      "position": "QB",
+      "team": "DEN",
+      "publicAdp": 320,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Andrei Iosivas",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 321,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 322,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "D'Vonte Price",
+      "position": "RB",
+      "publicAdp": 323,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Blaine Gabbert",
+      "position": "QB",
+      "publicAdp": 324,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Patrick Ricard",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 325,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Lambo",
+      "position": "K",
+      "publicAdp": 326,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Drew Sample",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 327,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyson Bagent",
+      "position": "QB",
+      "team": "CHI",
+      "publicAdp": 329,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Adam Humphries",
+      "position": "WR",
+      "publicAdp": 330,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tre' McKitty",
+      "position": "TE",
+      "team": "WAS",
+      "publicAdp": 331,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Lirim Hajrullahu",
+      "position": "K",
+      "publicAdp": 332,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Anthony Brown Jr.",
+      "position": "QB",
+      "publicAdp": 333,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Matthew Slater",
+      "position": "WR",
+      "publicAdp": 334,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Gordon",
+      "position": "WR",
+      "publicAdp": 335,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Adam Trautman",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 336,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Roger Carter Jr.",
+      "position": "TE",
+      "publicAdp": 337,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Gunner Olszewski",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 338,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dorian Thompson-Robinson",
+      "position": "QB",
+      "publicAdp": 339,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Elijah Higgins",
+      "position": "TE",
+      "team": "ARI",
+      "publicAdp": 341,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Randy Bullock",
+      "position": "K",
+      "publicAdp": 342,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Elijah Dotson",
+      "position": "RB",
+      "publicAdp": 344,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "James White",
+      "position": "RB",
+      "publicAdp": 345,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Andy Dalton",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 346,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Harrison Bryant",
+      "position": "TE",
+      "publicAdp": 347,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ryan Fitzpatrick",
+      "position": "QB",
+      "publicAdp": 348,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brenton Strange",
+      "position": "TE",
+      "team": "JAC",
+      "publicAdp": 349,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ray-Ray McCloud III",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 350,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mo Alie-Cox",
+      "position": "TE",
+      "team": "IND",
+      "publicAdp": 351,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "John FitzPatrick",
+      "position": "TE",
+      "publicAdp": 351.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Trent Sherfield Sr.",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 352,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cedrick Wilson Jr.",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 353,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Julian Hill",
+      "position": "TE",
+      "team": "NE",
+      "publicAdp": 355,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dontayvion Wicks",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 356,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jared Cook",
+      "position": "TE",
+      "publicAdp": 357,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mitchell Wilcox",
+      "position": "TE",
+      "publicAdp": 357,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Xavier Gipson",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 358,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Alec Ingold",
+      "position": "RB",
+      "team": "LAC",
+      "publicAdp": 359,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Devonta Freeman",
+      "position": "RB",
+      "publicAdp": 360,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brycen Hopkins",
+      "position": "TE",
+      "publicAdp": 361,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Colby Parkinson",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 362,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "John Bates",
+      "position": "TE",
+      "team": "WAS",
+      "publicAdp": 363,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tre Nixon",
+      "position": "WR",
+      "publicAdp": 365,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Adams",
+      "position": "RB",
+      "publicAdp": 366,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Eric Gray",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 367,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Aidan O'Connell",
+      "position": "QB",
+      "team": "LV",
+      "publicAdp": 369,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Hunter Luepke",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 370,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "River Cracraft",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 371,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chris Brooks",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 372,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jeremy Ruckert",
+      "position": "TE",
+      "team": "NYJ",
+      "publicAdp": 373,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Joe Flacco",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 374,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dyami Brown",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 375,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Amari Rodgers",
+      "position": "WR",
+      "publicAdp": 376,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Erik Ezukanma",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 377,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ross Dwelley",
+      "position": "TE",
+      "publicAdp": 378,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Michael Burton",
+      "position": "RB",
+      "team": "CLE",
+      "publicAdp": 379,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josiah Deguara",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 380,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Scotty Washington",
+      "position": "WR",
+      "publicAdp": 381,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jalen Brooks",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 382,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ben DiNucci",
+      "position": "QB",
+      "publicAdp": 383,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Pharoh Cooper",
+      "position": "WR",
+      "publicAdp": 384,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "D'Ernest Johnson",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 384,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Bryce Perkins",
+      "position": "QB",
+      "publicAdp": 385,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Malik Heath",
+      "position": "WR",
+      "publicAdp": 386,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brandon Johnson",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 387,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mason Rudolph",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 388,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Scotty Miller",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 389,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nelson Agholor",
+      "position": "WR",
+      "publicAdp": 390,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "David Johnson",
+      "position": "RB",
+      "publicAdp": 391,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "A.J. Green",
+      "position": "WR",
+      "publicAdp": 392,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Antoine Green",
+      "position": "WR",
+      "publicAdp": 393,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brandon Allen",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 394,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyrod Taylor",
+      "position": "QB",
+      "team": "GB",
+      "publicAdp": 395,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Bailey Zappe",
+      "position": "QB",
+      "team": "NYJ",
+      "publicAdp": 396,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mitch Tinsley",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 397,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyrion Davis-Price",
+      "position": "RB",
+      "publicAdp": 398,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Spencer Brown",
+      "position": "RB",
+      "publicAdp": 400,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "DeAndre Carter",
+      "position": "WR",
+      "publicAdp": 402,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tanner McKee",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 404,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "C.J. Beathard",
+      "position": "QB",
+      "publicAdp": 405,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jordan Akins",
+      "position": "TE",
+      "publicAdp": 406,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jakob Johnson",
+      "position": "RB",
+      "publicAdp": 407,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Travis Homer",
+      "position": "RB",
+      "team": "PIT",
+      "publicAdp": 408,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Byron Pringle",
+      "position": "WR",
+      "publicAdp": 409,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kayshon Boutte",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 410,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rex Burkhead",
+      "position": "RB",
+      "publicAdp": 411,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Easton Stick",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 412,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Caleb Shudak",
+      "position": "K",
+      "publicAdp": 413,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tre Tucker",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 415,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nick Mullens",
+      "position": "QB",
+      "team": "JAC",
+      "publicAdp": 416,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cole Turner",
+      "position": "TE",
+      "team": "MIA",
+      "publicAdp": 417,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jordan Mason",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 418,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Matt Ryan",
+      "position": "QB",
+      "publicAdp": 419,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Scott",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 420,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kearis Jackson",
+      "position": "WR",
+      "publicAdp": 421,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "A.T. Perry",
+      "position": "WR",
+      "publicAdp": 422,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Reggie Gilliam",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 423,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Samori Toure",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 424,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Skylar Thompson",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 425,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Matthew Wright",
+      "position": "K",
+      "publicAdp": 426,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Derius Davis",
+      "position": "WR",
+      "team": "LAC",
+      "publicAdp": 427,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nathan Peterman",
+      "position": "QB",
+      "publicAdp": 428,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Kroft",
+      "position": "TE",
+      "publicAdp": 429,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mark Ingram II",
+      "position": "RB",
+      "publicAdp": 430,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "James Mitchell",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 431,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "David Bell",
+      "position": "WR",
+      "publicAdp": 432,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Keith Smith",
+      "position": "RB",
+      "publicAdp": 433,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kylen Granson",
+      "position": "TE",
+      "team": "TEN",
+      "publicAdp": 434,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Maurice Alexander",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 435,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Davis Allen",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 436,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cody Parkey",
+      "position": "K",
+      "publicAdp": 437,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Kenny McIntosh",
+      "position": "RB",
+      "publicAdp": 438,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Quintin Morris",
+      "position": "TE",
+      "team": "JAC",
+      "publicAdp": 439,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Snoop Conner",
+      "position": "RB",
+      "publicAdp": 440,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Donald Parham Jr.",
+      "position": "TE",
+      "publicAdp": 441,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Johnny Johnson III",
+      "position": "WR",
+      "publicAdp": 442,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Miles Boykin",
+      "position": "WR",
+      "publicAdp": 444,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Andrew Beck",
+      "position": "TE",
+      "team": "NYJ",
+      "publicAdp": 445,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Velus Jones Jr.",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 446,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Brandon Powell",
+      "position": "WR",
+      "publicAdp": 447,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Ian Thomas",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 448,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jason Cabinda",
+      "publicAdp": 449,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Demarcus Robinson",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 450,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Malik Willis",
+      "position": "QB",
+      "team": "MIA",
+      "publicAdp": 451,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jaren Hall",
+      "position": "QB",
+      "publicAdp": 452,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tylan Wallace",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 454,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Carson Wentz",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 455,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Laquon Treadwell",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 456,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dee Eskridge",
+      "position": "WR",
+      "publicAdp": 457,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Anthony Schwartz",
+      "position": "WR",
+      "publicAdp": 458,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Nick Foles",
+      "position": "QB",
+      "publicAdp": 459,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Xavier Hutchinson",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 460,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Colt McCoy",
+      "position": "QB",
+      "publicAdp": 461,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Braylon Sanders",
+      "position": "WR",
+      "publicAdp": 462,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Justin Shorter",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 463,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cedric Tillman",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 464,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Marcedes Lewis",
+      "position": "TE",
+      "publicAdp": 465,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jake Funk",
+      "position": "RB",
+      "publicAdp": 466,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Devin Smith",
+      "position": "WR",
+      "publicAdp": 467,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Paul Quessenberry",
+      "position": "TE",
+      "publicAdp": 468,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Cole Beasley",
+      "position": "WR",
+      "publicAdp": 469,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Dareke Young",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 471,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chris Oladokun",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 472,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Trent Taylor",
+      "position": "WR",
+      "publicAdp": 473,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jonathan Garibay",
+      "position": "K",
+      "publicAdp": 475,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tommy Tremble",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 476,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mike Glennon",
+      "position": "QB",
+      "publicAdp": 477,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Charlie Kolar",
+      "position": "TE",
+      "team": "LAC",
+      "publicAdp": 478,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Trevon Wesco",
+      "position": "TE",
+      "publicAdp": 479,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Alex Collins",
+      "position": "RB",
+      "publicAdp": 480,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Grant Calcaterra",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 481,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Josh Johnson",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 482,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Mike White",
+      "position": "QB",
+      "publicAdp": 483,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chase Allen",
+      "position": "TE",
+      "publicAdp": 484,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Lil'Jordan Humphrey",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 485,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rashard Higgins",
+      "position": "WR",
+      "publicAdp": 486,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "James McCourt",
+      "position": "K",
+      "publicAdp": 487,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tre'Quan Smith",
+      "position": "WR",
+      "publicAdp": 488,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jalen Guyton",
+      "position": "WR",
+      "publicAdp": 489,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Carson Strong",
+      "position": "QB",
+      "publicAdp": 491,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Adam Prentice",
+      "position": "RB",
+      "team": "DEN",
+      "publicAdp": 492,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Jalen Nailor",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 493,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Elijah Cooks",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 494,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Rodney Adams",
+      "position": "WR",
+      "publicAdp": 495,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Damien Williams",
+      "position": "RB",
+      "publicAdp": 496,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Badie",
+      "position": "RB",
+      "team": "DEN",
+      "publicAdp": 497,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Chad Henne",
+      "position": "QB",
+      "publicAdp": 498,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Johnny Mundt",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 499,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2023,
+      "player": "Joe Reed",
+      "position": "WR",
+      "publicAdp": 500,
+      "adpSource": "FantasyPros PPR Consensus"
+    }
+  ]
+}

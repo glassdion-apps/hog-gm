@@ -1,0 +1,8756 @@
+{
+  "season": 2021,
+  "source": "FantasyPros",
+  "scoring": "PPR",
+  "exportedAt": "2026-08-19T15:59:08.668Z",
+  "rows": [
+    {
+      "id": 16393,
+      "rank": 1,
+      "player": {
+        "id": 16393,
+        "name": "Christian McCaffrey",
+        "team": "SF (6)",
+        "url": "/nfl/players/christian-mccaffrey.php"
+      },
+      "pos": "RB1",
+      "src_79": 1,
+      "src_4350": 1,
+      "src_80": null,
+      "src_291": 1,
+      "src_439": 1,
+      "src_624": 1,
+      "avg": 1
+    },
+    {
+      "id": 16374,
+      "rank": 2,
+      "player": {
+        "id": 16374,
+        "name": "Dalvin Cook",
+        "team": "",
+        "url": "/nfl/players/dalvin-cook.php"
+      },
+      "pos": "RB2",
+      "src_79": 2,
+      "src_4350": 2,
+      "src_80": null,
+      "src_291": 2,
+      "src_439": 2,
+      "src_624": 2,
+      "avg": 2
+    },
+    {
+      "id": 16421,
+      "rank": 3,
+      "player": {
+        "id": 16421,
+        "name": "Alvin Kamara",
+        "team": "NO (6)",
+        "url": "/nfl/players/alvin-kamara.php"
+      },
+      "pos": "RB3",
+      "src_79": 3,
+      "src_4350": 3,
+      "src_80": null,
+      "src_291": 4,
+      "src_439": 3,
+      "src_624": 3,
+      "avg": 3
+    },
+    {
+      "id": 15514,
+      "rank": 4,
+      "player": {
+        "id": 15514,
+        "name": "Derrick Henry",
+        "team": "BAL (8)",
+        "url": "/nfl/players/derrick-henry.php"
+      },
+      "pos": "RB4",
+      "src_79": 4,
+      "src_4350": 4,
+      "src_80": null,
+      "src_291": 3,
+      "src_439": 4,
+      "src_624": 4,
+      "avg": 4
+    },
+    {
+      "id": 15498,
+      "rank": 5,
+      "player": {
+        "id": 15498,
+        "name": "Ezekiel Elliott",
+        "team": "",
+        "url": "/nfl/players/ezekiel-elliott.php"
+      },
+      "pos": "RB5",
+      "src_79": 8,
+      "src_4350": 5,
+      "src_80": null,
+      "src_291": 8,
+      "src_439": 5,
+      "src_624": 5,
+      "avg": 5.8
+    },
+    {
+      "id": 12123,
+      "rank": 6,
+      "player": {
+        "id": 12123,
+        "name": "Davante Adams",
+        "team": "LAR (11)",
+        "url": "/nfl/players/davante-adams.php"
+      },
+      "pos": "WR1",
+      "src_79": 5,
+      "src_4350": 10,
+      "src_80": null,
+      "src_291": 10,
+      "src_439": 6,
+      "src_624": 6,
+      "avg": 6.6
+    },
+    {
+      "id": 11594,
+      "rank": 7,
+      "player": {
+        "id": 11594,
+        "name": "Travis Kelce",
+        "team": "KC (12)",
+        "url": "/nfl/players/travis-kelce.php"
+      },
+      "pos": "TE1",
+      "src_79": 7,
+      "src_4350": 12,
+      "src_80": null,
+      "src_291": 5,
+      "src_439": 9,
+      "src_624": 8,
+      "avg": 8.4
+    },
+    {
+      "id": 16673,
+      "rank": 8,
+      "player": {
+        "id": 16673,
+        "name": "Aaron Jones Sr.",
+        "team": "MIN (7)",
+        "url": "/nfl/players/aaron-jones.php"
+      },
+      "pos": "RB6",
+      "src_79": 10,
+      "src_4350": 11,
+      "src_80": null,
+      "src_291": 7,
+      "src_439": 11,
+      "src_624": 10,
+      "avg": 9.4
+    },
+    {
+      "id": 17240,
+      "rank": 9,
+      "player": {
+        "id": 17240,
+        "name": "Saquon Barkley",
+        "team": "PHI (14)",
+        "url": "/nfl/players/saquon-barkley.php"
+      },
+      "pos": "RB7",
+      "src_79": 6,
+      "src_4350": 7,
+      "src_80": null,
+      "src_291": 9,
+      "src_439": 10,
+      "src_624": 11,
+      "avg": 9.6
+    },
+    {
+      "id": 16483,
+      "rank": 10,
+      "player": {
+        "id": 16483,
+        "name": "Austin Ekeler",
+        "team": "",
+        "url": "/nfl/players/austin-ekeler.php"
+      },
+      "pos": "RB8",
+      "src_79": 13,
+      "src_4350": 13,
+      "src_80": null,
+      "src_291": 6,
+      "src_439": 8,
+      "src_624": 12,
+      "avg": 10.4
+    },
+    {
+      "id": 19217,
+      "rank": 11,
+      "player": {
+        "id": 19217,
+        "name": "Jonathan Taylor",
+        "team": "IND (14)",
+        "url": "/nfl/players/jonathan-taylor.php"
+      },
+      "pos": "RB9",
+      "src_79": 11,
+      "src_4350": 9,
+      "src_80": null,
+      "src_291": 12,
+      "src_439": 7,
+      "src_624": 7,
+      "avg": 10.4
+    },
+    {
+      "id": 17246,
+      "rank": 12,
+      "player": {
+        "id": 17246,
+        "name": "Nick Chubb",
+        "team": "",
+        "url": "/nfl/players/nick-chubb.php"
+      },
+      "pos": "RB10",
+      "src_79": 12,
+      "src_4350": 6,
+      "src_80": null,
+      "src_291": 11,
+      "src_439": 12,
+      "src_624": 9,
+      "avg": 10.4
+    },
+    {
+      "id": 15802,
+      "rank": 13,
+      "player": {
+        "id": 15802,
+        "name": "Tyreek Hill",
+        "team": "",
+        "url": "/nfl/players/tyreek-hill.php"
+      },
+      "pos": "WR2",
+      "src_79": 9,
+      "src_4350": 8,
+      "src_80": null,
+      "src_291": 13,
+      "src_439": 13,
+      "src_624": 13,
+      "avg": 10.6
+    },
+    {
+      "id": 13981,
+      "rank": 14,
+      "player": {
+        "id": 13981,
+        "name": "Stefon Diggs",
+        "team": "WAS (9)",
+        "url": "/nfl/players/stefon-diggs.php"
+      },
+      "pos": "WR3",
+      "src_79": 14,
+      "src_4350": 15,
+      "src_80": null,
+      "src_291": 14,
+      "src_439": 14,
+      "src_624": 14,
+      "avg": 14
+    },
+    {
+      "id": 19302,
+      "rank": 15,
+      "player": {
+        "id": 19302,
+        "name": "Najee Harris",
+        "team": "NYG (10)",
+        "url": "/nfl/players/najee-harris-rb.php"
+      },
+      "pos": "RB11",
+      "src_79": 15,
+      "src_4350": 16,
+      "src_80": null,
+      "src_291": 16,
+      "src_439": 16,
+      "src_624": 15,
+      "avg": 15.6
+    },
+    {
+      "id": 11606,
+      "rank": 16,
+      "player": {
+        "id": 11606,
+        "name": "DeAndre Hopkins",
+        "team": "BAL (8)",
+        "url": "/nfl/players/deandre-hopkins.php"
+      },
+      "pos": "WR4",
+      "src_79": 17,
+      "src_4350": 17,
+      "src_80": null,
+      "src_291": 17,
+      "src_439": 19,
+      "src_624": 17,
+      "avg": 17.2
+    },
+    {
+      "id": 19624,
+      "rank": 17,
+      "player": {
+        "id": 19624,
+        "name": "Antonio Gibson",
+        "team": "",
+        "url": "/nfl/players/antonio-gibson.php"
+      },
+      "pos": "RB12",
+      "src_79": 16,
+      "src_4350": 21,
+      "src_80": null,
+      "src_291": 20,
+      "src_439": 15,
+      "src_624": 16,
+      "avg": 17.6
+    },
+    {
+      "id": 16413,
+      "rank": 18,
+      "player": {
+        "id": 16413,
+        "name": "Patrick Mahomes II",
+        "team": "KC (12)",
+        "url": "/nfl/players/patrick-mahomes.php"
+      },
+      "pos": "QB1",
+      "src_79": 19,
+      "src_4350": 14,
+      "src_80": null,
+      "src_291": 15,
+      "src_439": 21,
+      "src_624": 21,
+      "avg": 18.2
+    },
+    {
+      "id": 17258,
+      "rank": 19,
+      "player": {
+        "id": 17258,
+        "name": "Calvin Ridley",
+        "team": "TEN (13)",
+        "url": "/nfl/players/calvin-ridley.php"
+      },
+      "pos": "WR5",
+      "src_79": 20,
+      "src_4350": 19,
+      "src_80": null,
+      "src_291": 18,
+      "src_439": 18,
+      "src_624": 18,
+      "avg": 18.4
+    },
+    {
+      "id": 18219,
+      "rank": 20,
+      "player": {
+        "id": 18219,
+        "name": "DK Metcalf",
+        "team": "PIT (7)",
+        "url": "/nfl/players/dk-metcalf.php"
+      },
+      "pos": "WR6",
+      "src_79": 18,
+      "src_4350": 18,
+      "src_80": null,
+      "src_291": 19,
+      "src_439": 20,
+      "src_624": 20,
+      "avg": 18.8
+    },
+    {
+      "id": 16420,
+      "rank": 21,
+      "player": {
+        "id": 16420,
+        "name": "Joe Mixon",
+        "team": "",
+        "url": "/nfl/players/joe-mixon.php"
+      },
+      "pos": "RB13",
+      "src_79": 24,
+      "src_4350": 20,
+      "src_80": null,
+      "src_291": 25,
+      "src_439": 17,
+      "src_624": 19,
+      "avg": 20.8
+    },
+    {
+      "id": 14104,
+      "rank": 22,
+      "player": {
+        "id": 14104,
+        "name": "Darren Waller",
+        "team": "CAR (13)",
+        "url": "/nfl/players/darren-waller.php"
+      },
+      "pos": "TE2",
+      "src_79": 21,
+      "src_4350": 26,
+      "src_80": null,
+      "src_291": 22,
+      "src_439": 22,
+      "src_624": 23,
+      "avg": 22.4
+    },
+    {
+      "id": 19236,
+      "rank": 23,
+      "player": {
+        "id": 19236,
+        "name": "Justin Jefferson",
+        "team": "MIN (7)",
+        "url": "/nfl/players/justin-jefferson.php"
+      },
+      "pos": "WR7",
+      "src_79": 23,
+      "src_4350": 23,
+      "src_80": null,
+      "src_291": 23,
+      "src_439": 23,
+      "src_624": 24,
+      "avg": 23.4
+    },
+    {
+      "id": 18218,
+      "rank": 24,
+      "player": {
+        "id": 18218,
+        "name": "A.J. Brown",
+        "team": "NE (14)",
+        "url": "/nfl/players/aj-brown.php"
+      },
+      "pos": "WR8",
+      "src_79": 22,
+      "src_4350": 22,
+      "src_80": null,
+      "src_291": 21,
+      "src_439": 25,
+      "src_624": 25,
+      "avg": 23.8
+    },
+    {
+      "id": 19325,
+      "rank": 25,
+      "player": {
+        "id": 19325,
+        "name": "Clyde Edwards-Helaire",
+        "team": "",
+        "url": "/nfl/players/clyde-edwards-helaire.php"
+      },
+      "pos": "RB14",
+      "src_79": 26,
+      "src_4350": 25,
+      "src_80": null,
+      "src_291": 26,
+      "src_439": 24,
+      "src_624": 22,
+      "avg": 24.2
+    },
+    {
+      "id": 16499,
+      "rank": 26,
+      "player": {
+        "id": 16499,
+        "name": "George Kittle",
+        "team": "SF (6)",
+        "url": "/nfl/players/george-kittle.php"
+      },
+      "pos": "TE3",
+      "src_79": 25,
+      "src_4350": 24,
+      "src_80": null,
+      "src_291": 24,
+      "src_439": 32,
+      "src_624": 26,
+      "avg": 26.8
+    },
+    {
+      "id": 11616,
+      "rank": 27,
+      "player": {
+        "id": 11616,
+        "name": "Keenan Allen",
+        "team": "IND (14)",
+        "url": "/nfl/players/keenan-allen.php"
+      },
+      "pos": "WR9",
+      "src_79": 28,
+      "src_4350": 27,
+      "src_80": null,
+      "src_291": 29,
+      "src_439": 30,
+      "src_624": 27,
+      "avg": 27.4
+    },
+    {
+      "id": 18466,
+      "rank": 28,
+      "player": {
+        "id": 18466,
+        "name": "Terry McLaurin",
+        "team": "WAS (9)",
+        "url": "/nfl/players/terry-mclaurin.php"
+      },
+      "pos": "WR10",
+      "src_79": 27,
+      "src_4350": 29,
+      "src_80": null,
+      "src_291": 32,
+      "src_439": 27,
+      "src_624": 30,
+      "avg": 29.6
+    },
+    {
+      "id": 17298,
+      "rank": 29,
+      "player": {
+        "id": 17298,
+        "name": "Josh Allen",
+        "team": "BUF (7)",
+        "url": "/nfl/players/josh-allen-qb.php"
+      },
+      "pos": "QB2",
+      "src_79": 29,
+      "src_4350": 28,
+      "src_80": null,
+      "src_291": 27,
+      "src_439": 33,
+      "src_624": 33,
+      "avg": 30
+    },
+    {
+      "id": 18239,
+      "rank": 30,
+      "player": {
+        "id": 18239,
+        "name": "David Montgomery",
+        "team": "HOU (10)",
+        "url": "/nfl/players/david-montgomery.php"
+      },
+      "pos": "RB15",
+      "src_79": 34,
+      "src_4350": 35,
+      "src_80": null,
+      "src_291": 31,
+      "src_439": 26,
+      "src_624": 28,
+      "avg": 30.2
+    },
+    {
+      "id": 12126,
+      "rank": 31,
+      "player": {
+        "id": 12126,
+        "name": "Allen Robinson II",
+        "team": "",
+        "url": "/nfl/players/allen-robinson.php"
+      },
+      "pos": "WR11",
+      "src_79": 32,
+      "src_4350": 31,
+      "src_80": null,
+      "src_291": 28,
+      "src_439": 34,
+      "src_624": 29,
+      "avg": 32
+    },
+    {
+      "id": 16754,
+      "rank": 32,
+      "player": {
+        "id": 16754,
+        "name": "Chris Carson",
+        "team": "",
+        "url": "/nfl/players/chris-carson.php"
+      },
+      "pos": "RB16",
+      "src_79": 37,
+      "src_4350": 34,
+      "src_80": null,
+      "src_291": 36,
+      "src_439": 31,
+      "src_624": 32,
+      "avg": 32.4
+    },
+    {
+      "id": 19202,
+      "rank": 33,
+      "player": {
+        "id": 19202,
+        "name": "CeeDee Lamb",
+        "team": "DAL (7)",
+        "url": "/nfl/players/ceedee-lamb.php"
+      },
+      "pos": "WR12",
+      "src_79": 30,
+      "src_4350": 40,
+      "src_80": null,
+      "src_291": 33,
+      "src_439": 28,
+      "src_624": 34,
+      "avg": 32.8
+    },
+    {
+      "id": 19631,
+      "rank": 34,
+      "player": {
+        "id": 19631,
+        "name": "James Robinson",
+        "team": "",
+        "url": "/nfl/players/james-robinson.php"
+      },
+      "pos": "RB17",
+      "src_79": 31,
+      "src_4350": 37,
+      "src_80": null,
+      "src_291": 56,
+      "src_439": 29,
+      "src_624": 37,
+      "avg": 33.4
+    },
+    {
+      "id": 12119,
+      "rank": 35,
+      "player": {
+        "id": 12119,
+        "name": "Mike Evans",
+        "team": "SF (6)",
+        "url": "/nfl/players/mike-evans.php"
+      },
+      "pos": "WR13",
+      "src_79": 33,
+      "src_4350": 32,
+      "src_80": null,
+      "src_291": 37,
+      "src_439": 40,
+      "src_624": 36,
+      "avg": 35.4
+    },
+    {
+      "id": 18269,
+      "rank": 36,
+      "player": {
+        "id": 18269,
+        "name": "Josh Jacobs",
+        "team": "GB (13)",
+        "url": "/nfl/players/josh-jacobs.php"
+      },
+      "pos": "RB18",
+      "src_79": 40,
+      "src_4350": 30,
+      "src_80": null,
+      "src_291": 42,
+      "src_439": 36,
+      "src_624": 35,
+      "avg": 36.4
+    },
+    {
+      "id": 19210,
+      "rank": 37,
+      "player": {
+        "id": 19210,
+        "name": "D'Andre Swift",
+        "team": "CHI (10)",
+        "url": "/nfl/players/dandre-swift.php"
+      },
+      "pos": "RB19",
+      "src_79": 44,
+      "src_4350": 33,
+      "src_80": null,
+      "src_291": 38,
+      "src_439": 35,
+      "src_624": 31,
+      "avg": 36.8
+    },
+    {
+      "id": 18283,
+      "rank": 38,
+      "player": {
+        "id": 18283,
+        "name": "Miles Sanders",
+        "team": "",
+        "url": "/nfl/players/miles-sanders.php"
+      },
+      "pos": "RB20",
+      "src_79": 35,
+      "src_4350": 39,
+      "src_80": null,
+      "src_291": 48,
+      "src_439": 38,
+      "src_624": 39,
+      "avg": 38.2
+    },
+    {
+      "id": 11610,
+      "rank": 39,
+      "player": {
+        "id": 11610,
+        "name": "Robert Woods",
+        "team": "",
+        "url": "/nfl/players/robert-woods.php"
+      },
+      "pos": "WR14",
+      "src_79": 36,
+      "src_4350": 47,
+      "src_80": null,
+      "src_291": 39,
+      "src_439": 37,
+      "src_624": 38,
+      "avg": 38.4
+    },
+    {
+      "id": 18600,
+      "rank": 40,
+      "player": {
+        "id": 18600,
+        "name": "Kyler Murray",
+        "team": "MIN (7)",
+        "url": "/nfl/players/kyler-murray.php"
+      },
+      "pos": "QB3",
+      "src_79": 39,
+      "src_4350": 36,
+      "src_80": null,
+      "src_291": 35,
+      "src_439": 44,
+      "src_624": 42,
+      "avg": 40.2
+    },
+    {
+      "id": 13894,
+      "rank": 41,
+      "player": {
+        "id": 13894,
+        "name": "Amari Cooper",
+        "team": "",
+        "url": "/nfl/players/amari-cooper.php"
+      },
+      "pos": "WR15",
+      "src_79": 38,
+      "src_4350": 42,
+      "src_80": null,
+      "src_291": 41,
+      "src_439": 42,
+      "src_624": 40,
+      "avg": 41.2
+    },
+    {
+      "id": 16406,
+      "rank": 42,
+      "player": {
+        "id": 16406,
+        "name": "Chris Godwin Jr.",
+        "team": "TB (9)",
+        "url": "/nfl/players/chris-godwin.php"
+      },
+      "pos": "WR16",
+      "src_79": 46,
+      "src_4350": 44,
+      "src_80": null,
+      "src_291": 40,
+      "src_439": 41,
+      "src_624": 41,
+      "avg": 42.4
+    },
+    {
+      "id": 17233,
+      "rank": 43,
+      "player": {
+        "id": 17233,
+        "name": "Lamar Jackson",
+        "team": "BAL (8)",
+        "url": "/nfl/players/lamar-jackson.php"
+      },
+      "pos": "QB4",
+      "src_79": 43,
+      "src_4350": 43,
+      "src_80": null,
+      "src_291": 34,
+      "src_439": 50,
+      "src_624": 50,
+      "avg": 44.8
+    },
+    {
+      "id": 16433,
+      "rank": 44,
+      "player": {
+        "id": 16433,
+        "name": "Cooper Kupp",
+        "team": "SEA (9)",
+        "url": "/nfl/players/cooper-kupp.php"
+      },
+      "pos": "WR17",
+      "src_79": 47,
+      "src_4350": 46,
+      "src_80": null,
+      "src_291": 53,
+      "src_439": 43,
+      "src_624": 43,
+      "avg": 46
+    },
+    {
+      "id": 9867,
+      "rank": 45,
+      "player": {
+        "id": 9867,
+        "name": "Julio Jones",
+        "team": "",
+        "url": "/nfl/players/julio-jones.php"
+      },
+      "pos": "WR18",
+      "src_79": 49,
+      "src_4350": 41,
+      "src_80": null,
+      "src_291": 30,
+      "src_439": 56,
+      "src_624": 44,
+      "avg": 46.2
+    },
+    {
+      "id": 20164,
+      "rank": 46,
+      "player": {
+        "id": 20164,
+        "name": "Kyle Pitts Sr.",
+        "team": "ATL (6)",
+        "url": "/nfl/players/kyle-pitts.php"
+      },
+      "pos": "TE4",
+      "src_79": 50,
+      "src_4350": 38,
+      "src_80": null,
+      "src_291": 46,
+      "src_439": 49,
+      "src_624": 53,
+      "avg": 47
+    },
+    {
+      "id": 13971,
+      "rank": 47,
+      "player": {
+        "id": 13971,
+        "name": "Tyler Lockett",
+        "team": "LV (8)",
+        "url": "/nfl/players/tyler-lockett.php"
+      },
+      "pos": "WR19",
+      "src_79": 42,
+      "src_4350": 52,
+      "src_80": null,
+      "src_291": 51,
+      "src_439": 47,
+      "src_624": 47,
+      "avg": 49.2
+    },
+    {
+      "id": 17251,
+      "rank": 48,
+      "player": {
+        "id": 17251,
+        "name": "Myles Gaskin",
+        "team": "",
+        "url": "/nfl/players/myles-gaskin.php"
+      },
+      "pos": "RB21",
+      "src_79": 61,
+      "src_4350": 56,
+      "src_80": null,
+      "src_291": 59,
+      "src_439": 46,
+      "src_624": 45,
+      "avg": 49.8
+    },
+    {
+      "id": 17269,
+      "rank": 49,
+      "player": {
+        "id": 17269,
+        "name": "Mark Andrews",
+        "team": "BAL (8)",
+        "url": "/nfl/players/mark-andrews.php"
+      },
+      "pos": "TE5",
+      "src_79": 45,
+      "src_4350": 48,
+      "src_80": null,
+      "src_291": 44,
+      "src_439": 53,
+      "src_624": 54,
+      "avg": 50.6
+    },
+    {
+      "id": 13429,
+      "rank": 50,
+      "player": {
+        "id": 13429,
+        "name": "Adam Thielen",
+        "team": "",
+        "url": "/nfl/players/adam-thielen.php"
+      },
+      "pos": "WR20",
+      "src_79": 41,
+      "src_4350": 51,
+      "src_80": null,
+      "src_291": 54,
+      "src_439": 61,
+      "src_624": 46,
+      "avg": 50.6
+    },
+    {
+      "id": 18615,
+      "rank": 51,
+      "player": {
+        "id": 18615,
+        "name": "Diontae Johnson",
+        "team": "",
+        "url": "/nfl/players/diontae-johnson.php"
+      },
+      "pos": "WR21",
+      "src_79": 53,
+      "src_4350": 60,
+      "src_80": null,
+      "src_291": 49,
+      "src_439": 54,
+      "src_624": 51,
+      "avg": 51.8
+    },
+    {
+      "id": 17265,
+      "rank": 52,
+      "player": {
+        "id": 17265,
+        "name": "DJ Moore",
+        "team": "BUF (7)",
+        "url": "/nfl/players/dj-moore-wr.php"
+      },
+      "pos": "WR22",
+      "src_79": 54,
+      "src_4350": 50,
+      "src_80": null,
+      "src_291": 61,
+      "src_439": 51,
+      "src_624": 48,
+      "avg": 53.4
+    },
+    {
+      "id": 9001,
+      "rank": 53,
+      "player": {
+        "id": 9001,
+        "name": "Aaron Rodgers",
+        "team": "PIT (7)",
+        "url": "/nfl/players/aaron-rodgers.php"
+      },
+      "pos": "QB5",
+      "src_79": 48,
+      "src_4350": 57,
+      "src_80": null,
+      "src_291": 43,
+      "src_439": 64,
+      "src_624": 63,
+      "avg": 54.4
+    },
+    {
+      "id": 11180,
+      "rank": 54,
+      "player": {
+        "id": 11180,
+        "name": "Russell Wilson",
+        "team": "",
+        "url": "/nfl/players/russell-wilson.php"
+      },
+      "pos": "QB6",
+      "src_79": 55,
+      "src_4350": 49,
+      "src_80": null,
+      "src_291": 47,
+      "src_439": 65,
+      "src_624": 61,
+      "avg": 55.6
+    },
+    {
+      "id": 15600,
+      "rank": 55,
+      "player": {
+        "id": 15600,
+        "name": "Dak Prescott",
+        "team": "DAL (7)",
+        "url": "/nfl/players/dak-prescott.php"
+      },
+      "pos": "QB7",
+      "src_79": 51,
+      "src_4350": 59,
+      "src_80": null,
+      "src_291": 45,
+      "src_439": 58,
+      "src_624": 58,
+      "avg": 56
+    },
+    {
+      "id": 13943,
+      "rank": 56,
+      "player": {
+        "id": 13943,
+        "name": "Mike Davis",
+        "team": "",
+        "url": "/nfl/players/mike-davis-rb.php"
+      },
+      "pos": "RB22",
+      "src_79": 67,
+      "src_4350": 64,
+      "src_80": null,
+      "src_291": 52,
+      "src_439": 45,
+      "src_624": 382,
+      "avg": 56.8
+    },
+    {
+      "id": 16425,
+      "rank": 57,
+      "player": {
+        "id": 16425,
+        "name": "Kareem Hunt",
+        "team": "",
+        "url": "/nfl/players/kareem-hunt.php"
+      },
+      "pos": "RB23",
+      "src_79": 58,
+      "src_4350": 53,
+      "src_80": null,
+      "src_291": 58,
+      "src_439": 59,
+      "src_624": 52,
+      "avg": 57.2
+    },
+    {
+      "id": 18290,
+      "rank": 58,
+      "player": {
+        "id": 18290,
+        "name": "T.J. Hockenson",
+        "team": "MIN (7)",
+        "url": "/nfl/players/tj-hockenson.php"
+      },
+      "pos": "TE6",
+      "src_79": 57,
+      "src_4350": 55,
+      "src_80": null,
+      "src_291": 55,
+      "src_439": 60,
+      "src_624": 60,
+      "avg": 58.2
+    },
+    {
+      "id": 18588,
+      "rank": 59,
+      "player": {
+        "id": 18588,
+        "name": "Darrell Henderson Jr.",
+        "team": "",
+        "url": "/nfl/players/darrell-henderson.php"
+      },
+      "pos": "RB24",
+      "src_79": 75,
+      "src_4350": 45,
+      "src_80": null,
+      "src_291": 70,
+      "src_439": 52,
+      "src_624": 65,
+      "avg": 60
+    },
+    {
+      "id": 22739,
+      "rank": 60,
+      "player": {
+        "id": 22739,
+        "name": "Javonte Williams",
+        "team": "DAL (7)",
+        "url": "/nfl/players/javonte-williams.php"
+      },
+      "pos": "RB25",
+      "src_79": 63,
+      "src_4350": 62,
+      "src_80": null,
+      "src_291": 84,
+      "src_439": 48,
+      "src_624": 56,
+      "avg": 60.6
+    },
+    {
+      "id": 19252,
+      "rank": 61,
+      "player": {
+        "id": 19252,
+        "name": "Brandon Aiyuk",
+        "team": "SF (6)",
+        "url": "/nfl/players/brandon-aiyuk.php"
+      },
+      "pos": "WR23",
+      "src_79": 59,
+      "src_4350": 61,
+      "src_80": null,
+      "src_291": 64,
+      "src_439": 62,
+      "src_624": 57,
+      "avg": 60.8
+    },
+    {
+      "id": 17496,
+      "rank": 62,
+      "player": {
+        "id": 17496,
+        "name": "Chase Edmonds",
+        "team": "WAS (9)",
+        "url": "/nfl/players/chase-edmonds.php"
+      },
+      "pos": "RB26",
+      "src_79": 56,
+      "src_4350": 70,
+      "src_80": null,
+      "src_291": 83,
+      "src_439": 55,
+      "src_624": 62,
+      "avg": 62
+    },
+    {
+      "id": 18635,
+      "rank": 63,
+      "player": {
+        "id": 18635,
+        "name": "Justin Herbert",
+        "team": "LAC (7)",
+        "url": "/nfl/players/justin-herbert.php"
+      },
+      "pos": "QB8",
+      "src_79": 62,
+      "src_4350": 54,
+      "src_80": null,
+      "src_291": 50,
+      "src_439": 67,
+      "src_624": 69,
+      "avg": 62.2
+    },
+    {
+      "id": 19211,
+      "rank": 64,
+      "player": {
+        "id": 19211,
+        "name": "Tee Higgins",
+        "team": "CIN (10)",
+        "url": "/nfl/players/tee-higgins.php"
+      },
+      "pos": "WR24",
+      "src_79": 60,
+      "src_4350": 66,
+      "src_80": null,
+      "src_291": 77,
+      "src_439": 66,
+      "src_624": 59,
+      "avg": 64.8
+    },
+    {
+      "id": 12127,
+      "rank": 65,
+      "player": {
+        "id": 12127,
+        "name": "Odell Beckham Jr.",
+        "team": "NYG (10)",
+        "url": "/nfl/players/odell-beckham.php"
+      },
+      "pos": "WR25",
+      "src_79": 65,
+      "src_4350": 65,
+      "src_80": null,
+      "src_291": 66,
+      "src_439": 75,
+      "src_624": 66,
+      "avg": 67.8
+    },
+    {
+      "id": 14338,
+      "rank": 66,
+      "player": {
+        "id": 14338,
+        "name": "Raheem Mostert",
+        "team": "LV (8)",
+        "url": "/nfl/players/raheem-mostert.php"
+      },
+      "pos": "RB27",
+      "src_79": 79,
+      "src_4350": 72,
+      "src_80": null,
+      "src_291": 85,
+      "src_439": 63,
+      "src_624": 70,
+      "avg": 68.8
+    },
+    {
+      "id": 18627,
+      "rank": 67,
+      "player": {
+        "id": 18627,
+        "name": "Chase Claypool",
+        "team": "",
+        "url": "/nfl/players/chase-claypool.php"
+      },
+      "pos": "WR26",
+      "src_79": 71,
+      "src_4350": 71,
+      "src_80": null,
+      "src_291": 63,
+      "src_439": 70,
+      "src_624": 67,
+      "avg": 69.2
+    },
+    {
+      "id": 16427,
+      "rank": 68,
+      "player": {
+        "id": 16427,
+        "name": "JuJu Smith-Schuster",
+        "team": "",
+        "url": "/nfl/players/juju-smith-schuster.php"
+      },
+      "pos": "WR27",
+      "src_79": 68,
+      "src_4350": 69,
+      "src_80": null,
+      "src_291": 73,
+      "src_439": 71,
+      "src_624": 73,
+      "avg": 70.8
+    },
+    {
+      "id": 9603,
+      "rank": 69,
+      "player": {
+        "id": 9603,
+        "name": "Tom Brady",
+        "team": "",
+        "url": "/nfl/players/tom-brady.php"
+      },
+      "pos": "QB9",
+      "src_79": 64,
+      "src_4350": 75,
+      "src_80": null,
+      "src_291": 57,
+      "src_439": 78,
+      "src_624": 76,
+      "avg": 71.8
+    },
+    {
+      "id": 18230,
+      "rank": 70,
+      "player": {
+        "id": 18230,
+        "name": "Damien Harris",
+        "team": "",
+        "url": "/nfl/players/damien-harris-rb.php"
+      },
+      "pos": "RB28",
+      "src_79": 76,
+      "src_4350": 88,
+      "src_80": null,
+      "src_291": 113,
+      "src_439": 57,
+      "src_624": 72,
+      "avg": 72
+    },
+    {
+      "id": 19201,
+      "rank": 71,
+      "player": {
+        "id": 19201,
+        "name": "Jerry Jeudy",
+        "team": "CLE (13)",
+        "url": "/nfl/players/jerry-jeudy.php"
+      },
+      "pos": "WR28",
+      "src_79": 69,
+      "src_4350": 76,
+      "src_80": null,
+      "src_291": 82,
+      "src_439": 74,
+      "src_624": 71,
+      "avg": 72.4
+    },
+    {
+      "id": 19788,
+      "rank": 72,
+      "player": {
+        "id": 19788,
+        "name": "Ja'Marr Chase",
+        "team": "CIN (10)",
+        "url": "/nfl/players/jamarr-chase.php"
+      },
+      "pos": "WR29",
+      "src_79": 78,
+      "src_4350": 58,
+      "src_80": null,
+      "src_291": 81,
+      "src_439": 86,
+      "src_624": 55,
+      "avg": 74.4
+    },
+    {
+      "id": 16488,
+      "rank": 73,
+      "player": {
+        "id": 16488,
+        "name": "Kenny Golladay",
+        "team": "",
+        "url": "/nfl/players/kenny-golladay.php"
+      },
+      "pos": "WR30",
+      "src_79": 72,
+      "src_4350": 67,
+      "src_80": null,
+      "src_291": 79,
+      "src_439": 73,
+      "src_624": 68,
+      "avg": 74.8
+    },
+    {
+      "id": 19222,
+      "rank": 74,
+      "player": {
+        "id": 19222,
+        "name": "DeVonta Smith",
+        "team": "PHI (14)",
+        "url": "/nfl/players/devonta-smith.php"
+      },
+      "pos": "WR31",
+      "src_79": 81,
+      "src_4350": 73,
+      "src_80": null,
+      "src_291": 78,
+      "src_439": 76,
+      "src_624": 64,
+      "avg": 77
+    },
+    {
+      "id": 15688,
+      "rank": 75,
+      "player": {
+        "id": 15688,
+        "name": "Robbie Chosen",
+        "team": "",
+        "url": "/nfl/players/robby-anderson.php"
+      },
+      "pos": "WR32",
+      "src_79": 70,
+      "src_4350": 80,
+      "src_80": null,
+      "src_291": 88,
+      "src_439": 77,
+      "src_624": 74,
+      "avg": 77.4
+    },
+    {
+      "id": 15528,
+      "rank": 76,
+      "player": {
+        "id": 15528,
+        "name": "Michael Thomas",
+        "team": "",
+        "url": "/nfl/players/michael-thomas-wr.php"
+      },
+      "pos": "WR33",
+      "src_79": 89,
+      "src_4350": 63,
+      "src_80": null,
+      "src_291": 80,
+      "src_439": 91,
+      "src_624": 75,
+      "avg": 79.2
+    },
+    {
+      "id": 17253,
+      "rank": 77,
+      "player": {
+        "id": 17253,
+        "name": "Courtland Sutton",
+        "team": "DEN (11)",
+        "url": "/nfl/players/courtland-sutton.php"
+      },
+      "pos": "WR34",
+      "src_79": 73,
+      "src_4350": 81,
+      "src_80": null,
+      "src_291": 96,
+      "src_439": 69,
+      "src_624": 78,
+      "avg": 79.6
+    },
+    {
+      "id": 13903,
+      "rank": 78,
+      "player": {
+        "id": 13903,
+        "name": "Melvin Gordon III",
+        "team": "",
+        "url": "/nfl/players/melvin-gordon.php"
+      },
+      "pos": "RB29",
+      "src_79": 103,
+      "src_4350": 77,
+      "src_80": null,
+      "src_291": 87,
+      "src_439": 79,
+      "src_624": 81,
+      "avg": 79.6
+    },
+    {
+      "id": 12095,
+      "rank": 79,
+      "player": {
+        "id": 12095,
+        "name": "Logan Thomas",
+        "team": "",
+        "url": "/nfl/players/logan-thomas.php"
+      },
+      "pos": "TE7",
+      "src_79": 66,
+      "src_4350": 103,
+      "src_80": null,
+      "src_291": 94,
+      "src_439": 80,
+      "src_624": 87,
+      "avg": 81.2
+    },
+    {
+      "id": 17527,
+      "rank": 80,
+      "player": {
+        "id": 17527,
+        "name": "Noah Fant",
+        "team": "NO (6)",
+        "url": "/nfl/players/noah-fant.php"
+      },
+      "pos": "TE8",
+      "src_79": 80,
+      "src_4350": 74,
+      "src_80": null,
+      "src_291": 90,
+      "src_439": 89,
+      "src_624": 84,
+      "avg": 84.2
+    },
+    {
+      "id": 16378,
+      "rank": 81,
+      "player": {
+        "id": 16378,
+        "name": "Leonard Fournette",
+        "team": "",
+        "url": "/nfl/players/leonard-fournette.php"
+      },
+      "pos": "RB30",
+      "src_79": 87,
+      "src_4350": 78,
+      "src_80": null,
+      "src_291": 92,
+      "src_439": 87,
+      "src_624": 88,
+      "avg": 86.4
+    },
+    {
+      "id": 19425,
+      "rank": 82,
+      "player": {
+        "id": 19425,
+        "name": "Trey Sermon",
+        "team": "ATL (6)",
+        "url": "/nfl/players/trey-sermon.php"
+      },
+      "pos": "RB31",
+      "src_79": 120,
+      "src_4350": 82,
+      "src_80": null,
+      "src_291": 118,
+      "src_439": 68,
+      "src_624": 83,
+      "avg": 87.2
+    },
+    {
+      "id": 18244,
+      "rank": 83,
+      "player": {
+        "id": 18244,
+        "name": "Deebo Samuel Sr.",
+        "team": "SF (6)",
+        "url": "/nfl/players/deebo-samuel.php"
+      },
+      "pos": "WR35",
+      "src_79": 92,
+      "src_4350": 84,
+      "src_80": null,
+      "src_291": 128,
+      "src_439": 81,
+      "src_624": 79,
+      "avg": 88
+    },
+    {
+      "id": 9451,
+      "rank": 84,
+      "player": {
+        "id": 9451,
+        "name": "Matthew Stafford",
+        "team": "LAR (11)",
+        "url": "/nfl/players/matthew-stafford.php"
+      },
+      "pos": "QB10",
+      "src_79": 93,
+      "src_4350": 89,
+      "src_80": null,
+      "src_291": 69,
+      "src_439": 88,
+      "src_624": 90,
+      "avg": 88.2
+    },
+    {
+      "id": 16502,
+      "rank": 85,
+      "player": {
+        "id": 16502,
+        "name": "Robert Tonyan",
+        "team": "PIT (7)",
+        "url": "/nfl/players/robert-tonyan.php"
+      },
+      "pos": "TE9",
+      "src_79": 88,
+      "src_4350": 93,
+      "src_80": null,
+      "src_291": 76,
+      "src_439": 90,
+      "src_624": 103,
+      "avg": 88.4
+    },
+    {
+      "id": 15547,
+      "rank": 86,
+      "player": {
+        "id": 15547,
+        "name": "Tyler Boyd",
+        "team": "",
+        "url": "/nfl/players/tyler-boyd.php"
+      },
+      "pos": "WR36",
+      "src_79": 82,
+      "src_4350": 102,
+      "src_80": null,
+      "src_291": 109,
+      "src_439": 94,
+      "src_624": 77,
+      "avg": 91.2
+    },
+    {
+      "id": 17243,
+      "rank": 87,
+      "player": {
+        "id": 17243,
+        "name": "Ronald Jones II",
+        "team": "",
+        "url": "/nfl/players/ronald-jones-ii.php"
+      },
+      "pos": "RB32",
+      "src_79": 121,
+      "src_4350": 83,
+      "src_80": null,
+      "src_291": 127,
+      "src_439": 72,
+      "src_624": 85,
+      "avg": 91.8
+    },
+    {
+      "id": 19221,
+      "rank": 88,
+      "player": {
+        "id": 19221,
+        "name": "Laviska Shenault Jr.",
+        "team": "",
+        "url": "/nfl/players/laviska-shenault.php"
+      },
+      "pos": "WR37",
+      "src_79": 83,
+      "src_4350": 96,
+      "src_80": null,
+      "src_291": 145,
+      "src_439": 95,
+      "src_624": 92,
+      "avg": 91.8
+    },
+    {
+      "id": 12122,
+      "rank": 89,
+      "player": {
+        "id": 12122,
+        "name": "Brandin Cooks",
+        "team": "",
+        "url": "/nfl/players/brandin-cooks.php"
+      },
+      "pos": "WR38",
+      "src_79": 77,
+      "src_4350": 94,
+      "src_80": null,
+      "src_291": 100,
+      "src_439": 100,
+      "src_624": 91,
+      "avg": 92.8
+    },
+    {
+      "id": 22728,
+      "rank": 90,
+      "player": {
+        "id": 22728,
+        "name": "Michael Carter",
+        "team": "TEN (13)",
+        "url": "/nfl/players/michael-carter-rb.php"
+      },
+      "pos": "RB33",
+      "src_79": 134,
+      "src_4350": 95,
+      "src_80": null,
+      "src_291": 107,
+      "src_439": 82,
+      "src_624": 82,
+      "avg": 93.4
+    },
+    {
+      "id": 11174,
+      "rank": 91,
+      "player": {
+        "id": 11174,
+        "name": "Ryan Tannehill",
+        "team": "",
+        "url": "/nfl/players/ryan-tannehill.php"
+      },
+      "pos": "QB11",
+      "src_79": 98,
+      "src_4350": 98,
+      "src_80": null,
+      "src_291": 93,
+      "src_439": 85,
+      "src_624": 94,
+      "avg": 93.4
+    },
+    {
+      "id": 9808,
+      "rank": 92,
+      "player": {
+        "id": 9808,
+        "name": "Antonio Brown",
+        "team": "",
+        "url": "/nfl/players/antonio-brown.php"
+      },
+      "pos": "WR39",
+      "src_79": 104,
+      "src_4350": 97,
+      "src_80": null,
+      "src_291": 110,
+      "src_439": 92,
+      "src_624": 86,
+      "avg": 94.6
+    },
+    {
+      "id": 16385,
+      "rank": 93,
+      "player": {
+        "id": 16385,
+        "name": "Corey Davis",
+        "team": "",
+        "url": "/nfl/players/corey-davis.php"
+      },
+      "pos": "WR40",
+      "src_79": 94,
+      "src_4350": 105,
+      "src_80": null,
+      "src_291": 135,
+      "src_439": 84,
+      "src_624": 99,
+      "avg": 95.6
+    },
+    {
+      "id": 19275,
+      "rank": 94,
+      "player": {
+        "id": 19275,
+        "name": "Jalen Hurts",
+        "team": "PHI (14)",
+        "url": "/nfl/players/jalen-hurts.php"
+      },
+      "pos": "QB12",
+      "src_79": 97,
+      "src_4350": 107,
+      "src_80": null,
+      "src_291": 86,
+      "src_439": 99,
+      "src_624": 95,
+      "avg": 97
+    },
+    {
+      "id": 17270,
+      "rank": 95,
+      "player": {
+        "id": 17270,
+        "name": "Dallas Goedert",
+        "team": "PHI (14)",
+        "url": "/nfl/players/dallas-goedert.php"
+      },
+      "pos": "TE10",
+      "src_79": 99,
+      "src_4350": 85,
+      "src_80": null,
+      "src_291": 97,
+      "src_439": 105,
+      "src_624": 98,
+      "avg": 99.2
+    },
+    {
+      "id": 16447,
+      "rank": 96,
+      "player": {
+        "id": 16447,
+        "name": "James Conner",
+        "team": "ARI (12)",
+        "url": "/nfl/players/james-conner.php"
+      },
+      "pos": "RB34",
+      "src_79": 107,
+      "src_4350": 101,
+      "src_80": null,
+      "src_291": 121,
+      "src_439": 96,
+      "src_624": 96,
+      "avg": 100.8
+    },
+    {
+      "id": 17292,
+      "rank": 97,
+      "player": {
+        "id": 17292,
+        "name": "DJ Chark Jr.",
+        "team": "",
+        "url": "/nfl/players/dj-chark.php"
+      },
+      "pos": "WR41",
+      "src_79": 111,
+      "src_4350": 79,
+      "src_80": null,
+      "src_291": 117,
+      "src_439": 106,
+      "src_624": 80,
+      "avg": 102
+    },
+    {
+      "id": 12128,
+      "rank": 98,
+      "player": {
+        "id": 12128,
+        "name": "Jarvis Landry",
+        "team": "",
+        "url": "/nfl/players/jarvis-landry.php"
+      },
+      "pos": "WR42",
+      "src_79": 101,
+      "src_4350": 91,
+      "src_80": null,
+      "src_291": 124,
+      "src_439": 111,
+      "src_624": 89,
+      "avg": 103.4
+    },
+    {
+      "id": 8290,
+      "rank": 99,
+      "player": {
+        "id": 8290,
+        "name": "Tampa Bay Buccaneers DST",
+        "team": "(9)",
+        "url": "/nfl/teams/tampa-bay-defense.php"
+      },
+      "pos": "DST1",
+      "src_79": 74,
+      "src_4350": 92,
+      "src_80": null,
+      "src_291": 72,
+      "src_439": 144,
+      "src_624": 119,
+      "avg": 105.4
+    },
+    {
+      "id": 19358,
+      "rank": 100,
+      "player": {
+        "id": 19358,
+        "name": "AJ Dillon",
+        "team": "CAR (13)",
+        "url": "/nfl/players/aj-dillon.php"
+      },
+      "pos": "RB35",
+      "src_79": 113,
+      "src_4350": 112,
+      "src_80": null,
+      "src_291": 142,
+      "src_439": 101,
+      "src_624": 93,
+      "avg": 105.8
+    },
+    {
+      "id": 19278,
+      "rank": 101,
+      "player": {
+        "id": 19278,
+        "name": "Michael Pittman Jr.",
+        "team": "PIT (7)",
+        "url": "/nfl/players/michael-pittman.php"
+      },
+      "pos": "WR43",
+      "src_79": 129,
+      "src_4350": 111,
+      "src_80": null,
+      "src_291": 104,
+      "src_439": 97,
+      "src_624": 111,
+      "avg": 106.4
+    },
+    {
+      "id": 15637,
+      "rank": 102,
+      "player": {
+        "id": 15637,
+        "name": "Kenyan Drake",
+        "team": "",
+        "url": "/nfl/players/kenyan-drake.php"
+      },
+      "pos": "RB36",
+      "src_79": 102,
+      "src_4350": 104,
+      "src_80": null,
+      "src_291": 140,
+      "src_439": 107,
+      "src_624": 102,
+      "avg": 106.4
+    },
+    {
+      "id": 19263,
+      "rank": 103,
+      "player": {
+        "id": 19263,
+        "name": "Zack Moss",
+        "team": "",
+        "url": "/nfl/players/zack-moss.php"
+      },
+      "pos": "RB37",
+      "src_79": 123,
+      "src_4350": 110,
+      "src_80": null,
+      "src_291": 120,
+      "src_439": 83,
+      "src_624": 100,
+      "avg": 106.6
+    },
+    {
+      "id": 19790,
+      "rank": 104,
+      "player": {
+        "id": 19790,
+        "name": "Jaylen Waddle",
+        "team": "DEN (11)",
+        "url": "/nfl/players/jaylen-waddle.php"
+      },
+      "pos": "WR44",
+      "src_79": 110,
+      "src_4350": 87,
+      "src_80": null,
+      "src_291": 133,
+      "src_439": 108,
+      "src_624": 101,
+      "avg": 107.4
+    },
+    {
+      "id": 8280,
+      "rank": 105,
+      "player": {
+        "id": 8280,
+        "name": "Los Angeles Rams DST",
+        "team": "(11)",
+        "url": "/nfl/teams/los-angeles-rams-defense.php"
+      },
+      "pos": "DST2",
+      "src_79": 115,
+      "src_4350": 99,
+      "src_80": null,
+      "src_291": 60,
+      "src_439": 131,
+      "src_624": 106,
+      "avg": 107.8
+    },
+    {
+      "id": 15629,
+      "rank": 106,
+      "player": {
+        "id": 15629,
+        "name": "William Fuller V",
+        "team": "",
+        "url": "/nfl/players/will-fuller.php"
+      },
+      "pos": "WR45",
+      "src_79": 85,
+      "src_4350": 116,
+      "src_80": null,
+      "src_291": 106,
+      "src_439": 112,
+      "src_624": 97,
+      "avg": 109.8
+    },
+    {
+      "id": 17272,
+      "rank": 107,
+      "player": {
+        "id": 17272,
+        "name": "Mike Gesicki",
+        "team": "CIN (10)",
+        "url": "/nfl/players/mike-gesicki.php"
+      },
+      "pos": "TE11",
+      "src_79": 109,
+      "src_4350": 90,
+      "src_80": null,
+      "src_291": 114,
+      "src_439": 113,
+      "src_624": 125,
+      "avg": 109.8
+    },
+    {
+      "id": 8240,
+      "rank": 108,
+      "player": {
+        "id": 8240,
+        "name": "Pittsburgh Steelers DST",
+        "team": "(7)",
+        "url": "/nfl/teams/pittsburgh-defense.php"
+      },
+      "pos": "DST3",
+      "src_79": 95,
+      "src_4350": 114,
+      "src_80": null,
+      "src_291": 65,
+      "src_439": 128,
+      "src_624": 115,
+      "avg": 111.2
+    },
+    {
+      "id": 19196,
+      "rank": 109,
+      "player": {
+        "id": 19196,
+        "name": "Joe Burrow",
+        "team": "CIN (10)",
+        "url": "/nfl/players/joe-burrow.php"
+      },
+      "pos": "QB13",
+      "src_79": 122,
+      "src_4350": 113,
+      "src_80": null,
+      "src_291": 108,
+      "src_439": 110,
+      "src_624": 107,
+      "avg": 111.2
+    },
+    {
+      "id": 15623,
+      "rank": 110,
+      "player": {
+        "id": 15623,
+        "name": "Tyler Higbee",
+        "team": "LAR (11)",
+        "url": "/nfl/players/tyler-higbee.php"
+      },
+      "pos": "TE12",
+      "src_79": 125,
+      "src_4350": 108,
+      "src_80": null,
+      "src_291": 151,
+      "src_439": 109,
+      "src_624": 113,
+      "avg": 112
+    },
+    {
+      "id": 18280,
+      "rank": 111,
+      "player": {
+        "id": 18280,
+        "name": "Devin Singletary",
+        "team": "NYG (10)",
+        "url": "/nfl/players/devin-singletary.php"
+      },
+      "pos": "RB38",
+      "src_79": 128,
+      "src_4350": 117,
+      "src_80": null,
+      "src_291": 146,
+      "src_439": 104,
+      "src_624": 110,
+      "avg": 112.4
+    },
+    {
+      "id": 16424,
+      "rank": 112,
+      "player": {
+        "id": 16424,
+        "name": "Jamaal Williams",
+        "team": "",
+        "url": "/nfl/players/jamaal-williams.php"
+      },
+      "pos": "RB39",
+      "src_79": 124,
+      "src_4350": 134,
+      "src_80": null,
+      "src_291": 160,
+      "src_439": 98,
+      "src_624": 112,
+      "avg": 116.4
+    },
+    {
+      "id": 17309,
+      "rank": 113,
+      "player": {
+        "id": 17309,
+        "name": "Sony Michel",
+        "team": "",
+        "url": "/nfl/players/sony-michel.php"
+      },
+      "pos": "RB40",
+      "src_79": 90,
+      "src_4350": 151,
+      "src_80": null,
+      "src_291": 182,
+      "src_439": 93,
+      "src_624": 153,
+      "avg": 117.8
+    },
+    {
+      "id": 17259,
+      "rank": 114,
+      "player": {
+        "id": 17259,
+        "name": "Michael Gallup",
+        "team": "",
+        "url": "/nfl/players/michael-gallup.php"
+      },
+      "pos": "WR46",
+      "src_79": 86,
+      "src_4350": 122,
+      "src_80": null,
+      "src_291": 132,
+      "src_439": 119,
+      "src_624": 105,
+      "avg": 118
+    },
+    {
+      "id": 16434,
+      "rank": 115,
+      "player": {
+        "id": 16434,
+        "name": "Curtis Samuel",
+        "team": "",
+        "url": "/nfl/players/curtis-samuel.php"
+      },
+      "pos": "WR47",
+      "src_79": 119,
+      "src_4350": 120,
+      "src_80": null,
+      "src_291": 111,
+      "src_439": 115,
+      "src_624": 108,
+      "avg": 118.2
+    },
+    {
+      "id": 8310,
+      "rank": 116,
+      "player": {
+        "id": 8310,
+        "name": "Washington Commanders DST",
+        "team": "(9)",
+        "url": "/nfl/teams/washington-defense.php"
+      },
+      "pos": "DST4",
+      "src_79": 108,
+      "src_4350": 109,
+      "src_80": null,
+      "src_291": 75,
+      "src_439": 141,
+      "src_624": 130,
+      "avg": 120
+    },
+    {
+      "id": 11215,
+      "rank": 117,
+      "player": {
+        "id": 11215,
+        "name": "Marvin Jones Jr.",
+        "team": "",
+        "url": "/nfl/players/marvin-jones.php"
+      },
+      "pos": "WR48",
+      "src_79": 106,
+      "src_4350": 148,
+      "src_80": null,
+      "src_291": 112,
+      "src_439": 129,
+      "src_624": 120,
+      "avg": 122.4
+    },
+    {
+      "id": 19505,
+      "rank": 118,
+      "player": {
+        "id": 19505,
+        "name": "Marquez Callaway",
+        "team": "",
+        "url": "/nfl/players/marquez-callaway.php"
+      },
+      "pos": "WR49",
+      "src_79": 131,
+      "src_4350": 130,
+      "src_80": null,
+      "src_291": 176,
+      "src_439": 103,
+      "src_624": 142,
+      "avg": 123
+    },
+    {
+      "id": 16377,
+      "rank": 119,
+      "player": {
+        "id": 16377,
+        "name": "Mike Williams",
+        "team": "",
+        "url": "/nfl/players/mike-williams-wr.php"
+      },
+      "pos": "WR50",
+      "src_79": 116,
+      "src_4350": 115,
+      "src_80": null,
+      "src_291": 131,
+      "src_439": 133,
+      "src_624": 109,
+      "avg": 123
+    },
+    {
+      "id": 16460,
+      "rank": 120,
+      "player": {
+        "id": 16460,
+        "name": "Jonnu Smith",
+        "team": "",
+        "url": "/nfl/players/jonnu-smith.php"
+      },
+      "pos": "TE13",
+      "src_79": 91,
+      "src_4350": 142,
+      "src_80": null,
+      "src_291": 116,
+      "src_439": 118,
+      "src_624": 141,
+      "avg": 123
+    },
+    {
+      "id": 18226,
+      "rank": 121,
+      "player": {
+        "id": 18226,
+        "name": "Hollywood Brown",
+        "team": "PHI (14)",
+        "url": "/nfl/players/marquise-brown.php"
+      },
+      "pos": "WR51",
+      "src_79": 105,
+      "src_4350": 118,
+      "src_80": null,
+      "src_291": 136,
+      "src_439": 120,
+      "src_624": 117,
+      "avg": 123.2
+    },
+    {
+      "id": 8020,
+      "rank": 122,
+      "player": {
+        "id": 8020,
+        "name": "Baltimore Ravens DST",
+        "team": "(8)",
+        "url": "/nfl/teams/baltimore-defense.php"
+      },
+      "pos": "DST5",
+      "src_79": 96,
+      "src_4350": 106,
+      "src_80": null,
+      "src_291": 74,
+      "src_439": 143,
+      "src_624": 137,
+      "avg": 123.8
+    },
+    {
+      "id": 17297,
+      "rank": 123,
+      "player": {
+        "id": 17297,
+        "name": "Nyheim Miller-Hines",
+        "team": "",
+        "url": "/nfl/players/nyheim-hines.php"
+      },
+      "pos": "RB41",
+      "src_79": 132,
+      "src_4350": 127,
+      "src_80": null,
+      "src_291": 184,
+      "src_439": 102,
+      "src_624": 118,
+      "avg": 124
+    },
+    {
+      "id": 9721,
+      "rank": 124,
+      "player": {
+        "id": 9721,
+        "name": "Rob Gronkowski",
+        "team": "",
+        "url": "/nfl/players/rob-gronkowski.php"
+      },
+      "pos": "TE14",
+      "src_79": 114,
+      "src_4350": 86,
+      "src_80": null,
+      "src_291": 101,
+      "src_439": 145,
+      "src_624": 133,
+      "avg": 125.6
+    },
+    {
+      "id": 16712,
+      "rank": 125,
+      "player": {
+        "id": 16712,
+        "name": "Harrison Butker",
+        "team": "KC (12)",
+        "url": "/nfl/players/harrison-butker.php"
+      },
+      "pos": "K1",
+      "src_79": 84,
+      "src_4350": 131,
+      "src_80": null,
+      "src_291": 89,
+      "src_439": 154,
+      "src_624": 129,
+      "avg": 127.8
+    },
+    {
+      "id": 11465,
+      "rank": 126,
+      "player": {
+        "id": 11465,
+        "name": "Justin Tucker",
+        "team": "",
+        "url": "/nfl/players/justin-tucker.php"
+      },
+      "pos": "K2",
+      "src_79": 100,
+      "src_4350": 129,
+      "src_80": null,
+      "src_291": 71,
+      "src_439": 146,
+      "src_624": 123,
+      "avg": 127.8
+    },
+    {
+      "id": 19780,
+      "rank": 127,
+      "player": {
+        "id": 19780,
+        "name": "Trevor Lawrence",
+        "team": "JAC (7)",
+        "url": "/nfl/players/trevor-lawrence.php"
+      },
+      "pos": "QB14",
+      "src_79": 135,
+      "src_4350": 100,
+      "src_80": null,
+      "src_291": 122,
+      "src_439": 130,
+      "src_624": 126,
+      "avg": 128
+    },
+    {
+      "id": 19810,
+      "rank": 128,
+      "player": {
+        "id": 19810,
+        "name": "Darnell Mooney",
+        "team": "NYG (10)",
+        "url": "/nfl/players/darnell-mooney.php"
+      },
+      "pos": "WR52",
+      "src_79": 152,
+      "src_4350": 124,
+      "src_80": null,
+      "src_291": 137,
+      "src_439": 122,
+      "src_624": 121,
+      "avg": 128.6
+    },
+    {
+      "id": 19207,
+      "rank": 129,
+      "player": {
+        "id": 19207,
+        "name": "Henry Ruggs III",
+        "team": "",
+        "url": "/nfl/players/henry-ruggs.php"
+      },
+      "pos": "WR53",
+      "src_79": 117,
+      "src_4350": 135,
+      "src_80": null,
+      "src_291": 170,
+      "src_439": 127,
+      "src_624": 127,
+      "avg": 129
+    },
+    {
+      "id": 13948,
+      "rank": 130,
+      "player": {
+        "id": 13948,
+        "name": "David Johnson",
+        "team": "",
+        "url": "/nfl/players/david-johnson-rb.php"
+      },
+      "pos": "RB42",
+      "src_79": 140,
+      "src_4350": 121,
+      "src_80": null,
+      "src_291": 130,
+      "src_439": 125,
+      "src_624": 114,
+      "avg": 129.8
+    },
+    {
+      "id": 18705,
+      "rank": 131,
+      "player": {
+        "id": 18705,
+        "name": "Tony Pollard",
+        "team": "TEN (13)",
+        "url": "/nfl/players/tony-pollard.php"
+      },
+      "pos": "RB43",
+      "src_79": 158,
+      "src_4350": 144,
+      "src_80": null,
+      "src_291": 148,
+      "src_439": 117,
+      "src_624": 116,
+      "avg": 132.6
+    },
+    {
+      "id": 18587,
+      "rank": 132,
+      "player": {
+        "id": 18587,
+        "name": "Mecole Hardman Jr.",
+        "team": "BUF (7)",
+        "url": "/nfl/players/mecole-hardman.php"
+      },
+      "pos": "WR54",
+      "src_79": 144,
+      "src_4350": 125,
+      "src_80": null,
+      "src_291": 164,
+      "src_439": 140,
+      "src_624": 122,
+      "avg": 132.8
+    },
+    {
+      "id": 13897,
+      "rank": 133,
+      "player": {
+        "id": 13897,
+        "name": "DeVante Parker",
+        "team": "",
+        "url": "/nfl/players/devante-parker.php"
+      },
+      "pos": "WR55",
+      "src_79": 146,
+      "src_4350": 149,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 116,
+      "src_624": 124,
+      "avg": 134.2
+    },
+    {
+      "id": 8270,
+      "rank": 134,
+      "player": {
+        "id": 8270,
+        "name": "San Francisco 49ers DST",
+        "team": "(6)",
+        "url": "/nfl/teams/san-francisco-defense.php"
+      },
+      "pos": "DST6",
+      "src_79": 118,
+      "src_4350": 123,
+      "src_80": null,
+      "src_291": 119,
+      "src_439": 156,
+      "src_624": 147,
+      "avg": 136.8
+    },
+    {
+      "id": 17237,
+      "rank": 135,
+      "player": {
+        "id": 17237,
+        "name": "Baker Mayfield",
+        "team": "TB (9)",
+        "url": "/nfl/players/baker-mayfield.php"
+      },
+      "pos": "QB15",
+      "src_79": 126,
+      "src_4350": 126,
+      "src_80": null,
+      "src_291": 143,
+      "src_439": 153,
+      "src_624": 139,
+      "avg": 138.6
+    },
+    {
+      "id": 8030,
+      "rank": 136,
+      "player": {
+        "id": 8030,
+        "name": "Buffalo Bills DST",
+        "team": "(7)",
+        "url": "/nfl/teams/buffalo-defense.php"
+      },
+      "pos": "DST7",
+      "src_79": 112,
+      "src_4350": 119,
+      "src_80": null,
+      "src_291": 125,
+      "src_439": 160,
+      "src_624": 156,
+      "avg": 139
+    },
+    {
+      "id": 16230,
+      "rank": 137,
+      "player": {
+        "id": 16230,
+        "name": "J.D. McKissic",
+        "team": "",
+        "url": "/nfl/players/jd-mckissic.php"
+      },
+      "pos": "RB44",
+      "src_79": 157,
+      "src_4350": 162,
+      "src_80": null,
+      "src_291": 196,
+      "src_439": 114,
+      "src_624": 134,
+      "avg": 139.8
+    },
+    {
+      "id": 19781,
+      "rank": 138,
+      "player": {
+        "id": 19781,
+        "name": "Justin Fields",
+        "team": "KC (12)",
+        "url": "/nfl/players/justin-fields.php"
+      },
+      "pos": "QB16",
+      "src_79": 147,
+      "src_4350": 128,
+      "src_80": null,
+      "src_291": 149,
+      "src_439": 139,
+      "src_624": 144,
+      "avg": 140.8
+    },
+    {
+      "id": 9444,
+      "rank": 139,
+      "player": {
+        "id": 9444,
+        "name": "Matt Ryan",
+        "team": "",
+        "url": "/nfl/players/matt-ryan.php"
+      },
+      "pos": "QB17",
+      "src_79": 153,
+      "src_4350": 158,
+      "src_80": null,
+      "src_291": 161,
+      "src_439": 126,
+      "src_624": 131,
+      "avg": 141.8
+    },
+    {
+      "id": 16910,
+      "rank": 140,
+      "player": {
+        "id": 16910,
+        "name": "Younghoe Koo",
+        "team": "",
+        "url": "/nfl/players/younghoe-koo.php"
+      },
+      "pos": "K3",
+      "src_79": 130,
+      "src_4350": 132,
+      "src_80": null,
+      "src_291": 62,
+      "src_439": 171,
+      "src_624": 149,
+      "avg": 143.2
+    },
+    {
+      "id": 11459,
+      "rank": 141,
+      "player": {
+        "id": 11459,
+        "name": "Cole Beasley",
+        "team": "",
+        "url": "/nfl/players/cole-beasley.php"
+      },
+      "pos": "WR56",
+      "src_79": 133,
+      "src_4350": 159,
+      "src_80": null,
+      "src_291": 169,
+      "src_439": 138,
+      "src_624": 128,
+      "avg": 143.8
+    },
+    {
+      "id": 18598,
+      "rank": 142,
+      "player": {
+        "id": 18598,
+        "name": "Jakobi Meyers",
+        "team": "JAC (7)",
+        "url": "/nfl/players/jakobi-meyers.php"
+      },
+      "pos": "WR57",
+      "src_79": 136,
+      "src_4350": 152,
+      "src_80": null,
+      "src_291": 219,
+      "src_439": 132,
+      "src_624": 163,
+      "avg": 145
+    },
+    {
+      "id": 20114,
+      "rank": 143,
+      "player": {
+        "id": 20114,
+        "name": "Elijah Moore",
+        "team": "PHI (14)",
+        "url": "/nfl/players/elijah-moore.php"
+      },
+      "pos": "WR58",
+      "src_79": 160,
+      "src_4350": 136,
+      "src_80": null,
+      "src_291": 167,
+      "src_439": 149,
+      "src_624": 132,
+      "avg": 145.6
+    },
+    {
+      "id": 17498,
+      "rank": 144,
+      "player": {
+        "id": 17498,
+        "name": "Phillip Lindsay",
+        "team": "",
+        "url": "/nfl/players/phillip-lindsay.php"
+      },
+      "pos": "RB45",
+      "src_79": 155,
+      "src_4350": 143,
+      "src_80": null,
+      "src_291": 154,
+      "src_439": 123,
+      "src_624": 197,
+      "avg": 146.2
+    },
+    {
+      "id": 17606,
+      "rank": 145,
+      "player": {
+        "id": 17606,
+        "name": "Russell Gage Jr.",
+        "team": "",
+        "url": "/nfl/players/russell-gage.php"
+      },
+      "pos": "WR59",
+      "src_79": 172,
+      "src_4350": 155,
+      "src_80": null,
+      "src_291": 188,
+      "src_439": 136,
+      "src_624": 136,
+      "avg": 148.8
+    },
+    {
+      "id": 20082,
+      "rank": 146,
+      "player": {
+        "id": 20082,
+        "name": "Trey Lance",
+        "team": "LAC (7)",
+        "url": "/nfl/players/trey-lance.php"
+      },
+      "pos": "QB18",
+      "src_79": 166,
+      "src_4350": 146,
+      "src_80": null,
+      "src_291": 168,
+      "src_439": 148,
+      "src_624": 140,
+      "avg": 149
+    },
+    {
+      "id": 12195,
+      "rank": 147,
+      "player": {
+        "id": 12195,
+        "name": "James White",
+        "team": "",
+        "url": "/nfl/players/james-white.php"
+      },
+      "pos": "RB46",
+      "src_79": 150,
+      "src_4350": 179,
+      "src_80": null,
+      "src_291": 197,
+      "src_439": 135,
+      "src_624": 145,
+      "avg": 151.8
+    },
+    {
+      "id": 8130,
+      "rank": 148,
+      "player": {
+        "id": 8130,
+        "name": "Indianapolis Colts DST",
+        "team": "(14)",
+        "url": "/nfl/teams/indianapolis-defense.php"
+      },
+      "pos": "DST8",
+      "src_79": 148,
+      "src_4350": 150,
+      "src_80": null,
+      "src_291": 91,
+      "src_439": 161,
+      "src_624": 151,
+      "avg": 151.8
+    },
+    {
+      "id": 15561,
+      "rank": 149,
+      "player": {
+        "id": 15561,
+        "name": "Hunter Henry",
+        "team": "NE (14)",
+        "url": "/nfl/players/hunter-henry.php"
+      },
+      "pos": "TE15",
+      "src_79": 156,
+      "src_4350": 141,
+      "src_80": null,
+      "src_291": 172,
+      "src_439": 124,
+      "src_624": 143,
+      "avg": 153.2
+    },
+    {
+      "id": 18621,
+      "rank": 150,
+      "player": {
+        "id": 18621,
+        "name": "Alexander Mattison",
+        "team": "",
+        "url": "/nfl/players/alexander-mattison.php"
+      },
+      "pos": "RB47",
+      "src_79": 164,
+      "src_4350": 170,
+      "src_80": null,
+      "src_291": 192,
+      "src_439": 142,
+      "src_624": 138,
+      "avg": 154.2
+    },
+    {
+      "id": 19760,
+      "rank": 151,
+      "player": {
+        "id": 19760,
+        "name": "Tyler Bass",
+        "team": "BUF (7)",
+        "url": "/nfl/players/tyler-bass.php"
+      },
+      "pos": "K4",
+      "src_79": 162,
+      "src_4350": 133,
+      "src_80": null,
+      "src_291": 102,
+      "src_439": 166,
+      "src_624": 157,
+      "avg": 155
+    },
+    {
+      "id": 11177,
+      "rank": 152,
+      "player": {
+        "id": 11177,
+        "name": "Kirk Cousins",
+        "team": "LV (8)",
+        "url": "/nfl/players/kirk-cousins.php"
+      },
+      "pos": "QB19",
+      "src_79": 176,
+      "src_4350": 163,
+      "src_80": null,
+      "src_291": 165,
+      "src_439": 137,
+      "src_624": 148,
+      "avg": 157.8
+    },
+    {
+      "id": 19198,
+      "rank": 153,
+      "player": {
+        "id": 19198,
+        "name": "Tua Tagovailoa",
+        "team": "ATL (6)",
+        "url": "/nfl/players/tua-tagovailoa.php"
+      },
+      "pos": "QB20",
+      "src_79": 145,
+      "src_4350": 193,
+      "src_80": null,
+      "src_291": 152,
+      "src_439": 163,
+      "src_624": 146,
+      "avg": 158.6
+    },
+    {
+      "id": 8180,
+      "rank": 154,
+      "player": {
+        "id": 8180,
+        "name": "New England Patriots DST",
+        "team": "(14)",
+        "url": "/nfl/teams/new-england-defense.php"
+      },
+      "pos": "DST9",
+      "src_79": 154,
+      "src_4350": 156,
+      "src_80": null,
+      "src_291": 150,
+      "src_439": 167,
+      "src_624": 178,
+      "avg": 158.8
+    },
+    {
+      "id": 16411,
+      "rank": 155,
+      "player": {
+        "id": 16411,
+        "name": "Evan Engram",
+        "team": "DEN (11)",
+        "url": "/nfl/players/evan-engram.php"
+      },
+      "pos": "TE16",
+      "src_79": 170,
+      "src_4350": 164,
+      "src_80": null,
+      "src_291": 159,
+      "src_439": 151,
+      "src_624": 135,
+      "avg": 159.8
+    },
+    {
+      "id": 8090,
+      "rank": 156,
+      "player": {
+        "id": 8090,
+        "name": "Denver Broncos DST",
+        "team": "(11)",
+        "url": "/nfl/teams/denver-defense.php"
+      },
+      "pos": "DST10",
+      "src_79": 138,
+      "src_4350": 138,
+      "src_80": null,
+      "src_291": 173,
+      "src_439": 175,
+      "src_624": 204,
+      "avg": 163.2
+    },
+    {
+      "id": 17533,
+      "rank": 157,
+      "player": {
+        "id": 17533,
+        "name": "Jason Sanders",
+        "team": "NYJ (6)",
+        "url": "/nfl/players/jason-sanders.php"
+      },
+      "pos": "K5",
+      "src_79": 141,
+      "src_4350": 140,
+      "src_80": null,
+      "src_291": 123,
+      "src_439": 190,
+      "src_624": 193,
+      "avg": 163.4
+    },
+    {
+      "id": 9039,
+      "rank": 158,
+      "player": {
+        "id": 9039,
+        "name": "Ben Roethlisberger",
+        "team": "",
+        "url": "/nfl/players/ben-roethlisberger.php"
+      },
+      "pos": "QB21",
+      "src_79": 159,
+      "src_4350": 181,
+      "src_80": null,
+      "src_291": 166,
+      "src_439": 164,
+      "src_624": 167,
+      "avg": 165
+    },
+    {
+      "id": 11689,
+      "rank": 159,
+      "player": {
+        "id": 11689,
+        "name": "Zach Ertz",
+        "team": "",
+        "url": "/nfl/players/zach-ertz.php"
+      },
+      "pos": "TE17",
+      "src_79": 169,
+      "src_4350": 161,
+      "src_80": null,
+      "src_291": 155,
+      "src_439": 169,
+      "src_624": 173,
+      "avg": 165.2
+    },
+    {
+      "id": 9265,
+      "rank": 160,
+      "player": {
+        "id": 9265,
+        "name": "Jared Cook",
+        "team": "",
+        "url": "/nfl/players/jared-cook.php"
+      },
+      "pos": "TE18",
+      "src_79": 178,
+      "src_4350": 160,
+      "src_80": null,
+      "src_291": 157,
+      "src_439": 158,
+      "src_624": 174,
+      "avg": 165.4
+    },
+    {
+      "id": 9549,
+      "rank": 161,
+      "player": {
+        "id": 9549,
+        "name": "Ryan Succop",
+        "team": "",
+        "url": "/nfl/players/ryan-succop.php"
+      },
+      "pos": "K6",
+      "src_79": 179,
+      "src_4350": 139,
+      "src_80": null,
+      "src_291": 126,
+      "src_439": 182,
+      "src_624": 213,
+      "avg": 165.8
+    },
+    {
+      "id": 13926,
+      "rank": 162,
+      "player": {
+        "id": 13926,
+        "name": "Tevin Coleman",
+        "team": "",
+        "url": "/nfl/players/tevin-coleman.php"
+      },
+      "pos": "RB48",
+      "src_79": 197,
+      "src_4350": 185,
+      "src_80": null,
+      "src_291": 199,
+      "src_439": 121,
+      "src_624": 155,
+      "avg": 167.8
+    },
+    {
+      "id": 13891,
+      "rank": 163,
+      "player": {
+        "id": 13891,
+        "name": "Jameis Winston",
+        "team": "NYG (10)",
+        "url": "/nfl/players/jameis-winston.php"
+      },
+      "pos": "QB22",
+      "src_79": 167,
+      "src_4350": 175,
+      "src_80": null,
+      "src_291": 181,
+      "src_439": 170,
+      "src_624": 198,
+      "avg": 168.2
+    },
+    {
+      "id": 22726,
+      "rank": 164,
+      "player": {
+        "id": 22726,
+        "name": "Rhamondre Stevenson",
+        "team": "NE (14)",
+        "url": "/nfl/players/rhamondre-stevenson.php"
+      },
+      "pos": "RB49",
+      "src_79": 181,
+      "src_4350": 177,
+      "src_80": null,
+      "src_291": 233,
+      "src_439": 134,
+      "src_624": 190,
+      "avg": 169
+    },
+    {
+      "id": 15569,
+      "rank": 165,
+      "player": {
+        "id": 15569,
+        "name": "Sterling Shepard",
+        "team": "",
+        "url": "/nfl/players/sterling-shepard.php"
+      },
+      "pos": "WR60",
+      "src_79": 185,
+      "src_4350": 184,
+      "src_80": null,
+      "src_291": 189,
+      "src_439": 152,
+      "src_624": 152,
+      "avg": 172.4
+    },
+    {
+      "id": 15581,
+      "rank": 166,
+      "player": {
+        "id": 15581,
+        "name": "Austin Hooper",
+        "team": "ATL (6)",
+        "url": "/nfl/players/austin-hooper.php"
+      },
+      "pos": "TE19",
+      "src_79": 139,
+      "src_4350": 166,
+      "src_80": null,
+      "src_291": 174,
+      "src_439": 159,
+      "src_624": 199,
+      "avg": 174.2
+    },
+    {
+      "id": 8070,
+      "rank": 167,
+      "player": {
+        "id": 8070,
+        "name": "Cleveland Browns DST",
+        "team": "(13)",
+        "url": "/nfl/teams/cleveland-defense.php"
+      },
+      "pos": "DST11",
+      "src_79": 149,
+      "src_4350": 137,
+      "src_80": null,
+      "src_291": 163,
+      "src_439": 203,
+      "src_624": 230,
+      "avg": 174.4
+    },
+    {
+      "id": 11644,
+      "rank": 168,
+      "player": {
+        "id": 11644,
+        "name": "Giovani Bernard",
+        "team": "",
+        "url": "/nfl/players/giovani-bernard.php"
+      },
+      "pos": "RB50",
+      "src_79": 189,
+      "src_4350": 192,
+      "src_80": null,
+      "src_291": 229,
+      "src_439": 155,
+      "src_624": 166,
+      "avg": 174.4
+    },
+    {
+      "id": 13969,
+      "rank": 169,
+      "player": {
+        "id": 13969,
+        "name": "Nelson Agholor",
+        "team": "",
+        "url": "/nfl/players/nelson-agholor.php"
+      },
+      "pos": "WR61",
+      "src_79": 175,
+      "src_4350": 167,
+      "src_80": null,
+      "src_291": 205,
+      "src_439": 174,
+      "src_624": 160,
+      "avg": 176.2
+    },
+    {
+      "id": 19792,
+      "rank": 170,
+      "player": {
+        "id": 19792,
+        "name": "Chuba Hubbard",
+        "team": "CAR (13)",
+        "url": "/nfl/players/chuba-hubbard.php"
+      },
+      "pos": "RB51",
+      "src_79": 210,
+      "src_4350": 154,
+      "src_80": null,
+      "src_291": 259,
+      "src_439": 168,
+      "src_624": 171,
+      "avg": 176.6
+    },
+    {
+      "id": 20156,
+      "rank": 171,
+      "player": {
+        "id": 20156,
+        "name": "Mac Jones",
+        "team": "SF (6)",
+        "url": "/nfl/players/mac-jones.php"
+      },
+      "pos": "QB23",
+      "src_79": 168,
+      "src_4350": 176,
+      "src_80": null,
+      "src_291": 194,
+      "src_439": 197,
+      "src_624": 150,
+      "avg": 177
+    },
+    {
+      "id": 19469,
+      "rank": 173,
+      "player": {
+        "id": 19469,
+        "name": "Rodrigo Blankenship",
+        "team": "",
+        "url": "/nfl/players/rodrigo-blankenship.php"
+      },
+      "pos": "K7",
+      "src_79": 187,
+      "src_4350": 145,
+      "src_80": null,
+      "src_291": 68,
+      "src_439": 185,
+      "src_624": 185,
+      "avg": 177.6
+    },
+    {
+      "id": 11345,
+      "rank": 174,
+      "player": {
+        "id": 11345,
+        "name": "Greg Zuerlein",
+        "team": "",
+        "url": "/nfl/players/greg-zuerlein.php"
+      },
+      "pos": "K8",
+      "src_79": 163,
+      "src_4350": 153,
+      "src_80": null,
+      "src_291": 105,
+      "src_439": 183,
+      "src_624": 206,
+      "avg": 177.6
+    },
+    {
+      "id": 23310,
+      "rank": 175,
+      "player": {
+        "id": 23310,
+        "name": "Kenny Gainwell",
+        "team": "TB (9)",
+        "url": "/nfl/players/kenneth-gainwell.php"
+      },
+      "pos": "RB52",
+      "src_79": null,
+      "src_4350": 195,
+      "src_80": null,
+      "src_291": 178,
+      "src_439": 165,
+      "src_624": 187,
+      "avg": 177.8
+    },
+    {
+      "id": 16459,
+      "rank": 176,
+      "player": {
+        "id": 16459,
+        "name": "Gerald Everett",
+        "team": "",
+        "url": "/nfl/players/gerald-everett.php"
+      },
+      "pos": "TE20",
+      "src_79": 204,
+      "src_4350": 190,
+      "src_80": null,
+      "src_291": 139,
+      "src_439": 157,
+      "src_624": 188,
+      "avg": 179.6
+    },
+    {
+      "id": 9545,
+      "rank": 177,
+      "player": {
+        "id": 9545,
+        "name": "Ryan Fitzpatrick",
+        "team": "",
+        "url": "/nfl/players/ryan-fitzpatrick.php"
+      },
+      "pos": "QB24",
+      "src_79": 182,
+      "src_4350": 197,
+      "src_80": null,
+      "src_291": 190,
+      "src_439": 184,
+      "src_624": 161,
+      "avg": 182.8
+    },
+    {
+      "id": 17420,
+      "rank": 178,
+      "player": {
+        "id": 17420,
+        "name": "Daniel Carlson",
+        "team": "LV (8)",
+        "url": "/nfl/players/daniel-carlson.php"
+      },
+      "pos": "K9",
+      "src_79": null,
+      "src_4350": 202,
+      "src_80": null,
+      "src_291": 103,
+      "src_439": 210,
+      "src_624": 225,
+      "avg": 183.6
+    },
+    {
+      "id": 8150,
+      "rank": 179,
+      "player": {
+        "id": 8150,
+        "name": "Kansas City Chiefs DST",
+        "team": "(12)",
+        "url": "/nfl/teams/kansas-city-defense.php"
+      },
+      "pos": "DST12",
+      "src_79": 191,
+      "src_4350": 178,
+      "src_80": null,
+      "src_291": 141,
+      "src_439": 187,
+      "src_624": 235,
+      "avg": 186.4
+    },
+    {
+      "id": 12092,
+      "rank": 180,
+      "player": {
+        "id": 12092,
+        "name": "Derek Carr",
+        "team": "",
+        "url": "/nfl/players/derek-carr.php"
+      },
+      "pos": "QB25",
+      "src_79": 184,
+      "src_4350": 213,
+      "src_80": null,
+      "src_291": 180,
+      "src_439": 179,
+      "src_624": 176,
+      "avg": 186.4
+    },
+    {
+      "id": 19219,
+      "rank": 181,
+      "player": {
+        "id": 19219,
+        "name": "Jalen Reagor",
+        "team": "MIA (14)",
+        "url": "/nfl/players/jalen-reagor.php"
+      },
+      "pos": "WR62",
+      "src_79": 151,
+      "src_4350": 196,
+      "src_80": null,
+      "src_291": 246,
+      "src_439": 162,
+      "src_624": 162,
+      "avg": 187.4
+    },
+    {
+      "id": 19229,
+      "rank": 182,
+      "player": {
+        "id": 19229,
+        "name": "Cole Kmet",
+        "team": "CHI (10)",
+        "url": "/nfl/players/cole-kmet.php"
+      },
+      "pos": "TE21",
+      "src_79": 174,
+      "src_4350": 186,
+      "src_80": null,
+      "src_291": 187,
+      "src_439": 188,
+      "src_624": 202,
+      "avg": 187.4
+    },
+    {
+      "id": 14324,
+      "rank": 183,
+      "player": {
+        "id": 14324,
+        "name": "Tyrell Williams",
+        "team": "",
+        "url": "/nfl/players/tyrell-williams.php"
+      },
+      "pos": "WR63",
+      "src_79": 161,
+      "src_4350": 206,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 201,
+      "src_624": 215,
+      "avg": 188.4
+    },
+    {
+      "id": 8190,
+      "rank": 184,
+      "player": {
+        "id": 8190,
+        "name": "New Orleans Saints DST",
+        "team": "(6)",
+        "url": "/nfl/teams/new-orleans-defense.php"
+      },
+      "pos": "DST13",
+      "src_79": 180,
+      "src_4350": 203,
+      "src_80": null,
+      "src_291": 129,
+      "src_439": 207,
+      "src_624": 227,
+      "avg": 189.2
+    },
+    {
+      "id": 17308,
+      "rank": 185,
+      "player": {
+        "id": 17308,
+        "name": "Rashaad Penny",
+        "team": "",
+        "url": "/nfl/players/rashaad-penny.php"
+      },
+      "pos": "RB53",
+      "src_79": null,
+      "src_4350": 211,
+      "src_80": null,
+      "src_291": 248,
+      "src_439": 180,
+      "src_624": 158,
+      "avg": 190.6
+    },
+    {
+      "id": 23242,
+      "rank": 186,
+      "player": {
+        "id": 23242,
+        "name": "Terrace Marshall Jr.",
+        "team": "MIA (14)",
+        "url": "/nfl/players/terrace-marshall.php"
+      },
+      "pos": "WR64",
+      "src_79": 194,
+      "src_4350": 183,
+      "src_80": null,
+      "src_291": 241,
+      "src_439": 173,
+      "src_624": 164,
+      "avg": 191
+    },
+    {
+      "id": 8160,
+      "rank": 187,
+      "player": {
+        "id": 8160,
+        "name": "Miami Dolphins DST",
+        "team": "(14)",
+        "url": "/nfl/teams/miami-defense.php"
+      },
+      "pos": "DST14",
+      "src_79": 199,
+      "src_4350": 182,
+      "src_80": null,
+      "src_291": 98,
+      "src_439": 204,
+      "src_624": 192,
+      "avg": 191.6
+    },
+    {
+      "id": 22679,
+      "rank": 188,
+      "player": {
+        "id": 22679,
+        "name": "Zach Wilson",
+        "team": "NO (6)",
+        "url": "/nfl/players/zach-wilson.php"
+      },
+      "pos": "QB26",
+      "src_79": 186,
+      "src_4350": 194,
+      "src_80": null,
+      "src_291": 207,
+      "src_439": 192,
+      "src_624": 183,
+      "avg": 192.4
+    },
+    {
+      "id": 14003,
+      "rank": 189,
+      "player": {
+        "id": 14003,
+        "name": "Jason Myers",
+        "team": "SEA (9)",
+        "url": "/nfl/players/jason-myers.php"
+      },
+      "pos": "K10",
+      "src_79": 127,
+      "src_4350": 147,
+      "src_80": null,
+      "src_291": 147,
+      "src_439": 218,
+      "src_624": 270,
+      "avg": 193.4
+    },
+    {
+      "id": 11821,
+      "rank": 190,
+      "player": {
+        "id": 11821,
+        "name": "Latavius Murray",
+        "team": "",
+        "url": "/nfl/players/latavius-murray.php"
+      },
+      "pos": "RB54",
+      "src_79": 227,
+      "src_4350": 169,
+      "src_80": null,
+      "src_291": 208,
+      "src_439": 172,
+      "src_624": 195,
+      "avg": 194.2
+    },
+    {
+      "id": 9433,
+      "rank": 191,
+      "player": {
+        "id": 9433,
+        "name": "Mason Crosby",
+        "team": "",
+        "url": "/nfl/players/mason-crosby.php"
+      },
+      "pos": "K11",
+      "src_79": 195,
+      "src_4350": 157,
+      "src_80": null,
+      "src_291": 156,
+      "src_439": 224,
+      "src_624": 243,
+      "avg": 195
+    },
+    {
+      "id": 9707,
+      "rank": 192,
+      "player": {
+        "id": 9707,
+        "name": "Emmanuel Sanders",
+        "team": "",
+        "url": "/nfl/players/emmanuel-sanders.php"
+      },
+      "pos": "WR65",
+      "src_79": 203,
+      "src_4350": 209,
+      "src_80": null,
+      "src_291": 201,
+      "src_439": 189,
+      "src_624": 172,
+      "avg": 195.4
+    },
+    {
+      "id": 9857,
+      "rank": 193,
+      "player": {
+        "id": 9857,
+        "name": "A.J. Green",
+        "team": "",
+        "url": "/nfl/players/aj-green.php"
+      },
+      "pos": "WR66",
+      "src_79": 177,
+      "src_4350": 187,
+      "src_80": null,
+      "src_291": 204,
+      "src_439": 214,
+      "src_624": 201,
+      "avg": 197
+    },
+    {
+      "id": 19636,
+      "rank": 194,
+      "player": {
+        "id": 19636,
+        "name": "Ty'Son Williams",
+        "team": "",
+        "url": "/nfl/players/tyson-williams.php"
+      },
+      "pos": "RB55",
+      "src_79": 193,
+      "src_4350": 225,
+      "src_80": null,
+      "src_291": 258,
+      "src_439": 147,
+      "src_624": 170,
+      "avg": 198.6
+    },
+    {
+      "id": 9902,
+      "rank": 195,
+      "player": {
+        "id": 9902,
+        "name": "Randall Cobb",
+        "team": "",
+        "url": "/nfl/players/randall-cobb.php"
+      },
+      "pos": "WR67",
+      "src_79": 173,
+      "src_4350": 174,
+      "src_80": null,
+      "src_291": 213,
+      "src_439": 233,
+      "src_624": 205,
+      "avg": 199.6
+    },
+    {
+      "id": 19398,
+      "rank": 196,
+      "player": {
+        "id": 19398,
+        "name": "Gabe Davis",
+        "team": "",
+        "url": "/nfl/players/gabriel-davis.php"
+      },
+      "pos": "WR68",
+      "src_79": 224,
+      "src_4350": 208,
+      "src_80": null,
+      "src_291": 191,
+      "src_439": 220,
+      "src_624": 180,
+      "avg": 204.6
+    },
+    {
+      "id": 9443,
+      "rank": 197,
+      "player": {
+        "id": 9443,
+        "name": "Matt Prater",
+        "team": "",
+        "url": "/nfl/players/matt-prater.php"
+      },
+      "pos": "K12",
+      "src_79": 190,
+      "src_4350": 168,
+      "src_80": null,
+      "src_291": 206,
+      "src_439": 208,
+      "src_624": 264,
+      "avg": 207.2
+    },
+    {
+      "id": 18232,
+      "rank": 198,
+      "player": {
+        "id": 18232,
+        "name": "Daniel Jones",
+        "team": "IND (14)",
+        "url": "/nfl/players/daniel-jones.php"
+      },
+      "pos": "QB27",
+      "src_79": 196,
+      "src_4350": 221,
+      "src_80": null,
+      "src_291": 236,
+      "src_439": 202,
+      "src_624": 181,
+      "avg": 207.2
+    },
+    {
+      "id": 8110,
+      "rank": 199,
+      "player": {
+        "id": 8110,
+        "name": "Green Bay Packers DST",
+        "team": "(13)",
+        "url": "/nfl/teams/green-bay-defense.php"
+      },
+      "pos": "DST15",
+      "src_79": 192,
+      "src_4350": 229,
+      "src_80": null,
+      "src_291": 153,
+      "src_439": 232,
+      "src_624": 231,
+      "avg": 207.4
+    },
+    {
+      "id": 18634,
+      "rank": 200,
+      "player": {
+        "id": 18634,
+        "name": "Bryan Edwards",
+        "team": "",
+        "url": "/nfl/players/bryan-edwards.php"
+      },
+      "pos": "WR69",
+      "src_79": 214,
+      "src_4350": 191,
+      "src_80": null,
+      "src_291": 262,
+      "src_439": 191,
+      "src_624": 179,
+      "avg": 207.4
+    },
+    {
+      "id": 18545,
+      "rank": 201,
+      "player": {
+        "id": 18545,
+        "name": "Matt Gay",
+        "team": "LV (8)",
+        "url": "/nfl/players/matt-gay.php"
+      },
+      "pos": "K13",
+      "src_79": 142,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 250,
+      "src_439": 205,
+      "src_624": 280,
+      "avg": 209
+    },
+    {
+      "id": 16398,
+      "rank": 202,
+      "player": {
+        "id": 16398,
+        "name": "Deshaun Watson",
+        "team": "CLE (13)",
+        "url": "/nfl/players/deshaun-watson.php"
+      },
+      "pos": "QB28",
+      "src_79": 200,
+      "src_4350": 171,
+      "src_80": null,
+      "src_291": 144,
+      "src_439": 256,
+      "src_624": 275,
+      "avg": 209.2
+    },
+    {
+      "id": 20163,
+      "rank": 203,
+      "player": {
+        "id": 20163,
+        "name": "Pat Freiermuth",
+        "team": "PIT (7)",
+        "url": "/nfl/players/pat-freiermuth.php"
+      },
+      "pos": "TE22",
+      "src_79": 201,
+      "src_4350": 180,
+      "src_80": null,
+      "src_291": 225,
+      "src_439": 230,
+      "src_624": 216,
+      "avg": 210.4
+    },
+    {
+      "id": 17236,
+      "rank": 204,
+      "player": {
+        "id": 17236,
+        "name": "Sam Darnold",
+        "team": "SEA (9)",
+        "url": "/nfl/players/sam-darnold.php"
+      },
+      "pos": "QB29",
+      "src_79": 218,
+      "src_4350": 216,
+      "src_80": null,
+      "src_291": 238,
+      "src_439": 194,
+      "src_624": 194,
+      "avg": 212
+    },
+    {
+      "id": 17514,
+      "rank": 205,
+      "player": {
+        "id": 17514,
+        "name": "Darrel Williams",
+        "team": "",
+        "url": "/nfl/players/darrel-williams.php"
+      },
+      "pos": "RB56",
+      "src_79": null,
+      "src_4350": 239,
+      "src_80": null,
+      "src_291": 240,
+      "src_439": 196,
+      "src_624": 220,
+      "avg": 213.2
+    },
+    {
+      "id": 16787,
+      "rank": 206,
+      "player": {
+        "id": 16787,
+        "name": "Anthony Firkser",
+        "team": "",
+        "url": "/nfl/players/anthony-firkser.php"
+      },
+      "pos": "TE23",
+      "src_79": 209,
+      "src_4350": 220,
+      "src_80": null,
+      "src_291": 264,
+      "src_439": 195,
+      "src_624": 189,
+      "avg": 215.4
+    },
+    {
+      "id": 13274,
+      "rank": 207,
+      "player": {
+        "id": 13274,
+        "name": "Brandon McManus",
+        "team": "",
+        "url": "/nfl/players/brandon-mcmanus.php"
+      },
+      "pos": "K14",
+      "src_79": 143,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 177,
+      "src_439": 238,
+      "src_624": 224,
+      "avg": 195.5
+    },
+    {
+      "id": 12143,
+      "rank": 208,
+      "player": {
+        "id": 12143,
+        "name": "Eric Ebron",
+        "team": "",
+        "url": "/nfl/players/eric-ebron.php"
+      },
+      "pos": "TE24",
+      "src_79": 171,
+      "src_4350": 212,
+      "src_80": null,
+      "src_291": 185,
+      "src_439": 225,
+      "src_624": 293,
+      "avg": 217.2
+    },
+    {
+      "id": 16638,
+      "rank": 209,
+      "player": {
+        "id": 16638,
+        "name": "Blake Jarwin",
+        "team": "",
+        "url": "/nfl/players/blake-jarwin.php"
+      },
+      "pos": "TE25",
+      "src_79": 217,
+      "src_4350": 218,
+      "src_80": null,
+      "src_291": 202,
+      "src_439": 236,
+      "src_624": 222,
+      "avg": 219
+    },
+    {
+      "id": 19799,
+      "rank": 210,
+      "player": {
+        "id": 19799,
+        "name": "Amon-Ra St. Brown",
+        "team": "DET (9)",
+        "url": "/nfl/players/amonra-stbrown.php"
+      },
+      "pos": "WR70",
+      "src_79": null,
+      "src_4350": 189,
+      "src_80": null,
+      "src_291": 203,
+      "src_439": 211,
+      "src_624": 191,
+      "avg": 198.5
+    },
+    {
+      "id": 9872,
+      "rank": 211,
+      "player": {
+        "id": 9872,
+        "name": "Mark Ingram II",
+        "team": "",
+        "url": "/nfl/players/mark-ingram.php"
+      },
+      "pos": "RB57",
+      "src_79": 220,
+      "src_4350": 234,
+      "src_80": null,
+      "src_291": 214,
+      "src_439": 193,
+      "src_624": 247,
+      "avg": 221.6
+    },
+    {
+      "id": 8260,
+      "rank": 212,
+      "player": {
+        "id": 8260,
+        "name": "Seattle Seahawks DST",
+        "team": "(9)",
+        "url": "/nfl/teams/seattle-defense.php"
+      },
+      "pos": "DST16",
+      "src_79": 207,
+      "src_4350": 233,
+      "src_80": null,
+      "src_291": 179,
+      "src_439": 287,
+      "src_624": 207,
+      "avg": 222.6
+    },
+    {
+      "id": 18463,
+      "rank": 213,
+      "player": {
+        "id": 18463,
+        "name": "Parris Campbell",
+        "team": "",
+        "url": "/nfl/players/parris-campbell.php"
+      },
+      "pos": "WR71",
+      "src_79": 165,
+      "src_4350": 214,
+      "src_80": null,
+      "src_291": 293,
+      "src_439": 234,
+      "src_624": 212,
+      "avg": 223.6
+    },
+    {
+      "id": 16450,
+      "rank": 214,
+      "player": {
+        "id": 16450,
+        "name": "Tarik Cohen",
+        "team": "",
+        "url": "/nfl/players/tarik-cohen.php"
+      },
+      "pos": "RB58",
+      "src_79": null,
+      "src_4350": 254,
+      "src_80": null,
+      "src_291": 186,
+      "src_439": 209,
+      "src_624": 177,
+      "avg": 206.5
+    },
+    {
+      "id": 19482,
+      "rank": 215,
+      "player": {
+        "id": 19482,
+        "name": "Tony Jones Jr.",
+        "team": "",
+        "url": "/nfl/players/tony-jones-rb.php"
+      },
+      "pos": "RB59",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 300,
+      "src_439": 150,
+      "src_624": 208,
+      "avg": 207
+    },
+    {
+      "id": 8050,
+      "rank": 216,
+      "player": {
+        "id": 8050,
+        "name": "Chicago Bears DST",
+        "team": "(10)",
+        "url": "/nfl/teams/chicago-defense.php"
+      },
+      "pos": "DST17",
+      "src_79": 202,
+      "src_4350": 227,
+      "src_80": null,
+      "src_291": 183,
+      "src_439": 231,
+      "src_624": 289,
+      "avg": 226.4
+    },
+    {
+      "id": 19423,
+      "rank": 217,
+      "player": {
+        "id": 19423,
+        "name": "Adam Trautman",
+        "team": "DEN (11)",
+        "url": "/nfl/players/adam-trautman.php"
+      },
+      "pos": "TE26",
+      "src_79": null,
+      "src_4350": 200,
+      "src_80": null,
+      "src_291": 220,
+      "src_439": 242,
+      "src_624": 168,
+      "avg": 207.5
+    },
+    {
+      "id": 9534,
+      "rank": 218,
+      "player": {
+        "id": 9534,
+        "name": "Robbie Gould",
+        "team": "",
+        "url": "/nfl/players/robbie-gould.php"
+      },
+      "pos": "K15",
+      "src_79": 205,
+      "src_4350": 188,
+      "src_80": null,
+      "src_291": 210,
+      "src_439": 235,
+      "src_624": 301,
+      "avg": 227.8
+    },
+    {
+      "id": 17268,
+      "rank": 219,
+      "player": {
+        "id": 17268,
+        "name": "Christian Kirk",
+        "team": "SF (6)",
+        "url": "/nfl/players/christian-kirk.php"
+      },
+      "pos": "WR72",
+      "src_79": null,
+      "src_4350": 219,
+      "src_80": null,
+      "src_291": 255,
+      "src_439": 181,
+      "src_624": 182,
+      "avg": 209.3
+    },
+    {
+      "id": 13976,
+      "rank": 220,
+      "player": {
+        "id": 13976,
+        "name": "Jamison Crowder",
+        "team": "",
+        "url": "/nfl/players/jamison-crowder.php"
+      },
+      "pos": "WR73",
+      "src_79": 230,
+      "src_4350": 222,
+      "src_80": null,
+      "src_291": 247,
+      "src_439": 266,
+      "src_624": 154,
+      "avg": 228.2
+    },
+    {
+      "id": 18406,
+      "rank": 221,
+      "player": {
+        "id": 18406,
+        "name": "Ty Johnson",
+        "team": "BUF (7)",
+        "url": "/nfl/players/ty-johnson.php"
+      },
+      "pos": "RB60",
+      "src_79": null,
+      "src_4350": 232,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 216,
+      "src_624": 234,
+      "avg": 210.5
+    },
+    {
+      "id": 11206,
+      "rank": 222,
+      "player": {
+        "id": 11206,
+        "name": "T.Y. Hilton",
+        "team": "",
+        "url": "/nfl/players/ty-hilton.php"
+      },
+      "pos": "WR74",
+      "src_79": null,
+      "src_4350": 199,
+      "src_80": null,
+      "src_291": 162,
+      "src_439": 285,
+      "src_624": 196,
+      "avg": 210.5
+    },
+    {
+      "id": 12334,
+      "rank": 223,
+      "player": {
+        "id": 12334,
+        "name": "Damien Williams",
+        "team": "",
+        "url": "/nfl/players/damien-williams.php"
+      },
+      "pos": "RB61",
+      "src_79": null,
+      "src_4350": 210,
+      "src_80": null,
+      "src_291": 276,
+      "src_439": 176,
+      "src_624": 184,
+      "avg": 211.5
+    },
+    {
+      "id": 8300,
+      "rank": 224,
+      "player": {
+        "id": 8300,
+        "name": "Tennessee Titans DST",
+        "team": "(13)",
+        "url": "/nfl/teams/tennessee-defense.php"
+      },
+      "pos": "DST18",
+      "src_79": 225,
+      "src_4350": 241,
+      "src_80": null,
+      "src_291": 218,
+      "src_439": 293,
+      "src_624": 175,
+      "avg": 230.4
+    },
+    {
+      "id": 8170,
+      "rank": 225,
+      "player": {
+        "id": 8170,
+        "name": "Minnesota Vikings DST",
+        "team": "(7)",
+        "url": "/nfl/teams/minnesota-defense.php"
+      },
+      "pos": "DST19",
+      "src_79": 183,
+      "src_4350": 201,
+      "src_80": null,
+      "src_291": 215,
+      "src_439": 251,
+      "src_624": 312,
+      "avg": 232.4
+    },
+    {
+      "id": 15520,
+      "rank": 226,
+      "player": {
+        "id": 15520,
+        "name": "Carson Wentz",
+        "team": "MIN (7)",
+        "url": "/nfl/players/carson-wentz.php"
+      },
+      "pos": "QB30",
+      "src_79": 211,
+      "src_4350": 242,
+      "src_80": null,
+      "src_291": 224,
+      "src_439": 177,
+      "src_624": 305,
+      "avg": 231.8
+    },
+    {
+      "id": 19794,
+      "rank": 227,
+      "player": {
+        "id": 19794,
+        "name": "Rashod Bateman",
+        "team": "BAL (8)",
+        "url": "/nfl/players/rashod-bateman.php"
+      },
+      "pos": "WR75",
+      "src_79": null,
+      "src_4350": 173,
+      "src_80": null,
+      "src_291": 266,
+      "src_439": 253,
+      "src_624": 165,
+      "avg": 214.3
+    },
+    {
+      "id": 17261,
+      "rank": 228,
+      "player": {
+        "id": 17261,
+        "name": "Tre'Quan Smith",
+        "team": "",
+        "url": "/nfl/players/trequan-smith.php"
+      },
+      "pos": "WR76",
+      "src_79": null,
+      "src_4350": 215,
+      "src_80": null,
+      "src_291": 281,
+      "src_439": 198,
+      "src_624": 169,
+      "avg": 215.8
+    },
+    {
+      "id": 13953,
+      "rank": 229,
+      "player": {
+        "id": 13953,
+        "name": "Malcolm Brown",
+        "team": "",
+        "url": "/nfl/players/malcolm-brown.php"
+      },
+      "pos": "RB62",
+      "src_79": 188,
+      "src_4350": 246,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 222,
+      "src_624": 217,
+      "avg": 218.3
+    },
+    {
+      "id": 16444,
+      "rank": 230,
+      "player": {
+        "id": 16444,
+        "name": "Marlon Mack",
+        "team": "",
+        "url": "/nfl/players/marlon-mack.php"
+      },
+      "pos": "RB63",
+      "src_79": null,
+      "src_4350": 217,
+      "src_80": null,
+      "src_291": 251,
+      "src_439": 226,
+      "src_624": 200,
+      "avg": 223.5
+    },
+    {
+      "id": 9232,
+      "rank": 231,
+      "player": {
+        "id": 9232,
+        "name": "Graham Gano",
+        "team": "",
+        "url": "/nfl/players/graham-gano.php"
+      },
+      "pos": "K16",
+      "src_79": 137,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 217,
+      "src_439": 240,
+      "src_624": 324,
+      "avg": 229.5
+    },
+    {
+      "id": 15555,
+      "rank": 232,
+      "player": {
+        "id": 15555,
+        "name": "Devontae Booker",
+        "team": "",
+        "url": "/nfl/players/devontae-booker.php"
+      },
+      "pos": "RB64",
+      "src_79": null,
+      "src_4350": 198,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 199,
+      "src_624": 203,
+      "avg": 200
+    },
+    {
+      "id": 8000,
+      "rank": 233,
+      "player": {
+        "id": 8000,
+        "name": "Arizona Cardinals DST",
+        "team": "(12)",
+        "url": "/nfl/teams/arizona-defense.php"
+      },
+      "pos": "DST20",
+      "src_79": 222,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 158,
+      "src_439": 296,
+      "src_624": 232,
+      "avg": 227
+    },
+    {
+      "id": 17301,
+      "rank": 234,
+      "player": {
+        "id": 17301,
+        "name": "Allen Lazard",
+        "team": "",
+        "url": "/nfl/players/allen-lazard.php"
+      },
+      "pos": "WR77",
+      "src_79": null,
+      "src_4350": 244,
+      "src_80": null,
+      "src_291": 226,
+      "src_439": 223,
+      "src_624": 218,
+      "avg": 227.8
+    },
+    {
+      "id": 16026,
+      "rank": 235,
+      "player": {
+        "id": 16026,
+        "name": "Wil Lutz",
+        "team": "DEN (11)",
+        "url": "/nfl/players/wil-lutz.php"
+      },
+      "pos": "K17",
+      "src_79": null,
+      "src_4350": 247,
+      "src_80": null,
+      "src_291": 138,
+      "src_439": null,
+      "src_624": 228,
+      "avg": 204.3
+    },
+    {
+      "id": 8250,
+      "rank": 236,
+      "player": {
+        "id": 8250,
+        "name": "Los Angeles Chargers DST",
+        "team": "(7)",
+        "url": "/nfl/teams/los-angeles-chargers-defense.php"
+      },
+      "pos": "DST21",
+      "src_79": 228,
+      "src_4350": 230,
+      "src_80": null,
+      "src_291": 223,
+      "src_439": 237,
+      "src_624": 310,
+      "avg": 245.6
+    },
+    {
+      "id": 17528,
+      "rank": 237,
+      "player": {
+        "id": 17528,
+        "name": "Marquez Valdes-Scantling",
+        "team": "DAL (7)",
+        "url": "/nfl/players/marquez-valdesscantling.php"
+      },
+      "pos": "WR78",
+      "src_79": null,
+      "src_4350": 205,
+      "src_80": null,
+      "src_291": 245,
+      "src_439": 219,
+      "src_624": 251,
+      "avg": 230
+    },
+    {
+      "id": 8040,
+      "rank": 238,
+      "player": {
+        "id": 8040,
+        "name": "Carolina Panthers DST",
+        "team": "(13)",
+        "url": "/nfl/teams/carolina-defense.php"
+      },
+      "pos": "DST22",
+      "src_79": 232,
+      "src_4350": 226,
+      "src_80": null,
+      "src_291": 231,
+      "src_439": 252,
+      "src_624": 288,
+      "avg": 245.8
+    },
+    {
+      "id": 11645,
+      "rank": 239,
+      "player": {
+        "id": 11645,
+        "name": "Le'Veon Bell",
+        "team": "",
+        "url": "/nfl/players/leveon-bell.php"
+      },
+      "pos": "RB65",
+      "src_79": 216,
+      "src_4350": 238,
+      "src_80": null,
+      "src_291": 263,
+      "src_439": 212,
+      "src_624": null,
+      "avg": 232.3
+    },
+    {
+      "id": 9869,
+      "rank": 240,
+      "player": {
+        "id": 9869,
+        "name": "Cam Newton",
+        "team": "",
+        "url": "/nfl/players/cam-newton.php"
+      },
+      "pos": "QB31",
+      "src_79": 229,
+      "src_4350": 258,
+      "src_80": null,
+      "src_291": 198,
+      "src_439": null,
+      "src_624": 254,
+      "avg": 234.8
+    },
+    {
+      "id": 13029,
+      "rank": 241,
+      "player": {
+        "id": 13029,
+        "name": "Chris Boswell",
+        "team": "PIT (7)",
+        "url": "/nfl/players/chris-boswell.php"
+      },
+      "pos": "K18",
+      "src_79": 215,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 193,
+      "src_439": 229,
+      "src_624": 321,
+      "avg": 239.5
+    },
+    {
+      "id": 12209,
+      "rank": 242,
+      "player": {
+        "id": 12209,
+        "name": "Jerick McKinnon",
+        "team": "",
+        "url": "/nfl/players/jerick-mckinnon.php"
+      },
+      "pos": "RB66",
+      "src_79": null,
+      "src_4350": 237,
+      "src_80": null,
+      "src_291": 269,
+      "src_439": 178,
+      "src_624": 258,
+      "avg": 235.5
+    },
+    {
+      "id": 12118,
+      "rank": 243,
+      "player": {
+        "id": 12118,
+        "name": "Sammy Watkins",
+        "team": "",
+        "url": "/nfl/players/sammy-watkins.php"
+      },
+      "pos": "WR79",
+      "src_79": null,
+      "src_4350": 207,
+      "src_80": null,
+      "src_291": 237,
+      "src_439": 239,
+      "src_624": 261,
+      "avg": 236
+    },
+    {
+      "id": 15501,
+      "rank": 244,
+      "player": {
+        "id": 15501,
+        "name": "Jared Goff",
+        "team": "DET (9)",
+        "url": "/nfl/players/jared-goff.php"
+      },
+      "pos": "QB32",
+      "src_79": 208,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 244,
+      "src_439": 279,
+      "src_624": 221,
+      "avg": 238
+    },
+    {
+      "id": 17612,
+      "rank": 245,
+      "player": {
+        "id": 17612,
+        "name": "Boston Scott",
+        "team": "",
+        "url": "/nfl/players/boston-scott.php"
+      },
+      "pos": "RB67",
+      "src_79": null,
+      "src_4350": 204,
+      "src_80": null,
+      "src_291": 297,
+      "src_439": 206,
+      "src_624": 248,
+      "avg": 238.8
+    },
+    {
+      "id": 19268,
+      "rank": 246,
+      "player": {
+        "id": 19268,
+        "name": "Cam Akers",
+        "team": "",
+        "url": "/nfl/players/cam-akers.php"
+      },
+      "pos": "RB68",
+      "src_79": 226,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 134,
+      "src_439": null,
+      "src_624": 455,
+      "avg": 271.7
+    },
+    {
+      "id": 16380,
+      "rank": 247,
+      "player": {
+        "id": 16380,
+        "name": "O.J. Howard",
+        "team": "",
+        "url": "/nfl/players/oj-howard.php"
+      },
+      "pos": "TE27",
+      "src_79": 221,
+      "src_4350": 243,
+      "src_80": null,
+      "src_291": 270,
+      "src_439": 278,
+      "src_624": 262,
+      "avg": 254.8
+    },
+    {
+      "id": 20119,
+      "rank": 248,
+      "player": {
+        "id": 20119,
+        "name": "Kadarius Toney",
+        "team": "",
+        "url": "/nfl/players/kadarius-toney.php"
+      },
+      "pos": "WR80",
+      "src_79": null,
+      "src_4350": 224,
+      "src_80": null,
+      "src_291": 261,
+      "src_439": 249,
+      "src_624": 241,
+      "avg": 243.8
+    },
+    {
+      "id": 13912,
+      "rank": 249,
+      "player": {
+        "id": 13912,
+        "name": "Todd Gurley II",
+        "team": "",
+        "url": "/nfl/players/todd-gurley.php"
+      },
+      "pos": "RB69",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 212,
+      "src_439": 241,
+      "src_624": 223,
+      "avg": 225.3
+    },
+    {
+      "id": 12088,
+      "rank": 250,
+      "player": {
+        "id": 12088,
+        "name": "Teddy Bridgewater",
+        "team": "",
+        "url": "/nfl/players/teddy-bridgewater.php"
+      },
+      "pos": "QB33",
+      "src_79": 206,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 239,
+      "src_439": 263,
+      "src_624": 287,
+      "avg": 248.8
+    },
+    {
+      "id": 23297,
+      "rank": 251,
+      "player": {
+        "id": 23297,
+        "name": "Evan McPherson",
+        "team": "CIN (10)",
+        "url": "/nfl/players/evan-mcpherson.php"
+      },
+      "pos": "K19",
+      "src_79": 219,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 273,
+      "src_439": 254,
+      "src_624": 249,
+      "avg": 248.8
+    },
+    {
+      "id": 12105,
+      "rank": 252,
+      "player": {
+        "id": 12105,
+        "name": "Carlos Hyde",
+        "team": "",
+        "url": "/nfl/players/carlos-hyde.php"
+      },
+      "pos": "RB70",
+      "src_79": null,
+      "src_4350": 228,
+      "src_80": null,
+      "src_291": 278,
+      "src_439": 213,
+      "src_624": 279,
+      "avg": 249.5
+    },
+    {
+      "id": 20132,
+      "rank": 253,
+      "player": {
+        "id": 20132,
+        "name": "Amari Rodgers",
+        "team": "",
+        "url": "/nfl/players/amari-rodgers.php"
+      },
+      "pos": "WR81",
+      "src_79": null,
+      "src_4350": 249,
+      "src_80": null,
+      "src_291": 257,
+      "src_439": 200,
+      "src_624": 332,
+      "avg": 259.5
+    },
+    {
+      "id": 19418,
+      "rank": 254,
+      "player": {
+        "id": 19418,
+        "name": "Darrynton Evans",
+        "team": "",
+        "url": "/nfl/players/darrynton-evans.php"
+      },
+      "pos": "RB71",
+      "src_79": null,
+      "src_4350": 260,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 215,
+      "src_624": 239,
+      "avg": 238
+    },
+    {
+      "id": 20130,
+      "rank": 255,
+      "player": {
+        "id": 20130,
+        "name": "Nico Collins",
+        "team": "HOU (10)",
+        "url": "/nfl/players/nico-collins.php"
+      },
+      "pos": "WR82",
+      "src_79": null,
+      "src_4350": 252,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 257,
+      "src_624": 214,
+      "avg": 241
+    },
+    {
+      "id": 9690,
+      "rank": 256,
+      "player": {
+        "id": 9690,
+        "name": "Tim Tebow",
+        "team": "",
+        "url": "/nfl/players/tim-tebow.php"
+      },
+      "pos": "TE28",
+      "src_79": null,
+      "src_4350": 223,
+      "src_80": null,
+      "src_291": 260,
+      "src_439": null,
+      "src_624": 250,
+      "avg": 244.3
+    },
+    {
+      "id": 18609,
+      "rank": 257,
+      "player": {
+        "id": 18609,
+        "name": "Benny Snell Jr.",
+        "team": "",
+        "url": "/nfl/players/benjamin-snell-jr.php"
+      },
+      "pos": "RB72",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 280,
+      "src_439": 228,
+      "src_624": 226,
+      "avg": 244.7
+    },
+    {
+      "id": 8080,
+      "rank": 258,
+      "player": {
+        "id": 8080,
+        "name": "Dallas Cowboys DST",
+        "team": "(7)",
+        "url": "/nfl/teams/dallas-defense.php"
+      },
+      "pos": "DST23",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 195,
+      "src_439": 274,
+      "src_624": 268,
+      "avg": 245.7
+    },
+    {
+      "id": 22845,
+      "rank": 259,
+      "player": {
+        "id": 22845,
+        "name": "Joshua Palmer",
+        "team": "BUF (7)",
+        "url": "/nfl/players/josh-palmer.php"
+      },
+      "pos": "WR83",
+      "src_79": null,
+      "src_4350": 235,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 227,
+      "src_624": 276,
+      "avg": 246
+    },
+    {
+      "id": 17283,
+      "rank": 260,
+      "player": {
+        "id": 17283,
+        "name": "Hayden Hurst",
+        "team": "",
+        "url": "/nfl/players/hayden-hurst.php"
+      },
+      "pos": "TE29",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 235,
+      "src_439": 295,
+      "src_624": 210,
+      "avg": 246.7
+    },
+    {
+      "id": 18345,
+      "rank": 261,
+      "player": {
+        "id": 18345,
+        "name": "Hunter Renfrow",
+        "team": "",
+        "url": "/nfl/players/hunter-renfrow.php"
+      },
+      "pos": "WR84",
+      "src_79": null,
+      "src_4350": 245,
+      "src_80": null,
+      "src_291": 277,
+      "src_439": 255,
+      "src_624": 266,
+      "avg": 260.8
+    },
+    {
+      "id": 17115,
+      "rank": 262,
+      "player": {
+        "id": 17115,
+        "name": "Taysom Hill",
+        "team": "",
+        "url": "/nfl/players/taysom-hill.php"
+      },
+      "pos": "TE30",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 234,
+      "src_439": 298,
+      "src_624": 209,
+      "avg": 247
+    },
+    {
+      "id": 11613,
+      "rank": 263,
+      "player": {
+        "id": 11613,
+        "name": "Cordarrelle Patterson",
+        "team": "",
+        "url": "/nfl/players/cordarrelle-patterson.php"
+      },
+      "pos": "RB73",
+      "src_79": null,
+      "src_4350": 231,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 258,
+      "src_624": 256,
+      "avg": 248.3
+    },
+    {
+      "id": 14327,
+      "rank": 264,
+      "player": {
+        "id": 14327,
+        "name": "Josh Lambo",
+        "team": "",
+        "url": "/nfl/players/josh-lambo.php"
+      },
+      "pos": "K20",
+      "src_79": 231,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 274,
+      "src_439": 245,
+      "src_624": 344,
+      "avg": 273.5
+    },
+    {
+      "id": 19449,
+      "rank": 265,
+      "player": {
+        "id": 19449,
+        "name": "Salvon Ahmed",
+        "team": "CHI (10)",
+        "url": "/nfl/players/salvon-ahmed.php"
+      },
+      "pos": "RB74",
+      "src_79": null,
+      "src_4350": 255,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 259,
+      "src_624": 237,
+      "avg": 250.3
+    },
+    {
+      "id": 19438,
+      "rank": 266,
+      "player": {
+        "id": 19438,
+        "name": "J.J. Taylor",
+        "team": "",
+        "url": "/nfl/players/jj-taylor.php"
+      },
+      "pos": "RB75",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 295,
+      "src_439": 248,
+      "src_624": 211,
+      "avg": 251.3
+    },
+    {
+      "id": 17300,
+      "rank": 267,
+      "player": {
+        "id": 17300,
+        "name": "Justin Jackson",
+        "team": "",
+        "url": "/nfl/players/justin-jackson-rb.php"
+      },
+      "pos": "RB76",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 217,
+      "src_624": 253,
+      "avg": 235
+    },
+    {
+      "id": 13731,
+      "rank": 268,
+      "player": {
+        "id": 13731,
+        "name": "Cairo Santos",
+        "team": "CHI (10)",
+        "url": "/nfl/players/cairo-santos.php"
+      },
+      "pos": "K21",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 171,
+      "src_439": null,
+      "src_624": 328,
+      "avg": 249.5
+    },
+    {
+      "id": 9712,
+      "rank": 269,
+      "player": {
+        "id": 9712,
+        "name": "Jimmy Graham",
+        "team": "",
+        "url": "/nfl/players/jimmy-graham.php"
+      },
+      "pos": "TE31",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 230,
+      "src_439": 286,
+      "src_624": 265,
+      "avg": 260.3
+    },
+    {
+      "id": 19298,
+      "rank": 270,
+      "player": {
+        "id": 19298,
+        "name": "Donovan Peoples-Jones",
+        "team": "",
+        "url": "/nfl/players/donovan-peoples-jones.php"
+      },
+      "pos": "WR85",
+      "src_79": null,
+      "src_4350": 236,
+      "src_80": null,
+      "src_291": 284,
+      "src_439": 283,
+      "src_624": 282,
+      "avg": 271.3
+    },
+    {
+      "id": 12208,
+      "rank": 271,
+      "player": {
+        "id": 12208,
+        "name": "Jimmy Garoppolo",
+        "team": "LAR (11)",
+        "url": "/nfl/players/jimmy-garoppolo.php"
+      },
+      "pos": "QB34",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 228,
+      "src_439": 267,
+      "src_624": 292,
+      "avg": 262.3
+    },
+    {
+      "id": 17415,
+      "rank": 272,
+      "player": {
+        "id": 17415,
+        "name": "Jordan Akins",
+        "team": "",
+        "url": "/nfl/players/jordan-akins.php"
+      },
+      "pos": "TE32",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 186,
+      "avg": 186
+    },
+    {
+      "id": 12231,
+      "rank": 273,
+      "player": {
+        "id": 12231,
+        "name": "John Brown",
+        "team": "",
+        "url": "/nfl/players/john-brown.php"
+      },
+      "pos": "WR86",
+      "src_79": null,
+      "src_4350": 264,
+      "src_80": null,
+      "src_291": 227,
+      "src_439": null,
+      "src_624": 330,
+      "avg": 273.7
+    },
+    {
+      "id": 8200,
+      "rank": 274,
+      "player": {
+        "id": 8200,
+        "name": "New York Giants DST",
+        "team": "(10)",
+        "url": "/nfl/teams/new-york-giants-defense.php"
+      },
+      "pos": "DST24",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 209,
+      "src_439": 292,
+      "src_624": 316,
+      "avg": 272.3
+    },
+    {
+      "id": 11818,
+      "rank": 275,
+      "player": {
+        "id": 11818,
+        "name": "Dustin Hopkins",
+        "team": "",
+        "url": "/nfl/players/dustin-hopkins.php"
+      },
+      "pos": "K22",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 256,
+      "src_439": 246,
+      "src_624": 357,
+      "avg": 286.3
+    },
+    {
+      "id": 19756,
+      "rank": 276,
+      "player": {
+        "id": 19756,
+        "name": "Giovanni Ricci",
+        "team": "",
+        "url": "/nfl/players/giovanni-ricci.php"
+      },
+      "pos": "TE33",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 200,
+      "src_439": null,
+      "src_624": null,
+      "avg": 200
+    },
+    {
+      "id": 17349,
+      "rank": 277,
+      "player": {
+        "id": 17349,
+        "name": "Dalton Schultz",
+        "team": "HOU (10)",
+        "url": "/nfl/players/dalton-schultz.php"
+      },
+      "pos": "TE34",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 242,
+      "src_439": 262,
+      "src_624": 303,
+      "avg": 269
+    },
+    {
+      "id": 16422,
+      "rank": 278,
+      "player": {
+        "id": 16422,
+        "name": "Wayne Gallman Jr.",
+        "team": "",
+        "url": "/nfl/players/wayne-gallman.php"
+      },
+      "pos": "RB77",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 221,
+      "src_624": 284,
+      "avg": 252.5
+    },
+    {
+      "id": 18026,
+      "rank": 279,
+      "player": {
+        "id": 18026,
+        "name": "Jeff Wilson Jr.",
+        "team": "",
+        "url": "/nfl/players/jeffery-wilson.php"
+      },
+      "pos": "RB78",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 272,
+      "src_624": 233,
+      "avg": 252.5
+    },
+    {
+      "id": 22762,
+      "rank": 280,
+      "player": {
+        "id": 22762,
+        "name": "Javian Hawkins",
+        "team": "TEN (13)",
+        "url": "/nfl/players/javian-hawkins.php"
+      },
+      "pos": "RB79",
+      "src_79": null,
+      "src_4350": 265,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 242,
+      "avg": 253.5
+    },
+    {
+      "id": 18689,
+      "rank": 281,
+      "player": {
+        "id": 18689,
+        "name": "Austin Seibert",
+        "team": "",
+        "url": "/nfl/players/austin-seibert.php"
+      },
+      "pos": "K23",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 211,
+      "src_439": null,
+      "src_624": null,
+      "avg": 211
+    },
+    {
+      "id": 19058,
+      "rank": 282,
+      "player": {
+        "id": 19058,
+        "name": "Chase McLaughlin",
+        "team": "TB (9)",
+        "url": "/nfl/players/chase-mclaughlin.php"
+      },
+      "pos": "K24",
+      "src_79": 212,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 356,
+      "avg": 284
+    },
+    {
+      "id": 19562,
+      "rank": 283,
+      "player": {
+        "id": 19562,
+        "name": "Juwan Johnson",
+        "team": "NO (6)",
+        "url": "/nfl/players/juwan-johnson.php"
+      },
+      "pos": "TE35",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 273,
+      "src_624": 245,
+      "avg": 259
+    },
+    {
+      "id": 18631,
+      "rank": 284,
+      "player": {
+        "id": 18631,
+        "name": "Dawson Knox",
+        "team": "BUF (7)",
+        "url": "/nfl/players/dawson-knox.php"
+      },
+      "pos": "TE36",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 254,
+      "src_439": 264,
+      "src_624": 304,
+      "avg": 274
+    },
+    {
+      "id": 17693,
+      "rank": 285,
+      "player": {
+        "id": 17693,
+        "name": "Michael Badgley",
+        "team": "",
+        "url": "/nfl/players/michael-badgley.php"
+      },
+      "pos": "K25",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 216,
+      "src_439": null,
+      "src_624": 345,
+      "avg": 280.5
+    },
+    {
+      "id": 8230,
+      "rank": 286,
+      "player": {
+        "id": 8230,
+        "name": "Philadelphia Eagles DST",
+        "team": "(14)",
+        "url": "/nfl/teams/philadelphia-defense.php"
+      },
+      "pos": "DST25",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 222,
+      "src_439": 297,
+      "src_624": 348,
+      "avg": 289
+    },
+    {
+      "id": 22813,
+      "rank": 287,
+      "player": {
+        "id": 22813,
+        "name": "Elijah Mitchell",
+        "team": "",
+        "url": "/nfl/players/elijah-mitchell-rb.php"
+      },
+      "pos": "RB80",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 219,
+      "avg": 219
+    },
+    {
+      "id": 19344,
+      "rank": 288,
+      "player": {
+        "id": 19344,
+        "name": "Denzel Mims",
+        "team": "DAL (7)",
+        "url": "/nfl/players/denzel-mims.php"
+      },
+      "pos": "WR87",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 260,
+      "src_624": 263,
+      "avg": 261.5
+    },
+    {
+      "id": 15756,
+      "rank": 289,
+      "player": {
+        "id": 15756,
+        "name": "Ka'imi Fairbairn",
+        "team": "HOU (10)",
+        "url": "/nfl/players/kaimi-fairbairn.php"
+      },
+      "pos": "K26",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 221,
+      "src_439": null,
+      "src_624": 342,
+      "avg": 281.5
+    },
+    {
+      "id": 13960,
+      "rank": 290,
+      "player": {
+        "id": 13960,
+        "name": "Tyler Kroft",
+        "team": "",
+        "url": "/nfl/players/tyler-kroft.php"
+      },
+      "pos": "TE37",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 284,
+      "src_624": 246,
+      "avg": 265
+    },
+    {
+      "id": 16319,
+      "rank": 291,
+      "player": {
+        "id": 16319,
+        "name": "Sam Ficken",
+        "team": "",
+        "url": "/nfl/players/sam-ficken.php"
+      },
+      "pos": "K27",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 229,
+      "avg": 229
+    },
+    {
+      "id": 17739,
+      "rank": 292,
+      "player": {
+        "id": 17739,
+        "name": "Byron Pringle",
+        "team": "",
+        "url": "/nfl/players/byron-pringle.php"
+      },
+      "pos": "WR88",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 244,
+      "src_624": 290,
+      "avg": 267
+    },
+    {
+      "id": 16540,
+      "rank": 293,
+      "player": {
+        "id": 16540,
+        "name": "Jake Elliott",
+        "team": "PHI (14)",
+        "url": "/nfl/players/jake-elliott.php"
+      },
+      "pos": "K28",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 232,
+      "src_439": null,
+      "src_624": 340,
+      "avg": 286
+    },
+    {
+      "id": 8140,
+      "rank": 294,
+      "player": {
+        "id": 8140,
+        "name": "Jacksonville Jaguars DST",
+        "team": "(7)",
+        "url": "/nfl/teams/jacksonville-defense.php"
+      },
+      "pos": "DST26",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 287,
+      "src_439": 250,
+      "src_624": 336,
+      "avg": 291
+    },
+    {
+      "id": 9186,
+      "rank": 295,
+      "player": {
+        "id": 9186,
+        "name": "DeSean Jackson",
+        "team": "",
+        "url": "/nfl/players/desean-jackson.php"
+      },
+      "pos": "WR89",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 267,
+      "src_439": 300,
+      "src_624": 274,
+      "avg": 280.3
+    },
+    {
+      "id": 19366,
+      "rank": 296,
+      "player": {
+        "id": 19366,
+        "name": "Anthony McFarland Jr.",
+        "team": "",
+        "url": "/nfl/players/anthony-mcfarland.php"
+      },
+      "pos": "RB81",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 236,
+      "avg": 236
+    },
+    {
+      "id": 9907,
+      "rank": 297,
+      "player": {
+        "id": 9907,
+        "name": "Andy Dalton",
+        "team": "PHI (14)",
+        "url": "/nfl/players/andy-dalton.php"
+      },
+      "pos": "QB35",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 238,
+      "avg": 238
+    },
+    {
+      "id": 19445,
+      "rank": 298,
+      "player": {
+        "id": 19445,
+        "name": "Joshua Kelley",
+        "team": "",
+        "url": "/nfl/players/joshua-kelley.php"
+      },
+      "pos": "RB82",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 243,
+      "src_624": 298,
+      "avg": 270.5
+    },
+    {
+      "id": 17143,
+      "rank": 299,
+      "player": {
+        "id": 17143,
+        "name": "Dan Arnold",
+        "team": "",
+        "url": "/nfl/players/dan-arnold.php"
+      },
+      "pos": "TE38",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 289,
+      "src_624": 252,
+      "avg": 270.5
+    },
+    {
+      "id": 19537,
+      "rank": 300,
+      "player": {
+        "id": 19537,
+        "name": "Larry Rountree III",
+        "team": "",
+        "url": "/nfl/players/larry-rountree.php"
+      },
+      "pos": "RB83",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 247,
+      "src_624": 295,
+      "avg": 271
+    },
+    {
+      "id": 23190,
+      "rank": 301,
+      "player": {
+        "id": 23190,
+        "name": "Jake Funk",
+        "team": "",
+        "url": "/nfl/players/jake-funk.php"
+      },
+      "pos": "RB84",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 240,
+      "avg": 240
+    },
+    {
+      "id": 19493,
+      "rank": 302,
+      "player": {
+        "id": 19493,
+        "name": "Xavier Jones",
+        "team": "",
+        "url": "/nfl/players/xavier-jones.php"
+      },
+      "pos": "RB85",
+      "src_79": null,
+      "src_4350": 240,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 454,
+      "avg": 347
+    },
+    {
+      "id": 8220,
+      "rank": 303,
+      "player": {
+        "id": 8220,
+        "name": "Las Vegas Raiders DST",
+        "team": "(8)",
+        "url": "/nfl/teams/las-vegas-defense.php"
+      },
+      "pos": "DST27",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 243,
+      "src_439": null,
+      "src_624": null,
+      "avg": 243
+    },
+    {
+      "id": 17245,
+      "rank": 304,
+      "player": {
+        "id": 17245,
+        "name": "Royce Freeman",
+        "team": "",
+        "url": "/nfl/players/royce-freeman.php"
+      },
+      "pos": "RB86",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 244,
+      "avg": 244
+    },
+    {
+      "id": 17737,
+      "rank": 305,
+      "player": {
+        "id": 17737,
+        "name": "Detrez Newsome",
+        "team": "",
+        "url": "/nfl/players/detrez-newsome.php"
+      },
+      "pos": "RB87",
+      "src_79": null,
+      "src_4350": 248,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 248
+    },
+    {
+      "id": 9573,
+      "rank": 306,
+      "player": {
+        "id": 9573,
+        "name": "Stephen Gostkowski",
+        "team": "",
+        "url": "/nfl/players/stephen-gostkowski.php"
+      },
+      "pos": "K29",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 249,
+      "src_439": null,
+      "src_624": null,
+      "avg": 249
+    },
+    {
+      "id": 15905,
+      "rank": 307,
+      "player": {
+        "id": 15905,
+        "name": "Paul McRoberts",
+        "team": "",
+        "url": "/nfl/players/paul-mcroberts.php"
+      },
+      "pos": "WR90",
+      "src_79": null,
+      "src_4350": 250,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 250
+    },
+    {
+      "id": 16007,
+      "rank": 308,
+      "player": {
+        "id": 16007,
+        "name": "Jon Brown",
+        "team": "",
+        "url": "/nfl/players/jonathan-brown-k.php"
+      },
+      "pos": "K30",
+      "src_79": null,
+      "src_4350": 251,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 251
+    },
+    {
+      "id": 20155,
+      "rank": 309,
+      "player": {
+        "id": 20155,
+        "name": "Jaret Patterson",
+        "team": "LAC (7)",
+        "url": "/nfl/players/jaret-patterson.php"
+      },
+      "pos": "RB88",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 268,
+      "src_624": 286,
+      "avg": 277
+    },
+    {
+      "id": 9491,
+      "rank": 310,
+      "player": {
+        "id": 9491,
+        "name": "Nick Folk",
+        "team": "ATL (6)",
+        "url": "/nfl/players/nick-folk.php"
+      },
+      "pos": "K31",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 252,
+      "src_439": null,
+      "src_624": 338,
+      "avg": 295
+    },
+    {
+      "id": 20014,
+      "rank": 311,
+      "player": {
+        "id": 20014,
+        "name": "Nick Tiano",
+        "team": "",
+        "url": "/nfl/players/nick-tiano.php"
+      },
+      "pos": "QB36",
+      "src_79": null,
+      "src_4350": 253,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 253
+    },
+    {
+      "id": 19028,
+      "rank": 312,
+      "player": {
+        "id": 19028,
+        "name": "Joey Slye",
+        "team": "TEN (13)",
+        "url": "/nfl/players/joey-slye.php"
+      },
+      "pos": "K32",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 253,
+      "src_439": null,
+      "src_624": 347,
+      "avg": 300
+    },
+    {
+      "id": 15665,
+      "rank": 313,
+      "player": {
+        "id": 15665,
+        "name": "Demarcus Robinson",
+        "team": "SF (6)",
+        "url": "/nfl/players/demarcus-robinson.php"
+      },
+      "pos": "WR91",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 288,
+      "src_439": null,
+      "src_624": 269,
+      "avg": 278.5
+    },
+    {
+      "id": 19333,
+      "rank": 314,
+      "player": {
+        "id": 19333,
+        "name": "La'Mical Perine",
+        "team": "",
+        "url": "/nfl/players/lamical-perine.php"
+      },
+      "pos": "RB89",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 255,
+      "avg": 255
+    },
+    {
+      "id": 17228,
+      "rank": 315,
+      "player": {
+        "id": 17228,
+        "name": "Kent Taylor",
+        "team": "",
+        "url": "/nfl/players/kent-taylor.php"
+      },
+      "pos": "TE39",
+      "src_79": null,
+      "src_4350": 256,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 256
+    },
+    {
+      "id": 17255,
+      "rank": 316,
+      "player": {
+        "id": 17255,
+        "name": "Anthony Miller",
+        "team": "",
+        "url": "/nfl/players/anthony-miller.php"
+      },
+      "pos": "WR92",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 276,
+      "src_624": 283,
+      "avg": 279.5
+    },
+    {
+      "id": 9928,
+      "rank": 317,
+      "player": {
+        "id": 9928,
+        "name": "Stevan Ridley",
+        "team": "",
+        "url": "/nfl/players/stevan-ridley.php"
+      },
+      "pos": "RB90",
+      "src_79": null,
+      "src_4350": 257,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 257
+    },
+    {
+      "id": 13975,
+      "rank": 318,
+      "player": {
+        "id": 13975,
+        "name": "Breshad Perriman",
+        "team": "",
+        "url": "/nfl/players/breshad-perriman.php"
+      },
+      "pos": "WR93",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 257,
+      "avg": 257
+    },
+    {
+      "id": 19267,
+      "rank": 319,
+      "player": {
+        "id": 19267,
+        "name": "KJ Hamler",
+        "team": "",
+        "url": "/nfl/players/kj-hamler.php"
+      },
+      "pos": "WR94",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 285,
+      "src_439": 275,
+      "src_624": 306,
+      "avg": 288.7
+    },
+    {
+      "id": 19775,
+      "rank": 320,
+      "player": {
+        "id": 19775,
+        "name": "Austin MacGinnis",
+        "team": "",
+        "url": "/nfl/players/austin-macginnis.php"
+      },
+      "pos": "K33",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 259,
+      "avg": 259
+    },
+    {
+      "id": 19948,
+      "rank": 321,
+      "player": {
+        "id": 19948,
+        "name": "Juwan Green",
+        "team": "",
+        "url": "/nfl/players/juwan-green.php"
+      },
+      "pos": "WR95",
+      "src_79": null,
+      "src_4350": 259,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 259
+    },
+    {
+      "id": 19483,
+      "rank": 322,
+      "player": {
+        "id": 19483,
+        "name": "Van Jefferson",
+        "team": "WAS (9)",
+        "url": "/nfl/players/van-jefferson.php"
+      },
+      "pos": "WR96",
+      "src_79": null,
+      "src_4350": 261,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 327,
+      "avg": 294
+    },
+    {
+      "id": 18835,
+      "rank": 323,
+      "player": {
+        "id": 18835,
+        "name": "Donald Parham Jr.",
+        "team": "",
+        "url": "/nfl/players/donald-parham.php"
+      },
+      "pos": "TE40",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 261,
+      "src_624": 364,
+      "avg": 312.5
+    },
+    {
+      "id": 16426,
+      "rank": 324,
+      "player": {
+        "id": 16426,
+        "name": "Taywan Taylor",
+        "team": "",
+        "url": "/nfl/players/taywan-taylor.php"
+      },
+      "pos": "WR97",
+      "src_79": null,
+      "src_4350": 262,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 262
+    },
+    {
+      "id": 16423,
+      "rank": 325,
+      "player": {
+        "id": 16423,
+        "name": "Samaje Perine",
+        "team": "CIN (10)",
+        "url": "/nfl/players/samaje-perine.php"
+      },
+      "pos": "RB91",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 265,
+      "src_624": 300,
+      "avg": 282.5
+    },
+    {
+      "id": 14622,
+      "rank": 326,
+      "player": {
+        "id": 14622,
+        "name": "Tyler Davis",
+        "team": "",
+        "url": "/nfl/players/tyler-davis.php"
+      },
+      "pos": "WR98",
+      "src_79": null,
+      "src_4350": 263,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 263
+    },
+    {
+      "id": 16399,
+      "rank": 327,
+      "player": {
+        "id": 16399,
+        "name": "David Njoku",
+        "team": "LAC (7)",
+        "url": "/nfl/players/david-njoku.php"
+      },
+      "pos": "TE41",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 265,
+      "src_439": null,
+      "src_624": 383,
+      "avg": 324
+    },
+    {
+      "id": 20009,
+      "rank": 328,
+      "player": {
+        "id": 20009,
+        "name": "Josh Hammond",
+        "team": "",
+        "url": "/nfl/players/josh-hammond.php"
+      },
+      "pos": "WR99",
+      "src_79": null,
+      "src_4350": 266,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 266
+    },
+    {
+      "id": 16129,
+      "rank": 329,
+      "player": {
+        "id": 16129,
+        "name": "Austin Traylor",
+        "team": "",
+        "url": "/nfl/players/austin-traylor.php"
+      },
+      "pos": "TE42",
+      "src_79": null,
+      "src_4350": 267,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 267
+    },
+    {
+      "id": 16448,
+      "rank": 330,
+      "player": {
+        "id": 16448,
+        "name": "Brian Hill",
+        "team": "",
+        "url": "/nfl/players/brian-hill.php"
+      },
+      "pos": "RB92",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 267,
+      "avg": 267
+    },
+    {
+      "id": 9383,
+      "rank": 331,
+      "player": {
+        "id": 9383,
+        "name": "Larry Fitzgerald",
+        "team": "",
+        "url": "/nfl/players/larry-fitzgerald.php"
+      },
+      "pos": "WR100",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 268,
+      "src_439": null,
+      "src_624": null,
+      "avg": 268
+    },
+    {
+      "id": 17518,
+      "rank": 332,
+      "player": {
+        "id": 17518,
+        "name": "Jarvion Franklin",
+        "team": "",
+        "url": "/nfl/players/jarvion-franklin.php"
+      },
+      "pos": "RB93",
+      "src_79": null,
+      "src_4350": 268,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 268
+    },
+    {
+      "id": 19907,
+      "rank": 333,
+      "player": {
+        "id": 19907,
+        "name": "Manasseh Bailey",
+        "team": "",
+        "url": "/nfl/players/manasseh-bailey.php"
+      },
+      "pos": "WR101",
+      "src_79": null,
+      "src_4350": 269,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 269
+    },
+    {
+      "id": 17536,
+      "rank": 334,
+      "player": {
+        "id": 17536,
+        "name": "Chris Herndon IV",
+        "team": "",
+        "url": "/nfl/players/chris-herndon-iv.php"
+      },
+      "pos": "TE43",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 269,
+      "src_624": 315,
+      "avg": 292
+    },
+    {
+      "id": 15546,
+      "rank": 335,
+      "player": {
+        "id": 15546,
+        "name": "Alex Collins",
+        "team": "",
+        "url": "/nfl/players/alex-collins.php"
+      },
+      "pos": "RB94",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 270,
+      "src_624": null,
+      "avg": 270
+    },
+    {
+      "id": 17485,
+      "rank": 336,
+      "player": {
+        "id": 17485,
+        "name": "Quinton Flowers",
+        "team": "",
+        "url": "/nfl/players/quinton-flowers.php"
+      },
+      "pos": "QB37",
+      "src_79": null,
+      "src_4350": 270,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 270
+    },
+    {
+      "id": 18706,
+      "rank": 337,
+      "player": {
+        "id": 18706,
+        "name": "Darius Slayton",
+        "team": "NYG (10)",
+        "url": "/nfl/players/darius-slayton.php"
+      },
+      "pos": "WR102",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 302,
+      "src_624": 271,
+      "avg": 286.5
+    },
+    {
+      "id": 18628,
+      "rank": 338,
+      "player": {
+        "id": 18628,
+        "name": "Darrin Hall",
+        "team": "",
+        "url": "/nfl/players/darrin-hall.php"
+      },
+      "pos": "RB95",
+      "src_79": null,
+      "src_4350": 271,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 271
+    },
+    {
+      "id": 20107,
+      "rank": 339,
+      "player": {
+        "id": 20107,
+        "name": "Mekhi Sargent",
+        "team": "",
+        "url": "/nfl/players/mekhi-sargent.php"
+      },
+      "pos": "RB96",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 271,
+      "src_624": null,
+      "avg": 271
+    },
+    {
+      "id": 17248,
+      "rank": 340,
+      "player": {
+        "id": 17248,
+        "name": "Josh Adams",
+        "team": "",
+        "url": "/nfl/players/josh-adams.php"
+      },
+      "pos": "RB97",
+      "src_79": null,
+      "src_4350": 272,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 272
+    },
+    {
+      "id": 20090,
+      "rank": 341,
+      "player": {
+        "id": 20090,
+        "name": "Pooka Williams Jr.",
+        "team": "",
+        "url": "/nfl/players/pooka-williams.php"
+      },
+      "pos": "RB98",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 272,
+      "avg": 272
+    },
+    {
+      "id": 11798,
+      "rank": 342,
+      "player": {
+        "id": 11798,
+        "name": "Kyle Juszczyk",
+        "team": "SF (6)",
+        "url": "/nfl/players/kyle-juszczyk.php"
+      },
+      "pos": "RB99",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 272,
+      "src_439": null,
+      "src_624": 435,
+      "avg": 353.5
+    },
+    {
+      "id": 18480,
+      "rank": 343,
+      "player": {
+        "id": 18480,
+        "name": "Qadree Ollison",
+        "team": "",
+        "url": "/nfl/players/qadree-ollison.php"
+      },
+      "pos": "RB100",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 273,
+      "avg": 273
+    },
+    {
+      "id": 18642,
+      "rank": 344,
+      "player": {
+        "id": 18642,
+        "name": "Phillip Andersen",
+        "team": "",
+        "url": "/nfl/players/phillip-andersen.php"
+      },
+      "pos": "K34",
+      "src_79": null,
+      "src_4350": 273,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 273
+    },
+    {
+      "id": 15744,
+      "rank": 345,
+      "player": {
+        "id": 15744,
+        "name": "Jamal Robinson",
+        "team": "",
+        "url": "/nfl/players/jamal-robinson.php"
+      },
+      "pos": "WR103",
+      "src_79": null,
+      "src_4350": 274,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 274
+    },
+    {
+      "id": 17447,
+      "rank": 346,
+      "player": {
+        "id": 17447,
+        "name": "Mike White",
+        "team": "",
+        "url": "/nfl/players/mike-white.php"
+      },
+      "pos": "QB38",
+      "src_79": null,
+      "src_4350": 275,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 275
+    },
+    {
+      "id": 9986,
+      "rank": 347,
+      "player": {
+        "id": 9986,
+        "name": "Jeremy Kerley",
+        "team": "",
+        "url": "/nfl/players/jeremy-kerley.php"
+      },
+      "pos": "WR104",
+      "src_79": null,
+      "src_4350": 276,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 276
+    },
+    {
+      "id": 10007,
+      "rank": 348,
+      "player": {
+        "id": 10007,
+        "name": "Tyrod Taylor",
+        "team": "GB (13)",
+        "url": "/nfl/players/tyrod-taylor.php"
+      },
+      "pos": "QB39",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 294,
+      "src_624": 285,
+      "avg": 289.5
+    },
+    {
+      "id": 16849,
+      "rank": 349,
+      "player": {
+        "id": 16849,
+        "name": "Dalton Crossan",
+        "team": "",
+        "url": "/nfl/players/dalton-crossan.php"
+      },
+      "pos": "RB101",
+      "src_79": null,
+      "src_4350": 277,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 277
+    },
+    {
+      "id": 17490,
+      "rank": 350,
+      "player": {
+        "id": 17490,
+        "name": "Keke Coutee",
+        "team": "",
+        "url": "/nfl/players/keke-coutee.php"
+      },
+      "pos": "WR105",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 277,
+      "avg": 277
+    },
+    {
+      "id": 19627,
+      "rank": 351,
+      "player": {
+        "id": 19627,
+        "name": "JaMycal Hasty",
+        "team": "NE (14)",
+        "url": "/nfl/players/jamycal-hasty.php"
+      },
+      "pos": "RB102",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 277,
+      "src_624": null,
+      "avg": 277
+    },
+    {
+      "id": 17482,
+      "rank": 352,
+      "player": {
+        "id": 17482,
+        "name": "Ralph Webb",
+        "team": "",
+        "url": "/nfl/players/ralph-webb.php"
+      },
+      "pos": "RB103",
+      "src_79": null,
+      "src_4350": 278,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 278
+    },
+    {
+      "id": 17813,
+      "rank": 353,
+      "player": {
+        "id": 17813,
+        "name": "Mike Boone",
+        "team": "",
+        "url": "/nfl/players/mike-boone.php"
+      },
+      "pos": "RB104",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 278,
+      "avg": 278
+    },
+    {
+      "id": 22680,
+      "rank": 354,
+      "player": {
+        "id": 22680,
+        "name": "Taylor Russolino",
+        "team": "",
+        "url": "/nfl/players/taylor-russolino.php"
+      },
+      "pos": "K35",
+      "src_79": null,
+      "src_4350": 279,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 279
+    },
+    {
+      "id": 19715,
+      "rank": 355,
+      "player": {
+        "id": 19715,
+        "name": "Quez Watkins",
+        "team": "PHI (14)",
+        "url": "/nfl/players/quez-watkins.php"
+      },
+      "pos": "WR106",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 301,
+      "src_624": 281,
+      "avg": 291
+    },
+    {
+      "id": 8100,
+      "rank": 356,
+      "player": {
+        "id": 8100,
+        "name": "Detroit Lions DST",
+        "team": "(9)",
+        "url": "/nfl/teams/detroit-defense.php"
+      },
+      "pos": "DST28",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 279,
+      "src_439": null,
+      "src_624": 363,
+      "avg": 321
+    },
+    {
+      "id": 15922,
+      "rank": 357,
+      "player": {
+        "id": 15922,
+        "name": "Brandon Wilds",
+        "team": "",
+        "url": "/nfl/players/brandon-wilds.php"
+      },
+      "pos": "RB105",
+      "src_79": null,
+      "src_4350": 280,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 280
+    },
+    {
+      "id": 22797,
+      "rank": 358,
+      "player": {
+        "id": 22797,
+        "name": "Chris Evans",
+        "team": "",
+        "url": "/nfl/players/chris-evans.php"
+      },
+      "pos": "RB106",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 280,
+      "src_624": 314,
+      "avg": 297
+    },
+    {
+      "id": 23549,
+      "rank": 359,
+      "player": {
+        "id": 23549,
+        "name": "Daniel Crawford",
+        "team": "",
+        "url": "/nfl/players/daniel-crawford.php"
+      },
+      "pos": "TE44",
+      "src_79": null,
+      "src_4350": 281,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": null,
+      "avg": 281
+    },
+    {
+      "id": 17598,
+      "rank": 360,
+      "player": {
+        "id": 17598,
+        "name": "Tyler Conklin",
+        "team": "DET (9)",
+        "url": "/nfl/players/tyler-conklin.php"
+      },
+      "pos": "TE45",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 281,
+      "src_624": 398,
+      "avg": 339.5
+    },
+    {
+      "id": 16439,
+      "rank": 361,
+      "player": {
+        "id": 16439,
+        "name": "Josh Reynolds",
+        "team": "",
+        "url": "/nfl/players/josh-reynolds.php"
+      },
+      "pos": "WR107",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 282,
+      "src_624": 323,
+      "avg": 302.5
+    },
+    {
+      "id": 8010,
+      "rank": 362,
+      "player": {
+        "id": 8010,
+        "name": "Atlanta Falcons DST",
+        "team": "(6)",
+        "url": "/nfl/teams/atlanta-defense.php"
+      },
+      "pos": "DST29",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 282,
+      "src_439": null,
+      "src_624": 346,
+      "avg": 314
+    },
+    {
+      "id": 11339,
+      "rank": 363,
+      "player": {
+        "id": 11339,
+        "name": "Randy Bullock",
+        "team": "",
+        "url": "/nfl/players/randy-bullock.php"
+      },
+      "pos": "K36",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 283,
+      "src_439": null,
+      "src_624": 370,
+      "avg": 326.5
+    },
+    {
+      "id": 20113,
+      "rank": 364,
+      "player": {
+        "id": 20113,
+        "name": "Dyami Brown",
+        "team": "WAS (9)",
+        "url": "/nfl/players/dyami-brown.php"
+      },
+      "pos": "WR108",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 288,
+      "src_624": 320,
+      "avg": 304
+    },
+    {
+      "id": 18714,
+      "rank": 365,
+      "player": {
+        "id": 18714,
+        "name": "Scotty Miller",
+        "team": "CHI (10)",
+        "url": "/nfl/players/scott-miller.php"
+      },
+      "pos": "WR109",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 298,
+      "src_439": null,
+      "src_624": 294,
+      "avg": 296
+    },
+    {
+      "id": 9006,
+      "rank": 366,
+      "player": {
+        "id": 9006,
+        "name": "Adrian Peterson",
+        "team": "",
+        "url": "/nfl/players/adrian-peterson-min.php"
+      },
+      "pos": "RB107",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 289,
+      "src_439": null,
+      "src_624": 410,
+      "avg": 349.5
+    },
+    {
+      "id": 8060,
+      "rank": 367,
+      "player": {
+        "id": 8060,
+        "name": "Cincinnati Bengals DST",
+        "team": "(10)",
+        "url": "/nfl/teams/cincinnati-defense.php"
+      },
+      "pos": "DST30",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 290,
+      "src_439": null,
+      "src_624": null,
+      "avg": 290
+    },
+    {
+      "id": 14084,
+      "rank": 368,
+      "player": {
+        "id": 14084,
+        "name": "C.J. Uzomah",
+        "team": "",
+        "url": "/nfl/players/cj-uzomah.php"
+      },
+      "pos": "TE46",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 290,
+      "src_624": 326,
+      "avg": 308
+    },
+    {
+      "id": 16579,
+      "rank": 369,
+      "player": {
+        "id": 16579,
+        "name": "Mo Alie-Cox",
+        "team": "IND (14)",
+        "url": "/nfl/players/mo-alie-cox.php"
+      },
+      "pos": "TE47",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 291,
+      "avg": 291
+    },
+    {
+      "id": 17066,
+      "rank": 370,
+      "player": {
+        "id": 17066,
+        "name": "Kendrick Bourne",
+        "team": "ARI (12)",
+        "url": "/nfl/players/kendrick-bourne.php"
+      },
+      "pos": "WR110",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 291,
+      "src_624": 350,
+      "avg": 320.5
+    },
+    {
+      "id": 8120,
+      "rank": 371,
+      "player": {
+        "id": 8120,
+        "name": "Houston Texans DST",
+        "team": "(10)",
+        "url": "/nfl/teams/houston-defense.php"
+      },
+      "pos": "DST31",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 291,
+      "src_439": null,
+      "src_624": 361,
+      "avg": 326
+    },
+    {
+      "id": 18475,
+      "rank": 372,
+      "player": {
+        "id": 18475,
+        "name": "Trace McSorley",
+        "team": "",
+        "url": "/nfl/players/trace-mcsorley.php"
+      },
+      "pos": "QB40",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 292,
+      "src_439": null,
+      "src_624": null,
+      "avg": 292
+    },
+    {
+      "id": 8210,
+      "rank": 373,
+      "player": {
+        "id": 8210,
+        "name": "New York Jets DST",
+        "team": "(6)",
+        "url": "/nfl/teams/new-york-jets-defense.php"
+      },
+      "pos": "DST32",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 294,
+      "src_439": null,
+      "src_624": 339,
+      "avg": 316.5
+    },
+    {
+      "id": 18225,
+      "rank": 374,
+      "player": {
+        "id": 18225,
+        "name": "Drew Lock",
+        "team": "SEA (9)",
+        "url": "/nfl/players/drew-lock.php"
+      },
+      "pos": "QB41",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 296,
+      "avg": 296
+    },
+    {
+      "id": 15586,
+      "rank": 375,
+      "player": {
+        "id": 15586,
+        "name": "Rashard Higgins",
+        "team": "",
+        "url": "/nfl/players/rashard-higgins.php"
+      },
+      "pos": "WR111",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 296,
+      "src_439": null,
+      "src_624": 331,
+      "avg": 313.5
+    },
+    {
+      "id": 16120,
+      "rank": 376,
+      "player": {
+        "id": 16120,
+        "name": "Jalen Richard",
+        "team": "",
+        "url": "/nfl/players/jalen-richard.php"
+      },
+      "pos": "RB108",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 297,
+      "avg": 297
+    },
+    {
+      "id": 19361,
+      "rank": 377,
+      "player": {
+        "id": 19361,
+        "name": "Eno Benjamin",
+        "team": "",
+        "url": "/nfl/players/eno-benjamin.php"
+      },
+      "pos": "RB109",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 299,
+      "avg": 299
+    },
+    {
+      "id": 13806,
+      "rank": 378,
+      "player": {
+        "id": 13806,
+        "name": "Cody Parkey",
+        "team": "",
+        "url": "/nfl/players/cody-parkey.php"
+      },
+      "pos": "K37",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": 299,
+      "src_439": null,
+      "src_624": 333,
+      "avg": 316
+    },
+    {
+      "id": 11987,
+      "rank": 379,
+      "player": {
+        "id": 11987,
+        "name": "Jack Doyle",
+        "team": "",
+        "url": "/nfl/players/jack-doyle.php"
+      },
+      "pos": "TE48",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": 299,
+      "src_624": 390,
+      "avg": 344.5
+    },
+    {
+      "id": 18470,
+      "rank": 380,
+      "player": {
+        "id": 18470,
+        "name": "Travis Fulgham",
+        "team": "",
+        "url": "/nfl/players/travis-fulgham.php"
+      },
+      "pos": "WR112",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 302,
+      "avg": 302
+    },
+    {
+      "id": 18864,
+      "rank": 381,
+      "player": {
+        "id": 18864,
+        "name": "Olamide Zaccheaus",
+        "team": "ATL (6)",
+        "url": "/nfl/players/olamide-zaccheaus.php"
+      },
+      "pos": "WR113",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 307,
+      "avg": 307
+    },
+    {
+      "id": 19396,
+      "rank": 382,
+      "player": {
+        "id": 19396,
+        "name": "Quintez Cephus",
+        "team": "",
+        "url": "/nfl/players/quintez-cephus.php"
+      },
+      "pos": "WR114",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 308,
+      "avg": 308
+    },
+    {
+      "id": 14498,
+      "rank": 383,
+      "player": {
+        "id": 14498,
+        "name": "Adam Humphries",
+        "team": "",
+        "url": "/nfl/players/adam-humphries.php"
+      },
+      "pos": "WR115",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 309,
+      "avg": 309
+    },
+    {
+      "id": 22785,
+      "rank": 384,
+      "player": {
+        "id": 22785,
+        "name": "Dee Eskridge",
+        "team": "",
+        "url": "/nfl/players/dwayne-eskridge.php"
+      },
+      "pos": "WR116",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 311,
+      "avg": 311
+    },
+    {
+      "id": 19351,
+      "rank": 385,
+      "player": {
+        "id": 19351,
+        "name": "Ke'Shawn Vaughn",
+        "team": "",
+        "url": "/nfl/players/keshawn-vaughn.php"
+      },
+      "pos": "RB110",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 313,
+      "avg": 313
+    },
+    {
+      "id": 16556,
+      "rank": 386,
+      "player": {
+        "id": 16556,
+        "name": "Tim Patrick",
+        "team": "NYJ (6)",
+        "url": "/nfl/players/tim-patrick.php"
+      },
+      "pos": "WR117",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 317,
+      "avg": 317
+    },
+    {
+      "id": 17250,
+      "rank": 387,
+      "player": {
+        "id": 17250,
+        "name": "Kalen Ballage",
+        "team": "",
+        "url": "/nfl/players/kalen-ballage.php"
+      },
+      "pos": "RB111",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 318,
+      "avg": 318
+    },
+    {
+      "id": 14151,
+      "rank": 388,
+      "player": {
+        "id": 14151,
+        "name": "Chris Conley",
+        "team": "",
+        "url": "/nfl/players/chris-conley.php"
+      },
+      "pos": "WR118",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 319,
+      "avg": 319
+    },
+    {
+      "id": 16607,
+      "rank": 389,
+      "player": {
+        "id": 16607,
+        "name": "De'Angelo Henderson Sr.",
+        "team": "",
+        "url": "/nfl/players/deangelo-henderson.php"
+      },
+      "pos": "RB112",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 322,
+      "avg": 322
+    },
+    {
+      "id": 18876,
+      "rank": 390,
+      "player": {
+        "id": 18876,
+        "name": "Deonte Harty",
+        "team": "",
+        "url": "/nfl/players/deonte-harty.php"
+      },
+      "pos": "WR119",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 325,
+      "avg": 325
+    },
+    {
+      "id": 16757,
+      "rank": 391,
+      "player": {
+        "id": 16757,
+        "name": "David Moore",
+        "team": "CAR (13)",
+        "url": "/nfl/players/david-moore.php"
+      },
+      "pos": "WR120",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 329,
+      "avg": 329
+    },
+    {
+      "id": 17247,
+      "rank": 392,
+      "player": {
+        "id": 17247,
+        "name": "Kerryon Johnson",
+        "team": "",
+        "url": "/nfl/players/kerryon-johnson.php"
+      },
+      "pos": "RB113",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 334,
+      "avg": 334
+    },
+    {
+      "id": 16407,
+      "rank": 393,
+      "player": {
+        "id": 16407,
+        "name": "D'Onta Foreman",
+        "team": "",
+        "url": "/nfl/players/donta-foreman.php"
+      },
+      "pos": "RB114",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 335,
+      "avg": 335
+    },
+    {
+      "id": 17249,
+      "rank": 394,
+      "player": {
+        "id": 17249,
+        "name": "Ito Smith",
+        "team": "",
+        "url": "/nfl/players/ito-smith.php"
+      },
+      "pos": "RB115",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 337,
+      "avg": 337
+    },
+    {
+      "id": 16972,
+      "rank": 395,
+      "player": {
+        "id": 16972,
+        "name": "Zach Pascal",
+        "team": "",
+        "url": "/nfl/players/zach-pascal.php"
+      },
+      "pos": "WR121",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 341,
+      "avg": 341
+    },
+    {
+      "id": 13924,
+      "rank": 396,
+      "player": {
+        "id": 13924,
+        "name": "Ameer Abdullah",
+        "team": "JAC (7)",
+        "url": "/nfl/players/ameer-abdullah.php"
+      },
+      "pos": "RB116",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 343,
+      "avg": 343
+    },
+    {
+      "id": 13915,
+      "rank": 397,
+      "player": {
+        "id": 13915,
+        "name": "Devin Funchess",
+        "team": "",
+        "url": "/nfl/players/devin-funchess.php"
+      },
+      "pos": "WR122",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 349,
+      "avg": 349
+    },
+    {
+      "id": 16864,
+      "rank": 398,
+      "player": {
+        "id": 16864,
+        "name": "Keelan Cole Sr.",
+        "team": "",
+        "url": "/nfl/players/keelan-cole.php"
+      },
+      "pos": "WR123",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 351,
+      "avg": 351
+    },
+    {
+      "id": 11599,
+      "rank": 399,
+      "player": {
+        "id": 11599,
+        "name": "Marquise Goodwin",
+        "team": "",
+        "url": "/nfl/players/marquise-goodwin.php"
+      },
+      "pos": "WR124",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 352,
+      "avg": 352
+    },
+    {
+      "id": 15611,
+      "rank": 400,
+      "player": {
+        "id": 15611,
+        "name": "Jonathan Williams",
+        "team": "",
+        "url": "/nfl/players/jonathan-williams.php"
+      },
+      "pos": "RB117",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 353,
+      "avg": 353
+    },
+    {
+      "id": 18370,
+      "rank": 401,
+      "player": {
+        "id": 18370,
+        "name": "Terry Godwin",
+        "team": "",
+        "url": "/nfl/players/terry-godwin.php"
+      },
+      "pos": "WR125",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 354,
+      "avg": 354
+    },
+    {
+      "id": 15760,
+      "rank": 402,
+      "player": {
+        "id": 15760,
+        "name": "Stephen Anderson",
+        "team": "",
+        "url": "/nfl/players/stephen-anderson.php"
+      },
+      "pos": "TE49",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 355,
+      "avg": 355
+    },
+    {
+      "id": 19914,
+      "rank": 403,
+      "player": {
+        "id": 19914,
+        "name": "Case Cookus",
+        "team": "",
+        "url": "/nfl/players/case-cookus.php"
+      },
+      "pos": "QB42",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 358,
+      "avg": 358
+    },
+    {
+      "id": 13890,
+      "rank": 404,
+      "player": {
+        "id": 13890,
+        "name": "Marcus Mariota",
+        "team": "WAS (9)",
+        "url": "/nfl/players/marcus-mariota.php"
+      },
+      "pos": "QB43",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 359,
+      "avg": 359
+    },
+    {
+      "id": 17058,
+      "rank": 405,
+      "player": {
+        "id": 17058,
+        "name": "Matt Breida",
+        "team": "",
+        "url": "/nfl/players/matt-breida.php"
+      },
+      "pos": "RB118",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 360,
+      "avg": 360
+    },
+    {
+      "id": 19801,
+      "rank": 406,
+      "player": {
+        "id": 19801,
+        "name": "Tylan Wallace",
+        "team": "CLE (13)",
+        "url": "/nfl/players/tylan-wallace.php"
+      },
+      "pos": "WR126",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 362,
+      "avg": 362
+    },
+    {
+      "id": 19338,
+      "rank": 407,
+      "player": {
+        "id": 19338,
+        "name": "Antonio Gandy-Golden",
+        "team": "",
+        "url": "/nfl/players/antonio-gandy-golden.php"
+      },
+      "pos": "WR127",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 365,
+      "avg": 365
+    },
+    {
+      "id": 17254,
+      "rank": 408,
+      "player": {
+        "id": 17254,
+        "name": "James Washington",
+        "team": "",
+        "url": "/nfl/players/james-washington.php"
+      },
+      "pos": "WR128",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 366,
+      "avg": 366
+    },
+    {
+      "id": 18222,
+      "rank": 409,
+      "player": {
+        "id": 18222,
+        "name": "N'Keal Harry",
+        "team": "",
+        "url": "/nfl/players/nkeal-harry.php"
+      },
+      "pos": "WR129",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 368,
+      "avg": 368
+    },
+    {
+      "id": 19765,
+      "rank": 410,
+      "player": {
+        "id": 19765,
+        "name": "Tucker McCann",
+        "team": "",
+        "url": "/nfl/players/tucker-mccann.php"
+      },
+      "pos": "K38",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 369,
+      "avg": 369
+    },
+    {
+      "id": 20126,
+      "rank": 411,
+      "player": {
+        "id": 20126,
+        "name": "Tutu Atwell",
+        "team": "MIA (14)",
+        "url": "/nfl/players/tutu-atwell.php"
+      },
+      "pos": "WR130",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 371,
+      "avg": 371
+    },
+    {
+      "id": 18612,
+      "rank": 412,
+      "player": {
+        "id": 18612,
+        "name": "Preston Williams",
+        "team": "",
+        "url": "/nfl/players/preston-williams.php"
+      },
+      "pos": "WR131",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 372,
+      "avg": 372
+    },
+    {
+      "id": 18941,
+      "rank": 413,
+      "player": {
+        "id": 18941,
+        "name": "Jalen Guyton",
+        "team": "",
+        "url": "/nfl/players/jalen-guyton.php"
+      },
+      "pos": "WR132",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 373,
+      "avg": 373
+    },
+    {
+      "id": 11200,
+      "rank": 414,
+      "player": {
+        "id": 11200,
+        "name": "Mohamed Sanu Sr.",
+        "team": "",
+        "url": "/nfl/players/mohamed-sanu.php"
+      },
+      "pos": "WR133",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 374,
+      "avg": 374
+    },
+    {
+      "id": 18016,
+      "rank": 415,
+      "player": {
+        "id": 18016,
+        "name": "Cam Sims",
+        "team": "",
+        "url": "/nfl/players/cam-sims.php"
+      },
+      "pos": "WR134",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 375,
+      "avg": 375
+    },
+    {
+      "id": 20127,
+      "rank": 416,
+      "player": {
+        "id": 20127,
+        "name": "Shi Smith",
+        "team": "",
+        "url": "/nfl/players/shi-smith.php"
+      },
+      "pos": "WR135",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 376,
+      "avg": 376
+    },
+    {
+      "id": 14222,
+      "rank": 417,
+      "player": {
+        "id": 14222,
+        "name": "Damiere Byrd",
+        "team": "",
+        "url": "/nfl/players/damiere-byrd.php"
+      },
+      "pos": "WR136",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 377,
+      "avg": 377
+    },
+    {
+      "id": 16381,
+      "rank": 418,
+      "player": {
+        "id": 16381,
+        "name": "Mitchell Trubisky",
+        "team": "TEN (13)",
+        "url": "/nfl/players/mitch-trubisky.php"
+      },
+      "pos": "QB44",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 378,
+      "avg": 378
+    },
+    {
+      "id": 12338,
+      "rank": 419,
+      "player": {
+        "id": 12338,
+        "name": "Albert Wilson",
+        "team": "",
+        "url": "/nfl/players/albert-wilson.php"
+      },
+      "pos": "WR137",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 379,
+      "avg": 379
+    },
+    {
+      "id": 19803,
+      "rank": 420,
+      "player": {
+        "id": 19803,
+        "name": "Sam Ehlinger",
+        "team": "DEN (11)",
+        "url": "/nfl/players/sam-ehlinger.php"
+      },
+      "pos": "QB45",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 380,
+      "avg": 380
+    },
+    {
+      "id": 20125,
+      "rank": 421,
+      "player": {
+        "id": 20125,
+        "name": "Anthony Schwartz",
+        "team": "",
+        "url": "/nfl/players/anthony-schwartz.php"
+      },
+      "pos": "WR138",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 381,
+      "avg": 381
+    },
+    {
+      "id": 19843,
+      "rank": 422,
+      "player": {
+        "id": 19843,
+        "name": "Antonio Williams",
+        "team": "",
+        "url": "/nfl/players/antonio-williams.php"
+      },
+      "pos": "RB119",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 384,
+      "avg": 384
+    },
+    {
+      "id": 18633,
+      "rank": 423,
+      "player": {
+        "id": 18633,
+        "name": "Tyler Johnson",
+        "team": "DAL (7)",
+        "url": "/nfl/players/tyler-johnson.php"
+      },
+      "pos": "WR139",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 385,
+      "avg": 385
+    },
+    {
+      "id": 17286,
+      "rank": 424,
+      "player": {
+        "id": 17286,
+        "name": "Antonio Callaway",
+        "team": "",
+        "url": "/nfl/players/antonio-callaway.php"
+      },
+      "pos": "WR140",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 386,
+      "avg": 386
+    },
+    {
+      "id": 20112,
+      "rank": 425,
+      "player": {
+        "id": 20112,
+        "name": "Dez Fitzpatrick",
+        "team": "",
+        "url": "/nfl/players/dez-fitzpatrick.php"
+      },
+      "pos": "WR141",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 387,
+      "avg": 387
+    },
+    {
+      "id": 19246,
+      "rank": 426,
+      "player": {
+        "id": 19246,
+        "name": "Jordan Love",
+        "team": "GB (13)",
+        "url": "/nfl/players/jordan-love.php"
+      },
+      "pos": "QB46",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 388,
+      "avg": 388
+    },
+    {
+      "id": 18397,
+      "rank": 427,
+      "player": {
+        "id": 18397,
+        "name": "Foster Moreau",
+        "team": "HOU (10)",
+        "url": "/nfl/players/foster-moreau.php"
+      },
+      "pos": "TE50",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 389,
+      "avg": 389
+    },
+    {
+      "id": 13977,
+      "rank": 428,
+      "player": {
+        "id": 13977,
+        "name": "Ty Montgomery II",
+        "team": "",
+        "url": "/nfl/players/ty-montgomery.php"
+      },
+      "pos": "RB120",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 391,
+      "avg": 391
+    },
+    {
+      "id": 14146,
+      "rank": 429,
+      "player": {
+        "id": 14146,
+        "name": "James O'Shaughnessy",
+        "team": "",
+        "url": "/nfl/players/james-oshaughnessy.php"
+      },
+      "pos": "TE51",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 392,
+      "avg": 392
+    },
+    {
+      "id": 18804,
+      "rank": 430,
+      "player": {
+        "id": 18804,
+        "name": "Tyron Billy-Johnson",
+        "team": "",
+        "url": "/nfl/players/tyron-johnson.php"
+      },
+      "pos": "WR142",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 393,
+      "avg": 393
+    },
+    {
+      "id": 19766,
+      "rank": 431,
+      "player": {
+        "id": 19766,
+        "name": "Matt Ammendola",
+        "team": "",
+        "url": "/nfl/players/matt-ammendola.php"
+      },
+      "pos": "K39",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 394,
+      "avg": 394
+    },
+    {
+      "id": 19220,
+      "rank": 432,
+      "player": {
+        "id": 19220,
+        "name": "Jacob Eason",
+        "team": "",
+        "url": "/nfl/players/jacob-eason.php"
+      },
+      "pos": "QB47",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 395,
+      "avg": 395
+    },
+    {
+      "id": 20088,
+      "rank": 433,
+      "player": {
+        "id": 20088,
+        "name": "Jermar Jefferson",
+        "team": "MIN (7)",
+        "url": "/nfl/players/jermar-jefferson.php"
+      },
+      "pos": "RB121",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 396,
+      "avg": 396
+    },
+    {
+      "id": 17271,
+      "rank": 434,
+      "player": {
+        "id": 17271,
+        "name": "Jaylen Samuels",
+        "team": "",
+        "url": "/nfl/players/jaylen-samuels.php"
+      },
+      "pos": "RB122",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 397,
+      "avg": 397
+    },
+    {
+      "id": 9891,
+      "rank": 435,
+      "player": {
+        "id": 9891,
+        "name": "Colin Kaepernick",
+        "team": "",
+        "url": "/nfl/players/colin-kaepernick.php"
+      },
+      "pos": "QB48",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 399,
+      "avg": 399
+    },
+    {
+      "id": 17792,
+      "rank": 436,
+      "player": {
+        "id": 17792,
+        "name": "Ryan Santoso",
+        "team": "",
+        "url": "/nfl/players/ryan-santoso.php"
+      },
+      "pos": "K40",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 400,
+      "avg": 400
+    },
+    {
+      "id": 12089,
+      "rank": 437,
+      "player": {
+        "id": 12089,
+        "name": "Johnny Manziel",
+        "team": "",
+        "url": "/nfl/players/johnny-manziel.php"
+      },
+      "pos": "QB49",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 401,
+      "avg": 401
+    },
+    {
+      "id": 18246,
+      "rank": 438,
+      "player": {
+        "id": 18246,
+        "name": "Albert Okwuegbunam Jr.",
+        "team": "LV (8)",
+        "url": "/nfl/players/albert-okwuegbunam.php"
+      },
+      "pos": "TE52",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 402,
+      "avg": 402
+    },
+    {
+      "id": 9523,
+      "rank": 439,
+      "player": {
+        "id": 9523,
+        "name": "Ray Rice",
+        "team": "",
+        "url": "/nfl/players/ray-rice.php"
+      },
+      "pos": "RB123",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 403,
+      "avg": 403
+    },
+    {
+      "id": 19323,
+      "rank": 440,
+      "player": {
+        "id": 19323,
+        "name": "Kylin Hill",
+        "team": "",
+        "url": "/nfl/players/kylin-hill.php"
+      },
+      "pos": "RB124",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 404,
+      "avg": 404
+    },
+    {
+      "id": 17130,
+      "rank": 441,
+      "player": {
+        "id": 17130,
+        "name": "Greg Ward",
+        "team": "",
+        "url": "/nfl/players/greg-ward.php"
+      },
+      "pos": "WR143",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 405,
+      "avg": 405
+    },
+    {
+      "id": 19486,
+      "rank": 442,
+      "player": {
+        "id": 19486,
+        "name": "Easop Winston Jr.",
+        "team": "",
+        "url": "/nfl/players/easop-winston.php"
+      },
+      "pos": "WR144",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 406,
+      "avg": 406
+    },
+    {
+      "id": 23395,
+      "rank": 443,
+      "player": {
+        "id": 23395,
+        "name": "Michael Strachan",
+        "team": "",
+        "url": "/nfl/players/mike-strachan.php"
+      },
+      "pos": "WR145",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 407,
+      "avg": 407
+    },
+    {
+      "id": 13974,
+      "rank": 444,
+      "player": {
+        "id": 13974,
+        "name": "Devin Smith",
+        "team": "",
+        "url": "/nfl/players/devin-smith-wr.php"
+      },
+      "pos": "WR146",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 408,
+      "avg": 408
+    },
+    {
+      "id": 18264,
+      "rank": 445,
+      "player": {
+        "id": 18264,
+        "name": "Riley Ridley",
+        "team": "",
+        "url": "/nfl/players/riley-ridley.php"
+      },
+      "pos": "WR147",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 409,
+      "avg": 409
+    },
+    {
+      "id": 16072,
+      "rank": 446,
+      "player": {
+        "id": 16072,
+        "name": "Aldrick Rosas",
+        "team": "",
+        "url": "/nfl/players/aldrick-rosas.php"
+      },
+      "pos": "K41",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 411,
+      "avg": 411
+    },
+    {
+      "id": 20122,
+      "rank": 447,
+      "player": {
+        "id": 20122,
+        "name": "Dazz Newsome",
+        "team": "",
+        "url": "/nfl/players/dazz-newsome.php"
+      },
+      "pos": "WR148",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 412,
+      "avg": 412
+    },
+    {
+      "id": 18831,
+      "rank": 448,
+      "player": {
+        "id": 18831,
+        "name": "Jody Fortson Jr.",
+        "team": "",
+        "url": "/nfl/players/joe-fortson.php"
+      },
+      "pos": "TE53",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 413,
+      "avg": 413
+    },
+    {
+      "id": 16436,
+      "rank": 449,
+      "player": {
+        "id": 16436,
+        "name": "Dede Westbrook",
+        "team": "",
+        "url": "/nfl/players/dede-westbrook.php"
+      },
+      "pos": "WR149",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 414,
+      "avg": 414
+    },
+    {
+      "id": 9609,
+      "rank": 450,
+      "player": {
+        "id": 9609,
+        "name": "Tony Romo",
+        "team": "",
+        "url": "/nfl/players/tony-romo.php"
+      },
+      "pos": "QB50",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 415,
+      "avg": 415
+    },
+    {
+      "id": 18409,
+      "rank": 451,
+      "player": {
+        "id": 18409,
+        "name": "Andy Isabella",
+        "team": "",
+        "url": "/nfl/players/andy-isabella.php"
+      },
+      "pos": "WR150",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 416,
+      "avg": 416
+    },
+    {
+      "id": 16431,
+      "rank": 452,
+      "player": {
+        "id": 16431,
+        "name": "Zay Jones",
+        "team": "",
+        "url": "/nfl/players/zay-jones.php"
+      },
+      "pos": "WR151",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 417,
+      "avg": 417
+    },
+    {
+      "id": 19521,
+      "rank": 453,
+      "player": {
+        "id": 19521,
+        "name": "DeeJay Dallas",
+        "team": "JAC (7)",
+        "url": "/nfl/players/deejay-dallas.php"
+      },
+      "pos": "RB125",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 418,
+      "avg": 418
+    },
+    {
+      "id": 16446,
+      "rank": 454,
+      "player": {
+        "id": 16446,
+        "name": "Corey Clement",
+        "team": "",
+        "url": "/nfl/players/corey-clement.php"
+      },
+      "pos": "RB126",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 419,
+      "avg": 419
+    },
+    {
+      "id": 20105,
+      "rank": 455,
+      "player": {
+        "id": 20105,
+        "name": "Demetric Felton Jr.",
+        "team": "",
+        "url": "/nfl/players/demetric-felton.php"
+      },
+      "pos": "RB127",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 420,
+      "avg": 420
+    },
+    {
+      "id": 18049,
+      "rank": 456,
+      "player": {
+        "id": 18049,
+        "name": "Will Dissly",
+        "team": "",
+        "url": "/nfl/players/will-dissly.php"
+      },
+      "pos": "TE54",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 421,
+      "avg": 421
+    },
+    {
+      "id": 19052,
+      "rank": 457,
+      "player": {
+        "id": 19052,
+        "name": "Tom Kennedy",
+        "team": "DET (9)",
+        "url": "/nfl/players/tom-kennedy.php"
+      },
+      "pos": "WR152",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 422,
+      "avg": 422
+    },
+    {
+      "id": 22841,
+      "rank": 458,
+      "player": {
+        "id": 22841,
+        "name": "Kylen Granson",
+        "team": "TEN (13)",
+        "url": "/nfl/players/kylen-granson.php"
+      },
+      "pos": "TE55",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 423,
+      "avg": 423
+    },
+    {
+      "id": 19270,
+      "rank": 459,
+      "player": {
+        "id": 19270,
+        "name": "Devin Duvernay",
+        "team": "ARI (12)",
+        "url": "/nfl/players/devin-duvernay.php"
+      },
+      "pos": "WR153",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 424,
+      "avg": 424
+    },
+    {
+      "id": 19539,
+      "rank": 460,
+      "player": {
+        "id": 19539,
+        "name": "Noah Gray",
+        "team": "KC (12)",
+        "url": "/nfl/players/noah-gray.php"
+      },
+      "pos": "TE56",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 425,
+      "avg": 425
+    },
+    {
+      "id": 23286,
+      "rank": 461,
+      "player": {
+        "id": 23286,
+        "name": "Gerrid Doaks",
+        "team": "",
+        "url": "/nfl/players/gerrid-doaks.php"
+      },
+      "pos": "RB128",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 426,
+      "avg": 426
+    },
+    {
+      "id": 23196,
+      "rank": 462,
+      "player": {
+        "id": 23196,
+        "name": "Simi Fehoko",
+        "team": "ARI (12)",
+        "url": "/nfl/players/simi-fehoko.php"
+      },
+      "pos": "WR154",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 427,
+      "avg": 427
+    },
+    {
+      "id": 17848,
+      "rank": 463,
+      "player": {
+        "id": 17848,
+        "name": "Damoun Patterson",
+        "team": "",
+        "url": "/nfl/players/damoun-patterson.php"
+      },
+      "pos": "WR155",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 428,
+      "avg": 428
+    },
+    {
+      "id": 19665,
+      "rank": 464,
+      "player": {
+        "id": 19665,
+        "name": "Charlie Woerner",
+        "team": "ATL (6)",
+        "url": "/nfl/players/charlie-woerner.php"
+      },
+      "pos": "TE57",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 429,
+      "avg": 429
+    },
+    {
+      "id": 17647,
+      "rank": 465,
+      "player": {
+        "id": 17647,
+        "name": "Greg Joseph",
+        "team": "",
+        "url": "/nfl/players/greg-joseph.php"
+      },
+      "pos": "K42",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 430,
+      "avg": 430
+    },
+    {
+      "id": 15557,
+      "rank": 466,
+      "player": {
+        "id": 15557,
+        "name": "Pharoh Cooper",
+        "team": "",
+        "url": "/nfl/players/pharoh-cooper.php"
+      },
+      "pos": "WR156",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 431,
+      "avg": 431
+    },
+    {
+      "id": 9906,
+      "rank": 467,
+      "player": {
+        "id": 9906,
+        "name": "Kyle Rudolph",
+        "team": "",
+        "url": "/nfl/players/kyle-rudolph.php"
+      },
+      "pos": "TE58",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 432,
+      "avg": 432
+    },
+    {
+      "id": 16445,
+      "rank": 468,
+      "player": {
+        "id": 16445,
+        "name": "Jeremy McNichols",
+        "team": "WAS (9)",
+        "url": "/nfl/players/jeremy-mcnichols.php"
+      },
+      "pos": "RB129",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 433,
+      "avg": 433
+    },
+    {
+      "id": 18400,
+      "rank": 469,
+      "player": {
+        "id": 18400,
+        "name": "Brandon Dillon",
+        "team": "",
+        "url": "/nfl/players/brandon-dillon.php"
+      },
+      "pos": "TE59",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 434,
+      "avg": 434
+    },
+    {
+      "id": 18063,
+      "rank": 470,
+      "player": {
+        "id": 18063,
+        "name": "Chad Beebe",
+        "team": "",
+        "url": "/nfl/players/chad-beebe.php"
+      },
+      "pos": "WR157",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 436,
+      "avg": 436
+    },
+    {
+      "id": 13932,
+      "rank": 471,
+      "player": {
+        "id": 13932,
+        "name": "Taylor Heinicke",
+        "team": "",
+        "url": "/nfl/players/taylor-heinicke.php"
+      },
+      "pos": "QB51",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 437,
+      "avg": 437
+    },
+    {
+      "id": 17888,
+      "rank": 472,
+      "player": {
+        "id": 17888,
+        "name": "Trent Sherfield Sr.",
+        "team": "BUF (7)",
+        "url": "/nfl/players/trent-sherfield.php"
+      },
+      "pos": "WR158",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 438,
+      "avg": 438
+    },
+    {
+      "id": 22799,
+      "rank": 473,
+      "player": {
+        "id": 22799,
+        "name": "Davis Mills",
+        "team": "HOU (10)",
+        "url": "/nfl/players/davis-mills.php"
+      },
+      "pos": "QB52",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 439,
+      "avg": 439
+    },
+    {
+      "id": 17508,
+      "rank": 474,
+      "player": {
+        "id": 17508,
+        "name": "Durham Smythe",
+        "team": "BAL (8)",
+        "url": "/nfl/players/durham-smythe.php"
+      },
+      "pos": "TE60",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 440,
+      "avg": 440
+    },
+    {
+      "id": 9101,
+      "rank": 475,
+      "player": {
+        "id": 9101,
+        "name": "Chad Henne",
+        "team": "",
+        "url": "/nfl/players/chad-henne.php"
+      },
+      "pos": "QB53",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 441,
+      "avg": 441
+    },
+    {
+      "id": 17575,
+      "rank": 476,
+      "player": {
+        "id": 17575,
+        "name": "Eddy Pineiro",
+        "team": "SF (6)",
+        "url": "/nfl/players/eddy-pineiro.php"
+      },
+      "pos": "K43",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 442,
+      "avg": 442
+    },
+    {
+      "id": 18185,
+      "rank": 477,
+      "player": {
+        "id": 18185,
+        "name": "John Wolford",
+        "team": "",
+        "url": "/nfl/players/john-wolford.php"
+      },
+      "pos": "QB54",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 443,
+      "avg": 443
+    },
+    {
+      "id": 11685,
+      "rank": 478,
+      "player": {
+        "id": 11685,
+        "name": "Mike Glennon",
+        "team": "",
+        "url": "/nfl/players/mike-glennon.php"
+      },
+      "pos": "QB55",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 444,
+      "avg": 444
+    },
+    {
+      "id": 11655,
+      "rank": 479,
+      "player": {
+        "id": 11655,
+        "name": "Rex Burkhead",
+        "team": "",
+        "url": "/nfl/players/rex-burkhead.php"
+      },
+      "pos": "RB130",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 445,
+      "avg": 445
+    },
+    {
+      "id": 12904,
+      "rank": 480,
+      "player": {
+        "id": 12904,
+        "name": "Willie Snead IV",
+        "team": "",
+        "url": "/nfl/players/willie-snead.php"
+      },
+      "pos": "WR159",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 446,
+      "avg": 446
+    },
+    {
+      "id": 18561,
+      "rank": 481,
+      "player": {
+        "id": 18561,
+        "name": "Drew Sample",
+        "team": "CIN (10)",
+        "url": "/nfl/players/drew-sample.php"
+      },
+      "pos": "TE61",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 447,
+      "avg": 447
+    },
+    {
+      "id": 9300,
+      "rank": 482,
+      "player": {
+        "id": 9300,
+        "name": "Joe Flacco",
+        "team": "CIN (10)",
+        "url": "/nfl/players/joe-flacco.php"
+      },
+      "pos": "QB56",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 448,
+      "avg": 448
+    },
+    {
+      "id": 15642,
+      "rank": 483,
+      "player": {
+        "id": 15642,
+        "name": "Jacoby Brissett",
+        "team": "ARI (12)",
+        "url": "/nfl/players/jacoby-brissett.php"
+      },
+      "pos": "QB57",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 449,
+      "avg": 449
+    },
+    {
+      "id": 22811,
+      "rank": 484,
+      "player": {
+        "id": 22811,
+        "name": "Cornell Powell",
+        "team": "PIT (7)",
+        "url": "/nfl/players/cornell-powell.php"
+      },
+      "pos": "WR160",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 450,
+      "avg": 450
+    },
+    {
+      "id": 19389,
+      "rank": 485,
+      "player": {
+        "id": 19389,
+        "name": "Harrison Bryant",
+        "team": "",
+        "url": "/nfl/players/harrison-bryant.php"
+      },
+      "pos": "TE62",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 451,
+      "avg": 451
+    },
+    {
+      "id": 18562,
+      "rank": 486,
+      "player": {
+        "id": 18562,
+        "name": "Gardner Minshew II",
+        "team": "ARI (12)",
+        "url": "/nfl/players/gardner-minshew.php"
+      },
+      "pos": "QB58",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 452,
+      "avg": 452
+    },
+    {
+      "id": 16527,
+      "rank": 487,
+      "player": {
+        "id": 16527,
+        "name": "Jacob Hollister",
+        "team": "",
+        "url": "/nfl/players/jacob-hollister.php"
+      },
+      "pos": "TE63",
+      "src_79": null,
+      "src_4350": null,
+      "src_80": null,
+      "src_291": null,
+      "src_439": null,
+      "src_624": 453,
+      "avg": 453
+    }
+  ]
+}

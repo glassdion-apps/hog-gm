@@ -1,0 +1,7454 @@
+{
+  "generatedAt": "2026-08-19T16:12:34.616Z",
+  "season": 2019,
+  "source": "/Users/dionglassmainmac/Documents/projects/hog-gm/data/historical-adp/fantasypros-adp-2019.json",
+  "scoring": "PPR",
+  "records": [
+    {
+      "season": 2019,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 1,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 2.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 2.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "publicAdp": 4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 5.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "David Johnson",
+      "position": "RB",
+      "publicAdp": 6.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Le'Veon Bell",
+      "position": "RB",
+      "publicAdp": 7.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Davante Adams",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 7.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 10.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Julio Jones",
+      "position": "WR",
+      "publicAdp": 10.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "publicAdp": 10.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 12.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Todd Gurley II",
+      "position": "RB",
+      "publicAdp": 13.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "publicAdp": 14.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 15.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "publicAdp": 15.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "publicAdp": 16,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "publicAdp": 18,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "publicAdp": 18,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Patrick Mahomes II",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 18.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Antonio Brown",
+      "position": "WR",
+      "publicAdp": 21,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 21.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "publicAdp": 25,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 25.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "publicAdp": 25.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "George Kittle",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 28.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "publicAdp": 28.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kerryon Johnson",
+      "position": "RB",
+      "publicAdp": 29.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devonta Freeman",
+      "position": "RB",
+      "publicAdp": 29.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "publicAdp": 31.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 32.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Aaron Jones Sr.",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 32.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 34.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Damien Williams",
+      "position": "RB",
+      "publicAdp": 34.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Julian Edelman",
+      "position": "WR",
+      "publicAdp": 35.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Carson",
+      "position": "RB",
+      "publicAdp": 36.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 38.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "publicAdp": 38.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "T.Y. Hilton",
+      "position": "WR",
+      "publicAdp": 40.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Robert Woods",
+      "position": "WR",
+      "publicAdp": 41.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marlon Mack",
+      "position": "RB",
+      "publicAdp": 42.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Melvin Gordon III",
+      "position": "RB",
+      "publicAdp": 44.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "publicAdp": 44.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kenny Golladay",
+      "position": "WR",
+      "publicAdp": 44.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mark Ingram II",
+      "position": "RB",
+      "publicAdp": 44.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "David Montgomery",
+      "position": "RB",
+      "team": "HOU",
+      "publicAdp": 45.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Godwin Jr.",
+      "position": "WR",
+      "team": "TB",
+      "publicAdp": 46,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 46.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sony Michel",
+      "position": "RB",
+      "publicAdp": 48,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 49,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 50.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "James White",
+      "position": "RB",
+      "publicAdp": 53.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Phillip Lindsay",
+      "position": "RB",
+      "publicAdp": 54.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "publicAdp": 55.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Evan Engram",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 57.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "O.J. Howard",
+      "position": "TE",
+      "publicAdp": 57.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 58,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "publicAdp": 59.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Williams",
+      "position": "WR",
+      "publicAdp": 61.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "A.J. Green",
+      "position": "WR",
+      "publicAdp": 64.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "publicAdp": 64.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DJ Moore",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 64.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jarvis Landry",
+      "position": "WR",
+      "publicAdp": 65.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Ryan",
+      "position": "QB",
+      "publicAdp": 67.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alshon Jeffery",
+      "position": "WR",
+      "publicAdp": 67.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tarik Cohen",
+      "position": "RB",
+      "publicAdp": 68.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tevin Coleman",
+      "position": "RB",
+      "publicAdp": 68.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "publicAdp": 70.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jared Cook",
+      "position": "TE",
+      "publicAdp": 71.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Allen Robinson II",
+      "position": "WR",
+      "publicAdp": 72.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Miles Sanders",
+      "position": "RB",
+      "publicAdp": 73.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Gordon",
+      "position": "WR",
+      "publicAdp": 74.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kenyan Drake",
+      "position": "RB",
+      "publicAdp": 76.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Duke Johnson Jr.",
+      "position": "RB",
+      "publicAdp": 77.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Robbie Chosen",
+      "position": "WR",
+      "publicAdp": 78.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Drew Brees",
+      "position": "QB",
+      "publicAdp": 78.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Derrius Guice",
+      "position": "RB",
+      "publicAdp": 78.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Carson Wentz",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 81,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chicago Bears DST",
+      "position": "DST",
+      "publicAdp": 83.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Vance McDonald",
+      "position": "TE",
+      "publicAdp": 84.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sammy Watkins",
+      "position": "WR",
+      "publicAdp": 84.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "publicAdp": 84.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dede Westbrook",
+      "position": "WR",
+      "publicAdp": 85.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cam Newton",
+      "position": "QB",
+      "publicAdp": 86.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "William Fuller V",
+      "position": "WR",
+      "publicAdp": 86.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "publicAdp": 87.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "publicAdp": 88.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 92,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "David Njoku",
+      "position": "TE",
+      "team": "LAC",
+      "publicAdp": 92.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Latavius Murray",
+      "position": "RB",
+      "publicAdp": 93.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Corey Davis",
+      "position": "WR",
+      "publicAdp": 94.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marvin Jones Jr.",
+      "position": "WR",
+      "publicAdp": 96.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Emmanuel Sanders",
+      "position": "WR",
+      "publicAdp": 97.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Curtis Samuel",
+      "position": "WR",
+      "publicAdp": 98.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Howard",
+      "position": "RB",
+      "publicAdp": 99.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "LeSean McCoy",
+      "position": "RB",
+      "publicAdp": 99.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Larry Fitzgerald",
+      "position": "WR",
+      "publicAdp": 100.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Eric Ebron",
+      "position": "TE",
+      "publicAdp": 101.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rashaad Penny",
+      "position": "RB",
+      "publicAdp": 102.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ben Roethlisberger",
+      "position": "QB",
+      "publicAdp": 106.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darrell Henderson Jr.",
+      "position": "RB",
+      "publicAdp": 106.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Los Angeles Rams DST",
+      "position": "DST",
+      "publicAdp": 107,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dante Pettis",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 107.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Breida",
+      "position": "RB",
+      "publicAdp": 108,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 108.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Royce Freeman",
+      "position": "RB",
+      "publicAdp": 109.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 111.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Austin Hooper",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 114,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Greg Zuerlein",
+      "position": "K",
+      "publicAdp": 114.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 114.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 115,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tom Brady",
+      "position": "QB",
+      "publicAdp": 116.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "publicAdp": 117.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 118.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jacksonville Jaguars DST",
+      "position": "DST",
+      "publicAdp": 118.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Delanie Walker",
+      "position": "TE",
+      "publicAdp": 119.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Geronimo Allison",
+      "position": "WR",
+      "publicAdp": 119.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Justin Tucker",
+      "position": "K",
+      "publicAdp": 122.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Peyton Barber",
+      "position": "RB",
+      "publicAdp": 122.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "James Washington",
+      "position": "WR",
+      "publicAdp": 123.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "publicAdp": 125.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 126.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Philip Rivers",
+      "position": "QB",
+      "publicAdp": 126.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DeSean Jackson",
+      "position": "WR",
+      "publicAdp": 130.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Minnesota Vikings DST",
+      "position": "DST",
+      "publicAdp": 130.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Gallup",
+      "position": "WR",
+      "publicAdp": 131.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Baltimore Ravens DST",
+      "position": "DST",
+      "publicAdp": 132.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Harrison Butker",
+      "position": "K",
+      "team": "KC",
+      "publicAdp": 132.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Los Angeles Chargers DST",
+      "position": "DST",
+      "publicAdp": 133,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 134.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kalen Ballage",
+      "position": "RB",
+      "publicAdp": 134.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Donte Moncrief",
+      "position": "WR",
+      "publicAdp": 134.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jaylen Samuels",
+      "position": "RB",
+      "publicAdp": 135,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Golden Tate",
+      "position": "WR",
+      "publicAdp": 138,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Wil Lutz",
+      "position": "K",
+      "team": "DEN",
+      "publicAdp": 141.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dion Lewis",
+      "position": "RB",
+      "publicAdp": 142.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Greg Olsen",
+      "position": "TE",
+      "publicAdp": 143.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 144.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Adrian Peterson",
+      "position": "RB",
+      "publicAdp": 145.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kyle Rudolph",
+      "position": "TE",
+      "publicAdp": 146.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "publicAdp": 146.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Stephen Gostkowski",
+      "position": "K",
+      "publicAdp": 146.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 146.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Justin Jackson",
+      "position": "RB",
+      "publicAdp": 146.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyrell Williams",
+      "position": "WR",
+      "publicAdp": 147.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "TEN",
+      "publicAdp": 147.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keke Coutee",
+      "position": "WR",
+      "publicAdp": 148.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darwin Thompson",
+      "position": "RB",
+      "publicAdp": 148.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Anthony Miller",
+      "position": "WR",
+      "publicAdp": 148.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ronald Jones II",
+      "position": "RB",
+      "publicAdp": 149.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "team": "MIN",
+      "publicAdp": 153,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Carlos Hyde",
+      "position": "RB",
+      "publicAdp": 155.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Denver Broncos DST",
+      "position": "DST",
+      "publicAdp": 155.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nyheim Miller-Hines",
+      "position": "RB",
+      "publicAdp": 156.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Reed",
+      "position": "TE",
+      "publicAdp": 156.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ka'imi Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "publicAdp": 157.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jamison Crowder",
+      "position": "WR",
+      "publicAdp": 157.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "New England Patriots DST",
+      "position": "DST",
+      "publicAdp": 159.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "John Brown",
+      "position": "WR",
+      "publicAdp": 161.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cleveland Browns DST",
+      "position": "DST",
+      "publicAdp": 163.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Houston Texans DST",
+      "position": "DST",
+      "publicAdp": 163.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Justice Hill",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 163.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jimmy Garoppolo",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 165.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mecole Hardman Jr.",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 170.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "publicAdp": 171.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Robbie Gould",
+      "position": "K",
+      "publicAdp": 172.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Damien Harris",
+      "position": "RB",
+      "publicAdp": 174.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alexander Mattison",
+      "position": "RB",
+      "publicAdp": 176.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dallas Cowboys DST",
+      "position": "DST",
+      "publicAdp": 176.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mohamed Sanu Sr.",
+      "position": "WR",
+      "publicAdp": 177.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Derek Carr",
+      "position": "QB",
+      "publicAdp": 178,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Philadelphia Eagles DST",
+      "position": "DST",
+      "publicAdp": 179.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 188.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darren Waller",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 189,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sam Darnold",
+      "position": "QB",
+      "team": "SEA",
+      "publicAdp": 190.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Deebo Samuel Sr.",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 194.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trey Burton",
+      "position": "TE",
+      "publicAdp": 144.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jake Elliott",
+      "position": "K",
+      "team": "PHI",
+      "publicAdp": 196,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Buffalo Bills DST",
+      "position": "DST",
+      "publicAdp": 196.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Seattle Seahawks DST",
+      "position": "DST",
+      "publicAdp": 198.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Badgley",
+      "position": "K",
+      "publicAdp": 200,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mason Crosby",
+      "position": "K",
+      "publicAdp": 200.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cole Beasley",
+      "position": "WR",
+      "publicAdp": 201.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ito Smith",
+      "position": "RB",
+      "publicAdp": 295.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jimmy Graham",
+      "position": "TE",
+      "publicAdp": 157.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Demaryius Thomas",
+      "position": "WR",
+      "publicAdp": 207,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "New Orleans Saints DST",
+      "position": "DST",
+      "publicAdp": 162.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brett Maher",
+      "position": "K",
+      "publicAdp": 210.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "N'Keal Harry",
+      "position": "WR",
+      "publicAdp": 163.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jason Myers",
+      "position": "K",
+      "team": "SEA",
+      "publicAdp": 221.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ty Montgomery II",
+      "position": "RB",
+      "publicAdp": 226.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Adam Humphries",
+      "position": "WR",
+      "publicAdp": 187.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marquise Goodwin",
+      "position": "WR",
+      "publicAdp": 250.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jack Doyle",
+      "position": "TE",
+      "publicAdp": 191.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Hollywood Brown",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 191.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jalen Richard",
+      "position": "RB",
+      "publicAdp": 193.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tre'Quan Smith",
+      "position": "WR",
+      "publicAdp": 328.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kansas City Chiefs DST",
+      "position": "DST",
+      "publicAdp": 195.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Pittsburgh Steelers DST",
+      "position": "DST",
+      "publicAdp": 197,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jason Witten",
+      "position": "TE",
+      "publicAdp": 197,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kenny Stills",
+      "position": "WR",
+      "publicAdp": 197.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Noah Fant",
+      "position": "TE",
+      "team": "NO",
+      "publicAdp": 197.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Foles",
+      "position": "QB",
+      "publicAdp": 204.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "C.J. Anderson",
+      "position": "RB",
+      "publicAdp": 206.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Giovani Bernard",
+      "position": "RB",
+      "publicAdp": 207.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 208.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Adam Vinatieri",
+      "position": "K",
+      "publicAdp": 208.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Albert Wilson",
+      "position": "WR",
+      "publicAdp": 208.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Randall Cobb",
+      "position": "WR",
+      "publicAdp": 216,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ted Ginn Jr.",
+      "position": "WR",
+      "publicAdp": 216.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Eifert",
+      "position": "TE",
+      "publicAdp": 216.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Frank Gore",
+      "position": "RB",
+      "publicAdp": 220,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marcus Mariota",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 220,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Prater",
+      "position": "K",
+      "publicAdp": 224.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devin Funchess",
+      "position": "WR",
+      "publicAdp": 339.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DaeSean Hamilton",
+      "position": "WR",
+      "publicAdp": 230.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jacoby Brissett",
+      "position": "QB",
+      "team": "ARI",
+      "publicAdp": 233.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Green Bay Packers DST",
+      "position": "DST",
+      "publicAdp": 234.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tennessee Titans DST",
+      "position": "DST",
+      "publicAdp": 235.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Herndon IV",
+      "position": "TE",
+      "publicAdp": 349,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Aldrick Rosas",
+      "position": "K",
+      "publicAdp": 242.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "San Francisco 49ers DST",
+      "position": "DST",
+      "publicAdp": 243.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Joe Flacco",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 245.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Indianapolis Colts DST",
+      "position": "DST",
+      "publicAdp": 246,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Thompson",
+      "position": "RB",
+      "publicAdp": 319.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Andy Dalton",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 246.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Boswell",
+      "position": "K",
+      "team": "PIT",
+      "publicAdp": 247.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Bryant",
+      "position": "K",
+      "publicAdp": 248.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Carolina Panthers DST",
+      "position": "DST",
+      "publicAdp": 249.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Parris Campbell",
+      "position": "WR",
+      "publicAdp": 360.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon McManus",
+      "position": "K",
+      "publicAdp": 250.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DeVante Parker",
+      "position": "WR",
+      "publicAdp": 365.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "New York Jets DST",
+      "position": "DST",
+      "publicAdp": 255,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Malcolm Brown",
+      "position": "RB",
+      "publicAdp": 367,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jamaal Williams",
+      "position": "RB",
+      "publicAdp": 367.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jay Ajayi",
+      "position": "RB",
+      "publicAdp": 260.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Davis",
+      "position": "RB",
+      "publicAdp": 377.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Stephen Hauschka",
+      "position": "K",
+      "publicAdp": 274.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nelson Agholor",
+      "position": "WR",
+      "publicAdp": 386.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Zay Jones",
+      "position": "WR",
+      "publicAdp": 386.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Atlanta Falcons DST",
+      "position": "DST",
+      "publicAdp": 233.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dan Bailey",
+      "position": "K",
+      "publicAdp": 385,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "T.J. Yeldon",
+      "position": "RB",
+      "publicAdp": 397.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Paul Richardson Jr.",
+      "position": "WR",
+      "publicAdp": 247,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Eli Manning",
+      "position": "QB",
+      "publicAdp": 248,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Andy Isabella",
+      "position": "WR",
+      "publicAdp": 398.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Taylor Gabriel",
+      "position": "WR",
+      "publicAdp": 401.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Benjamin Watson",
+      "position": "TE",
+      "publicAdp": 255,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marqise Lee",
+      "position": "WR",
+      "publicAdp": 404,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Phillip Dorsett II",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 293.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Gesicki",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 407.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rashard Higgins",
+      "position": "WR",
+      "publicAdp": 398.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Danny Amendola",
+      "position": "WR",
+      "publicAdp": 409.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Daniel Jones",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 263.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Washington Commanders DST",
+      "position": "DST",
+      "publicAdp": 409.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Detroit Lions DST",
+      "position": "DST",
+      "publicAdp": 406.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 403,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rex Burkhead",
+      "position": "RB",
+      "publicAdp": 408.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Hunter Renfrow",
+      "position": "WR",
+      "publicAdp": 266.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dare Ogunbowale",
+      "position": "RB",
+      "team": "LV",
+      "publicAdp": 405.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "J.J. Arcega-Whiteside",
+      "position": "WR",
+      "publicAdp": 404.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chase Edmonds",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 407.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jalen Hurd",
+      "position": "WR",
+      "publicAdp": 269.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Succop",
+      "position": "K",
+      "publicAdp": 418.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Gerald Everett",
+      "position": "TE",
+      "publicAdp": 426.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryquell Armstead",
+      "position": "RB",
+      "publicAdp": 422.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Giorgio Tavecchio",
+      "position": "K",
+      "publicAdp": 429,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Miles Boykin",
+      "position": "WR",
+      "publicAdp": 427.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Lambo",
+      "position": "K",
+      "publicAdp": 292.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Irv Smith Jr.",
+      "position": "TE",
+      "publicAdp": 418.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Gus Edwards",
+      "position": "RB",
+      "publicAdp": 433,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Preston Williams",
+      "position": "WR",
+      "publicAdp": 437.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "New York Giants DST",
+      "position": "DST",
+      "publicAdp": 254,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "team": "JAC",
+      "publicAdp": 443.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Eddy Pineiro",
+      "position": "K",
+      "team": "SF",
+      "publicAdp": 258.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trey Quinn",
+      "position": "WR",
+      "publicAdp": 444.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Antonio Callaway",
+      "position": "WR",
+      "publicAdp": 444.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Willie Snead IV",
+      "position": "WR",
+      "publicAdp": 449,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ian Thomas",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 439.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Fitzpatrick",
+      "position": "QB",
+      "publicAdp": 446.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Las Vegas Raiders DST",
+      "position": "DST",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Miami Dolphins DST",
+      "position": "DST",
+      "publicAdp": 282,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "David Moore",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 463.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dez Bryant",
+      "position": "WR",
+      "publicAdp": 286.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Demarcus Robinson",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 286.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "John Ross",
+      "position": "WR",
+      "publicAdp": 466.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marshawn Lynch",
+      "position": "RB",
+      "publicAdp": 292,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt LaCosse",
+      "position": "TE",
+      "publicAdp": 465.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dustin Hopkins",
+      "position": "K",
+      "publicAdp": 295,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Wayne Gallman Jr.",
+      "position": "RB",
+      "publicAdp": 471,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Robert Foster",
+      "position": "WR",
+      "publicAdp": 481,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Joey Slye",
+      "position": "K",
+      "team": "TEN",
+      "publicAdp": 297,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alfred Morris",
+      "position": "RB",
+      "publicAdp": 480,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jason Sanders",
+      "position": "K",
+      "team": "NYJ",
+      "publicAdp": 303.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Gay",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 495.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dontrell Hilliard",
+      "position": "RB",
+      "publicAdp": 497.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jesse James",
+      "position": "TE",
+      "publicAdp": 313.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Arizona Cardinals DST",
+      "position": "DST",
+      "publicAdp": 492.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Hogan",
+      "position": "WR",
+      "publicAdp": 316.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Taysom Hill",
+      "position": "TE",
+      "publicAdp": 318.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Antonio Gates",
+      "position": "TE",
+      "publicAdp": 260.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Austin Seibert",
+      "position": "K",
+      "publicAdp": 494,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Benny Snell Jr.",
+      "position": "RB",
+      "publicAdp": 505,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Christian Wade",
+      "position": "RB",
+      "publicAdp": 262.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tampa Bay Buccaneers DST",
+      "position": "DST",
+      "publicAdp": 265,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darren Sproles",
+      "position": "RB",
+      "publicAdp": 492.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Zane Gonzalez",
+      "position": "K",
+      "team": "MIA",
+      "publicAdp": 329.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Rosen",
+      "position": "QB",
+      "publicAdp": 519,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "KeeSean Johnson",
+      "position": "WR",
+      "publicAdp": 518.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darius Jackson",
+      "position": "RB",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Doctson",
+      "position": "WR",
+      "publicAdp": 527.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Riley Ridley",
+      "position": "WR",
+      "publicAdp": 292,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Thomas",
+      "position": "TE",
+      "publicAdp": 528.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DJ Chark Jr.",
+      "position": "WR",
+      "publicAdp": 530.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Greg Joseph",
+      "position": "K",
+      "publicAdp": 349.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "D'Onta Foreman",
+      "position": "RB",
+      "publicAdp": 350.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Case Keenum",
+      "position": "QB",
+      "team": "CHI",
+      "publicAdp": 535.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "James Develin",
+      "position": "RB",
+      "publicAdp": 304,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Travis Benjamin",
+      "position": "WR",
+      "publicAdp": 525,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Conley",
+      "position": "WR",
+      "publicAdp": 538.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alfred Blue",
+      "position": "RB",
+      "publicAdp": 537,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cameron Brate",
+      "position": "TE",
+      "publicAdp": 532,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cincinnati Bengals DST",
+      "position": "DST",
+      "publicAdp": 312.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Crabtree",
+      "position": "WR",
+      "publicAdp": 535.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kelvin Harmon",
+      "position": "WR",
+      "publicAdp": 564,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Blake Jarwin",
+      "position": "TE",
+      "publicAdp": 319,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Moore",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 566.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cordarrelle Patterson",
+      "position": "RB",
+      "publicAdp": 319.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Higbee",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 321.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brian Hill",
+      "position": "RB",
+      "publicAdp": 566,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Will Dissly",
+      "position": "TE",
+      "publicAdp": 550,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Breshad Perriman",
+      "position": "WR",
+      "publicAdp": 552.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cameron Artis-Payne",
+      "position": "RB",
+      "publicAdp": 581.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Gunner Olszewski",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 329.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Daniel Carlson",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 545.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "C.J. Uzomah",
+      "position": "TE",
+      "publicAdp": 540,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jakeem Grant Sr.",
+      "position": "WR",
+      "publicAdp": 332,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jake Kumerow",
+      "position": "WR",
+      "publicAdp": 335,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ricky Seals-Jones",
+      "position": "TE",
+      "publicAdp": 335,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Blake Bortles",
+      "position": "QB",
+      "publicAdp": 335,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devine Ozigbo",
+      "position": "RB",
+      "publicAdp": 598.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "LeGarrette Blount",
+      "position": "RB",
+      "publicAdp": 336.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keelan Doss",
+      "position": "WR",
+      "publicAdp": 229,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 558.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jazz Ferguson",
+      "position": "WR",
+      "publicAdp": 231,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dexter Williams",
+      "position": "RB",
+      "publicAdp": 615.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Damion Willis",
+      "position": "WR",
+      "publicAdp": 341,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Theo Riddick",
+      "position": "RB",
+      "publicAdp": 618.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Novak",
+      "position": "K",
+      "publicAdp": 238,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jay Cutler",
+      "position": "QB",
+      "publicAdp": 241,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Damon Sheehy-Guiseppi",
+      "position": "WR",
+      "publicAdp": 241,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nathan Peterman",
+      "position": "QB",
+      "publicAdp": 242,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Taylor Bertolet",
+      "position": "K",
+      "publicAdp": 247,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alex Barnes",
+      "position": "RB",
+      "publicAdp": 346.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darrel Williams",
+      "position": "RB",
+      "publicAdp": 458,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Marshall",
+      "position": "WR",
+      "publicAdp": 250,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Vernon Davis",
+      "position": "TE",
+      "publicAdp": 554.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chandler Catanzaro",
+      "position": "K",
+      "publicAdp": 348.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Geoff Swaim",
+      "position": "TE",
+      "publicAdp": 605.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Thomas",
+      "position": "WR",
+      "publicAdp": 252,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bruce Anderson III",
+      "position": "RB",
+      "publicAdp": 504,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sam Bradford",
+      "position": "QB",
+      "publicAdp": 255,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Lil'Jordan Humphrey",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 257,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Maurice Harris",
+      "position": "WR",
+      "publicAdp": 487,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Hill",
+      "position": "TE",
+      "publicAdp": 352.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Max McCaffrey",
+      "position": "WR",
+      "publicAdp": 260,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cody Parkey",
+      "position": "K",
+      "publicAdp": 262,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jonnu Smith",
+      "position": "TE",
+      "publicAdp": 354,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "C.J. Conrad",
+      "position": "TE",
+      "publicAdp": 263,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Robert Griffin III",
+      "position": "QB",
+      "publicAdp": 354.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Qadree Ollison",
+      "position": "RB",
+      "publicAdp": 632,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trayveon Williams",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 624.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Blake Bell",
+      "position": "TE",
+      "publicAdp": 267,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Glenn Gronkowski",
+      "position": "RB",
+      "publicAdp": 268,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jake Butt",
+      "position": "TE",
+      "publicAdp": 269,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tavon Austin",
+      "position": "WR",
+      "publicAdp": 358,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Barkley",
+      "position": "QB",
+      "publicAdp": 271,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Anthony Fasano",
+      "position": "TE",
+      "publicAdp": 272,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Connor Barth",
+      "position": "K",
+      "publicAdp": 359,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Younghoe Koo",
+      "position": "K",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Anthony Johnson",
+      "publicAdp": 274,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyree Jackson",
+      "position": "TE",
+      "publicAdp": 275,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyre Brady",
+      "position": "WR",
+      "publicAdp": 277,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Reynolds",
+      "position": "WR",
+      "publicAdp": 553,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Forte",
+      "position": "RB",
+      "publicAdp": 281,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Vannett",
+      "position": "TE",
+      "team": "SEA",
+      "publicAdp": 363.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trace McSorley",
+      "position": "QB",
+      "publicAdp": 364,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Nugent",
+      "position": "K",
+      "publicAdp": 283,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Damarea Crockett",
+      "position": "RB",
+      "publicAdp": 642,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Tate",
+      "position": "WR",
+      "publicAdp": 285,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Wendell Smallwood",
+      "position": "RB",
+      "publicAdp": 365.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kaare Vedvik",
+      "position": "K",
+      "publicAdp": 287,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "J.J. Jones",
+      "position": "WR",
+      "publicAdp": 290,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Emmanuel Butler",
+      "position": "WR",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Fitzgerald",
+      "position": "QB",
+      "publicAdp": 292,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Eddie Lacy",
+      "position": "RB",
+      "publicAdp": 294,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Martellus Bennett",
+      "position": "TE",
+      "publicAdp": 295,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Carson Palmer",
+      "position": "QB",
+      "publicAdp": 298,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kellen Clemens",
+      "position": "QB",
+      "publicAdp": 300,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Deon Cain",
+      "position": "WR",
+      "publicAdp": 650,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Blair Walsh",
+      "position": "K",
+      "publicAdp": 301,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ameer Abdullah",
+      "position": "RB",
+      "team": "JAC",
+      "publicAdp": 302,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "John Kuhn",
+      "position": "RB",
+      "publicAdp": 303,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Myles Gaskin",
+      "position": "RB",
+      "publicAdp": 624,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Doug Martin",
+      "position": "RB",
+      "publicAdp": 540,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Danny Woodhead",
+      "position": "RB",
+      "publicAdp": 313,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DeMarco Murray",
+      "position": "RB",
+      "publicAdp": 314,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Russell Shepard",
+      "position": "WR",
+      "publicAdp": 380,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jace Sternberger",
+      "position": "TE",
+      "publicAdp": 315,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Anthony Sherman",
+      "position": "RB",
+      "publicAdp": 316,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Hayden Hurst",
+      "position": "TE",
+      "publicAdp": 656.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Folk",
+      "position": "K",
+      "team": "ATL",
+      "publicAdp": 318,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "De'Anthony Thomas",
+      "position": "WR",
+      "publicAdp": 319,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Taywan Taylor",
+      "position": "WR",
+      "publicAdp": 427,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Derek Watt",
+      "position": "RB",
+      "publicAdp": 320,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jamaal Charles",
+      "position": "RB",
+      "publicAdp": 321,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Isaac Zico",
+      "position": "WR",
+      "publicAdp": 321,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kenny Britt",
+      "position": "WR",
+      "publicAdp": 322,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chad Beebe",
+      "position": "WR",
+      "publicAdp": 632,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Diontae Johnson",
+      "position": "WR",
+      "publicAdp": 658.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sam Ficken",
+      "position": "K",
+      "publicAdp": 324,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alex Collins",
+      "position": "RB",
+      "publicAdp": 399.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Demetrius Harris",
+      "position": "TE",
+      "publicAdp": 325,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devontae Booker",
+      "position": "RB",
+      "publicAdp": 634,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Johnson",
+      "position": "RB",
+      "publicAdp": 326,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jaron Brown",
+      "position": "WR",
+      "publicAdp": 633,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Hoomanawanui",
+      "position": "TE",
+      "publicAdp": 327,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Corey Clement",
+      "position": "RB",
+      "publicAdp": 657,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bilal Powell",
+      "position": "RB",
+      "publicAdp": 664.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "James O'Shaughnessy",
+      "position": "TE",
+      "publicAdp": 330,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Eric Decker",
+      "position": "WR",
+      "publicAdp": 331,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Joshua Dobbs",
+      "position": "QB",
+      "team": "DET",
+      "publicAdp": 388.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon LaFell",
+      "position": "WR",
+      "publicAdp": 332,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brent Celek",
+      "position": "TE",
+      "publicAdp": 334,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Spencer Ware",
+      "position": "RB",
+      "publicAdp": 480.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Louis Murphy",
+      "position": "WR",
+      "publicAdp": 336,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kyle Juszczyk",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 653,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Roberto Aguayo",
+      "position": "K",
+      "publicAdp": 337,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kendrick Bourne",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 402,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Zach Zenner",
+      "position": "RB",
+      "publicAdp": 407,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dalton Schultz",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 339,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devin Gray",
+      "position": "WR",
+      "publicAdp": 339,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Lucky Whitehead",
+      "position": "WR",
+      "publicAdp": 410,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Rose",
+      "position": "K",
+      "publicAdp": 341,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Griffin",
+      "position": "QB",
+      "publicAdp": 727,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kelvin McKnight",
+      "position": "WR",
+      "publicAdp": 343,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Izzo",
+      "position": "TE",
+      "publicAdp": 344,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darren McFadden",
+      "position": "RB",
+      "publicAdp": 345,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keelan Cole Sr.",
+      "position": "WR",
+      "publicAdp": 606,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Lance Kendricks",
+      "position": "TE",
+      "publicAdp": 347,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alonzo Harris",
+      "position": "RB",
+      "publicAdp": 348,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Pharoh Cooper",
+      "position": "WR",
+      "publicAdp": 348,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Terry Godwin",
+      "position": "WR",
+      "publicAdp": 349,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chester Rogers",
+      "position": "WR",
+      "publicAdp": 516.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Joe Banyard",
+      "position": "RB",
+      "publicAdp": 350,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Virgil Green",
+      "position": "TE",
+      "publicAdp": 351,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Matthews",
+      "position": "TE",
+      "publicAdp": 507,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Xavier Grimble",
+      "position": "TE",
+      "publicAdp": 352,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ed Dickson",
+      "position": "TE",
+      "publicAdp": 353,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jarius Wright",
+      "position": "WR",
+      "publicAdp": 659.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Seth Roberts",
+      "position": "WR",
+      "publicAdp": 521,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Andre Roberts",
+      "position": "WR",
+      "publicAdp": 355,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "John Ursua",
+      "position": "WR",
+      "publicAdp": 356,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tajae Sharpe",
+      "position": "WR",
+      "publicAdp": 618,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "C.J. Ham",
+      "position": "RB",
+      "publicAdp": 357,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Laquon Treadwell",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 406.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kai Forbath",
+      "position": "K",
+      "publicAdp": 359,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Isaiah McKenzie",
+      "position": "WR",
+      "publicAdp": 468.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Cassel",
+      "position": "QB",
+      "publicAdp": 360,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Drew Lock",
+      "position": "QB",
+      "team": "SEA",
+      "publicAdp": 653.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Adam Shaheen",
+      "position": "TE",
+      "publicAdp": 361,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Randy Bullock",
+      "position": "K",
+      "publicAdp": 617,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Travis Coons",
+      "position": "K",
+      "publicAdp": 362,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kapri Bibbs",
+      "position": "RB",
+      "publicAdp": 472,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jaeden Graham",
+      "position": "TE",
+      "publicAdp": 363,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Matthews",
+      "position": "WR",
+      "publicAdp": 475,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ray-Ray McCloud III",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 364,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Wilkins",
+      "position": "RB",
+      "publicAdp": 682,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Algernon Brown",
+      "position": "RB",
+      "publicAdp": 365,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kelvin Benjamin",
+      "position": "WR",
+      "publicAdp": 366,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Wallace",
+      "position": "WR",
+      "publicAdp": 367,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Zach Pascal",
+      "position": "WR",
+      "publicAdp": 580,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Patrick Murray",
+      "position": "K",
+      "publicAdp": 368,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Aaron Ripkowski",
+      "position": "RB",
+      "publicAdp": 369,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tim Patrick",
+      "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 511.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rhett Ellison",
+      "position": "TE",
+      "publicAdp": 370,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Byron Pringle",
+      "position": "WR",
+      "publicAdp": 371,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Aldrick Robinson",
+      "position": "WR",
+      "publicAdp": 474,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Don Jackson",
+      "position": "RB",
+      "publicAdp": 373,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trevor Davis",
+      "position": "WR",
+      "publicAdp": 375,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tra Carson",
+      "position": "RB",
+      "publicAdp": 376,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Tannehill",
+      "position": "QB",
+      "publicAdp": 665,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Bolden",
+      "position": "RB",
+      "publicAdp": 377,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Julius Thomas",
+      "position": "TE",
+      "publicAdp": 378,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dri Archer",
+      "position": "RB",
+      "publicAdp": 378,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Teddy Bridgewater",
+      "position": "QB",
+      "publicAdp": 379,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "C.J. Beathard",
+      "position": "QB",
+      "publicAdp": 434.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Caleb Sturgis",
+      "position": "K",
+      "publicAdp": 380,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Elliott Fry",
+      "position": "K",
+      "publicAdp": 380,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Jones",
+      "position": "RB",
+      "publicAdp": 382,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Reggie Bonnafon",
+      "position": "RB",
+      "publicAdp": 681,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeremy Sprinkle",
+      "position": "TE",
+      "publicAdp": 383,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Ivory",
+      "position": "RB",
+      "publicAdp": 466,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Zach Line",
+      "position": "RB",
+      "publicAdp": 384,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Braxton Miller",
+      "position": "WR",
+      "publicAdp": 385,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "John Phillips",
+      "position": "TE",
+      "publicAdp": 386,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Scarlett",
+      "position": "RB",
+      "publicAdp": 693,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Zach Gentry",
+      "position": "TE",
+      "publicAdp": 387,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Andy Jones",
+      "position": "WR",
+      "publicAdp": 388,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jaydon Mickens",
+      "position": "WR",
+      "publicAdp": 654.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matthew Slater",
+      "position": "WR",
+      "publicAdp": 389,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Corey Acosta",
+      "position": "K",
+      "publicAdp": 390,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Orleans Darkwa",
+      "position": "RB",
+      "publicAdp": 391,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Olamide Zaccheaus",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 391,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Hunter Sharp",
+      "position": "WR",
+      "publicAdp": 631,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "publicAdp": 393,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jacob Dolegala",
+      "position": "QB",
+      "publicAdp": 393,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dwayne Washington",
+      "position": "RB",
+      "publicAdp": 394,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Terrelle Pryor Sr.",
+      "position": "WR",
+      "publicAdp": 431,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Tolbert",
+      "position": "RB",
+      "publicAdp": 395,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tremon Smith",
+      "team": "HOU",
+      "publicAdp": 396,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Veasy",
+      "position": "WR",
+      "publicAdp": 396,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Austin Carr",
+      "position": "WR",
+      "publicAdp": 398,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devonte Boyd",
+      "position": "WR",
+      "publicAdp": 398,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Levine Toilolo",
+      "position": "TE",
+      "publicAdp": 399,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Andy Janovich",
+      "position": "RB",
+      "publicAdp": 400,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Derek Carrier",
+      "position": "TE",
+      "publicAdp": 401,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DeAndre Carter",
+      "position": "WR",
+      "publicAdp": 447.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt McCrane",
+      "position": "K",
+      "publicAdp": 402,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marcedes Lewis",
+      "position": "TE",
+      "publicAdp": 403,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Paxton Lynch",
+      "position": "QB",
+      "publicAdp": 444,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jamize Olawale",
+      "position": "RB",
+      "publicAdp": 404,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Joe Webb III",
+      "position": "QB",
+      "publicAdp": 405,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DeAndre Washington",
+      "position": "RB",
+      "publicAdp": 702.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Danny Vitale",
+      "position": "RB",
+      "publicAdp": 407,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tim Tebow",
+      "position": "TE",
+      "publicAdp": 408,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alex Erickson",
+      "position": "WR",
+      "publicAdp": 408,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tom Savage",
+      "position": "QB",
+      "publicAdp": 409,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cairo Santos",
+      "position": "K",
+      "team": "CHI",
+      "publicAdp": 410,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Robert Tonyan",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 411,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Andrew Franks",
+      "position": "K",
+      "publicAdp": 412,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mark Walton",
+      "position": "RB",
+      "publicAdp": 706,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devin Smith",
+      "position": "WR",
+      "publicAdp": 413,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Moore",
+      "position": "QB",
+      "publicAdp": 414,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Charles Clay",
+      "position": "TE",
+      "publicAdp": 430,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 572.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Andre Ellington",
+      "position": "RB",
+      "publicAdp": 690,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Aaron Hernandez",
+      "position": "TE",
+      "publicAdp": 417,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tommy Sweeney",
+      "position": "TE",
+      "publicAdp": 417,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ashton Dulin",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 418,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Troy Fumagalli",
+      "position": "TE",
+      "publicAdp": 419,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Blewitt",
+      "position": "K",
+      "publicAdp": 420,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "C.J. Prosise",
+      "position": "RB",
+      "publicAdp": 702,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marlon Brown",
+      "position": "WR",
+      "publicAdp": 421,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Elijhaa Penny",
+      "position": "RB",
+      "publicAdp": 421,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chandler Cox",
+      "position": "RB",
+      "publicAdp": 422,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Oliver",
+      "position": "TE",
+      "team": "MIN",
+      "publicAdp": 695.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bisi Johnson",
+      "position": "WR",
+      "publicAdp": 423,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Shane Smith",
+      "position": "RB",
+      "publicAdp": 424,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ty Johnson",
+      "position": "RB",
+      "team": "BUF",
+      "publicAdp": 712.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Quincy Adeboyejo",
+      "position": "WR",
+      "publicAdp": 426,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Johnny Manziel",
+      "position": "QB",
+      "publicAdp": 427,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DeShone Kizer",
+      "position": "QB",
+      "publicAdp": 427,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chad Kelly",
+      "position": "QB",
+      "publicAdp": 428,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Boone",
+      "position": "RB",
+      "publicAdp": 702,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Samaje Perine",
+      "position": "RB",
+      "team": "CIN",
+      "publicAdp": 429,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyrod Taylor",
+      "position": "QB",
+      "team": "GB",
+      "publicAdp": 446.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Deon Yelder",
+      "position": "TE",
+      "publicAdp": 430,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Will Grier",
+      "position": "QB",
+      "publicAdp": 588,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darrius Heyward-Bey",
+      "position": "WR",
+      "publicAdp": 432,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "AJ McCarron",
+      "position": "QB",
+      "publicAdp": 446,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Mallett",
+      "position": "QB",
+      "publicAdp": 433,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kevin White",
+      "position": "WR",
+      "publicAdp": 637,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Patrick DiMarco",
+      "position": "RB",
+      "publicAdp": 434,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cooper Rush",
+      "position": "QB",
+      "team": "ATL",
+      "publicAdp": 440,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jacquizz Rodgers",
+      "position": "RB",
+      "publicAdp": 435,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alize Mack",
+      "position": "TE",
+      "publicAdp": 436,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Blaine Gabbert",
+      "position": "QB",
+      "publicAdp": 573,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Boyle",
+      "position": "TE",
+      "publicAdp": 437,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Justin Watson",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 499.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick O'Leary",
+      "position": "TE",
+      "publicAdp": 438,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Roosevelt Nix",
+      "position": "RB",
+      "publicAdp": 439,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brock Osweiler",
+      "position": "QB",
+      "publicAdp": 440,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Drew Stanton",
+      "position": "QB",
+      "publicAdp": 441,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Adams",
+      "position": "RB",
+      "publicAdp": 442,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bryce Love",
+      "position": "RB",
+      "publicAdp": 721,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cameron Meredith",
+      "position": "WR",
+      "publicAdp": 443,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cullen Gillaspia",
+      "position": "RB",
+      "publicAdp": 444,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rodney Adams",
+      "position": "WR",
+      "publicAdp": 445,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chase Daniel",
+      "position": "QB",
+      "publicAdp": 447,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "T.J. Yates",
+      "position": "QB",
+      "publicAdp": 448,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tim Boyle",
+      "position": "QB",
+      "publicAdp": 449,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "J.J. Nelson",
+      "position": "WR",
+      "publicAdp": 450,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jonathan Stewart",
+      "position": "RB",
+      "publicAdp": 451,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Javon Wims",
+      "position": "WR",
+      "publicAdp": 452,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Khalfani Muhammad",
+      "position": "RB",
+      "publicAdp": 453,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dwayne Harris",
+      "position": "WR",
+      "publicAdp": 454,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Coby Fleener",
+      "position": "TE",
+      "publicAdp": 456,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Taquan Mizzell",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 457,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keith Kirkwood",
+      "position": "WR",
+      "publicAdp": 458,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Johnson",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 461,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Elijah Holyfield",
+      "position": "RB",
+      "publicAdp": 462,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Torrey Smith",
+      "position": "WR",
+      "publicAdp": 463,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "D.J. Foster",
+      "position": "RB",
+      "publicAdp": 465,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kamar Aiken",
+      "position": "WR",
+      "publicAdp": 466,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "E.J. Manuel",
+      "position": "QB",
+      "publicAdp": 469,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jacob Hollister",
+      "position": "TE",
+      "publicAdp": 470,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Garrett Dickerson",
+      "position": "TE",
+      "publicAdp": 471,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Eli Rogers",
+      "position": "WR",
+      "publicAdp": 472,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chad Henne",
+      "position": "QB",
+      "publicAdp": 473,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Braxton Berrios",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 474,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Pierre Garcon",
+      "position": "WR",
+      "publicAdp": 477,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Luke Willson",
+      "position": "TE",
+      "publicAdp": 478,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Akeem Hunt",
+      "position": "RB",
+      "publicAdp": 479,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Noah Brown",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 481,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Daniel Brown",
+      "position": "TE",
+      "publicAdp": 482,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jerell Adams",
+      "position": "TE",
+      "publicAdp": 483,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Eric Tomlinson",
+      "position": "TE",
+      "publicAdp": 484,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Isaac Whitney",
+      "position": "WR",
+      "publicAdp": 486,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "LeShun Daniels",
+      "position": "RB",
+      "publicAdp": 487,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Connor Cook",
+      "position": "QB",
+      "publicAdp": 488,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "John Kelly Jr.",
+      "position": "RB",
+      "publicAdp": 489,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeremy Hill",
+      "position": "RB",
+      "publicAdp": 491,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dan Arnold",
+      "position": "TE",
+      "publicAdp": 492,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Schaub",
+      "position": "QB",
+      "publicAdp": 493,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Weber",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 495,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Scott Tolzien",
+      "position": "QB",
+      "publicAdp": 496,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Weeden",
+      "position": "QB",
+      "publicAdp": 497,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Zylstra",
+      "position": "WR",
+      "publicAdp": 498,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeff Heuerman",
+      "position": "TE",
+      "publicAdp": 499,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jarrett Stidham",
+      "position": "QB",
+      "team": "DEN",
+      "publicAdp": 501,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Warren III",
+      "position": "RB",
+      "publicAdp": 503,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "JoJo Natson",
+      "position": "WR",
+      "publicAdp": 504,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Gardner Minshew II",
+      "position": "QB",
+      "team": "ARI",
+      "publicAdp": 505,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyrone Swoopes",
+      "position": "TE",
+      "publicAdp": 506,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bo Scarbrough",
+      "position": "RB",
+      "publicAdp": 507,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Javorius Allen",
+      "position": "RB",
+      "publicAdp": 508,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Niles Paul",
+      "position": "TE",
+      "publicAdp": 509,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Joe Williams",
+      "position": "RB",
+      "publicAdp": 510,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Austin Seferian-Jenkins",
+      "position": "TE",
+      "publicAdp": 511,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Foster Moreau",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 512,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Allen Lazard",
+      "position": "WR",
+      "publicAdp": 513,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Garrett Celek",
+      "position": "TE",
+      "publicAdp": 514,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Fozzy Whittaker",
+      "position": "RB",
+      "publicAdp": 515,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marcus Johnson",
+      "position": "WR",
+      "publicAdp": 516,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nsimba Webster",
+      "position": "WR",
+      "publicAdp": 517,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Troymaine Pope",
+      "position": "RB",
+      "publicAdp": 518,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Byron Marshall",
+      "position": "RB",
+      "publicAdp": 519,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Garrett Griffin",
+      "position": "TE",
+      "publicAdp": 520,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Temarrick Hemingway",
+      "position": "TE",
+      "publicAdp": 521,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brian Hoyer",
+      "position": "QB",
+      "publicAdp": 522,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Stevan Ridley",
+      "position": "RB",
+      "publicAdp": 523,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Damore'ea Stringfellow",
+      "position": "WR",
+      "publicAdp": 524,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike White",
+      "position": "QB",
+      "publicAdp": 525,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Richard Rodgers",
+      "position": "TE",
+      "publicAdp": 526,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Damion Ratley",
+      "position": "WR",
+      "publicAdp": 527,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ben Braunecker",
+      "position": "TE",
+      "publicAdp": 528,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Justin Hardy",
+      "position": "WR",
+      "publicAdp": 529,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeff Wilson Jr.",
+      "position": "RB",
+      "publicAdp": 530,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Christian Hackenberg",
+      "position": "QB",
+      "publicAdp": 531,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Auden Tate",
+      "position": "WR",
+      "publicAdp": 532,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Finley",
+      "position": "QB",
+      "publicAdp": 533,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Joshua Perkins",
+      "position": "TE",
+      "publicAdp": 534,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Eric Saubert",
+      "position": "TE",
+      "team": "SEA",
+      "publicAdp": 536,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brett Hundley",
+      "position": "QB",
+      "publicAdp": 537,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trey Edmunds",
+      "position": "RB",
+      "publicAdp": 538,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kyle Sloter",
+      "position": "QB",
+      "publicAdp": 539,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tion Green",
+      "position": "RB",
+      "publicAdp": 540,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sean Mannion",
+      "position": "QB",
+      "publicAdp": 541,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Malcolm Johnson",
+      "position": "RB",
+      "publicAdp": 542,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bobo Wilson",
+      "position": "WR",
+      "publicAdp": 543,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Luke Stocker",
+      "position": "TE",
+      "publicAdp": 544,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kyle Allen",
+      "position": "QB",
+      "team": "BUF",
+      "publicAdp": 545,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trevor Siemian",
+      "position": "QB",
+      "publicAdp": 546,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Derrick Coleman",
+      "position": "RB",
+      "publicAdp": 548,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sam Rogers",
+      "position": "RB",
+      "publicAdp": 550,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Patrick Laird",
+      "position": "RB",
+      "publicAdp": 551,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Caleb Wilson",
+      "position": "TE",
+      "publicAdp": 552,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brice Butler",
+      "position": "WR",
+      "publicAdp": 553,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marquez Williams",
+      "position": "RB",
+      "publicAdp": 554,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darius Jennings",
+      "position": "WR",
+      "publicAdp": 555,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cethan Carter",
+      "position": "TE",
+      "publicAdp": 556,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kaden Smith",
+      "position": "TE",
+      "publicAdp": 557,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kerrith Whyte Jr.",
+      "position": "RB",
+      "publicAdp": 558,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Austin Davis",
+      "position": "QB",
+      "publicAdp": 559,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Bellamy",
+      "position": "WR",
+      "publicAdp": 560,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keith Smith",
+      "position": "RB",
+      "publicAdp": 561,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Quinton Flowers",
+      "position": "QB",
+      "publicAdp": 563,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Terrell Watson",
+      "position": "RB",
+      "publicAdp": 564,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jermaine Gresham",
+      "position": "TE",
+      "publicAdp": 565,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Duke Williams",
+      "publicAdp": 566,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kelvin Taylor",
+      "position": "RB",
+      "publicAdp": 567,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "De'Angelo Henderson Sr.",
+      "position": "RB",
+      "publicAdp": 568,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Maxx Williams",
+      "position": "TE",
+      "publicAdp": 569,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Steven Sims Jr.",
+      "position": "WR",
+      "publicAdp": 570,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Wilds",
+      "position": "RB",
+      "publicAdp": 571,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sean Culkin",
+      "position": "TE",
+      "publicAdp": 572,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mo Alie-Cox",
+      "position": "TE",
+      "team": "IND",
+      "publicAdp": 573,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dwayne Allen",
+      "position": "TE",
+      "publicAdp": 574,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Travis Homer",
+      "position": "RB",
+      "team": "PIT",
+      "publicAdp": 575,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Terrance Williams",
+      "position": "WR",
+      "publicAdp": 577,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Freddie Stevenson",
+      "publicAdp": 579,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Bray",
+      "position": "QB",
+      "publicAdp": 580,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Charles Johnson",
+      "position": "WR",
+      "publicAdp": 581,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Taiwan Jones",
+      "position": "RB",
+      "publicAdp": 583,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Bellore",
+      "publicAdp": 584,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Conklin",
+      "position": "TE",
+      "team": "DET",
+      "publicAdp": 585,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cedrick Wilson Jr.",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 586,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Akrum Wadley",
+      "position": "RB",
+      "publicAdp": 588,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Fitzgerald Toussaint",
+      "position": "RB",
+      "publicAdp": 589,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "River Cracraft",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 590,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Shane Vereen",
+      "position": "RB",
+      "publicAdp": 591,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Malik Turner",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 592,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mack Hollins",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 593,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Manhertz",
+      "position": "TE",
+      "team": "NYG",
+      "publicAdp": 594,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "KhaDarel Hodge",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 595,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "David Fluellen",
+      "position": "RB",
+      "publicAdp": 596,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Roc Thomas",
+      "position": "RB",
+      "publicAdp": 597,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marcus Lucas",
+      "position": "TE",
+      "publicAdp": 598,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Elijah Hood",
+      "position": "RB",
+      "publicAdp": 599,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brittan Golden",
+      "position": "WR",
+      "publicAdp": 600,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jaleel Scott",
+      "position": "WR",
+      "publicAdp": 601,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Daurice Fountain",
+      "position": "WR",
+      "publicAdp": 602,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Richie James Jr.",
+      "position": "WR",
+      "publicAdp": 603,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keon Hatcher",
+      "position": "WR",
+      "publicAdp": 604,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Detrez Newsome",
+      "position": "RB",
+      "publicAdp": 605,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Phillip Supernaw",
+      "position": "TE",
+      "publicAdp": 606,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tre Madden",
+      "position": "RB",
+      "publicAdp": 607,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Gehrig Dieter",
+      "position": "WR",
+      "publicAdp": 608,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marken Michel",
+      "position": "WR",
+      "publicAdp": 609,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Elijah McGuire",
+      "position": "RB",
+      "publicAdp": 610,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trevon Wesco",
+      "position": "TE",
+      "publicAdp": 611,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Switzer",
+      "position": "WR",
+      "publicAdp": 612,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chad Williams",
+      "position": "WR",
+      "publicAdp": 613,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Da'Mari Scott",
+      "position": "WR",
+      "publicAdp": 614,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Seth DeValve",
+      "position": "TE",
+      "publicAdp": 615,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devin Fuller",
+      "position": "WR",
+      "publicAdp": 616,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Garrett Gilbert",
+      "position": "QB",
+      "publicAdp": 617,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "David Williams",
+      "position": "RB",
+      "publicAdp": 618,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kendall Wright",
+      "position": "WR",
+      "publicAdp": 619,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Boston Scott",
+      "position": "RB",
+      "publicAdp": 620,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Logan Thomas",
+      "position": "TE",
+      "publicAdp": 621,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marcell Ateman",
+      "position": "WR",
+      "publicAdp": 622,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Malone",
+      "position": "WR",
+      "publicAdp": 623,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Lee Smith",
+      "position": "TE",
+      "publicAdp": 624,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Bawden",
+      "position": "RB",
+      "publicAdp": 625,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mason Schreck",
+      "position": "TE",
+      "publicAdp": 627,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marcus Green",
+      "position": "WR",
+      "publicAdp": 628,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Martavis Bryant",
+      "position": "WR",
+      "publicAdp": 629,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Juwann Winfree",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 630,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "T.J. Jones",
+      "position": "WR",
+      "publicAdp": 631,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Eric Weems",
+      "position": "WR",
+      "publicAdp": 632,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Derrick Willies",
+      "position": "WR",
+      "publicAdp": 633,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Lasley",
+      "position": "WR",
+      "publicAdp": 634,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Powell",
+      "position": "WR",
+      "publicAdp": 635,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dalyn Dawkins",
+      "position": "RB",
+      "publicAdp": 636,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Henry Krieger-Coble",
+      "position": "TE",
+      "publicAdp": 637,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Deontay Burnett",
+      "position": "WR",
+      "publicAdp": 638,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Justin Davis",
+      "position": "RB",
+      "publicAdp": 639,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Easton Stick",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 640,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Gabe Holmes",
+      "position": "TE",
+      "publicAdp": 641,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cam Sims",
+      "position": "WR",
+      "publicAdp": 642,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dontrelle Inman",
+      "position": "WR",
+      "publicAdp": 643,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alex Tanney",
+      "position": "QB",
+      "publicAdp": 644,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dylan Cantrell",
+      "position": "WR",
+      "publicAdp": 645,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Landry Jones",
+      "position": "QB",
+      "publicAdp": 646,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Isaac Nauta",
+      "position": "TE",
+      "publicAdp": 647,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mack Brown",
+      "position": "RB",
+      "publicAdp": 648,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kerwynn Williams",
+      "position": "RB",
+      "publicAdp": 650,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trent Sherfield Sr.",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 651,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "James Williams",
+      "position": "RB",
+      "publicAdp": 652,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nate Sudfeld",
+      "position": "QB",
+      "publicAdp": 653,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cody Core",
+      "position": "WR",
+      "publicAdp": 655,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jerome Cunningham",
+      "position": "TE",
+      "publicAdp": 656,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Williams",
+      "position": "WR",
+      "publicAdp": 657,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Taylor",
+      "position": "WR",
+      "publicAdp": 658,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "J.D. McKissic",
+      "position": "RB",
+      "publicAdp": 659,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Greg Dortch",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 660,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Quadree Henderson",
+      "position": "WR",
+      "publicAdp": 661,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Glennon",
+      "position": "QB",
+      "publicAdp": 662,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Donnel Pumphrey",
+      "position": "RB",
+      "publicAdp": 664,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dion Sims",
+      "position": "TE",
+      "publicAdp": 665,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bryce Williams",
+      "position": "TE",
+      "publicAdp": 666,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Corey Grant",
+      "position": "RB",
+      "publicAdp": 667,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Harry Douglas",
+      "position": "WR",
+      "publicAdp": 668,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Hewitt",
+      "position": "RB",
+      "publicAdp": 670,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ricky Ortiz",
+      "position": "RB",
+      "publicAdp": 671,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mason Rudolph",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 672,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Benny Cunningham Jr.",
+      "position": "RB",
+      "publicAdp": 673,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Andre Williams",
+      "position": "RB",
+      "publicAdp": 674,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Floyd",
+      "position": "WR",
+      "publicAdp": 675,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Shaun Wilson",
+      "position": "RB",
+      "publicAdp": 676,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Zac Brooks",
+      "position": "RB",
+      "publicAdp": 677,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Geremy Davis",
+      "position": "WR",
+      "publicAdp": 679,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Charone Peake",
+      "position": "WR",
+      "publicAdp": 680,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jehu Chesson",
+      "position": "WR",
+      "publicAdp": 681,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Drew Sample",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 682,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alonzo Russell",
+      "position": "WR",
+      "publicAdp": 683,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alex Armah Jr.",
+      "position": "RB",
+      "publicAdp": 685,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cardale Jones",
+      "position": "QB",
+      "publicAdp": 686,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Scott Simonson",
+      "position": "TE",
+      "publicAdp": 687,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Gavin Escobar",
+      "position": "TE",
+      "publicAdp": 689,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Leggett",
+      "position": "TE",
+      "publicAdp": 690,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jahad Thomas",
+      "position": "RB",
+      "publicAdp": 691,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Danny Etling",
+      "position": "QB",
+      "publicAdp": 692,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tommy Bohanon",
+      "position": "RB",
+      "publicAdp": 693,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeff Cumberland",
+      "position": "TE",
+      "publicAdp": 694,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Terron Ward",
+      "position": "RB",
+      "publicAdp": 695,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Robert Kelley",
+      "position": "RB",
+      "publicAdp": 696,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Paul Perkins",
+      "position": "RB",
+      "publicAdp": 697,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rico Gathers",
+      "position": "TE",
+      "publicAdp": 698,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Christine Michael",
+      "position": "RB",
+      "publicAdp": 699,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "David Morgan II",
+      "position": "TE",
+      "publicAdp": 700,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cameron Batson",
+      "position": "WR",
+      "publicAdp": 701,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Anthony Firkser",
+      "position": "TE",
+      "publicAdp": 702,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chris Lacy",
+      "position": "WR",
+      "publicAdp": 703,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keenan Reynolds",
+      "position": "WR",
+      "publicAdp": 704,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ifeanyi Momah",
+      "position": "TE",
+      "publicAdp": 705,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jhurell Pressley",
+      "position": "RB",
+      "publicAdp": 706,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jalston Fowler",
+      "position": "RB",
+      "publicAdp": 707,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Clark",
+      "position": "WR",
+      "publicAdp": 708,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Robert Turbin",
+      "position": "RB",
+      "publicAdp": 709,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Branden Oliver",
+      "position": "RB",
+      "publicAdp": 711,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Riley McCarron",
+      "position": "WR",
+      "publicAdp": 712,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Russell Hansbrough",
+      "position": "RB",
+      "publicAdp": 713,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Neal Sterling",
+      "position": "TE",
+      "publicAdp": 714,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "James Hanna",
+      "position": "TE",
+      "publicAdp": 715,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Logan Paulsen",
+      "position": "TE",
+      "publicAdp": 717,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devon Cajuste",
+      "position": "WR",
+      "publicAdp": 718,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brian Parker",
+      "position": "TE",
+      "publicAdp": 719,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Johnny Holton",
+      "position": "WR",
+      "publicAdp": 720,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "C.J. Fiedorowicz",
+      "position": "TE",
+      "publicAdp": 721,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Malcolm Mitchell",
+      "position": "WR",
+      "publicAdp": 722,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ross Travis",
+      "position": "TE",
+      "publicAdp": 723,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Durham Smythe",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 724,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marcus Murphy",
+      "position": "RB",
+      "publicAdp": 725,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Lance Lenoir Jr.",
+      "position": "WR",
+      "publicAdp": 726,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jonathan Williams",
+      "position": "RB",
+      "publicAdp": 728,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kyle Lauletta",
+      "position": "QB",
+      "publicAdp": 729,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Stephen Anderson",
+      "position": "TE",
+      "publicAdp": 730,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Burton",
+      "position": "RB",
+      "team": "CLE",
+      "publicAdp": 732,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Isaiah Ford",
+      "position": "WR",
+      "publicAdp": 733,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Allen",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 734,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Griff Whalen",
+      "position": "WR",
+      "publicAdp": 735,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Deonte Thompson",
+      "position": "WR",
+      "publicAdp": 736,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Dayes",
+      "position": "RB",
+      "publicAdp": 738,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Penny Hart",
+      "position": "WR",
+      "publicAdp": 739,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keith Ford",
+      "position": "RB",
+      "publicAdp": 740,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jalen Tolliver",
+      "position": "WR",
+      "publicAdp": 741,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "J'Mon Moore",
+      "position": "WR",
+      "publicAdp": 742,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Travis Rudolph",
+      "position": "WR",
+      "publicAdp": 743,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Ervin",
+      "position": "RB",
+      "publicAdp": 744,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "A.J. Derby",
+      "position": "TE",
+      "publicAdp": 745,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DeAndrew White",
+      "position": "WR",
+      "publicAdp": 747,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Damiere Byrd",
+      "position": "WR",
+      "publicAdp": 748,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Braedon Bowman",
+      "position": "TE",
+      "publicAdp": 749,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sammie Coates",
+      "position": "WR",
+      "publicAdp": 750,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Thomas Duarte",
+      "position": "TE",
+      "publicAdp": 751,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Charcandrick West",
+      "position": "RB",
+      "publicAdp": 752,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Clayton Thorson",
+      "position": "QB",
+      "publicAdp": 753,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "De'Lance Turner",
+      "position": "RB",
+      "publicAdp": 755,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Temuchin Hodges",
+      "position": "TE",
+      "publicAdp": 756,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeremy Langford",
+      "position": "RB",
+      "publicAdp": 757,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Scotty Miller",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 758,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Aaron Burbridge",
+      "position": "WR",
+      "publicAdp": 759,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Logan Woodside",
+      "position": "QB",
+      "publicAdp": 760,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Chad Hansen",
+      "position": "WR",
+      "publicAdp": 761,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jaelen Strong",
+      "position": "WR",
+      "publicAdp": 762,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Evan Baylis",
+      "position": "TE",
+      "publicAdp": 763,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Andre Holmes",
+      "position": "WR",
+      "publicAdp": 764,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bobby Rainey",
+      "position": "RB",
+      "publicAdp": 765,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Donnie Ernsberger",
+      "position": "RB",
+      "publicAdp": 766,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Vyncint Smith",
+      "position": "WR",
+      "publicAdp": 767,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Justin Hunter",
+      "position": "WR",
+      "publicAdp": 768,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Sean McGrath",
+      "position": "TE",
+      "publicAdp": 770,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cody Kessler",
+      "position": "QB",
+      "publicAdp": 771,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darren Fells",
+      "position": "TE",
+      "publicAdp": 772,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "T.J. Logan",
+      "position": "RB",
+      "publicAdp": 773,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Khari Lee",
+      "position": "TE",
+      "publicAdp": 774,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alan Cross",
+      "position": "TE",
+      "publicAdp": 775,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Flanagan",
+      "position": "TE",
+      "publicAdp": 776,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tommylee Lewis",
+      "position": "WR",
+      "publicAdp": 777,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alex Ellis",
+      "position": "TE",
+      "publicAdp": 778,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Clive Walford",
+      "position": "TE",
+      "publicAdp": 779,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Terrance West",
+      "position": "RB",
+      "publicAdp": 780,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ben Koyack",
+      "position": "TE",
+      "publicAdp": 781,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kahale Warring",
+      "position": "TE",
+      "publicAdp": 782,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jared Abbrederis",
+      "position": "WR",
+      "publicAdp": 783,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "MyCole Pruitt",
+      "position": "TE",
+      "publicAdp": 784,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jay Prosch",
+      "position": "RB",
+      "publicAdp": 785,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ryan Grant",
+      "position": "WR",
+      "publicAdp": 786,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Malachi Dupre",
+      "position": "WR",
+      "publicAdp": 787,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cole Wick",
+      "position": "TE",
+      "publicAdp": 788,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Erik Swoope",
+      "position": "TE",
+      "publicAdp": 789,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Daniel Lasco",
+      "position": "RB",
+      "publicAdp": 790,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trevone Boykin",
+      "position": "QB",
+      "publicAdp": 791,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Robert Davis",
+      "position": "WR",
+      "publicAdp": 792,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cole Hikutini",
+      "position": "TE",
+      "publicAdp": 794,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Orson Charles",
+      "position": "TE",
+      "publicAdp": 795,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kalif Raymond",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 796,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Williams",
+      "position": "TE",
+      "publicAdp": 797,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tanner McEvoy",
+      "position": "WR",
+      "publicAdp": 798,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Randall Telfer",
+      "position": "TE",
+      "publicAdp": 799,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mike Gillislee",
+      "position": "RB",
+      "publicAdp": 800,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Moritz Bohringer",
+      "position": "WR",
+      "publicAdp": 801,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marvin Hall",
+      "position": "WR",
+      "publicAdp": 802,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Leonte Carroo",
+      "position": "WR",
+      "publicAdp": 803,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeremy Kerley",
+      "position": "WR",
+      "publicAdp": 804,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jason Croom",
+      "position": "TE",
+      "publicAdp": 805,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brendan Langley",
+      "publicAdp": 806,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Alex McGough",
+      "position": "QB",
+      "publicAdp": 807,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Taylor Heinicke",
+      "position": "QB",
+      "publicAdp": 808,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Senorise Perry",
+      "position": "RB",
+      "publicAdp": 809,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Antony Auclair",
+      "position": "TE",
+      "publicAdp": 810,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ed Eagan",
+      "position": "WR",
+      "publicAdp": 811,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Austin Traylor",
+      "position": "TE",
+      "publicAdp": 813,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bruce Ellington",
+      "position": "WR",
+      "publicAdp": 814,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "MarQueis Gray",
+      "position": "TE",
+      "publicAdp": 815,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeremy McNichols",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 816,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "David Grinnage",
+      "position": "TE",
+      "publicAdp": 817,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jawill Davis",
+      "position": "WR",
+      "publicAdp": 818,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dillon Mitchell",
+      "position": "WR",
+      "publicAdp": 819,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Beau Sandland",
+      "position": "TE",
+      "publicAdp": 820,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Emanuel Hall",
+      "position": "WR",
+      "publicAdp": 821,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Coleman",
+      "position": "WR",
+      "publicAdp": 822,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darrell Daniels",
+      "position": "TE",
+      "publicAdp": 823,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Carlos Henderson",
+      "position": "WR",
+      "publicAdp": 824,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Quan Bray",
+      "position": "WR",
+      "publicAdp": 825,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Travis Fulgham",
+      "position": "WR",
+      "publicAdp": 826,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jake Rudock",
+      "position": "QB",
+      "publicAdp": 827,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Vince Mayle",
+      "position": "WR",
+      "publicAdp": 829,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rod Streater",
+      "position": "WR",
+      "publicAdp": 830,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "ArDarius Stewart",
+      "position": "WR",
+      "publicAdp": 831,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kenjon Barner",
+      "position": "RB",
+      "publicAdp": 832,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Will Tye",
+      "position": "TE",
+      "publicAdp": 833,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Johnny Mundt",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 834,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Luke Falk",
+      "position": "QB",
+      "publicAdp": 835,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keith Marshall",
+      "position": "RB",
+      "publicAdp": 836,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Roberts",
+      "position": "TE",
+      "publicAdp": 837,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tanner Gentry",
+      "position": "WR",
+      "publicAdp": 838,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darius Powe",
+      "position": "WR",
+      "publicAdp": 839,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ross Dwelley",
+      "position": "TE",
+      "publicAdp": 840,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Austin Proehl",
+      "position": "WR",
+      "publicAdp": 842,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Simmie Cobbs Jr.",
+      "position": "WR",
+      "publicAdp": 843,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brad Kaaya",
+      "position": "QB",
+      "publicAdp": 844,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kevin Hogan",
+      "position": "QB",
+      "publicAdp": 845,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kenneth Farrow",
+      "position": "RB",
+      "publicAdp": 846,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bennie Fowler III",
+      "position": "WR",
+      "publicAdp": 847,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tanner Lee",
+      "position": "QB",
+      "publicAdp": 848,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jace Billingsley",
+      "position": "WR",
+      "publicAdp": 849,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Austin Roberts",
+      "position": "TE",
+      "publicAdp": 850,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devante Mays",
+      "position": "RB",
+      "publicAdp": 851,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kaelin Clay",
+      "position": "WR",
+      "publicAdp": 852,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Carlton Agudosi",
+      "position": "WR",
+      "publicAdp": 853,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Troy Niklas",
+      "position": "TE",
+      "publicAdp": 854,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Lance Dunbar",
+      "position": "RB",
+      "publicAdp": 855,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rashad Greene",
+      "position": "WR",
+      "publicAdp": 856,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Anthony Dable",
+      "position": "WR",
+      "publicAdp": 857,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Markus Wheaton",
+      "position": "WR",
+      "publicAdp": 858,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Derek Anderson",
+      "position": "QB",
+      "publicAdp": 859,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tre McBride III",
+      "position": "WR",
+      "publicAdp": 860,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "James Wright",
+      "position": "WR",
+      "publicAdp": 861,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Janarion Grant",
+      "position": "WR",
+      "publicAdp": 862,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Franks",
+      "position": "TE",
+      "publicAdp": 863,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Hakeem Valles",
+      "position": "TE",
+      "publicAdp": 864,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Lengel",
+      "position": "TE",
+      "publicAdp": 865,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tavarres King",
+      "position": "WR",
+      "publicAdp": 866,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bryce Petty",
+      "position": "QB",
+      "publicAdp": 868,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cam Phillips",
+      "position": "WR",
+      "publicAdp": 869,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Artavis Scott",
+      "position": "WR",
+      "publicAdp": 871,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Charles Sims",
+      "position": "RB",
+      "publicAdp": 872,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Arrelious Benn",
+      "position": "WR",
+      "publicAdp": 874,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Devin Lucien",
+      "position": "WR",
+      "publicAdp": 875,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brett Rypien",
+      "position": "QB",
+      "team": "HOU",
+      "publicAdp": 876,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brandon Doughty",
+      "position": "QB",
+      "publicAdp": 877,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nelson Spruce",
+      "position": "WR",
+      "publicAdp": 878,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "C.J. Board",
+      "position": "WR",
+      "publicAdp": 879,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Marquez North",
+      "position": "WR",
+      "publicAdp": 881,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mitch Mathews",
+      "position": "WR",
+      "publicAdp": 882,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rashawn Scott",
+      "position": "WR",
+      "publicAdp": 883,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brenton Bersin",
+      "position": "WR",
+      "publicAdp": 884,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Ishmael Zamora",
+      "position": "WR",
+      "publicAdp": 885,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Keyarris Garrett",
+      "position": "WR",
+      "publicAdp": 886,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Shelton Gibson",
+      "position": "WR",
+      "publicAdp": 887,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Roger Lewis",
+      "position": "WR",
+      "publicAdp": 888,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Travaris Cadet",
+      "position": "RB",
+      "publicAdp": 889,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tim White",
+      "position": "WR",
+      "publicAdp": 890,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "David Fales",
+      "position": "QB",
+      "publicAdp": 891,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Payton",
+      "position": "WR",
+      "publicAdp": 892,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Mose Frazier",
+      "position": "WR",
+      "publicAdp": 893,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Wendall Williams",
+      "position": "WR",
+      "publicAdp": 894,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Amara Darboh",
+      "position": "WR",
+      "publicAdp": 895,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Russell Gage Jr.",
+      "position": "WR",
+      "publicAdp": 896,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Krishawn Hogan",
+      "position": "WR",
+      "publicAdp": 897,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Paul Turner",
+      "position": "WR",
+      "publicAdp": 898,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Victor Bolden Jr.",
+      "position": "WR",
+      "publicAdp": 899,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Michael Campanaro",
+      "position": "WR",
+      "publicAdp": 900,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jester Weah",
+      "position": "WR",
+      "publicAdp": 901,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Akins",
+      "position": "TE",
+      "publicAdp": 902,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Antoine Wesley",
+      "position": "WR",
+      "publicAdp": 903,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kolby Listenbee",
+      "position": "WR",
+      "publicAdp": 904,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bryce Treggs",
+      "position": "WR",
+      "publicAdp": 905,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jalin Marshall",
+      "position": "WR",
+      "publicAdp": 906,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Matt Hazel",
+      "position": "WR",
+      "publicAdp": 907,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cobi Hamilton",
+      "position": "WR",
+      "publicAdp": 908,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Daniel Braverman",
+      "position": "WR",
+      "publicAdp": 909,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dom Williams",
+      "position": "WR",
+      "publicAdp": 910,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Stacy Coley",
+      "position": "WR",
+      "publicAdp": 911,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Brian Quick",
+      "position": "WR",
+      "publicAdp": 912,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Demarcus Ayers",
+      "position": "WR",
+      "publicAdp": 913,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bradley Marquez",
+      "position": "WR",
+      "publicAdp": 914,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeff Driskel",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 915,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rashad Ross",
+      "position": "WR",
+      "publicAdp": 916,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "DeAngelo Yancey",
+      "position": "WR",
+      "publicAdp": 917,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Davis Webb",
+      "position": "QB",
+      "publicAdp": 918,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Bernard Reedy",
+      "position": "WR",
+      "publicAdp": 919,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darvin Kidsy",
+      "position": "WR",
+      "publicAdp": 920,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kasen Williams",
+      "position": "WR",
+      "publicAdp": 922,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Leslie",
+      "position": "WR",
+      "publicAdp": 923,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Joe Callahan",
+      "position": "QB",
+      "publicAdp": 924,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Kenny Lawler",
+      "position": "WR",
+      "publicAdp": 925,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Freddie Martino",
+      "position": "WR",
+      "publicAdp": 926,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Xavier Rush",
+      "position": "WR",
+      "publicAdp": 927,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Jeff Janis",
+      "position": "WR",
+      "publicAdp": 928,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Paul McRoberts",
+      "position": "WR",
+      "publicAdp": 929,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Ferguson",
+      "position": "RB",
+      "publicAdp": 930,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Darrius Shepherd",
+      "position": "WR",
+      "publicAdp": 931,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Cody Latimer",
+      "position": "WR",
+      "publicAdp": 932,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Garrett Grayson",
+      "position": "QB",
+      "publicAdp": 933,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Kroft",
+      "position": "TE",
+      "publicAdp": 935,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Josh McCown",
+      "position": "QB",
+      "publicAdp": 936,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Allen Hurns",
+      "position": "WR",
+      "publicAdp": 944,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Colt McCoy",
+      "position": "QB",
+      "publicAdp": 945,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Gary Jennings Jr.",
+      "position": "WR",
+      "publicAdp": 946,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Karan Higdon",
+      "position": "RB",
+      "publicAdp": 953,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Thomas Rawls",
+      "position": "RB",
+      "publicAdp": 956,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Buddy Howell",
+      "position": "RB",
+      "publicAdp": 961,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Nick Mullens",
+      "position": "QB",
+      "team": "JAC",
+      "publicAdp": 962,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Rod Smith",
+      "position": "RB",
+      "publicAdp": 963,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "team": "LV",
+      "publicAdp": 973,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trenton Cannon",
+      "position": "RB",
+      "publicAdp": 975,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Dawson Knox",
+      "position": "TE",
+      "team": "BUF",
+      "publicAdp": 979,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2019,
+      "player": "Trent Taylor",
+      "position": "WR",
+      "publicAdp": 1000,
+      "adpSource": "FantasyPros PPR Consensus"
+    }
+  ]
+}

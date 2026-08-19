@@ -1,4 +1,4 @@
-import type { ManagerProfile } from './managerTypes'
+import type { ManagerProfile } from './managerTypes.js'
 
 export const generatedManagers: ManagerProfile[] = [
   {
@@ -89,7 +89,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Ronald Jones",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -699,7 +699,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 103,
         "player": "Zach Charbonnet",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -709,7 +709,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 114,
         "player": "Zay Flowers",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -719,7 +719,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 127,
         "player": "Quentin Johnston",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -929,7 +929,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 24,
         "player": "Omarion Hampton",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -959,7 +959,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 49,
         "player": "RJ Harvey",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -979,7 +979,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 73,
         "player": "Emeka Egbuka",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -999,7 +999,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 97,
         "player": "Kaleb Johnson",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -1039,7 +1039,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 145,
         "player": "Bhayshul Tuten",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -1094,10 +1094,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.086,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.057,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 36.2
@@ -1160,7 +1160,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 58,
         "player": "Kerryon Johnson",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -1220,7 +1220,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 130,
         "player": "Anthony Miller",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -1470,7 +1470,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 69,
         "player": "Travis Etienne",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -1670,7 +1670,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 121,
         "player": "Tyler Allgeier",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -1790,7 +1790,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 92,
         "player": "Jordan Addison",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -1950,7 +1950,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 100,
         "player": "Keon Coleman",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -2000,7 +2000,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 165,
         "player": "Joshua Karty",
         "position": "K",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -2070,7 +2070,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 71,
         "player": "Tyler Warren",
         "position": "TE",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -2080,7 +2080,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 74,
         "player": "Jacory Croskey-Merritt",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -2110,7 +2110,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 119,
         "player": "Quinshon Judkins",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -2195,10 +2195,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.095,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.029,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 33.3
@@ -2631,7 +2631,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 134,
         "player": "Dalton Kincaid",
         "position": "TE",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -2996,7 +2996,7 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.013,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
     "earlyRoundRookieRate": 0,
@@ -3272,7 +3272,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 131,
         "player": "Darrell Henderson Jr.",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3392,7 +3392,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 94,
         "player": "Trey Sermon",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3402,7 +3402,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 99,
         "player": "Trey Lance",
         "position": "QB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3422,7 +3422,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "DeVonta Smith",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3432,7 +3432,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 142,
         "player": "Jaylen Waddle",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3462,7 +3462,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 171,
         "player": "Elijah Moore",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3562,7 +3562,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 116,
         "player": "Kenneth Walker III",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3592,7 +3592,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 149,
         "player": "Isiah Pacheco",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3782,7 +3782,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 24,
         "player": "Marvin Harrison Jr.",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3832,7 +3832,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 73,
         "player": "Malik Nabers",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3862,7 +3862,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 120,
         "player": "Brian Thomas Jr.",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3872,7 +3872,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 121,
         "player": "Blake Corum",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3912,7 +3912,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 169,
         "player": "Kimani Vidal",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3972,7 +3972,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 69,
         "player": "Tetairoa McMillan",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -3992,7 +3992,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 93,
         "player": "Travis Hunter",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -4022,7 +4022,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 124,
         "player": "Cam Skattebo",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -4097,10 +4097,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.152,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.029,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 40
@@ -4243,7 +4243,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 147,
         "player": "Calvin Ridley",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -4403,7 +4403,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 163,
         "player": "Devin Singletary",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -4813,7 +4813,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "De'Von Achane",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -4863,7 +4863,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 178,
         "player": "Chase Brown",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -4923,7 +4923,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 71,
         "player": "Rome Odunze",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -4933,7 +4933,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 74,
         "player": "Caleb Williams",
         "position": "QB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -5198,7 +5198,7 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.057,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
     "earlyRoundRookieRate": 0,
@@ -6044,7 +6044,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Brock Bowers",
         "position": "TE",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -6299,7 +6299,7 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.01,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
     "earlyRoundRookieRate": 0,
@@ -6565,7 +6565,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "Mecole Hardman",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -6585,7 +6585,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 137,
         "player": "Alexander Mattison",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -6865,7 +6865,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "Brian Robinson Jr.",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -6875,7 +6875,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 128,
         "player": "Skyy Moore",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7045,7 +7045,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 148,
         "player": "Anthony Richardson",
         "position": "QB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7065,7 +7065,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 172,
         "player": "Tyjae Spears",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7145,7 +7145,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 90,
         "player": "Jonathon Brooks",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7225,7 +7225,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 7,
         "player": "Ashton Jeanty",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7255,7 +7255,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 42,
         "player": "TreVeyon Henderson",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7400,10 +7400,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.086,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.057,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 34.3
@@ -7496,7 +7496,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 88,
         "player": "Sony Michel",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7546,7 +7546,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 153,
         "player": "Courtland Sutton",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7786,7 +7786,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 74,
         "player": "Javonte Williams",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7976,7 +7976,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "James Cook",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -7986,7 +7986,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 142,
         "player": "Jahan Dotson",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -8026,7 +8026,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 6,
         "player": "Bijan Robinson",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -8276,7 +8276,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 131,
         "player": "Jayden Daniels",
         "position": "QB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -8286,7 +8286,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 134,
         "player": "MarShawn Lloyd",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -8306,7 +8306,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 158,
         "player": "Jaylen Wright",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -8396,7 +8396,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Matthew Golden",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -8436,7 +8436,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 137,
         "player": "Jaydon Blue",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -8501,10 +8501,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.105,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.029,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 32.4
@@ -8867,7 +8867,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 56,
         "player": "Kyle Pitts",
         "position": "TE",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -8877,7 +8877,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 65,
         "player": "Ja'Marr Chase",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -9337,7 +9337,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 84,
         "player": "Xavier Worthy",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -9517,7 +9517,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 112,
         "player": "Luther Burden III",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -9602,10 +9602,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.038,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.029,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 38.1
@@ -9648,7 +9648,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 36,
         "player": "Royce Freeman",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -9698,7 +9698,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 85,
         "player": "DJ Moore",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -9848,7 +9848,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 85,
         "player": "Miles Sanders",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -9938,7 +9938,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 15,
         "player": "Najee Harris",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10058,7 +10058,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 159,
         "player": "Chuba Hubbard",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10108,7 +10108,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 45,
         "player": "Dameon Pierce",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10128,7 +10128,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 69,
         "player": "George Pickens",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10158,7 +10158,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 100,
         "player": "Treylon Burks",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10168,7 +10168,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 117,
         "player": "Chris Olave",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10178,7 +10178,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 124,
         "player": "Isaiah Spiller",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10208,7 +10208,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 165,
         "player": "Zamir White",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10218,7 +10218,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 172,
         "player": "Romeo Doubs",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10308,7 +10308,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 98,
         "player": "Roschon Johnson",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10368,7 +10368,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 170,
         "player": "Sam LaPorta",
         "position": "TE",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10468,7 +10468,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "Ladd McConkey",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10518,7 +10518,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 178,
         "player": "Tyrone Tracy Jr.",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10618,7 +10618,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "Ollie Gordon II",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -10703,10 +10703,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.162,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.086,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 37.1
@@ -10809,7 +10809,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 107,
         "player": "Rashaad Penny",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11109,7 +11109,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 101,
         "player": "Justin Fields",
         "position": "QB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11209,7 +11209,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 47,
         "player": "Breece Hall",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11249,7 +11249,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 95,
         "player": "Drake London",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11349,7 +11349,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 32,
         "player": "Jahmyr Gibbs",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11399,7 +11399,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Tank Bigsby",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11419,7 +11419,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "Jaxon Smith-Njigba",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11699,7 +11699,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 86,
         "player": "Colston Loveland",
         "position": "TE",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11749,7 +11749,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 155,
         "player": "DJ Giddens",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11759,7 +11759,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 158,
         "player": "Kyle Williams",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11804,10 +11804,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.095,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.057,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 34.3
@@ -11890,7 +11890,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 84,
         "player": "Michael Carter",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -11940,7 +11940,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 133,
         "player": "Trevor Lawrence",
         "position": "QB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -12370,7 +12370,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 115,
         "player": "Trey Benson",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -12605,7 +12605,7 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.04,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
     "earlyRoundRookieRate": 0,
@@ -12791,7 +12791,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 18,
         "player": "David Montgomery",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -12801,7 +12801,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 31,
         "player": "Josh Jacobs",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -12811,7 +12811,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 42,
         "player": "Kyler Murray",
         "position": "QB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -12821,7 +12821,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 55,
         "player": "Deebo Samuel",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -12901,7 +12901,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 151,
         "player": "Marquise Brown",
         "position": "WR",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -12911,7 +12911,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 162,
         "player": "T.J. Hockenson",
         "position": "TE",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -12956,10 +12956,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.2,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.4,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 30
@@ -12982,7 +12982,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 6,
         "player": "Saquon Barkley",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -13232,7 +13232,7 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "Darwin Thompson",
         "position": "RB",
-        "isRookie": false,
+        "isRookie": true,
         "wasKeeper": false
       },
       {
@@ -13307,10 +13307,10 @@ export const generatedManagers: ManagerProfile[] = [
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
-    "rookieDraftRate": 0,
+    "rookieDraftRate": 0.067,
     "rookieReachRate": 0,
     "averageRookieAdpReach": 0,
-    "earlyRoundRookieRate": 0,
+    "earlyRoundRookieRate": 0.1,
     "keeperRate": 0,
     "aggressionScore": 50,
     "predictabilityScore": 43.3

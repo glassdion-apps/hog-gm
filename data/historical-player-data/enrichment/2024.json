@@ -1,0 +1,7185 @@
+{
+  "generatedAt": "2026-08-19T16:12:34.628Z",
+  "season": 2024,
+  "source": "/Users/dionglassmainmac/Documents/projects/hog-gm/data/historical-adp/fantasypros-adp-2024.json",
+  "scoring": "PPR",
+  "records": [
+    {
+      "season": 2024,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 1,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 2.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "publicAdp": 3.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "team": "ATL",
+      "publicAdp": 5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Breece Hall",
+      "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 5.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 6.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 6.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "publicAdp": 7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 9.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 10.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "publicAdp": 10.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Garrett Wilson",
+      "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 12.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 12.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Puka Nacua",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 14.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kyren Williams",
+      "position": "RB",
+      "team": "LAR",
+      "publicAdp": 16,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Marvin Harrison Jr.",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 16.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Travis Etienne Jr.",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 17.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 18,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isiah Pacheco",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 20.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Davante Adams",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 22,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "publicAdp": 24.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 25.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Drake London",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 25.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Olave",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 26.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "De'Von Achane",
+      "position": "RB",
+      "team": "MIA",
+      "publicAdp": 27.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 28.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nico Collins",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 28.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Patrick Mahomes II",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 29,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "James Cook III",
+      "position": "RB",
+      "team": "BUF",
+      "publicAdp": 31,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 31.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 31.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rachaad White",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 31.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sam LaPorta",
+      "position": "TE",
+      "team": "DET",
+      "publicAdp": 31.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Deebo Samuel Sr.",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 32,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brandon Aiyuk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 34,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Pittman Jr.",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 34.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 34.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 37.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "publicAdp": 38.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 39.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 41.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kenneth Walker III",
+      "position": "RB",
+      "team": "KC",
+      "publicAdp": 41.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 42.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 43,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DJ Moore",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 43.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 44,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 45.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trey McBride",
+      "position": "TE",
+      "team": "ARI",
+      "publicAdp": 46.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Malik Nabers",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 48.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "C.J. Stroud",
+      "position": "QB",
+      "team": "HOU",
+      "publicAdp": 48.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dalton Kincaid",
+      "position": "TE",
+      "team": "BUF",
+      "publicAdp": 53.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 56,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "George Kittle",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 56.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "publicAdp": 56.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Anthony Richardson Sr.",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 57.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Aaron Jones Sr.",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 59.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "George Pickens",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 59.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "team": "CHI",
+      "publicAdp": 60.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 61.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "David Montgomery",
+      "position": "RB",
+      "team": "HOU",
+      "publicAdp": 61.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 62.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zay Flowers",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 63.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kyle Pitts Sr.",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 64.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tank Dell",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 65,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Evan Engram",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 65,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zamir White",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 66.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 66.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rashee Rice",
+      "position": "WR",
+      "team": "KC",
+      "publicAdp": 67.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "publicAdp": 68.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 70.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Najee Harris",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 70.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Love",
+      "position": "QB",
+      "team": "GB",
+      "publicAdp": 71.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 71.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 74.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "team": "LV",
+      "publicAdp": 74.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 74.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Godwin Jr.",
+      "position": "WR",
+      "team": "TB",
+      "publicAdp": 76.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 79.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Javonte Williams",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 81.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Ferguson",
+      "position": "TE",
+      "team": "DAL",
+      "publicAdp": 81.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 81.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "David Njoku",
+      "position": "TE",
+      "team": "LAC",
+      "publicAdp": 84.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jayden Reed",
+      "position": "WR",
+      "team": "GB",
+      "publicAdp": 87.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Diontae Johnson",
+      "position": "WR",
+      "publicAdp": 88.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Xavier Worthy",
+      "position": "WR",
+      "team": "KC",
+      "publicAdp": 90,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "publicAdp": 91,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brock Purdy",
+      "position": "QB",
+      "team": "SF",
+      "publicAdp": 91.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brian Robinson Jr.",
+      "position": "RB",
+      "team": "ATL",
+      "publicAdp": 92.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT",
+      "publicAdp": 92.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 94.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zack Moss",
+      "position": "RB",
+      "publicAdp": 98,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rome Odunze",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 98.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 99.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyjae Spears",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 100.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brock Bowers",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 100.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "publicAdp": 100.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jonathon Brooks",
+      "position": "RB",
+      "team": "CAR",
+      "publicAdp": 101.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Christian Watson",
+      "position": "WR",
+      "team": "GB",
+      "publicAdp": 102.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jayden Daniels",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 102.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Keon Coleman",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 104.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ladd McConkey",
+      "position": "WR",
+      "team": "LAC",
+      "publicAdp": 105.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 107.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Justin Tucker",
+      "position": "K",
+      "publicAdp": 108.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Caleb Williams",
+      "position": "QB",
+      "team": "CHI",
+      "publicAdp": 109,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 109.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hollywood Brown",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 110.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Addison",
+      "position": "WR",
+      "team": "MIN",
+      "publicAdp": 110.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chase Brown",
+      "position": "RB",
+      "team": "CIN",
+      "publicAdp": 111.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Harrison Butker",
+      "position": "K",
+      "team": "KC",
+      "publicAdp": 112.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 112.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jerome Ford",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 113,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "publicAdp": 113.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brandon Aubrey",
+      "position": "K",
+      "team": "DAL",
+      "publicAdp": 113.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Gus Edwards",
+      "position": "RB",
+      "publicAdp": 113.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "ATL",
+      "publicAdp": 115.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "San Francisco 49ers DST",
+      "position": "DST",
+      "publicAdp": 116,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "publicAdp": 116,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brian Thomas Jr.",
+      "position": "WR",
+      "team": "JAC",
+      "publicAdp": 116.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jameson Williams",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 120.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dalton Schultz",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 125.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "team": "MIN",
+      "publicAdp": 126.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dallas Cowboys DST",
+      "position": "DST",
+      "publicAdp": 128,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Blake Corum",
+      "position": "RB",
+      "team": "LAR",
+      "publicAdp": 128,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Baltimore Ravens DST",
+      "position": "DST",
+      "publicAdp": 128.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "New York Jets DST",
+      "position": "DST",
+      "publicAdp": 128.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAC",
+      "publicAdp": 129.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "publicAdp": 130.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Khalil Shakir",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 132,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "team": "CAR",
+      "publicAdp": 132.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "team": "DEN",
+      "publicAdp": 132.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trey Benson",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 133.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cleveland Browns DST",
+      "position": "DST",
+      "publicAdp": 134.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 135.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 136.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 139.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Younghoe Koo",
+      "position": "K",
+      "publicAdp": 140,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cole Kmet",
+      "position": "TE",
+      "team": "CHI",
+      "publicAdp": 141,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Romeo Doubs",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 142,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "publicAdp": 142.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Curtis Samuel",
+      "position": "WR",
+      "publicAdp": 143.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "team": "JAC",
+      "publicAdp": 143.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 143.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Elliott",
+      "position": "K",
+      "team": "PHI",
+      "publicAdp": 145.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zach Charbonnet",
+      "position": "RB",
+      "team": "SEA",
+      "publicAdp": 147.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ka'imi Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "publicAdp": 149,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Evan McPherson",
+      "position": "K",
+      "team": "CIN",
+      "publicAdp": 149.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mike Williams",
+      "position": "WR",
+      "publicAdp": 149.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 150.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rico Dowdle",
+      "position": "RB",
+      "team": "PIT",
+      "publicAdp": 150.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joshua Palmer",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 151.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Moody",
+      "position": "K",
+      "publicAdp": 156.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Allgeier",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 156.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Pittsburgh Steelers DST",
+      "position": "DST",
+      "publicAdp": 158.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kansas City Chiefs DST",
+      "position": "DST",
+      "publicAdp": 160,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ty Chandler",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 160.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "publicAdp": 161,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaleel McLaughlin",
+      "position": "RB",
+      "team": "DEN",
+      "publicAdp": 162,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "publicAdp": 163.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Buffalo Bills DST",
+      "position": "DST",
+      "publicAdp": 164.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "publicAdp": 166.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cameron Dicker",
+      "position": "K",
+      "team": "LAC",
+      "publicAdp": 166.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Gabe Davis",
+      "position": "WR",
+      "publicAdp": 168.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "publicAdp": 169.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaylen Wright",
+      "position": "RB",
+      "team": "MIA",
+      "publicAdp": 169.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Luke Musgrave",
+      "position": "TE",
+      "team": "GB",
+      "publicAdp": 169.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Adonai Mitchell",
+      "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 170.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Miami Dolphins DST",
+      "position": "DST",
+      "publicAdp": 171.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Antonio Gibson",
+      "position": "RB",
+      "publicAdp": 173.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Xavier Legette",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 178.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Philadelphia Eagles DST",
+      "position": "DST",
+      "publicAdp": 178.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isaiah Likely",
+      "position": "TE",
+      "team": "NYG",
+      "publicAdp": 180.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Conklin",
+      "position": "TE",
+      "team": "DET",
+      "publicAdp": 182,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dontayvion Wicks",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 182.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Darnell Mooney",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 183.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Bass",
+      "position": "K",
+      "team": "BUF",
+      "publicAdp": 183.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Houston Texans DST",
+      "position": "DST",
+      "publicAdp": 184,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ja'Lynn Polk",
+      "position": "WR",
+      "publicAdp": 184.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bo Nix",
+      "position": "QB",
+      "team": "DEN",
+      "publicAdp": 184.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chicago Bears DST",
+      "position": "DST",
+      "publicAdp": 187.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rashid Shaheed",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 187.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bucky Irving",
+      "position": "RB",
+      "team": "TB",
+      "publicAdp": 191,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Khalil Herbert",
+      "position": "RB",
+      "publicAdp": 192.2,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "publicAdp": 192.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "New Orleans Saints DST",
+      "position": "DST",
+      "publicAdp": 193.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Will Levis",
+      "position": "QB",
+      "team": "TEN",
+      "publicAdp": 195.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jason Myers",
+      "position": "K",
+      "team": "SEA",
+      "publicAdp": 196.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tampa Bay Buccaneers DST",
+      "position": "DST",
+      "publicAdp": 197.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jason Sanders",
+      "position": "K",
+      "team": "NYJ",
+      "publicAdp": 199.4,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DeMario Douglas",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 203,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Seattle Seahawks DST",
+      "position": "DST",
+      "publicAdp": 205.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Detroit Lions DST",
+      "position": "DST",
+      "publicAdp": 206,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Derek Carr",
+      "position": "QB",
+      "publicAdp": 218,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "publicAdp": 224.6,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cincinnati Bengals DST",
+      "position": "DST",
+      "publicAdp": 159.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Los Angeles Chargers DST",
+      "position": "DST",
+      "publicAdp": 230,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Taysom Hill",
+      "position": "TE",
+      "publicAdp": 164.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Greg Zuerlein",
+      "position": "K",
+      "publicAdp": 181.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "MarShawn Lloyd",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 182,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Mason",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 187.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "publicAdp": 193,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Braelon Allen",
+      "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 198.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Downs",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 200.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Daniel Carlson",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 200.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matt Gay",
+      "position": "K",
+      "team": "LV",
+      "publicAdp": 201,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cairo Santos",
+      "position": "K",
+      "team": "CHI",
+      "publicAdp": 202,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chig Okonkwo",
+      "position": "TE",
+      "team": "WAS",
+      "publicAdp": 202.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ray Davis",
+      "position": "RB",
+      "team": "BUF",
+      "publicAdp": 205.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Atlanta Falcons DST",
+      "position": "DST",
+      "publicAdp": 208.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Las Vegas Raiders DST",
+      "position": "DST",
+      "publicAdp": 211.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bryce Young",
+      "position": "QB",
+      "team": "CAR",
+      "publicAdp": 216.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 217,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Indianapolis Colts DST",
+      "position": "DST",
+      "publicAdp": 218.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Justin Fields",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 221,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Green Bay Packers DST",
+      "position": "DST",
+      "publicAdp": 222.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Wilson",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 226.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "publicAdp": 226.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jonnu Smith",
+      "position": "TE",
+      "publicAdp": 227.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kenny Gainwell",
+      "position": "RB",
+      "team": "TB",
+      "publicAdp": 229.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "New York Giants DST",
+      "position": "DST",
+      "publicAdp": 230.8,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "publicAdp": 231.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Minnesota Vikings DST",
+      "position": "DST",
+      "publicAdp": 233.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mike Gesicki",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 236.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sam Darnold",
+      "position": "QB",
+      "team": "SEA",
+      "publicAdp": 249,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Denver Broncos DST",
+      "position": "DST",
+      "publicAdp": 191.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cade Otton",
+      "position": "TE",
+      "team": "TB",
+      "publicAdp": 196,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jahan Dotson",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 201,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kimani Vidal",
+      "position": "RB",
+      "team": "LAC",
+      "publicAdp": 207.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "publicAdp": 208,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dawson Knox",
+      "position": "TE",
+      "team": "BUF",
+      "publicAdp": 212.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Quentin Johnston",
+      "position": "WR",
+      "team": "LAC",
+      "publicAdp": 212.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Bates",
+      "position": "K",
+      "team": "DET",
+      "publicAdp": 214,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dameon Pierce",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 215,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jermaine Burton",
+      "position": "WR",
+      "publicAdp": 215.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ben Sinnott",
+      "position": "TE",
+      "team": "WAS",
+      "publicAdp": 215.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Roman Wilson",
+      "position": "WR",
+      "publicAdp": 215.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Washington Commanders DST",
+      "position": "DST",
+      "publicAdp": 217.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Will Reichard",
+      "position": "K",
+      "team": "MIN",
+      "publicAdp": 220.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "New England Patriots DST",
+      "position": "DST",
+      "publicAdp": 222.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Carson Steele",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 225.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Drake Maye",
+      "position": "QB",
+      "team": "NE",
+      "publicAdp": 226.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Alexander Mattison",
+      "position": "RB",
+      "publicAdp": 228.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Blake Grupe",
+      "position": "K",
+      "team": "IND",
+      "publicAdp": 231,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 232,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Luke McCaffrey",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 233.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Marvin Mims Jr.",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 233.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jacksonville Jaguars DST",
+      "position": "DST",
+      "publicAdp": 234,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tank Bigsby",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 235,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Justice Hill",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 236.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cam Little",
+      "position": "K",
+      "team": "JAC",
+      "publicAdp": 236.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Wan'Dale Robinson",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 237.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Troy Franklin",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 239,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tennessee Titans DST",
+      "position": "DST",
+      "publicAdp": 241,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Roschon Johnson",
+      "position": "RB",
+      "team": "CHI",
+      "publicAdp": 244.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Daniel Jones",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 246.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Noah Fant",
+      "position": "TE",
+      "team": "NO",
+      "publicAdp": 248,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ja'Tavion Sanders",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 249,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Los Angeles Rams DST",
+      "position": "DST",
+      "publicAdp": 250.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "publicAdp": 250.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jamaal Williams",
+      "position": "RB",
+      "publicAdp": 253.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Keaton Mitchell",
+      "position": "RB",
+      "team": "LAC",
+      "publicAdp": 254.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Audric Estime",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 257,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Colby Parkinson",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 257.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Will Shipley",
+      "position": "RB",
+      "team": "PHI",
+      "publicAdp": 258.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Greg Dulcich",
+      "position": "TE",
+      "team": "MIA",
+      "publicAdp": 259,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Juwan Johnson",
+      "position": "TE",
+      "team": "NO",
+      "publicAdp": 262.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Tolbert",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 263.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Greg Dortch",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 265.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Demarcus Robinson",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 266.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 270,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Samaje Perine",
+      "position": "RB",
+      "team": "CIN",
+      "publicAdp": 271.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Mayer",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 271.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dustin Hopkins",
+      "position": "K",
+      "publicAdp": 159.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kadarius Toney",
+      "position": "WR",
+      "publicAdp": 282.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Arizona Cardinals DST",
+      "position": "DST",
+      "publicAdp": 186.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Boswell",
+      "position": "K",
+      "team": "PIT",
+      "publicAdp": 186.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ricky Pearsall",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 187.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brenden Rice",
+      "position": "WR",
+      "publicAdp": 293.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Devontez Walker",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 294.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Malachi Corley",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 199.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Penix Jr.",
+      "position": "QB",
+      "team": "ATL",
+      "publicAdp": 302.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Eric Gray",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 306,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Whittington",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 307.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Darren Waller",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 213.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dylan Laube",
+      "position": "RB",
+      "team": "LV",
+      "publicAdp": 310,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brandon McManus",
+      "position": "K",
+      "publicAdp": 311.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trey Sermon",
+      "position": "RB",
+      "team": "ATL",
+      "publicAdp": 316,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 225,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Graham Gano",
+      "position": "K",
+      "publicAdp": 227,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Wil Lutz",
+      "position": "K",
+      "team": "DEN",
+      "publicAdp": 230,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Javon Baker",
+      "position": "WR",
+      "publicAdp": 323.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Noah Gray",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 239.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kendre Miller",
+      "position": "RB",
+      "team": "NO",
+      "publicAdp": 243.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kyle Juszczyk",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 243.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "publicAdp": 245.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Malik Washington",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 331,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Daniel Bellinger",
+      "position": "TE",
+      "team": "TEN",
+      "publicAdp": 331.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cam Akers",
+      "position": "RB",
+      "publicAdp": 334.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Gardner Minshew II",
+      "position": "QB",
+      "team": "ARI",
+      "publicAdp": 253,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jonathan Mingo",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 340.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Justin Watson",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 264,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tucker Kraft",
+      "position": "TE",
+      "team": "GB",
+      "publicAdp": 264,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Braxton Berrios",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 267,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joshua Karty",
+      "position": "K",
+      "publicAdp": 269.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Miles Sanders",
+      "position": "RB",
+      "publicAdp": 270.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Louis Rees-Zammit",
+      "position": "RB",
+      "publicAdp": 270.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen McMillan",
+      "position": "WR",
+      "team": "TB",
+      "publicAdp": 275.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "KaVontae Turpin",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 279,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jauan Jennings",
+      "position": "WR",
+      "team": "MIN",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Skyy Moore",
+      "position": "WR",
+      "team": "GB",
+      "publicAdp": 280.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Bobo",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 281,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalin Hyatt",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 282.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hayden Hurst",
+      "position": "TE",
+      "publicAdp": 287,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Anders Carlson",
+      "position": "K",
+      "publicAdp": 287.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joey Slye",
+      "position": "K",
+      "team": "TEN",
+      "publicAdp": 288,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dyami Brown",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 290.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jermar Jefferson",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 290.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kenny Pickett",
+      "position": "QB",
+      "team": "CAR",
+      "publicAdp": 290.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Durham Smythe",
+      "position": "TE",
+      "team": "BAL",
+      "publicAdp": 292,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "J.J. Taylor",
+      "position": "RB",
+      "publicAdp": 293,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tre Tucker",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 293.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Aidan O'Connell",
+      "position": "QB",
+      "team": "LV",
+      "publicAdp": 295,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Deuce Vaughn",
+      "position": "RB",
+      "publicAdp": 295.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Andrei Iosivas",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 298.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Elijah Moore",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 301,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "D'Onta Foreman",
+      "position": "RB",
+      "publicAdp": 302,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Allen Lazard",
+      "position": "WR",
+      "publicAdp": 303,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Darnell Washington",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 305,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joshua Dobbs",
+      "position": "QB",
+      "team": "DET",
+      "publicAdp": 307,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Higbee",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 371.7,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Luke Schoonmaker",
+      "position": "TE",
+      "team": "DAL",
+      "publicAdp": 308.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mecole Hardman Jr.",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 308.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cade York",
+      "position": "K",
+      "team": "NYJ",
+      "publicAdp": 309.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isaac Guerendo",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 310,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cade Stover",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 313.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "A.T. Perry",
+      "position": "WR",
+      "publicAdp": 314,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zay Jones",
+      "position": "WR",
+      "publicAdp": 314.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Carson Wentz",
+      "position": "QB",
+      "team": "MIN",
+      "publicAdp": 315.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "K.J. Osborn",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 315.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joe Flacco",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 317.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Connor Heyward",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 320,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jared Wiley",
+      "position": "TE",
+      "team": "KC",
+      "publicAdp": 320.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brevin Jordan",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 326,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jimmy Garoppolo",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 328.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hendon Hooker",
+      "position": "QB",
+      "team": "TEN",
+      "publicAdp": 329.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brock Wright",
+      "position": "TE",
+      "team": "DET",
+      "publicAdp": 331.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chad Ryland",
+      "position": "K",
+      "team": "ARI",
+      "publicAdp": 332,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zach Wilson",
+      "position": "QB",
+      "team": "NO",
+      "publicAdp": 332.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Theo Johnson",
+      "position": "TE",
+      "team": "NYG",
+      "publicAdp": 333,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kendrick Bourne",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 334,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Equanimeous St. Brown",
+      "position": "WR",
+      "publicAdp": 334.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Greg Joseph",
+      "position": "K",
+      "publicAdp": 334.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Reynolds",
+      "position": "WR",
+      "publicAdp": 334.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tommy DeVito",
+      "position": "QB",
+      "team": "NE",
+      "publicAdp": 343.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DeWayne McBride",
+      "position": "RB",
+      "publicAdp": 344,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Scott",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 349,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tom Brady",
+      "position": "QB",
+      "publicAdp": 202,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brett Maher",
+      "position": "K",
+      "publicAdp": 352,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trey Lance",
+      "position": "QB",
+      "team": "LAC",
+      "publicAdp": 357.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matt Prater",
+      "position": "K",
+      "publicAdp": 217,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cooper Rush",
+      "position": "QB",
+      "team": "ATL",
+      "publicAdp": 359,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Spencer Rattler",
+      "position": "QB",
+      "team": "NO",
+      "publicAdp": 361,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Oliver",
+      "position": "TE",
+      "team": "MIN",
+      "publicAdp": 363,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "D.J. Montgomery",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 364,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Patrick Taylor Jr.",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 364.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Elijah Higgins",
+      "position": "TE",
+      "team": "ARI",
+      "publicAdp": 365,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Naggar",
+      "position": "K",
+      "publicAdp": 233,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Johnny Wilson",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 367,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Davis Allen",
+      "position": "TE",
+      "team": "LAR",
+      "publicAdp": 367,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ramiz Ahmed",
+      "position": "K",
+      "publicAdp": 435,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Anthony McFarland Jr.",
+      "position": "RB",
+      "publicAdp": 463.3,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mo Alie-Cox",
+      "position": "TE",
+      "team": "IND",
+      "publicAdp": 368.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mason Crosby",
+      "position": "K",
+      "publicAdp": 237,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chase McLaughlin",
+      "position": "K",
+      "team": "TB",
+      "publicAdp": 237,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Wiley",
+      "position": "RB",
+      "publicAdp": 238,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DJ Chark Jr.",
+      "position": "WR",
+      "publicAdp": 371,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "David Moore",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 371,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nick Folk",
+      "position": "K",
+      "team": "ATL",
+      "publicAdp": 242,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "John Metchie III",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 371.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Robert Woods",
+      "position": "WR",
+      "publicAdp": 373,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Pratt",
+      "position": "QB",
+      "publicAdp": 522,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Lucas Havrisik",
+      "position": "K",
+      "publicAdp": 399,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tanner Brown",
+      "position": "K",
+      "team": "NO",
+      "publicAdp": 402.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Lucky Jackson",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 379.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyson Bagent",
+      "position": "QB",
+      "team": "CHI",
+      "publicAdp": 380,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Julio Jones",
+      "position": "WR",
+      "publicAdp": 380,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trace McSorley",
+      "position": "QB",
+      "publicAdp": 431,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jacob Saylors",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 564.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Adam Trautman",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 381,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Julian Hill",
+      "position": "TE",
+      "team": "NE",
+      "publicAdp": 382,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaren Hall",
+      "position": "QB",
+      "publicAdp": 510.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rasheen Ali",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 382.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rodrigo Blankenship",
+      "position": "K",
+      "publicAdp": 265,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jeff Wilson Jr.",
+      "position": "RB",
+      "publicAdp": 384.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cornelius Johnson",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 269,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Devin Leary",
+      "position": "QB",
+      "publicAdp": 583.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joe Milton III",
+      "position": "QB",
+      "team": "DAL",
+      "publicAdp": 386,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ronnie Bell",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 386,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ty'Son Williams",
+      "position": "RB",
+      "publicAdp": 273,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Anthony Jones",
+      "position": "RB",
+      "publicAdp": 274,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tanner Hudson",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 387.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dante Miller",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 536,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "K.J. Costello",
+      "position": "QB",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tejhaun Palmer",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 276,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bo Melton",
+      "position": "WR",
+      "team": "GB",
+      "publicAdp": 389,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Austin Hooper",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 389.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brandon Powell",
+      "position": "WR",
+      "publicAdp": 389.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Derius Davis",
+      "position": "WR",
+      "team": "LAC",
+      "publicAdp": 520.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Christopher Dunn",
+      "position": "K",
+      "publicAdp": 279,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Carolina Panthers DST",
+      "position": "DST",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Charlie Taumoepeau",
+      "position": "TE",
+      "publicAdp": 280,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Raheem Blackshear",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 410.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cordarrelle Patterson",
+      "position": "RB",
+      "publicAdp": 281,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Gerald Everett",
+      "position": "TE",
+      "publicAdp": 284,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dylan McDuffie",
+      "position": "RB",
+      "publicAdp": 284,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nathan Rourke",
+      "position": "QB",
+      "publicAdp": 519.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "SaRodorick Thompson Jr.",
+      "position": "RB",
+      "publicAdp": 533.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ainias Smith",
+      "position": "WR",
+      "publicAdp": 394,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cole Fotheringham",
+      "position": "TE",
+      "publicAdp": 570.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "MyCole Pruitt",
+      "position": "TE",
+      "publicAdp": 427,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "AJ Barner",
+      "position": "TE",
+      "team": "SEA",
+      "publicAdp": 395,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jon Hilliman",
+      "position": "RB",
+      "publicAdp": 290,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jazz Ferguson",
+      "position": "WR",
+      "publicAdp": 291,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Peyton Hendershot",
+      "position": "TE",
+      "publicAdp": 396,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isaiah Williams",
+      "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 413,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Virgil",
+      "position": "WR",
+      "publicAdp": 292,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Lambo",
+      "position": "K",
+      "publicAdp": 293,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matt Barkley",
+      "position": "QB",
+      "publicAdp": 294,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jhamon Ausbon",
+      "position": "WR",
+      "publicAdp": 294,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Patrick Ricard",
+      "position": "RB",
+      "team": "NYG",
+      "publicAdp": 397.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "James White",
+      "position": "RB",
+      "publicAdp": 296,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ethan Fernea",
+      "position": "WR",
+      "publicAdp": 297,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Grant Calcaterra",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 414,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Eddy Pineiro",
+      "position": "K",
+      "team": "SF",
+      "publicAdp": 298,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Van Jefferson",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 299,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trenton Irwin",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 400,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Britain Covey",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 415.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Eric Tomlinson",
+      "position": "TE",
+      "publicAdp": 550,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "J.D. McKissic",
+      "position": "RB",
+      "publicAdp": 301,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "C.J. Ham",
+      "position": "RB",
+      "publicAdp": 401,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Max Duggan",
+      "position": "QB",
+      "publicAdp": 581,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Pharaoh Brown",
+      "position": "TE",
+      "team": "IND",
+      "publicAdp": 402,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Skylar Thompson",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 505.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kalif Raymond",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 304,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Corey Clement",
+      "position": "RB",
+      "publicAdp": 305,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Conley",
+      "position": "WR",
+      "publicAdp": 403.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Peter LeBlanc",
+      "position": "WR",
+      "publicAdp": 310,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DeeJay Dallas",
+      "position": "RB",
+      "team": "JAC",
+      "publicAdp": 409.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Derek Watt",
+      "position": "RB",
+      "publicAdp": 311,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Gallup",
+      "position": "WR",
+      "publicAdp": 311,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Eli Stove",
+      "position": "WR",
+      "publicAdp": 312,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Brooks",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 428.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Caleb Huntley",
+      "position": "RB",
+      "publicAdp": 313,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Johnny Mundt",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 407.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Clayton Thorson",
+      "position": "QB",
+      "publicAdp": 316,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tim Patrick",
+      "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 319,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Andy Dalton",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 410,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kyle Allen",
+      "position": "QB",
+      "team": "BUF",
+      "publicAdp": 410,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cole McDonald",
+      "position": "QB",
+      "publicAdp": 321,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mac Jones",
+      "position": "QB",
+      "team": "SF",
+      "publicAdp": 418.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Malik Heath",
+      "position": "WR",
+      "publicAdp": 412,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Malcolm Brown",
+      "position": "RB",
+      "publicAdp": 324,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brandon Allen",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 413,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sione Vaki",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 442.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Calvin Austin III",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 326,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Robbie Gould",
+      "position": "K",
+      "publicAdp": 327,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Alec Pierce",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 414.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Armani Rogers",
+      "position": "TE",
+      "publicAdp": 522.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dylan Drummond",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 608.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Anthony Brown Jr.",
+      "position": "QB",
+      "publicAdp": 432,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Xavier Weaver",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 474.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nelson Agholor",
+      "position": "WR",
+      "publicAdp": 332,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Johnson",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 446.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jacoby Brissett",
+      "position": "QB",
+      "team": "ARI",
+      "publicAdp": 333,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "publicAdp": 334,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Will Mallory",
+      "position": "TE",
+      "team": "IND",
+      "publicAdp": 417.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Donovan Peoples-Jones",
+      "position": "WR",
+      "publicAdp": 336,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Colson Yankoff",
+      "position": "TE",
+      "team": "WAS",
+      "publicAdp": 418.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Charlie Jones",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 439.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mack Hollins",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 419,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Stetson Bennett IV",
+      "position": "QB",
+      "team": "LAR",
+      "publicAdp": 546.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Gordon",
+      "position": "WR",
+      "publicAdp": 338,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Akins",
+      "position": "TE",
+      "publicAdp": 420,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 421,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Malik Willis",
+      "position": "QB",
+      "team": "MIA",
+      "publicAdp": 521,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Riley Patterson",
+      "position": "K",
+      "team": "MIA",
+      "publicAdp": 422,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Treylon Burks",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 347,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Keaontay Ingram",
+      "position": "RB",
+      "publicAdp": 349,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sean Clifford",
+      "position": "QB",
+      "team": "CIN",
+      "publicAdp": 550.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matt Ryan",
+      "position": "QB",
+      "publicAdp": 350,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Byron Pringle",
+      "position": "WR",
+      "publicAdp": 580,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ty Johnson",
+      "position": "RB",
+      "team": "BUF",
+      "publicAdp": 354,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Marcedes Lewis",
+      "position": "TE",
+      "publicAdp": 428,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Craig Reynolds",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 356,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Drew Ogletree",
+      "position": "TE",
+      "team": "IND",
+      "publicAdp": 441,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Nailor",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 443,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Drew Sample",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 486,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sam Howell",
+      "position": "QB",
+      "team": "DAL",
+      "publicAdp": 361,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Travis Homer",
+      "position": "RB",
+      "team": "PIT",
+      "publicAdp": 485.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Velus Jones Jr.",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 442.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jakob Johnson",
+      "position": "RB",
+      "publicAdp": 364,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ryan Flournoy",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 462.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Henry Pearson",
+      "position": "RB",
+      "publicAdp": 367,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Tonges",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 532,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tutu Atwell",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 370,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Shane Zylstra",
+      "position": "TE",
+      "team": "BUF",
+      "publicAdp": 372,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Blair",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 605.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nick Sciba",
+      "position": "K",
+      "publicAdp": 373,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Alec Ingold",
+      "position": "RB",
+      "team": "LAC",
+      "publicAdp": 374,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Justyn Ross",
+      "position": "WR",
+      "publicAdp": 375,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Funk",
+      "position": "RB",
+      "publicAdp": 445.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Khari Blasingame",
+      "position": "RB",
+      "publicAdp": 379,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kenny McIntosh",
+      "position": "RB",
+      "publicAdp": 379,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Emanuel Wilson",
+      "position": "RB",
+      "team": "SEA",
+      "publicAdp": 380,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ameer Abdullah",
+      "position": "RB",
+      "team": "JAC",
+      "publicAdp": 381,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dante Pettis",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 594.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Davis Mills",
+      "position": "QB",
+      "team": "HOU",
+      "publicAdp": 528.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nick Foles",
+      "position": "QB",
+      "publicAdp": 384,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "James Turner",
+      "position": "K",
+      "publicAdp": 385,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tucker Fisk",
+      "position": "TE",
+      "publicAdp": 565,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jarrett Stidham",
+      "position": "QB",
+      "team": "DEN",
+      "publicAdp": 386,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Albert Okwuegbunam Jr.",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 514.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Frank Gore Jr.",
+      "position": "RB",
+      "team": "BUF",
+      "publicAdp": 387,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Travis",
+      "position": "QB",
+      "publicAdp": 556,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Justin Jackson",
+      "position": "RB",
+      "publicAdp": 388,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brayden Narveson",
+      "position": "K",
+      "publicAdp": 388,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matthew Wright",
+      "position": "K",
+      "publicAdp": 389,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hunter Long",
+      "position": "TE",
+      "team": "JAC",
+      "publicAdp": 534.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trishton Jackson",
+      "position": "WR",
+      "publicAdp": 448.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Steven Sims Jr.",
+      "position": "WR",
+      "publicAdp": 391,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hunter Renfrow",
+      "position": "WR",
+      "publicAdp": 392,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bailey Zappe",
+      "position": "QB",
+      "team": "NYJ",
+      "publicAdp": 462,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jamari Thrash",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 476.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kevin Harris",
+      "position": "RB",
+      "publicAdp": 397,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Scotty Miller",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 509.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Israel Abanikanda",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 401,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ben DiNucci",
+      "position": "QB",
+      "publicAdp": 520.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trey Palmer",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 402,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kayshon Boutte",
+      "position": "WR",
+      "team": "NE",
+      "publicAdp": 580.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Deneric Prince",
+      "position": "RB",
+      "publicAdp": 403,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Blake Watson",
+      "position": "RB",
+      "publicAdp": 562.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "River Cracraft",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 494.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ryan Succop",
+      "position": "K",
+      "publicAdp": 406,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Charlie Smyth",
+      "position": "K",
+      "team": "NO",
+      "publicAdp": 406,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Xavier Hutchinson",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 580.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rodney Williams",
+      "position": "TE",
+      "publicAdp": 577,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "publicAdp": 409,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "TEN",
+      "publicAdp": 455.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "British Brooks",
+      "position": "RB",
+      "team": "HOU",
+      "publicAdp": 573,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matthew Slater",
+      "position": "WR",
+      "publicAdp": 411,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dare Ogunbowale",
+      "position": "RB",
+      "team": "LV",
+      "publicAdp": 412,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ray-Ray McCloud III",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 413,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Princeton Fant",
+      "position": "TE",
+      "team": "DAL",
+      "publicAdp": 484,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Parris Campbell",
+      "position": "WR",
+      "publicAdp": 415,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "James Robinson",
+      "position": "RB",
+      "publicAdp": 532,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Browning",
+      "position": "QB",
+      "team": "TB",
+      "publicAdp": 416,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tylan Wallace",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 464.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Pederson",
+      "position": "TE",
+      "publicAdp": 418,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kylen Granson",
+      "position": "TE",
+      "team": "TEN",
+      "publicAdp": 419,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Carson Strong",
+      "position": "QB",
+      "publicAdp": 420,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mark Ingram II",
+      "position": "RB",
+      "publicAdp": 421,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "David Bell",
+      "position": "WR",
+      "publicAdp": 422,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "A.J. Green",
+      "position": "WR",
+      "publicAdp": 423,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cody Schrader",
+      "position": "RB",
+      "team": "DEN",
+      "publicAdp": 462,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ben Sims",
+      "position": "TE",
+      "team": "MIA",
+      "publicAdp": 651.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Parker Washington",
+      "position": "WR",
+      "team": "JAC",
+      "publicAdp": 425,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brady Russell",
+      "position": "TE",
+      "team": "SEA",
+      "publicAdp": 599,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Emari Demercado",
+      "position": "RB",
+      "team": "KC",
+      "publicAdp": 430,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hunter Luepke",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 602,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jimmy Graham",
+      "position": "TE",
+      "publicAdp": 431,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 466,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zach Pascal",
+      "position": "WR",
+      "publicAdp": 506.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Teddy Bridgewater",
+      "position": "QB",
+      "publicAdp": 434,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ryan Tannehill",
+      "position": "QB",
+      "publicAdp": 435,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brenton Strange",
+      "position": "TE",
+      "team": "JAC",
+      "publicAdp": 491.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jha'Quan Jackson",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 667.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Noah Brown",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 438,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tanner McKee",
+      "position": "QB",
+      "team": "PHI",
+      "publicAdp": 599.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isaiah McKenzie",
+      "position": "WR",
+      "publicAdp": 470.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Parker Hesse",
+      "position": "TE",
+      "publicAdp": 534,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Melvin Gordon III",
+      "position": "RB",
+      "publicAdp": 441,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyreik McAllister",
+      "position": "RB",
+      "publicAdp": 490,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rex Burkhead",
+      "position": "RB",
+      "publicAdp": 443,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Drew Lock",
+      "position": "QB",
+      "team": "SEA",
+      "publicAdp": 444,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Eric Saubert",
+      "position": "TE",
+      "team": "SEA",
+      "publicAdp": 510.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Donald Parham Jr.",
+      "position": "TE",
+      "publicAdp": 445,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Caleb Shudak",
+      "position": "K",
+      "publicAdp": 445,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jeremy Ruckert",
+      "position": "TE",
+      "team": "NYJ",
+      "publicAdp": 473,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zack Kuntz",
+      "position": "TE",
+      "team": "DAL",
+      "publicAdp": 603,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Lil'Jordan Humphrey",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 447,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "KJ Hamler",
+      "position": "WR",
+      "publicAdp": 447,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Deonte Harty",
+      "position": "WR",
+      "publicAdp": 537.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bub Means",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 449,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Quez Watkins",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 450,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trent Taylor",
+      "position": "WR",
+      "publicAdp": 515,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dez Fitzpatrick",
+      "position": "WR",
+      "publicAdp": 452,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kene Nwangwu",
+      "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 453,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nathan Peterman",
+      "position": "QB",
+      "publicAdp": 515.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Carter",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 454,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Lucas Krull",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 496.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Terrell Bynum",
+      "position": "WR",
+      "publicAdp": 674,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Malik Davis",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 459,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ellis Merriweather",
+      "position": "RB",
+      "publicAdp": 623,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jerick McKinnon",
+      "position": "RB",
+      "publicAdp": 460,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Samson Nacua",
+      "position": "WR",
+      "publicAdp": 460,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ronnie Rivers",
+      "position": "RB",
+      "team": "LAR",
+      "publicAdp": 461,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Randy Bullock",
+      "position": "K",
+      "publicAdp": 462,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cedric Tillman",
+      "position": "WR",
+      "team": "CLE",
+      "publicAdp": 462,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zach Evans",
+      "position": "RB",
+      "publicAdp": 463,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Charlie Woerner",
+      "position": "TE",
+      "team": "ATL",
+      "publicAdp": 560.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "team": "JAC",
+      "publicAdp": 464,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "James McCourt",
+      "position": "K",
+      "publicAdp": 464,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Gunner Olszewski",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 548,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "E.J. Jenkins",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 466,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "John Stephens Jr.",
+      "position": "WR",
+      "publicAdp": 620.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Xavier Gipson",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 467,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Antoine Green",
+      "position": "WR",
+      "publicAdp": 609,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Brooks",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 468,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaheim Bell",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 484.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ian Thomas",
+      "position": "TE",
+      "team": "LV",
+      "publicAdp": 529.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sean Tucker",
+      "position": "RB",
+      "team": "TB",
+      "publicAdp": 469,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Devaughn Vele",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 631,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jonathan Garibay",
+      "position": "K",
+      "publicAdp": 470,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bryce Perkins",
+      "position": "QB",
+      "publicAdp": 471,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jase McClellan",
+      "position": "RB",
+      "publicAdp": 471,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jacob Harris",
+      "position": "TE",
+      "publicAdp": 575,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kameron Johnson",
+      "position": "WR",
+      "team": "TB",
+      "publicAdp": 473,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DeAndre Carter",
+      "position": "WR",
+      "publicAdp": 636.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyrod Taylor",
+      "position": "QB",
+      "team": "GB",
+      "publicAdp": 475,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Xazavian Valladay",
+      "position": "RB",
+      "publicAdp": 674.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Austin Seibert",
+      "position": "K",
+      "publicAdp": 545,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brandon Bolden",
+      "position": "RB",
+      "publicAdp": 477,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ashton Dulin",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 477,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Damien Harris",
+      "position": "RB",
+      "publicAdp": 478,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Devin Culp",
+      "position": "TE",
+      "team": "TB",
+      "publicAdp": 478,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DeVante Parker",
+      "position": "WR",
+      "publicAdp": 479,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Marcus Mariota",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 480,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Reggie Gilliam",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 571.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "C.J. Uzomah",
+      "position": "TE",
+      "publicAdp": 481,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "publicAdp": 482,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "John Bates",
+      "position": "TE",
+      "team": "WAS",
+      "publicAdp": 500.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Oladokun",
+      "position": "QB",
+      "team": "KC",
+      "publicAdp": 597,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Eno Benjamin",
+      "position": "RB",
+      "publicAdp": 484,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Luke Farrell",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 580.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "P.J. Walker",
+      "position": "QB",
+      "publicAdp": 487,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Charlie Kolar",
+      "position": "TE",
+      "team": "LAC",
+      "publicAdp": 591,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matt Breida",
+      "position": "RB",
+      "publicAdp": 488,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Laviska Shenault Jr.",
+      "position": "WR",
+      "publicAdp": 569,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rashard Higgins",
+      "position": "WR",
+      "publicAdp": 490,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Royce Freeman",
+      "position": "RB",
+      "publicAdp": 491,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Moore",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 531.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mason Rudolph",
+      "position": "QB",
+      "team": "PIT",
+      "publicAdp": 541.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cedrick Wilson Jr.",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 494,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bryce Ford-Wheaton",
+      "position": "WR",
+      "publicAdp": 679,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joe Reed",
+      "position": "WR",
+      "publicAdp": 495,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Will Dissly",
+      "position": "TE",
+      "publicAdp": 496,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Boston Scott",
+      "position": "RB",
+      "publicAdp": 497,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joshua Kelley",
+      "position": "RB",
+      "publicAdp": 576.5,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trent Sherfield Sr.",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 498,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matt Ammendola",
+      "position": "K",
+      "publicAdp": 498,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Foster Moreau",
+      "position": "TE",
+      "team": "HOU",
+      "publicAdp": 499,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Desmond Ridder",
+      "position": "QB",
+      "publicAdp": 596,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "publicAdp": 500,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trayveon Williams",
+      "position": "RB",
+      "team": "DET",
+      "publicAdp": 500,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Andrew Beck",
+      "position": "TE",
+      "team": "NYJ",
+      "publicAdp": 501,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Irv Smith Jr.",
+      "position": "TE",
+      "publicAdp": 502,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Olamide Zaccheaus",
+      "position": "WR",
+      "team": "ATL",
+      "publicAdp": 503,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Devin Duvernay",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 505,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Harrison Bryant",
+      "position": "TE",
+      "publicAdp": 506,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Salvon Ahmed",
+      "position": "RB",
+      "team": "CHI",
+      "publicAdp": 508,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nick Westbrook-Ikhine",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 510,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tim Jones",
+      "position": "WR",
+      "team": "JAC",
+      "publicAdp": 511,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kenny Yeboah",
+      "position": "TE",
+      "publicAdp": 512,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tommy Tremble",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 514,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tre' McKitty",
+      "position": "TE",
+      "team": "WAS",
+      "publicAdp": 517,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dee Eskridge",
+      "position": "WR",
+      "publicAdp": 518,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jacob Cowing",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 520,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jack Stoll",
+      "position": "TE",
+      "team": "CLE",
+      "publicAdp": 521,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "John FitzPatrick",
+      "position": "TE",
+      "publicAdp": 522,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "James Mitchell",
+      "position": "TE",
+      "team": "CAR",
+      "publicAdp": 524,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Goodson",
+      "position": "RB",
+      "team": "ATL",
+      "publicAdp": 525,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Pierre Strong Jr.",
+      "position": "RB",
+      "team": "GB",
+      "publicAdp": 529,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dareke Young",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 533,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Harrison Mevis",
+      "position": "K",
+      "team": "LAR",
+      "publicAdp": 536,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brandon Johnson",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 537,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Parker Romo",
+      "position": "K",
+      "publicAdp": 540,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dorian Thompson-Robinson",
+      "position": "QB",
+      "publicAdp": 544,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Whyle",
+      "position": "TE",
+      "team": "GB",
+      "publicAdp": 546,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cameron Latu",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 549,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Payne Durham",
+      "position": "TE",
+      "team": "TB",
+      "publicAdp": 550,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Spencer Shrader",
+      "position": "K",
+      "team": "IND",
+      "publicAdp": 552,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Duece Watts",
+      "position": "WR",
+      "publicAdp": 553,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hassan Hall",
+      "position": "RB",
+      "publicAdp": 554,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jack Podlesny",
+      "position": "K",
+      "publicAdp": 556,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jack Colletto",
+      "position": "RB",
+      "publicAdp": 557,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Allen Robinson II",
+      "position": "WR",
+      "publicAdp": 562,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Martavis Bryant",
+      "position": "WR",
+      "publicAdp": 563,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Logan Thomas",
+      "position": "TE",
+      "publicAdp": 564,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sam Hartman",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 565,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jamison Crowder",
+      "position": "WR",
+      "publicAdp": 567,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Phillip Dorsett II",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 568,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Manhertz",
+      "position": "TE",
+      "team": "NYG",
+      "publicAdp": 569,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Burton",
+      "position": "RB",
+      "team": "CLE",
+      "publicAdp": 570,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Taylor Heinicke",
+      "position": "QB",
+      "publicAdp": 571,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jeff Driskel",
+      "position": "QB",
+      "team": "WAS",
+      "publicAdp": 573,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Robbie Chosen",
+      "position": "WR",
+      "publicAdp": 574,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "C.J. Beathard",
+      "position": "QB",
+      "publicAdp": 575,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "John Ross",
+      "position": "WR",
+      "publicAdp": 576,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tarik Cohen",
+      "position": "RB",
+      "publicAdp": 580,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Anthony Firkser",
+      "position": "TE",
+      "publicAdp": 582,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nick Mullens",
+      "position": "QB",
+      "team": "JAC",
+      "publicAdp": 583,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Robert Tonyan",
+      "position": "TE",
+      "team": "PIT",
+      "publicAdp": 584,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Daurice Fountain",
+      "position": "WR",
+      "publicAdp": 586,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nyheim Miller-Hines",
+      "position": "RB",
+      "publicAdp": 588,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Godwin Igwebuike",
+      "position": "RB",
+      "publicAdp": 589,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "James Washington",
+      "position": "WR",
+      "publicAdp": 592,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "David Wells",
+      "position": "TE",
+      "publicAdp": 593,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mike White",
+      "position": "QB",
+      "publicAdp": 594,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Logan Woodside",
+      "position": "QB",
+      "publicAdp": 595,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Russell Gage Jr.",
+      "position": "WR",
+      "publicAdp": 596,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mike Boone",
+      "position": "RB",
+      "publicAdp": 597,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "KhaDarel Hodge",
+      "position": "WR",
+      "team": "SF",
+      "publicAdp": 598,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "John Wolford",
+      "position": "QB",
+      "publicAdp": 599,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Myles Gaskin",
+      "position": "RB",
+      "publicAdp": 600,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jarveon Howard",
+      "position": "RB",
+      "publicAdp": 601,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Riley Sharp",
+      "position": "TE",
+      "publicAdp": 602,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Collier",
+      "position": "RB",
+      "team": "LV",
+      "publicAdp": 604,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyree Jackson",
+      "position": "TE",
+      "publicAdp": 605,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "TaMerik Williams",
+      "position": "RB",
+      "publicAdp": 606,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zach Gentry",
+      "position": "TE",
+      "publicAdp": 608,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "N'Keal Harry",
+      "position": "WR",
+      "publicAdp": 609,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jason Bean",
+      "position": "QB",
+      "publicAdp": 611,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brett Rypien",
+      "position": "QB",
+      "team": "HOU",
+      "publicAdp": 612,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Austin Reed",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 615,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Easton Stick",
+      "position": "QB",
+      "team": "IND",
+      "publicAdp": 616,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dee Williams",
+      "position": "WR",
+      "publicAdp": 617,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nathaniel Peat",
+      "position": "RB",
+      "publicAdp": 620,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyron Billy-Johnson",
+      "position": "WR",
+      "publicAdp": 621,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Alex Hale",
+      "position": "K",
+      "publicAdp": 622,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Davion Davis",
+      "position": "WR",
+      "publicAdp": 623,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Elijah Collins",
+      "position": "RB",
+      "publicAdp": 624,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Stephen Carlson",
+      "position": "TE",
+      "team": "CHI",
+      "publicAdp": 625,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Casey Bauman",
+      "position": "QB",
+      "publicAdp": 626,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "John Rhys Plumlee",
+      "position": "QB",
+      "publicAdp": 629,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "D'Ernest Johnson",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 630,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Derrick Gore",
+      "position": "RB",
+      "publicAdp": 632,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Huntley",
+      "position": "QB",
+      "team": "BAL",
+      "publicAdp": 633,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Fromm",
+      "position": "QB",
+      "publicAdp": 634,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isaiah Hodgins",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 635,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jacques Patrick",
+      "position": "RB",
+      "publicAdp": 637,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jude McAtamney",
+      "position": "K",
+      "publicAdp": 638,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mitchell Wilcox",
+      "position": "TE",
+      "publicAdp": 639,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sean McKeon",
+      "position": "TE",
+      "team": "IND",
+      "publicAdp": 641,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyrie Cleveland",
+      "position": "WR",
+      "publicAdp": 642,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josiah Deguara",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 644,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Darrynton Evans",
+      "position": "RB",
+      "publicAdp": 645,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tip Reiman",
+      "position": "TE",
+      "team": "ARI",
+      "publicAdp": 646,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Collin Johnson",
+      "position": "WR",
+      "publicAdp": 648,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Easop Winston Jr.",
+      "position": "WR",
+      "publicAdp": 651,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Denzel Mims",
+      "position": "WR",
+      "team": "DAL",
+      "publicAdp": 652,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "La'Mical Perine",
+      "position": "RB",
+      "publicAdp": 653,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jonathan Ward",
+      "position": "RB",
+      "team": "BAL",
+      "publicAdp": 654,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "JaMycal Hasty",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 657,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Mabry",
+      "position": "TE",
+      "publicAdp": 659,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Freddie Swain",
+      "position": "WR",
+      "publicAdp": 660,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ke'Shawn Vaughn",
+      "position": "RB",
+      "publicAdp": 661,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Marquez Callaway",
+      "position": "WR",
+      "publicAdp": 662,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kristian Wilkerson",
+      "position": "WR",
+      "publicAdp": 664,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Lawrence Cager",
+      "position": "WR",
+      "team": "WAS",
+      "publicAdp": 665,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Spencer Brown",
+      "position": "RB",
+      "publicAdp": 666,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Deon Jackson",
+      "position": "RB",
+      "publicAdp": 667,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "DJ Turner",
+      "position": "WR",
+      "publicAdp": 668,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mathew Sexton",
+      "position": "WR",
+      "publicAdp": 669,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sammis Reyes",
+      "position": "TE",
+      "publicAdp": 670,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Avery Williams",
+      "position": "RB",
+      "publicAdp": 671,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Terrace Marshall Jr.",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 672,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Simi Fehoko",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 673,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sam Ehlinger",
+      "position": "QB",
+      "team": "DEN",
+      "publicAdp": 675,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cornell Powell",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 677,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ben Skowronek",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 679,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zach Davidson",
+      "position": "TE",
+      "publicAdp": 681,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "team": "ARI",
+      "publicAdp": 682,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kawaan Baker",
+      "position": "WR",
+      "publicAdp": 683,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ian Book",
+      "position": "QB",
+      "publicAdp": 684,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kyle Trask",
+      "position": "QB",
+      "team": "CAR",
+      "publicAdp": 685,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Quintin Morris",
+      "position": "TE",
+      "team": "JAC",
+      "publicAdp": 686,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Adam Prentice",
+      "position": "RB",
+      "team": "DEN",
+      "publicAdp": 687,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Austin Watkins Jr.",
+      "position": "WR",
+      "publicAdp": 688,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaret Patterson",
+      "position": "RB",
+      "team": "LAC",
+      "publicAdp": 689,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Bandy",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 690,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dayton Wade",
+      "position": "WR",
+      "team": "BAL",
+      "publicAdp": 691,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mike Rigerman",
+      "position": "TE",
+      "publicAdp": 692,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Badie",
+      "position": "RB",
+      "team": "DEN",
+      "publicAdp": 694,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Woods II",
+      "position": "WR",
+      "team": "DEN",
+      "publicAdp": 697,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Montrell Washington",
+      "position": "WR",
+      "publicAdp": 698,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Samori Toure",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 699,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hassan Haskins",
+      "position": "RB",
+      "team": "NE",
+      "publicAdp": 700,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Emani Bailey",
+      "position": "RB",
+      "publicAdp": 702,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Snoop Conner",
+      "position": "RB",
+      "publicAdp": 703,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kobe Lewis",
+      "position": "RB",
+      "publicAdp": 704,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isaiah Wooden",
+      "position": "WR",
+      "publicAdp": 705,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brittain Brown",
+      "position": "RB",
+      "team": "CHI",
+      "publicAdp": 706,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Erik Ezukanma",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 707,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyquan Thornton",
+      "position": "WR",
+      "team": "KC",
+      "publicAdp": 709,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Baylor Cupp",
+      "position": "TE",
+      "team": "ARI",
+      "publicAdp": 710,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ahmarean Brown",
+      "position": "WR",
+      "publicAdp": 712,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isaiah Spiller",
+      "position": "RB",
+      "publicAdp": 713,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyrion Davis-Price",
+      "position": "RB",
+      "publicAdp": 714,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Danny Gray",
+      "position": "WR",
+      "team": "PHI",
+      "publicAdp": 715,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jack Plummer",
+      "position": "QB",
+      "publicAdp": 718,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ricky Person Jr.",
+      "position": "RB",
+      "publicAdp": 719,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Thomas Yassmin",
+      "position": "TE",
+      "team": "GB",
+      "publicAdp": 720,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kyric McGowan",
+      "position": "WR",
+      "publicAdp": 721,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Phillip Brooks",
+      "position": "WR",
+      "publicAdp": 723,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "George Holani",
+      "position": "RB",
+      "team": "SEA",
+      "publicAdp": 724,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Aaron Shampklin",
+      "position": "RB",
+      "publicAdp": 726,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "David Martin-Robinson",
+      "position": "TE",
+      "team": "TEN",
+      "publicAdp": 727,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jacob Warren",
+      "position": "TE",
+      "publicAdp": 728,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Julius Chestnut",
+      "position": "RB",
+      "team": "TEN",
+      "publicAdp": 729,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Thomas Odukoya",
+      "position": "TE",
+      "publicAdp": 730,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Terique Owens",
+      "position": "WR",
+      "publicAdp": 731,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Johnny Johnson III",
+      "position": "WR",
+      "publicAdp": 732,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Trey Knox",
+      "position": "TE",
+      "publicAdp": 733,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Austin Jones",
+      "position": "RB",
+      "publicAdp": 734,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Carter Bradley",
+      "position": "QB",
+      "team": "JAC",
+      "publicAdp": 735,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sincere McCormick",
+      "position": "RB",
+      "team": "SF",
+      "publicAdp": 737,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tanner Conner",
+      "position": "TE",
+      "team": "NYG",
+      "publicAdp": 738,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Braylon Sanders",
+      "position": "WR",
+      "publicAdp": 739,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jashaun Corbin",
+      "position": "RB",
+      "team": "DAL",
+      "publicAdp": 740,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kedon Slovis",
+      "position": "QB",
+      "team": "ARI",
+      "publicAdp": 741,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Chris Pierce Jr.",
+      "position": "TE",
+      "publicAdp": 742,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tay Martin",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 743,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Deven Thompkins",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 744,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Daylen Baldwin",
+      "position": "WR",
+      "publicAdp": 747,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Maurice Alexander",
+      "position": "WR",
+      "team": "CHI",
+      "publicAdp": 748,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Josh Ali",
+      "position": "WR",
+      "publicAdp": 749,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Justin Shorter",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 750,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Lew Nichols III",
+      "position": "RB",
+      "team": "PIT",
+      "publicAdp": 753,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Xavier Smith",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 757,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Clayton Tune",
+      "position": "QB",
+      "publicAdp": 762,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Brayden Willis",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 764,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Travis Vokolek",
+      "position": "TE",
+      "publicAdp": 765,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Thyrick Pitts",
+      "position": "WR",
+      "publicAdp": 766,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isaiah Davis",
+      "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 767,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jason Brownlee",
+      "position": "WR",
+      "team": "KC",
+      "publicAdp": 768,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nikko Remigio",
+      "position": "WR",
+      "team": "KC",
+      "publicAdp": 770,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Carlos Washington Jr.",
+      "position": "RB",
+      "team": "MIA",
+      "publicAdp": 771,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Mims",
+      "position": "RB",
+      "publicAdp": 772,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Shedrick Jackson",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 773,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nate Adkins",
+      "position": "TE",
+      "team": "DEN",
+      "publicAdp": 776,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Adrian Martinez",
+      "position": "QB",
+      "team": "SF",
+      "publicAdp": 777,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jared Wayne",
+      "position": "WR",
+      "team": "HOU",
+      "publicAdp": 778,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Elijah Cooks",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 779,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Isaiah Winstead",
+      "position": "WR",
+      "team": "PIT",
+      "publicAdp": 782,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tre'Shaun Harrison",
+      "position": "WR",
+      "publicAdp": 783,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Elijah Dotson",
+      "position": "RB",
+      "publicAdp": 784,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Rakim Jarrett",
+      "position": "WR",
+      "publicAdp": 785,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kazmeir Allen",
+      "position": "WR",
+      "publicAdp": 786,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Murray",
+      "position": "TE",
+      "publicAdp": 788,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joel Wilson",
+      "position": "TE",
+      "team": "TEN",
+      "publicAdp": 789,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Casey Washington",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 790,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Erick All Jr.",
+      "position": "TE",
+      "team": "CIN",
+      "publicAdp": 791,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tanner McLachlan",
+      "position": "TE",
+      "team": "SF",
+      "publicAdp": 792,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jawhar Jordan",
+      "position": "RB",
+      "team": "HOU",
+      "publicAdp": 795,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Keilan Robinson",
+      "position": "RB",
+      "publicAdp": 796,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Matthews",
+      "position": "TE",
+      "publicAdp": 798,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Laquon Treadwell",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 801,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nick Vannett",
+      "position": "TE",
+      "team": "SEA",
+      "publicAdp": 802,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nate Sudfeld",
+      "position": "QB",
+      "publicAdp": 803,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dwayne Washington",
+      "position": "RB",
+      "publicAdp": 804,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jeremy McNichols",
+      "position": "RB",
+      "team": "WAS",
+      "publicAdp": 805,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "John Kelly Jr.",
+      "position": "RB",
+      "publicAdp": 806,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Anthony Miller",
+      "position": "WR",
+      "publicAdp": 807,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Thomas",
+      "position": "TE",
+      "publicAdp": 811,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Nick Bawden",
+      "position": "RB",
+      "publicAdp": 812,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Deontay Burnett",
+      "position": "WR",
+      "publicAdp": 813,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Deon Cain",
+      "position": "WR",
+      "publicAdp": 814,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ross Dwelley",
+      "position": "TE",
+      "publicAdp": 815,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cam Sims",
+      "position": "WR",
+      "publicAdp": 816,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Luis Perez",
+      "position": "QB",
+      "publicAdp": 817,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Alex McGough",
+      "position": "QB",
+      "publicAdp": 818,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tim Boyle",
+      "position": "QB",
+      "publicAdp": 819,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Keith Kirkwood",
+      "position": "WR",
+      "publicAdp": 820,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kevin Rader",
+      "position": "TE",
+      "publicAdp": 821,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Devon Garrison",
+      "position": "TE",
+      "publicAdp": 822,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Patrick Laird",
+      "position": "RB",
+      "publicAdp": 823,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Alex Bachman",
+      "position": "WR",
+      "team": "LAR",
+      "publicAdp": 824,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tom Kennedy",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 825,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Marcus Simms",
+      "position": "WR",
+      "publicAdp": 826,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "James Proche II",
+      "position": "WR",
+      "publicAdp": 827,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Luton",
+      "position": "QB",
+      "publicAdp": 828,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Andre Baccellia",
+      "position": "WR",
+      "publicAdp": 829,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cody White",
+      "position": "WR",
+      "team": "SEA",
+      "publicAdp": 830,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dan Chisena",
+      "position": "WR",
+      "team": "CAR",
+      "publicAdp": 831,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tony Jones Jr.",
+      "position": "RB",
+      "publicAdp": 833,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Austin Mack",
+      "position": "WR",
+      "publicAdp": 834,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Reagor",
+      "position": "WR",
+      "team": "MIA",
+      "publicAdp": 835,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Noah Togiai",
+      "position": "TE",
+      "publicAdp": 836,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tommy Hudson",
+      "position": "TE",
+      "publicAdp": 837,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mason Kinsey",
+      "position": "WR",
+      "team": "TEN",
+      "publicAdp": 838,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tarik Black",
+      "position": "WR",
+      "team": "DET",
+      "publicAdp": 840,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Michael Strachan",
+      "position": "WR",
+      "publicAdp": 841,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ben Mason",
+      "position": "RB",
+      "publicAdp": 842,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Shi Smith",
+      "position": "WR",
+      "publicAdp": 843,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Demetric Felton Jr.",
+      "position": "RB",
+      "publicAdp": 844,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Seth Williams",
+      "position": "WR",
+      "team": "LV",
+      "publicAdp": 846,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Racey McMath",
+      "position": "WR",
+      "publicAdp": 847,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Camp",
+      "position": "WR",
+      "publicAdp": 848,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Gerrid Doaks",
+      "position": "RB",
+      "publicAdp": 849,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kellen Mond",
+      "position": "QB",
+      "publicAdp": 850,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Gary Brightwell",
+      "position": "RB",
+      "team": "CIN",
+      "publicAdp": 851,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Hunter Kampmoyer",
+      "position": "TE",
+      "publicAdp": 852,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaelon Darden",
+      "position": "WR",
+      "publicAdp": 853,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Stone Smartt",
+      "position": "TE",
+      "team": "PHI",
+      "publicAdp": 855,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Grant DuBose",
+      "position": "WR",
+      "publicAdp": 856,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Colton Dowell",
+      "position": "WR",
+      "publicAdp": 857,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Evan Hull",
+      "position": "RB",
+      "team": "ARI",
+      "publicAdp": 858,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Dresser Winn",
+      "position": "QB",
+      "publicAdp": 859,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jake Haener",
+      "position": "QB",
+      "team": "NYG",
+      "publicAdp": 860,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Sean Ryan",
+      "position": "WR",
+      "publicAdp": 862,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Zavier Scott",
+      "position": "RB",
+      "team": "MIN",
+      "publicAdp": 863,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "T.J. Luther",
+      "position": "WR",
+      "publicAdp": 865,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Joseph Ngata",
+      "position": "WR",
+      "publicAdp": 866,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ty Scott",
+      "position": "WR",
+      "publicAdp": 867,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Wayne",
+      "position": "WR",
+      "publicAdp": 868,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Moreno-Cropper",
+      "position": "WR",
+      "team": "NO",
+      "publicAdp": 870,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "David Durden",
+      "position": "WR",
+      "publicAdp": 871,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mohamed Ibrahim",
+      "position": "RB",
+      "publicAdp": 873,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jaray Jenkins",
+      "position": "WR",
+      "publicAdp": 875,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Daniel Arias",
+      "position": "WR",
+      "publicAdp": 876,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Blake Whiteheart",
+      "position": "TE",
+      "team": "CLE",
+      "publicAdp": 877,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Daewood Davis",
+      "position": "WR",
+      "publicAdp": 878,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Thayer Thomas",
+      "position": "WR",
+      "publicAdp": 880,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Malik Knowles",
+      "position": "WR",
+      "publicAdp": 881,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Cephus Johnson III",
+      "position": "WR",
+      "publicAdp": 882,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Shaquan Davis",
+      "position": "WR",
+      "publicAdp": 883,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Matt Landers",
+      "position": "WR",
+      "publicAdp": 884,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Griffin Hebert",
+      "position": "TE",
+      "publicAdp": 885,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tyrell Shavers",
+      "position": "WR",
+      "team": "BUF",
+      "publicAdp": 886,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Bryan Thompson",
+      "position": "WR",
+      "publicAdp": 887,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Kearis Jackson",
+      "position": "WR",
+      "publicAdp": 889,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Jacob Copeland",
+      "position": "WR",
+      "publicAdp": 890,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Izaiah Gathings",
+      "position": "TE",
+      "publicAdp": 891,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Tanner Taula",
+      "position": "TE",
+      "publicAdp": 893,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Ryan Miller",
+      "position": "WR",
+      "team": "NYG",
+      "publicAdp": 894,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Mitch Tinsley",
+      "position": "WR",
+      "team": "CIN",
+      "publicAdp": 895,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "La'Michael Pettway",
+      "position": "TE",
+      "publicAdp": 896,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Anthony Gould",
+      "position": "WR",
+      "team": "IND",
+      "publicAdp": 899,
+      "adpSource": "FantasyPros PPR Consensus"
+    },
+    {
+      "season": 2024,
+      "player": "Patrick Murtagh",
+      "position": "TE",
+      "publicAdp": 900,
+      "adpSource": "FantasyPros PPR Consensus"
+    }
+  ]
+}

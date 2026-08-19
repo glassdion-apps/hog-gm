@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T14:53:48.198Z",
+  "generatedAt": "2026-08-19T16:22:38.255Z",
   "seasons": [
     2018,
     2019,
@@ -14,132 +14,157 @@
       "season": 2018,
       "player": "A.J. Green",
       "position": "WR",
+      "publicAdp": 20.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Aaron Rodgers",
       "position": "QB",
+      "team": "PIT",
+      "publicAdp": 28.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Adam Thielen",
       "position": "WR",
+      "publicAdp": 31.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Adam Vinatieri",
       "position": "K",
+      "publicAdp": 240.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Alex Collins",
       "position": "RB",
+      "publicAdp": 37.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Alex Smith",
       "position": "QB",
+      "publicAdp": 134.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Allen Hurns",
       "position": "WR",
+      "publicAdp": 125.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Allen Robinson",
       "position": "WR",
+      "publicAdp": 48,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Alshon Jeffery",
       "position": "WR",
+      "publicAdp": 73.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Alvin Kamara",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 6.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Amari Cooper",
       "position": "WR",
+      "publicAdp": 34.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Andrew Luck",
       "position": "QB",
+      "publicAdp": 92,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Anthony Miller",
       "position": "WR",
+      "publicAdp": 166,
       "isRookie": true
     },
     {
       "season": 2018,
       "player": "Antonio Brown",
       "position": "WR",
+      "publicAdp": 5.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Austin Ekeler",
       "position": "RB",
+      "publicAdp": 178.3,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Austin Hooper",
       "position": "TE",
+      "team": "ATL",
+      "publicAdp": 195.7,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Ben Roethlisberger",
       "position": "QB",
+      "publicAdp": 100.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Benjamin Watson",
       "position": "TE",
+      "publicAdp": 187.3,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Bilal Powell",
       "position": "RB",
+      "publicAdp": 142.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Brandin Cooks",
       "position": "WR",
+      "publicAdp": 45.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Brandon Marshall",
       "position": "WR",
+      "publicAdp": 259,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Brandon McManus",
       "position": "K",
+      "publicAdp": 260.7,
       "isRookie": false
     },
     {
@@ -152,36 +177,44 @@
       "season": 2018,
       "player": "C.J. Anderson",
       "position": "RB",
+      "publicAdp": 130.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Calvin Ridley",
       "position": "WR",
+      "team": "TEN",
+      "publicAdp": 135.6,
       "isRookie": true
     },
     {
       "season": 2018,
       "player": "Cam Newton",
       "position": "QB",
+      "publicAdp": 63.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Cameron Meredith",
       "position": "WR",
+      "publicAdp": 153,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Carlos Hyde",
       "position": "RB",
+      "publicAdp": 65.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Carson Wentz",
       "position": "QB",
+      "team": "MIN",
+      "publicAdp": 81.2,
       "isRookie": false
     },
     {
@@ -194,54 +227,67 @@
       "season": 2018,
       "player": "Chris Boswell",
       "position": "K",
+      "team": "PIT",
+      "publicAdp": 178.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Chris Carson",
       "position": "RB",
+      "publicAdp": 90.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Chris Hogan",
       "position": "WR",
+      "publicAdp": 55,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Chris Thompson",
       "position": "RB",
+      "publicAdp": 109,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Christian McCaffrey",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 14.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Cooper Kupp",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 85,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Corey Clement",
       "position": "RB",
+      "publicAdp": 144.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Corey Davis",
       "position": "WR",
+      "publicAdp": 63.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Courtland Sutton",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 194.4,
       "isRookie": true
     },
     {
@@ -254,48 +300,60 @@
       "season": 2018,
       "player": "Dak Prescott",
       "position": "QB",
+      "team": "DAL",
+      "publicAdp": 141.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Dalvin Cook",
       "position": "RB",
+      "publicAdp": 14.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Dan Bailey",
       "position": "K",
+      "publicAdp": 266,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Danny Amendola",
       "position": "WR",
+      "publicAdp": 187.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Davante Adams",
       "position": "WR",
+      "team": "LAR",
+      "publicAdp": 18.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "David Johnson",
       "position": "RB",
+      "publicAdp": 2.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "David Njoku",
       "position": "TE",
+      "team": "LAC",
+      "publicAdp": 112.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "DeAndre Hopkins",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 8.8,
       "isRookie": false
     },
     {
@@ -308,78 +366,94 @@
       "season": 2018,
       "player": "Demaryius Thomas",
       "position": "WR",
+      "publicAdp": 43.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Derek Carr",
       "position": "QB",
+      "publicAdp": 138.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Derrick Henry",
       "position": "RB",
+      "team": "BAL",
+      "publicAdp": 42.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Deshaun Watson",
       "position": "QB",
+      "team": "CLE",
+      "publicAdp": 47.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "DeVante Parker",
       "position": "WR",
+      "publicAdp": 125.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Devin Funchess",
-      "position": "TE",
+      "position": "WR",
+      "publicAdp": 82.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Devonta Freeman",
       "position": "RB",
+      "publicAdp": 19.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Devontae Booker",
       "position": "RB",
+      "publicAdp": 141,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Dion Lewis",
       "position": "RB",
+      "publicAdp": 56.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "DJ Moore",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 139,
       "isRookie": true
     },
     {
       "season": 2018,
       "player": "Doug Baldwin",
       "position": "WR",
+      "publicAdp": 37,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Drew Brees",
       "position": "QB",
+      "publicAdp": 71.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Duke Johnson",
       "position": "RB",
+      "publicAdp": 86.6,
       "isRookie": false
     },
     {
@@ -392,30 +466,36 @@
       "season": 2018,
       "player": "Eli Manning",
       "position": "QB",
+      "publicAdp": 176.5,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Emmanuel Sanders",
       "position": "WR",
+      "publicAdp": 67,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Eric Ebron",
       "position": "TE",
+      "publicAdp": 175.5,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Evan Engram",
       "position": "TE",
+      "team": "DEN",
+      "publicAdp": 66.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Ezekiel Elliott",
       "position": "RB",
+      "publicAdp": 4,
       "isRookie": false
     },
     {
@@ -428,42 +508,51 @@
       "season": 2018,
       "player": "George Kittle",
       "position": "TE",
+      "team": "SF",
+      "publicAdp": 136.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Golden Tate",
       "position": "WR",
+      "publicAdp": 45.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Greg Olsen",
       "position": "TE",
+      "publicAdp": 56.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Greg Zuerlein",
       "position": "K",
+      "publicAdp": 134.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Harrison Butker",
       "position": "K",
+      "team": "KC",
+      "publicAdp": 179.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Isaiah Crowell",
       "position": "RB",
+      "publicAdp": 94.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jack Doyle",
       "position": "TE",
+      "publicAdp": 108.6,
       "isRookie": false
     },
     {
@@ -476,54 +565,66 @@
       "season": 2018,
       "player": "Jake Elliott",
       "position": "K",
+      "team": "PHI",
+      "publicAdp": 185.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jamaal Williams",
       "position": "RB",
+      "publicAdp": 78,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jameis Winston",
       "position": "QB",
+      "team": "NYG",
+      "publicAdp": 164.5,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "James White",
       "position": "RB",
+      "publicAdp": 116,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jamison Crowder",
       "position": "WR",
+      "publicAdp": 88.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jared Cook",
       "position": "TE",
+      "publicAdp": 171,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jared Goff",
       "position": "QB",
+      "team": "DET",
+      "publicAdp": 121,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jarvis Landry",
       "position": "WR",
+      "publicAdp": 38.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jay Ajayi",
       "position": "RB",
+      "publicAdp": 43.8,
       "isRookie": false
     },
     {
@@ -536,258 +637,307 @@
       "season": 2018,
       "player": "Jimmy Garoppolo",
       "position": "QB",
+      "team": "LAR",
+      "publicAdp": 105.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jimmy Graham",
       "position": "TE",
+      "publicAdp": 54.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Joe Mixon",
       "position": "RB",
+      "publicAdp": 23.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jordan Howard",
       "position": "RB",
+      "publicAdp": 23.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jordan Reed",
       "position": "TE",
+      "publicAdp": 84.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Jordy Nelson",
       "position": "WR",
+      "publicAdp": 93.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Josh Doctson",
       "position": "WR",
+      "publicAdp": 148.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Josh Gordon",
       "position": "WR",
+      "publicAdp": 48.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "JuJu Smith-Schuster",
       "position": "WR",
+      "publicAdp": 44,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Julian Edelman",
       "position": "WR",
+      "publicAdp": 72.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Julio Jones",
       "position": "WR",
+      "publicAdp": 12.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Justin Tucker",
       "position": "K",
+      "publicAdp": 142.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Kareem Hunt",
       "position": "RB",
+      "publicAdp": 10.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Keenan Allen",
       "position": "WR",
+      "team": "IND",
+      "publicAdp": 16.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Kelvin Benjamin",
       "position": "WR",
+      "publicAdp": 113.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Kenny Stills",
       "position": "WR",
+      "publicAdp": 115.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Kenyan Drake",
       "position": "RB",
+      "publicAdp": 34.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Kerryon Johnson",
       "position": "RB",
+      "publicAdp": 77.8,
       "isRookie": true
     },
     {
       "season": 2018,
       "player": "Kirk Cousins",
       "position": "QB",
+      "team": "LV",
+      "publicAdp": 88,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Kyle Rudolph",
       "position": "TE",
+      "publicAdp": 77.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Lamar Miller",
       "position": "RB",
+      "publicAdp": 46.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Larry Fitzgerald",
       "position": "WR",
+      "publicAdp": 33.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Le'Veon Bell",
       "position": "RB",
+      "publicAdp": 2.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "LeGarrette Blount",
       "position": "RB",
+      "publicAdp": 162,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Leonard Fournette",
       "position": "RB",
+      "publicAdp": 10,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "LeSean McCoy",
       "position": "RB",
+      "publicAdp": 26.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Marcus Mariota",
       "position": "QB",
+      "team": "WAS",
+      "publicAdp": 137.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Mark Ingram",
       "position": "RB",
+      "publicAdp": 52.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Marlon Mack",
       "position": "RB",
+      "publicAdp": 104.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Marqise Lee",
       "position": "WR",
+      "publicAdp": 156,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Marquise Goodwin",
       "position": "WR",
+      "publicAdp": 67,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Marshawn Lynch",
       "position": "RB",
+      "publicAdp": 61.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Marvin Jones",
       "position": "WR",
+      "publicAdp": 54.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Matt Breida",
       "position": "RB",
+      "publicAdp": 134.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Matt Bryant",
       "position": "K",
+      "publicAdp": 178.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Matt Prater",
       "position": "K",
+      "publicAdp": 202.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Matt Ryan",
       "position": "QB",
+      "publicAdp": 107,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Matthew Stafford",
       "position": "QB",
+      "team": "LAR",
+      "publicAdp": 97,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Melvin Gordon",
       "position": "RB",
+      "publicAdp": 11.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Michael Crabtree",
       "position": "WR",
+      "publicAdp": 66.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Michael Thomas",
       "position": "WR",
+      "publicAdp": 15.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Mike Evans",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 23.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Mike Williams",
       "position": "WR",
+      "publicAdp": 177.2,
       "isRookie": false
     },
     {
@@ -800,24 +950,30 @@
       "season": 2018,
       "player": "Mohamed Sanu",
       "position": "WR",
+      "publicAdp": 158,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Nelson Agholor",
       "position": "WR",
+      "publicAdp": 102,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Odell Beckham Jr.",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 11,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Patrick Mahomes",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 120.8,
       "isRookie": false
     },
     {
@@ -830,18 +986,21 @@
       "season": 2018,
       "player": "Peyton Barber",
       "position": "RB",
+      "publicAdp": 106.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Philip Rivers",
       "position": "QB",
+      "publicAdp": 109,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Pierre Garcon",
       "position": "WR",
+      "publicAdp": 92.6,
       "isRookie": false
     },
     {
@@ -854,12 +1013,14 @@
       "season": 2018,
       "player": "Randall Cobb",
       "position": "WR",
+      "publicAdp": 99.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Rashaad Penny",
       "position": "RB",
+      "publicAdp": 83.6,
       "isRookie": true
     },
     {
@@ -872,84 +1033,100 @@
       "season": 2018,
       "player": "Rex Burkhead",
       "position": "RB",
+      "publicAdp": 69.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Ricky Seals-Jones",
       "position": "TE",
+      "publicAdp": 198.5,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Rishard Matthews",
       "position": "WR",
+      "publicAdp": 163.3,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Rob Gronkowski",
       "position": "TE",
+      "publicAdp": 20.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Robbie Chosen",
       "position": "WR",
+      "publicAdp": 89.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Robbie Gould",
       "position": "K",
+      "publicAdp": 194.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Robert Woods",
       "position": "WR",
+      "publicAdp": 82.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Ronald Jones",
       "position": "RB",
+      "publicAdp": 112.4,
       "isRookie": true
     },
     {
       "season": 2018,
       "player": "Royce Freeman",
       "position": "RB",
+      "publicAdp": 41.2,
       "isRookie": true
     },
     {
       "season": 2018,
       "player": "Russell Wilson",
       "position": "QB",
+      "publicAdp": 54.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Samaje Perine",
       "position": "RB",
+      "team": "CIN",
+      "publicAdp": 210.3,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Sammy Watkins",
       "position": "WR",
+      "publicAdp": 80.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Saquon Barkley",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 6.6,
       "isRookie": true
     },
     {
       "season": 2018,
       "player": "Sony Michel",
       "position": "RB",
+      "publicAdp": 82.8,
       "isRookie": true
     },
     {
@@ -962,42 +1139,50 @@
       "season": 2018,
       "player": "Stefon Diggs",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 29.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Stephen Gostkowski",
       "position": "K",
+      "publicAdp": 136.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Sterling Shepard",
       "position": "WR",
+      "publicAdp": 105.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "T.Y. Hilton",
       "position": "WR",
+      "publicAdp": 28.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Tarik Cohen",
       "position": "RB",
+      "publicAdp": 85.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Ted Ginn",
       "position": "WR",
+      "publicAdp": 187.7,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Tevin Coleman",
       "position": "RB",
+      "publicAdp": 71.8,
       "isRookie": false
     },
     {
@@ -1010,6 +1195,7 @@
       "season": 2018,
       "player": "Theo Riddick",
       "position": "RB",
+      "publicAdp": 154.4,
       "isRookie": false
     },
     {
@@ -1022,48 +1208,57 @@
       "season": 2018,
       "player": "Todd Gurley",
       "position": "RB",
+      "publicAdp": 1,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Tom Brady",
       "position": "QB",
+      "publicAdp": 47.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Travis Kelce",
       "position": "TE",
+      "team": "KC",
+      "publicAdp": 26.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Trey Burton",
       "position": "TE",
+      "publicAdp": 85.6,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Ty Montgomery",
-      "position": "WR",
+      "position": "RB",
+      "publicAdp": 137.2,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Tyler Eifert",
       "position": "TE",
+      "publicAdp": 137.4,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Tyreek Hill",
       "position": "WR",
+      "publicAdp": 26.8,
       "isRookie": false
     },
     {
       "season": 2018,
       "player": "Tyrell Williams",
       "position": "WR",
+      "publicAdp": 183,
       "isRookie": false
     },
     {
@@ -1076,6 +1271,8 @@
       "season": 2018,
       "player": "Wil Lutz",
       "position": "K",
+      "team": "DEN",
+      "publicAdp": 176.4,
       "isRookie": false
     },
     {
@@ -1088,96 +1285,117 @@
       "season": 2018,
       "player": "Zach Ertz",
       "position": "TE",
+      "publicAdp": 35,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "A.J. Green",
       "position": "WR",
+      "publicAdp": 64.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Aaron Jones",
       "position": "RB",
+      "team": "MIN",
+      "publicAdp": 32.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Aaron Rodgers",
       "position": "QB",
+      "team": "PIT",
+      "publicAdp": 50.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Adam Thielen",
       "position": "WR",
+      "publicAdp": 25,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Adrian Peterson",
       "position": "RB",
+      "publicAdp": 145.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Alexander Mattison",
       "position": "RB",
+      "publicAdp": 176.7,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "Allen Robinson",
       "position": "WR",
+      "publicAdp": 72.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Alshon Jeffery",
       "position": "WR",
+      "publicAdp": 67.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Alvin Kamara",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 2.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Amari Cooper",
       "position": "WR",
+      "publicAdp": 31.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Anthony Miller",
       "position": "WR",
+      "publicAdp": 148.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Antonio Brown",
       "position": "WR",
+      "publicAdp": 21,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Austin Ekeler",
       "position": "RB",
+      "publicAdp": 70.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Austin Hooper",
       "position": "TE",
+      "team": "ATL",
+      "publicAdp": 114,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Baker Mayfield",
       "position": "QB",
+      "team": "TB",
+      "publicAdp": 59.7,
       "isRookie": false
     },
     {
@@ -1190,6 +1408,7 @@
       "season": 2019,
       "player": "Ben Roethlisberger",
       "position": "QB",
+      "publicAdp": 106.7,
       "isRookie": false
     },
     {
@@ -1202,12 +1421,14 @@
       "season": 2019,
       "player": "Brandin Cooks",
       "position": "WR",
+      "publicAdp": 38.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Brett Maher",
       "position": "K",
+      "publicAdp": 210.3,
       "isRookie": false
     },
     {
@@ -1220,18 +1441,23 @@
       "season": 2019,
       "player": "Calvin Ridley",
       "position": "WR",
+      "team": "TEN",
+      "publicAdp": 58,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Cam Newton",
       "position": "QB",
+      "publicAdp": 86.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Carson Wentz",
       "position": "QB",
+      "team": "MIN",
+      "publicAdp": 81,
       "isRookie": false
     },
     {
@@ -1244,30 +1470,38 @@
       "season": 2019,
       "player": "Chris Carson",
       "position": "RB",
+      "publicAdp": 36.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Chris Godwin",
       "position": "WR",
+      "team": "TB",
+      "publicAdp": 46,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Chris Thompson",
       "position": "RB",
+      "publicAdp": 319.4,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Christian Kirk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 92,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Christian McCaffrey",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 2.5,
       "isRookie": false
     },
     {
@@ -1280,18 +1514,23 @@
       "season": 2019,
       "player": "Cooper Kupp",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 49,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Corey Davis",
       "position": "WR",
+      "publicAdp": 94.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Courtland Sutton",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 111.7,
       "isRookie": false
     },
     {
@@ -1304,162 +1543,200 @@
       "season": 2019,
       "player": "Curtis Samuel",
       "position": "WR",
+      "publicAdp": 98.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Dak Prescott",
       "position": "QB",
+      "team": "DAL",
+      "publicAdp": 125.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Dalvin Cook",
       "position": "RB",
+      "publicAdp": 18,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Damien Williams",
       "position": "RB",
+      "publicAdp": 34.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Dante Pettis",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 107.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Darrell Henderson Jr.",
       "position": "RB",
+      "publicAdp": 106.8,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "Darwin Thompson",
       "position": "RB",
+      "publicAdp": 148.7,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "Davante Adams",
       "position": "WR",
+      "team": "LAR",
+      "publicAdp": 7.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "David Johnson",
       "position": "RB",
+      "publicAdp": 6.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "David Montgomery",
       "position": "RB",
+      "team": "HOU",
+      "publicAdp": 45.3,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "David Njoku",
       "position": "TE",
+      "team": "LAC",
+      "publicAdp": 92.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "DeAndre Hopkins",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 5.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Dede Westbrook",
       "position": "WR",
+      "publicAdp": 85.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Deebo Samuel",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 194.3,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "Delanie Walker",
       "position": "TE",
+      "publicAdp": 119.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Derrick Henry",
       "position": "RB",
+      "team": "BAL",
+      "publicAdp": 38.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Derrius Guice",
       "position": "RB",
+      "publicAdp": 78.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "DeSean Jackson",
       "position": "WR",
+      "publicAdp": 130.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Deshaun Watson",
       "position": "QB",
+      "team": "CLE",
+      "publicAdp": 44.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Devin Funchess",
-      "position": "TE",
+      "position": "WR",
+      "publicAdp": 339.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Devin Singletary",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 108.8,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "Devonta Freeman",
       "position": "RB",
+      "publicAdp": 29.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Dion Lewis",
       "position": "RB",
+      "publicAdp": 142.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "DJ Moore",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 64.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Donte Moncrief",
       "position": "WR",
+      "publicAdp": 134.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Drew Brees",
       "position": "QB",
+      "publicAdp": 78.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Duke Johnson",
       "position": "RB",
+      "publicAdp": 77.2,
       "isRookie": false
     },
     {
@@ -1472,72 +1749,89 @@
       "season": 2019,
       "player": "Eddy Pineiro",
       "position": "K",
+      "team": "SF",
+      "publicAdp": 258.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Emmanuel Sanders",
       "position": "WR",
+      "publicAdp": 97.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Eric Ebron",
       "position": "TE",
+      "publicAdp": 101.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Evan Engram",
       "position": "TE",
+      "team": "DEN",
+      "publicAdp": 57.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Ezekiel Elliott",
       "position": "RB",
+      "publicAdp": 4,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "George Kittle",
       "position": "TE",
+      "team": "SF",
+      "publicAdp": 28.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Geronimo Allison",
       "position": "WR",
+      "publicAdp": 119.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Golden Tate",
       "position": "WR",
+      "publicAdp": 138,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Greg Zuerlein",
       "position": "K",
+      "publicAdp": 114.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Harrison Butker",
       "position": "K",
+      "team": "KC",
+      "publicAdp": 132.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Hunter Henry",
       "position": "TE",
+      "team": "NE",
+      "publicAdp": 64.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Ito Smith",
       "position": "RB",
+      "publicAdp": 295.2,
       "isRookie": false
     },
     {
@@ -1550,264 +1844,322 @@
       "season": 2019,
       "player": "Jake Elliott",
       "position": "K",
+      "team": "PHI",
+      "publicAdp": 196,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jameis Winston",
       "position": "QB",
+      "team": "NYG",
+      "publicAdp": 126.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "James Conner",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 10.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "James White",
       "position": "RB",
+      "publicAdp": 53.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jamison Crowder",
       "position": "WR",
+      "publicAdp": 157.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jared Cook",
       "position": "TE",
+      "publicAdp": 71.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jared Goff",
       "position": "QB",
+      "team": "DET",
+      "publicAdp": 88.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jarvis Landry",
       "position": "WR",
+      "publicAdp": 65.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jaylen Samuels",
       "position": "RB",
+      "publicAdp": 135,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jimmy Garoppolo",
       "position": "QB",
+      "team": "LAR",
+      "publicAdp": 165.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jimmy Graham",
       "position": "TE",
+      "publicAdp": 157.6,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Joe Mixon",
       "position": "RB",
+      "publicAdp": 18,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "John Brown",
       "position": "WR",
+      "publicAdp": 161.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jordan Howard",
       "position": "RB",
+      "publicAdp": 99.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Jordan Reed",
       "position": "TE",
+      "publicAdp": 156.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Josh Allen",
       "position": "QB",
+      "team": "BUF",
+      "publicAdp": 171.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Josh Gordon",
       "position": "WR",
+      "publicAdp": 74.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Josh Jacobs",
       "position": "RB",
+      "team": "GB",
+      "publicAdp": 34.2,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "JuJu Smith-Schuster",
       "position": "WR",
+      "publicAdp": 14.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Julian Edelman",
       "position": "WR",
+      "publicAdp": 35.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Julio Jones",
       "position": "WR",
+      "publicAdp": 10.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Justin Tucker",
       "position": "K",
+      "publicAdp": 122.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Ka'imi Fairbairn",
       "position": "K",
+      "team": "HOU",
+      "publicAdp": 157.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Kalen Ballage",
       "position": "RB",
+      "publicAdp": 134.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Kareem Hunt",
       "position": "RB",
+      "publicAdp": 117.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Keenan Allen",
       "position": "WR",
+      "team": "IND",
+      "publicAdp": 25.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Keke Coutee",
       "position": "WR",
+      "publicAdp": 148.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Kenny Golladay",
       "position": "WR",
+      "publicAdp": 44.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Kenyan Drake",
       "position": "RB",
+      "publicAdp": 76.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Kerryon Johnson",
       "position": "RB",
+      "publicAdp": 29.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Kirk Cousins",
       "position": "QB",
+      "team": "LV",
+      "publicAdp": 146.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Kyle Rudolph",
       "position": "TE",
+      "publicAdp": 146.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Kyler Murray",
       "position": "QB",
+      "team": "MIN",
+      "publicAdp": 114.7,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "Lamar Jackson",
       "position": "QB",
+      "team": "BAL",
+      "publicAdp": 118.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Larry Fitzgerald",
       "position": "WR",
+      "publicAdp": 100.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Latavius Murray",
       "position": "RB",
+      "publicAdp": 93.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Le'Veon Bell",
       "position": "RB",
+      "publicAdp": 7.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Leonard Fournette",
       "position": "RB",
+      "publicAdp": 25.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "LeSean McCoy",
       "position": "RB",
+      "publicAdp": 99.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Mark Andrews",
       "position": "TE",
+      "team": "BAL",
+      "publicAdp": 146.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Mark Ingram",
       "position": "RB",
+      "publicAdp": 44.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Marlon Mack",
       "position": "RB",
+      "publicAdp": 42.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Marqise Lee",
       "position": "WR",
+      "publicAdp": 404,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Marquez Valdes-Scantling",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 115,
       "isRookie": false
     },
     {
@@ -1820,54 +2172,64 @@
       "season": 2019,
       "player": "Marquise Goodwin",
       "position": "WR",
+      "publicAdp": 250.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Marvin Jones",
       "position": "WR",
+      "publicAdp": 96.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Mason Crosby",
       "position": "K",
+      "publicAdp": 200.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Matt Breida",
       "position": "RB",
+      "publicAdp": 108,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Matt Ryan",
       "position": "QB",
+      "publicAdp": 67.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Mecole Hardman",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 170.3,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "Melvin Gordon",
       "position": "RB",
+      "publicAdp": 44.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Michael Gallup",
       "position": "WR",
+      "publicAdp": 131.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Michael Thomas",
       "position": "WR",
+      "publicAdp": 10.7,
       "isRookie": false
     },
     {
@@ -1880,18 +2242,22 @@
       "season": 2019,
       "player": "Mike Evans",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 21.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Mike Williams",
       "position": "WR",
+      "publicAdp": 61.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Miles Sanders",
       "position": "RB",
+      "publicAdp": 73.5,
       "isRookie": true
     },
     {
@@ -1904,42 +2270,51 @@
       "season": 2019,
       "player": "Mohamed Sanu",
       "position": "WR",
+      "publicAdp": 177.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Nelson Agholor",
       "position": "WR",
+      "publicAdp": 386.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Nick Chubb",
       "position": "RB",
+      "publicAdp": 16,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Nyheim Miller-Hines",
       "position": "RB",
+      "publicAdp": 156.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "O.J. Howard",
       "position": "TE",
+      "publicAdp": 57.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Odell Beckham Jr.",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 12.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Patrick Mahomes",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 18.8,
       "isRookie": false
     },
     {
@@ -1952,18 +2327,21 @@
       "season": 2019,
       "player": "Peyton Barber",
       "position": "RB",
+      "publicAdp": 122.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Philip Rivers",
       "position": "QB",
+      "publicAdp": 126.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Phillip Lindsay",
       "position": "RB",
+      "publicAdp": 54.7,
       "isRookie": false
     },
     {
@@ -1976,6 +2354,7 @@
       "season": 2019,
       "player": "Rashaad Penny",
       "position": "RB",
+      "publicAdp": 102.5,
       "isRookie": false
     },
     {
@@ -1988,30 +2367,35 @@
       "season": 2019,
       "player": "Robbie Chosen",
       "position": "WR",
+      "publicAdp": 78.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Robbie Gould",
       "position": "K",
+      "publicAdp": 172.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Robert Woods",
       "position": "WR",
+      "publicAdp": 41.8,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Royce Freeman",
       "position": "RB",
+      "publicAdp": 109.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Russell Wilson",
       "position": "QB",
+      "publicAdp": 84.7,
       "isRookie": false
     },
     {
@@ -2024,66 +2408,81 @@
       "season": 2019,
       "player": "Sam Darnold",
       "position": "QB",
+      "team": "SEA",
+      "publicAdp": 190.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Sammy Watkins",
       "position": "WR",
+      "publicAdp": 84.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Saquon Barkley",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 1,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Sony Michel",
       "position": "RB",
+      "publicAdp": 48,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Stefon Diggs",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 32.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Stephen Gostkowski",
       "position": "K",
+      "publicAdp": 146.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Sterling Shepard",
       "position": "WR",
+      "publicAdp": 87.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "T.J. Hockenson",
       "position": "TE",
+      "team": "MIN",
+      "publicAdp": 153,
       "isRookie": true
     },
     {
       "season": 2019,
       "player": "T.Y. Hilton",
       "position": "WR",
+      "publicAdp": 40.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Tarik Cohen",
       "position": "RB",
+      "publicAdp": 68.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Tevin Coleman",
       "position": "RB",
+      "publicAdp": 68.7,
       "isRookie": false
     },
     {
@@ -2096,48 +2495,58 @@
       "season": 2019,
       "player": "Todd Gurley",
       "position": "RB",
+      "publicAdp": 13.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Tom Brady",
       "position": "QB",
+      "publicAdp": 116.3,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Travis Kelce",
       "position": "TE",
+      "team": "KC",
+      "publicAdp": 15.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Tyler Boyd",
       "position": "WR",
+      "publicAdp": 55.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Tyler Lockett",
       "position": "WR",
+      "team": "LV",
+      "publicAdp": 46.2,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Tyreek Hill",
       "position": "WR",
+      "publicAdp": 15.7,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Tyrell Williams",
       "position": "WR",
+      "publicAdp": 147.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Vance McDonald",
       "position": "TE",
+      "publicAdp": 84.2,
       "isRookie": false
     },
     {
@@ -2150,6 +2559,8 @@
       "season": 2019,
       "player": "Wil Lutz",
       "position": "K",
+      "team": "DEN",
+      "publicAdp": 141.5,
       "isRookie": false
     },
     {
@@ -2162,12 +2573,14 @@
       "season": 2019,
       "player": "Zach Ertz",
       "position": "TE",
+      "publicAdp": 28.5,
       "isRookie": false
     },
     {
       "season": 2019,
       "player": "Zay Jones",
       "position": "WR",
+      "publicAdp": 386.4,
       "isRookie": false
     },
     {
@@ -2180,78 +2593,97 @@
       "season": 2021,
       "player": "A.J. Brown",
       "position": "WR",
+      "team": "NE",
+      "publicAdp": 23.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "A.J. Green",
       "position": "WR",
+      "publicAdp": 197,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Aaron Jones",
       "position": "RB",
+      "team": "MIN",
+      "publicAdp": 9.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Aaron Rodgers",
       "position": "QB",
+      "team": "PIT",
+      "publicAdp": 54.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Adam Thielen",
       "position": "WR",
+      "publicAdp": 50.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Adam Trautman",
       "position": "TE",
+      "team": "DEN",
+      "publicAdp": 207.5,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "AJ Dillon",
       "position": "RB",
+      "team": "CAR",
+      "publicAdp": 105.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Allen Robinson",
       "position": "WR",
+      "publicAdp": 32,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Alvin Kamara",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 3,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Amari Cooper",
       "position": "WR",
+      "publicAdp": 41.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Antonio Brown",
       "position": "WR",
+      "publicAdp": 94.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Antonio Gibson",
       "position": "RB",
+      "publicAdp": 17.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Austin Ekeler",
       "position": "RB",
+      "publicAdp": 10.4,
       "isRookie": false
     },
     {
@@ -2264,12 +2696,15 @@
       "season": 2021,
       "player": "Brandin Cooks",
       "position": "WR",
+      "publicAdp": 92.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Brandon Aiyuk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 60.8,
       "isRookie": false
     },
     {
@@ -2288,66 +2723,84 @@
       "season": 2021,
       "player": "Cairo Santos",
       "position": "K",
+      "team": "CHI",
+      "publicAdp": 249.5,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Calvin Ridley",
       "position": "WR",
+      "team": "TEN",
+      "publicAdp": 18.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "CeeDee Lamb",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 32.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Chase Claypool",
       "position": "WR",
+      "publicAdp": 69.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Chase Edmonds",
       "position": "RB",
+      "team": "WAS",
+      "publicAdp": 62,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Chris Carson",
       "position": "RB",
+      "publicAdp": 32.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Chris Godwin",
       "position": "WR",
+      "team": "TB",
+      "publicAdp": 42.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Christian McCaffrey",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 1,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Chuba Hubbard",
       "position": "RB",
+      "team": "CAR",
+      "publicAdp": 176.6,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Clyde Edwards-Helaire",
       "position": "RB",
+      "publicAdp": 24.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Cole Beasley",
       "position": "WR",
+      "publicAdp": 143.8,
       "isRookie": false
     },
     {
@@ -2366,198 +2819,251 @@
       "season": 2021,
       "player": "Cooper Kupp",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 46,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Corey Davis",
       "position": "WR",
+      "publicAdp": 95.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Courtland Sutton",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 79.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Curtis Samuel",
       "position": "WR",
+      "publicAdp": 118.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "D'Andre Swift",
       "position": "RB",
+      "team": "CHI",
+      "publicAdp": 36.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Dak Prescott",
       "position": "QB",
+      "team": "DAL",
+      "publicAdp": 56,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Dallas Goedert",
       "position": "TE",
+      "team": "PHI",
+      "publicAdp": 99.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Dalvin Cook",
       "position": "RB",
+      "publicAdp": 2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Damien Harris",
       "position": "RB",
+      "publicAdp": 72,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Darnell Mooney",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 128.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Darrell Henderson Jr.",
       "position": "RB",
+      "publicAdp": 60,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Darren Waller",
       "position": "TE",
+      "team": "CAR",
+      "publicAdp": 22.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Davante Adams",
       "position": "WR",
+      "team": "LAR",
+      "publicAdp": 6.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "David Johnson",
       "position": "RB",
+      "publicAdp": 129.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "David Montgomery",
       "position": "RB",
+      "team": "HOU",
+      "publicAdp": 30.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "DeAndre Hopkins",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 17.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Deebo Samuel",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 88,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Derek Carr",
       "position": "QB",
+      "publicAdp": 186.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Derrick Henry",
       "position": "RB",
+      "team": "BAL",
+      "publicAdp": 4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Deshaun Watson",
       "position": "QB",
+      "team": "CLE",
+      "publicAdp": 209.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Devin Singletary",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 112.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "DeVonta Smith",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 77,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Diontae Johnson",
       "position": "WR",
+      "publicAdp": 51.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "DJ Chark",
       "position": "WR",
+      "publicAdp": 102,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "DJ Moore",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 53.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "DK Metcalf",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 18.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Elijah Moore",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 145.6,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Emmanuel Sanders",
       "position": "WR",
+      "publicAdp": 195.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Eric Ebron",
       "position": "TE",
+      "publicAdp": 217.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Evan Engram",
       "position": "TE",
+      "team": "DEN",
+      "publicAdp": 159.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Ezekiel Elliott",
       "position": "RB",
+      "publicAdp": 5.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "George Kittle",
       "position": "TE",
+      "team": "SF",
+      "publicAdp": 26.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Greg Zuerlein",
       "position": "K",
+      "publicAdp": 177.6,
       "isRookie": false
     },
     {
@@ -2570,18 +3076,23 @@
       "season": 2021,
       "player": "Harrison Butker",
       "position": "K",
+      "team": "KC",
+      "publicAdp": 127.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Henry Ruggs III",
       "position": "WR",
+      "publicAdp": 129,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Hunter Henry",
       "position": "TE",
+      "team": "NE",
+      "publicAdp": 153.2,
       "isRookie": false
     },
     {
@@ -2594,6 +3105,7 @@
       "season": 2021,
       "player": "J.D. McKissic",
       "position": "RB",
+      "publicAdp": 139.8,
       "isRookie": false
     },
     {
@@ -2606,240 +3118,301 @@
       "season": 2021,
       "player": "Ja'Marr Chase",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 74.4,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Jakobi Meyers",
       "position": "WR",
+      "team": "JAC",
+      "publicAdp": 145,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Jalen Hurts",
       "position": "QB",
+      "team": "PHI",
+      "publicAdp": 97,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Jalen Reagor",
       "position": "WR",
+      "team": "MIA",
+      "publicAdp": 187.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Jamaal Williams",
       "position": "RB",
+      "publicAdp": 116.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "James Conner",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 100.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "James Robinson",
       "position": "RB",
+      "publicAdp": 33.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "James White",
       "position": "RB",
+      "publicAdp": 151.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Jamison Crowder",
       "position": "WR",
+      "publicAdp": 228.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Jared Cook",
       "position": "TE",
+      "publicAdp": 165.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Jarvis Landry",
       "position": "WR",
+      "publicAdp": 103.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Jason Sanders",
       "position": "K",
+      "team": "NYJ",
+      "publicAdp": 163.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Javonte Williams",
       "position": "RB",
+      "team": "DAL",
+      "publicAdp": 60.6,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Jaylen Waddle",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 107.4,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Jerry Jeudy",
       "position": "WR",
+      "team": "CLE",
+      "publicAdp": 72.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Joe Burrow",
       "position": "QB",
+      "team": "CIN",
+      "publicAdp": 111.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Joe Mixon",
       "position": "RB",
+      "publicAdp": 20.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "John Brown",
       "position": "WR",
+      "publicAdp": 273.7,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Jonathan Taylor",
       "position": "RB",
+      "team": "IND",
+      "publicAdp": 10.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Jonnu Smith",
       "position": "TE",
+      "publicAdp": 123,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Josh Allen",
       "position": "QB",
+      "team": "BUF",
+      "publicAdp": 30,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Josh Jacobs",
       "position": "RB",
+      "team": "GB",
+      "publicAdp": 36.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "JuJu Smith-Schuster",
       "position": "WR",
+      "publicAdp": 70.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Julio Jones",
       "position": "WR",
+      "publicAdp": 46.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Justin Fields",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 140.8,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Justin Herbert",
       "position": "QB",
+      "team": "LAC",
+      "publicAdp": 62.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Justin Jefferson",
       "position": "WR",
+      "team": "MIN",
+      "publicAdp": 23.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Justin Tucker",
       "position": "K",
+      "publicAdp": 127.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Kareem Hunt",
       "position": "RB",
+      "publicAdp": 57.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Keenan Allen",
       "position": "WR",
+      "team": "IND",
+      "publicAdp": 27.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Kenny Golladay",
       "position": "WR",
+      "publicAdp": 74.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Kenyan Drake",
       "position": "RB",
+      "publicAdp": 106.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Kyle Pitts",
       "position": "TE",
+      "team": "ATL",
+      "publicAdp": 47,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Kyler Murray",
       "position": "QB",
+      "team": "MIN",
+      "publicAdp": 40.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Lamar Jackson",
       "position": "QB",
+      "team": "BAL",
+      "publicAdp": 44.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Latavius Murray",
       "position": "RB",
+      "publicAdp": 194.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Laviska Shenault Jr.",
       "position": "WR",
+      "publicAdp": 91.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Leonard Fournette",
       "position": "RB",
+      "publicAdp": 86.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Logan Thomas",
       "position": "TE",
+      "publicAdp": 81.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Mark Andrews",
       "position": "TE",
+      "team": "BAL",
+      "publicAdp": 50.6,
       "isRookie": false
     },
     {
@@ -2852,120 +3425,149 @@
       "season": 2021,
       "player": "Marvin Jones",
       "position": "WR",
+      "publicAdp": 122.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Mason Crosby",
       "position": "K",
+      "publicAdp": 195,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Matt Ryan",
       "position": "QB",
+      "publicAdp": 141.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Matthew Stafford",
       "position": "QB",
+      "team": "LAR",
+      "publicAdp": 88.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Mecole Hardman",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 132.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Melvin Gordon",
       "position": "RB",
+      "publicAdp": 79.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Michael Carter",
       "position": "RB",
+      "team": "TEN",
+      "publicAdp": 93.4,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Michael Gallup",
       "position": "WR",
+      "publicAdp": 118,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Michael Pittman",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 106.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Michael Thomas",
       "position": "WR",
+      "publicAdp": 79.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Mike Davis",
       "position": "RB",
+      "publicAdp": 56.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Mike Evans",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 35.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Mike Gesicki",
       "position": "TE",
+      "team": "CIN",
+      "publicAdp": 109.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Mike Williams",
       "position": "WR",
+      "publicAdp": 123,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Miles Sanders",
       "position": "RB",
+      "publicAdp": 38.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Myles Gaskin",
       "position": "RB",
+      "publicAdp": 49.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Najee Harris",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 15.6,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Nick Chubb",
       "position": "RB",
+      "publicAdp": 10.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Noah Fant",
       "position": "TE",
+      "team": "NO",
+      "publicAdp": 84.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Odell Beckham Jr.",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 67.8,
       "isRookie": false
     },
     {
@@ -2978,6 +3580,8 @@
       "season": 2021,
       "player": "Patrick Mahomes",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 18.2,
       "isRookie": false
     },
     {
@@ -2990,12 +3594,15 @@
       "season": 2021,
       "player": "Phillip Lindsay",
       "position": "RB",
+      "publicAdp": 146.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Raheem Mostert",
       "position": "RB",
+      "team": "LV",
+      "publicAdp": 68.8,
       "isRookie": false
     },
     {
@@ -3014,30 +3621,36 @@
       "season": 2021,
       "player": "Rob Gronkowski",
       "position": "TE",
+      "publicAdp": 125.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Robbie Chosen",
       "position": "WR",
+      "publicAdp": 77.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Robbie Gould",
       "position": "K",
+      "publicAdp": 227.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Robert Tonyan",
       "position": "TE",
+      "team": "PIT",
+      "publicAdp": 88.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Robert Woods",
       "position": "WR",
+      "publicAdp": 38.4,
       "isRookie": false
     },
     {
@@ -3050,36 +3663,42 @@
       "season": 2021,
       "player": "Rodrigo Blankenship",
       "position": "K",
+      "publicAdp": 177.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Ronald Jones",
       "position": "RB",
+      "publicAdp": 91.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Russell Gage",
       "position": "WR",
+      "publicAdp": 148.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Russell Wilson",
       "position": "QB",
+      "publicAdp": 55.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Ryan Succop",
       "position": "K",
+      "publicAdp": 165.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Ryan Tannehill",
       "position": "QB",
+      "publicAdp": 93.4,
       "isRookie": false
     },
     {
@@ -3092,6 +3711,8 @@
       "season": 2021,
       "player": "Saquon Barkley",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 9.6,
       "isRookie": false
     },
     {
@@ -3104,54 +3725,68 @@
       "season": 2021,
       "player": "Stefon Diggs",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 14,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Sterling Shepard",
       "position": "WR",
+      "publicAdp": 172.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "T.J. Hockenson",
       "position": "TE",
+      "team": "MIN",
+      "publicAdp": 58.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "T.Y. Hilton",
       "position": "WR",
+      "publicAdp": 210.5,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Tarik Cohen",
       "position": "RB",
+      "publicAdp": 206.5,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Tee Higgins",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 64.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Terry McLaurin",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 29.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Tom Brady",
       "position": "QB",
+      "publicAdp": 71.8,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Tony Pollard",
       "position": "RB",
+      "team": "TEN",
+      "publicAdp": 132.6,
       "isRookie": false
     },
     {
@@ -3164,66 +3799,86 @@
       "season": 2021,
       "player": "Travis Kelce",
       "position": "TE",
+      "team": "KC",
+      "publicAdp": 8.4,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Trevor Lawrence",
       "position": "QB",
+      "team": "JAC",
+      "publicAdp": 128,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Trey Lance",
       "position": "QB",
+      "team": "LAC",
+      "publicAdp": 149,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Trey Sermon",
       "position": "RB",
+      "team": "ATL",
+      "publicAdp": 87.2,
       "isRookie": true
     },
     {
       "season": 2021,
       "player": "Tua Tagovailoa",
       "position": "QB",
+      "team": "ATL",
+      "publicAdp": 158.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Tyler Bass",
       "position": "K",
+      "team": "BUF",
+      "publicAdp": 155,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Tyler Boyd",
       "position": "WR",
+      "publicAdp": 91.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Tyler Higbee",
       "position": "TE",
+      "team": "LAR",
+      "publicAdp": 112,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Tyler Lockett",
       "position": "WR",
+      "team": "LV",
+      "publicAdp": 49.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Tyreek Hill",
       "position": "WR",
+      "publicAdp": 10.6,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Wil Lutz",
       "position": "K",
+      "team": "DEN",
+      "publicAdp": 204.3,
       "isRookie": false
     },
     {
@@ -3236,18 +3891,21 @@
       "season": 2021,
       "player": "Younghoe Koo",
       "position": "K",
+      "publicAdp": 143.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Zach Ertz",
       "position": "TE",
+      "publicAdp": 165.2,
       "isRookie": false
     },
     {
       "season": 2021,
       "player": "Zack Moss",
       "position": "RB",
+      "publicAdp": 106.6,
       "isRookie": false
     },
     {
@@ -3260,90 +3918,113 @@
       "season": 2022,
       "player": "A.J. Brown",
       "position": "WR",
+      "team": "NE",
+      "publicAdp": 30.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Aaron Jones",
       "position": "RB",
+      "team": "MIN",
+      "publicAdp": 19.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Aaron Rodgers",
       "position": "QB",
+      "team": "PIT",
+      "publicAdp": 80.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Adam Thielen",
       "position": "WR",
+      "publicAdp": 73.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "AJ Dillon",
       "position": "RB",
+      "team": "CAR",
+      "publicAdp": 67.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Alexander Mattison",
       "position": "RB",
+      "publicAdp": 135,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Allen Lazard",
       "position": "WR",
+      "publicAdp": 104.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Allen Robinson",
       "position": "WR",
+      "publicAdp": 62.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Alvin Kamara",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 13.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Amari Cooper",
       "position": "WR",
+      "publicAdp": 67.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Amon-Ra St. Brown",
       "position": "WR",
+      "team": "DET",
+      "publicAdp": 63.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Antonio Gibson",
       "position": "RB",
+      "publicAdp": 64.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Austin Ekeler",
       "position": "RB",
+      "publicAdp": 3.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Austin Hooper",
       "position": "TE",
+      "team": "ATL",
+      "publicAdp": 209,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Baker Mayfield",
       "position": "QB",
+      "team": "TB",
+      "publicAdp": 195.3,
       "isRookie": false
     },
     {
@@ -3356,24 +4037,31 @@
       "season": 2022,
       "player": "Brandin Cooks",
       "position": "WR",
+      "publicAdp": 56,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Brandon Aiyuk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 98,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Breece Hall",
       "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 52.3,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Brian Robinson Jr.",
       "position": "RB",
+      "team": "ATL",
+      "publicAdp": 153.8,
       "isRookie": true
     },
     {
@@ -3398,60 +4086,77 @@
       "season": 2022,
       "player": "Cam Akers",
       "position": "RB",
+      "publicAdp": 39.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "CeeDee Lamb",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 19.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Chase Claypool",
       "position": "WR",
+      "publicAdp": 116.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Chase Edmonds",
       "position": "RB",
+      "team": "WAS",
+      "publicAdp": 86.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Chris Godwin",
       "position": "WR",
+      "team": "TB",
+      "publicAdp": 61.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Chris Olave",
       "position": "WR",
+      "team": "NO",
+      "publicAdp": 110.8,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Christian Kirk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 100.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Christian McCaffrey",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 2,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Clyde Edwards-Helaire",
       "position": "RB",
+      "publicAdp": 64,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Cole Kmet",
       "position": "TE",
+      "team": "CHI",
+      "publicAdp": 121.8,
       "isRookie": false
     },
     {
@@ -3464,438 +4169,558 @@
       "season": 2022,
       "player": "Cooper Kupp",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 4,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Cordarrelle Patterson",
       "position": "RB",
+      "publicAdp": 85.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Courtland Sutton",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 58,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "D'Andre Swift",
       "position": "RB",
+      "team": "CHI",
+      "publicAdp": 15.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Dak Prescott",
       "position": "QB",
+      "team": "DAL",
+      "publicAdp": 82,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Dallas Goedert",
       "position": "TE",
+      "team": "PHI",
+      "publicAdp": 70.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Dalton Schultz",
       "position": "TE",
+      "team": "HOU",
+      "publicAdp": 57.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Dalvin Cook",
       "position": "RB",
+      "publicAdp": 7.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Dameon Pierce",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 83.5,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Damien Harris",
       "position": "RB",
+      "publicAdp": 83.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Daniel Carlson",
       "position": "K",
+      "team": "LV",
+      "publicAdp": 132.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Darnell Mooney",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 73.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Darrel Williams",
       "position": "RB",
+      "publicAdp": 191.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Darrell Henderson Jr.",
       "position": "RB",
+      "publicAdp": 132.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Darren Waller",
       "position": "TE",
+      "team": "CAR",
+      "publicAdp": 44.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Davante Adams",
       "position": "WR",
+      "team": "LAR",
+      "publicAdp": 12.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "David Montgomery",
       "position": "RB",
+      "team": "HOU",
+      "publicAdp": 36.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "David Njoku",
       "position": "TE",
+      "team": "LAC",
+      "publicAdp": 161.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Dawson Knox",
       "position": "TE",
+      "team": "BUF",
+      "publicAdp": 90,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "DeAndre Hopkins",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 83.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Deebo Samuel",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 17,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Derek Carr",
       "position": "QB",
+      "publicAdp": 113.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Derrick Henry",
       "position": "RB",
+      "team": "BAL",
+      "publicAdp": 5.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "DeVante Parker",
       "position": "WR",
+      "publicAdp": 161.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Devin Singletary",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 82.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "DeVonta Smith",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 90.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Diontae Johnson",
       "position": "WR",
+      "publicAdp": 43.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "DJ Moore",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 43.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "DK Metcalf",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 48.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Drake London",
       "position": "WR",
+      "team": "ATL",
+      "publicAdp": 98.5,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Dustin Hopkins",
       "position": "K",
+      "publicAdp": 217,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Elijah Mitchell",
       "position": "RB",
+      "publicAdp": 52,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Elijah Moore",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 90,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Evan Engram",
       "position": "TE",
+      "team": "DEN",
+      "publicAdp": 193.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Evan McPherson",
       "position": "K",
+      "team": "CIN",
+      "publicAdp": 129,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Ezekiel Elliott",
       "position": "RB",
+      "publicAdp": 30.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Gabe Davis",
       "position": "WR",
+      "publicAdp": 67.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "George Kittle",
       "position": "TE",
+      "team": "SF",
+      "publicAdp": 39.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "George Pickens",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 127.8,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Gerald Everett",
       "position": "TE",
+      "publicAdp": 189.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Greg Joseph",
       "position": "K",
+      "publicAdp": 195.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Harrison Butker",
       "position": "K",
+      "team": "KC",
+      "publicAdp": 129,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Hunter Henry",
       "position": "TE",
+      "team": "NE",
+      "publicAdp": 130.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Hunter Renfrow",
       "position": "WR",
+      "publicAdp": 83.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Irv Smith",
       "position": "TE",
+      "publicAdp": 175.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Isaiah McKenzie",
       "position": "WR",
+      "publicAdp": 176.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Isaiah Spiller",
       "position": "RB",
+      "publicAdp": 199.7,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Isiah Pacheco",
       "position": "RB",
+      "team": "DET",
+      "publicAdp": 178,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "J.D. McKissic",
       "position": "RB",
+      "publicAdp": 165.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "J.K. Dobbins",
       "position": "RB",
+      "team": "DEN",
+      "publicAdp": 52,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Ja'Marr Chase",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 8.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Jahan Dotson",
       "position": "WR",
+      "team": "ATL",
+      "publicAdp": 174.8,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Jakobi Meyers",
       "position": "WR",
+      "team": "JAC",
+      "publicAdp": 162.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Jalen Hurts",
       "position": "QB",
+      "team": "PHI",
+      "publicAdp": 55.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "James Conner",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 29.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "James Cook",
       "position": "RB",
+      "team": "BUF",
+      "publicAdp": 120,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "James Robinson",
       "position": "RB",
+      "publicAdp": 117,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Javonte Williams",
       "position": "RB",
+      "team": "DAL",
+      "publicAdp": 22.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Jaylen Waddle",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 47.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Jerry Jeudy",
       "position": "WR",
+      "team": "CLE",
+      "publicAdp": 65.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Joe Burrow",
       "position": "QB",
+      "team": "CIN",
+      "publicAdp": 60.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Joe Mixon",
       "position": "RB",
+      "publicAdp": 10.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Jonathan Taylor",
       "position": "RB",
+      "team": "IND",
+      "publicAdp": 1,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Josh Allen",
       "position": "QB",
+      "team": "BUF",
+      "publicAdp": 20.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Josh Jacobs",
       "position": "RB",
+      "team": "GB",
+      "publicAdp": 49.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "JuJu Smith-Schuster",
       "position": "WR",
+      "publicAdp": 74.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Julio Jones",
       "position": "WR",
+      "publicAdp": 143.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Justin Herbert",
       "position": "QB",
+      "team": "LAC",
+      "publicAdp": 34.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Justin Jefferson",
       "position": "WR",
+      "team": "MIN",
+      "publicAdp": 5.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Justin Tucker",
       "position": "K",
+      "publicAdp": 105.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Kadarius Toney",
       "position": "WR",
+      "publicAdp": 119,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Kareem Hunt",
       "position": "RB",
+      "publicAdp": 85.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Keenan Allen",
       "position": "WR",
+      "team": "IND",
+      "publicAdp": 28.3,
       "isRookie": false
     },
     {
@@ -3908,54 +4733,69 @@
       "season": 2022,
       "player": "Kenneth Walker III",
       "position": "RB",
+      "team": "KC",
+      "publicAdp": 116,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Khalil Herbert",
       "position": "RB",
+      "publicAdp": 181.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Kirk Cousins",
       "position": "QB",
+      "team": "LV",
+      "publicAdp": 125.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Kyle Pitts",
       "position": "TE",
+      "team": "ATL",
+      "publicAdp": 32.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Kyler Murray",
       "position": "QB",
+      "team": "MIN",
+      "publicAdp": 53.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Lamar Jackson",
       "position": "QB",
+      "team": "BAL",
+      "publicAdp": 43.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Leonard Fournette",
       "position": "RB",
+      "publicAdp": 22,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Mark Andrews",
       "position": "TE",
+      "team": "BAL",
+      "publicAdp": 21.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Mark Ingram",
       "position": "RB",
+      "publicAdp": 179,
       "isRookie": false
     },
     {
@@ -3968,78 +4808,97 @@
       "season": 2022,
       "player": "Marvin Jones",
       "position": "WR",
+      "publicAdp": 212.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Matt Breida",
       "position": "RB",
+      "publicAdp": 205,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Matt Gay",
       "position": "K",
+      "team": "LV",
+      "publicAdp": 135.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Matt Prater",
       "position": "K",
+      "publicAdp": 151,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Matthew Stafford",
       "position": "QB",
+      "team": "LAR",
+      "publicAdp": 92,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Melvin Gordon",
       "position": "RB",
+      "publicAdp": 107.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Michael Carter",
       "position": "RB",
+      "team": "TEN",
+      "publicAdp": 117,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Michael Pittman",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 33.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Michael Thomas",
       "position": "WR",
+      "publicAdp": 80,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Mike Evans",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 26.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Mike Gesicki",
       "position": "TE",
+      "team": "CIN",
+      "publicAdp": 129,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Mike Williams",
       "position": "WR",
+      "publicAdp": 46,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Miles Sanders",
       "position": "RB",
+      "publicAdp": 84.5,
       "isRookie": false
     },
     {
@@ -4052,24 +4911,30 @@
       "season": 2022,
       "player": "Najee Harris",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Nick Chubb",
       "position": "RB",
+      "publicAdp": 20,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Nick Folk",
       "position": "K",
+      "team": "ATL",
+      "publicAdp": 172,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Nyheim Miller-Hines",
       "position": "RB",
+      "publicAdp": 140.5,
       "isRookie": false
     },
     {
@@ -4082,12 +4947,16 @@
       "season": 2022,
       "player": "Pat Freiermuth",
       "position": "TE",
+      "team": "PIT",
+      "publicAdp": 108.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Patrick Mahomes",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 29.8,
       "isRookie": false
     },
     {
@@ -4100,6 +4969,8 @@
       "season": 2022,
       "player": "Raheem Mostert",
       "position": "RB",
+      "team": "LV",
+      "publicAdp": 144.8,
       "isRookie": false
     },
     {
@@ -4112,12 +4983,15 @@
       "season": 2022,
       "player": "Rashaad Penny",
       "position": "RB",
+      "publicAdp": 87,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Rashod Bateman",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 88.5,
       "isRookie": false
     },
     {
@@ -4130,30 +5004,37 @@
       "season": 2022,
       "player": "Rhamondre Stevenson",
       "position": "RB",
+      "team": "NE",
+      "publicAdp": 100,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Robbie Gould",
       "position": "K",
+      "publicAdp": 201.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Robert Woods",
       "position": "WR",
+      "publicAdp": 103,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Rodrigo Blankenship",
       "position": "K",
+      "publicAdp": 214.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Romeo Doubs",
       "position": "WR",
+      "team": "NE",
+      "publicAdp": 176.3,
       "isRookie": true
     },
     {
@@ -4166,18 +5047,21 @@
       "season": 2022,
       "player": "Russell Gage",
       "position": "WR",
+      "publicAdp": 145.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Russell Wilson",
       "position": "QB",
+      "publicAdp": 77.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Ryan Tannehill",
       "position": "QB",
+      "publicAdp": 185.3,
       "isRookie": false
     },
     {
@@ -4190,48 +5074,62 @@
       "season": 2022,
       "player": "Saquon Barkley",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 20.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Skyy Moore",
       "position": "WR",
+      "team": "GB",
+      "publicAdp": 142.8,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Stefon Diggs",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 12.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Sterling Shepard",
       "position": "WR",
+      "publicAdp": 281.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "T.J. Hockenson",
       "position": "TE",
+      "team": "MIN",
+      "publicAdp": 65.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Taysom Hill",
-      "position": "QB",
+      "position": "TE",
+      "publicAdp": 216.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Tee Higgins",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 33.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Terry McLaurin",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 41,
       "isRookie": false
     },
     {
@@ -4244,90 +5142,116 @@
       "season": 2022,
       "player": "Tom Brady",
       "position": "QB",
+      "publicAdp": 72,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Tony Pollard",
       "position": "RB",
+      "team": "TEN",
+      "publicAdp": 86,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Travis Etienne",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 40.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Travis Kelce",
       "position": "TE",
+      "team": "KC",
+      "publicAdp": 15,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Trey Lance",
       "position": "QB",
+      "team": "LAC",
+      "publicAdp": 101.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Treylon Burks",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 131.8,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Tua Tagovailoa",
       "position": "QB",
+      "team": "ATL",
+      "publicAdp": 140.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Tyler Allgeier",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 186.3,
       "isRookie": true
     },
     {
       "season": 2022,
       "player": "Tyler Bass",
       "position": "K",
+      "team": "BUF",
+      "publicAdp": 132.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Tyler Boyd",
       "position": "WR",
+      "publicAdp": 137.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Tyler Higbee",
       "position": "TE",
+      "team": "LAR",
+      "publicAdp": 155.3,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Tyler Lockett",
       "position": "WR",
+      "team": "LV",
+      "publicAdp": 96.5,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Tyreek Hill",
       "position": "WR",
+      "publicAdp": 19.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Zach Ertz",
       "position": "TE",
+      "publicAdp": 88.8,
       "isRookie": false
     },
     {
       "season": 2022,
       "player": "Zamir White",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 201.3,
       "isRookie": true
     },
     {
@@ -4340,84 +5264,105 @@
       "season": 2023,
       "player": "A.J. Brown",
       "position": "WR",
+      "team": "NE",
+      "publicAdp": 15,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Aaron Jones",
       "position": "RB",
+      "team": "MIN",
+      "publicAdp": 37.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Aaron Rodgers",
       "position": "QB",
+      "team": "PIT",
+      "publicAdp": 101.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Adam Thielen",
       "position": "WR",
+      "publicAdp": 137.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "AJ Dillon",
       "position": "RB",
+      "team": "CAR",
+      "publicAdp": 94.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Alexander Mattison",
       "position": "RB",
+      "publicAdp": 62.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Allen Lazard",
       "position": "WR",
+      "publicAdp": 143.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Alvin Kamara",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 61.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Amari Cooper",
       "position": "WR",
+      "publicAdp": 42,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Amon-Ra St. Brown",
       "position": "WR",
+      "team": "DET",
+      "publicAdp": 18.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Anthony Richardson",
       "position": "QB",
+      "team": "IND",
+      "publicAdp": 120.3,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Antonio Gibson",
       "position": "RB",
+      "publicAdp": 112.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Austin Ekeler",
       "position": "RB",
+      "publicAdp": 3.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Austin Watkins Jr.",
       "position": "WR",
+      "publicAdp": 269,
       "isRookie": false
     },
     {
@@ -4430,6 +5375,8 @@
       "season": 2023,
       "player": "Bijan Robinson",
       "position": "RB",
+      "team": "ATL",
+      "publicAdp": 8,
       "isRookie": true
     },
     {
@@ -4442,36 +5389,47 @@
       "season": 2023,
       "player": "Brandin Cooks",
       "position": "WR",
+      "publicAdp": 95,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Brandon Aiyuk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 72,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Brandon Aubrey",
       "position": "K",
+      "team": "DAL",
+      "publicAdp": 249,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Breece Hall",
       "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 40.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Brian Robinson Jr.",
       "position": "RB",
+      "team": "ATL",
+      "publicAdp": 109.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Brock Purdy",
       "position": "QB",
+      "team": "SF",
+      "publicAdp": 167,
       "isRookie": false
     },
     {
@@ -4484,30 +5442,39 @@
       "season": 2023,
       "player": "Cairo Santos",
       "position": "K",
+      "team": "CHI",
+      "publicAdp": 209,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Calvin Ridley",
       "position": "WR",
+      "team": "TEN",
+      "publicAdp": 34.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Cam Akers",
       "position": "RB",
+      "publicAdp": 64,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "CeeDee Lamb",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 13.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Chase Brown",
       "position": "RB",
+      "team": "CIN",
+      "publicAdp": 246,
       "isRookie": true
     },
     {
@@ -4526,60 +5493,79 @@
       "season": 2023,
       "player": "Chris Godwin",
       "position": "WR",
+      "team": "TB",
+      "publicAdp": 67,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Chris Olave",
       "position": "WR",
+      "team": "NO",
+      "publicAdp": 26.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Christian Kirk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 76,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Christian McCaffrey",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 2.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Christian Watson",
       "position": "WR",
+      "team": "GB",
+      "publicAdp": 55.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Chuba Hubbard",
       "position": "RB",
+      "team": "CAR",
+      "publicAdp": 206,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Clyde Edwards-Helaire",
       "position": "RB",
+      "publicAdp": 201.7,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Cole Kmet",
       "position": "TE",
+      "team": "CHI",
+      "publicAdp": 129.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Cooper Kupp",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 13.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Courtland Sutton",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 106,
       "isRookie": false
     },
     {
@@ -4592,156 +5578,204 @@
       "season": 2023,
       "player": "D'Andre Swift",
       "position": "RB",
+      "team": "CHI",
+      "publicAdp": 74.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "D'Onta Foreman",
       "position": "RB",
+      "publicAdp": 170.7,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Dak Prescott",
       "position": "QB",
+      "team": "DAL",
+      "publicAdp": 89.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Dallas Goedert",
       "position": "TE",
+      "team": "PHI",
+      "publicAdp": 63.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Dalton Kincaid",
       "position": "TE",
+      "team": "BUF",
+      "publicAdp": 127,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Dalton Schultz",
       "position": "TE",
+      "team": "HOU",
+      "publicAdp": 120.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Dalvin Cook",
       "position": "RB",
+      "publicAdp": 63.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Dameon Pierce",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 46.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Damien Harris",
       "position": "RB",
+      "publicAdp": 164.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Daniel Carlson",
       "position": "K",
+      "team": "LV",
+      "publicAdp": 114.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Daniel Jones",
       "position": "QB",
+      "team": "IND",
+      "publicAdp": 120.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Darnell Mooney",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 174,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Darren Waller",
       "position": "TE",
+      "team": "CAR",
+      "publicAdp": 50.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Davante Adams",
       "position": "WR",
+      "team": "LAR",
+      "publicAdp": 12.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "David Montgomery",
       "position": "RB",
+      "team": "HOU",
+      "publicAdp": 86,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "David Njoku",
       "position": "TE",
+      "team": "LAC",
+      "publicAdp": 85.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "De'Von Achane",
       "position": "RB",
+      "team": "MIA",
+      "publicAdp": 136.8,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "DeAndre Hopkins",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 52.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Deebo Samuel",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 38,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Derrick Henry",
       "position": "RB",
+      "team": "BAL",
+      "publicAdp": 16,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Deshaun Watson",
       "position": "QB",
+      "team": "CLE",
+      "publicAdp": 76,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Devin Singletary",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 159.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "DeVonta Smith",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 27,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Diontae Johnson",
       "position": "WR",
+      "publicAdp": 74.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "DJ Moore",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 50.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "DK Metcalf",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 31.3,
       "isRookie": false
     },
     {
@@ -4754,6 +5788,8 @@
       "season": 2023,
       "player": "Drake London",
       "position": "WR",
+      "team": "ATL",
+      "publicAdp": 66.8,
       "isRookie": false
     },
     {
@@ -4766,102 +5802,128 @@
       "season": 2023,
       "player": "Elijah Mitchell",
       "position": "RB",
+      "publicAdp": 140.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Evan Engram",
       "position": "TE",
+      "team": "DEN",
+      "publicAdp": 78.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Evan McPherson",
       "position": "K",
+      "team": "CIN",
+      "publicAdp": 130.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Ezekiel Elliott",
       "position": "RB",
+      "publicAdp": 134.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Gabe Davis",
       "position": "WR",
+      "publicAdp": 108.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Garrett Wilson",
       "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 17.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Geno Smith",
       "position": "QB",
+      "team": "NYJ",
+      "publicAdp": 124.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "George Kittle",
       "position": "TE",
+      "team": "SF",
+      "publicAdp": 49.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "George Pickens",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 83,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Gerald Everett",
       "position": "TE",
+      "publicAdp": 162,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Graham Gano",
       "position": "K",
+      "publicAdp": 155.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Greg Dulcich",
       "position": "TE",
+      "team": "MIA",
+      "publicAdp": 176,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Greg Zuerlein",
       "position": "K",
+      "publicAdp": 180,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Gus Edwards",
       "position": "RB",
+      "publicAdp": 223.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Harrison Butker",
       "position": "K",
+      "team": "KC",
+      "publicAdp": 133.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Hunter Renfrow",
       "position": "WR",
+      "publicAdp": 224.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Isiah Pacheco",
       "position": "RB",
+      "team": "DET",
+      "publicAdp": 72.5,
       "isRookie": false
     },
     {
@@ -4874,108 +5936,141 @@
       "season": 2023,
       "player": "Ja'Marr Chase",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jahan Dotson",
       "position": "WR",
+      "team": "ATL",
+      "publicAdp": 91.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jahmyr Gibbs",
       "position": "RB",
+      "team": "DET",
+      "publicAdp": 33,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Jake Elliott",
       "position": "K",
+      "team": "PHI",
+      "publicAdp": 161,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jakobi Meyers",
       "position": "WR",
+      "team": "JAC",
+      "publicAdp": 150,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jalen Hurts",
       "position": "QB",
+      "team": "PHI",
+      "publicAdp": 22.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jamaal Williams",
       "position": "RB",
+      "publicAdp": 103.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "James Conner",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 64.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "James Cook",
       "position": "RB",
+      "team": "BUF",
+      "publicAdp": 71.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jared Goff",
       "position": "QB",
+      "team": "DET",
+      "publicAdp": 138.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jason Myers",
       "position": "K",
+      "team": "SEA",
+      "publicAdp": 136.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Javonte Williams",
       "position": "RB",
+      "team": "DAL",
+      "publicAdp": 72.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jaxon Smith-Njigba",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 97.5,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Jaylen Waddle",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 24.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jaylen Warren",
       "position": "RB",
+      "team": "PIT",
+      "publicAdp": 162.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jeff Wilson",
       "position": "RB",
+      "publicAdp": 172.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jerick McKinnon",
       "position": "RB",
+      "publicAdp": 125.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jerry Jeudy",
       "position": "WR",
+      "team": "CLE",
+      "publicAdp": 72,
       "isRookie": false
     },
     {
@@ -4988,78 +6083,101 @@
       "season": 2023,
       "player": "Joe Burrow",
       "position": "QB",
+      "team": "CIN",
+      "publicAdp": 34.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Joe Mixon",
       "position": "RB",
+      "publicAdp": 33,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jonathan Taylor",
       "position": "RB",
+      "team": "IND",
+      "publicAdp": 47.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Jordan Addison",
       "position": "WR",
+      "team": "MIN",
+      "publicAdp": 93.8,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Josh Allen",
       "position": "QB",
+      "team": "BUF",
+      "publicAdp": 20.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Josh Jacobs",
       "position": "RB",
+      "team": "GB",
+      "publicAdp": 16,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "JuJu Smith-Schuster",
       "position": "WR",
+      "publicAdp": 109.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Justin Fields",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 44.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Justin Herbert",
       "position": "QB",
+      "team": "LAC",
+      "publicAdp": 43.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Justin Jefferson",
       "position": "WR",
+      "team": "MIN",
+      "publicAdp": 1,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Justin Tucker",
       "position": "K",
+      "publicAdp": 90.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Juwan Johnson",
       "position": "TE",
+      "team": "NO",
+      "publicAdp": 147.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Keenan Allen",
       "position": "WR",
+      "team": "IND",
+      "publicAdp": 43.5,
       "isRookie": false
     },
     {
@@ -5072,42 +6190,55 @@
       "season": 2023,
       "player": "Kenneth Walker III",
       "position": "RB",
+      "team": "KC",
+      "publicAdp": 43.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Kenny Pickett",
       "position": "QB",
+      "team": "CAR",
+      "publicAdp": 168.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Khalil Herbert",
       "position": "RB",
+      "publicAdp": 99,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Kirk Cousins",
       "position": "QB",
+      "team": "LV",
+      "publicAdp": 109.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Kyle Pitts",
       "position": "TE",
+      "team": "ATL",
+      "publicAdp": 62.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Lamar Jackson",
       "position": "QB",
+      "team": "BAL",
+      "publicAdp": 34,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Mark Andrews",
       "position": "TE",
+      "team": "BAL",
+      "publicAdp": 30.3,
       "isRookie": false
     },
     {
@@ -5120,96 +6251,123 @@
       "season": 2023,
       "player": "Michael Pittman",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 81.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Michael Thomas",
       "position": "WR",
+      "publicAdp": 106.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Mike Evans",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 75.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Mike Williams",
       "position": "WR",
+      "publicAdp": 60.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Miles Sanders",
       "position": "RB",
+      "publicAdp": 50.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Najee Harris",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 28,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Nick Chubb",
       "position": "RB",
+      "publicAdp": 12.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Nico Collins",
       "position": "WR",
+      "team": "HOU",
+      "publicAdp": 174,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Odell Beckham Jr.",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 106.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Pat Freiermuth",
       "position": "TE",
+      "team": "PIT",
+      "publicAdp": 95.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Patrick Mahomes",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 14.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Quentin Johnston",
       "position": "WR",
+      "team": "LAC",
+      "publicAdp": 125.3,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Rachaad White",
       "position": "RB",
+      "team": "WAS",
+      "publicAdp": 65.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Raheem Mostert",
       "position": "RB",
+      "team": "LV",
+      "publicAdp": 135,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Rashaad Penny",
       "position": "RB",
+      "publicAdp": 140.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Rashod Bateman",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 152,
       "isRookie": false
     },
     {
@@ -5222,24 +6380,31 @@
       "season": 2023,
       "player": "Rhamondre Stevenson",
       "position": "RB",
+      "team": "NE",
+      "publicAdp": 30.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Romeo Doubs",
       "position": "WR",
+      "team": "NE",
+      "publicAdp": 180.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Roschon Johnson",
       "position": "RB",
+      "team": "CHI",
+      "publicAdp": 195,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Russell Wilson",
       "position": "QB",
+      "publicAdp": 148,
       "isRookie": false
     },
     {
@@ -5252,24 +6417,32 @@
       "season": 2023,
       "player": "Sam LaPorta",
       "position": "TE",
+      "team": "DET",
+      "publicAdp": 168.3,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Samaje Perine",
       "position": "RB",
+      "team": "CIN",
+      "publicAdp": 118.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Saquon Barkley",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 7.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Skyy Moore",
       "position": "WR",
+      "team": "GB",
+      "publicAdp": 127.5,
       "isRookie": false
     },
     {
@@ -5282,132 +6455,173 @@
       "season": 2023,
       "player": "Stefon Diggs",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 10,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "T.J. Hockenson",
       "position": "TE",
+      "team": "MIN",
+      "publicAdp": 45.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Tank Bigsby",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 169.8,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Tee Higgins",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 28.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Terry McLaurin",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 54.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Tony Pollard",
       "position": "RB",
+      "team": "TEN",
+      "publicAdp": 16,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Travis Etienne",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 28.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Travis Kelce",
       "position": "TE",
+      "team": "KC",
+      "publicAdp": 5.8,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Trevor Lawrence",
       "position": "QB",
+      "team": "JAC",
+      "publicAdp": 55,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Treylon Burks",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 114,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Tua Tagovailoa",
       "position": "QB",
+      "team": "ATL",
+      "publicAdp": 93.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Ty Chandler",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 208.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Tyjae Spears",
       "position": "RB",
+      "team": "TEN",
+      "publicAdp": 207.7,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Tyler Allgeier",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 160,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Tyler Bass",
       "position": "K",
+      "team": "BUF",
+      "publicAdp": 129,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Tyler Boyd",
       "position": "WR",
+      "publicAdp": 156,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Tyler Higbee",
       "position": "TE",
+      "team": "LAR",
+      "publicAdp": 136.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Tyler Lockett",
       "position": "WR",
+      "team": "LV",
+      "publicAdp": 70.5,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Tyreek Hill",
       "position": "WR",
+      "publicAdp": 6.3,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Younghoe Koo",
       "position": "K",
+      "publicAdp": 139,
       "isRookie": false
     },
     {
       "season": 2023,
       "player": "Zach Charbonnet",
       "position": "RB",
+      "team": "SEA",
+      "publicAdp": 118,
       "isRookie": true
     },
     {
       "season": 2023,
       "player": "Zay Flowers",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 115,
       "isRookie": true
     },
     {
@@ -5420,60 +6634,76 @@
       "season": 2024,
       "player": "A.J. Brown",
       "position": "WR",
+      "team": "NE",
+      "publicAdp": 10.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Aaron Jones",
       "position": "RB",
+      "team": "MIN",
+      "publicAdp": 59.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Aaron Rodgers",
       "position": "QB",
+      "team": "PIT",
+      "publicAdp": 136.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Adam Thielen",
       "position": "WR",
+      "publicAdp": 161,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Alvin Kamara",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 39.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Amari Cooper",
       "position": "WR",
+      "publicAdp": 56.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Amon-Ra St. Brown",
       "position": "WR",
+      "team": "DET",
+      "publicAdp": 6.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Anthony Richardson",
       "position": "QB",
+      "team": "IND",
+      "publicAdp": 57.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Antonio Gibson",
       "position": "RB",
+      "publicAdp": 173.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Austin Ekeler",
       "position": "RB",
+      "publicAdp": 91,
       "isRookie": false
     },
     {
@@ -5492,6 +6722,8 @@
       "season": 2024,
       "player": "Bijan Robinson",
       "position": "RB",
+      "team": "ATL",
+      "publicAdp": 5,
       "isRookie": false
     },
     {
@@ -5504,54 +6736,71 @@
       "season": 2024,
       "player": "Blake Corum",
       "position": "RB",
+      "team": "LAR",
+      "publicAdp": 128,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Brandin Cooks",
       "position": "WR",
+      "publicAdp": 169.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Brandon Aiyuk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 34,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Brandon Aubrey",
       "position": "K",
+      "team": "DAL",
+      "publicAdp": 113.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Breece Hall",
       "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 5.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Brian Robinson Jr.",
       "position": "RB",
+      "team": "ATL",
+      "publicAdp": 92.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Brian Thomas Jr.",
       "position": "WR",
+      "team": "JAC",
+      "publicAdp": 116.2,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Brock Bowers",
       "position": "TE",
+      "team": "LV",
+      "publicAdp": 100.6,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Brock Purdy",
       "position": "QB",
+      "team": "SF",
+      "publicAdp": 91.8,
       "isRookie": false
     },
     {
@@ -5564,30 +6813,40 @@
       "season": 2024,
       "player": "C.J. Stroud",
       "position": "QB",
+      "team": "HOU",
+      "publicAdp": 48.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Cairo Santos",
       "position": "K",
+      "team": "CHI",
+      "publicAdp": 202,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Caleb Williams",
       "position": "QB",
+      "team": "CHI",
+      "publicAdp": 109,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Calvin Ridley",
       "position": "WR",
+      "team": "TEN",
+      "publicAdp": 74.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "CeeDee Lamb",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 2.6,
       "isRookie": false
     },
     {
@@ -5600,6 +6859,8 @@
       "season": 2024,
       "player": "Chase Brown",
       "position": "RB",
+      "team": "CIN",
+      "publicAdp": 111.2,
       "isRookie": false
     },
     {
@@ -5612,60 +6873,79 @@
       "season": 2024,
       "player": "Chris Godwin",
       "position": "WR",
+      "team": "TB",
+      "publicAdp": 76.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Chris Olave",
       "position": "WR",
+      "team": "NO",
+      "publicAdp": 26.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Christian Kirk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 74.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Christian McCaffrey",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 1,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Christian Watson",
       "position": "WR",
+      "team": "GB",
+      "publicAdp": 102.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Chuba Hubbard",
       "position": "RB",
+      "team": "CAR",
+      "publicAdp": 132.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Clyde Edwards-Helaire",
       "position": "RB",
+      "publicAdp": 231.5,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Cole Kmet",
       "position": "TE",
+      "team": "CHI",
+      "publicAdp": 141,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Cooper Kupp",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 34.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Courtland Sutton",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 112.4,
       "isRookie": false
     },
     {
@@ -5678,114 +6958,150 @@
       "season": 2024,
       "player": "Curtis Samuel",
       "position": "WR",
+      "publicAdp": 143.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "D'Andre Swift",
       "position": "RB",
+      "team": "CHI",
+      "publicAdp": 60.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Dak Prescott",
       "position": "QB",
+      "team": "DAL",
+      "publicAdp": 68.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Dallas Goedert",
       "position": "TE",
+      "team": "PHI",
+      "publicAdp": 109.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Dalton Kincaid",
       "position": "TE",
+      "team": "BUF",
+      "publicAdp": 53.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Dalton Schultz",
       "position": "TE",
+      "team": "HOU",
+      "publicAdp": 125.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Davante Adams",
       "position": "WR",
+      "team": "LAR",
+      "publicAdp": 22,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "David Montgomery",
       "position": "RB",
+      "team": "HOU",
+      "publicAdp": 61.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "David Njoku",
       "position": "TE",
+      "team": "LAC",
+      "publicAdp": 84.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "De'Von Achane",
       "position": "RB",
+      "team": "MIA",
+      "publicAdp": 27.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "DeAndre Hopkins",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 107.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Deebo Samuel",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 32,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Derrick Henry",
       "position": "RB",
+      "team": "BAL",
+      "publicAdp": 18,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Devin Singletary",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 94.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "DeVonta Smith",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 44,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Diontae Johnson",
       "position": "WR",
+      "publicAdp": 88.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "DJ Moore",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 43.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "DK Metcalf",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 41.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Drake London",
       "position": "WR",
+      "team": "ATL",
+      "publicAdp": 25.6,
       "isRookie": false
     },
     {
@@ -5804,204 +7120,269 @@
       "season": 2024,
       "player": "Evan Engram",
       "position": "TE",
+      "team": "DEN",
+      "publicAdp": 65,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Evan McPherson",
       "position": "K",
+      "team": "CIN",
+      "publicAdp": 149.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Ezekiel Elliott",
       "position": "RB",
+      "publicAdp": 113.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Garrett Wilson",
       "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 12.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Geno Smith",
       "position": "QB",
+      "team": "NYJ",
+      "publicAdp": 192.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "George Kittle",
       "position": "TE",
+      "team": "SF",
+      "publicAdp": 56.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "George Pickens",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 59.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Gus Edwards",
       "position": "RB",
+      "publicAdp": 113.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Harrison Butker",
       "position": "K",
+      "team": "KC",
+      "publicAdp": 112.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Isiah Pacheco",
       "position": "RB",
+      "team": "DET",
+      "publicAdp": 20.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "J.K. Dobbins",
       "position": "RB",
+      "team": "DEN",
+      "publicAdp": 132.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Ja'Marr Chase",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 6.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jahmyr Gibbs",
       "position": "RB",
+      "team": "DET",
+      "publicAdp": 12.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jake Elliott",
       "position": "K",
+      "team": "PHI",
+      "publicAdp": 145.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jake Ferguson",
       "position": "TE",
+      "team": "DAL",
+      "publicAdp": 81.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jake Moody",
       "position": "K",
+      "publicAdp": 156.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jakobi Meyers",
       "position": "WR",
+      "team": "JAC",
+      "publicAdp": 143.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jaleel McLaughlin",
       "position": "RB",
+      "team": "DEN",
+      "publicAdp": 162,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jalen Hurts",
       "position": "QB",
+      "team": "PHI",
+      "publicAdp": 31.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "James Conner",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 56,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "James Cook",
       "position": "RB",
+      "team": "BUF",
+      "publicAdp": 31,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jameson Williams",
       "position": "WR",
+      "team": "DET",
+      "publicAdp": 120.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jared Goff",
       "position": "QB",
+      "team": "DET",
+      "publicAdp": 116,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jason Myers",
       "position": "K",
+      "team": "SEA",
+      "publicAdp": 196.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jason Sanders",
       "position": "K",
+      "team": "NYJ",
+      "publicAdp": 199.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Javonte Williams",
       "position": "RB",
+      "team": "DAL",
+      "publicAdp": 81.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jaxon Smith-Njigba",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 99.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jayden Daniels",
       "position": "QB",
+      "team": "WAS",
+      "publicAdp": 102.6,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Jayden Reed",
       "position": "WR",
+      "team": "GB",
+      "publicAdp": 87.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jaylen Waddle",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 42.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jaylen Warren",
       "position": "RB",
+      "team": "PIT",
+      "publicAdp": 92.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jaylen Wright",
       "position": "RB",
+      "team": "MIA",
+      "publicAdp": 169.8,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Jerome Ford",
       "position": "RB",
+      "team": "WAS",
+      "publicAdp": 113,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jerry Jeudy",
       "position": "WR",
+      "team": "CLE",
+      "publicAdp": 143.8,
       "isRookie": false
     },
     {
@@ -6014,48 +7395,63 @@
       "season": 2024,
       "player": "Joe Burrow",
       "position": "QB",
+      "team": "CIN",
+      "publicAdp": 61.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Joe Mixon",
       "position": "RB",
+      "publicAdp": 38.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jonathan Taylor",
       "position": "RB",
+      "team": "IND",
+      "publicAdp": 10.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jonathon Brooks",
       "position": "RB",
+      "team": "CAR",
+      "publicAdp": 101.4,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Jordan Addison",
       "position": "WR",
+      "team": "MIN",
+      "publicAdp": 110.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Jordan Love",
       "position": "QB",
+      "team": "GB",
+      "publicAdp": 71.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Josh Allen",
       "position": "QB",
+      "team": "BUF",
+      "publicAdp": 24.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Josh Jacobs",
       "position": "RB",
+      "team": "GB",
+      "publicAdp": 28.2,
       "isRookie": false
     },
     {
@@ -6068,36 +7464,46 @@
       "season": 2024,
       "player": "Joshua Karty",
       "position": "K",
+      "publicAdp": 269.5,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Justin Herbert",
       "position": "QB",
+      "team": "LAC",
+      "publicAdp": 130.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Justin Jefferson",
       "position": "WR",
+      "team": "MIN",
+      "publicAdp": 7,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Justin Tucker",
       "position": "K",
+      "publicAdp": 108.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Ka'imi Fairbairn",
       "position": "K",
+      "team": "HOU",
+      "publicAdp": 149,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Keenan Allen",
       "position": "WR",
+      "team": "IND",
+      "publicAdp": 79.4,
       "isRookie": false
     },
     {
@@ -6110,84 +7516,111 @@
       "season": 2024,
       "player": "Kenneth Walker III",
       "position": "RB",
+      "team": "KC",
+      "publicAdp": 41.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Keon Coleman",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 104.6,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Khalil Herbert",
       "position": "RB",
+      "publicAdp": 192.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Khalil Shakir",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 132,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Kimani Vidal",
       "position": "RB",
+      "team": "LAC",
+      "publicAdp": 207.3,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Kirk Cousins",
       "position": "QB",
+      "team": "LV",
+      "publicAdp": 142.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Kyle Pitts",
       "position": "TE",
+      "team": "ATL",
+      "publicAdp": 64.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Kyler Murray",
       "position": "QB",
+      "team": "MIN",
+      "publicAdp": 70.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Kyren Williams",
       "position": "RB",
+      "team": "LAR",
+      "publicAdp": 16,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Ladd McConkey",
       "position": "WR",
+      "team": "LAC",
+      "publicAdp": 105.4,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Lamar Jackson",
       "position": "QB",
+      "team": "BAL",
+      "publicAdp": 37.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Luke Musgrave",
       "position": "TE",
+      "team": "GB",
+      "publicAdp": 169.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Malik Nabers",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 48.6,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Mark Andrews",
       "position": "TE",
+      "team": "BAL",
+      "publicAdp": 45.8,
       "isRookie": false
     },
     {
@@ -6200,90 +7633,118 @@
       "season": 2024,
       "player": "MarShawn Lloyd",
       "position": "RB",
+      "team": "GB",
+      "publicAdp": 182,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Marvin Harrison Jr.",
       "position": "WR",
+      "team": "ARI",
+      "publicAdp": 16.8,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Michael Pittman",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 34.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Mike Evans",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 31.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Mike Williams",
       "position": "WR",
+      "publicAdp": 149.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Najee Harris",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 70.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Nick Chubb",
       "position": "RB",
+      "publicAdp": 100.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Nico Collins",
       "position": "WR",
+      "team": "HOU",
+      "publicAdp": 28.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Pat Freiermuth",
       "position": "TE",
+      "team": "PIT",
+      "publicAdp": 135.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Patrick Mahomes",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 29,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Puka Nacua",
       "position": "WR",
+      "team": "LAR",
+      "publicAdp": 14.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Rachaad White",
       "position": "RB",
+      "team": "WAS",
+      "publicAdp": 31.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Raheem Mostert",
       "position": "RB",
+      "team": "LV",
+      "publicAdp": 74.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Rashee Rice",
       "position": "WR",
+      "team": "KC",
+      "publicAdp": 67.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Rashid Shaheed",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 187.6,
       "isRookie": false
     },
     {
@@ -6296,36 +7757,48 @@
       "season": 2024,
       "player": "Rhamondre Stevenson",
       "position": "RB",
+      "team": "NE",
+      "publicAdp": 66.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Rico Dowdle",
       "position": "RB",
+      "team": "PIT",
+      "publicAdp": 150.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Rome Odunze",
       "position": "WR",
+      "team": "CHI",
+      "publicAdp": 98.4,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Romeo Doubs",
       "position": "WR",
+      "team": "NE",
+      "publicAdp": 142,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Sam LaPorta",
       "position": "TE",
+      "team": "DET",
+      "publicAdp": 31.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Saquon Barkley",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 9.2,
       "isRookie": false
     },
     {
@@ -6338,156 +7811,204 @@
       "season": 2024,
       "player": "Stefon Diggs",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 43,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "T.J. Hockenson",
       "position": "TE",
+      "team": "MIN",
+      "publicAdp": 126.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tank Dell",
       "position": "WR",
+      "team": "HOU",
+      "publicAdp": 65,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tee Higgins",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 62.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Terry McLaurin",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 71.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tony Pollard",
       "position": "RB",
+      "team": "TEN",
+      "publicAdp": 81.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Travis Etienne",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 17.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Travis Kelce",
       "position": "TE",
+      "team": "KC",
+      "publicAdp": 25.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Trevor Lawrence",
       "position": "QB",
+      "team": "JAC",
+      "publicAdp": 129.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Trey Benson",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 133.6,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Trey McBride",
       "position": "TE",
+      "team": "ARI",
+      "publicAdp": 46.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tua Tagovailoa",
       "position": "QB",
+      "team": "ATL",
+      "publicAdp": 115.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Ty Chandler",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 160.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tyjae Spears",
       "position": "RB",
+      "team": "TEN",
+      "publicAdp": 100.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tyler Allgeier",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 156.8,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tyler Bass",
       "position": "K",
+      "team": "BUF",
+      "publicAdp": 183.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tyler Lockett",
       "position": "WR",
+      "team": "LV",
+      "publicAdp": 139.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tyreek Hill",
       "position": "WR",
+      "publicAdp": 3.2,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Tyrone Tracy Jr.",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 217,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Xavier Worthy",
       "position": "WR",
+      "team": "KC",
+      "publicAdp": 90,
       "isRookie": true
     },
     {
       "season": 2024,
       "player": "Younghoe Koo",
       "position": "K",
+      "publicAdp": 140,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Zach Charbonnet",
       "position": "RB",
+      "team": "SEA",
+      "publicAdp": 147.4,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Zach Ertz",
       "position": "TE",
+      "publicAdp": 224.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Zack Moss",
       "position": "RB",
+      "publicAdp": 98,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Zamir White",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 66.6,
       "isRookie": false
     },
     {
       "season": 2024,
       "player": "Zay Flowers",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 63.2,
       "isRookie": false
     },
     {
@@ -6500,36 +8021,47 @@
       "season": 2025,
       "player": "A.J. Brown",
       "position": "WR",
+      "team": "NE",
+      "publicAdp": 20.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Aaron Jones",
       "position": "RB",
+      "team": "MIN",
+      "publicAdp": 65.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Adam Thielen",
       "position": "WR",
+      "publicAdp": 172.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Alvin Kamara",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 37,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Amon-Ra St. Brown",
       "position": "WR",
+      "team": "DET",
+      "publicAdp": 9.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Ashton Jeanty",
       "position": "RB",
+      "team": "LV",
+      "publicAdp": 10.7,
       "isRookie": true
     },
     {
@@ -6542,6 +8074,8 @@
       "season": 2025,
       "player": "Baker Mayfield",
       "position": "QB",
+      "team": "TB",
+      "publicAdp": 62.5,
       "isRookie": false
     },
     {
@@ -6554,12 +8088,16 @@
       "season": 2025,
       "player": "Bhayshul Tuten",
       "position": "RB",
+      "team": "JAC",
+      "publicAdp": 148.7,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Bijan Robinson",
       "position": "RB",
+      "team": "ATL",
+      "publicAdp": 2.2,
       "isRookie": false
     },
     {
@@ -6572,54 +8110,72 @@
       "season": 2025,
       "player": "Bo Nix",
       "position": "QB",
+      "team": "DEN",
+      "publicAdp": 70.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Braelon Allen",
       "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 137.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Brandon Aiyuk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 147.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Brandon Aubrey",
       "position": "K",
+      "team": "DAL",
+      "publicAdp": 107.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Breece Hall",
       "position": "RB",
+      "team": "NYJ",
+      "publicAdp": 38.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Brenton Strange",
       "position": "TE",
+      "team": "JAC",
+      "publicAdp": 197.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Brian Thomas Jr.",
       "position": "WR",
+      "team": "JAC",
+      "publicAdp": 15.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Brock Bowers",
       "position": "TE",
+      "team": "LV",
+      "publicAdp": 20,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Brock Purdy",
       "position": "QB",
+      "team": "SF",
+      "publicAdp": 100,
       "isRookie": false
     },
     {
@@ -6632,42 +8188,56 @@
       "season": 2025,
       "player": "Bucky Irving",
       "position": "RB",
+      "team": "TB",
+      "publicAdp": 21.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "C.J. Stroud",
       "position": "QB",
+      "team": "HOU",
+      "publicAdp": 130.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Caleb Williams",
       "position": "QB",
+      "team": "CHI",
+      "publicAdp": 122.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Calvin Ridley",
       "position": "WR",
+      "team": "TEN",
+      "publicAdp": 63.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Cam Little",
       "position": "K",
+      "team": "JAC",
+      "publicAdp": 180.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Cam Skattebo",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 103.8,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Cameron Dicker",
       "position": "K",
+      "team": "LAC",
+      "publicAdp": 133.5,
       "isRookie": false
     },
     {
@@ -6680,6 +8250,8 @@
       "season": 2025,
       "player": "CeeDee Lamb",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 5,
       "isRookie": false
     },
     {
@@ -6692,12 +8264,16 @@
       "season": 2025,
       "player": "Chase Brown",
       "position": "RB",
+      "team": "CIN",
+      "publicAdp": 21.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Chase McLaughlin",
       "position": "K",
+      "team": "TB",
+      "publicAdp": 145.8,
       "isRookie": false
     },
     {
@@ -6710,168 +8286,224 @@
       "season": 2025,
       "player": "Chris Godwin",
       "position": "WR",
+      "team": "TB",
+      "publicAdp": 107,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Chris Olave",
       "position": "WR",
+      "team": "NO",
+      "publicAdp": 82.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Chris Rodriguez Jr.",
       "position": "RB",
+      "team": "JAC",
+      "publicAdp": 274,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Christian Kirk",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 151,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Christian McCaffrey",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 8.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Chuba Hubbard",
       "position": "RB",
+      "team": "CAR",
+      "publicAdp": 46.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Cole Kmet",
       "position": "TE",
+      "team": "CHI",
+      "publicAdp": 250.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Colston Loveland",
       "position": "TE",
+      "team": "CHI",
+      "publicAdp": 115.7,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Cooper Kupp",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 92.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Courtland Sutton",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 52.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "D'Andre Swift",
       "position": "RB",
+      "team": "CHI",
+      "publicAdp": 56.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Dak Prescott",
       "position": "QB",
+      "team": "DAL",
+      "publicAdp": 100.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Dallas Goedert",
       "position": "TE",
+      "team": "PHI",
+      "publicAdp": 142.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Dalton Kincaid",
       "position": "TE",
+      "team": "BUF",
+      "publicAdp": 129.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Darnell Mooney",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 139.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Darren Waller",
       "position": "TE",
+      "team": "CAR",
+      "publicAdp": 204.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Davante Adams",
       "position": "WR",
+      "team": "LAR",
+      "publicAdp": 40.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "David Montgomery",
       "position": "RB",
+      "team": "HOU",
+      "publicAdp": 60.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "David Njoku",
       "position": "TE",
+      "team": "LAC",
+      "publicAdp": 84.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "De'Von Achane",
       "position": "RB",
+      "team": "MIA",
+      "publicAdp": 15,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Deebo Samuel",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 84,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Derrick Henry",
       "position": "RB",
+      "team": "BAL",
+      "publicAdp": 10.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "DeVonta Smith",
       "position": "WR",
+      "team": "PHI",
+      "publicAdp": 57.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "DJ Giddens",
       "position": "RB",
+      "team": "IND",
+      "publicAdp": 243.5,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "DJ Moore",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 49.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "DK Metcalf",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 49.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Drake London",
       "position": "WR",
+      "team": "ATL",
+      "publicAdp": 19.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Drake Maye",
       "position": "QB",
+      "team": "NE",
+      "publicAdp": 128.8,
       "isRookie": false
     },
     {
@@ -6884,204 +8516,272 @@
       "season": 2025,
       "player": "Emeka Egbuka",
       "position": "WR",
+      "team": "TB",
+      "publicAdp": 86.2,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Evan Engram",
       "position": "TE",
+      "team": "DEN",
+      "publicAdp": 84.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Evan McPherson",
       "position": "K",
+      "team": "CIN",
+      "publicAdp": 204.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Garrett Wilson",
       "position": "WR",
+      "team": "NYJ",
+      "publicAdp": 40.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "George Kittle",
       "position": "TE",
+      "team": "SF",
+      "publicAdp": 38.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "George Pickens",
       "position": "WR",
+      "team": "DAL",
+      "publicAdp": 65.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Hunter Henry",
       "position": "TE",
+      "team": "NE",
+      "publicAdp": 164.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Isaac Guerendo",
       "position": "RB",
+      "team": "SF",
+      "publicAdp": 202.4,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Isiah Pacheco",
       "position": "RB",
+      "team": "DET",
+      "publicAdp": 60.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "J.J. McCarthy",
       "position": "QB",
+      "team": "MIN",
+      "publicAdp": 146,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "J.K. Dobbins",
       "position": "RB",
+      "team": "DEN",
+      "publicAdp": 104.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Ja'Marr Chase",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 1,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jacory Croskey-Merritt",
       "position": "RB",
+      "team": "WAS",
+      "publicAdp": 102.2,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Jahmyr Gibbs",
       "position": "RB",
+      "team": "DET",
+      "publicAdp": 4.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jake Bates",
       "position": "K",
+      "team": "DET",
+      "publicAdp": 130.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jake Elliott",
       "position": "K",
+      "team": "PHI",
+      "publicAdp": 167,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jake Ferguson",
       "position": "TE",
+      "team": "DAL",
+      "publicAdp": 137.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jakobi Meyers",
       "position": "WR",
+      "team": "JAC",
+      "publicAdp": 90.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jalen Hurts",
       "position": "QB",
+      "team": "PHI",
+      "publicAdp": 35.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "James Conner",
       "position": "RB",
+      "team": "ARI",
+      "publicAdp": 47.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "James Cook",
       "position": "RB",
+      "team": "BUF",
+      "publicAdp": 29.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jameson Williams",
       "position": "WR",
+      "team": "DET",
+      "publicAdp": 60.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jared Goff",
       "position": "QB",
+      "team": "DET",
+      "publicAdp": 105.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jason Sanders",
       "position": "K",
+      "team": "NYJ",
+      "publicAdp": 194,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jauan Jennings",
       "position": "WR",
+      "team": "MIN",
+      "publicAdp": 109.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Javonte Williams",
       "position": "RB",
+      "team": "DAL",
+      "publicAdp": 111.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jaxon Smith-Njigba",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 34.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jayden Daniels",
       "position": "QB",
+      "team": "WAS",
+      "publicAdp": 30.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jayden Reed",
       "position": "WR",
+      "team": "GB",
+      "publicAdp": 129,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jaydon Blue",
       "position": "RB",
+      "team": "DAL",
+      "publicAdp": 142.3,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Jaylen Waddle",
       "position": "WR",
+      "team": "DEN",
+      "publicAdp": 72.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jaylen Warren",
       "position": "RB",
+      "team": "PIT",
+      "publicAdp": 87.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jerome Ford",
       "position": "RB",
+      "team": "WAS",
+      "publicAdp": 157.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jerry Jeudy",
       "position": "WR",
+      "team": "CLE",
+      "publicAdp": 74.5,
       "isRookie": false
     },
     {
@@ -7094,252 +8794,334 @@
       "season": 2025,
       "player": "Joe Burrow",
       "position": "QB",
+      "team": "CIN",
+      "publicAdp": 33.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Joe Mixon",
       "position": "RB",
+      "publicAdp": 117.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jonathan Taylor",
       "position": "RB",
+      "team": "IND",
+      "publicAdp": 19.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jordan Addison",
       "position": "WR",
+      "team": "MIN",
+      "publicAdp": 95.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jordan Love",
       "position": "QB",
+      "team": "GB",
+      "publicAdp": 135.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Jordan Mason",
       "position": "RB",
+      "team": "MIN",
+      "publicAdp": 101.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Josh Allen",
       "position": "QB",
+      "team": "BUF",
+      "publicAdp": 20.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Josh Downs",
       "position": "WR",
+      "team": "IND",
+      "publicAdp": 127.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Josh Jacobs",
       "position": "RB",
+      "team": "GB",
+      "publicAdp": 16,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Justin Fields",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 116.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Justin Herbert",
       "position": "QB",
+      "team": "LAC",
+      "publicAdp": 113.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Justin Jefferson",
       "position": "WR",
+      "team": "MIN",
+      "publicAdp": 5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Ka'imi Fairbairn",
       "position": "K",
+      "team": "HOU",
+      "publicAdp": 171.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Kaleb Johnson",
       "position": "RB",
+      "team": "PIT",
+      "publicAdp": 81.2,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Keenan Allen",
       "position": "WR",
+      "team": "IND",
+      "publicAdp": 146.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Kenneth Walker III",
       "position": "RB",
+      "team": "KC",
+      "publicAdp": 41,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Keon Coleman",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 118,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Khalil Shakir",
       "position": "WR",
+      "team": "BUF",
+      "publicAdp": 105.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Kyle Williams",
       "position": "WR",
+      "team": "NE",
+      "publicAdp": 200.3,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Kyler Murray",
       "position": "QB",
+      "team": "MIN",
+      "publicAdp": 86.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Kyren Williams",
       "position": "RB",
+      "team": "LAR",
+      "publicAdp": 24.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Ladd McConkey",
       "position": "WR",
+      "team": "LAC",
+      "publicAdp": 25.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Lamar Jackson",
       "position": "QB",
+      "team": "BAL",
+      "publicAdp": 21.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Luther Burden III",
       "position": "WR",
+      "team": "CHI",
+      "publicAdp": 176.2,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Malik Nabers",
       "position": "WR",
+      "team": "NYG",
+      "publicAdp": 9.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Mark Andrews",
       "position": "TE",
+      "team": "BAL",
+      "publicAdp": 74.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Marvin Harrison Jr.",
       "position": "WR",
+      "team": "ARI",
+      "publicAdp": 41.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Matt Gay",
       "position": "K",
+      "team": "LV",
+      "publicAdp": 193.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Matthew Golden",
       "position": "WR",
+      "team": "GB",
+      "publicAdp": 92.2,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Matthew Stafford",
       "position": "QB",
+      "team": "LAR",
+      "publicAdp": 180.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Michael Pittman",
       "position": "WR",
+      "team": "PIT",
+      "publicAdp": 112.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Mike Evans",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 40,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Najee Harris",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 135,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Nick Chubb",
       "position": "RB",
+      "publicAdp": 128.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Nico Collins",
       "position": "WR",
+      "team": "HOU",
+      "publicAdp": 13.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Ollie Gordon II",
       "position": "RB",
+      "team": "MIA",
+      "publicAdp": 161.2,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Omarion Hampton",
       "position": "RB",
+      "team": "LAC",
+      "publicAdp": 35.8,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Patrick Mahomes",
       "position": "QB",
+      "team": "KC",
+      "publicAdp": 49.7,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Puka Nacua",
       "position": "WR",
+      "team": "LAR",
+      "publicAdp": 11.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Quinshon Judkins",
       "position": "RB",
+      "team": "CLE",
+      "publicAdp": 121.3,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Rachaad White",
       "position": "RB",
+      "team": "WAS",
+      "publicAdp": 145.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Raheem Mostert",
       "position": "RB",
+      "team": "LV",
+      "publicAdp": 228.4,
       "isRookie": false
     },
     {
@@ -7352,18 +9134,24 @@
       "season": 2025,
       "player": "Rashee Rice",
       "position": "WR",
+      "team": "KC",
+      "publicAdp": 71.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Rashid Shaheed",
       "position": "WR",
+      "team": "SEA",
+      "publicAdp": 145.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Rashod Bateman",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 172.2,
       "isRookie": false
     },
     {
@@ -7376,36 +9164,48 @@
       "season": 2025,
       "player": "Rhamondre Stevenson",
       "position": "RB",
+      "team": "NE",
+      "publicAdp": 114.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Ricky Pearsall",
       "position": "WR",
+      "team": "SF",
+      "publicAdp": 87.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "RJ Harvey",
       "position": "RB",
+      "team": "DEN",
+      "publicAdp": 60.8,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Rome Odunze",
       "position": "WR",
+      "team": "CHI",
+      "publicAdp": 81.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Sam LaPorta",
       "position": "TE",
+      "team": "DET",
+      "publicAdp": 53.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Saquon Barkley",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 3.7,
       "isRookie": false
     },
     {
@@ -7418,114 +9218,151 @@
       "season": 2025,
       "player": "Stefon Diggs",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 87.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "T.J. Hockenson",
       "position": "TE",
+      "team": "MIN",
+      "publicAdp": 63.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Tank Bigsby",
       "position": "RB",
+      "team": "PHI",
+      "publicAdp": 135.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Tee Higgins",
       "position": "WR",
+      "team": "CIN",
+      "publicAdp": 31.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Terry McLaurin",
       "position": "WR",
+      "team": "WAS",
+      "publicAdp": 39.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Tetairoa McMillan",
       "position": "WR",
+      "team": "CAR",
+      "publicAdp": 58.7,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Tony Pollard",
       "position": "RB",
+      "team": "TEN",
+      "publicAdp": 65.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Travis Etienne",
       "position": "RB",
+      "team": "NO",
+      "publicAdp": 98.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Travis Hunter",
       "position": "WR",
+      "team": "JAC",
+      "publicAdp": 69.8,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Travis Kelce",
       "position": "TE",
+      "team": "KC",
+      "publicAdp": 62.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "TreVeyon Henderson",
       "position": "RB",
+      "team": "NE",
+      "publicAdp": 44.7,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Trevor Lawrence",
       "position": "QB",
+      "team": "JAC",
+      "publicAdp": 160.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Trey McBride",
       "position": "TE",
+      "team": "ARI",
+      "publicAdp": 28,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Tua Tagovailoa",
       "position": "QB",
+      "team": "ATL",
+      "publicAdp": 175.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Tucker Kraft",
       "position": "TE",
+      "team": "GB",
+      "publicAdp": 110.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Tyler Bass",
       "position": "K",
+      "team": "BUF",
+      "publicAdp": 167.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Tyler Warren",
       "position": "TE",
+      "team": "IND",
+      "publicAdp": 88.7,
       "isRookie": true
     },
     {
       "season": 2025,
       "player": "Tyreek Hill",
       "position": "WR",
+      "publicAdp": 32.5,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Tyrone Tracy Jr.",
       "position": "RB",
+      "team": "NYG",
+      "publicAdp": 80.7,
       "isRookie": false
     },
     {
@@ -7538,36 +9375,47 @@
       "season": 2025,
       "player": "Wan'Dale Robinson",
       "position": "WR",
+      "team": "TEN",
+      "publicAdp": 189.3,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Wil Lutz",
       "position": "K",
+      "team": "DEN",
+      "publicAdp": 192,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Xavier Worthy",
       "position": "WR",
+      "team": "KC",
+      "publicAdp": 54.8,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Zach Charbonnet",
       "position": "RB",
+      "team": "SEA",
+      "publicAdp": 110,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Zach Ertz",
       "position": "TE",
+      "publicAdp": 154.2,
       "isRookie": false
     },
     {
       "season": 2025,
       "player": "Zay Flowers",
       "position": "WR",
+      "team": "BAL",
+      "publicAdp": 61.8,
       "isRookie": false
     }
   ]
