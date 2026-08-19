@@ -10,6 +10,22 @@ import { getHondaExplanation } from '../utils/hondaExplanation'
 import type { DraftStoryEvent } from '../utils/draftStory'
 import { getHondaConfidence } from '../utils/hondaConfidence'
 import { getHondaForecast } from '../utils/hondaForecast'
+import {
+    getDraftRound,
+    getPickInRound,
+    getSnakeManagerAtPick,
+    getUpcomingSnakePicks,
+} from '../utils/snakeDraftOrder'
+import {
+    getManagerHistoricalProfile,
+} from '../utils/managerHistoricalProfile'
+
+import {
+    buildManagerHistoricalTendencies,
+} from '../utils/managerHistoricalTendencies'
+import {
+    getManagerRoundTendency,
+} from '../utils/managerRoundTendencies'
 
 type WarRoomProps = {
     currentPickIndex: number
@@ -150,18 +166,28 @@ export default function WarRoom({
                     entry.player,
             )
     const currentManager =
-        draftManagers[currentPickIndex % draftManagers.length]
+        getSnakeManagerAtPick(
+            draftManagers,
+            currentPickIndex,
+        ) ?? draftManagers[0]
 
-    const rosterFit = decision?.rosterFit ?? 0
+    const rosterFit =
+        decision?.rosterFit ?? 0
 
     const liveRosterNeed =
         decision?.liveRosterNeed ?? 0
 
     const roundNumber =
-        Math.floor(currentPickIndex / draftManagers.length) + 1
+        getDraftRound(
+            currentPickIndex,
+            draftManagers.length,
+        )
 
     const pickInRound =
-        (currentPickIndex % draftManagers.length) + 1
+        getPickInRound(
+            currentPickIndex,
+            draftManagers.length,
+        )
 
     const [selectedPlayerName, setSelectedPlayerName] = useState<string | null>(
         null,
@@ -175,6 +201,21 @@ export default function WarRoom({
     const selectedManager = draftManagers.find(
         (manager) => manager.name === selectedManagerName,
     )
+
+    const selectedManagerHistoricalProfile =
+        selectedManager
+            ? getManagerHistoricalProfile(
+                selectedManager.name,
+            )
+            : null
+
+    const selectedManagerHistoricalTendencies =
+        selectedManager
+            ? buildManagerHistoricalTendencies(
+                selectedManager.name,
+            )
+            : null
+
     const managerNeeds = selectedManager
         ? getManagerNeeds(
             managerRosters[selectedManager.name] ?? [],
@@ -182,19 +223,64 @@ export default function WarRoom({
         : []
 
 
-    const managerPrediction = selectedManager
-        ? getManagerPrediction(
-            selectedManager,
-            managerRosters[selectedManager.name] ?? [],
-            draftedPlayerNames,
-        )
-        : null
+    const selectedManagerUpcomingPick =
+        selectedManager
+            ? getUpcomingSnakePicks(
+                draftManagers,
+                currentPickIndex,
+                draftManagers.length * 2,
+            ).find(
+                (upcoming) =>
+                    upcoming.manager.name ===
+                    selectedManager.name,
+            )
+            : undefined
+
+    const selectedManagerRoundTendency =
+        selectedManager &&
+            selectedManagerUpcomingPick
+            ? getManagerRoundTendency(
+                selectedManager.name,
+                selectedManagerUpcomingPick.round,
+            )
+            : undefined
+
+    const managerPrediction =
+        selectedManager
+            ? getManagerPrediction(
+                selectedManager,
+                managerRosters[
+                selectedManager.name
+                ] ?? [],
+                draftedPlayerNames,
+                {
+                    round:
+                        selectedManagerUpcomingPick
+                            ?.round ??
+                        roundNumber,
+
+                    pickInRound:
+                        selectedManagerUpcomingPick
+                            ?.pickInRound ??
+                        pickInRound,
+
+                    overallPick:
+                        selectedManagerUpcomingPick
+                            ?.overallPick ??
+                        currentPickIndex +
+                        1,
+                },
+            )
+            : null
 
     const liveDraftIntel = getLiveDraftIntel(
         currentPickIndex,
         managerRosters,
         draftedPlayerNames,
     )
+
+
+
     const hondaExplanation = getHondaExplanation({
         action: recommendation?.action ?? 'WAIT',
         survivalChance,
@@ -454,8 +540,6 @@ export default function WarRoom({
                 </div>
 
             </section>
-
-            {/* NEW PANEL GOES HERE */}
 
             <section className="panel live-intel-panel">
                 <div className="live-intel-header">
@@ -792,6 +876,16 @@ export default function WarRoom({
                                             {alert.player}
                                         </strong>
 
+                                        <small>
+                                            Pick {alert.round}.
+                                            {String(
+                                                alert.pickInRound,
+                                            ).padStart(
+                                                2,
+                                                '0',
+                                            )}
+                                        </small>
+
                                     </div>
 
 
@@ -803,6 +897,11 @@ export default function WarRoom({
 
                                         <small>
                                             confidence
+                                        </small>
+
+                                        <small>
+                                            {alert.reasons[0] ??
+                                                'Historical fit'}
                                         </small>
 
                                     </div>
@@ -1202,8 +1301,6 @@ export default function WarRoom({
                                 </p>
 
                             </div>
-
-
                             {selectedPlayer.greenFlags.length > 0 && (
                                 <div className="player-detail-section">
 
@@ -1934,6 +2031,18 @@ export default function WarRoom({
                             </div>
 
                             <div>
+                                <span>Next Pick</span>
+
+                                <strong>
+                                    {selectedManagerUpcomingPick
+                                        ? `${selectedManagerUpcomingPick.round}.${String(
+                                            selectedManagerUpcomingPick.pickInRound,
+                                        ).padStart(2, '0')}`
+                                        : '—'}
+                                </strong>
+                            </div>
+
+                            <div>
                                 <span>Players</span>
 
                                 <strong>
@@ -1974,11 +2083,137 @@ export default function WarRoom({
                             </div>
 
                         </div>
-
                         <div className="player-detail-section">
                             <span>Preferred Positions</span>
                             <p>{selectedManager.preferredPositions.join(' → ')}</p>
                         </div>
+
+                        {selectedManagerHistoricalProfile &&
+                            selectedManagerHistoricalTendencies && (
+                                <div className="player-detail-section">
+                                    <span>Historical Draft Profile</span>
+
+                                    <div className="manager-profile-summary">
+                                        <div>
+                                            <span>History</span>
+                                            <strong>
+                                                {selectedManagerHistoricalProfile.totalPicks}
+                                            </strong>
+                                            <small>prior picks</small>
+                                        </div>
+
+                                        <div>
+                                            <span>Seasons</span>
+                                            <strong>
+                                                {selectedManagerHistoricalProfile.seasons.length}
+                                            </strong>
+                                        </div>
+
+                                        <div>
+                                            <span>Favorite</span>
+                                            <strong>
+                                                {selectedManagerHistoricalTendencies.favoritePosition ?? '—'}
+                                            </strong>
+                                        </div>
+
+                                        <div>
+                                            <span>Rookie Rate</span>
+                                            <strong>
+                                                {(selectedManagerHistoricalTendencies.rookieRate * 100).toFixed(0)}%
+                                            </strong>
+                                        </div>
+
+                                        <div>
+                                            <span>Reach Rate</span>
+                                            <strong>
+                                                {(selectedManagerHistoricalTendencies.reachesRate * 100).toFixed(0)}%
+                                            </strong>
+                                        </div>
+
+                                        <div>
+                                            <span>Value Rate</span>
+                                            <strong>
+                                                {(selectedManagerHistoricalTendencies.valuesRate * 100).toFixed(0)}%
+                                            </strong>
+                                        </div>
+                                    </div>
+
+                                    {typeof selectedManagerHistoricalProfile.averageAdpDelta ===
+                                        'number' && (
+                                            <p>
+                                                Average historical ADP delta:{' '}
+                                                <strong>
+                                                    {selectedManagerHistoricalProfile.averageAdpDelta >= 0
+                                                        ? '+'
+                                                        : ''}
+                                                    {selectedManagerHistoricalProfile.averageAdpDelta.toFixed(1)}
+                                                </strong>
+                                            </p>
+                                        )}
+                                </div>
+                            )}
+
+                        {selectedManagerRoundTendency && (
+                            <div className="player-detail-section">
+                                <span>
+                                    Round {selectedManagerRoundTendency.round} History
+                                </span>
+
+                                <div className="manager-profile-summary">
+                                    <div>
+                                        <span>Picks</span>
+                                        <strong>
+                                            {selectedManagerRoundTendency.totalPicks}
+                                        </strong>
+                                    </div>
+
+                                    <div>
+                                        <span>Favorite</span>
+                                        <strong>
+                                            {selectedManagerRoundTendency.favoritePosition ?? '—'}
+                                        </strong>
+                                    </div>
+
+                                    <div>
+                                        <span>Rookie Rate</span>
+                                        <strong>
+                                            {(selectedManagerRoundTendency.rookieRate * 100).toFixed(0)}%
+                                        </strong>
+                                    </div>
+
+                                    <div>
+                                        <span>ADP Delta</span>
+                                        <strong>
+                                            {typeof selectedManagerRoundTendency.averageAdpDelta ===
+                                                'number'
+                                                ? `${selectedManagerRoundTendency.averageAdpDelta >= 0
+                                                    ? '+'
+                                                    : ''
+                                                }${selectedManagerRoundTendency.averageAdpDelta.toFixed(1)}`
+                                                : '—'}
+                                        </strong>
+                                    </div>
+                                </div>
+
+                                {selectedManagerRoundTendency.positions.length > 0 && (
+                                    <div className="manager-needs-list">
+                                        {selectedManagerRoundTendency.positions
+                                            .slice(0, 4)
+                                            .map((item) => (
+                                                <div
+                                                    className="manager-need-row"
+                                                    key={item.position}
+                                                >
+                                                    <strong>{item.position}</strong>
+                                                    <span>
+                                                        {(item.rate * 100).toFixed(0)}%
+                                                    </span>
+                                                </div>
+                                            ))}
+                                    </div>
+                                )}
+                            </div>
+                        )}
                         <div className="player-detail-section">
                             <span>Current Roster</span>
 

@@ -1,10 +1,25 @@
 import type { Player } from '../data/players/types'
+import type { DraftManager } from '../types/draft'
+import { getManagerPrediction } from './managerPrediction'
 
 export type PlayerSurvivalResult = {
     player: Player
     available: number
     survived: number
     survivalRate: number
+}
+
+export type SimulatedManagerPick = {
+    manager: DraftManager
+    round: number
+    pickInRound: number
+    overallPick: number
+}
+
+type ManagerAwareSimulationContext = {
+    upcomingPicks: SimulatedManagerPick[]
+    managerRosters: Record<string, string[]>
+    draftedPlayerNames: string[]
 }
 
 function ratingOutOfFive(
@@ -14,13 +29,15 @@ function ratingOutOfFive(
         return 0
     }
 
-    const match = value.match(/\d+/)
+    const match =
+        value.match(/\d+/)
 
     if (!match) {
         return 0
     }
 
-    const rating = Number(match[0])
+    const rating =
+        Number(match[0])
 
     return Number.isFinite(rating)
         ? rating
@@ -102,7 +119,10 @@ function createSeededRandom(
                 1013904223
             ) >>> 0
 
-        return state / 4294967296
+        return (
+            state /
+            4294967296
+        )
     }
 }
 
@@ -113,17 +133,19 @@ export function simulateOpponentPicks(
 ) {
     if (numberOfPicks <= 0) {
         return {
-            draftedPlayers: [] as Player[],
-            remainingPlayers: [
-                ...players,
-            ],
+            draftedPlayers:
+                [] as Player[],
+
+            remainingPlayers:
+                [...players],
         }
     }
 
     let remainingPlayers =
         [...players]
 
-    const draftedPlayers: Player[] = []
+    const draftedPlayers:
+        Player[] = []
 
     const random =
         createSeededRandom(
@@ -138,7 +160,8 @@ export function simulateOpponentPicks(
         pickIndex++
     ) {
         if (
-            remainingPlayers.length === 0
+            remainingPlayers.length ===
+            0
         ) {
             break
         }
@@ -147,8 +170,12 @@ export function simulateOpponentPicks(
             [...remainingPlayers]
                 .sort(
                     (a, b) =>
-                        getOpponentDraftScore(b) -
-                        getOpponentDraftScore(a),
+                        getOpponentDraftScore(
+                            b,
+                        ) -
+                        getOpponentDraftScore(
+                            a,
+                        ),
                 )
 
         const draftWindow =
@@ -161,7 +188,8 @@ export function simulateOpponentPicks(
             )
 
         if (
-            draftWindow.length === 0
+            draftWindow.length ===
+            0
         ) {
             break
         }
@@ -180,7 +208,9 @@ export function simulateOpponentPicks(
             )
 
         const selectedPlayer =
-            draftWindow[selectedIndex]
+            draftWindow[
+            selectedIndex
+            ]
 
         if (!selectedPlayer) {
             break
@@ -204,10 +234,222 @@ export function simulateOpponentPicks(
     }
 }
 
+function simulateManagerAwarePicks(
+    players: Player[],
+    context:
+        ManagerAwareSimulationContext,
+    seed: number,
+) {
+    let remainingPlayers =
+        [...players]
+
+    const draftedPlayers:
+        Player[] = []
+
+    const simulatedRosters:
+        Record<string, string[]> =
+        Object.fromEntries(
+            Object.entries(
+                context.managerRosters,
+            ).map(
+                ([
+                    manager,
+                    roster,
+                ]) => [
+                        manager,
+                        [...roster],
+                    ],
+            ),
+        )
+
+    const simulatedDraftedNames =
+        new Set(
+            context.draftedPlayerNames,
+        )
+
+    const random =
+        createSeededRandom(
+            seed +
+            players.length * 31 +
+            context.upcomingPicks.length *
+            17,
+        )
+
+    for (
+        const upcoming of
+        context.upcomingPicks
+    ) {
+        if (
+            remainingPlayers.length ===
+            0
+        ) {
+            break
+        }
+
+        const prediction =
+            getManagerPrediction(
+                upcoming.manager,
+                simulatedRosters[
+                upcoming.manager.name
+                ] ?? [],
+                [
+                    ...simulatedDraftedNames,
+                ],
+                {
+                    round:
+                        upcoming.round,
+
+                    pickInRound:
+                        upcoming.pickInRound,
+
+                    overallPick:
+                        upcoming.overallPick,
+                },
+            )
+
+        const predictedNames =
+            new Set(
+                prediction?.players.map(
+                    (player) =>
+                        player.name,
+                ) ?? [],
+            )
+
+        const managerBoard =
+            [...remainingPlayers]
+                .map((player) => {
+                    const predictionIndex =
+                        prediction?.players.findIndex(
+                            (
+                                predictedPlayer,
+                            ) =>
+                                predictedPlayer.name ===
+                                player.name,
+                        ) ?? -1
+
+                    const predictionBonus =
+                        predictionIndex === 0
+                            ? 80
+                            : predictionIndex === 1
+                                ? 50
+                                : predictionIndex === 2
+                                    ? 30
+                                    : 0
+
+                    return {
+                        player,
+
+                        score:
+                            getOpponentDraftScore(
+                                player,
+                            ) +
+                            predictionBonus,
+                    }
+                })
+                .sort(
+                    (a, b) =>
+                        b.score -
+                        a.score,
+                )
+
+        const preferredWindow =
+            managerBoard.filter(
+                ({ player }) =>
+                    predictedNames.has(
+                        player.name,
+                    ),
+            )
+
+        const draftWindow =
+            (
+                preferredWindow.length >
+                    0
+                    ? [
+                        ...preferredWindow,
+                        ...managerBoard.filter(
+                            ({ player }) =>
+                                !predictedNames.has(
+                                    player.name,
+                                ),
+                        ),
+                    ]
+                    : managerBoard
+            ).slice(
+                0,
+                Math.min(
+                    6,
+                    managerBoard.length,
+                ),
+            )
+
+        if (
+            draftWindow.length ===
+            0
+        ) {
+            break
+        }
+
+        const roll =
+            random()
+
+        const selectedIndex =
+            Math.min(
+                draftWindow.length - 1,
+                Math.floor(
+                    roll *
+                    roll *
+                    draftWindow.length,
+                ),
+            )
+
+        const selectedPlayer =
+            draftWindow[
+                selectedIndex
+            ]?.player
+
+        if (!selectedPlayer) {
+            break
+        }
+
+        draftedPlayers.push(
+            selectedPlayer,
+        )
+
+        simulatedDraftedNames.add(
+            selectedPlayer.name,
+        )
+
+        simulatedRosters[
+            upcoming.manager.name
+        ] = [
+                ...(
+                    simulatedRosters[
+                    upcoming.manager.name
+                    ] ?? []
+                ),
+                selectedPlayer.name,
+            ]
+
+        remainingPlayers =
+            remainingPlayers.filter(
+                (player) =>
+                    player.name !==
+                    selectedPlayer.name,
+            )
+    }
+
+    return {
+        draftedPlayers,
+        remainingPlayers,
+    }
+}
+
 export function simulateNextPickAvailability(
     availablePlayers: Player[],
     picksUntilNext: number,
     simulationCount = 100,
+    context?:
+        ManagerAwareSimulationContext,
 ): PlayerSurvivalResult[] {
     const results =
         new Map<
@@ -235,7 +477,8 @@ export function simulateNextPickAvailability(
 
     for (
         let simulation = 1;
-        simulation <= simulationCount;
+        simulation <=
+        simulationCount;
         simulation++
     ) {
         for (
@@ -253,18 +496,26 @@ export function simulateNextPickAvailability(
         }
 
         const simulationResult =
-            simulateOpponentPicks(
-                availablePlayers,
-                picksUntilNext,
-                simulation,
-            )
+            context
+                ? simulateManagerAwarePicks(
+                    availablePlayers,
+                    context,
+                    simulation,
+                )
+                : simulateOpponentPicks(
+                    availablePlayers,
+                    picksUntilNext,
+                    simulation,
+                )
 
         const survivingNames =
             new Set(
-                simulationResult.remainingPlayers.map(
-                    (player) =>
-                        player.name,
-                ),
+                simulationResult
+                    .remainingPlayers
+                    .map(
+                        (player) =>
+                            player.name,
+                    ),
             )
 
         for (
@@ -282,20 +533,23 @@ export function simulateNextPickAvailability(
         }
     }
 
-    return [...results.values()]
-        .map(
-            ({
-                player,
-                available,
-                survived,
-            }) => ({
-                player,
-                available,
-                survived,
-                survivalRate:
-                    available > 0
-                        ? survived / available
-                        : 0,
-            }),
-        )
+    return [
+        ...results.values(),
+    ].map(
+        ({
+            player,
+            available,
+            survived,
+        }) => ({
+            player,
+            available,
+            survived,
+
+            survivalRate:
+                available > 0
+                    ? survived /
+                    available
+                    : 0,
+        }),
+    )
 }

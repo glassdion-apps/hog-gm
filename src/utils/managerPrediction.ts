@@ -1,73 +1,270 @@
 import { players } from '../data/players'
 import { getManagerNeeds } from './managerNeeds'
 import { getManagerDraftScore } from './managerDraftScore'
+import { rankPlayersForManager } from './managerPlayerPrediction'
 import type { DraftManager } from '../types/draft'
+
+type ManagerPredictionContext = {
+    round?: number
+    pickInRound?: number
+    overallPick?: number
+}
 
 export function getManagerPrediction(
     manager: DraftManager,
     roster: string[],
     draftedPlayerNames: string[],
+    context: ManagerPredictionContext = {},
 ) {
+    const needs =
+        getManagerNeeds(roster)
 
-    const needs = getManagerNeeds(roster)
-
-    const highNeeds = needs.filter(
-        (need) => need.need === 'High',
-    )
-
-    const highNeed = highNeeds.sort((a, b) => {
-        const aPreference =
-            manager.preferredPositions.indexOf(a.position)
-
-        const bPreference =
-            manager.preferredPositions.indexOf(b.position)
-
-        return aPreference - bPreference
-    })[0]
-
-    if (!highNeed) {
-        return null
-    }
-
-    const candidates = players
-        .filter(
+    const availablePlayers =
+        players.filter(
             (player) =>
-                player.position === highNeed.position &&
-                !draftedPlayerNames.includes(player.name),
+                !draftedPlayerNames.includes(
+                    player.name,
+                ),
         )
-        .map((player) => ({
-            player,
-            score: getManagerDraftScore(player, manager),
-        }))
-        .sort((a, b) => b.score - a.score)
-    const topScore = candidates[0]?.score ?? 0
-    const secondScore = candidates[1]?.score ?? 0
 
-    const scoreGap = topScore - secondScore
-
-    const confidence = Math.min(
-        98,
-        Math.max(55, Math.round(70 + scoreGap * 2)),
-    )
-    if (candidates.length === 0) {
+    if (
+        availablePlayers.length ===
+        0
+    ) {
         return null
     }
-    const topPlayer = candidates[0]?.player
 
-    const reasons = [
-        `${highNeed.position} is a high roster need`,
-        `${manager.tendency} draft tendency`,
-    ]
+    const round =
+        context.round ?? 1
 
-    if (topPlayer) {
+    const pickInRound =
+        context.pickInRound ??
+        manager.id
+
+    const overallPick =
+        context.overallPick ??
+        pickInRound
+
+    const historicalRankings =
+        rankPlayersForManager(
+            manager.name,
+            round,
+            pickInRound,
+            overallPick,
+            availablePlayers.map(
+                (player) => ({
+                    player:
+                        player.name,
+
+                    position:
+                        player.position,
+
+                    publicAdp:
+                        player.publicAdpOverall,
+                }),
+            ),
+        )
+
+    const historicalByPlayer =
+        new Map(
+            historicalRankings.map(
+                (prediction) => [
+                    prediction.player,
+                    prediction,
+                ],
+            ),
+        )
+
+    const needByPosition =
+        new Map(
+            needs.map(
+                (need) => [
+                    need.position,
+                    need.need,
+                ],
+            ),
+        )
+
+    const candidates =
+        availablePlayers
+            .map((player) => {
+                const historical =
+                    historicalByPlayer.get(
+                        player.name,
+                    )
+
+                const draftScore =
+                    getManagerDraftScore(
+                        player,
+                        manager,
+                    )
+
+                const need =
+                    needByPosition.get(
+                        player.position,
+                    )
+
+                const needBonus =
+                    need === 'High'
+                        ? 15
+                        : need === 'Medium'
+                            ? 8
+                            : need === 'Low'
+                                ? 2
+                                : 0
+
+                const preferenceIndex =
+                    manager.preferredPositions.indexOf(
+                        player.position,
+                    )
+
+                const preferenceBonus =
+                    preferenceIndex === 0
+                        ? 8
+                        : preferenceIndex === 1
+                            ? 5
+                            : preferenceIndex >= 0
+                                ? 2
+                                : 0
+
+                const historicalScore =
+                    historical?.score ??
+                    0
+
+                const combinedScore =
+                    historicalScore *
+                    0.5 +
+                    draftScore *
+                    0.3 +
+                    needBonus +
+                    preferenceBonus
+
+                return {
+                    player,
+                    historical,
+                    historicalScore,
+                    combinedScore,
+                    need,
+                }
+            })
+            .sort(
+                (a, b) =>
+                    b.combinedScore -
+                    a.combinedScore,
+            )
+
+    const topCandidate =
+        candidates[0]
+
+    if (
+        !topCandidate
+    ) {
+        return null
+    }
+
+    const topPosition =
+        topCandidate.player.position
+
+    const positionCandidates =
+        candidates.filter(
+            (candidate) =>
+                candidate.player.position ===
+                topPosition,
+        )
+
+    const topScore =
+        topCandidate.combinedScore
+
+    const secondScore =
+        candidates[1]
+            ?.combinedScore ??
+        topScore
+
+    const scoreGap =
+        Math.max(
+            0,
+            topScore -
+            secondScore,
+        )
+
+    const historicalConfidence =
+        topCandidate.historicalScore
+
+    const confidence =
+        Math.min(
+            98,
+            Math.max(
+                50,
+                Math.round(
+                    historicalConfidence *
+                    0.65 +
+                    25 +
+                    scoreGap,
+                ),
+            ),
+        )
+
+    const reasons: string[] = []
+
+    if (
+        topCandidate.need ===
+        'High'
+    ) {
         reasons.push(
-            `${topPlayer.name} is the highest-rated available ${highNeed.position}`,
+            `${topPosition} is a high roster need`,
+        )
+    } else if (
+        topCandidate.need ===
+        'Medium'
+    ) {
+        reasons.push(
+            `${topPosition} is a current roster need`,
         )
     }
+
+    if (
+        manager.preferredPositions.includes(
+            topPosition,
+        )
+    ) {
+        reasons.push(
+            `${topPosition} matches ${manager.name}'s preferred-position profile`,
+        )
+    }
+
+    if (
+        topCandidate.historical
+    ) {
+        reasons.push(
+            ...topCandidate.historical.explanation.reasons,
+        )
+    }
+
+    if (
+        reasons.length ===
+        0
+    ) {
+        reasons.push(
+            `${topCandidate.player.name} is the strongest available fit for ${manager.name}`,
+        )
+    }
+
     return {
-        position: highNeed.position,
+        position:
+            topPosition,
+
         confidence,
-        players: candidates.slice(0, 3).map((candidate) => candidate.player),
-        reasons,
+
+        players:
+            positionCandidates
+                .slice(0, 3)
+                .map(
+                    (candidate) =>
+                        candidate.player,
+                ),
+
+        reasons:
+            [...new Set(reasons)]
+                .slice(0, 5),
     }
 }

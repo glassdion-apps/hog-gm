@@ -10,6 +10,12 @@ import {
 import { getBestAvailableValue } from './valueEngine'
 import { getRosterFitScore } from './rosterFit'
 import { getLiveRosterNeedScore } from './liveRosterNeed'
+import {
+    getUpcomingSnakePicks,
+} from './snakeDraftOrder'
+import {
+    getManagerPrediction,
+} from './managerPrediction'
 
 type ForecastInput = {
     currentPickIndex: number
@@ -21,10 +27,12 @@ type ForecastInput = {
 
 export function getHondaForecast({
     currentPickIndex,
+    managerRosters,
     draftedPlayerNames,
     currentDecisionScore,
     liveRosterCounts,
 }: ForecastInput) {
+
     const currentRankings =
         getHondaRankings(
             draftedPlayerNames,
@@ -39,33 +47,54 @@ export function getHondaForecast({
             (entry) => entry.player,
         )
 
-    let picksUntilNextHondaPick = 0
+    const upcomingPicks =
+        getUpcomingSnakePicks(
+            draftManagers,
+            currentPickIndex,
+            draftManagers.length * 2,
+        )
 
-    for (
-        let offset = 1;
-        offset <= draftManagers.length;
-        offset++
-    ) {
-        const futureManager =
-            draftManagers[
-            (currentPickIndex + offset) %
-            draftManagers.length
-            ]
+    const nextHondaPick =
+        upcomingPicks.find(
+            (upcoming) =>
+                upcoming.manager.name ===
+                'You',
+        )
 
-        if (
-            futureManager?.name === 'You'
-        ) {
-            picksUntilNextHondaPick =
-                offset - 1
-            break
-        }
-    }
+    const picksUntilNextHondaPick =
+        nextHondaPick
+            ? Math.max(
+                0,
+                nextHondaPick.pickIndex -
+                currentPickIndex -
+                1,
+            )
+            : 0
+
+    const opponentPicksBeforeHonda =
+        nextHondaPick
+            ? upcomingPicks.filter(
+                (upcoming) =>
+                    upcoming.pickIndex <
+                    nextHondaPick.pickIndex &&
+                    upcoming.manager.name !==
+                    'You',
+            )
+            : []
 
     const survivalResults =
         simulateNextPickAvailability(
             availablePlayers,
             picksUntilNextHondaPick,
             100,
+            {
+                upcomingPicks:
+                    opponentPicksBeforeHonda,
+
+                managerRosters,
+
+                draftedPlayerNames,
+            },
         )
 
     const survivalByPlayer =
@@ -257,11 +286,86 @@ export function getHondaForecast({
             `${currentRecommendation?.name ?? 'This player'} survives ${survivalPercent}% of simulations. Waiting is possible, but risky.`
     }
 
+    const predictedThreatByPlayer =
+        new Map<
+            string,
+            {
+                manager: string
+                confidence: number
+            }
+        >()
+
+    for (
+        const upcoming of
+        opponentPicksBeforeHonda
+    ) {
+        const prediction =
+            getManagerPrediction(
+                upcoming.manager,
+                managerRosters[
+                upcoming.manager.name
+                ] ?? [],
+                draftedPlayerNames,
+                {
+                    round:
+                        upcoming.round,
+
+                    pickInRound:
+                        upcoming.pickInRound,
+
+                    overallPick:
+                        upcoming.overallPick,
+                },
+            )
+
+        if (!prediction) {
+            continue
+        }
+
+        prediction.players.forEach(
+            (player, index) => {
+                const rankFactor =
+                    index === 0
+                        ? 1
+                        : index === 1
+                            ? 0.85
+                            : 0.7
+
+                const threatConfidence =
+                    prediction.confidence *
+                    rankFactor
+
+                const existing =
+                    predictedThreatByPlayer.get(
+                        player.name,
+                    )
+
+                if (
+                    !existing ||
+                    threatConfidence >
+                    existing.confidence
+                ) {
+                    predictedThreatByPlayer.set(
+                        player.name,
+                        {
+                            manager:
+                                upcoming.manager.name,
+
+                            confidence:
+                                threatConfidence,
+                        },
+                    )
+                }
+            },
+        )
+    }
+
     const forecastPicks =
         survivalResults
             .filter(
                 (result) =>
-                    result.survivalRate < 0.5,
+                    result.survivalRate <
+                    0.5,
             )
             .sort(
                 (a, b) =>
@@ -274,44 +378,75 @@ export function getHondaForecast({
                         b.player.rank
                     ),
             )
-            .slice(0, 3)
+            .slice(
+                0,
+                3,
+            )
             .map(
-                (result, index) => ({
-                    manager:
-                        `Most At Risk ${index + 1}`,
-                    position:
-                        result.player.position,
-                    confidence:
-                        Number(
-                            (
+                (result) => {
+                    const threat =
+                        predictedThreatByPlayer.get(
+                            result.player.name,
+                        )
+
+                    return {
+                        manager:
+                            threat?.manager ??
+                            'Multiple Managers',
+
+                        position:
+                            result.player.position,
+
+                        confidence:
+                            Number(
                                 (
-                                    1 -
-                                    result.survivalRate
-                                ) *
-                                100
-                            ).toFixed(1),
-                        ),
-                    player:
-                        result.player.name,
-                }),
+                                    (
+                                        1 -
+                                        result.survivalRate
+                                    ) *
+                                    100
+                                ).toFixed(
+                                    1,
+                                ),
+                            ),
+
+                        player:
+                            result.player.name,
+                    }
+                },
             )
 
     return {
-        picks: forecastPicks,
+        picks:
+            forecastPicks,
+
         futureRecommendation:
             expectedRecommendation,
+
         projectedScore,
+
         costOfWaiting,
+
         advice,
+
         adviceReason,
+
         survivalPercent,
+
         futureSurvivalPercent,
+
         waitUrgencyScore,
+
         picksUntilNextHondaPick,
+
         currentSeasonProjection,
+
         futureSeasonProjection,
+
         projectedPointsLost,
+
         currentPointsPerGame,
+
         futurePointsPerGame,
     }
 }
