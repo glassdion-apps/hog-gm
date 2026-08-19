@@ -2917,3 +2917,273 @@ nav button.active {
         grid-template-columns: 1fr;
     }
 }
+.player-profile-command {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.player-profile-command > div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+    border: 1px solid #dbe3ef;
+    border-radius: 7px;
+    background: #f8fafc;
+}
+
+.player-profile-command span,
+.player-detail-stats span {
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.player-profile-command strong {
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.player-detail-stats {
+    display: grid;
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.player-detail-stats > div {
+    display: flex;
+    flex-direction: column;
+    padding: 11px 12px;
+    border: 1px solid #dbe3ef;
+    border-radius: 7px;
+    background: #fff;
+}
+
+.player-detail-stats strong {
+    margin-top: 4px;
+    font-size: 17px;
+}
+
+.player-detail-stats small {
+    margin-top: 2px;
+    font-size: 9px;
+    opacity: 0.58;
+}
+
+.player-flag-list {
+    display: grid;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.player-flag {
+    padding: 7px 9px;
+    border-radius: 6px;
+    font-size: 10px;
+    line-height: 1.35;
+}
+
+.positive-flag {
+    background: #eef9f1;
+    color: #248443;
+}
+
+.negative-flag {
+    background: #fff1f0;
+    color: #c73d38;
+}
+
+.player-detail-draft {
+    width: 100%;
+    margin-top: 14px;
+}
+.alternative-row {
+    display: grid;
+    grid-template-columns:
+        minmax(170px, 1fr)
+        62px
+        62px
+        68px
+        62px;
+    gap: 10px;
+    align-items: center;
+}
+
+.alternative-player-main {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.alternative-player-main strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.alternative-player-main span {
+    margin-top: 2px;
+    font-size: 10px;
+    opacity: 0.62;
+}
+
+.alternative-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.alternative-stat span {
+    font-size: 8px;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.55;
+}
+
+.alternative-stat strong {
+    margin-top: 2px;
+    font-size: 11px;
+}
+
+.alternative-gap strong {
+    color: #d83b36;
+}
+
+@media (max-width: 900px) {
+    .alternative-row {
+        grid-template-columns:
+            minmax(160px, 1fr)
+            62px
+            62px;
+    }
+
+    .alternative-stat:nth-of-type(2),
+    .alternative-stat:nth-of-type(3) {
+        display: none;
+    }
+}
+.manager-profile-summary {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.manager-profile-summary > div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+    border: 1px solid #dbe3ef;
+    border-radius: 7px;
+    background: #f8fafc;
+}
+
+.manager-profile-summary span {
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.58;
+}
+
+.manager-profile-summary strong {
+    margin-top: 4px;
+    font-size: 16px;
+}
+.manager-watch {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #e5eaf1;
+}
+
+.manager-watch-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.manager-watch-header > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.manager-watch-header > div > strong {
+    font-size: 13px;
+}
+
+.manager-watch-header small {
+    font-size: 10px;
+    opacity: 0.58;
+}
+
+.manager-watch-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.manager-watch-card {
+    display: grid;
+    grid-template-columns:
+        minmax(110px, 1fr)
+        minmax(120px, 1fr)
+        55px;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 12px;
+    border: 1px solid #dbe3ef;
+    border-radius: 7px;
+    background: #fff;
+    text-align: left;
+    cursor: pointer;
+}
+
+.manager-watch-card:hover {
+    background: #f8fafc;
+}
+
+.manager-watch-manager,
+.manager-watch-target,
+.manager-watch-confidence {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.manager-watch-manager small,
+.manager-watch-target span,
+.manager-watch-confidence small {
+    margin-top: 2px;
+    font-size: 9px;
+    opacity: 0.58;
+}
+
+.manager-watch-target strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 11px;
+}
+
+.manager-watch-confidence {
+    align-items: flex-end;
+}
+
+.manager-watch-confidence strong {
+    font-size: 14px;
+    color: #2458d3;
+}
+
+@media (max-width: 900px) {
+    .manager-watch-grid {
+        grid-template-columns: 1fr;
+    }
+}

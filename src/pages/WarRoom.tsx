@@ -264,19 +264,46 @@ export default function WarRoom({
         }
     })
 
-    const biggestDropRisk =
+    const mostAtRiskPlayer =
         hondaForecast.picks.find(
             (pick) =>
                 pick.player !== recommendation?.name &&
                 pick.player !==
                 hondaForecast.futureRecommendation?.name,
-        ) ??
-        hondaForecast.picks.find(
-            (pick) =>
-                pick.player !== recommendation?.name,
-        ) ??
-        null
+        ) ?? null
+    const selectedManagerRoster =
+        selectedManager
+            ? managerRosters[selectedManager.name] ?? []
+            : []
 
+    const selectedManagerRosterCounts = {
+        QB: 0,
+        RB: 0,
+        WR: 0,
+        TE: 0,
+    }
+
+    for (
+        const playerName of
+        selectedManagerRoster
+    ) {
+        const rosterPlayer =
+            players.find(
+                (player) =>
+                    player.name === playerName,
+            )
+
+        if (
+            rosterPlayer?.position === 'QB' ||
+            rosterPlayer?.position === 'RB' ||
+            rosterPlayer?.position === 'WR' ||
+            rosterPlayer?.position === 'TE'
+        ) {
+            selectedManagerRosterCounts[
+                rosterPlayer.position
+            ] += 1
+        }
+    }
     return (
 
 
@@ -401,15 +428,15 @@ export default function WarRoom({
                     </div>
 
                     <div className="hero-forecast-row">
-                        <span>Survival</span>
+                        <span>Chance Gone</span>
 
                         <strong>
-                            {hondaForecast.survivalPercent.toFixed(0)}%
+                            {(100 - hondaForecast.survivalPercent).toFixed(0)}%
                         </strong>
                     </div>
 
                     <div className="hero-forecast-row">
-                        <span>Next Pick</span>
+                        <span>Next Honda Pick</span>
 
                         <strong>
                             {hondaForecast.picksUntilNextHondaPick} picks
@@ -419,8 +446,9 @@ export default function WarRoom({
                     <div className="hero-forecast-divider" />
 
                     <small>
-                        Based on current roster, rankings,
-                        projections, and simulated draft risk.
+                        {recommendation?.name} has a{' '}
+                        {(100 - hondaForecast.survivalPercent).toFixed(0)}% chance
+                        of being gone before your next selection.
                     </small>
 
                 </div>
@@ -488,23 +516,23 @@ export default function WarRoom({
                         <div className="immediate-target-card">
 
                             <span className="target-card-label">
-                                Biggest Drop
+                                Most At Risk
                             </span>
 
                             <strong>
-                                {biggestDropRisk?.player ??
-                                    'No major drop'}
+                                {mostAtRiskPlayer?.player ??
+                                    'No major threat'}
                             </strong>
 
                             <small>
-                                {biggestDropRisk
-                                    ? `${biggestDropRisk.position} · ${biggestDropRisk.confidence}% chance gone`
+                                {mostAtRiskPlayer
+                                    ? `${mostAtRiskPlayer.position} · ${mostAtRiskPlayer.confidence}% chance gone`
                                     : 'No major threat detected'}
                             </small>
 
                             <div className="target-card-value danger-value">
-                                {biggestDropRisk
-                                    ? `${biggestDropRisk.confidence}% at risk`
+                                {mostAtRiskPlayer
+                                    ? `${mostAtRiskPlayer.confidence}% at risk`
                                     : '—'}
                             </div>
 
@@ -705,27 +733,86 @@ export default function WarRoom({
                         </div>
                     )}
                 </section>
-                <div className="live-intel-list">
-                    {liveDraftIntel.map((alert) => (
-                        <div
-                            className="live-intel-row"
-                            key={alert.manager}
-                        >
-                            <div>
-                                <strong>{alert.manager}</strong>
+                <div className="manager-watch">
 
-                                <small>
-                                    Likely {alert.position} • {alert.confidence}% confidence
-                                </small>
-                            </div>
+                    <div className="manager-watch-header">
+                        <div>
+                            <span className="target-card-label">
+                                Manager Watch
+                            </span>
 
-                            <div className="live-intel-target">
-                                <span>Top Target</span>
-
-                                <strong>{alert.player}</strong>
-                            </div>
+                            <strong>
+                                Next Draft Threats
+                            </strong>
                         </div>
-                    ))}
+
+                        <small>
+                            {liveDraftIntel.length} managers tracked
+                        </small>
+                    </div>
+
+
+                    <div className="manager-watch-grid">
+
+                        {liveDraftIntel
+                            .slice(0, 4)
+                            .map((alert) => (
+
+                                <button
+                                    className="manager-watch-card"
+                                    key={alert.manager}
+                                    onClick={() => {
+                                        setSelectedManagerName(
+                                            alert.manager,
+                                        )
+                                        setSelectedPlayerName(null)
+                                    }}
+                                >
+
+                                    <div className="manager-watch-manager">
+
+                                        <strong>
+                                            {alert.manager}
+                                        </strong>
+
+                                        <small>
+                                            Likely {alert.position}
+                                        </small>
+
+                                    </div>
+
+
+                                    <div className="manager-watch-target">
+
+                                        <span>
+                                            Top Target
+                                        </span>
+
+                                        <strong>
+                                            {alert.player}
+                                        </strong>
+
+                                    </div>
+
+
+                                    <div className="manager-watch-confidence">
+
+                                        <strong>
+                                            {alert.confidence}%
+                                        </strong>
+
+                                        <small>
+                                            confidence
+                                        </small>
+
+                                    </div>
+
+                                </button>
+
+                            ))}
+
+                    </div>
+
                 </div>
             </section>
 
@@ -943,68 +1030,248 @@ export default function WarRoom({
 
                     </div>
                 </section>
-                {selectedPlayer && (
-                    <aside className="player-detail-panel">
-                        <div className="player-detail-header">
-                            <div>
-                                <p className="eyebrow">Player Profile</p>
-                                <h3>{selectedPlayer.name}</h3>
-                                <span>
-                                    {selectedPlayer.position} · {selectedPlayer.tier}
-                                </span>
+                {selectedPlayer && (() => {
+                    const selectedProjection =
+                        selectedPlayer.hondaProjectedPoints ??
+                        selectedPlayer.projectedPoints ??
+                        0
+
+                    const selectedPerGame =
+                        selectedProjection / 17
+
+                    const selectedVor =
+                        selectedPlayer.valueOverReplacement ??
+                        0
+
+                    const selectedReplacement =
+                        selectedPlayer.replacementPoints ??
+                        0
+
+                    const selectedHondaRank =
+                        selectedPlayer.hondaDraftRank ??
+                        selectedPlayer.rank
+
+                    const selectedMarketRank =
+                        selectedPlayer.fantasyProsRank ??
+                        selectedPlayer.publicAdpOverall ??
+                        0
+
+                    const selectedRanking =
+                        allLiveRankings.find(
+                            (entry) =>
+                                entry.player.name ===
+                                selectedPlayer.name,
+                        )
+
+                    return (
+                        <aside className="player-detail-panel">
+
+                            <div className="player-detail-header">
+
+                                <div>
+                                    <p className="eyebrow">
+                                        Player Profile
+                                    </p>
+
+                                    <h3>
+                                        {selectedPlayer.name}
+                                    </h3>
+
+                                    <span>
+                                        {selectedPlayer.position}
+                                        {' · '}
+                                        {selectedPlayer.team}
+                                        {' · '}
+                                        {selectedPlayer.tier}
+                                    </span>
+                                </div>
+
+
+                                <button
+                                    className="player-detail-close"
+                                    onClick={() =>
+                                        setSelectedPlayerName(null)
+                                    }
+                                >
+                                    ×
+                                </button>
+
                             </div>
 
+
+                            <div className="player-profile-command">
+
+                                <div>
+                                    <span>Honda Rank</span>
+
+                                    <strong>
+                                        #{selectedHondaRank}
+                                    </strong>
+                                </div>
+
+                                <div>
+                                    <span>Market Rank</span>
+
+                                    <strong>
+                                        #{selectedMarketRank}
+                                    </strong>
+                                </div>
+
+                                <div>
+                                    <span>Live Honda Score</span>
+
+                                    <strong>
+                                        {selectedRanking
+                                            ? selectedRanking.score.toFixed(1)
+                                            : '—'}
+                                    </strong>
+                                </div>
+
+                            </div>
+
+
+                            <div className="player-detail-stats">
+
+                                <div>
+                                    <span>
+                                        Season Projection
+                                    </span>
+
+                                    <strong>
+                                        {selectedProjection.toFixed(1)}
+                                    </strong>
+
+                                    <small>pts</small>
+                                </div>
+
+
+                                <div>
+                                    <span>
+                                        Per Game
+                                    </span>
+
+                                    <strong>
+                                        {selectedPerGame.toFixed(1)}
+                                    </strong>
+
+                                    <small>pts/game</small>
+                                </div>
+
+
+                                <div>
+                                    <span>
+                                        Vs Replacement
+                                    </span>
+
+                                    <strong className={
+                                        selectedVor >= 0
+                                            ? 'positive-value'
+                                            : ''
+                                    }>
+                                        {selectedVor >= 0 ? '+' : ''}
+                                        {selectedVor.toFixed(1)}
+                                    </strong>
+
+                                    <small>
+                                        Replacement {selectedReplacement.toFixed(1)}
+                                    </small>
+                                </div>
+
+
+                                <div>
+                                    <span>
+                                        Risk
+                                    </span>
+
+                                    <strong>
+                                        {selectedPlayer.risk}
+                                    </strong>
+                                </div>
+
+                            </div>
+
+
+                            <div className="player-detail-section">
+
+                                <span>
+                                    Honda X-Factor
+                                </span>
+
+                                <p>
+                                    {selectedPlayer.xFactor}
+                                </p>
+
+                            </div>
+
+
+                            {selectedPlayer.greenFlags.length > 0 && (
+                                <div className="player-detail-section">
+
+                                    <span>
+                                        Green Flags
+                                    </span>
+
+                                    <div className="player-flag-list">
+
+                                        {selectedPlayer.greenFlags
+                                            .slice(0, 4)
+                                            .map((flag) => (
+                                                <div
+                                                    className="player-flag positive-flag"
+                                                    key={flag}
+                                                >
+                                                    ✓ {flag}
+                                                </div>
+                                            ))}
+
+                                    </div>
+
+                                </div>
+                            )}
+
+
+                            {selectedPlayer.redFlags.length > 0 && (
+                                <div className="player-detail-section">
+
+                                    <span>
+                                        Risk Flags
+                                    </span>
+
+                                    <div className="player-flag-list">
+
+                                        {selectedPlayer.redFlags
+                                            .slice(0, 4)
+                                            .map((flag) => (
+                                                <div
+                                                    className="player-flag negative-flag"
+                                                    key={flag}
+                                                >
+                                                    • {flag}
+                                                </div>
+                                            ))}
+
+                                    </div>
+
+                                </div>
+                            )}
+
+
                             <button
-                                className="player-detail-close"
-                                onClick={() => setSelectedPlayerName(null)}
-                            >
-                                ×
-                            </button>
-                            <button
-                                className="draft-button player-detail-draft"
+                                className="draft-button primary-action player-detail-draft"
                                 onClick={() => {
-                                    onDraftPlayer(selectedPlayer.name)
+                                    onDraftPlayer(
+                                        selectedPlayer.name,
+                                    )
+
                                     setSelectedPlayerName(null)
                                 }}
                             >
                                 Draft {selectedPlayer.name}
                             </button>
-                        </div>
 
-                        <div className="player-detail-stats">
-                            <div>
-                                <span>HOG Rank</span>
-                                <strong>#{selectedPlayer.rank}</strong>
-                            </div>
-
-                            <div>
-                                <span>HOG Score</span>
-                                <strong>{selectedPlayer.score}</strong>
-                            </div>
-
-                            <div>
-                                <span>Risk</span>
-                                <strong>{selectedPlayer.risk}</strong>
-                            </div>
-
-                            <div>
-                                <span>Command</span>
-                                <strong>{selectedPlayer.action}</strong>
-                            </div>
-                        </div>
-
-                        <div className="player-detail-section">
-                            <span>Public ADP</span>
-                            <strong>{selectedPlayer.publicAdp}</strong>
-                        </div>
-
-                        <div className="player-detail-section">
-                            <span>Honda X-Factor</span>
-                            <p>{selectedPlayer.xFactor}</p>
-                        </div>
-
-                    </aside>
-                )}
+                        </aside>
+                    )
+                })()}
             </div>
 
             <div className="war-dashboard-grid">
@@ -1143,13 +1410,15 @@ export default function WarRoom({
                                 <button
                                     className="alternative-row alternative-button"
                                     key={player.name}
-                                    onClick={() =>
+                                    onClick={() => {
                                         setSelectedPlayerName(
                                             player.name,
                                         )
-                                    }
+                                        setSelectedManagerName(null)
+                                    }}
                                 >
-                                    <div>
+                                    <div className="alternative-player-main">
+
                                         <strong>
                                             {player.name}
                                         </strong>
@@ -1157,11 +1426,60 @@ export default function WarRoom({
                                         <span>
                                             {player.position}
                                             {' · '}
+                                            {player.team}
+                                            {' · '}
                                             {player.tier}
                                         </span>
+
                                     </div>
 
+
+                                    <div className="alternative-stat">
+
+                                        <span>Proj</span>
+
+                                        <strong>
+                                            {(
+                                                player.hondaProjectedPoints ??
+                                                player.projectedPoints ??
+                                                0
+                                            ).toFixed(1)}
+                                        </strong>
+
+                                    </div>
+
+
+                                    <div className="alternative-stat">
+
+                                        <span>VOR</span>
+
+                                        <strong className={
+                                            (player.valueOverReplacement ?? 0) >= 0
+                                                ? 'positive-value'
+                                                : ''
+                                        }>
+                                            {(player.valueOverReplacement ?? 0) >= 0
+                                                ? '+'
+                                                : ''}
+                                            {(player.valueOverReplacement ?? 0).toFixed(1)}
+                                        </strong>
+
+                                    </div>
+
+
+                                    <div className="alternative-stat">
+
+                                        <span>Honda</span>
+
+                                        <strong>
+                                            {alternativeScore.toFixed(1)}
+                                        </strong>
+
+                                    </div>
+
+
                                     <div className="alternative-gap">
+
                                         <strong>
                                             -{Math.max(
                                                 0,
@@ -1170,9 +1488,11 @@ export default function WarRoom({
                                         </strong>
 
                                         <small>
-                                            Honda pts
+                                            behind
                                         </small>
+
                                     </div>
+
                                 </button>
                             )
                         })}
@@ -1184,187 +1504,186 @@ export default function WarRoom({
             </div>
 
             <div className="war-dashboard-grid lower-war-grid">
-                <div className="war-dashboard-grid lower-war-grid">
 
-                    <section className="panel">
+                <section className="panel">
 
-                        <div className="compact-panel-header">
-                            <div>
-                                <p className="eyebrow">
-                                    Draft Order
-                                </p>
+                    <div className="compact-panel-header">
+                        <div>
+                            <p className="eyebrow">
+                                Draft Order
+                            </p>
 
-                                <h3>Honda Managers</h3>
-                            </div>
-
-                            <span className="compact-panel-meta">
-                                {currentManager.name} on clock
-                            </span>
+                            <h3>Honda Managers</h3>
                         </div>
 
-
-                        <div className="draft-order-list compact-draft-order">
-
-                            {draftManagers.map((manager) => {
-
-                                const roster =
-                                    managerRosters[manager.name] ?? []
-
-                                const isCurrentManager =
-                                    manager.id === currentManager.id
-
-                                const isHonda =
-                                    manager.name === 'You'
-
-                                return (
-                                    <button
-                                        className={
-                                            isCurrentManager
-                                                ? 'draft-order-row current-manager manager-detail-button'
-                                                : 'draft-order-row manager-detail-button'
-                                        }
-                                        key={manager.id}
-                                        onClick={() => {
-                                            setSelectedManagerName(
-                                                manager.name,
-                                            )
-                                            setSelectedPlayerName(null)
-                                        }}
-                                    >
-
-                                        <span className="draft-slot">
-                                            {manager.id}
-                                        </span>
+                        <span className="compact-panel-meta">
+                            {currentManager.name} on clock
+                        </span>
+                    </div>
 
 
-                                        <div className="manager-row-info">
+                    <div className="draft-order-list compact-draft-order">
 
-                                            <strong>
-                                                {manager.name}
-                                                {isHonda ? ' (You)' : ''}
-                                            </strong>
+                        {draftManagers.map((manager) => {
 
-                                            <small>
-                                                {manager.tendency}
-                                            </small>
+                            const roster =
+                                managerRosters[manager.name] ?? []
 
-                                        </div>
+                            const isCurrentManager =
+                                manager.id === currentManager.id
+
+                            const isHonda =
+                                manager.name === 'You'
+
+                            return (
+                                <button
+                                    className={
+                                        isCurrentManager
+                                            ? 'draft-order-row current-manager manager-detail-button'
+                                            : 'draft-order-row manager-detail-button'
+                                    }
+                                    key={manager.id}
+                                    onClick={() => {
+                                        setSelectedManagerName(
+                                            manager.name,
+                                        )
+                                        setSelectedPlayerName(null)
+                                    }}
+                                >
+
+                                    <span className="draft-slot">
+                                        {manager.id}
+                                    </span>
 
 
-                                        <div className="manager-row-status">
+                                    <div className="manager-row-info">
 
-                                            <strong>
-                                                {roster.length}
-                                            </strong>
+                                        <strong>
+                                            {manager.name}
+                                            {isHonda ? ' (You)' : ''}
+                                        </strong>
 
-                                            <small>
-                                                players
-                                            </small>
+                                        <small>
+                                            {manager.tendency}
+                                        </small>
 
-                                        </div>
+                                    </div>
 
-                                    </button>
-                                )
-                            })}
 
+                                    <div className="manager-row-status">
+
+                                        <strong>
+                                            {roster.length}
+                                        </strong>
+
+                                        <small>
+                                            players
+                                        </small>
+
+                                    </div>
+
+                                </button>
+                            )
+                        })}
+
+                    </div>
+
+                </section>
+
+
+                <section className="panel">
+
+                    <div className="compact-panel-header">
+
+                        <div>
+                            <p className="eyebrow">
+                                Draft History
+                            </p>
+
+                            <h3>Recent Picks</h3>
                         </div>
 
-                    </section>
+                        <span className="compact-panel-meta">
+                            {draftHistory.length} total
+                        </span>
+
+                    </div>
 
 
-                    <section className="panel">
+                    <div className="draft-history-list compact-draft-history">
 
-                        <div className="compact-panel-header">
+                        {draftHistory.length === 0 ? (
 
-                            <div>
-                                <p className="eyebrow">
-                                    Draft History
-                                </p>
+                            <p className="empty-state">
+                                No picks have been made yet.
+                            </p>
 
-                                <h3>Recent Picks</h3>
-                            </div>
+                        ) : (
 
-                            <span className="compact-panel-meta">
-                                {draftHistory.length} total
-                            </span>
+                            [...draftHistory]
+                                .reverse()
+                                .slice(0, 8)
+                                .map((pick) => {
 
-                        </div>
+                                    const draftedPlayer =
+                                        players.find(
+                                            (player) =>
+                                                player.name ===
+                                                pick.player,
+                                        )
 
+                                    const pickRound =
+                                        Math.floor(
+                                            (pick.pick - 1) /
+                                            draftManagers.length,
+                                        ) + 1
 
-                        <div className="draft-history-list compact-draft-history">
+                                    const pickSlot =
+                                        (
+                                            (pick.pick - 1) %
+                                            draftManagers.length
+                                        ) + 1
 
-                            {draftHistory.length === 0 ? (
+                                    return (
+                                        <div
+                                            className="draft-history-row"
+                                            key={pick.pick}
+                                        >
 
-                                <p className="empty-state">
-                                    No picks have been made yet.
-                                </p>
-
-                            ) : (
-
-                                [...draftHistory]
-                                    .reverse()
-                                    .slice(0, 8)
-                                    .map((pick) => {
-
-                                        const draftedPlayer =
-                                            players.find(
-                                                (player) =>
-                                                    player.name ===
-                                                    pick.player,
-                                            )
-
-                                        const pickRound =
-                                            Math.floor(
-                                                (pick.pick - 1) /
-                                                draftManagers.length,
-                                            ) + 1
-
-                                        const pickSlot =
-                                            (
-                                                (pick.pick - 1) %
-                                                draftManagers.length
-                                            ) + 1
-
-                                        return (
-                                            <div
-                                                className="draft-history-row"
-                                                key={pick.pick}
-                                            >
-
-                                                <span className="draft-history-pick">
-                                                    {pickRound}.
-                                                    {String(
-                                                        pickSlot,
-                                                    ).padStart(2, '0')}
-                                                </span>
+                                            <span className="draft-history-pick">
+                                                {pickRound}.
+                                                {String(
+                                                    pickSlot,
+                                                ).padStart(2, '0')}
+                                            </span>
 
 
-                                                <div className="recent-pick-player">
+                                            <div className="recent-pick-player">
 
-                                                    <strong>
-                                                        {pick.player}
-                                                    </strong>
+                                                <strong>
+                                                    {pick.player}
+                                                </strong>
 
-                                                    <small>
-                                                        {draftedPlayer?.position ??
-                                                            '—'}
-                                                        {' · '}
-                                                        {pick.manager}
-                                                    </small>
-
-                                                </div>
+                                                <small>
+                                                    {draftedPlayer?.position ??
+                                                        '—'}
+                                                    {' · '}
+                                                    {pick.manager}
+                                                </small>
 
                                             </div>
-                                        )
-                                    })
 
-                            )}
+                                        </div>
+                                    )
+                                })
 
-                        </div>
+                        )}
 
-                    </section>
+                    </div>
 
-                </div>
+                </section>
+
+
             </div>
             <section className="panel">
 
@@ -1586,132 +1905,174 @@ export default function WarRoom({
                 </div>
 
             </section>
-            {selectedManager && (
-                <aside className="player-detail-panel">
-                    <div className="player-detail-header">
-                        <div>
-                            <p className="eyebrow">Manager Profile</p>
-                            <h3>{selectedManager.name}</h3>
-                            <span>{selectedManager.tendency}</span>
-                        </div>
-
-                        <button
-                            className="player-detail-close"
-                            onClick={() => setSelectedManagerName(null)}
-                        >
-                            ×
-                        </button>
-                    </div>
-
-                    <div className="player-detail-stats">
-                        <div>
-                            <span>Draft Slot</span>
-                            <strong>#{selectedManager.id}</strong>
-                        </div>
-
-                        <div>
-                            <span>Tendency</span>
-                            <strong>{selectedManager.tendency}</strong>
-                        </div>
-                    </div>
-
-                    <div className="player-detail-section">
-                        <span>Preferred Positions</span>
-                        <p>{selectedManager.preferredPositions.join(' → ')}</p>
-                    </div>
-                    <div className="player-detail-section">
-                        <span>Current Roster</span>
-
-                        {(managerRosters[selectedManager.name] ?? []).length === 0 ? (
-                            <p>No players drafted yet.</p>
-                        ) : (
-                            <div className="manager-drawer-roster">
-                                {(managerRosters[selectedManager.name] ?? []).map((playerName) => {
-                                    const player = players.find(
-                                        (item) => item.name === playerName,
-                                    )
-
-                                    return (
-                                        <div className="manager-drawer-player" key={playerName}>
-                                            <strong>{playerName}</strong>
-                                            <span>{player?.position ?? '—'}</span>
-                                        </div>
-                                    )
-                                })}
+            {
+                selectedManager && (
+                    <aside className="player-detail-panel">
+                        <div className="player-detail-header">
+                            <div>
+                                <p className="eyebrow">Manager Profile</p>
+                                <h3>{selectedManager.name}</h3>
+                                <span>{selectedManager.tendency}</span>
                             </div>
-                        )}
-                    </div>
-                    <div className="player-detail-section">
-                        <span>Team Needs</span>
 
-                        <div className="manager-needs-list">
-                            {managerNeeds.map((need) => (
-                                <div
-                                    className="manager-need-row"
-                                    key={need.position}
-                                >
-                                    <strong>{need.position}</strong>
-
-                                    <span
-                                        className={`need-${need.need.toLowerCase()}`}
-                                    >
-                                        {need.need}
-                                    </span>
-                                </div>
-                            ))}
+                            <button
+                                className="player-detail-close"
+                                onClick={() => setSelectedManagerName(null)}
+                            >
+                                ×
+                            </button>
                         </div>
-                    </div>
 
-                    <div className="player-detail-section">
-                        <span>Likely Next Pick</span>
+                        <div className="manager-profile-summary">
 
-                        {managerPrediction ? (
-                            <>
-                                <div className="manager-prediction-summary">
-                                    <strong>{managerPrediction.position}</strong>
-                                    <small>{managerPrediction.confidence}% confidence</small>
-                                </div>
+                            <div>
+                                <span>Draft Slot</span>
 
-                                <div className="manager-prediction-list">
-                                    {managerPrediction.players.map((player, index) => (
-                                        <button
-                                            className="manager-prediction-player"
-                                            key={player.name}
-                                            onClick={() => {
-                                                setSelectedPlayerName(player.name)
-                                                setSelectedManagerName(null)
-                                            }}
-                                        >
-                                            <span>#{index + 1}</span>
+                                <strong>
+                                    #{selectedManager.id}
+                                </strong>
+                            </div>
 
-                                            <div>
-                                                <strong>{player.name}</strong>
-                                                <small>
-                                                    {player.position} · {player.tier}
-                                                </small>
+                            <div>
+                                <span>Players</span>
+
+                                <strong>
+                                    {selectedManagerRoster.length}
+                                </strong>
+                            </div>
+
+                            <div>
+                                <span>QB</span>
+
+                                <strong>
+                                    {selectedManagerRosterCounts.QB}
+                                </strong>
+                            </div>
+
+                            <div>
+                                <span>RB</span>
+
+                                <strong>
+                                    {selectedManagerRosterCounts.RB}
+                                </strong>
+                            </div>
+
+                            <div>
+                                <span>WR</span>
+
+                                <strong>
+                                    {selectedManagerRosterCounts.WR}
+                                </strong>
+                            </div>
+
+                            <div>
+                                <span>TE</span>
+
+                                <strong>
+                                    {selectedManagerRosterCounts.TE}
+                                </strong>
+                            </div>
+
+                        </div>
+
+                        <div className="player-detail-section">
+                            <span>Preferred Positions</span>
+                            <p>{selectedManager.preferredPositions.join(' → ')}</p>
+                        </div>
+                        <div className="player-detail-section">
+                            <span>Current Roster</span>
+
+                            {(managerRosters[selectedManager.name] ?? []).length === 0 ? (
+                                <p>No players drafted yet.</p>
+                            ) : (
+                                <div className="manager-drawer-roster">
+                                    {(managerRosters[selectedManager.name] ?? []).map((playerName) => {
+                                        const player = players.find(
+                                            (item) => item.name === playerName,
+                                        )
+
+                                        return (
+                                            <div className="manager-drawer-player" key={playerName}>
+                                                <strong>{playerName}</strong>
+                                                <span>{player?.position ?? '—'}</span>
                                             </div>
-                                        </button>
-                                    ))}
+                                        )
+                                    })}
                                 </div>
-                                <div className="manager-prediction-reasons">
-                                    <strong>Why this prediction</strong>
+                            )}
+                        </div>
+                        <div className="player-detail-section">
+                            <span>Team Needs</span>
 
-                                    {managerPrediction.reasons.map((reason) => (
-                                        <div
-                                            className="prediction-reason"
-                                            key={reason}
+                            <div className="manager-needs-list">
+                                {managerNeeds.map((need) => (
+                                    <div
+                                        className="manager-need-row"
+                                        key={need.position}
+                                    >
+                                        <strong>{need.position}</strong>
+
+                                        <span
+                                            className={`need-${need.need.toLowerCase()}`}
                                         >
-                                            • {reason}
-                                        </div>
-                                    ))}
-                                </div>
-                            </>
-                        ) : (
-                            <p>No strong prediction yet.</p>
-                        )}
-                    </div>
-                </aside>
-            )}
-        </div>
+                                            {need.need}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="player-detail-section">
+                            <span>Likely Next Pick</span>
+
+                            {managerPrediction ? (
+                                <>
+                                    <div className="manager-prediction-summary">
+                                        <strong>{managerPrediction.position}</strong>
+                                        <small>{managerPrediction.confidence}% confidence</small>
+                                    </div>
+
+                                    <div className="manager-prediction-list">
+                                        {managerPrediction.players.map((player, index) => (
+                                            <button
+                                                className="manager-prediction-player"
+                                                key={player.name}
+                                                onClick={() => {
+                                                    setSelectedPlayerName(player.name)
+                                                    setSelectedManagerName(null)
+                                                }}
+                                            >
+                                                <span>#{index + 1}</span>
+
+                                                <div>
+                                                    <strong>{player.name}</strong>
+                                                    <small>
+                                                        {player.position} · {player.tier}
+                                                    </small>
+                                                </div>
+                                            </button>
+                                        ))}
+                                    </div>
+                                    <div className="manager-prediction-reasons">
+                                        <strong>Why this prediction</strong>
+
+                                        {managerPrediction.reasons.map((reason) => (
+                                            <div
+                                                className="prediction-reason"
+                                                key={reason}
+                                            >
+                                                • {reason}
+                                            </div>
+                                        ))}
+                                    </div>
+                                </>
+                            ) : (
+                                <p>No strong prediction yet.</p>
+                            )}
+                        </div>
+                    </aside>
+                )
+            }
+        </div >
     )
 }
