@@ -29,92 +29,53 @@ export type ParsedCbsSeason = {
 }
 
 /*
- * CBS MHTML files use quoted-printable
- * encoding for the HTML portion.
+ * ---------------------------------------------------------
+ * BASIC DECODING
+ * ---------------------------------------------------------
  */
+
 function decodeQuotedPrintable(
-    value: string,
+    input: string,
 ) {
-    const withoutSoftBreaks =
-        value.replace(
+    return input
+        .replace(
             /=\r?\n/g,
             '',
         )
-
-    const bytes: number[] = []
-
-    for (
-        let index = 0;
-        index < withoutSoftBreaks.length;
-        index++
-    ) {
-        const character =
-            withoutSoftBreaks[index]
-
-        if (
-            character === '=' &&
-            index + 2 <
-            withoutSoftBreaks.length
-        ) {
-            const hex =
-                withoutSoftBreaks.slice(
-                    index + 1,
-                    index + 3,
-                )
-
-            if (
-                /^[0-9A-Fa-f]{2}$/.test(
-                    hex,
-                )
-            ) {
-                bytes.push(
+        .replace(
+            /=([A-Fa-f0-9]{2})/g,
+            (
+                _match,
+                hex: string,
+            ) =>
+                String.fromCharCode(
                     Number.parseInt(
                         hex,
                         16,
                     ),
-                )
-
-                index += 2
-
-                continue
-            }
-        }
-
-        const encoded =
-            Buffer.from(
-                character,
-                'utf8',
-            )
-
-        for (const byte of encoded) {
-            bytes.push(byte)
-        }
-    }
-
-    return Buffer
-        .from(bytes)
-        .toString('utf8')
+                ),
+        )
 }
 
-/*
- * Remove CBS/HTML formatting but preserve
- * player/team punctuation.
- */
-function cleanHtmlText(
+function decodeHtmlEntities(
     value: string,
 ) {
     return value
-        .replace(
-            /<[^>]*>/g,
-            ' ',
-        )
         .replace(
             /&nbsp;/gi,
             ' ',
         )
         .replace(
+            /&#160;/gi,
+            ' ',
+        )
+        .replace(
             /&amp;/gi,
             '&',
+        )
+        .replace(
+            /&quot;/gi,
+            '"',
         )
         .replace(
             /&#39;/gi,
@@ -125,8 +86,8 @@ function cleanHtmlText(
             "'",
         )
         .replace(
-            /&quot;/gi,
-            '"',
+            /&#x27;/gi,
+            "'",
         )
         .replace(
             /&lt;/gi,
@@ -136,6 +97,34 @@ function cleanHtmlText(
             /&gt;/gi,
             '>',
         )
+}
+
+function stripTags(
+    value: string,
+) {
+    return decodeHtmlEntities(
+        value
+            .replace(
+                /<script\b[^>]*>[\s\S]*?<\/script>/gi,
+                ' ',
+            )
+            .replace(
+                /<style\b[^>]*>[\s\S]*?<\/style>/gi,
+                ' ',
+            )
+            .replace(
+                /<br\s*\/?>/gi,
+                ' ',
+            )
+            .replace(
+                /<[^>]+>/g,
+                ' ',
+            ),
+    )
+        .replace(
+            /\u00a0/g,
+            ' ',
+        )
         .replace(
             /\s+/g,
             ' ',
@@ -143,28 +132,153 @@ function cleanHtmlText(
         .trim()
 }
 
+/*
+ * ---------------------------------------------------------
+ * MHTML EXTRACTION
+ * ---------------------------------------------------------
+ */
+
+function extractHtmlFromMhtml(
+    raw: string,
+) {
+    /*
+     * The CBS snapshot contains a text/html
+     * MIME section plus images/css/etc.
+     *
+     * Find all HTML sections and keep the
+     * largest valid one.
+     */
+    const sections =
+        raw.split(
+            /\r?\n--[-_=A-Za-z0-9]+/g,
+        )
+
+    const htmlCandidates:
+        string[] = []
+
+    for (
+        const section of
+        sections
+    ) {
+        if (
+            !/Content-Type:\s*text\/html/i.test(
+                section,
+            )
+        ) {
+            continue
+        }
+
+        const separator =
+            section.search(
+                /\r?\n\r?\n/,
+            )
+
+        if (
+            separator === -1
+        ) {
+            continue
+        }
+
+        let body =
+            section
+                .slice(
+                    separator,
+                )
+                .trim()
+
+        if (
+            /Content-Transfer-Encoding:\s*quoted-printable/i.test(
+                section,
+            )
+        ) {
+            body =
+                decodeQuotedPrintable(
+                    body,
+                )
+        }
+
+        if (
+            /Content-Transfer-Encoding:\s*base64/i.test(
+                section,
+            )
+        ) {
+            try {
+                body =
+                    Buffer
+                        .from(
+                            body.replace(
+                                /\s+/g,
+                                '',
+                            ),
+                            'base64',
+                        )
+                        .toString(
+                            'utf8',
+                        )
+            } catch {
+                // Ignore malformed MIME section.
+            }
+        }
+
+        if (
+            /<table\b/i.test(
+                body,
+            )
+        ) {
+            htmlCandidates.push(
+                body,
+            )
+        }
+    }
+
+    if (
+        htmlCandidates.length > 0
+    ) {
+        return htmlCandidates
+            .sort(
+                (a, b) =>
+                    b.length -
+                    a.length,
+            )[0]
+    }
+
+    /*
+     * Fallback for snapshots where the
+     * HTML is effectively inline.
+     */
+    return decodeQuotedPrintable(
+        raw,
+    )
+}
+
+/*
+ * ---------------------------------------------------------
+ * POSITION / TEAM
+ * ---------------------------------------------------------
+ */
+
 function normalizePosition(
-    value: string,
+    raw: string,
 ): ManagerPosition | null {
-    const position =
-        value
+    const value =
+        raw
             .trim()
             .toUpperCase()
 
     if (
-        position === 'QB' ||
-        position === 'RB' ||
-        position === 'WR' ||
-        position === 'TE' ||
-        position === 'K'
+        value === 'QB' ||
+        value === 'RB' ||
+        value === 'WR' ||
+        value === 'TE' ||
+        value === 'K'
     ) {
-        return position
+        return value
     }
 
     if (
-        position === 'DST' ||
-        position === 'DEF' ||
-        position === 'D/ST'
+        value === 'DST' ||
+        value === 'D/ST' ||
+        value === 'DEF'
     ) {
         return 'DST'
     }
@@ -172,39 +286,88 @@ function normalizePosition(
     return null
 }
 
-/*
- * The HTML content in these saved CBS
- * pages is the quoted-printable part
- * containing the actual draft table.
- *
- * We don't need to fully implement the
- * MHTML MIME specification. We only need
- * the HTML payload.
- */
-function getDecodedHtml(
-    fileContents: string,
+const nflTeams =
+    new Set([
+        'ARI',
+        'ATL',
+        'BAL',
+        'BUF',
+        'CAR',
+        'CHI',
+        'CIN',
+        'CLE',
+        'DAL',
+        'DEN',
+        'DET',
+        'GB',
+        'HOU',
+        'IND',
+        'JAC',
+        'JAX',
+        'KC',
+        'LV',
+        'LAC',
+        'LAR',
+        'MIA',
+        'MIN',
+        'NE',
+        'NO',
+        'NYG',
+        'NYJ',
+        'PHI',
+        'PIT',
+        'SEA',
+        'SF',
+        'TB',
+        'TEN',
+        'WAS',
+    ])
+
+function normalizeNflTeam(
+    raw: string | undefined,
 ) {
-    const htmlPartMatch =
-        fileContents.match(
-            /Content-Type:\s*text\/html[\s\S]*?\r?\n\r?\n([\s\S]*?)(?=\r?\n--[-_A-Za-z0-9=]+)/i,
+    if (!raw) {
+        return undefined
+    }
+
+    const value =
+        raw
+            .trim()
+            .toUpperCase()
+
+    if (
+        !nflTeams.has(
+            value,
         )
+    ) {
+        return undefined
+    }
 
-    const encodedHtml =
-        htmlPartMatch?.[1] ??
-        fileContents
-
-    return decodeQuotedPrintable(
-        encodedHtml,
+    return (
+        value === 'JAX'
+            ? 'JAC'
+            : value
     )
+}
+
+/*
+ * ---------------------------------------------------------
+ * ROUND EXTRACTION
+ * ---------------------------------------------------------
+ */
+
+type RoundSection = {
+    round: number
+    html: string
 }
 
 function getRoundSections(
     html: string,
-) {
+): RoundSection[] {
     const matches =
         Array.from(
             html.matchAll(
-                /<td[^>]*colspan=["']?5["']?[^>]*>\s*Round\s+(\d+)\s*<\/td>/gi,
+                /<tr[^>]*class=["'][^"']*subtitle[^"']*["'][^>]*>\s*<td[^>]*>\s*Round\s+(\d+)\s*<\/td>\s*<\/tr>/gi,
             ),
         )
 
@@ -219,8 +382,7 @@ function getRoundSections(
                 )
 
             const start =
-                match.index ??
-                0
+                match.index ?? 0
 
             const end =
                 matches[
@@ -230,6 +392,7 @@ function getRoundSections(
 
             return {
                 round,
+
                 html:
                     html.slice(
                         start,
@@ -240,7 +403,158 @@ function getRoundSections(
     )
 }
 
-function parseRoundRows(
+/*
+ * ---------------------------------------------------------
+ * TABLE ROW PARSING
+ * ---------------------------------------------------------
+ */
+
+function extractCells(
+    rowHtml: string,
+) {
+    return Array.from(
+        rowHtml.matchAll(
+            /<td\b[^>]*>([\s\S]*?)<\/td>/gi,
+        ),
+    ).map(
+        (match) =>
+            match[1] ?? '',
+    )
+}
+
+function extractPlayerName(
+    playerCellHtml: string,
+) {
+    const playerLinkMatch =
+        playerCellHtml.match(
+            /<a\b[^>]*class=["'][^"']*playerLink[^"']*["'][^>]*>([\s\S]*?)<\/a>/i,
+        )
+
+    if (
+        !playerLinkMatch
+    ) {
+        return ''
+    }
+
+    return stripTags(
+        playerLinkMatch[1] ?? '',
+    )
+}
+
+function extractPositionAndTeam(
+    playerCellHtml: string,
+) {
+    /*
+     * CBS has changed this markup over the years.
+     *
+     * Position is usually inside the
+     * playerPositionAndTeam span, while the NFL
+     * team may be separated by punctuation,
+     * nested markup, or CBS-specific text.
+     *
+     * Rather than assuming "RB LAR", inspect all
+     * visible text in the player cell.
+     */
+
+    const positionTeamMatch =
+        playerCellHtml.match(
+            /class=["'][^"']*playerPositionAndTeam[^"']*["'][^>]*>([\s\S]*?)<\/span>/i,
+        )
+
+    const positionSource =
+        positionTeamMatch
+            ? stripTags(
+                positionTeamMatch[1] ?? '',
+            )
+            : stripTags(
+                playerCellHtml,
+            )
+
+    const positionMatch =
+        positionSource.match(
+            /\b(QB|RB|WR|TE|K|DST|D\/ST|DEF)\b/i,
+        )
+
+    const position =
+        normalizePosition(
+            positionMatch?.[1] ?? '',
+        )
+
+    /*
+     * Search the complete player cell for an NFL
+     * abbreviation instead of assuming it is the
+     * second whitespace-delimited token.
+     */
+    const visiblePlayerText =
+        stripTags(
+            playerCellHtml,
+        )
+            .replace(
+                /â€¢/g,
+                ' ',
+            )
+            .replace(
+                /â¢/g,
+                ' ',
+            )
+            .replace(
+                /•/g,
+                ' ',
+            )
+            .replace(
+                /·/g,
+                ' ',
+            )
+            .replace(
+                /\s+/g,
+                ' ',
+            )
+            .trim()
+
+    /*
+     * Team aliases CBS has used historically.
+     */
+    const teamPattern =
+        /\b(ARI|ATL|BAL|BUF|CAR|CHI|CIN|CLE|DAL|DEN|DET|GB|HOU|IND|JAC|JAX|KC|LV|LAC|LAR|MIA|MIN|NE|NO|NYG|NYJ|PHI|PIT|SEA|SF|TB|TEN|WAS|OAK|SD|STL)\b/i
+
+    const teamMatch =
+        visiblePlayerText.match(
+            teamPattern,
+        )
+
+    let rawTeam =
+        teamMatch?.[1]
+            ?.toUpperCase()
+
+    /*
+     * Normalize historical franchise
+     * abbreviations into the modern abbreviation
+     * Honda uses everywhere else.
+     */
+    if (rawTeam === 'OAK') {
+        rawTeam = 'LV'
+    }
+
+    if (rawTeam === 'SD') {
+        rawTeam = 'LAC'
+    }
+
+    if (rawTeam === 'STL') {
+        rawTeam = 'LAR'
+    }
+
+    const team =
+        normalizeNflTeam(
+            rawTeam,
+        )
+
+    return {
+        position,
+        team,
+    }
+}
+
+function parseRound(
     season: number,
     round: number,
     roundHtml: string,
@@ -250,151 +564,83 @@ function parseRoundRows(
         ParsedCbsDraftPick[] = []
 
     /*
-     * Each actual draft row starts with a
-     * <tr class="row1">, <tr class="row2">
-     * or CBS's highlighted "bgFan" class.
+     * CBS actual draft rows use:
      *
-     * The row contains:
+     * row1
+     * row2
+     * bgFan
      *
-     * td 1 = pick within round
-     * td 2 = fantasy team
-     * td 3 = player + position/team
+     * bgFan is the logged-in manager's row.
      */
-    const rowMatches =
+    const rows =
         Array.from(
             roundHtml.matchAll(
-                /<tr[^>]*class=["'][^"']*(?:row1|row2|bgFan)[^"']*["'][^>]*>([\s\S]*?)<\/tr>/gi,
+                /<tr\b[^>]*class=["'][^"']*(?:row1|row2|bgFan)[^"']*["'][^>]*>([\s\S]*?)<\/tr>/gi,
             ),
         )
 
     for (
         const rowMatch of
-        rowMatches
+        rows
     ) {
         const rowHtml =
             rowMatch[1] ??
             ''
 
-        const cellMatches =
-            Array.from(
-                rowHtml.matchAll(
-                    /<td[^>]*>([\s\S]*?)<\/td>/gi,
-                ),
+        const cells =
+            extractCells(
+                rowHtml,
             )
 
         if (
-            cellMatches.length < 3
+            cells.length < 3
         ) {
             continue
         }
 
         const pickInRound =
             Number(
-                cleanHtmlText(
-                    cellMatches[0]?.[1] ??
+                stripTags(
+                    cells[0] ??
                     '',
                 ),
             )
 
         const manager =
-            cleanHtmlText(
-                cellMatches[1]?.[1] ??
+            stripTags(
+                cells[1] ??
                 '',
             )
 
         const playerCell =
-            cellMatches[2]?.[1] ??
+            cells[2] ??
             ''
+
+        const player =
+            extractPlayerName(
+                playerCell,
+            )
+
+        const {
+            position,
+            team,
+        } =
+            extractPositionAndTeam(
+                playerCell,
+            )
 
         if (
             !Number.isFinite(
                 pickInRound,
             ) ||
             pickInRound <= 0 ||
-            !manager
-        ) {
-            continue
-        }
-
-        /*
-         * CBS gives us a stable playerLink
-         * anchor, so use its visible text
-         * instead of aria-label.
-         *
-         * That avoids issues with apostrophes
-         * such as Ja'Marr Chase and De'Von
-         * Achane.
-         */
-        const playerMatch =
-            playerCell.match(
-                /<a[^>]*class=["'][^"']*playerLink[^"']*["'][^>]*>([\s\S]*?)<\/a>/i,
-            )
-
-        const player =
-            playerMatch
-                ? cleanHtmlText(
-                    playerMatch[1],
-                )
-                : ''
-
-        /*
-         * Example:
-         *
-         * <span class="playerPositionAndTeam">
-         *   WR • CIN
-         * </span>
-         */
-        const positionTeamMatch =
-            playerCell.match(
-                /class=["'][^"']*playerPositionAndTeam[^"']*["'][^>]*>([\s\S]*?)<\/span>/i,
-            )
-
-        if (
+            !manager ||
             !player ||
-            !positionTeamMatch
+            !position
         ) {
             continue
         }
 
-        const positionTeamText =
-            cleanHtmlText(
-                positionTeamMatch[1],
-            )
-                .replace(
-                    /•/g,
-                    ' ',
-                )
-                .replace(
-                    /\s+/g,
-                    ' ',
-                )
-                .trim()
-
-        const parts =
-            positionTeamText.split(
-                ' ',
-            )
-
-        const position =
-            normalizePosition(
-                parts[0] ??
-                '',
-            )
-
-        if (!position) {
-            continue
-        }
-
-        const nflTeam =
-            parts[1]
-                ? parts[1].toUpperCase()
-                : undefined
-
-        /*
-         * CBS numbers picks from 1 again
-         * inside every round, so calculate
-         * the true overall selection here.
-         */
         const overallPick =
             (
                 round - 1
@@ -413,19 +659,27 @@ function parseRoundRows(
 
             player,
             position,
-            team:
-                nflTeam,
+            team,
         })
     }
 
     return picks
 }
 
+/*
+ * ---------------------------------------------------------
+ * DRAFT ORDER
+ * ---------------------------------------------------------
+ */
+
 function getDraftOrder(
-    firstRoundPicks:
-        ParsedCbsDraftPick[],
+    picks: ParsedCbsDraftPick[],
 ) {
-    return [...firstRoundPicks]
+    return picks
+        .filter(
+            (pick) =>
+                pick.round === 1,
+        )
         .sort(
             (a, b) =>
                 a.pickInRound -
@@ -436,6 +690,56 @@ function getDraftOrder(
                 pick.manager,
         )
 }
+
+/*
+ * ---------------------------------------------------------
+ * VALIDATION
+ * ---------------------------------------------------------
+ */
+
+function validateSeason(
+    season: number,
+    picks: ParsedCbsDraftPick[],
+    leagueSize: number,
+) {
+    const duplicateOverall =
+        picks.length -
+        new Set(
+            picks.map(
+                (pick) =>
+                    pick.overallPick,
+            ),
+        ).size
+
+    if (
+        duplicateOverall > 0
+    ) {
+        throw new Error(
+            `${season}: duplicate overall picks detected.`,
+        )
+    }
+
+    const roundOneCount =
+        picks.filter(
+            (pick) =>
+                pick.round === 1,
+        ).length
+
+    if (
+        roundOneCount !==
+        leagueSize
+    ) {
+        throw new Error(
+            `${season}: Round 1 parsed ${roundOneCount} picks, expected ${leagueSize}.`,
+        )
+    }
+}
+
+/*
+ * ---------------------------------------------------------
+ * MAIN
+ * ---------------------------------------------------------
+ */
 
 export function parseCbsDraftFile(
     filePath: string,
@@ -451,15 +755,23 @@ export function parseCbsDraftFile(
         )
     }
 
-    const rawContents =
+    const raw =
         fs.readFileSync(
             filePath,
             'utf8',
         )
 
+    if (
+        !raw.trim()
+    ) {
+        throw new Error(
+            `CBS draft file is empty: ${filePath}`,
+        )
+    }
+
     const html =
-        getDecodedHtml(
-            rawContents,
+        extractHtmlFromMhtml(
+            raw,
         )
 
     const roundSections =
@@ -471,87 +783,116 @@ export function parseCbsDraftFile(
         roundSections.length === 0
     ) {
         throw new Error(
-            `No CBS draft rounds found in ${filePath}`,
+            [
+                '',
+                `No CBS round sections found in ${filePath}`,
+                `Season: ${season}`,
+                `Decoded HTML length: ${html.length}`,
+            ].join(
+                '\n',
+            ),
         )
     }
 
-    /*
-     * Determine league size from Round 1.
-     * This prevents us from hardcoding 12
-     * if an older CBS season differs.
-     */
-    const firstRoundSection =
+    const roundOne =
         roundSections.find(
             (section) =>
                 section.round === 1,
         )
 
-    if (!firstRoundSection) {
+    if (!roundOne) {
         throw new Error(
-            `Round 1 not found in ${filePath}`,
+            `${season}: Round 1 was not found.`,
         )
     }
 
     /*
-     * Initially parse Round 1 using a
-     * placeholder league size because its
-     * overall picks equal its round picks.
+     * Parse Round 1 with a temporary league
+     * size. Overall pick equals pickInRound
+     * in Round 1 anyway.
      */
-    const firstRoundPicks =
-        parseRoundRows(
+    const temporaryRoundOnePicks =
+        parseRound(
             season,
             1,
-            firstRoundSection.html,
-            1000,
+            roundOne.html,
+            999,
         )
 
     const leagueSize =
-        firstRoundPicks.length
+        temporaryRoundOnePicks.length
 
-    if (leagueSize === 0) {
+    if (
+        leagueSize < 2
+    ) {
         throw new Error(
-            `No Round 1 picks found in ${filePath}`,
+            [
+                '',
+                `${season}: could not determine league size.`,
+                `Round 1 picks parsed: ${leagueSize}`,
+            ].join(
+                '\n',
+            ),
         )
     }
 
-    const allPicks =
-        roundSections.flatMap(
-            (section) =>
-                parseRoundRows(
-                    season,
-                    section.round,
-                    section.html,
-                    leagueSize,
-                ),
-        )
+    const picks =
+        roundSections
+            .flatMap(
+                (section) =>
+                    parseRound(
+                        season,
+                        section.round,
+                        section.html,
+                        leagueSize,
+                    ),
+            )
+            .sort(
+                (a, b) =>
+                    a.overallPick -
+                    b.overallPick,
+            )
+
+    validateSeason(
+        season,
+        picks,
+        leagueSize,
+    )
 
     const draftOrder =
         getDraftOrder(
-            allPicks.filter(
-                (pick) =>
-                    pick.round === 1,
-            ),
+            picks,
         )
 
     const managerNames =
         Array.from(
             new Set(
-                allPicks.map(
+                picks.map(
                     (pick) =>
                         pick.manager,
                 ),
             ),
         )
 
+    console.log(
+        `   ↳ Parsed ${picks.length} picks`,
+    )
+
+    console.log(
+        `   ↳ League size: ${leagueSize}`,
+    )
+
+    console.log(
+        `   ↳ Draft order: ${draftOrder.join(' | ')}`,
+    )
+
     return {
         season,
+
         managerNames,
+
         draftOrder,
-        picks:
-            allPicks.sort(
-                (a, b) =>
-                    a.overallPick -
-                    b.overallPick,
-            ),
+
+        picks,
     }
 }

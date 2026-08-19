@@ -14,18 +14,25 @@ export type ManagerIdentity = {
      * Keep canonicalName in this list too.
      */
     aliases: string[]
+
+    /*
+     * Former managers remain separate
+     * identities so their historical picks
+     * do not get assigned to replacement
+     * managers.
+     */
+    isFormerManager?: boolean
 }
 
 /*
- * IMPORTANT:
+ * Confirmed manager identity history.
  *
- * We are deliberately NOT guessing historical
- * name changes here.
- *
- * The current names are established first.
- * As we confirm renamed teams from the CBS
- * history, we add the old names to the proper
- * aliases array.
+ * Important:
+ * - Trabiski #1 and CarnalitoZ were former
+ *   managers and were replaced in 2020.
+ * - Their histories must remain separate.
+ * - Yeah Daaavvveee!!! and Kentucky Dave
+ *   are not aliases for those former teams.
  */
 export const managerIdentities: ManagerIdentity[] = [
     {
@@ -41,6 +48,9 @@ export const managerIdentities: ManagerIdentity[] = [
         canonicalName: 'Constipated Commandos',
         aliases: [
             'Constipated Commandos',
+            'Constipated commandos',
+            'Italian Stallions',
+            'Myrmidons',
         ],
     },
 
@@ -69,10 +79,26 @@ export const managerIdentities: ManagerIdentity[] = [
     },
 
     {
+        id: 'kentucky-dave',
+        canonicalName: 'Kentucky Dave',
+        aliases: [
+            'Kentucky Dave',
+        ],
+    },
+
+    {
         id: 'rice-a-ronnie72',
         canonicalName: 'Rice-A-Ronnie72',
         aliases: [
             'Rice-A-Ronnie72',
+
+            'MidnightHammer72',
+            'C U in 2025',
+            'CU In August',
+            'NomoreFundays',
+            'Going Comando',
+            'Waller Baller',
+            'diFantasiaCalcio',
         ],
     },
 
@@ -124,6 +150,31 @@ export const managerIdentities: ManagerIdentity[] = [
             'GiveMeYourMoneyNow',
         ],
     },
+
+    /*
+     * Former managers.
+     *
+     * These remain independent identities.
+     * Do not merge their draft histories into
+     * the managers who replaced them.
+     */
+    {
+        id: 'former-trabiski-1',
+        canonicalName: 'Trabiski #1',
+        aliases: [
+            'Trabiski #1',
+        ],
+        isFormerManager: true,
+    },
+
+    {
+        id: 'former-carnalitoz',
+        canonicalName: 'CarnalitoZ',
+        aliases: [
+            'CarnalitoZ',
+        ],
+        isFormerManager: true,
+    },
 ]
 
 function normalizeText(
@@ -132,16 +183,22 @@ function normalizeText(
     return value
         .trim()
         .toLowerCase()
-        .replace(/['’]/g, "'")
-        .replace(/\s+/g, ' ')
+        .replace(
+            /['’]/g,
+            "'",
+        )
+        .replace(
+            /\s+/g,
+            ' ',
+        )
 }
 
 /*
  * Converts a historical CBS team name
- * into the current canonical manager name.
+ * into the correct permanent identity.
  *
- * Unknown names are preserved instead of
- * being silently assigned to the wrong person.
+ * Unknown names are preserved rather than
+ * silently assigned to the wrong manager.
  */
 export function getCanonicalManagerName(
     rawName: string,
@@ -156,7 +213,9 @@ export function getCanonicalManagerName(
             (manager) =>
                 manager.aliases.some(
                     (alias) =>
-                        normalizeText(alias) ===
+                        normalizeText(
+                            alias,
+                        ) ===
                         normalized,
                 ),
         )
@@ -170,16 +229,21 @@ export function getCanonicalManagerName(
 export function getManagerIdentity(
     rawName: string,
 ) {
-    const canonicalName =
-        getCanonicalManagerName(
+    const normalized =
+        normalizeText(
             rawName,
         )
 
     return (
         managerIdentities.find(
             (manager) =>
-                manager.canonicalName ===
-                canonicalName,
+                manager.aliases.some(
+                    (alias) =>
+                        normalizeText(
+                            alias,
+                        ) ===
+                        normalized,
+                ),
         ) ??
         null
     )
@@ -203,5 +267,16 @@ export function isKnownManagerAlias(
         getManagerIdentity(
             rawName,
         ) !== null
+    )
+}
+
+export function isFormerManager(
+    rawName: string,
+) {
+    return (
+        getManagerIdentity(
+            rawName,
+        )?.isFormerManager ??
+        false
     )
 }

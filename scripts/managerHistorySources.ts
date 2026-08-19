@@ -4,19 +4,26 @@ export type HistoricalLeagueSeason = {
     season: number
 
     /*
-     * Saved CBS draft-results page.
+     * Saved CBS completed draft-results page.
      */
     draftFile?: string
 
     /*
-     * Optional board screenshot/export source.
-     * We will use this primarily for keeper
-     * identification when available.
+     * Optional preseason board/source.
+     *
+     * We are not using this yet for the
+     * historical seasons because 2026 will
+     * be the first keeper-affected draft.
      */
     boardFile?: string
 
     /*
-     * Keeper league began in 2024.
+     * True only when keepers actually
+     * affected that season's draft.
+     *
+     * 2025 created the first keeper pool.
+     * Therefore 2026 will be the first
+     * keeper-affected draft.
      */
     usesKeepers: boolean
 }
@@ -59,8 +66,8 @@ export const historicalLeagueSeasons:
 
         /*
          * No 2020 source currently loaded.
-         * We can add it later without changing
-         * the importer.
+         * It can be added later without
+         * changing the importer.
          */
 
         {
@@ -96,16 +103,26 @@ export const historicalLeagueSeasons:
                 historyFile(
                     'Honda on Grand 2024  - CBSSports.com.mhtml',
                 ),
-            usesKeepers: true,
+            usesKeepers: false,
         },
 
         {
+            /*
+             * 2025 created the first keeper pool.
+             *
+             * The 2025 draft itself was still
+             * a normal draft with no keeper
+             * draft slots removed.
+             *
+             * The 2026 draft will be the first
+             * draft affected by keepers.
+             */
             season: 2025,
             draftFile:
                 historyFile(
                     'Honda on Grand - CBSSports.com.mhtml',
                 ),
-            usesKeepers: true,
+            usesKeepers: false,
         },
     ]
 
