@@ -1,0 +1,7574 @@
+{
+  "generatedAt": "2026-08-19T14:53:48.198Z",
+  "seasons": [
+    2018,
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "records": [
+    {
+      "season": 2018,
+      "player": "A.J. Green",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Adam Vinatieri",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Alex Collins",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Alex Smith",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Allen Hurns",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Allen Robinson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Alshon Jeffery",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Andrew Luck",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Anthony Miller",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Antonio Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Austin Hooper",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Ben Roethlisberger",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Benjamin Watson",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Bilal Powell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Brandon Marshall",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Brandon McManus",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Broncos",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "C.J. Anderson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Cam Newton",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Cameron Meredith",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Carlos Hyde",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Carson Wentz",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Chargers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Chris Boswell",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Chris Carson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Chris Hogan",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Chris Thompson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Corey Clement",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Corey Davis",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Cowboys",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Dan Bailey",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Danny Amendola",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Davante Adams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "David Johnson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "David Njoku",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Delanie Walker",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Demaryius Thomas",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Derek Carr",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "DeVante Parker",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Devin Funchess",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Devonta Freeman",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Devontae Booker",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Dion Lewis",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "DJ Moore",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Doug Baldwin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Drew Brees",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Duke Johnson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Eagles",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Eli Manning",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Emmanuel Sanders",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Eric Ebron",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Evan Engram",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Falcons",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "George Kittle",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Golden Tate",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Greg Olsen",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Greg Zuerlein",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Harrison Butker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Isaiah Crowell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jack Doyle",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jaguars",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jake Elliott",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jamaal Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jameis Winston",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "James White",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jamison Crowder",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jared Cook",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jared Goff",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jarvis Landry",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jay Ajayi",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jerick McKinnon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jimmy Garoppolo",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jimmy Graham",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jordan Howard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jordan Reed",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Jordy Nelson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Josh Doctson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Josh Gordon",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Julian Edelman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Julio Jones",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Justin Tucker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Kelvin Benjamin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Kenny Stills",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Kenyan Drake",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Kerryon Johnson",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Kyle Rudolph",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Lamar Miller",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Larry Fitzgerald",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Le'Veon Bell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "LeGarrette Blount",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "LeSean McCoy",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Marcus Mariota",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Mark Ingram",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Marlon Mack",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Marqise Lee",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Marquise Goodwin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Marshawn Lynch",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Marvin Jones",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Matt Breida",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Matt Bryant",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Matt Prater",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Matt Ryan",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Melvin Gordon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Michael Crabtree",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Mike Evans",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Mike Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Mitch Trubisky",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Mohamed Sanu",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Nelson Agholor",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Patriots",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Peyton Barber",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Philip Rivers",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Pierre Garcon",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Rams",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Randall Cobb",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Rashaad Penny",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Ravens",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Rex Burkhead",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Ricky Seals-Jones",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Rishard Matthews",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Rob Gronkowski",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Robbie Chosen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Robbie Gould",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Robert Woods",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Ronald Jones",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Royce Freeman",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Samaje Perine",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Sammy Watkins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Sony Michel",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2018,
+      "player": "Steelers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Stephen Gostkowski",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "T.Y. Hilton",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Tarik Cohen",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Ted Ginn",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Tevin Coleman",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Texans",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Theo Riddick",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Titans",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Todd Gurley",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Tom Brady",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Trey Burton",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Ty Montgomery",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Tyler Eifert",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Tyrell Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Vikings",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Wil Lutz",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Will Fuller",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2018,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "A.J. Green",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Aaron Jones",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Adrian Peterson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Alexander Mattison",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "Allen Robinson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Alshon Jeffery",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Anthony Miller",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Antonio Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Austin Hooper",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Bears",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Ben Roethlisberger",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Bills",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Brett Maher",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Broncos",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Cam Newton",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Carson Wentz",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Chargers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Chris Carson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Chris Godwin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Chris Thompson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Colts",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Corey Davis",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Cowboys",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Curtis Samuel",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Damien Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Dante Pettis",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Darrell Henderson Jr.",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "Darwin Thompson",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "Davante Adams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "David Johnson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "David Montgomery",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "David Njoku",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Dede Westbrook",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Deebo Samuel",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "Delanie Walker",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Derrius Guice",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "DeSean Jackson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Devin Funchess",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "Devonta Freeman",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Dion Lewis",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "DJ Moore",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Donte Moncrief",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Drew Brees",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Duke Johnson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Eagles",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Eddy Pineiro",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Emmanuel Sanders",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Eric Ebron",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Evan Engram",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "George Kittle",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Geronimo Allison",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Golden Tate",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Greg Zuerlein",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Harrison Butker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Ito Smith",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jaguars",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jake Elliott",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jameis Winston",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "James Conner",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "James White",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jamison Crowder",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jared Cook",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jared Goff",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jarvis Landry",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jaylen Samuels",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jimmy Garoppolo",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jimmy Graham",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "John Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Howard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Jordan Reed",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Josh Allen",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Josh Gordon",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Julian Edelman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Julio Jones",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Justin Tucker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Ka'imi Fairbairn",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Kalen Ballage",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Keke Coutee",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Kenny Golladay",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Kenyan Drake",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Kerryon Johnson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Kyle Rudolph",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Larry Fitzgerald",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Latavius Murray",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Le'Veon Bell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "LeSean McCoy",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Mark Ingram",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Marlon Mack",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Marqise Lee",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Marquise Brown",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "Marquise Goodwin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Marvin Jones",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Mason Crosby",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Matt Breida",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Matt Ryan",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Mecole Hardman",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "Melvin Gordon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Michael Gallup",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Mike Badgley",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Mike Evans",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Mike Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Miles Sanders",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "Mitch Trubisky",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Mohamed Sanu",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Nelson Agholor",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Nyheim Miller-Hines",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "O.J. Howard",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Patriots",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Peyton Barber",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Philip Rivers",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Phillip Lindsay",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Rams",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Rashaad Penny",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Ravens",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Robbie Chosen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Robbie Gould",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Robert Woods",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Royce Freeman",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Saints",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Sam Darnold",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Sammy Watkins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Sony Michel",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Stephen Gostkowski",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "isRookie": true
+    },
+    {
+      "season": 2019,
+      "player": "T.Y. Hilton",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Tarik Cohen",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Tevin Coleman",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Texans",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Todd Gurley",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Tom Brady",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Tyrell Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Vance McDonald",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Vikings",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Wil Lutz",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Will Fuller",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2019,
+      "player": "Zay Jones",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "49ers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "A.J. Green",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Aaron Jones",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Adam Trautman",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "AJ Dillon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Allen Robinson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Antonio Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Antonio Gibson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Bills",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Brandon Aiyuk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Broncos",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Buccaneers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Cairo Santos",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Chase Claypool",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Chase Edmonds",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Chris Carson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Chris Godwin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Cole Beasley",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Colts",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Commanders",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Corey Davis",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Curtis Samuel",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Damien Harris",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Darnell Mooney",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Darrell Henderson Jr.",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Darren Waller",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Davante Adams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "David Johnson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "David Montgomery",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Deebo Samuel",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Derek Carr",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Diontae Johnson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "DJ Chark",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "DJ Moore",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Elijah Moore",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Emmanuel Sanders",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Eric Ebron",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Evan Engram",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "George Kittle",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Greg Zuerlein",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Gus Edwards",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Harrison Butker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Henry Ruggs III",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Irv Smith",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "J.D. McKissic",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Jalen Reagor",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Jamaal Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "James Conner",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "James Robinson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "James White",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Jamison Crowder",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Jared Cook",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Jarvis Landry",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Jason Sanders",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Javonte Williams",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Joe Burrow",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "John Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Jonnu Smith",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Josh Allen",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Julio Jones",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Justin Fields",
+      "position": "QB",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Justin Herbert",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Justin Tucker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Kenny Golladay",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Kenyan Drake",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Kyle Pitts",
+      "position": "TE",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Latavius Murray",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Laviska Shenault Jr.",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Logan Thomas",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Marquise Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Marvin Jones",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Mason Crosby",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Matt Ryan",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Mecole Hardman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Melvin Gordon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Michael Carter",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Michael Gallup",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Michael Pittman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Mike Davis",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Mike Evans",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Mike Gesicki",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Mike Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Miles Sanders",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Myles Gaskin",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Najee Harris",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Noah Fant",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Panthers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Patriots",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Phillip Lindsay",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Rams",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Ravens",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Rob Gronkowski",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Robbie Chosen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Robbie Gould",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Robert Tonyan",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Robert Woods",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Rodney Adams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Rodrigo Blankenship",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Ronald Jones",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Russell Gage",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Ryan Succop",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Ryan Tannehill",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Saints",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Steelers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "T.Y. Hilton",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Tarik Cohen",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Tee Higgins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Tom Brady",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Travis Etienne",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Trey Lance",
+      "position": "QB",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Trey Sermon",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2021,
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Bass",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Higbee",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Wil Lutz",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Will Fuller",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Younghoe Koo",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2021,
+      "player": "Zack Moss",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "49ers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Aaron Jones",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "AJ Dillon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Alexander Mattison",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Allen Lazard",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Allen Robinson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Antonio Gibson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Austin Hooper",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Bills",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Brandon Aiyuk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Breece Hall",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Brian Robinson Jr.",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Broncos",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Browns",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Buccaneers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Cam Akers",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Chase Claypool",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Chase Edmonds",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Chris Godwin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Chris Olave",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Cole Kmet",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Colts",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Cordarrelle Patterson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Dalton Schultz",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Dameon Pierce",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Damien Harris",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Daniel Carlson",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Darnell Mooney",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Darrel Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Darrell Henderson Jr.",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Darren Waller",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Davante Adams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "David Montgomery",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "David Njoku",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Dawson Knox",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Deebo Samuel",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Derek Carr",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "DeVante Parker",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Diontae Johnson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "DJ Moore",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Drake London",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Dustin Hopkins",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Elijah Mitchell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Elijah Moore",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Evan Engram",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Evan McPherson",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Gabe Davis",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "George Kittle",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "George Pickens",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Gerald Everett",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Greg Joseph",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Harrison Butker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Hunter Renfrow",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Irv Smith",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Isaiah McKenzie",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Isaiah Spiller",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Isiah Pacheco",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "J.D. McKissic",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Jahan Dotson",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "James Conner",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "James Cook",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "James Robinson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Javonte Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Joe Burrow",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Josh Allen",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Julio Jones",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Justin Herbert",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Justin Tucker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Kadarius Toney",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Kareem Hunt",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Kenneth Gainwell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Kenneth Walker III",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Khalil Herbert",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Kyle Pitts",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Mark Ingram",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Marquise Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Marvin Jones",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Matt Breida",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Matt Gay",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Matt Prater",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Melvin Gordon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Michael Carter",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Michael Pittman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Mike Evans",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Mike Gesicki",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Mike Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Miles Sanders",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Mitch Trubisky",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Najee Harris",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Nick Folk",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Nyheim Miller-Hines",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Packers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Patriots",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Rams",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Rashaad Penny",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Ravens",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Robbie Gould",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Robert Woods",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Rodrigo Blankenship",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Romeo Doubs",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Rondale Moore",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Russell Gage",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Ryan Tannehill",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Saints",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Skyy Moore",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Taysom Hill",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Tee Higgins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Titans",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Tom Brady",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Travis Etienne",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Trey Lance",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Treylon Burks",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Allgeier",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Bass",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Higbee",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2022,
+      "player": "Zamir White",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "49ers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Aaron Jones",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "AJ Dillon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Alexander Mattison",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Allen Lazard",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Anthony Richardson",
+      "position": "QB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Antonio Gibson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Austin Watkins Jr.",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Bears",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Bills",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Brandon Aiyuk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Brandon Aubrey",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Breece Hall",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Brian Robinson Jr.",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Brock Purdy",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Broncos",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Cairo Santos",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Cam Akers",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Chase Brown",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Chiefs",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Chigoziem Okonkwo",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Chris Godwin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Chris Olave",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Christian Watson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Cole Kmet",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Cowboys",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "D'Onta Foreman",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Dalton Kincaid",
+      "position": "TE",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Dalton Schultz",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Dameon Pierce",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Damien Harris",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Daniel Carlson",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Daniel Jones",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Darnell Mooney",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Darren Waller",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Davante Adams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "David Montgomery",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "David Njoku",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "De'Von Achane",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Deebo Samuel",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Diontae Johnson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "DJ Moore",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Dolphins",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Drake London",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Eagles",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Elijah Mitchell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Evan Engram",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Evan McPherson",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Gabe Davis",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Garrett Wilson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Geno Smith",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "George Kittle",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "George Pickens",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Gerald Everett",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Graham Gano",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Greg Dulcich",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Greg Zuerlein",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Gus Edwards",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Harrison Butker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Hunter Renfrow",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Isiah Pacheco",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jahan Dotson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Jake Elliott",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jamaal Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "James Conner",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "James Cook",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jared Goff",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jason Myers",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Javonte Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jaylen Warren",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jeff Wilson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jerick McKinnon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jets",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Joe Burrow",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Jordan Addison",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Josh Allen",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "JuJu Smith-Schuster",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Justin Fields",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Justin Herbert",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Justin Tucker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Juwan Johnson",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Kenneth Gainwell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Kenneth Walker III",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Kenny Pickett",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Khalil Herbert",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Kyle Pitts",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Marquise Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Michael Pittman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Michael Thomas",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Mike Evans",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Mike Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Miles Sanders",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Najee Harris",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Nico Collins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Odell Beckham Jr.",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Quentin Johnston",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Rachaad White",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Rashaad Penny",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Ravens",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Romeo Doubs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Roschon Johnson",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Russell Wilson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Saints",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Sam LaPorta",
+      "position": "TE",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Samaje Perine",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Skyy Moore",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Steelers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Tank Bigsby",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Tee Higgins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Travis Etienne",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Treylon Burks",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Ty Chandler",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Tyjae Spears",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Allgeier",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Bass",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Boyd",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Higbee",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Younghoe Koo",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2023,
+      "player": "Zach Charbonnet",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2023,
+      "player": "Zay Flowers",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "49ers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Aaron Jones",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Amari Cooper",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Anthony Richardson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Antonio Gibson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Bears",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Bengals",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Bills",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Blake Corum",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Brandon Aiyuk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Brandon Aubrey",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Breece Hall",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Brian Robinson Jr.",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Brian Thomas Jr.",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Brock Bowers",
+      "position": "TE",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Brock Purdy",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Browns",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "C.J. Stroud",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Cairo Santos",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Caleb Williams",
+      "position": "QB",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Chargers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Chase Brown",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Chiefs",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Chris Godwin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Chris Olave",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Christian Watson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Cole Kmet",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Cowboys",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Curtis Samuel",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Dalton Kincaid",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Dalton Schultz",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Davante Adams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "David Montgomery",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "David Njoku",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "De'Von Achane",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Deebo Samuel",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Devin Singletary",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Diontae Johnson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "DJ Moore",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Drake London",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Eagles",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Elijah Mitchell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Evan Engram",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Evan McPherson",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Garrett Wilson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Geno Smith",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "George Kittle",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "George Pickens",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Gus Edwards",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Harrison Butker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Isiah Pacheco",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jake Elliott",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jake Ferguson",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jake Moody",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jaleel McLaughlin",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "James Conner",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "James Cook",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jameson Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jared Goff",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jason Myers",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jason Sanders",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Javonte Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jayden Daniels",
+      "position": "QB",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Jayden Reed",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jaylen Warren",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jaylen Wright",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Jerome Ford",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jets",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Joe Burrow",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jonathon Brooks",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Addison",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Jordan Love",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Josh Allen",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Josh Palmer",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Joshua Karty",
+      "position": "K",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Justin Herbert",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Justin Tucker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Ka'imi Fairbairn",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Kenneth Gainwell",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Kenneth Walker III",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Keon Coleman",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Khalil Herbert",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Khalil Shakir",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Kimani Vidal",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Kyle Pitts",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Kyren Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Ladd McConkey",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Luke Musgrave",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Malik Nabers",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Marquise Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "MarShawn Lloyd",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Marvin Harrison Jr.",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Michael Pittman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Mike Evans",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Mike Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Najee Harris",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Nico Collins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Puka Nacua",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Rachaad White",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Rashee Rice",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Rashid Shaheed",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Ravens",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Rico Dowdle",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Rome Odunze",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Romeo Doubs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Sam LaPorta",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Steelers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tank Dell",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tee Higgins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Travis Etienne",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Trey Benson",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Trey McBride",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Ty Chandler",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tyjae Spears",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Allgeier",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Bass",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Xavier Worthy",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2024,
+      "player": "Younghoe Koo",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Zach Charbonnet",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Zack Moss",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Zamir White",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2024,
+      "player": "Zay Flowers",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "49ers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "A.J. Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Aaron Jones",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Adam Thielen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Ashton Jeanty",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Bears",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Bhayshul Tuten",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Bills",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Bo Nix",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Braelon Allen",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Brandon Aiyuk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Brandon Aubrey",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Breece Hall",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Brenton Strange",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Brian Thomas Jr.",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Brock Bowers",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Brock Purdy",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Broncos",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Bucky Irving",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "C.J. Stroud",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Caleb Williams",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Cam Little",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Cam Skattebo",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Cameron Dicker",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Cardinals",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Chargers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Chase Brown",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Chase McLaughlin",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Chiefs",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Chris Godwin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Chris Olave",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Christian Kirk",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Cole Kmet",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Colston Loveland",
+      "position": "TE",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Dak Prescott",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Dalton Kincaid",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Darnell Mooney",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Darren Waller",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Davante Adams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "David Montgomery",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "David Njoku",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "De'Von Achane",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Deebo Samuel",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Derrick Henry",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "DJ Giddens",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "DJ Moore",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "DK Metcalf",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Drake London",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Drake Maye",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Eagles",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Emeka Egbuka",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Evan Engram",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Evan McPherson",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Garrett Wilson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "George Kittle",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "George Pickens",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Hunter Henry",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Isaac Guerendo",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Isiah Pacheco",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "J.J. McCarthy",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jacory Croskey-Merritt",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jake Bates",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jake Elliott",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jake Ferguson",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "James Conner",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "James Cook",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jameson Williams",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jared Goff",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jason Sanders",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jauan Jennings",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Javonte Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jayden Daniels",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jayden Reed",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jaydon Blue",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jaylen Warren",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jerome Ford",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jets",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Joe Burrow",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Joe Mixon",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jordan Addison",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jordan Love",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Jordan Mason",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Josh Allen",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Josh Downs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Justin Fields",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Justin Herbert",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Ka'imi Fairbairn",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Kaleb Johnson",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Keenan Allen",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Kenneth Walker III",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Keon Coleman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Khalil Shakir",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Kyle Williams",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Kyler Murray",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Kyren Williams",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Ladd McConkey",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Luther Burden III",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Malik Nabers",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Mark Andrews",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Marvin Harrison Jr.",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Matt Gay",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Matthew Golden",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Michael Pittman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Mike Evans",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Najee Harris",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Nick Chubb",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Nico Collins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Ollie Gordon II",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Omarion Hampton",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Puka Nacua",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Quinshon Judkins",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Rachaad White",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Rams",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Rashee Rice",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Rashid Shaheed",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Ravens",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Ricky Pearsall",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "RJ Harvey",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Rome Odunze",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Sam LaPorta",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Steelers",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Tank Bigsby",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Tee Higgins",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Tetairoa McMillan",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Tony Pollard",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Travis Etienne",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Travis Hunter",
+      "position": "WR",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Travis Kelce",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "TreVeyon Henderson",
+      "position": "RB",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Trey McBride",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Tucker Kraft",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Tyler Bass",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Tyler Warren",
+      "position": "TE",
+      "isRookie": true
+    },
+    {
+      "season": 2025,
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Vikings",
+      "position": "DST",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Wan'Dale Robinson",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Wil Lutz",
+      "position": "K",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Xavier Worthy",
+      "position": "WR",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Zach Charbonnet",
+      "position": "RB",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Zach Ertz",
+      "position": "TE",
+      "isRookie": false
+    },
+    {
+      "season": 2025,
+      "player": "Zay Flowers",
+      "position": "WR",
+      "isRookie": false
+    }
+  ]
+}

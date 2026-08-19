@@ -4113,7 +4113,7 @@ export const generatedManagers: ManagerProfile[] = [
     "preferredPositions": [
       "RB",
       "WR",
-      "TE"
+      "QB"
     ],
     "historicalDrafts": [
       {
@@ -4707,6 +4707,16 @@ export const generatedManagers: ManagerProfile[] = [
         "wasKeeper": false
       },
       {
+        "season": 2022,
+        "round": 15,
+        "pickInRound": 7,
+        "overallPick": 175,
+        "player": "Taysom Hill",
+        "position": "QB",
+        "isRookie": false,
+        "wasKeeper": false
+      },
+      {
         "season": 2023,
         "round": 1,
         "pickInRound": 10,
@@ -5159,13 +5169,13 @@ export const generatedManagers: ManagerProfile[] = [
     ],
     "keepers": [],
     "seasonsTracked": 7,
-    "totalHistoricalPicks": 104,
+    "totalHistoricalPicks": 105,
     "positionRates": {
-      "QB": 0.125,
-      "RB": 0.327,
-      "WR": 0.269,
-      "TE": 0.135,
-      "K": 0.077,
+      "QB": 0.133,
+      "RB": 0.324,
+      "WR": 0.267,
+      "TE": 0.133,
+      "K": 0.076,
       "DST": 0.067
     },
     "earlyRoundPositionRates": {
@@ -5182,8 +5192,8 @@ export const generatedManagers: ManagerProfile[] = [
     "valueRate": 0,
     "earlyQbRate": 0.086,
     "earlyTeRate": 0.086,
-    "rbHeavyRate": 0.327,
-    "wrHeavyRate": 0.269,
+    "rbHeavyRate": 0.324,
+    "wrHeavyRate": 0.267,
     "teamBias": {},
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
@@ -5194,7 +5204,7 @@ export const generatedManagers: ManagerProfile[] = [
     "earlyRoundRookieRate": 0,
     "keeperRate": 0,
     "aggressionScore": 50,
-    "predictabilityScore": 32.7
+    "predictabilityScore": 32.4
   },
   {
     "id": 6,

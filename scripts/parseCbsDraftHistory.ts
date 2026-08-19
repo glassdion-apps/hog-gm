@@ -15,14 +15,12 @@ export type ParsedCbsDraftPick = {
 
     player: string
     position: ManagerPosition
-    team?: string
 }
 
 export type ParsedCbsSeason = {
     season: number
 
     managerNames: string[]
-
     draftOrder: string[]
 
     picks: ParsedCbsDraftPick[]
@@ -61,42 +59,15 @@ function decodeHtmlEntities(
     value: string,
 ) {
     return value
-        .replace(
-            /&nbsp;/gi,
-            ' ',
-        )
-        .replace(
-            /&#160;/gi,
-            ' ',
-        )
-        .replace(
-            /&amp;/gi,
-            '&',
-        )
-        .replace(
-            /&quot;/gi,
-            '"',
-        )
-        .replace(
-            /&#39;/gi,
-            "'",
-        )
-        .replace(
-            /&apos;/gi,
-            "'",
-        )
-        .replace(
-            /&#x27;/gi,
-            "'",
-        )
-        .replace(
-            /&lt;/gi,
-            '<',
-        )
-        .replace(
-            /&gt;/gi,
-            '>',
-        )
+        .replace(/&nbsp;/gi, ' ')
+        .replace(/&#160;/gi, ' ')
+        .replace(/&amp;/gi, '&')
+        .replace(/&quot;/gi, '"')
+        .replace(/&#39;/gi, "'")
+        .replace(/&apos;/gi, "'")
+        .replace(/&#x27;/gi, "'")
+        .replace(/&lt;/gi, '<')
+        .replace(/&gt;/gi, '>')
 }
 
 function stripTags(
@@ -141,13 +112,6 @@ function stripTags(
 function extractHtmlFromMhtml(
     raw: string,
 ) {
-    /*
-     * The CBS snapshot contains a text/html
-     * MIME section plus images/css/etc.
-     *
-     * Find all HTML sections and keep the
-     * largest valid one.
-     */
     const sections =
         raw.split(
             /\r?\n--[-_=A-Za-z0-9]+/g,
@@ -242,10 +206,6 @@ function extractHtmlFromMhtml(
             )[0]
     }
 
-    /*
-     * Fallback for snapshots where the
-     * HTML is effectively inline.
-     */
     return decodeQuotedPrintable(
         raw,
     )
@@ -253,7 +213,7 @@ function extractHtmlFromMhtml(
 
 /*
  * ---------------------------------------------------------
- * POSITION / TEAM
+ * POSITION
  * ---------------------------------------------------------
  */
 
@@ -284,70 +244,6 @@ function normalizePosition(
     }
 
     return null
-}
-
-const nflTeams =
-    new Set([
-        'ARI',
-        'ATL',
-        'BAL',
-        'BUF',
-        'CAR',
-        'CHI',
-        'CIN',
-        'CLE',
-        'DAL',
-        'DEN',
-        'DET',
-        'GB',
-        'HOU',
-        'IND',
-        'JAC',
-        'JAX',
-        'KC',
-        'LV',
-        'LAC',
-        'LAR',
-        'MIA',
-        'MIN',
-        'NE',
-        'NO',
-        'NYG',
-        'NYJ',
-        'PHI',
-        'PIT',
-        'SEA',
-        'SF',
-        'TB',
-        'TEN',
-        'WAS',
-    ])
-
-function normalizeNflTeam(
-    raw: string | undefined,
-) {
-    if (!raw) {
-        return undefined
-    }
-
-    const value =
-        raw
-            .trim()
-            .toUpperCase()
-
-    if (
-        !nflTeams.has(
-            value,
-        )
-    ) {
-        return undefined
-    }
-
-    return (
-        value === 'JAX'
-            ? 'JAC'
-            : value
-    )
 }
 
 /*
@@ -441,53 +337,24 @@ function extractPlayerName(
     )
 }
 
-function extractPositionAndTeam(
+function extractPosition(
     playerCellHtml: string,
 ) {
-    /*
-     * CBS has changed this markup over the years.
-     *
-     * Position is usually inside the
-     * playerPositionAndTeam span, while the NFL
-     * team may be separated by punctuation,
-     * nested markup, or CBS-specific text.
-     *
-     * Rather than assuming "RB LAR", inspect all
-     * visible text in the player cell.
-     */
-
     const positionTeamMatch =
         playerCellHtml.match(
             /class=["'][^"']*playerPositionAndTeam[^"']*["'][^>]*>([\s\S]*?)<\/span>/i,
         )
 
-    const positionSource =
-        positionTeamMatch
-            ? stripTags(
-                positionTeamMatch[1] ?? '',
-            )
-            : stripTags(
-                playerCellHtml,
-            )
+    if (
+        !positionTeamMatch
+    ) {
+        return null
+    }
 
-    const positionMatch =
-        positionSource.match(
-            /\b(QB|RB|WR|TE|K|DST|D\/ST|DEF)\b/i,
-        )
-
-    const position =
-        normalizePosition(
-            positionMatch?.[1] ?? '',
-        )
-
-    /*
-     * Search the complete player cell for an NFL
-     * abbreviation instead of assuming it is the
-     * second whitespace-delimited token.
-     */
-    const visiblePlayerText =
+    const raw =
         stripTags(
-            playerCellHtml,
+            positionTeamMatch[1] ??
+            '',
         )
             .replace(
                 /â€¢/g,
@@ -511,47 +378,15 @@ function extractPositionAndTeam(
             )
             .trim()
 
-    /*
-     * Team aliases CBS has used historically.
-     */
-    const teamPattern =
-        /\b(ARI|ATL|BAL|BUF|CAR|CHI|CIN|CLE|DAL|DEN|DET|GB|HOU|IND|JAC|JAX|KC|LV|LAC|LAR|MIA|MIN|NE|NO|NYG|NYJ|PHI|PIT|SEA|SF|TB|TEN|WAS|OAK|SD|STL)\b/i
-
-    const teamMatch =
-        visiblePlayerText.match(
-            teamPattern,
+    const positionMatch =
+        raw.match(
+            /\b(QB|RB|WR|TE|K|DST|D\/ST|DEF)\b/i,
         )
 
-    let rawTeam =
-        teamMatch?.[1]
-            ?.toUpperCase()
-
-    /*
-     * Normalize historical franchise
-     * abbreviations into the modern abbreviation
-     * Honda uses everywhere else.
-     */
-    if (rawTeam === 'OAK') {
-        rawTeam = 'LV'
-    }
-
-    if (rawTeam === 'SD') {
-        rawTeam = 'LAC'
-    }
-
-    if (rawTeam === 'STL') {
-        rawTeam = 'LAR'
-    }
-
-    const team =
-        normalizeNflTeam(
-            rawTeam,
-        )
-
-    return {
-        position,
-        team,
-    }
+    return normalizePosition(
+        positionMatch?.[1] ??
+        '',
+    )
 }
 
 function parseRound(
@@ -563,15 +398,6 @@ function parseRound(
     const picks:
         ParsedCbsDraftPick[] = []
 
-    /*
-     * CBS actual draft rows use:
-     *
-     * row1
-     * row2
-     * bgFan
-     *
-     * bgFan is the logged-in manager's row.
-     */
     const rows =
         Array.from(
             roundHtml.matchAll(
@@ -621,11 +447,8 @@ function parseRound(
                 playerCell,
             )
 
-        const {
-            position,
-            team,
-        } =
-            extractPositionAndTeam(
+        const position =
+            extractPosition(
                 playerCell,
             )
 
@@ -659,7 +482,6 @@ function parseRound(
 
             player,
             position,
-            team,
         })
     }
 
@@ -806,11 +628,6 @@ export function parseCbsDraftFile(
         )
     }
 
-    /*
-     * Parse Round 1 with a temporary league
-     * size. Overall pick equals pickInRound
-     * in Round 1 anyway.
-     */
     const temporaryRoundOnePicks =
         parseRound(
             season,
@@ -888,11 +705,8 @@ export function parseCbsDraftFile(
 
     return {
         season,
-
         managerNames,
-
         draftOrder,
-
         picks,
     }
 }

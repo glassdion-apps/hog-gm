@@ -1,0 +1,435 @@
+{
+  "generatedAt": "2026-08-19T14:52:37.675Z",
+  "source": "https://github.com/nflverse/nflverse-data/releases/download/draft_picks/draft_picks.csv",
+  "seasons": [
+    2018,
+    2019,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "rookies": [
+    {
+      "season": 2018,
+      "player": "Anthony Miller"
+    },
+    {
+      "season": 2018,
+      "player": "Calvin Ridley"
+    },
+    {
+      "season": 2018,
+      "player": "Courtland Sutton"
+    },
+    {
+      "season": 2018,
+      "player": "DJ Moore"
+    },
+    {
+      "season": 2018,
+      "player": "Kerryon Johnson"
+    },
+    {
+      "season": 2018,
+      "player": "Rashaad Penny"
+    },
+    {
+      "season": 2018,
+      "player": "Ronald Jones"
+    },
+    {
+      "season": 2018,
+      "player": "Royce Freeman"
+    },
+    {
+      "season": 2018,
+      "player": "Saquon Barkley"
+    },
+    {
+      "season": 2018,
+      "player": "Sony Michel"
+    },
+    {
+      "season": 2019,
+      "player": "Alexander Mattison"
+    },
+    {
+      "season": 2019,
+      "player": "Darrell Henderson Jr."
+    },
+    {
+      "season": 2019,
+      "player": "Darwin Thompson"
+    },
+    {
+      "season": 2019,
+      "player": "David Montgomery"
+    },
+    {
+      "season": 2019,
+      "player": "Deebo Samuel"
+    },
+    {
+      "season": 2019,
+      "player": "Devin Singletary"
+    },
+    {
+      "season": 2019,
+      "player": "Josh Jacobs"
+    },
+    {
+      "season": 2019,
+      "player": "Kyler Murray"
+    },
+    {
+      "season": 2019,
+      "player": "Marquise Brown"
+    },
+    {
+      "season": 2019,
+      "player": "Mecole Hardman"
+    },
+    {
+      "season": 2019,
+      "player": "Miles Sanders"
+    },
+    {
+      "season": 2019,
+      "player": "T.J. Hockenson"
+    },
+    {
+      "season": 2021,
+      "player": "Chuba Hubbard"
+    },
+    {
+      "season": 2021,
+      "player": "DeVonta Smith"
+    },
+    {
+      "season": 2021,
+      "player": "Elijah Moore"
+    },
+    {
+      "season": 2021,
+      "player": "Ja'Marr Chase"
+    },
+    {
+      "season": 2021,
+      "player": "Javonte Williams"
+    },
+    {
+      "season": 2021,
+      "player": "Jaylen Waddle"
+    },
+    {
+      "season": 2021,
+      "player": "Justin Fields"
+    },
+    {
+      "season": 2021,
+      "player": "Kyle Pitts"
+    },
+    {
+      "season": 2021,
+      "player": "Michael Carter"
+    },
+    {
+      "season": 2021,
+      "player": "Najee Harris"
+    },
+    {
+      "season": 2021,
+      "player": "Travis Etienne"
+    },
+    {
+      "season": 2021,
+      "player": "Trevor Lawrence"
+    },
+    {
+      "season": 2021,
+      "player": "Trey Lance"
+    },
+    {
+      "season": 2021,
+      "player": "Trey Sermon"
+    },
+    {
+      "season": 2022,
+      "player": "Breece Hall"
+    },
+    {
+      "season": 2022,
+      "player": "Brian Robinson Jr."
+    },
+    {
+      "season": 2022,
+      "player": "Chris Olave"
+    },
+    {
+      "season": 2022,
+      "player": "Dameon Pierce"
+    },
+    {
+      "season": 2022,
+      "player": "Drake London"
+    },
+    {
+      "season": 2022,
+      "player": "George Pickens"
+    },
+    {
+      "season": 2022,
+      "player": "Isaiah Spiller"
+    },
+    {
+      "season": 2022,
+      "player": "Isiah Pacheco"
+    },
+    {
+      "season": 2022,
+      "player": "Jahan Dotson"
+    },
+    {
+      "season": 2022,
+      "player": "James Cook"
+    },
+    {
+      "season": 2022,
+      "player": "Kenneth Walker III"
+    },
+    {
+      "season": 2022,
+      "player": "Romeo Doubs"
+    },
+    {
+      "season": 2022,
+      "player": "Skyy Moore"
+    },
+    {
+      "season": 2022,
+      "player": "Treylon Burks"
+    },
+    {
+      "season": 2022,
+      "player": "Tyler Allgeier"
+    },
+    {
+      "season": 2022,
+      "player": "Zamir White"
+    },
+    {
+      "season": 2023,
+      "player": "Anthony Richardson"
+    },
+    {
+      "season": 2023,
+      "player": "Bijan Robinson"
+    },
+    {
+      "season": 2023,
+      "player": "Chase Brown"
+    },
+    {
+      "season": 2023,
+      "player": "Dalton Kincaid"
+    },
+    {
+      "season": 2023,
+      "player": "De'Von Achane"
+    },
+    {
+      "season": 2023,
+      "player": "Jahmyr Gibbs"
+    },
+    {
+      "season": 2023,
+      "player": "Jaxon Smith-Njigba"
+    },
+    {
+      "season": 2023,
+      "player": "Jordan Addison"
+    },
+    {
+      "season": 2023,
+      "player": "Quentin Johnston"
+    },
+    {
+      "season": 2023,
+      "player": "Roschon Johnson"
+    },
+    {
+      "season": 2023,
+      "player": "Sam LaPorta"
+    },
+    {
+      "season": 2023,
+      "player": "Tank Bigsby"
+    },
+    {
+      "season": 2023,
+      "player": "Tyjae Spears"
+    },
+    {
+      "season": 2023,
+      "player": "Zach Charbonnet"
+    },
+    {
+      "season": 2023,
+      "player": "Zay Flowers"
+    },
+    {
+      "season": 2024,
+      "player": "Blake Corum"
+    },
+    {
+      "season": 2024,
+      "player": "Brian Thomas Jr."
+    },
+    {
+      "season": 2024,
+      "player": "Brock Bowers"
+    },
+    {
+      "season": 2024,
+      "player": "Caleb Williams"
+    },
+    {
+      "season": 2024,
+      "player": "Jayden Daniels"
+    },
+    {
+      "season": 2024,
+      "player": "Jaylen Wright"
+    },
+    {
+      "season": 2024,
+      "player": "Jonathon Brooks"
+    },
+    {
+      "season": 2024,
+      "player": "Joshua Karty"
+    },
+    {
+      "season": 2024,
+      "player": "Keon Coleman"
+    },
+    {
+      "season": 2024,
+      "player": "Kimani Vidal"
+    },
+    {
+      "season": 2024,
+      "player": "Ladd McConkey"
+    },
+    {
+      "season": 2024,
+      "player": "Malik Nabers"
+    },
+    {
+      "season": 2024,
+      "player": "MarShawn Lloyd"
+    },
+    {
+      "season": 2024,
+      "player": "Marvin Harrison Jr."
+    },
+    {
+      "season": 2024,
+      "player": "Rome Odunze"
+    },
+    {
+      "season": 2024,
+      "player": "Trey Benson"
+    },
+    {
+      "season": 2024,
+      "player": "Tyrone Tracy Jr."
+    },
+    {
+      "season": 2024,
+      "player": "Xavier Worthy"
+    },
+    {
+      "season": 2025,
+      "player": "Ashton Jeanty"
+    },
+    {
+      "season": 2025,
+      "player": "Bhayshul Tuten"
+    },
+    {
+      "season": 2025,
+      "player": "Cam Skattebo"
+    },
+    {
+      "season": 2025,
+      "player": "Colston Loveland"
+    },
+    {
+      "season": 2025,
+      "player": "DJ Giddens"
+    },
+    {
+      "season": 2025,
+      "player": "Emeka Egbuka"
+    },
+    {
+      "season": 2025,
+      "player": "Jacory Croskey-Merritt"
+    },
+    {
+      "season": 2025,
+      "player": "Jaydon Blue"
+    },
+    {
+      "season": 2025,
+      "player": "Kaleb Johnson"
+    },
+    {
+      "season": 2025,
+      "player": "Kyle Williams"
+    },
+    {
+      "season": 2025,
+      "player": "Luther Burden III"
+    },
+    {
+      "season": 2025,
+      "player": "Matthew Golden"
+    },
+    {
+      "season": 2025,
+      "player": "Ollie Gordon II"
+    },
+    {
+      "season": 2025,
+      "player": "Omarion Hampton"
+    },
+    {
+      "season": 2025,
+      "player": "Quinshon Judkins"
+    },
+    {
+      "season": 2025,
+      "player": "RJ Harvey"
+    },
+    {
+      "season": 2025,
+      "player": "Tetairoa McMillan"
+    },
+    {
+      "season": 2025,
+      "player": "Travis Hunter"
+    },
+    {
+      "season": 2025,
+      "player": "TreVeyon Henderson"
+    },
+    {
+      "season": 2025,
+      "player": "Tyler Warren"
+    }
+  ]
+}
