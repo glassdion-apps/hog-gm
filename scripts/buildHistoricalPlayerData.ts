@@ -4,14 +4,11 @@ import path from 'node:path'
 type HistoricalManagerPick = {
     manager: string
     season: number
-
     round: number
     pickInRound: number
     overallPick: number
-
     player: string
     position: string
-
     team?: string
     publicAdp?: number
     isRookie?: boolean
@@ -28,32 +25,25 @@ type ManagerHistoryFile = {
 type HistoricalPlayerRecord = {
     season: number
     player: string
-
     position?: string
     team?: string
-
     publicAdp?: number
     isRookie?: boolean
 }
 
 type HistoricalPlayerDataFile = {
     generatedAt: string
-
     seasons: number[]
-
     records: HistoricalPlayerRecord[]
 }
 
 type SeasonInputRecord = {
     season?: number
     player: string
-
     position?: string
     team?: string
-
     publicAdp?: number
     isRookie?: boolean
-
     adpSource?: string
 }
 
@@ -221,6 +211,14 @@ const outputPath =
         'historical-player-data.json',
     )
 
+const frontendOutputPath =
+    path.join(
+        projectRoot,
+        'src',
+        'data',
+        'historical-player-data.json',
+    )
+
 /*
  * ---------------------------------------------------------
  * READ MANAGER HISTORY
@@ -290,23 +288,6 @@ function readSeasonEnrichment(
         | SeasonEnrichmentFile
         | SeasonInputRecord[]
 
-    /*
-     * Support both formats:
-     *
-     * Old:
-     * [
-     *   { player, publicAdp, ... }
-     * ]
-     *
-     * New importer:
-     * {
-     *   generatedAt,
-     *   season,
-     *   source,
-     *   scoring,
-     *   records: [...]
-     * }
-     */
     if (
         Array.isArray(
             parsed,
@@ -423,19 +404,6 @@ function applySeasonEnrichment(
             HistoricalPlayerRecord |
             undefined
 
-        /*
-         * DST names differ between sources:
-         *
-         * Honda:
-         *   Broncos
-         *   49ers
-         *   Rams
-         *
-         * FantasyPros:
-         *   Denver Broncos DST
-         *   San Francisco 49ers DST
-         *   Los Angeles Rams DST
-         */
         if (
             item.position ===
             'DST'
@@ -550,6 +518,15 @@ function main() {
         },
     )
 
+    fs.mkdirSync(
+        path.dirname(
+            frontendOutputPath,
+        ),
+        {
+            recursive: true,
+        },
+    )
+
     const seasons =
         Array.from(
             new Set(
@@ -651,13 +628,21 @@ function main() {
             ),
     }
 
-    fs.writeFileSync(
-        outputPath,
+    const serialized =
         JSON.stringify(
             output,
             null,
             2,
-        ),
+        )
+
+    fs.writeFileSync(
+        outputPath,
+        serialized,
+    )
+
+    fs.writeFileSync(
+        frontendOutputPath,
+        serialized,
     )
 
     const withTeam =
@@ -724,6 +709,10 @@ function main() {
 
     console.log(
         `✅ Historical player data written to: ${outputPath}`,
+    )
+
+    console.log(
+        `✅ Frontend historical player data written to: ${frontendOutputPath}`,
     )
 }
 
