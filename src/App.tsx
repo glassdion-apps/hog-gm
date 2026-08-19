@@ -29,6 +29,9 @@ import type {
   DraftSession,
   DraftSessionIndex,
 } from './utils/draftSessionManager'
+import {
+  getHondaManagerName,
+} from './utils/hondaManager'
 
 type Page =
   | 'hub'
@@ -342,7 +345,11 @@ function App() {
         )}
         {page === 'team' && (
           <MyTeam
-            draftedPlayerNames={managerRosters['You'] ?? []}
+            draftedPlayerNames={
+              managerRosters[
+              getHondaManagerName() ?? ''
+              ] ?? []
+            }
           />
         )}
         {page === 'managers' && (

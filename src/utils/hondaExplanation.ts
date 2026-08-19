@@ -2,6 +2,8 @@ type ExplanationInput = {
     action: string
     survivalChance: number
     managerSnipeRisk: string
+    managerThreatScore: number
+    managerThreatBonus: number
     positionalScarcity: string
     rosterFit: number
     hondaEdge: number
@@ -19,6 +21,8 @@ export function getHondaExplanation({
     action,
     survivalChance,
     managerSnipeRisk,
+    managerThreatScore,
+    managerThreatBonus,
     positionalScarcity,
     rosterFit,
     hondaEdge,
@@ -34,6 +38,21 @@ export function getHondaExplanation({
     const recommendationThreats = seriousThreats.filter(
         (threat) => threat.player === recommendedPlayer,
     )
+    if (
+        recommendationThreats.length === 0 &&
+        managerThreatScore >= 0.65
+    ) {
+        bullets.push(
+            `Managers drafting before your next turn show strong historical interest in ${recommendedPlayer}'s position (+${managerThreatBonus.toFixed(1)} urgency adjustment).`,
+        )
+    } else if (
+        recommendationThreats.length === 0 &&
+        managerThreatScore >= 0.4
+    ) {
+        bullets.push(
+            `Upcoming managers create meaningful pressure at ${recommendedPlayer}'s position (+${managerThreatBonus.toFixed(1)} urgency adjustment).`,
+        )
+    }
 
     if (survivalChance < 25) {
         bullets.push(

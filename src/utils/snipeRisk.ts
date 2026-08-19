@@ -72,16 +72,78 @@ function getManagerPositionInterest(
       : 0
 
   return clamp(
-    historicalRate *
-    0.25 +
-    roundRate *
-    0.4 +
-    zoneRate *
-    0.25 +
-    staticPreference *
-    0.1,
+    historicalRate * 0.25 +
+    roundRate * 0.4 +
+    zoneRate * 0.25 +
+    staticPreference * 0.1,
     0,
     1,
+  )
+}
+
+/*
+ * Return only the selections that occur
+ * before Honda ("You") is on the clock again.
+ *
+ * We deliberately walk farther than one round
+ * because a snake turn can cause the same
+ * manager to pick again very quickly.
+ */
+function getPicksBeforeNextHondaPick(
+  managers: DraftManager[],
+  currentPickIndex: number,
+) {
+  if (managers.length === 0) {
+    return []
+  }
+
+  const maximumSearch =
+    managers.length * 2
+
+  const upcomingPicks =
+    getUpcomingSnakePicks(
+      managers,
+      currentPickIndex,
+      maximumSearch,
+    )
+
+  const picksBeforeHonda = []
+
+  for (const upcoming of upcomingPicks) {
+    if (
+      upcoming.manager.name ===
+      'You'
+    ) {
+      break
+    }
+
+    picksBeforeHonda.push(
+      upcoming,
+    )
+  }
+
+  return picksBeforeHonda
+}
+
+function getInterestScores(
+  currentPickIndex: number,
+  position: string,
+  managers: DraftManager[],
+) {
+  const upcomingPicks =
+    getPicksBeforeNextHondaPick(
+      managers,
+      currentPickIndex,
+    )
+
+  return upcomingPicks.map(
+    (upcoming) =>
+      getManagerPositionInterest(
+        upcoming.manager,
+        position,
+        upcoming.round,
+        upcoming.pickInRound,
+      ),
   )
 }
 
@@ -90,31 +152,16 @@ export function getManagerSnipeRiskScore(
   position: string,
   managers: DraftManager[],
 ) {
-  if (managers.length === 0) {
-    return 0
-  }
-
-  const upcomingPicks =
-    getUpcomingSnakePicks(
-      managers,
-      currentPickIndex,
-      managers.length - 1,
-    )
-
-  if (upcomingPicks.length === 0) {
-    return 0
-  }
-
   const interestScores =
-    upcomingPicks.map(
-      (upcoming) =>
-        getManagerPositionInterest(
-          upcoming.manager,
-          position,
-          upcoming.round,
-          upcoming.pickInRound,
-        ),
+    getInterestScores(
+      currentPickIndex,
+      position,
+      managers,
     )
+
+  if (interestScores.length === 0) {
+    return 0
+  }
 
   const averageInterest =
     interestScores.reduce(
@@ -150,46 +197,21 @@ export function getManagerSnipeRisk(
   position: string,
   managers: DraftManager[],
 ): SnipeRiskLevel {
-  if (
-    managers.length ===
-    0
-  ) {
-    return 'Low'
-  }
-
-  const upcomingPicks =
-    getUpcomingSnakePicks(
-      managers,
-      currentPickIndex,
-      managers.length - 1,
-    )
-
-  if (
-    upcomingPicks.length ===
-    0
-  ) {
-    return 'Low'
-  }
-
   const interestScores =
-    upcomingPicks.map(
-      (upcoming) =>
-        getManagerPositionInterest(
-          upcoming.manager,
-          position,
-          upcoming.round,
-          upcoming.pickInRound,
-        ),
+    getInterestScores(
+      currentPickIndex,
+      position,
+      managers,
     )
+
+  if (interestScores.length === 0) {
+    return 'Low'
+  }
 
   const averageInterest =
     interestScores.reduce(
-      (
-        total,
-        score,
-      ) =>
-        total +
-        score,
+      (total, score) =>
+        total + score,
       0,
     ) /
     interestScores.length
@@ -197,8 +219,7 @@ export function getManagerSnipeRisk(
   const strongInterestCount =
     interestScores.filter(
       (score) =>
-        score >=
-        0.5,
+        score >= 0.5,
     ).length
 
   const strongInterestRate =
@@ -206,28 +227,22 @@ export function getManagerSnipeRisk(
     interestScores.length
 
   if (
-    averageInterest >=
-    0.65 ||
-    strongInterestRate >=
-    0.75
+    averageInterest >= 0.65 ||
+    strongInterestRate >= 0.75
   ) {
     return 'Very High'
   }
 
   if (
-    averageInterest >=
-    0.45 ||
-    strongInterestRate >=
-    0.5
+    averageInterest >= 0.45 ||
+    strongInterestRate >= 0.5
   ) {
     return 'High'
   }
 
   if (
-    averageInterest >=
-    0.25 ||
-    strongInterestRate >=
-    0.25
+    averageInterest >= 0.25 ||
+    strongInterestRate >= 0.25
   ) {
     return 'Medium'
   }

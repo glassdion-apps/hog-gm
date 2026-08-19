@@ -26,6 +26,10 @@ import {
 import {
     getManagerRoundTendency,
 } from '../utils/managerRoundTendencies'
+import {
+    getHondaManagerName,
+    isHondaManager,
+} from '../utils/hondaManager'
 
 type WarRoomProps = {
     currentPickIndex: number
@@ -63,7 +67,9 @@ export default function WarRoom({
 
 
     const myRosterNames =
-        managerRosters['You'] ?? []
+        managerRosters[
+        getHondaManagerName() ?? ''
+        ] ?? []
 
     const liveRosterCounts = {
         QB: 0,
@@ -148,6 +154,7 @@ export default function WarRoom({
         getHondaRankings(
             draftedPlayerNames,
             liveRosterCounts,
+            currentPickIndex,
         )
 
     const liveRankings =
@@ -285,6 +292,11 @@ export default function WarRoom({
         action: recommendation?.action ?? 'WAIT',
         survivalChance,
         managerSnipeRisk,
+        managerThreatScore:
+            decision?.managerThreatScore ?? 0,
+
+        managerThreatBonus:
+            decision?.managerThreatBonus ?? 0,
         positionalScarcity,
         rosterFit,
         hondaEdge,
@@ -1630,7 +1642,9 @@ export default function WarRoom({
                                 manager.id === currentManager.id
 
                             const isHonda =
-                                manager.name === 'You'
+                                isHondaManager(
+                                    manager.name,
+                                )
 
                             return (
                                 <button

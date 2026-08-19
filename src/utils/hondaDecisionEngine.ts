@@ -89,6 +89,10 @@ export function getHondaDecision(
         positionalScarcity,
         survivalChance,
         managerSnipeRisk,
+        managerThreatScore:
+            topRanked.managerThreatScore,
+        managerThreatBonus:
+            topRanked.managerThreatBonus,
         rosterFit,
         liveRosterNeed,
     }
