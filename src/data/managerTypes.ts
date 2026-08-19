@@ -20,6 +20,7 @@ export type HistoricalDraftPick = {
     publicAdp?: number
     adpDifference?: number
 
+    isRookie?: boolean
     wasKeeper?: boolean
 }
 
@@ -104,6 +105,30 @@ export type ManagerProfile = {
 
     rbHeavyRate: number
     wrHeavyRate: number
+
+    /*
+     * NFL team tendencies
+     *
+     * teamBias allows us to detect managers
+     * who disproportionately draft players
+     * from particular NFL teams.
+     */
+    teamBias: Record<string, number>
+
+    /*
+     * Chicago Bears tendencies
+     */
+    bearsDraftRate: number
+    bearsReachRate: number
+    averageBearsAdpReach: number
+
+    /*
+     * Rookie tendencies
+     */
+    rookieDraftRate: number
+    rookieReachRate: number
+    averageRookieAdpReach: number
+    earlyRoundRookieRate: number
 
     /*
      * Keeper behavior
