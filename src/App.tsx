@@ -72,9 +72,31 @@ function App() {
       predictedPick: string | null
       predictionConfidence: number | null
     }[]
+
   >(
     savedDraft?.draftHistory ?? [],
   )
+
+  const [predictedDraftHistory, setPredictedDraftHistory] = useState<
+    {
+      player: string
+      manager: string
+      pick: number
+    }[]
+  >(
+    savedDraft?.predictedDraftHistory ?? [],
+  )
+
+  const [hondaDraftHistory, setHondaDraftHistory] = useState<
+    {
+      player: string
+      manager: string
+      pick: number
+    }[]
+  >(
+    savedDraft?.hondaDraftHistory ?? [],
+  )
+
   useEffect(() => {
     if (draftHistory.length === 0) {
       return
@@ -116,6 +138,8 @@ function App() {
       updatedAt: new Date().toISOString(),
       currentPickIndex,
       draftHistory,
+      predictedDraftHistory,
+      hondaDraftHistory,
       draftedPlayerNames,
       managerRosters,
       draftStory,
@@ -219,6 +243,8 @@ function App() {
 
     setDraftedPlayerNames([])
     setDraftHistory([])
+    setPredictedDraftHistory([])
+    setHondaDraftHistory([])
     setManagerRosters({})
     setCurrentPickIndex(0)
     setDraftStory([])
@@ -295,6 +321,105 @@ function App() {
           },
         )
         : null
+
+    const predictedDraftedPlayerNames =
+      predictedDraftHistory.map(
+        (pick) => pick.player,
+      )
+
+    const predictedManagerRoster =
+      predictedDraftHistory
+        .filter(
+          (pick) =>
+            pick.manager === currentManager.name,
+        )
+        .map((pick) => pick.player)
+
+    const predictedUniversePrediction =
+      getManagerPrediction(
+        currentManager,
+        predictedManagerRoster,
+        predictedDraftedPlayerNames,
+        {
+          round: roundIndex + 1,
+          pickInRound: positionInRound + 1,
+          overallPick: currentPickIndex + 1,
+        },
+      )
+
+    const predictedUniversePlayer =
+      predictedUniversePrediction?.players[0] ?? null
+
+    if (predictedUniversePlayer) {
+      setPredictedDraftHistory((current) => [
+        ...current,
+        {
+          player: predictedUniversePlayer.name,
+          manager: currentManager.name,
+          pick: currentPickIndex + 1,
+        },
+      ])
+    }
+
+    const hondaDraftedPlayerNames =
+      hondaDraftHistory.map(
+        (pick) => pick.player,
+      )
+
+    const hondaManagerRoster =
+      hondaDraftHistory
+        .filter(
+          (pick) =>
+            pick.manager === currentManager.name,
+        )
+        .map((pick) => pick.player)
+
+    const hondaManagerRosterCounts = {
+      QB: 0,
+      RB: 0,
+      WR: 0,
+      TE: 0,
+    }
+
+    for (const playerName of hondaManagerRoster) {
+      const rosterPlayer = players.find(
+        (player) => player.name === playerName,
+      )
+
+      if (
+        rosterPlayer?.position === 'QB' ||
+        rosterPlayer?.position === 'RB' ||
+        rosterPlayer?.position === 'WR' ||
+        rosterPlayer?.position === 'TE'
+      ) {
+        hondaManagerRosterCounts[
+          rosterPlayer.position
+        ] += 1
+      }
+    }
+
+    const hondaUniverseDecision =
+      getHondaDecision(
+        hondaDraftedPlayerNames,
+        currentPickIndex,
+        hondaManagerRosterCounts,
+        hondaManagerRoster,
+      )
+
+    const hondaUniversePlayer =
+      hondaUniverseDecision?.player ?? null
+
+    if (hondaUniversePlayer) {
+      setHondaDraftHistory((current) => [
+        ...current,
+        {
+          player: hondaUniversePlayer.name,
+          manager: currentManager.name,
+          pick: currentPickIndex + 1,
+        },
+      ])
+    }
+
     setDraftedPlayerNames((current) => [
       ...current,
       playerName,
@@ -381,6 +506,13 @@ function App() {
 
     setDraftedPlayerNames(session.draftedPlayerNames)
     setDraftHistory(session.draftHistory)
+    setPredictedDraftHistory(
+      session.predictedDraftHistory ?? [],
+    )
+
+    setHondaDraftHistory(
+      session.hondaDraftHistory ?? [],
+    )
     setManagerRosters(session.managerRosters)
     setCurrentPickIndex(session.currentPickIndex)
     setDraftStory(session.draftStory ?? [])
@@ -456,6 +588,8 @@ function App() {
           <Managers
             managerRosters={managerRosters}
             draftHistory={draftHistory}
+            predictedDraftHistory={predictedDraftHistory}
+            hondaDraftHistory={hondaDraftHistory}
           />
         )}
 

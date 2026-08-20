@@ -16,6 +16,18 @@ export type DraftSession = {
         predictionConfidence: number | null
     }[]
 
+    predictedDraftHistory: {
+        player: string
+        manager: string
+        pick: number
+    }[]
+
+    hondaDraftHistory: {
+        player: string
+        manager: string
+        pick: number
+    }[]
+
     draftedPlayerNames: string[]
 
     managerRosters: Record<string, string[]>
@@ -134,6 +146,8 @@ export function createDraft(name: string): DraftSession {
         updatedAt: new Date().toISOString(),
         currentPickIndex: 0,
         draftHistory: [],
+        predictedDraftHistory: [],
+        hondaDraftHistory: [],
         draftedPlayerNames: [],
         managerRosters: {},
         draftStory: [],

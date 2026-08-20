@@ -12,11 +12,24 @@ type ManagersProps = {
     predictedPick: string | null
     predictionConfidence: number | null
   }[]
+  predictedDraftHistory: {
+    player: string
+    manager: string
+    pick: number
+  }[]
+
+  hondaDraftHistory: {
+    player: string
+    manager: string
+    pick: number
+  }[]
 }
 
 export default function Managers({
   managerRosters,
   draftHistory,
+  predictedDraftHistory,
+  hondaDraftHistory,
 }: ManagersProps) {
   return (
     <section className="panel">
@@ -38,20 +51,20 @@ export default function Managers({
             )
 
           const predictedRoster =
-            managerHistory
-              .map((pick) => pick.predictedPick)
+            predictedDraftHistory
               .filter(
-                (playerName): playerName is string =>
-                  playerName !== null,
+                (pick) =>
+                  pick.manager === manager.name,
               )
+              .map((pick) => pick.player)
 
           const hondaRoster =
-            managerHistory
-              .map((pick) => pick.hondaPick)
+            hondaDraftHistory
               .filter(
-                (playerName): playerName is string =>
-                  playerName !== null,
+                (pick) =>
+                  pick.manager === manager.name,
               )
+              .map((pick) => pick.player)
           const audit =
             auditManagerSimulation(
               manager.name,
@@ -138,11 +151,30 @@ export default function Managers({
                   {roster.length === 0 ? (
                     <small>No picks yet</small>
                   ) : (
-                    roster.map((playerName, index) => (
-                      <span key={`actual-${manager.name}-${index}`}>
-                        {playerName}
-                      </span>
-                    ))
+                    roster.map((playerName, index) => {
+                      const pick = draftHistory.find(
+                        (entry) =>
+                          entry.manager === manager.name &&
+                          entry.player === playerName,
+                      )
+
+                      const round = pick
+                        ? Math.floor((pick.pick - 1) / draftManagers.length) + 1
+                        : null
+
+                      const slot = pick
+                        ? ((pick.pick - 1) % draftManagers.length) + 1
+                        : null
+
+                      return (
+                        <span key={`actual-${manager.name}-${index}`}>
+                          {round !== null && slot !== null
+                            ? `${round}.${String(slot).padStart(2, '0')}  `
+                            : ''}
+                          {playerName}
+                        </span>
+                      )
+                    })
                   )}
                 </div>
 
@@ -152,11 +184,30 @@ export default function Managers({
                   {predictedRoster.length === 0 ? (
                     <small>No predictions yet</small>
                   ) : (
-                    predictedRoster.map((playerName, index) => (
-                      <span key={`predicted-${manager.name}-${index}`}>
-                        {playerName}
-                      </span>
-                    ))
+                    predictedRoster.map((playerName, index) => {
+                      const pick = predictedDraftHistory.find(
+                        (entry) =>
+                          entry.manager === manager.name &&
+                          entry.player === playerName,
+                      )
+
+                      const round = pick
+                        ? Math.floor((pick.pick - 1) / draftManagers.length) + 1
+                        : null
+
+                      const slot = pick
+                        ? ((pick.pick - 1) % draftManagers.length) + 1
+                        : null
+
+                      return (
+                        <span key={`predicted-${manager.name}-${index}`}>
+                          {round !== null && slot !== null
+                            ? `${round}.${String(slot).padStart(2, '0')}  `
+                            : ''}
+                          {playerName}
+                        </span>
+                      )
+                    })
                   )}
                 </div>
 
@@ -166,11 +217,30 @@ export default function Managers({
                   {hondaRoster.length === 0 ? (
                     <small>No Honda picks yet</small>
                   ) : (
-                    hondaRoster.map((playerName, index) => (
-                      <span key={`honda-${manager.name}-${index}`}>
-                        {playerName}
-                      </span>
-                    ))
+                    hondaRoster.map((playerName, index) => {
+                      const pick = hondaDraftHistory.find(
+                        (entry) =>
+                          entry.manager === manager.name &&
+                          entry.player === playerName,
+                      )
+
+                      const round = pick
+                        ? Math.floor((pick.pick - 1) / draftManagers.length) + 1
+                        : null
+
+                      const slot = pick
+                        ? ((pick.pick - 1) % draftManagers.length) + 1
+                        : null
+
+                      return (
+                        <span key={`honda-${manager.name}-${index}`}>
+                          {round !== null && slot !== null
+                            ? `${round}.${String(slot).padStart(2, '0')}  `
+                            : ''}
+                          {playerName}
+                        </span>
+                      )
+                    })
                   )}
                 </div>
               </div>
