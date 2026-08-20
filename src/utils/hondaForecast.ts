@@ -92,7 +92,7 @@ export function getHondaForecast({
         simulateNextPickAvailability(
             availablePlayers,
             picksUntilNextHondaPick,
-            5,
+            100,
             {
                 upcomingPicks:
                     opponentPicksBeforeHonda,
@@ -146,6 +146,267 @@ export function getHondaForecast({
      */
     const minimumExpectedSurvival =
         0.5
+    const positions = [
+        'QB',
+        'RB',
+        'WR',
+        'TE',
+    ] as const
+
+    const positionalWaitCosts =
+        positions.map((position) => {
+            const bestNow =
+                currentRankings.find(
+                    (entry) =>
+                        entry.player.position ===
+                        position,
+                )
+
+            const bestExpectedLater =
+                currentRankings.find(
+                    (entry) => {
+                        if (
+                            entry.player.position !==
+                            position
+                        ) {
+                            return false
+                        }
+
+                        const survival =
+                            survivalByPlayer.get(
+                                entry.player.name,
+                            )
+
+                        return (
+                            survival !== undefined &&
+                            survival.survivalRate >=
+                            minimumExpectedSurvival
+                        )
+                    },
+                )
+
+            const bestNowSurvival =
+                bestNow
+                    ? survivalByPlayer.get(
+                        bestNow.player.name,
+                    )?.survivalRate ?? 0
+                    : 0
+
+            const fallback =
+                currentRankings
+                    .filter(
+                        (entry) =>
+                            entry.player.position ===
+                            position &&
+                            entry.player.name !==
+                            bestNow?.player.name,
+                    )
+                    .sort(
+                        (a, b) =>
+                            (
+                                b.player.valueOverReplacement ??
+                                0
+                            ) -
+                            (
+                                a.player.valueOverReplacement ??
+                                0
+                            ),
+                    )[0]
+
+            const fallbackVor =
+                fallback?.player
+                    .valueOverReplacement ?? 0
+
+            const nowVor =
+                bestNow?.player
+                    .valueOverReplacement ?? 0
+
+            const laterVor =
+                bestExpectedLater?.player
+                    .valueOverReplacement ?? 0
+
+            return {
+                position,
+                bestNow:
+                    bestNow?.player.name ?? null,
+                bestNowVor: nowVor,
+                bestNowSurvival:
+                    Number(
+                        (
+                            bestNowSurvival * 100
+                        ).toFixed(1),
+                    ),
+                expectedLater:
+                    bestExpectedLater?.player.name ??
+                    null,
+                expectedLaterVor: laterVor,
+                waitCost:
+                    Math.max(
+                        0,
+                        nowVor - laterVor,
+                    ),
+                fallback:
+                    fallback?.player.name ?? null,
+                fallbackVor,
+                missCost:
+                    Math.max(
+                        0,
+                        nowVor - fallbackVor,
+                    ),
+                urgency:
+                    Number(
+                        (
+                            Math.max(
+                                0,
+                                nowVor - laterVor,
+                            ) *
+                            (1 - bestNowSurvival)
+                        ).toFixed(1),
+                    ),
+            }
+        })
+    const twoPickPaths =
+        positions.map((position) => {
+            const takeNowEntry =
+                currentRankings.find(
+                    (entry) =>
+                        entry.player.position ===
+                        position,
+                )
+
+            const takeNow =
+                takeNowEntry?.player ?? null
+
+            if (!takeNow) {
+                return {
+                    takePosition: position,
+                    takeNow: null,
+                    takeNowVor: 0,
+                    expectedNext: null,
+                    expectedNextPosition: null,
+                    expectedNextVor: 0,
+                    expectedNextSurvival: 0,
+                    combinedVor: 0,
+                }
+            }
+
+            const hypotheticalDraftedPlayerNames = [
+                ...draftedPlayerNames,
+                takeNow.name,
+            ]
+
+            const hypotheticalRosterCounts:
+                LiveRosterCounts = {
+                ...liveRosterCounts,
+                [position]:
+                    liveRosterCounts[position] + 1,
+            }
+
+            const hypotheticalRankings =
+                getHondaRankings(
+                    hypotheticalDraftedPlayerNames,
+                    hypotheticalRosterCounts,
+                )
+
+            const hypotheticalAvailablePlayers =
+                hypotheticalRankings.map(
+                    (entry) => entry.player,
+                )
+
+            const pathSurvivalResults =
+                simulateNextPickAvailability(
+                    hypotheticalAvailablePlayers,
+                    picksUntilNextHondaPick,
+                    100,
+                    {
+                        upcomingPicks:
+                            opponentPicksBeforeHonda,
+
+                        managerRosters,
+
+                        draftedPlayerNames:
+                            hypotheticalDraftedPlayerNames,
+                    },
+                )
+
+            const pathSurvivalByPlayer =
+                new Map(
+                    pathSurvivalResults.map(
+                        (result) => [
+                            result.player.name,
+                            result,
+                        ],
+                    ),
+                )
+
+            const expectedNextEntry =
+                hypotheticalRankings.find(
+                    (entry) => {
+                        const survival =
+                            pathSurvivalByPlayer.get(
+                                entry.player.name,
+                            )
+
+                        return (
+                            survival !== undefined &&
+                            survival.survivalRate >=
+                            minimumExpectedSurvival
+                        )
+                    },
+                )
+
+            const expectedNext =
+                expectedNextEntry?.player ?? null
+
+            const expectedNextRisk =
+                expectedNext
+                    ? pathSurvivalByPlayer.get(
+                        expectedNext.name,
+                    )
+                    : undefined
+
+            const nowVor =
+                takeNow.valueOverReplacement ?? 0
+
+            const nextVor =
+                expectedNext?.valueOverReplacement ??
+                0
+
+            return {
+                takePosition: position,
+                takeNow:
+                    takeNow.name,
+                takeNowVor:
+                    nowVor,
+                expectedNext:
+                    expectedNext?.name ?? null,
+                expectedNextPosition:
+                    expectedNext?.position ?? null,
+                expectedNextVor:
+                    nextVor,
+                expectedNextSurvival:
+                    Number(
+                        (
+                            (
+                                expectedNextRisk
+                                    ?.survivalRate ??
+                                0
+                            ) * 100
+                        ).toFixed(1),
+                    ),
+                combinedVor:
+                    Number(
+                        (
+                            nowVor + nextVor
+                        ).toFixed(1),
+                    ),
+            }
+        })
+
+    console.table(twoPickPaths)
+    console.table(positionalWaitCosts)
+
+
 
     const futureCandidate =
         currentRankings.find(
@@ -428,6 +689,8 @@ export function getHondaForecast({
 
         futureRecommendation:
             expectedRecommendation,
+
+        positionalWaitCosts,
 
         projectedScore,
 

@@ -839,6 +839,48 @@ export default function WarRoom({
                                             : '0.0 pts'}
                                 </strong>
                             </div>
+                            <div className="forecast-opportunity">
+                                <div className="forecast-opportunity-title">
+                                    Honda Opportunity Cost
+                                </div>
+
+                                <div className="forecast-opportunity-grid">
+                                    {hondaForecast.positionalWaitCosts.map(
+                                        (item) => (
+                                            <div
+                                                key={item.position}
+                                                className="forecast-opportunity-card"
+                                            >
+                                                <div className="forecast-opportunity-position">
+                                                    {item.position}
+                                                </div>
+
+                                                <strong>
+                                                    {item.bestNow}
+                                                </strong>
+
+                                                <small>
+                                                    {item.bestNowSurvival.toFixed(0)}% survival
+                                                </small>
+
+                                                <div>
+                                                    Wait Cost{' '}
+                                                    <strong>
+                                                        {item.waitCost.toFixed(1)}
+                                                    </strong>
+                                                </div>
+
+                                                <div>
+                                                    Urgency{' '}
+                                                    <strong>
+                                                        {item.urgency.toFixed(1)}
+                                                    </strong>
+                                                </div>
+                                            </div>
+                                        ),
+                                    )}
+                                </div>
+                            </div>
                         </div>
                     )}
                 </section>

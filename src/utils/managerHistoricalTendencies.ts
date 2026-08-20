@@ -63,9 +63,18 @@ function buildPositionTendencies(
         )
 }
 
+const managerTendenciesCache =
+    new Map<string, ManagerHistoricalTendencies>()
+
 export function buildManagerHistoricalTendencies(
     manager: string,
 ): ManagerHistoricalTendencies {
+    const cached = managerTendenciesCache.get(manager)
+
+    if (cached) {
+        return cached
+    }
+
     const profile =
         getManagerHistoricalProfile(
             manager,
@@ -133,7 +142,7 @@ export function buildManagerHistoricalTendencies(
             profile,
         )
 
-    return {
+    const tendencies: ManagerHistoricalTendencies = {
         manager:
             profile.manager,
 
@@ -176,6 +185,13 @@ export function buildManagerHistoricalTendencies(
             positionTendencies[0]
                 ?.position,
     }
+
+    managerTendenciesCache.set(
+        manager,
+        tendencies,
+    )
+
+    return tendencies
 }
 
 export function getManagerPositionRate(

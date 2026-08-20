@@ -23,9 +23,19 @@ export type ManagerRoundTendencies = {
     rounds: ManagerRoundTendency[]
 }
 
+const managerRoundTendenciesCache =
+    new Map<string, ManagerRoundTendencies>()
+
 export function buildManagerRoundTendencies(
     manager: string,
 ): ManagerRoundTendencies {
+    const cached =
+        managerRoundTendenciesCache.get(manager)
+
+    if (cached) {
+        return cached
+    }
+
     const picks =
         getManagerHistoricalPicks(
             manager,
@@ -173,10 +183,17 @@ export function buildManagerRoundTendencies(
             },
         )
 
-    return {
+    const tendencies: ManagerRoundTendencies = {
         manager,
         rounds,
     }
+
+    managerRoundTendenciesCache.set(
+        manager,
+        tendencies,
+    )
+
+    return tendencies
 }
 
 export function getManagerRoundTendency(

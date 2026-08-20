@@ -2804,7 +2804,7 @@ export const generatedManagers: ManagerProfile[] = [
   {
     "id": 3,
     "name": "Kentucky Dave",
-    "draftSlot": 0,
+    "draftSlot": 8,
     "tendency": "Balanced",
     "preferredPositions": [
       "WR",

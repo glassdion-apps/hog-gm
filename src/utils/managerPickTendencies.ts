@@ -43,9 +43,19 @@ function getDraftZone(
     return 'LATE'
 }
 
+const managerPickTendenciesCache =
+    new Map<string, ManagerPickTendencies>()
+
 export function buildManagerPickTendencies(
     manager: string,
 ): ManagerPickTendencies {
+    const cached =
+        managerPickTendenciesCache.get(manager)
+
+    if (cached) {
+        return cached
+    }
+
     const picks =
         getManagerHistoricalPicks(
             manager,
@@ -173,11 +183,18 @@ export function buildManagerPickTendencies(
             },
         )
 
-    return {
+    const result: ManagerPickTendencies = {
         manager,
         zones:
             tendencies,
     }
+
+    managerPickTendenciesCache.set(
+        manager,
+        result,
+    )
+
+    return result
 }
 
 export function getManagerPickZoneTendency(
