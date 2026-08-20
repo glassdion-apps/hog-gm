@@ -1,17 +1,29 @@
-import { generatedManagers } from '../data/managers.generated'
+import managerHistoryJson from '../data/manager-history.json'
 import {
     getHistoricalPlayer,
     type HistoricalPlayerRecord,
 } from '../data/historicalPlayerData'
-import type {
-    HistoricalDraftPick,
-    ManagerProfile,
-} from '../data/managerTypes'
 
-type HistoricalManagerPick =
-    HistoricalDraftPick & {
-        manager: string
-    }
+type HistoricalManagerPick = {
+    manager: string
+    season: number
+    round: number
+    pickInRound: number
+    overallPick: number
+    player: string
+    position: string
+    team?: string
+    publicAdp?: number
+    isRookie?: boolean
+    wasKeeper?: boolean
+}
+
+type ManagerHistoryFile = {
+    managerNames: string[]
+    currentDraftOrder: string[]
+    historicalPicks: HistoricalManagerPick[]
+    keepers: unknown[]
+}
 
 export type EnrichedManagerPick =
     HistoricalManagerPick & {
@@ -31,14 +43,8 @@ export type ManagerHistoricalProfile = {
     positionCounts: Record<string, number>
 }
 
-function getManagerProfile(
-    manager: string,
-): ManagerProfile | undefined {
-    return generatedManagers.find(
-        (profile) =>
-            profile.name === manager,
-    )
-}
+const managerHistory =
+    managerHistoryJson as ManagerHistoryFile
 
 function enrichPick(
     pick: HistoricalManagerPick,
@@ -71,21 +77,15 @@ function enrichPick(
 
 export function getManagerHistoricalPicks(
     manager: string,
-): EnrichedManagerPick[] {
-    const profile =
-        getManagerProfile(manager)
-
-    if (!profile) {
-        return []
-    }
-
-    return profile.historicalDrafts
-        .map(
+) {
+    return managerHistory.historicalPicks
+        .filter(
             (pick) =>
-                enrichPick({
-                    ...pick,
-                    manager,
-                }),
+                pick.manager ===
+                manager,
+        )
+        .map(
+            enrichPick,
         )
 }
 
@@ -201,11 +201,11 @@ export function buildManagerHistoricalProfile(
 
 export const managerHistoricalProfiles =
     Object.fromEntries(
-        generatedManagers.map(
+        managerHistory.managerNames.map(
             (manager) => [
-                manager.name,
+                manager,
                 buildManagerHistoricalProfile(
-                    manager.name,
+                    manager,
                 ),
             ],
         ),

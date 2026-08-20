@@ -2,7 +2,7 @@ import { players } from '../data/players'
 import { draftManagers } from '../data/managers'
 import { getHondaDecision } from '../utils/hondaDecisionEngine'
 import { getHondaRankings } from '../utils/hondaRankings'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { getManagerNeeds } from '../utils/managerNeeds'
 import { getManagerPrediction } from '../utils/managerPrediction'
 import { getLiveDraftIntel } from '../utils/liveDraftIntel'
@@ -71,30 +71,33 @@ export default function WarRoom({
         getHondaManagerName() ?? ''
         ] ?? []
 
-    const liveRosterCounts = {
-        QB: 0,
-        RB: 0,
-        WR: 0,
-        TE: 0,
-    }
-
-    for (const playerName of myRosterNames) {
-        const player = players.find(
-            (item) => item.name === playerName,
-        )
-
-        if (
-            player?.position === 'QB' ||
-            player?.position === 'RB' ||
-            player?.position === 'WR' ||
-            player?.position === 'TE'
-        ) {
-            liveRosterCounts[player.position] += 1
+    const liveRosterCounts = useMemo(() => {
+        const counts = {
+            QB: 0,
+            RB: 0,
+            WR: 0,
+            TE: 0,
         }
 
+        for (const playerName of myRosterNames) {
+            const player =
+                players.find(
+                    (candidate) =>
+                        candidate.name === playerName,
+                )
 
-    }
+            if (
+                player?.position === 'QB' ||
+                player?.position === 'RB' ||
+                player?.position === 'WR' ||
+                player?.position === 'TE'
+            ) {
+                counts[player.position] += 1
+            }
+        }
 
+        return counts
+    }, [myRosterNames])
 
     const decision = getHondaDecision(
         draftedPlayerNames,
@@ -136,13 +139,23 @@ export default function WarRoom({
     const positionalScarcity =
         decision?.positionalScarcity ?? 'Low'
 
-    const hondaForecast = getHondaForecast({
-        currentPickIndex,
-        managerRosters,
-        draftedPlayerNames,
-        currentDecisionScore: decisionScore,
-        liveRosterCounts,
-    })
+    const hondaForecast = useMemo(
+        () =>
+            getHondaForecast({
+                currentPickIndex,
+                managerRosters,
+                draftedPlayerNames,
+                currentDecisionScore: decisionScore,
+                liveRosterCounts,
+            }),
+        [
+            currentPickIndex,
+            managerRosters,
+            draftedPlayerNames,
+            decisionScore,
+            liveRosterCounts,
+        ],
+    )
 
     const survivalChance =
         hondaForecast?.survivalPercent ?? 0

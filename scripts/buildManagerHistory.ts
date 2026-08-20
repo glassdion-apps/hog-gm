@@ -17,6 +17,10 @@ import type {
     ManagerPosition,
 } from '../src/data/managerTypes.js'
 
+import {
+    leagueDraftConfig,
+} from '../src/data/draftConfig.js'
+
 type ManagerHistoryPick = {
     manager: string
     season: number
@@ -612,12 +616,8 @@ function main() {
         ManagerHistoryOutput = {
         managerNames,
 
-        /*
-         * Temporary until the actual 2026
-         * draft order is wired into this layer.
-         */
         currentDraftOrder:
-            latestDraftOrder,
+    [...leagueDraftConfig.currentDraftOrder],
 
         historicalPicks,
 

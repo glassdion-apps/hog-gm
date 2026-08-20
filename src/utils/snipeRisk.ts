@@ -18,6 +18,10 @@ import {
   getUpcomingSnakePicks,
 } from './snakeDraftOrder'
 
+import {
+  isHondaManager,
+} from './hondaManager'
+
 export type SnipeRiskLevel =
   | 'Low'
   | 'Medium'
@@ -111,8 +115,9 @@ function getPicksBeforeNextHondaPick(
 
   for (const upcoming of upcomingPicks) {
     if (
-      upcoming.manager.name ===
-      'You'
+      isHondaManager(
+        upcoming.manager.name,
+      )
     ) {
       break
     }

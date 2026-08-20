@@ -2,6 +2,24 @@ export const leagueDraftConfig = {
   teams: 12,
   rounds: 15,
   mySlot: 12,
+  
+  myManager: 'GiveMeYourMoneyNow',
+
+  currentDraftOrder: [
+    'Schmontz Nation',
+    'Constipated Commandos',
+    'Balls Deep',
+    "Jimmy's Johnson",
+    'Yeah Daaavvveee!!!',
+    'Rice-A-Ronnie72',
+    'EL JEFE',
+    'ROTY',
+    'Papi',
+    'Siurek',
+    'Potpaska187',
+    'GiveMeYourMoneyNow',
+  ],
+
 
   keepers: [
     {

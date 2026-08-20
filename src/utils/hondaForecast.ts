@@ -16,6 +16,10 @@ import {
 import {
     getManagerPrediction,
 } from './managerPrediction'
+import {
+    isHondaManager,
+} from './hondaManager'
+
 
 type ForecastInput = {
     currentPickIndex: number
@@ -57,8 +61,9 @@ export function getHondaForecast({
     const nextHondaPick =
         upcomingPicks.find(
             (upcoming) =>
-                upcoming.manager.name ===
-                'You',
+                isHondaManager(
+                    upcoming.manager.name,
+                ),
         )
 
     const picksUntilNextHondaPick =
@@ -77,8 +82,9 @@ export function getHondaForecast({
                 (upcoming) =>
                     upcoming.pickIndex <
                     nextHondaPick.pickIndex &&
-                    upcoming.manager.name !==
-                    'You',
+                    !isHondaManager(
+                        upcoming.manager.name,
+                    ),
             )
             : []
 
@@ -86,7 +92,7 @@ export function getHondaForecast({
         simulateNextPickAvailability(
             availablePlayers,
             picksUntilNextHondaPick,
-            100,
+            5,
             {
                 upcomingPicks:
                     opponentPicksBeforeHonda,

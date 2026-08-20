@@ -1,4 +1,5 @@
 import { draftManagers } from '../data/managers'
+import { auditManagerSimulation } from '../utils/managerSimulationAudit'
 
 type ManagersProps = {
   managerRosters: Record<string, string[]>
@@ -17,7 +18,14 @@ export default function Managers({
       </div>
 
       <div className="manager-list">
-        {draftManagers.map((manager) => (
+        {draftManagers.map((manager) => {
+          const roster = managerRosters[manager.name] ?? []
+          const audit = auditManagerSimulation(
+            manager.name,
+            roster,
+          )
+
+          return (
           <article className="manager-card" key={manager.name}>
             <div>
               <strong>{manager.name}</strong>
@@ -44,9 +52,25 @@ export default function Managers({
                 <small>Tendency</small>
                 <strong>{manager.tendency}</strong>
               </div>
+
+              <div>
+                <small>Historical Fit</small>
+                <strong>{audit.positionFitScore}/100</strong>
+              </div>
+            </div>
+
+            <div className="manager-audit">
+              {audit.positions.map((position) => (
+                <div className="manager-audit-row" key={position.position}>
+                  <strong>{position.position}</strong>
+                  <span>Sim {(position.currentRate * 100).toFixed(0)}%</span>
+                  <span>Hist {(position.historicalRate * 100).toFixed(0)}%</span>
+                </div>
+              ))}
             </div>
           </article>
-        ))}
+          )
+        })}
       </div>
     </section>
   )

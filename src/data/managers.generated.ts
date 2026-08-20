@@ -4,7 +4,7 @@ export const generatedManagers: ManagerProfile[] = [
   {
     "id": 1,
     "name": "Jimmy's Johnson",
-    "draftSlot": 1,
+    "draftSlot": 4,
     "tendency": "Balanced",
     "preferredPositions": [
       "WR",
@@ -19,6 +19,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 8,
         "player": "Melvin Gordon",
         "position": "RB",
+        "publicAdp": 11.2,
+        "adpDifference": 3.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -29,6 +31,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 17,
         "player": "Jordan Howard",
         "position": "RB",
+        "publicAdp": 23.6,
+        "adpDifference": 6.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -39,6 +43,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 32,
         "player": "Adam Thielen",
         "position": "WR",
+        "publicAdp": 31.8,
+        "adpDifference": -0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -49,6 +55,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 41,
         "player": "Amari Cooper",
         "position": "WR",
+        "publicAdp": 34.6,
+        "adpDifference": -6.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -59,6 +67,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 56,
         "player": "Marvin Jones",
         "position": "WR",
+        "publicAdp": 54.8,
+        "adpDifference": -1.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -69,6 +79,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 65,
         "player": "Devin Funchess",
         "position": "TE",
+        "publicAdp": 82.8,
+        "adpDifference": 17.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -79,6 +91,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 80,
         "player": "Kirk Cousins",
         "position": "QB",
+        "team": "LV",
+        "publicAdp": 88,
+        "adpDifference": 8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -89,6 +104,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Ronald Jones",
         "position": "RB",
+        "publicAdp": 112.4,
+        "adpDifference": 23.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -99,6 +116,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 104,
         "player": "Will Fuller",
         "position": "WR",
+        "publicAdp": 79.8,
+        "adpDifference": -24.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -109,6 +128,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "George Kittle",
         "position": "TE",
+        "team": "SF",
+        "publicAdp": 136.8,
+        "adpDifference": 23.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -119,6 +141,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 128,
         "player": "Harrison Butker",
         "position": "K",
+        "team": "KC",
+        "publicAdp": 179.4,
+        "adpDifference": 51.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -129,6 +154,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 137,
         "player": "Ravens",
         "position": "DST",
+        "publicAdp": 132.8,
+        "adpDifference": -4.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -139,6 +166,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 152,
         "player": "Jameis Winston",
         "position": "QB",
+        "team": "NYG",
+        "publicAdp": 164.5,
+        "adpDifference": 12.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -149,6 +179,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 161,
         "player": "Benjamin Watson",
         "position": "TE",
+        "publicAdp": 187.3,
+        "adpDifference": 26.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -159,6 +191,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 176,
         "player": "Devontae Booker",
         "position": "RB",
+        "publicAdp": 141,
+        "adpDifference": -35,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -169,6 +203,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 5,
         "player": "DeAndre Hopkins",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 5.3,
+        "adpDifference": 0.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -179,6 +216,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 20,
         "player": "Joe Mixon",
         "position": "RB",
+        "publicAdp": 18,
+        "adpDifference": -2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -189,6 +228,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 29,
         "player": "Amari Cooper",
         "position": "WR",
+        "publicAdp": 31.2,
+        "adpDifference": 2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -199,6 +240,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 44,
         "player": "Brandin Cooks",
         "position": "WR",
+        "publicAdp": 38.8,
+        "adpDifference": -5.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -209,6 +252,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 53,
         "player": "Jarvis Landry",
         "position": "WR",
+        "publicAdp": 65.2,
+        "adpDifference": 12.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -219,6 +264,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 68,
         "player": "Kenyan Drake",
         "position": "RB",
+        "publicAdp": 76.7,
+        "adpDifference": 8.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -229,6 +276,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 77,
         "player": "Josh Gordon",
         "position": "WR",
+        "publicAdp": 74.5,
+        "adpDifference": -2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -239,6 +288,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 92,
         "player": "Greg Zuerlein",
         "position": "K",
+        "publicAdp": 114.7,
+        "adpDifference": 22.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -249,6 +300,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 101,
         "player": "Kirk Cousins",
         "position": "QB",
+        "team": "LV",
+        "publicAdp": 146.2,
+        "adpDifference": 45.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -259,6 +313,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 116,
         "player": "Vance McDonald",
         "position": "TE",
+        "publicAdp": 84.2,
+        "adpDifference": -31.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -269,6 +325,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 125,
         "player": "Royce Freeman",
         "position": "RB",
+        "publicAdp": 109.5,
+        "adpDifference": -15.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -279,6 +337,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 140,
         "player": "Jimmy Garoppolo",
         "position": "QB",
+        "team": "LAR",
+        "publicAdp": 165.3,
+        "adpDifference": 25.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -289,6 +350,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 149,
         "player": "Jimmy Graham",
         "position": "TE",
+        "publicAdp": 157.6,
+        "adpDifference": 8.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -299,6 +362,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 164,
         "player": "Jamison Crowder",
         "position": "WR",
+        "publicAdp": 157.5,
+        "adpDifference": -6.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -309,6 +374,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 173,
         "player": "Chargers",
         "position": "DST",
+        "publicAdp": 133,
+        "adpDifference": -40,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -319,6 +386,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 1,
         "player": "Christian McCaffrey",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 1,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -329,6 +399,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 24,
         "player": "Antonio Gibson",
         "position": "RB",
+        "publicAdp": 17.6,
+        "adpDifference": -6.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -339,6 +411,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 25,
         "player": "DK Metcalf",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 18.8,
+        "adpDifference": -6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -349,6 +424,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 48,
         "player": "Julio Jones",
         "position": "WR",
+        "publicAdp": 46.2,
+        "adpDifference": -1.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -359,6 +436,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 49,
         "player": "Kyler Murray",
         "position": "QB",
+        "team": "MIN",
+        "publicAdp": 40.2,
+        "adpDifference": -8.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -369,6 +449,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 72,
         "player": "Brandon Aiyuk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 60.8,
+        "adpDifference": -11.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -379,6 +462,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 73,
         "player": "Tee Higgins",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 64.8,
+        "adpDifference": -8.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -389,6 +475,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 96,
         "player": "Melvin Gordon",
         "position": "RB",
+        "publicAdp": 79.6,
+        "adpDifference": -16.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -399,6 +487,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 97,
         "player": "James Conner",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 100.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -409,6 +500,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 120,
         "player": "Adam Trautman",
         "position": "TE",
+        "team": "DEN",
+        "publicAdp": 207.5,
+        "adpDifference": 87.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -419,6 +513,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 121,
         "player": "Rob Gronkowski",
         "position": "TE",
+        "publicAdp": 125.6,
+        "adpDifference": 4.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -429,6 +525,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 144,
         "player": "Jakobi Meyers",
         "position": "WR",
+        "team": "JAC",
+        "publicAdp": 145,
+        "adpDifference": 1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -439,6 +538,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 145,
         "player": "AJ Dillon",
         "position": "RB",
+        "team": "CAR",
+        "publicAdp": 105.8,
+        "adpDifference": -39.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -449,6 +551,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 168,
         "player": "Ryan Succop",
         "position": "K",
+        "publicAdp": 165.8,
+        "adpDifference": -2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -459,6 +563,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 169,
         "player": "Colts",
         "position": "DST",
+        "publicAdp": 151.8,
+        "adpDifference": -17.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -469,6 +575,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 10,
         "player": "Travis Kelce",
         "position": "TE",
+        "team": "KC",
+        "publicAdp": 15,
+        "adpDifference": 5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -479,6 +588,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 15,
         "player": "Ja'Marr Chase",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 8.3,
+        "adpDifference": -6.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -489,6 +601,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 34,
         "player": "Travis Etienne",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 40.5,
+        "adpDifference": 6.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -499,6 +614,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 39,
         "player": "Tee Higgins",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 33.8,
+        "adpDifference": -5.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -509,6 +627,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 58,
         "player": "Allen Robinson",
         "position": "WR",
+        "publicAdp": 62.8,
+        "adpDifference": 4.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -519,6 +639,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 63,
         "player": "Chase Edmonds",
         "position": "RB",
+        "team": "WAS",
+        "publicAdp": 86.8,
+        "adpDifference": 23.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -529,6 +652,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 82,
         "player": "Elijah Mitchell",
         "position": "RB",
+        "publicAdp": 52,
+        "adpDifference": -30,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -539,6 +664,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 87,
         "player": "Amon-Ra St. Brown",
         "position": "WR",
+        "team": "DET",
+        "publicAdp": 63.5,
+        "adpDifference": -23.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -549,6 +677,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 106,
         "player": "Brandon Aiyuk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 98,
+        "adpDifference": -8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -559,6 +690,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "Trey Lance",
         "position": "QB",
+        "team": "LAC",
+        "publicAdp": 101.5,
+        "adpDifference": -9.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -569,6 +703,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 130,
         "player": "Darrell Henderson Jr.",
         "position": "RB",
+        "publicAdp": 132.5,
+        "adpDifference": 2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -579,6 +715,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 135,
         "player": "Alexander Mattison",
         "position": "RB",
+        "publicAdp": 135,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -589,6 +727,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 154,
         "player": "Isaiah McKenzie",
         "position": "WR",
+        "publicAdp": 176.3,
+        "adpDifference": 22.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -599,6 +739,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 159,
         "player": "Evan McPherson",
         "position": "K",
+        "team": "CIN",
+        "publicAdp": 129,
+        "adpDifference": -30,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -609,6 +752,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 178,
         "player": "Titans",
         "position": "DST",
+        "publicAdp": 222,
+        "adpDifference": 44,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -619,6 +764,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 7,
         "player": "Ja'Marr Chase",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 3,
+        "adpDifference": -4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -629,6 +777,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 18,
         "player": "Josh Allen",
         "position": "QB",
+        "team": "BUF",
+        "publicAdp": 20.5,
+        "adpDifference": 2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -639,6 +790,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 31,
         "player": "Chris Olave",
         "position": "WR",
+        "team": "NO",
+        "publicAdp": 26.5,
+        "adpDifference": -4.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -649,6 +803,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 42,
         "player": "Rhamondre Stevenson",
         "position": "RB",
+        "team": "NE",
+        "publicAdp": 30.5,
+        "adpDifference": -11.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -659,6 +816,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 55,
         "player": "Breece Hall",
         "position": "RB",
+        "team": "NYJ",
+        "publicAdp": 40.8,
+        "adpDifference": -14.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -669,6 +829,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 66,
         "player": "Cam Akers",
         "position": "RB",
+        "publicAdp": 64,
+        "adpDifference": -2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -679,6 +841,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 79,
         "player": "Kyle Pitts",
         "position": "TE",
+        "team": "ATL",
+        "publicAdp": 62.3,
+        "adpDifference": -16.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -689,6 +854,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 90,
         "player": "Tyler Lockett",
         "position": "WR",
+        "team": "LV",
+        "publicAdp": 70.5,
+        "adpDifference": -19.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -699,6 +867,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 103,
         "player": "Zach Charbonnet",
         "position": "RB",
+        "team": "SEA",
+        "publicAdp": 118,
+        "adpDifference": 15,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -709,6 +880,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 114,
         "player": "Zay Flowers",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 115,
+        "adpDifference": 1,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -719,6 +893,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 127,
         "player": "Quentin Johnston",
         "position": "WR",
+        "team": "LAC",
+        "publicAdp": 125.3,
+        "adpDifference": -1.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -729,6 +906,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 138,
         "player": "Treylon Burks",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 114,
+        "adpDifference": -24,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -739,6 +919,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 151,
         "player": "Kenneth Gainwell",
         "position": "RB",
+        "team": "TB",
+        "publicAdp": 187.5,
+        "adpDifference": 36.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -749,6 +932,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 162,
         "player": "Jason Myers",
         "position": "K",
+        "team": "SEA",
+        "publicAdp": 136.8,
+        "adpDifference": -25.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -759,6 +945,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 175,
         "player": "Broncos",
         "position": "DST",
+        "publicAdp": 198.8,
+        "adpDifference": 23.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -769,6 +957,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 3,
         "player": "Breece Hall",
         "position": "RB",
+        "team": "NYJ",
+        "publicAdp": 5.4,
+        "adpDifference": 2.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -779,6 +970,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 22,
         "player": "De'Von Achane",
         "position": "RB",
+        "team": "MIA",
+        "publicAdp": 27.4,
+        "adpDifference": 5.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -789,6 +983,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 27,
         "player": "Kenneth Walker III",
         "position": "RB",
+        "team": "KC",
+        "publicAdp": 41.4,
+        "adpDifference": 14.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -799,6 +996,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 46,
         "player": "Rashee Rice",
         "position": "WR",
+        "team": "KC",
+        "publicAdp": 67.6,
+        "adpDifference": 21.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -809,6 +1009,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 51,
         "player": "Brandon Aiyuk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 34,
+        "adpDifference": -17,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -819,6 +1022,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 70,
         "player": "Jalen Hurts",
         "position": "QB",
+        "team": "PHI",
+        "publicAdp": 31.2,
+        "adpDifference": -38.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -829,6 +1035,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 75,
         "player": "Kyle Pitts",
         "position": "TE",
+        "team": "ATL",
+        "publicAdp": 64.2,
+        "adpDifference": -10.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -839,6 +1048,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 94,
         "player": "Chase Brown",
         "position": "RB",
+        "team": "CIN",
+        "publicAdp": 111.2,
+        "adpDifference": 17.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -849,6 +1061,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 99,
         "player": "Diontae Johnson",
         "position": "WR",
+        "publicAdp": 88.2,
+        "adpDifference": -10.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -859,6 +1073,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 118,
         "player": "Jaleel McLaughlin",
         "position": "RB",
+        "team": "DEN",
+        "publicAdp": 162,
+        "adpDifference": 44,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -869,6 +1086,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "Jordan Addison",
         "position": "WR",
+        "team": "MIN",
+        "publicAdp": 110.4,
+        "adpDifference": -12.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -879,6 +1099,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 142,
         "player": "Pat Freiermuth",
         "position": "TE",
+        "team": "PIT",
+        "publicAdp": 135.4,
+        "adpDifference": -6.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -889,6 +1112,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 147,
         "player": "Tyler Lockett",
         "position": "WR",
+        "team": "LV",
+        "publicAdp": 139.4,
+        "adpDifference": -7.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -899,6 +1125,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 166,
         "player": "Bengals",
         "position": "DST",
+        "publicAdp": 159.8,
+        "adpDifference": -6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -909,6 +1137,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 171,
         "player": "Evan McPherson",
         "position": "K",
+        "team": "CIN",
+        "publicAdp": 149.2,
+        "adpDifference": -21.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -919,6 +1150,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 1,
         "player": "Ja'Marr Chase",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 1,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -929,6 +1163,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 24,
         "player": "Omarion Hampton",
         "position": "RB",
+        "team": "LAC",
+        "publicAdp": 35.8,
+        "adpDifference": 11.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -939,6 +1176,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 25,
         "player": "Brock Bowers",
         "position": "TE",
+        "team": "LV",
+        "publicAdp": 20,
+        "adpDifference": -5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -949,6 +1189,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 48,
         "player": "Breece Hall",
         "position": "RB",
+        "team": "NYJ",
+        "publicAdp": 38.8,
+        "adpDifference": -9.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -959,6 +1202,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 49,
         "player": "RJ Harvey",
         "position": "RB",
+        "team": "DEN",
+        "publicAdp": 60.8,
+        "adpDifference": 11.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -969,6 +1215,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 72,
         "player": "George Pickens",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 65.7,
+        "adpDifference": -6.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -979,6 +1228,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 73,
         "player": "Emeka Egbuka",
         "position": "WR",
+        "team": "TB",
+        "publicAdp": 86.2,
+        "adpDifference": 13.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -989,6 +1241,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 96,
         "player": "Rome Odunze",
         "position": "WR",
+        "team": "CHI",
+        "publicAdp": 81.3,
+        "adpDifference": -14.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -999,6 +1254,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 97,
         "player": "Kaleb Johnson",
         "position": "RB",
+        "team": "PIT",
+        "publicAdp": 81.2,
+        "adpDifference": -15.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -1009,6 +1267,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 120,
         "player": "Caleb Williams",
         "position": "QB",
+        "team": "CHI",
+        "publicAdp": 122.2,
+        "adpDifference": 2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1019,6 +1280,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 121,
         "player": "Jauan Jennings",
         "position": "WR",
+        "team": "MIN",
+        "publicAdp": 109.7,
+        "adpDifference": -11.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1029,6 +1293,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 144,
         "player": "Brandon Aiyuk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 147.2,
+        "adpDifference": 3.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1039,6 +1306,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 145,
         "player": "Bhayshul Tuten",
         "position": "RB",
+        "team": "JAC",
+        "publicAdp": 148.7,
+        "adpDifference": 3.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -1049,6 +1319,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 168,
         "player": "Cam Little",
         "position": "K",
+        "team": "JAC",
+        "publicAdp": 180.2,
+        "adpDifference": 12.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1059,6 +1332,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 169,
         "player": "Cardinals",
         "position": "DST",
+        "publicAdp": 197.3,
+        "adpDifference": 28.3,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -1083,29 +1358,57 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 0.5,
+    "reachRate": 0.295,
+    "valueRate": 0.39,
     "earlyQbRate": 0.057,
     "earlyTeRate": 0.057,
     "rbHeavyRate": 0.305,
     "wrHeavyRate": 0.362,
-    "teamBias": {},
-    "bearsDraftRate": 0,
+    "teamBias": {
+      "LV": 0.077,
+      "SF": 0.092,
+      "KC": 0.062,
+      "NYG": 0.015,
+      "BAL": 0.031,
+      "LAR": 0.015,
+      "PIT": 0.046,
+      "MIN": 0.046,
+      "CIN": 0.123,
+      "ARI": 0.015,
+      "DEN": 0.046,
+      "JAC": 0.046,
+      "CAR": 0.015,
+      "NO": 0.031,
+      "WAS": 0.031,
+      "DET": 0.015,
+      "LAC": 0.046,
+      "BUF": 0.015,
+      "NE": 0.015,
+      "NYJ": 0.046,
+      "ATL": 0.031,
+      "SEA": 0.031,
+      "TB": 0.031,
+      "MIA": 0.015,
+      "PHI": 0.015,
+      "DAL": 0.015,
+      "CHI": 0.031
+    },
+    "bearsDraftRate": 0.019,
     "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "averageBearsAdpReach": -6.2,
     "rookieDraftRate": 0.086,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.556,
+    "averageRookieAdpReach": 6.9,
     "earlyRoundRookieRate": 0.057,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 59.9,
     "predictabilityScore": 36.2
   },
   {
     "id": 2,
     "name": "Balls Deep",
-    "draftSlot": 2,
+    "draftSlot": 3,
     "tendency": "Balanced",
     "preferredPositions": [
       "RB",
@@ -1120,6 +1423,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 10,
         "player": "Kareem Hunt",
         "position": "RB",
+        "publicAdp": 10.2,
+        "adpDifference": 0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1130,6 +1435,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 15,
         "player": "Julio Jones",
         "position": "WR",
+        "publicAdp": 12.6,
+        "adpDifference": -2.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1140,6 +1447,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 34,
         "player": "Deshaun Watson",
         "position": "QB",
+        "team": "CLE",
+        "publicAdp": 47.8,
+        "adpDifference": 13.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1150,6 +1460,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 39,
         "player": "Travis Kelce",
         "position": "TE",
+        "team": "KC",
+        "publicAdp": 26.6,
+        "adpDifference": -12.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1160,6 +1473,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 58,
         "player": "Kerryon Johnson",
         "position": "RB",
+        "publicAdp": 77.8,
+        "adpDifference": 19.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -1170,6 +1485,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 63,
         "player": "Josh Gordon",
         "position": "WR",
+        "publicAdp": 48.6,
+        "adpDifference": -14.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1180,6 +1497,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 82,
         "player": "Chris Thompson",
         "position": "RB",
+        "publicAdp": 109,
+        "adpDifference": 27,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1190,6 +1509,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 87,
         "player": "Chris Hogan",
         "position": "WR",
+        "publicAdp": 55,
+        "adpDifference": -32,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1200,6 +1521,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 106,
         "player": "Rex Burkhead",
         "position": "RB",
+        "publicAdp": 69.8,
+        "adpDifference": -36.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1210,6 +1533,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "Jamison Crowder",
         "position": "WR",
+        "publicAdp": 88.4,
+        "adpDifference": -22.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1220,6 +1545,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 130,
         "player": "Anthony Miller",
         "position": "WR",
+        "publicAdp": 166,
+        "adpDifference": 36,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -1230,6 +1557,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 135,
         "player": "Marlon Mack",
         "position": "RB",
+        "publicAdp": 104.8,
+        "adpDifference": -30.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1240,6 +1569,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 154,
         "player": "Duke Johnson",
         "position": "RB",
+        "publicAdp": 86.6,
+        "adpDifference": -67.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1250,6 +1581,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 159,
         "player": "Steelers",
         "position": "DST",
+        "publicAdp": 175.3,
+        "adpDifference": 16.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1260,6 +1593,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 178,
         "player": "Adam Vinatieri",
         "position": "K",
+        "publicAdp": 240.4,
+        "adpDifference": 62.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1270,6 +1605,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 10,
         "player": "Le'Veon Bell",
         "position": "RB",
+        "publicAdp": 7.5,
+        "adpDifference": -2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1280,6 +1617,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 15,
         "player": "JuJu Smith-Schuster",
         "position": "WR",
+        "publicAdp": 14.8,
+        "adpDifference": -0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1290,6 +1629,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 34,
         "player": "Chris Carson",
         "position": "RB",
+        "publicAdp": 36.5,
+        "adpDifference": 2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1300,6 +1641,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 39,
         "player": "Cooper Kupp",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 49,
+        "adpDifference": 10,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1310,6 +1654,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 58,
         "player": "Marlon Mack",
         "position": "RB",
+        "publicAdp": 42.5,
+        "adpDifference": -15.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1320,6 +1666,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 63,
         "player": "A.J. Green",
         "position": "WR",
+        "publicAdp": 64.5,
+        "adpDifference": 1.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1330,6 +1678,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 82,
         "player": "Calvin Ridley",
         "position": "WR",
+        "team": "TEN",
+        "publicAdp": 58,
+        "adpDifference": -24,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1340,6 +1691,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 87,
         "player": "Lamar Jackson",
         "position": "QB",
+        "team": "BAL",
+        "publicAdp": 118.2,
+        "adpDifference": 31.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1350,6 +1704,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 106,
         "player": "Marqise Lee",
         "position": "WR",
+        "publicAdp": 404,
+        "adpDifference": 298,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1360,6 +1716,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "Eric Ebron",
         "position": "TE",
+        "publicAdp": 101.8,
+        "adpDifference": -9.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1370,6 +1728,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 130,
         "player": "Adrian Peterson",
         "position": "RB",
+        "publicAdp": 145.5,
+        "adpDifference": 15.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1380,6 +1740,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 135,
         "player": "Ben Roethlisberger",
         "position": "QB",
+        "publicAdp": 106.7,
+        "adpDifference": -28.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1390,6 +1752,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 154,
         "player": "Bills",
         "position": "DST",
+        "publicAdp": 196.7,
+        "adpDifference": 42.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1400,6 +1764,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 159,
         "player": "Mark Andrews",
         "position": "TE",
+        "team": "BAL",
+        "publicAdp": 146.3,
+        "adpDifference": -12.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1410,6 +1777,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 178,
         "player": "Jake Elliott",
         "position": "K",
+        "team": "PHI",
+        "publicAdp": 196,
+        "adpDifference": 18,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1420,6 +1790,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 4,
         "player": "Derrick Henry",
         "position": "RB",
+        "team": "BAL",
+        "publicAdp": 4,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1430,6 +1803,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 21,
         "player": "George Kittle",
         "position": "TE",
+        "team": "SF",
+        "publicAdp": 26.8,
+        "adpDifference": 5.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1440,6 +1816,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 28,
         "player": "Allen Robinson",
         "position": "WR",
+        "publicAdp": 32,
+        "adpDifference": 4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1450,6 +1828,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 45,
         "player": "Cooper Kupp",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 46,
+        "adpDifference": 1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1460,6 +1841,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 52,
         "player": "Justin Herbert",
         "position": "QB",
+        "team": "LAC",
+        "publicAdp": 62.2,
+        "adpDifference": 10.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1480,6 +1864,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 76,
         "player": "Courtland Sutton",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 79.6,
+        "adpDifference": 3.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1490,6 +1877,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 93,
         "player": "Tyler Boyd",
         "position": "WR",
+        "publicAdp": 91.2,
+        "adpDifference": -1.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1500,6 +1889,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 100,
         "player": "Leonard Fournette",
         "position": "RB",
+        "publicAdp": 86.4,
+        "adpDifference": -13.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1510,6 +1901,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 117,
         "player": "David Johnson",
         "position": "RB",
+        "publicAdp": 129.8,
+        "adpDifference": 12.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1520,6 +1913,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 124,
         "player": "Saints",
         "position": "DST",
+        "publicAdp": 189.2,
+        "adpDifference": 65.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1530,6 +1925,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 141,
         "player": "Deshaun Watson",
         "position": "QB",
+        "team": "CLE",
+        "publicAdp": 209.2,
+        "adpDifference": 68.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1540,6 +1938,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 148,
         "player": "Marquise Brown",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 123.2,
+        "adpDifference": -24.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1550,6 +1951,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 165,
         "player": "Tarik Cohen",
         "position": "RB",
+        "publicAdp": 206.5,
+        "adpDifference": 41.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1560,6 +1963,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 172,
         "player": "Younghoe Koo",
         "position": "K",
+        "publicAdp": 143.2,
+        "adpDifference": -28.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1570,6 +1975,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 1,
         "player": "Jonathan Taylor",
         "position": "RB",
+        "team": "IND",
+        "publicAdp": 1,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1580,6 +1988,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 24,
         "player": "Tyreek Hill",
         "position": "WR",
+        "publicAdp": 19.8,
+        "adpDifference": -4.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1590,6 +2000,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 25,
         "player": "Javonte Williams",
         "position": "RB",
+        "team": "DAL",
+        "publicAdp": 22.8,
+        "adpDifference": -2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1600,6 +2013,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 48,
         "player": "Lamar Jackson",
         "position": "QB",
+        "team": "BAL",
+        "publicAdp": 43.5,
+        "adpDifference": -4.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1610,6 +2026,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 49,
         "player": "Chris Godwin",
         "position": "WR",
+        "team": "TB",
+        "publicAdp": 61.8,
+        "adpDifference": 12.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1620,6 +2039,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 72,
         "player": "Marquise Brown",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 61.5,
+        "adpDifference": -10.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1630,6 +2052,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 73,
         "player": "Jerry Jeudy",
         "position": "WR",
+        "team": "CLE",
+        "publicAdp": 65.8,
+        "adpDifference": -7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1640,6 +2065,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 96,
         "player": "Mike Gesicki",
         "position": "TE",
+        "team": "CIN",
+        "publicAdp": 129,
+        "adpDifference": 33,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1650,6 +2078,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 97,
         "player": "Rhamondre Stevenson",
         "position": "RB",
+        "team": "NE",
+        "publicAdp": 100,
+        "adpDifference": 3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1660,6 +2091,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 120,
         "player": "Nyheim Miller-Hines",
         "position": "RB",
+        "publicAdp": 140.5,
+        "adpDifference": 20.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1670,6 +2103,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 121,
         "player": "Tyler Allgeier",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 186.3,
+        "adpDifference": 65.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -1680,6 +2116,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 144,
         "player": "Sterling Shepard",
         "position": "WR",
+        "publicAdp": 281.5,
+        "adpDifference": 137.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1690,6 +2128,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 145,
         "player": "Tyler Higbee",
         "position": "TE",
+        "team": "LAR",
+        "publicAdp": 155.3,
+        "adpDifference": 10.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1700,6 +2141,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 168,
         "player": "Rodrigo Blankenship",
         "position": "K",
+        "publicAdp": 214.5,
+        "adpDifference": 46.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1710,6 +2153,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 169,
         "player": "Ravens",
         "position": "DST",
+        "publicAdp": 159.8,
+        "adpDifference": -9.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1720,6 +2165,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 5,
         "player": "Saquon Barkley",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 7.8,
+        "adpDifference": 2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1730,6 +2178,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 20,
         "player": "Jalen Hurts",
         "position": "QB",
+        "team": "PHI",
+        "publicAdp": 22.8,
+        "adpDifference": 2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1740,6 +2191,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 29,
         "player": "Davante Adams",
         "position": "WR",
+        "team": "LAR",
+        "publicAdp": 12.8,
+        "adpDifference": -16.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1750,6 +2204,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 44,
         "player": "Keenan Allen",
         "position": "WR",
+        "team": "IND",
+        "publicAdp": 43.5,
+        "adpDifference": -0.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1760,6 +2217,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 53,
         "player": "T.J. Hockenson",
         "position": "TE",
+        "team": "MIN",
+        "publicAdp": 45.3,
+        "adpDifference": -7.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1770,6 +2230,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 68,
         "player": "Rachaad White",
         "position": "RB",
+        "team": "WAS",
+        "publicAdp": 65.5,
+        "adpDifference": -2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1780,6 +2243,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 77,
         "player": "Isiah Pacheco",
         "position": "RB",
+        "team": "DET",
+        "publicAdp": 72.5,
+        "adpDifference": -4.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1790,6 +2256,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 92,
         "player": "Jordan Addison",
         "position": "WR",
+        "team": "MIN",
+        "publicAdp": 93.8,
+        "adpDifference": 1.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -1800,6 +2269,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 101,
         "player": "Jahan Dotson",
         "position": "WR",
+        "team": "ATL",
+        "publicAdp": 91.8,
+        "adpDifference": -9.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1810,6 +2282,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 116,
         "player": "Jakobi Meyers",
         "position": "WR",
+        "team": "JAC",
+        "publicAdp": 150,
+        "adpDifference": 34,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1820,6 +2295,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 125,
         "player": "Steelers",
         "position": "DST",
+        "publicAdp": 141.5,
+        "adpDifference": 16.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1830,6 +2307,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 140,
         "player": "Jaylen Warren",
         "position": "RB",
+        "team": "PIT",
+        "publicAdp": 162.8,
+        "adpDifference": 22.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1840,6 +2320,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 149,
         "player": "Jeff Wilson",
         "position": "RB",
+        "publicAdp": 172.3,
+        "adpDifference": 23.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1850,6 +2332,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 164,
         "player": "Clyde Edwards-Helaire",
         "position": "RB",
+        "publicAdp": 201.7,
+        "adpDifference": 37.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1860,6 +2344,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 173,
         "player": "Brandon Aubrey",
         "position": "K",
+        "team": "DAL",
+        "publicAdp": 249,
+        "adpDifference": 76,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1870,6 +2357,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 4,
         "player": "Tyreek Hill",
         "position": "WR",
+        "publicAdp": 3.2,
+        "adpDifference": -0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1880,6 +2369,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 21,
         "player": "Kyren Williams",
         "position": "RB",
+        "team": "LAR",
+        "publicAdp": 16,
+        "adpDifference": -5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1890,6 +2382,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 28,
         "player": "Rachaad White",
         "position": "RB",
+        "team": "WAS",
+        "publicAdp": 31.6,
+        "adpDifference": 3.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1900,6 +2395,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 45,
         "player": "Mike Evans",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 31.2,
+        "adpDifference": -13.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1910,6 +2408,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 52,
         "player": "DeVonta Smith",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 44,
+        "adpDifference": -8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1920,6 +2421,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 69,
         "player": "Brian Robinson Jr.",
         "position": "RB",
+        "team": "ATL",
+        "publicAdp": 92.6,
+        "adpDifference": 23.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1930,6 +2434,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 76,
         "player": "Jordan Love",
         "position": "QB",
+        "team": "GB",
+        "publicAdp": 71.4,
+        "adpDifference": -4.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1940,6 +2447,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 93,
         "player": "Chris Godwin",
         "position": "WR",
+        "team": "TB",
+        "publicAdp": 76.2,
+        "adpDifference": -16.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1950,6 +2460,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 100,
         "player": "Keon Coleman",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 104.6,
+        "adpDifference": 4.6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -1960,6 +2473,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 117,
         "player": "Rico Dowdle",
         "position": "RB",
+        "team": "PIT",
+        "publicAdp": 150.8,
+        "adpDifference": 33.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1970,6 +2486,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 124,
         "player": "Marquise Brown",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 110.2,
+        "adpDifference": -13.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1980,6 +2499,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 141,
         "player": "Eagles",
         "position": "DST",
+        "publicAdp": 178.6,
+        "adpDifference": 37.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -1990,6 +2511,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 148,
         "player": "Luke Musgrave",
         "position": "TE",
+        "team": "GB",
+        "publicAdp": 169.8,
+        "adpDifference": 21.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2000,6 +2524,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 165,
         "player": "Joshua Karty",
         "position": "K",
+        "publicAdp": 269.5,
+        "adpDifference": 104.5,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -2010,6 +2536,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 172,
         "player": "Tyler Bass",
         "position": "K",
+        "team": "BUF",
+        "publicAdp": 183.4,
+        "adpDifference": 11.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2020,6 +2549,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 2,
         "player": "Saquon Barkley",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 3.7,
+        "adpDifference": 1.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2030,6 +2562,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 23,
         "player": "Alvin Kamara",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 37,
+        "adpDifference": 14,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2040,6 +2575,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 26,
         "player": "A.J. Brown",
         "position": "WR",
+        "team": "NE",
+        "publicAdp": 20.3,
+        "adpDifference": -5.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2050,6 +2588,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 47,
         "player": "Davante Adams",
         "position": "WR",
+        "team": "LAR",
+        "publicAdp": 40.3,
+        "adpDifference": -6.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2060,6 +2601,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 50,
         "player": "Courtland Sutton",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 52.8,
+        "adpDifference": 2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2070,6 +2614,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 71,
         "player": "Tyler Warren",
         "position": "TE",
+        "team": "IND",
+        "publicAdp": 88.7,
+        "adpDifference": 17.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -2080,6 +2627,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 74,
         "player": "Jacory Croskey-Merritt",
         "position": "RB",
+        "team": "WAS",
+        "publicAdp": 102.2,
+        "adpDifference": 28.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -2090,6 +2640,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 95,
         "player": "Brock Purdy",
         "position": "QB",
+        "team": "SF",
+        "publicAdp": 100,
+        "adpDifference": 5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2100,6 +2653,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 98,
         "player": "Jaylen Warren",
         "position": "RB",
+        "team": "PIT",
+        "publicAdp": 87.5,
+        "adpDifference": -10.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2110,6 +2666,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 119,
         "player": "Quinshon Judkins",
         "position": "RB",
+        "team": "CLE",
+        "publicAdp": 121.3,
+        "adpDifference": 2.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -2120,6 +2679,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 122,
         "player": "Zach Ertz",
         "position": "TE",
+        "publicAdp": 154.2,
+        "adpDifference": 32.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2130,6 +2691,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 143,
         "player": "Keon Coleman",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 118,
+        "adpDifference": -25,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2140,6 +2704,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 146,
         "player": "Trevor Lawrence",
         "position": "QB",
+        "team": "JAC",
+        "publicAdp": 160.5,
+        "adpDifference": 14.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2150,6 +2717,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 167,
         "player": "Wil Lutz",
         "position": "K",
+        "team": "DEN",
+        "publicAdp": 192,
+        "adpDifference": 25,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2160,6 +2730,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 170,
         "player": "Chiefs",
         "position": "DST",
+        "publicAdp": 173.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -2184,29 +2756,55 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 11.3,
+    "reachRate": 0.404,
+    "valueRate": 0.269,
     "earlyQbRate": 0.114,
     "earlyTeRate": 0.086,
     "rbHeavyRate": 0.333,
     "wrHeavyRate": 0.333,
-    "teamBias": {},
+    "teamBias": {
+      "CLE": 0.066,
+      "KC": 0.016,
+      "SEA": 0.033,
+      "TEN": 0.016,
+      "BAL": 0.066,
+      "PHI": 0.131,
+      "SF": 0.049,
+      "LAC": 0.016,
+      "DEN": 0.049,
+      "IND": 0.049,
+      "DAL": 0.033,
+      "TB": 0.033,
+      "CIN": 0.016,
+      "NE": 0.033,
+      "ARI": 0.016,
+      "LAR": 0.066,
+      "MIN": 0.033,
+      "WAS": 0.049,
+      "DET": 0.016,
+      "ATL": 0.033,
+      "JAC": 0.033,
+      "PIT": 0.049,
+      "GB": 0.033,
+      "BUF": 0.049,
+      "NO": 0.016
+    },
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
     "rookieDraftRate": 0.095,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.667,
+    "averageRookieAdpReach": 31.1,
     "earlyRoundRookieRate": 0.029,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 84.7,
     "predictabilityScore": 33.3
   },
   {
     "id": 3,
     "name": "Kentucky Dave",
-    "draftSlot": 3,
+    "draftSlot": 0,
     "tendency": "Balanced",
     "preferredPositions": [
       "WR",
@@ -2221,6 +2819,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 11,
         "player": "Saquon Barkley",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 9.6,
+        "adpDifference": -1.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2231,6 +2832,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 14,
         "player": "Stefon Diggs",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 14,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2241,6 +2845,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 35,
         "player": "David Montgomery",
         "position": "RB",
+        "team": "HOU",
+        "publicAdp": 30.2,
+        "adpDifference": -4.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2251,6 +2858,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 38,
         "player": "Tyler Lockett",
         "position": "WR",
+        "team": "LV",
+        "publicAdp": 49.2,
+        "adpDifference": 11.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2261,6 +2871,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 59,
         "player": "Damien Harris",
         "position": "RB",
+        "publicAdp": 72,
+        "adpDifference": 13,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2271,6 +2883,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 62,
         "player": "Matthew Stafford",
         "position": "QB",
+        "team": "LAR",
+        "publicAdp": 88.2,
+        "adpDifference": 26.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2281,6 +2896,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 83,
         "player": "Robert Tonyan",
         "position": "TE",
+        "team": "PIT",
+        "publicAdp": 88.4,
+        "adpDifference": 5.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2291,6 +2909,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 86,
         "player": "Michael Thomas",
         "position": "WR",
+        "publicAdp": 79.2,
+        "adpDifference": -6.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2301,6 +2921,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 107,
         "player": "Ronald Jones",
         "position": "RB",
+        "publicAdp": 91.8,
+        "adpDifference": -15.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2311,6 +2933,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 110,
         "player": "Emmanuel Sanders",
         "position": "WR",
+        "publicAdp": 195.4,
+        "adpDifference": 85.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2321,6 +2945,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 131,
         "player": "Derek Carr",
         "position": "QB",
+        "publicAdp": 186.4,
+        "adpDifference": 55.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2331,6 +2957,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 134,
         "player": "Steelers",
         "position": "DST",
+        "publicAdp": 111.2,
+        "adpDifference": -22.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2341,6 +2969,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 155,
         "player": "J.D. McKissic",
         "position": "RB",
+        "publicAdp": 139.8,
+        "adpDifference": -15.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2351,6 +2981,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 158,
         "player": "Cairo Santos",
         "position": "K",
+        "team": "CHI",
+        "publicAdp": 249.5,
+        "adpDifference": 91.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2361,6 +2994,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 179,
         "player": "Eric Ebron",
         "position": "TE",
+        "publicAdp": 217.2,
+        "adpDifference": 38.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2371,6 +3006,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 11,
         "player": "Aaron Jones",
         "position": "RB",
+        "team": "MIN",
+        "publicAdp": 19.5,
+        "adpDifference": 8.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2381,6 +3019,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 14,
         "player": "Davante Adams",
         "position": "WR",
+        "team": "LAR",
+        "publicAdp": 12.3,
+        "adpDifference": -1.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2391,6 +3032,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 35,
         "player": "J.K. Dobbins",
         "position": "RB",
+        "team": "DEN",
+        "publicAdp": 52,
+        "adpDifference": 17,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2401,6 +3045,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 38,
         "player": "Aaron Rodgers",
         "position": "QB",
+        "team": "PIT",
+        "publicAdp": 80.3,
+        "adpDifference": 42.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2411,6 +3058,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 59,
         "player": "Jaylen Waddle",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 47.3,
+        "adpDifference": -11.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2421,6 +3071,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 62,
         "player": "Michael Thomas",
         "position": "WR",
+        "publicAdp": 80,
+        "adpDifference": 18,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2431,6 +3083,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 83,
         "player": "Zach Ertz",
         "position": "TE",
+        "publicAdp": 88.8,
+        "adpDifference": 5.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2441,6 +3095,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 86,
         "player": "Miles Sanders",
         "position": "RB",
+        "publicAdp": 84.5,
+        "adpDifference": -1.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2451,6 +3107,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 107,
         "player": "Rashaad Penny",
         "position": "RB",
+        "publicAdp": 87,
+        "adpDifference": -20,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2461,6 +3119,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 110,
         "player": "Chase Claypool",
         "position": "WR",
+        "publicAdp": 116.3,
+        "adpDifference": 6.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2471,6 +3131,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 131,
         "player": "49ers",
         "position": "DST",
+        "publicAdp": 118.8,
+        "adpDifference": -12.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2481,6 +3143,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 134,
         "player": "Marvin Jones",
         "position": "WR",
+        "publicAdp": 212.3,
+        "adpDifference": 78.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2491,6 +3155,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 155,
         "player": "Robbie Gould",
         "position": "K",
+        "publicAdp": 201.3,
+        "adpDifference": 46.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2501,6 +3167,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 158,
         "player": "Baker Mayfield",
         "position": "QB",
+        "team": "TB",
+        "publicAdp": 195.3,
+        "adpDifference": 37.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2511,6 +3180,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 179,
         "player": "Irv Smith",
         "position": "TE",
+        "publicAdp": 175.8,
+        "adpDifference": -3.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2521,6 +3192,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 11,
         "player": "A.J. Brown",
         "position": "WR",
+        "team": "NE",
+        "publicAdp": 15,
+        "adpDifference": 4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2531,6 +3205,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 14,
         "player": "Derrick Henry",
         "position": "RB",
+        "team": "BAL",
+        "publicAdp": 16,
+        "adpDifference": 2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2541,6 +3218,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 35,
         "player": "Alvin Kamara",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 61.5,
+        "adpDifference": 26.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2551,6 +3231,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 38,
         "player": "DJ Moore",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 50.8,
+        "adpDifference": 12.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2561,6 +3244,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 59,
         "player": "Christian Watson",
         "position": "WR",
+        "team": "GB",
+        "publicAdp": 55.3,
+        "adpDifference": -3.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2581,6 +3267,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 83,
         "player": "Aaron Rodgers",
         "position": "QB",
+        "team": "PIT",
+        "publicAdp": 101.8,
+        "adpDifference": 18.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2591,6 +3280,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 86,
         "player": "Cole Kmet",
         "position": "TE",
+        "team": "CHI",
+        "publicAdp": 129.5,
+        "adpDifference": 43.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2601,6 +3293,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 107,
         "player": "Allen Lazard",
         "position": "WR",
+        "publicAdp": 143.5,
+        "adpDifference": 36.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2611,6 +3305,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 110,
         "player": "Rashaad Penny",
         "position": "RB",
+        "publicAdp": 140.3,
+        "adpDifference": 30.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2621,6 +3317,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 131,
         "player": "Geno Smith",
         "position": "QB",
+        "team": "NYJ",
+        "publicAdp": 124.8,
+        "adpDifference": -6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2631,6 +3330,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 134,
         "player": "Dalton Kincaid",
         "position": "TE",
+        "team": "BUF",
+        "publicAdp": 127,
+        "adpDifference": -7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -2641,6 +3343,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 155,
         "player": "Jake Elliott",
         "position": "K",
+        "team": "PHI",
+        "publicAdp": 161,
+        "adpDifference": 6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2651,6 +3356,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 158,
         "player": "Ravens",
         "position": "DST",
+        "publicAdp": 138.8,
+        "adpDifference": -19.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2661,6 +3368,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 179,
         "player": "Tyler Boyd",
         "position": "WR",
+        "publicAdp": 156,
+        "adpDifference": -23,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2671,6 +3380,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 5,
         "player": "Bijan Robinson",
         "position": "RB",
+        "team": "ATL",
+        "publicAdp": 5,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2681,6 +3393,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 20,
         "player": "Garrett Wilson",
         "position": "WR",
+        "team": "NYJ",
+        "publicAdp": 12.4,
+        "adpDifference": -7.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2691,6 +3406,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 29,
         "player": "DJ Moore",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 43.6,
+        "adpDifference": 14.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2701,6 +3419,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 44,
         "player": "David Montgomery",
         "position": "RB",
+        "team": "HOU",
+        "publicAdp": 61.8,
+        "adpDifference": 17.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2711,6 +3432,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 53,
         "player": "C.J. Stroud",
         "position": "QB",
+        "team": "HOU",
+        "publicAdp": 48.6,
+        "adpDifference": -4.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2721,6 +3445,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 68,
         "player": "David Njoku",
         "position": "TE",
+        "team": "LAC",
+        "publicAdp": 84.2,
+        "adpDifference": 16.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2731,6 +3458,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 77,
         "player": "Tony Pollard",
         "position": "RB",
+        "team": "TEN",
+        "publicAdp": 81.8,
+        "adpDifference": 4.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2741,6 +3471,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 92,
         "player": "Christian Watson",
         "position": "WR",
+        "team": "GB",
+        "publicAdp": 102.2,
+        "adpDifference": 10.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2751,6 +3484,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 101,
         "player": "Jaylen Warren",
         "position": "RB",
+        "team": "PIT",
+        "publicAdp": 92.6,
+        "adpDifference": -8.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2761,6 +3497,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 116,
         "player": "Dallas Goedert",
         "position": "TE",
+        "team": "PHI",
+        "publicAdp": 109.6,
+        "adpDifference": -6.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2771,6 +3510,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 125,
         "player": "Trevor Lawrence",
         "position": "QB",
+        "team": "JAC",
+        "publicAdp": 129.4,
+        "adpDifference": 4.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2781,6 +3523,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 140,
         "player": "Bears",
         "position": "DST",
+        "publicAdp": 187.4,
+        "adpDifference": 47.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2791,6 +3535,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 149,
         "player": "Jakobi Meyers",
         "position": "WR",
+        "team": "JAC",
+        "publicAdp": 143.6,
+        "adpDifference": -5.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2801,6 +3548,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 164,
         "player": "Jake Elliott",
         "position": "K",
+        "team": "PHI",
+        "publicAdp": 145.4,
+        "adpDifference": -18.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2811,6 +3561,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 173,
         "player": "Josh Palmer",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 151.4,
+        "adpDifference": -21.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2821,6 +3574,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 3,
         "player": "Derrick Henry",
         "position": "RB",
+        "team": "BAL",
+        "publicAdp": 10.2,
+        "adpDifference": 7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2831,6 +3587,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 22,
         "player": "Kenneth Walker III",
         "position": "RB",
+        "team": "KC",
+        "publicAdp": 41,
+        "adpDifference": 19,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2841,6 +3600,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 27,
         "player": "Mike Evans",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 40,
+        "adpDifference": 13,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2851,6 +3613,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 46,
         "player": "Tyreek Hill",
         "position": "WR",
+        "publicAdp": 32.5,
+        "adpDifference": -13.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2861,6 +3625,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 51,
         "player": "Baker Mayfield",
         "position": "QB",
+        "team": "TB",
+        "publicAdp": 62.5,
+        "adpDifference": 11.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2871,6 +3638,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 70,
         "player": "T.J. Hockenson",
         "position": "TE",
+        "team": "MIN",
+        "publicAdp": 63.5,
+        "adpDifference": -6.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2881,6 +3651,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 75,
         "player": "Jordan Mason",
         "position": "RB",
+        "team": "MIN",
+        "publicAdp": 101.5,
+        "adpDifference": 26.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2891,6 +3664,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 94,
         "player": "Jordan Addison",
         "position": "WR",
+        "team": "MIN",
+        "publicAdp": 95.7,
+        "adpDifference": 1.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2901,6 +3677,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 99,
         "player": "J.K. Dobbins",
         "position": "RB",
+        "team": "DEN",
+        "publicAdp": 104.8,
+        "adpDifference": 5.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2911,6 +3690,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 118,
         "player": "Josh Downs",
         "position": "WR",
+        "team": "IND",
+        "publicAdp": 127.3,
+        "adpDifference": 9.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2921,6 +3703,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "Tucker Kraft",
         "position": "TE",
+        "team": "GB",
+        "publicAdp": 110.5,
+        "adpDifference": -12.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2931,6 +3716,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 142,
         "player": "Justin Herbert",
         "position": "QB",
+        "team": "LAC",
+        "publicAdp": 113.8,
+        "adpDifference": -28.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2941,6 +3729,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 147,
         "player": "Matt Gay",
         "position": "K",
+        "team": "LV",
+        "publicAdp": 193.2,
+        "adpDifference": 46.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2951,6 +3742,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 166,
         "player": "Chargers",
         "position": "DST",
+        "publicAdp": 213.2,
+        "adpDifference": 47.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -2961,6 +3754,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 171,
         "player": "Rashod Bateman",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 172.2,
+        "adpDifference": 1.2,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -2985,29 +3781,53 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 10.3,
+    "reachRate": 0.459,
+    "valueRate": 0.27,
     "earlyQbRate": 0.12,
     "earlyTeRate": 0,
     "rbHeavyRate": 0.28,
     "wrHeavyRate": 0.32,
-    "teamBias": {},
-    "bearsDraftRate": 0,
-    "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "teamBias": {
+      "PHI": 0.08,
+      "WAS": 0.02,
+      "HOU": 0.06,
+      "LV": 0.04,
+      "LAR": 0.04,
+      "PIT": 0.08,
+      "CHI": 0.04,
+      "MIN": 0.08,
+      "DEN": 0.06,
+      "TB": 0.04,
+      "NE": 0.02,
+      "BAL": 0.06,
+      "NO": 0.02,
+      "BUF": 0.08,
+      "GB": 0.06,
+      "NYJ": 0.04,
+      "ATL": 0.02,
+      "LAC": 0.04,
+      "TEN": 0.02,
+      "JAC": 0.04,
+      "KC": 0.02,
+      "SF": 0.02,
+      "IND": 0.02
+    },
+    "bearsDraftRate": 0.027,
+    "bearsReachRate": 1,
+    "averageBearsAdpReach": 67.5,
     "rookieDraftRate": 0.013,
     "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "averageRookieAdpReach": -7,
     "earlyRoundRookieRate": 0,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 84.4,
     "predictabilityScore": 32
   },
   {
     "id": 4,
     "name": "EL JEFE",
-    "draftSlot": 4,
+    "draftSlot": 7,
     "tendency": "WR Heavy",
     "preferredPositions": [
       "WR",
@@ -3022,6 +3842,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 1,
         "player": "Todd Gurley",
         "position": "RB",
+        "publicAdp": 1,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3032,6 +3854,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 24,
         "player": "Keenan Allen",
         "position": "WR",
+        "team": "IND",
+        "publicAdp": 16.4,
+        "adpDifference": -7.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3042,6 +3867,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 25,
         "player": "Davante Adams",
         "position": "WR",
+        "team": "LAR",
+        "publicAdp": 18.8,
+        "adpDifference": -6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3052,6 +3880,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 48,
         "player": "Larry Fitzgerald",
         "position": "WR",
+        "publicAdp": 33.6,
+        "adpDifference": -14.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3062,6 +3892,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 49,
         "player": "Andrew Luck",
         "position": "QB",
+        "publicAdp": 92,
+        "adpDifference": 43,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3072,6 +3904,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 72,
         "player": "Greg Olsen",
         "position": "TE",
+        "publicAdp": 56.4,
+        "adpDifference": -15.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3082,6 +3916,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 73,
         "player": "Derrick Henry",
         "position": "RB",
+        "team": "BAL",
+        "publicAdp": 42.2,
+        "adpDifference": -30.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3092,6 +3929,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 96,
         "player": "Julian Edelman",
         "position": "WR",
+        "publicAdp": 72.2,
+        "adpDifference": -23.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3102,6 +3941,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 97,
         "player": "Jamaal Williams",
         "position": "RB",
+        "publicAdp": 78,
+        "adpDifference": -19,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3112,6 +3953,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 120,
         "player": "Robbie Chosen",
         "position": "WR",
+        "publicAdp": 89.8,
+        "adpDifference": -30.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3122,6 +3965,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 121,
         "player": "Chargers",
         "position": "DST",
+        "publicAdp": 132.8,
+        "adpDifference": 11.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3132,6 +3977,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 144,
         "player": "Matthew Stafford",
         "position": "QB",
+        "team": "LAR",
+        "publicAdp": 97,
+        "adpDifference": -47,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3142,6 +3990,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 145,
         "player": "Kelvin Benjamin",
         "position": "WR",
+        "publicAdp": 113.8,
+        "adpDifference": -31.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3152,6 +4002,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 168,
         "player": "Matt Bryant",
         "position": "K",
+        "publicAdp": 178.2,
+        "adpDifference": 10.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3162,6 +4014,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 169,
         "player": "Peyton Barber",
         "position": "RB",
+        "publicAdp": 106.4,
+        "adpDifference": -62.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3172,6 +4026,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 11,
         "player": "Nick Chubb",
         "position": "RB",
+        "publicAdp": 16,
+        "adpDifference": 5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3182,6 +4038,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 14,
         "player": "Tyreek Hill",
         "position": "WR",
+        "publicAdp": 15.7,
+        "adpDifference": 1.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3192,6 +4050,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 35,
         "player": "Stefon Diggs",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 32.2,
+        "adpDifference": -2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3202,6 +4063,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 38,
         "player": "Julian Edelman",
         "position": "WR",
+        "publicAdp": 35.2,
+        "adpDifference": -2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3212,6 +4075,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 59,
         "player": "Mark Ingram",
         "position": "RB",
+        "publicAdp": 44.5,
+        "adpDifference": -14.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3222,6 +4087,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 62,
         "player": "Evan Engram",
         "position": "TE",
+        "team": "DEN",
+        "publicAdp": 57.2,
+        "adpDifference": -4.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3232,6 +4100,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 83,
         "player": "Carson Wentz",
         "position": "QB",
+        "team": "MIN",
+        "publicAdp": 81,
+        "adpDifference": -2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3242,6 +4113,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 86,
         "player": "Curtis Samuel",
         "position": "WR",
+        "publicAdp": 98.7,
+        "adpDifference": 12.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3252,6 +4125,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 107,
         "player": "Will Fuller",
         "position": "WR",
+        "publicAdp": 86.8,
+        "adpDifference": -20.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3262,6 +4137,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 110,
         "player": "Derrius Guice",
         "position": "RB",
+        "publicAdp": 78.8,
+        "adpDifference": -31.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3272,6 +4149,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 131,
         "player": "Darrell Henderson Jr.",
         "position": "RB",
+        "publicAdp": 106.8,
+        "adpDifference": -24.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3282,6 +4161,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 134,
         "player": "Jameis Winston",
         "position": "QB",
+        "team": "NYG",
+        "publicAdp": 126.5,
+        "adpDifference": -7.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3292,6 +4174,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 155,
         "player": "John Brown",
         "position": "WR",
+        "publicAdp": 161.2,
+        "adpDifference": 6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3302,6 +4186,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 158,
         "player": "Ravens",
         "position": "DST",
+        "publicAdp": 132.2,
+        "adpDifference": -25.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3312,6 +4198,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 179,
         "player": "Brett Maher",
         "position": "K",
+        "publicAdp": 210.3,
+        "adpDifference": 31.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3322,6 +4210,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 3,
         "player": "Alvin Kamara",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 3,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3332,6 +4223,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 22,
         "player": "Calvin Ridley",
         "position": "WR",
+        "team": "TEN",
+        "publicAdp": 18.4,
+        "adpDifference": -3.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3342,6 +4236,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 27,
         "player": "Keenan Allen",
         "position": "WR",
+        "team": "IND",
+        "publicAdp": 27.4,
+        "adpDifference": 0.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3352,6 +4249,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 46,
         "player": "Chris Godwin",
         "position": "WR",
+        "team": "TB",
+        "publicAdp": 42.4,
+        "adpDifference": -3.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3362,6 +4262,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 51,
         "player": "Myles Gaskin",
         "position": "RB",
+        "publicAdp": 49.8,
+        "adpDifference": -1.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3372,6 +4274,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 70,
         "player": "Dak Prescott",
         "position": "QB",
+        "team": "DAL",
+        "publicAdp": 56,
+        "adpDifference": -14,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3382,6 +4287,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 75,
         "player": "Raheem Mostert",
         "position": "RB",
+        "team": "LV",
+        "publicAdp": 68.8,
+        "adpDifference": -6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3392,6 +4300,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 94,
         "player": "Trey Sermon",
         "position": "RB",
+        "team": "ATL",
+        "publicAdp": 87.2,
+        "adpDifference": -6.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3402,6 +4313,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 99,
         "player": "Trey Lance",
         "position": "QB",
+        "team": "LAC",
+        "publicAdp": 149,
+        "adpDifference": 50,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3422,6 +4336,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "DeVonta Smith",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 77,
+        "adpDifference": -46,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3432,6 +4349,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 142,
         "player": "Jaylen Waddle",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 107.4,
+        "adpDifference": -34.6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3442,6 +4362,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 147,
         "player": "Broncos",
         "position": "DST",
+        "publicAdp": 163.2,
+        "adpDifference": 16.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3452,6 +4374,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 166,
         "player": "Justin Tucker",
         "position": "K",
+        "publicAdp": 127.8,
+        "adpDifference": -38.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3462,6 +4386,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 171,
         "player": "Elijah Moore",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 145.6,
+        "adpDifference": -25.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3472,6 +4399,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 5,
         "player": "Christian McCaffrey",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 2,
+        "adpDifference": -3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3482,6 +4412,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 20,
         "player": "Saquon Barkley",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 20.3,
+        "adpDifference": 0.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3492,6 +4425,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 29,
         "player": "CeeDee Lamb",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 19.5,
+        "adpDifference": -9.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3502,6 +4438,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 44,
         "player": "Jalen Hurts",
         "position": "QB",
+        "team": "PHI",
+        "publicAdp": 55.3,
+        "adpDifference": 11.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3512,6 +4451,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 53,
         "player": "Brandin Cooks",
         "position": "WR",
+        "publicAdp": 56,
+        "adpDifference": 3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3522,6 +4463,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 68,
         "player": "Darnell Mooney",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 73.5,
+        "adpDifference": 5.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3532,6 +4476,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 77,
         "player": "Cole Kmet",
         "position": "TE",
+        "team": "CHI",
+        "publicAdp": 121.8,
+        "adpDifference": 44.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3542,6 +4489,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 92,
         "player": "Tony Pollard",
         "position": "RB",
+        "team": "TEN",
+        "publicAdp": 86,
+        "adpDifference": -6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3552,6 +4502,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 101,
         "player": "Amari Cooper",
         "position": "WR",
+        "publicAdp": 67.8,
+        "adpDifference": -33.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3562,6 +4514,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 116,
         "player": "Kenneth Walker III",
         "position": "RB",
+        "team": "KC",
+        "publicAdp": 116,
+        "adpDifference": 0,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3572,6 +4527,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 125,
         "player": "Tyler Lockett",
         "position": "WR",
+        "team": "LV",
+        "publicAdp": 96.5,
+        "adpDifference": -28.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3582,6 +4540,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 140,
         "player": "Kadarius Toney",
         "position": "WR",
+        "publicAdp": 119,
+        "adpDifference": -21,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3592,6 +4552,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 149,
         "player": "Isiah Pacheco",
         "position": "RB",
+        "team": "DET",
+        "publicAdp": 178,
+        "adpDifference": 29,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3602,6 +4565,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 164,
         "player": "Greg Joseph",
         "position": "K",
+        "publicAdp": 195.3,
+        "adpDifference": 31.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3612,6 +4577,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 173,
         "player": "Broncos",
         "position": "DST",
+        "publicAdp": 169,
+        "adpDifference": -4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3622,6 +4589,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 9,
         "player": "Tyreek Hill",
         "position": "WR",
+        "publicAdp": 6.3,
+        "adpDifference": -2.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3632,6 +4601,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 16,
         "player": "Nick Chubb",
         "position": "RB",
+        "publicAdp": 12.3,
+        "adpDifference": -3.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3642,6 +4613,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 33,
         "player": "DeVonta Smith",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 27,
+        "adpDifference": -6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3652,6 +4626,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 40,
         "player": "Justin Fields",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 44.3,
+        "adpDifference": 4.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3662,6 +4639,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 57,
         "player": "Miles Sanders",
         "position": "RB",
+        "publicAdp": 50.5,
+        "adpDifference": -6.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3672,6 +4651,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 64,
         "player": "Jerry Jeudy",
         "position": "WR",
+        "team": "CLE",
+        "publicAdp": 72,
+        "adpDifference": 8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3682,6 +4664,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 81,
         "player": "Christian Kirk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 76,
+        "adpDifference": -5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3692,6 +4677,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 88,
         "player": "Diontae Johnson",
         "position": "WR",
+        "publicAdp": 74.8,
+        "adpDifference": -13.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3702,6 +4689,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 105,
         "player": "Samaje Perine",
         "position": "RB",
+        "team": "CIN",
+        "publicAdp": 118.5,
+        "adpDifference": 13.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3712,6 +4702,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 112,
         "player": "Gabe Davis",
         "position": "WR",
+        "publicAdp": 108.3,
+        "adpDifference": -3.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3722,6 +4714,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 129,
         "player": "Tua Tagovailoa",
         "position": "QB",
+        "team": "ATL",
+        "publicAdp": 93.5,
+        "adpDifference": -35.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3732,6 +4727,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 136,
         "player": "Greg Dulcich",
         "position": "TE",
+        "team": "MIA",
+        "publicAdp": 176,
+        "adpDifference": 40,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3742,6 +4740,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 153,
         "player": "Tyler Bass",
         "position": "K",
+        "team": "BUF",
+        "publicAdp": 129,
+        "adpDifference": -24,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3752,6 +4753,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 160,
         "player": "Dolphins",
         "position": "DST",
+        "publicAdp": 145.8,
+        "adpDifference": -14.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3762,6 +4765,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 177,
         "player": "Skyy Moore",
         "position": "WR",
+        "team": "GB",
+        "publicAdp": 127.5,
+        "adpDifference": -49.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3772,6 +4778,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 1,
         "player": "Christian McCaffrey",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 1,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3782,6 +4791,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 24,
         "player": "Marvin Harrison Jr.",
         "position": "WR",
+        "team": "ARI",
+        "publicAdp": 16.8,
+        "adpDifference": -7.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3792,6 +4804,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 25,
         "player": "Drake London",
         "position": "WR",
+        "team": "ATL",
+        "publicAdp": 25.6,
+        "adpDifference": 0.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3802,6 +4817,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 48,
         "player": "Trey McBride",
         "position": "TE",
+        "team": "ARI",
+        "publicAdp": 46.4,
+        "adpDifference": -1.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3812,6 +4830,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 49,
         "player": "Javonte Williams",
         "position": "RB",
+        "team": "DAL",
+        "publicAdp": 81.2,
+        "adpDifference": 32.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3822,6 +4843,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 72,
         "player": "Kyler Murray",
         "position": "QB",
+        "team": "MIN",
+        "publicAdp": 70.2,
+        "adpDifference": -1.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3832,6 +4856,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 73,
         "player": "Malik Nabers",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 48.6,
+        "adpDifference": -24.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3842,6 +4869,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 96,
         "player": "Christian Kirk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 74.6,
+        "adpDifference": -21.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3852,6 +4882,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 97,
         "player": "Tyjae Spears",
         "position": "RB",
+        "team": "TEN",
+        "publicAdp": 100.2,
+        "adpDifference": 3.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3862,6 +4895,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 120,
         "player": "Brian Thomas Jr.",
         "position": "WR",
+        "team": "JAC",
+        "publicAdp": 116.2,
+        "adpDifference": -3.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3872,6 +4908,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 121,
         "player": "Blake Corum",
         "position": "RB",
+        "team": "LAR",
+        "publicAdp": 128,
+        "adpDifference": 7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3882,6 +4921,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 144,
         "player": "Jameson Williams",
         "position": "WR",
+        "team": "DET",
+        "publicAdp": 120.2,
+        "adpDifference": -23.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3892,6 +4934,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 145,
         "player": "Justin Tucker",
         "position": "K",
+        "publicAdp": 108.4,
+        "adpDifference": -36.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3902,6 +4946,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 168,
         "player": "Chargers",
         "position": "DST",
+        "publicAdp": 230,
+        "adpDifference": 62,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3912,6 +4958,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 169,
         "player": "Kimani Vidal",
         "position": "RB",
+        "team": "LAC",
+        "publicAdp": 207.3,
+        "adpDifference": 38.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3922,6 +4971,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 4,
         "player": "Bijan Robinson",
         "position": "RB",
+        "team": "ATL",
+        "publicAdp": 2.2,
+        "adpDifference": -1.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3932,6 +4984,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 21,
         "player": "Drake London",
         "position": "WR",
+        "team": "ATL",
+        "publicAdp": 19.2,
+        "adpDifference": -1.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3942,6 +4997,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 28,
         "player": "Trey McBride",
         "position": "TE",
+        "team": "ARI",
+        "publicAdp": 28,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3952,6 +5010,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 45,
         "player": "Patrick Mahomes",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 49.7,
+        "adpDifference": 4.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3962,6 +5023,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 52,
         "player": "Isiah Pacheco",
         "position": "RB",
+        "team": "DET",
+        "publicAdp": 60.8,
+        "adpDifference": 8.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3972,6 +5036,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 69,
         "player": "Tetairoa McMillan",
         "position": "WR",
+        "team": "CAR",
+        "publicAdp": 58.7,
+        "adpDifference": -10.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -3982,6 +5049,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 76,
         "player": "Jameson Williams",
         "position": "WR",
+        "team": "DET",
+        "publicAdp": 60.2,
+        "adpDifference": -15.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -3992,6 +5062,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 93,
         "player": "Travis Hunter",
         "position": "WR",
+        "team": "JAC",
+        "publicAdp": 69.8,
+        "adpDifference": -23.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -4002,6 +5075,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 100,
         "player": "Jaylen Waddle",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 72.2,
+        "adpDifference": -27.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4012,6 +5088,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 117,
         "player": "Braelon Allen",
         "position": "RB",
+        "team": "NYJ",
+        "publicAdp": 137.2,
+        "adpDifference": 20.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4022,6 +5101,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 124,
         "player": "Cam Skattebo",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 103.8,
+        "adpDifference": -20.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -4032,6 +5114,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 141,
         "player": "Drake Maye",
         "position": "QB",
+        "team": "NE",
+        "publicAdp": 128.8,
+        "adpDifference": -12.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4042,6 +5127,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 148,
         "player": "Jerome Ford",
         "position": "RB",
+        "team": "WAS",
+        "publicAdp": 157.7,
+        "adpDifference": 9.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4052,6 +5140,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 165,
         "player": "Evan McPherson",
         "position": "K",
+        "team": "CIN",
+        "publicAdp": 204.7,
+        "adpDifference": 39.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4062,6 +5153,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 172,
         "player": "Rams",
         "position": "DST",
+        "publicAdp": 221.2,
+        "adpDifference": 49.2,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -4086,29 +5179,59 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": -4.3,
+    "reachRate": 0.231,
+    "valueRate": 0.433,
     "earlyQbRate": 0.114,
     "earlyTeRate": 0.057,
     "rbHeavyRate": 0.286,
     "wrHeavyRate": 0.4,
-    "teamBias": {},
-    "bearsDraftRate": 0,
-    "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "teamBias": {
+      "IND": 0.031,
+      "LAR": 0.046,
+      "BAL": 0.015,
+      "WAS": 0.031,
+      "DEN": 0.046,
+      "MIN": 0.031,
+      "NYG": 0.062,
+      "NO": 0.015,
+      "TEN": 0.046,
+      "TB": 0.015,
+      "DAL": 0.046,
+      "LV": 0.031,
+      "ATL": 0.077,
+      "LAC": 0.031,
+      "PHI": 0.077,
+      "SF": 0.062,
+      "CHI": 0.015,
+      "KC": 0.046,
+      "DET": 0.062,
+      "CLE": 0.015,
+      "CIN": 0.031,
+      "MIA": 0.015,
+      "BUF": 0.015,
+      "GB": 0.015,
+      "ARI": 0.046,
+      "JAC": 0.031,
+      "CAR": 0.015,
+      "NYJ": 0.015,
+      "NE": 0.015
+    },
+    "bearsDraftRate": 0.01,
+    "bearsReachRate": 1,
+    "averageBearsAdpReach": 44.8,
     "rookieDraftRate": 0.152,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.25,
+    "averageRookieAdpReach": -6.4,
     "earlyRoundRookieRate": 0.029,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 48.3,
     "predictabilityScore": 40
   },
   {
     "id": 5,
     "name": "Papi",
-    "draftSlot": 5,
+    "draftSlot": 9,
     "tendency": "Balanced",
     "preferredPositions": [
       "RB",
@@ -4123,6 +5246,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 3,
         "player": "Ezekiel Elliott",
         "position": "RB",
+        "publicAdp": 4,
+        "adpDifference": 1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4133,6 +5258,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 22,
         "player": "Devonta Freeman",
         "position": "RB",
+        "publicAdp": 19.2,
+        "adpDifference": -2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4143,6 +5270,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 27,
         "player": "Rob Gronkowski",
         "position": "TE",
+        "publicAdp": 20.6,
+        "adpDifference": -6.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4153,6 +5282,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 46,
         "player": "Demaryius Thomas",
         "position": "WR",
+        "publicAdp": 43.2,
+        "adpDifference": -2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4163,6 +5294,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 51,
         "player": "JuJu Smith-Schuster",
         "position": "WR",
+        "publicAdp": 44,
+        "adpDifference": -7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4173,6 +5306,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 70,
         "player": "Brandin Cooks",
         "position": "WR",
+        "publicAdp": 45.4,
+        "adpDifference": -24.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4183,6 +5318,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 75,
         "player": "Rams",
         "position": "DST",
+        "publicAdp": 104.8,
+        "adpDifference": 29.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4193,6 +5330,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 94,
         "player": "Philip Rivers",
         "position": "QB",
+        "publicAdp": 109,
+        "adpDifference": 15,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4203,6 +5342,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 99,
         "player": "Dion Lewis",
         "position": "RB",
+        "publicAdp": 56.4,
+        "adpDifference": -42.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4213,6 +5354,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 118,
         "player": "Allen Hurns",
         "position": "WR",
+        "publicAdp": 125.2,
+        "adpDifference": 7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4223,6 +5366,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "Brandon McManus",
         "position": "K",
+        "publicAdp": 260.7,
+        "adpDifference": 137.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4233,6 +5378,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 142,
         "player": "Matt Ryan",
         "position": "QB",
+        "publicAdp": 107,
+        "adpDifference": -35,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4243,6 +5390,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 147,
         "player": "Calvin Ridley",
         "position": "WR",
+        "team": "TEN",
+        "publicAdp": 135.6,
+        "adpDifference": -11.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -4253,6 +5403,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 166,
         "player": "Theo Riddick",
         "position": "RB",
+        "publicAdp": 154.4,
+        "adpDifference": -11.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4263,6 +5415,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 171,
         "player": "Chris Boswell",
         "position": "K",
+        "team": "PIT",
+        "publicAdp": 178.6,
+        "adpDifference": 7.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4273,6 +5428,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 6,
         "player": "Patrick Mahomes",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 18.8,
+        "adpDifference": 12.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4283,6 +5441,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 19,
         "player": "Adam Thielen",
         "position": "WR",
+        "publicAdp": 25,
+        "adpDifference": 6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4293,6 +5453,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 30,
         "player": "Antonio Brown",
         "position": "WR",
+        "publicAdp": 21,
+        "adpDifference": -9,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4303,6 +5465,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 43,
         "player": "James White",
         "position": "RB",
+        "publicAdp": 53.3,
+        "adpDifference": 10.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4313,6 +5477,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 54,
         "player": "Phillip Lindsay",
         "position": "RB",
+        "publicAdp": 54.7,
+        "adpDifference": 0.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4323,6 +5489,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 67,
         "player": "Jordan Howard",
         "position": "RB",
+        "publicAdp": 99.2,
+        "adpDifference": 32.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4333,6 +5501,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 78,
         "player": "Allen Robinson",
         "position": "WR",
+        "publicAdp": 72.5,
+        "adpDifference": -5.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4343,6 +5513,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 91,
         "player": "Hunter Henry",
         "position": "TE",
+        "team": "NE",
+        "publicAdp": 64.5,
+        "adpDifference": -26.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4353,6 +5526,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 102,
         "player": "Justin Tucker",
         "position": "K",
+        "publicAdp": 122.2,
+        "adpDifference": 20.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4363,6 +5538,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 115,
         "player": "DeSean Jackson",
         "position": "WR",
+        "publicAdp": 130.7,
+        "adpDifference": 15.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4373,6 +5550,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 126,
         "player": "LeSean McCoy",
         "position": "RB",
+        "publicAdp": 99.2,
+        "adpDifference": -26.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4383,6 +5562,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 139,
         "player": "Philip Rivers",
         "position": "QB",
+        "publicAdp": 126.5,
+        "adpDifference": -12.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4393,6 +5574,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 150,
         "player": "Rams",
         "position": "DST",
+        "publicAdp": 107,
+        "adpDifference": -43,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4403,6 +5586,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 163,
         "player": "Devin Singletary",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 108.8,
+        "adpDifference": -54.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -4413,6 +5599,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 174,
         "player": "Kyle Rudolph",
         "position": "TE",
+        "publicAdp": 146.2,
+        "adpDifference": -27.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4423,6 +5611,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 9,
         "player": "Austin Ekeler",
         "position": "RB",
+        "publicAdp": 10.4,
+        "adpDifference": 1.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4433,6 +5623,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 16,
         "player": "Ezekiel Elliott",
         "position": "RB",
+        "publicAdp": 5.8,
+        "adpDifference": -10.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4443,6 +5635,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 33,
         "player": "Robert Woods",
         "position": "WR",
+        "publicAdp": 38.4,
+        "adpDifference": 5.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4453,6 +5647,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 40,
         "player": "Amari Cooper",
         "position": "WR",
+        "publicAdp": 41.2,
+        "adpDifference": 1.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4463,6 +5659,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 57,
         "player": "Tom Brady",
         "position": "QB",
+        "publicAdp": 71.8,
+        "adpDifference": 14.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4473,6 +5671,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 64,
         "player": "Jerry Jeudy",
         "position": "WR",
+        "team": "CLE",
+        "publicAdp": 72.4,
+        "adpDifference": 8.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4483,6 +5684,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 81,
         "player": "Mike Gesicki",
         "position": "TE",
+        "team": "CIN",
+        "publicAdp": 109.8,
+        "adpDifference": 28.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4493,6 +5697,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 88,
         "player": "Bills",
         "position": "DST",
+        "publicAdp": 139,
+        "adpDifference": 51,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4503,6 +5709,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 105,
         "player": "Jarvis Landry",
         "position": "WR",
+        "publicAdp": 103.4,
+        "adpDifference": -1.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4513,6 +5721,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 112,
         "player": "Hunter Henry",
         "position": "TE",
+        "team": "NE",
+        "publicAdp": 153.2,
+        "adpDifference": 41.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4523,6 +5734,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 129,
         "player": "Robbie Gould",
         "position": "K",
+        "publicAdp": 227.8,
+        "adpDifference": 98.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4533,6 +5746,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 136,
         "player": "Tua Tagovailoa",
         "position": "QB",
+        "team": "ATL",
+        "publicAdp": 158.6,
+        "adpDifference": 22.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4543,6 +5759,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 153,
         "player": "James White",
         "position": "RB",
+        "publicAdp": 151.8,
+        "adpDifference": -1.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4553,6 +5771,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 160,
         "player": "Henry Ruggs III",
         "position": "WR",
+        "publicAdp": 129,
+        "adpDifference": -31,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4563,6 +5783,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 177,
         "player": "Jamison Crowder",
         "position": "WR",
+        "publicAdp": 228.2,
+        "adpDifference": 51.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4573,6 +5795,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 7,
         "player": "Joe Mixon",
         "position": "RB",
+        "publicAdp": 10.3,
+        "adpDifference": 3.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4583,6 +5807,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 18,
         "player": "James Conner",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 29.3,
+        "adpDifference": 11.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4593,6 +5820,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 31,
         "player": "Mike Evans",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 26.8,
+        "adpDifference": -4.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4603,6 +5833,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 42,
         "player": "Tom Brady",
         "position": "QB",
+        "publicAdp": 72,
+        "adpDifference": 30,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4613,6 +5845,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 55,
         "player": "Darren Waller",
         "position": "TE",
+        "team": "CAR",
+        "publicAdp": 44.8,
+        "adpDifference": -10.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4623,6 +5858,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 66,
         "player": "Allen Lazard",
         "position": "WR",
+        "publicAdp": 104.5,
+        "adpDifference": 38.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4633,6 +5870,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 79,
         "player": "Antonio Gibson",
         "position": "RB",
+        "publicAdp": 64.8,
+        "adpDifference": -14.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4643,6 +5882,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 90,
         "player": "Colts",
         "position": "DST",
+        "publicAdp": 123.5,
+        "adpDifference": 33.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4653,6 +5894,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 103,
         "player": "Mark Ingram",
         "position": "RB",
+        "publicAdp": 179,
+        "adpDifference": 76,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4663,6 +5906,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 114,
         "player": "Justin Tucker",
         "position": "K",
+        "publicAdp": 105.5,
+        "adpDifference": -8.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4673,6 +5918,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 127,
         "player": "Austin Hooper",
         "position": "TE",
+        "team": "ATL",
+        "publicAdp": 209,
+        "adpDifference": 82,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4683,6 +5931,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 138,
         "player": "Raheem Mostert",
         "position": "RB",
+        "team": "LV",
+        "publicAdp": 144.8,
+        "adpDifference": 6.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4693,6 +5944,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 151,
         "player": "Tua Tagovailoa",
         "position": "QB",
+        "team": "ATL",
+        "publicAdp": 140.5,
+        "adpDifference": -10.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4703,6 +5957,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 162,
         "player": "David Njoku",
         "position": "TE",
+        "team": "LAC",
+        "publicAdp": 161.8,
+        "adpDifference": -0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4713,6 +5970,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 175,
         "player": "Taysom Hill",
         "position": "QB",
+        "publicAdp": 216.5,
+        "adpDifference": 41.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4723,6 +5982,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 10,
         "player": "Josh Jacobs",
         "position": "RB",
+        "team": "GB",
+        "publicAdp": 16,
+        "adpDifference": 6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4733,6 +5995,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 15,
         "player": "Joe Mixon",
         "position": "RB",
+        "publicAdp": 33,
+        "adpDifference": 18,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4743,6 +6007,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 34,
         "player": "Calvin Ridley",
         "position": "WR",
+        "team": "TEN",
+        "publicAdp": 34.5,
+        "adpDifference": 0.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4753,6 +6020,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 39,
         "player": "Tee Higgins",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 28.8,
+        "adpDifference": -10.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4763,6 +6033,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 58,
         "player": "Kenneth Walker III",
         "position": "RB",
+        "team": "KC",
+        "publicAdp": 43.8,
+        "adpDifference": -14.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4773,6 +6046,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 63,
         "player": "Deshaun Watson",
         "position": "QB",
+        "team": "CLE",
+        "publicAdp": 76,
+        "adpDifference": 13,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4783,6 +6059,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 82,
         "player": "Eagles",
         "position": "DST",
+        "publicAdp": 106,
+        "adpDifference": 24,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4793,6 +6071,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 87,
         "player": "David Njoku",
         "position": "TE",
+        "team": "LAC",
+        "publicAdp": 85.8,
+        "adpDifference": -1.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4803,6 +6084,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 106,
         "player": "Jared Goff",
         "position": "QB",
+        "team": "DET",
+        "publicAdp": 138.8,
+        "adpDifference": 32.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4813,6 +6097,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "De'Von Achane",
         "position": "RB",
+        "team": "MIA",
+        "publicAdp": 136.8,
+        "adpDifference": 25.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -4823,6 +6110,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 130,
         "player": "Dalton Schultz",
         "position": "TE",
+        "team": "HOU",
+        "publicAdp": 120.5,
+        "adpDifference": -9.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4833,6 +6123,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 135,
         "player": "Damien Harris",
         "position": "RB",
+        "publicAdp": 164.5,
+        "adpDifference": 29.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4843,6 +6135,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 154,
         "player": "Raheem Mostert",
         "position": "RB",
+        "team": "LV",
+        "publicAdp": 135,
+        "adpDifference": -19,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4853,6 +6148,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 159,
         "player": "Cairo Santos",
         "position": "K",
+        "team": "CHI",
+        "publicAdp": 209,
+        "adpDifference": 50,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4863,6 +6161,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 178,
         "player": "Chase Brown",
         "position": "RB",
+        "team": "CIN",
+        "publicAdp": 246,
+        "adpDifference": 68,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -4873,6 +6174,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 2,
         "player": "Saquon Barkley",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 9.2,
+        "adpDifference": 7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4883,6 +6187,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 23,
         "player": "Travis Kelce",
         "position": "TE",
+        "team": "KC",
+        "publicAdp": 25.2,
+        "adpDifference": 2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4893,6 +6200,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 26,
         "player": "Nico Collins",
         "position": "WR",
+        "team": "HOU",
+        "publicAdp": 28.2,
+        "adpDifference": 2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4903,6 +6213,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 47,
         "player": "Zamir White",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 66.6,
+        "adpDifference": 19.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4913,6 +6226,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 50,
         "player": "Michael Pittman",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 34.6,
+        "adpDifference": -15.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4923,6 +6239,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 71,
         "player": "Rome Odunze",
         "position": "WR",
+        "team": "CHI",
+        "publicAdp": 98.4,
+        "adpDifference": 27.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -4933,6 +6252,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 74,
         "player": "Caleb Williams",
         "position": "QB",
+        "team": "CHI",
+        "publicAdp": 109,
+        "adpDifference": 35,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -4943,6 +6265,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 95,
         "player": "Courtland Sutton",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 112.4,
+        "adpDifference": 17.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4953,6 +6278,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 98,
         "player": "J.K. Dobbins",
         "position": "RB",
+        "team": "DEN",
+        "publicAdp": 132.4,
+        "adpDifference": 34.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4963,6 +6291,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 119,
         "player": "Ty Chandler",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 160.8,
+        "adpDifference": 41.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4973,6 +6304,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 122,
         "player": "Dalton Schultz",
         "position": "TE",
+        "team": "HOU",
+        "publicAdp": 125.6,
+        "adpDifference": 3.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4983,6 +6317,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 143,
         "player": "Browns",
         "position": "DST",
+        "publicAdp": 134.6,
+        "adpDifference": -8.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -4993,6 +6329,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 146,
         "player": "Adam Thielen",
         "position": "WR",
+        "publicAdp": 161,
+        "adpDifference": 15,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5003,6 +6341,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 167,
         "player": "Jake Moody",
         "position": "K",
+        "publicAdp": 156.6,
+        "adpDifference": -10.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5013,6 +6353,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 170,
         "player": "Tyler Allgeier",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 156.8,
+        "adpDifference": -13.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5023,6 +6366,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 5,
         "player": "Jahmyr Gibbs",
         "position": "RB",
+        "team": "DET",
+        "publicAdp": 4.2,
+        "adpDifference": -0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5033,6 +6379,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 20,
         "player": "Jonathan Taylor",
         "position": "RB",
+        "team": "IND",
+        "publicAdp": 19.8,
+        "adpDifference": -0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5043,6 +6392,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 29,
         "player": "Ladd McConkey",
         "position": "WR",
+        "team": "LAC",
+        "publicAdp": 25.8,
+        "adpDifference": -3.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5053,6 +6405,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 44,
         "player": "Jaxon Smith-Njigba",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 34.5,
+        "adpDifference": -9.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5063,6 +6418,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 53,
         "player": "Aaron Jones",
         "position": "RB",
+        "team": "MIN",
+        "publicAdp": 65.3,
+        "adpDifference": 12.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5073,6 +6431,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 68,
         "player": "DeVonta Smith",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 57.7,
+        "adpDifference": -10.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5083,6 +6444,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 77,
         "player": "Eagles",
         "position": "DST",
+        "publicAdp": 114.5,
+        "adpDifference": 37.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5093,6 +6456,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 92,
         "player": "Kyler Murray",
         "position": "QB",
+        "team": "MIN",
+        "publicAdp": 86.2,
+        "adpDifference": -5.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5103,6 +6469,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 101,
         "player": "Evan Engram",
         "position": "TE",
+        "team": "DEN",
+        "publicAdp": 84.7,
+        "adpDifference": -16.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5113,6 +6482,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 116,
         "player": "Najee Harris",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 135,
+        "adpDifference": 19,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5123,6 +6495,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 125,
         "player": "Nick Chubb",
         "position": "RB",
+        "publicAdp": 128.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5133,6 +6507,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 140,
         "player": "Keenan Allen",
         "position": "WR",
+        "team": "IND",
+        "publicAdp": 146.8,
+        "adpDifference": 6.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5143,6 +6520,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 149,
         "player": "Brandon Aubrey",
         "position": "K",
+        "team": "DAL",
+        "publicAdp": 107.2,
+        "adpDifference": -41.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5153,6 +6533,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 164,
         "player": "J.J. McCarthy",
         "position": "QB",
+        "team": "MIN",
+        "publicAdp": 146,
+        "adpDifference": -18,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5163,6 +6546,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 173,
         "player": "Darren Waller",
         "position": "TE",
+        "team": "CAR",
+        "publicAdp": 204.3,
+        "adpDifference": 31.3,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -5187,29 +6573,55 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 8.4,
+    "reachRate": 0.448,
+    "valueRate": 0.314,
     "earlyQbRate": 0.086,
     "earlyTeRate": 0.086,
     "rbHeavyRate": 0.324,
     "wrHeavyRate": 0.267,
-    "teamBias": {},
-    "bearsDraftRate": 0,
-    "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "teamBias": {
+      "TEN": 0.038,
+      "PIT": 0.038,
+      "KC": 0.057,
+      "NE": 0.038,
+      "NYG": 0.038,
+      "CLE": 0.038,
+      "CIN": 0.057,
+      "ATL": 0.057,
+      "ARI": 0.038,
+      "SF": 0.038,
+      "CAR": 0.038,
+      "LV": 0.038,
+      "LAC": 0.057,
+      "GB": 0.019,
+      "DET": 0.038,
+      "MIA": 0.019,
+      "HOU": 0.057,
+      "CHI": 0.057,
+      "PHI": 0.038,
+      "DEN": 0.057,
+      "NO": 0.019,
+      "IND": 0.038,
+      "SEA": 0.019,
+      "MIN": 0.057,
+      "DAL": 0.019
+    },
+    "bearsDraftRate": 0.029,
+    "bearsReachRate": 1,
+    "averageBearsAdpReach": 37.5,
     "rookieDraftRate": 0.057,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.667,
+    "averageRookieAdpReach": 15.1,
     "earlyRoundRookieRate": 0,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 80.2,
     "predictabilityScore": 32.4
   },
   {
     "id": 6,
     "name": "Potpaska187",
-    "draftSlot": 6,
+    "draftSlot": 11,
     "tendency": "Balanced",
     "preferredPositions": [
       "WR",
@@ -5224,6 +6636,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 2,
         "player": "Le'Veon Bell",
         "position": "RB",
+        "publicAdp": 2.4,
+        "adpDifference": 0.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5234,6 +6648,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 23,
         "player": "Michael Thomas",
         "position": "WR",
+        "publicAdp": 15.8,
+        "adpDifference": -7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5244,6 +6660,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 26,
         "player": "A.J. Green",
         "position": "WR",
+        "publicAdp": 20.2,
+        "adpDifference": -5.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5254,6 +6672,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 47,
         "player": "Kenyan Drake",
         "position": "RB",
+        "publicAdp": 34.4,
+        "adpDifference": -12.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5264,6 +6684,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 50,
         "player": "Carson Wentz",
         "position": "QB",
+        "team": "MIN",
+        "publicAdp": 81.2,
+        "adpDifference": 31.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5274,6 +6697,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 71,
         "player": "Randall Cobb",
         "position": "WR",
+        "publicAdp": 99.4,
+        "adpDifference": 28.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5294,6 +6719,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 95,
         "player": "Nelson Agholor",
         "position": "WR",
+        "publicAdp": 102,
+        "adpDifference": 7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5304,6 +6731,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 98,
         "player": "Titans",
         "position": "DST",
+        "publicAdp": 221.3,
+        "adpDifference": 123.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5314,6 +6743,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 119,
         "player": "Corey Clement",
         "position": "RB",
+        "publicAdp": 144.8,
+        "adpDifference": 25.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5324,6 +6755,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 122,
         "player": "Rishard Matthews",
         "position": "WR",
+        "publicAdp": 163.3,
+        "adpDifference": 41.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5334,6 +6767,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 143,
         "player": "Wil Lutz",
         "position": "K",
+        "team": "DEN",
+        "publicAdp": 176.4,
+        "adpDifference": 33.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5344,6 +6780,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 146,
         "player": "LeGarrette Blount",
         "position": "RB",
+        "publicAdp": 162,
+        "adpDifference": 16,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5354,6 +6792,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 167,
         "player": "Tyler Eifert",
         "position": "TE",
+        "publicAdp": 137.4,
+        "adpDifference": -29.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5364,6 +6804,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 170,
         "player": "Derek Carr",
         "position": "QB",
+        "publicAdp": 138.4,
+        "adpDifference": -31.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5374,6 +6816,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 4,
         "player": "Ezekiel Elliott",
         "position": "RB",
+        "publicAdp": 4,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5384,6 +6828,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 21,
         "player": "Leonard Fournette",
         "position": "RB",
+        "publicAdp": 25.8,
+        "adpDifference": 4.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5394,6 +6840,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 28,
         "player": "Keenan Allen",
         "position": "WR",
+        "team": "IND",
+        "publicAdp": 25.2,
+        "adpDifference": -2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5404,6 +6853,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 45,
         "player": "Tyler Boyd",
         "position": "WR",
+        "publicAdp": 55.7,
+        "adpDifference": 10.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5414,6 +6865,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 52,
         "player": "Dede Westbrook",
         "position": "WR",
+        "publicAdp": 85.5,
+        "adpDifference": 33.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5424,6 +6877,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 69,
         "player": "Derrick Henry",
         "position": "RB",
+        "team": "BAL",
+        "publicAdp": 38.7,
+        "adpDifference": -30.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5434,6 +6890,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 76,
         "player": "Dak Prescott",
         "position": "QB",
+        "team": "DAL",
+        "publicAdp": 125.8,
+        "adpDifference": 49.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5444,6 +6903,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 93,
         "player": "Sterling Shepard",
         "position": "WR",
+        "publicAdp": 87.7,
+        "adpDifference": -5.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5454,6 +6915,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 100,
         "player": "Delanie Walker",
         "position": "TE",
+        "publicAdp": 119.5,
+        "adpDifference": 19.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5464,6 +6927,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 117,
         "player": "Marquez Valdes-Scantling",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 115,
+        "adpDifference": -2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5474,6 +6940,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 124,
         "player": "Texans",
         "position": "DST",
+        "publicAdp": 163.5,
+        "adpDifference": 39.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5484,6 +6952,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 141,
         "player": "Stephen Gostkowski",
         "position": "K",
+        "publicAdp": 146.3,
+        "adpDifference": 5.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5494,6 +6964,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 148,
         "player": "Dante Pettis",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 107.5,
+        "adpDifference": -40.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5504,6 +6977,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 165,
         "player": "Austin Hooper",
         "position": "TE",
+        "team": "ATL",
+        "publicAdp": 114,
+        "adpDifference": -51,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5514,6 +6990,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 172,
         "player": "Colts",
         "position": "DST",
+        "publicAdp": 246,
+        "adpDifference": 74,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5524,6 +7002,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 7,
         "player": "Tyreek Hill",
         "position": "WR",
+        "publicAdp": 10.6,
+        "adpDifference": 3.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5534,6 +7014,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 18,
         "player": "Patrick Mahomes",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 18.2,
+        "adpDifference": 0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5544,6 +7027,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 31,
         "player": "Chase Edmonds",
         "position": "RB",
+        "team": "WAS",
+        "publicAdp": 62,
+        "adpDifference": 31,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5554,6 +7040,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 42,
         "player": "Darrell Henderson Jr.",
         "position": "RB",
+        "publicAdp": 60,
+        "adpDifference": 18,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5564,6 +7052,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 55,
         "player": "JuJu Smith-Schuster",
         "position": "WR",
+        "publicAdp": 70.8,
+        "adpDifference": 15.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5574,6 +7064,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 66,
         "player": "Mark Andrews",
         "position": "TE",
+        "team": "BAL",
+        "publicAdp": 50.6,
+        "adpDifference": -15.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5584,6 +7077,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 79,
         "player": "James Robinson",
         "position": "RB",
+        "publicAdp": 33.4,
+        "adpDifference": -45.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5594,6 +7089,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 90,
         "player": "Kenny Golladay",
         "position": "WR",
+        "publicAdp": 74.8,
+        "adpDifference": -15.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5604,6 +7101,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 103,
         "player": "Devin Singletary",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 112.4,
+        "adpDifference": 9.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5614,6 +7114,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 114,
         "player": "Ravens",
         "position": "DST",
+        "publicAdp": 123.8,
+        "adpDifference": 9.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5624,6 +7126,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 127,
         "player": "Michael Gallup",
         "position": "WR",
+        "publicAdp": 118,
+        "adpDifference": -9,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5634,6 +7138,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 138,
         "player": "Phillip Lindsay",
         "position": "RB",
+        "publicAdp": 146.2,
+        "adpDifference": 8.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5644,6 +7150,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 151,
         "player": "A.J. Green",
         "position": "WR",
+        "publicAdp": 197,
+        "adpDifference": 46,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5654,6 +7162,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 162,
         "player": "Jared Cook",
         "position": "TE",
+        "publicAdp": 165.4,
+        "adpDifference": 3.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5664,6 +7174,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 175,
         "player": "Wil Lutz",
         "position": "K",
+        "team": "DEN",
+        "publicAdp": 204.3,
+        "adpDifference": 29.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5674,6 +7187,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 6,
         "player": "Dalvin Cook",
         "position": "RB",
+        "publicAdp": 7.5,
+        "adpDifference": 1.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5684,6 +7199,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 19,
         "player": "Nick Chubb",
         "position": "RB",
+        "publicAdp": 20,
+        "adpDifference": 1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5694,6 +7211,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 30,
         "player": "Michael Pittman",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 33.5,
+        "adpDifference": 3.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5704,6 +7224,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 43,
         "player": "Mike Williams",
         "position": "WR",
+        "publicAdp": 46,
+        "adpDifference": 3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5714,6 +7236,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 54,
         "player": "Matthew Stafford",
         "position": "QB",
+        "team": "LAR",
+        "publicAdp": 92,
+        "adpDifference": 38,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5724,6 +7249,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 67,
         "player": "George Kittle",
         "position": "TE",
+        "team": "SF",
+        "publicAdp": 39.8,
+        "adpDifference": -27.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5734,6 +7262,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 78,
         "player": "Rashod Bateman",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 88.5,
+        "adpDifference": 10.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5744,6 +7275,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 91,
         "player": "Damien Harris",
         "position": "RB",
+        "publicAdp": 83.8,
+        "adpDifference": -7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5754,6 +7287,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 102,
         "player": "Robert Woods",
         "position": "WR",
+        "publicAdp": 103,
+        "adpDifference": 1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5774,6 +7309,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 126,
         "player": "Darrel Williams",
         "position": "RB",
+        "publicAdp": 191.5,
+        "adpDifference": 65.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5784,6 +7321,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 139,
         "player": "Packers",
         "position": "DST",
+        "publicAdp": 142.5,
+        "adpDifference": 3.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5794,6 +7333,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 150,
         "player": "Hunter Henry",
         "position": "TE",
+        "team": "NE",
+        "publicAdp": 130.3,
+        "adpDifference": -19.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5804,6 +7346,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 163,
         "player": "Matt Prater",
         "position": "K",
+        "publicAdp": 151,
+        "adpDifference": -12,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5814,6 +7358,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 174,
         "player": "Ryan Tannehill",
         "position": "QB",
+        "publicAdp": 185.3,
+        "adpDifference": 11.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5824,6 +7370,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 3,
         "player": "Justin Jefferson",
         "position": "WR",
+        "team": "MIN",
+        "publicAdp": 1,
+        "adpDifference": -2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5834,6 +7383,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 22,
         "player": "Aaron Jones",
         "position": "RB",
+        "team": "MIN",
+        "publicAdp": 37.3,
+        "adpDifference": 15.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5844,6 +7396,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 27,
         "player": "Najee Harris",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 28,
+        "adpDifference": 1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5854,6 +7409,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 46,
         "player": "DeAndre Hopkins",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 52.5,
+        "adpDifference": 6.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5864,6 +7422,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 51,
         "player": "Trevor Lawrence",
         "position": "QB",
+        "team": "JAC",
+        "publicAdp": 55,
+        "adpDifference": 4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5874,6 +7435,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 70,
         "player": "Khalil Herbert",
         "position": "RB",
+        "publicAdp": 99,
+        "adpDifference": 29,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5884,6 +7447,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 75,
         "player": "Pat Freiermuth",
         "position": "TE",
+        "team": "PIT",
+        "publicAdp": 95.3,
+        "adpDifference": 20.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5894,6 +7460,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 94,
         "player": "Michael Thomas",
         "position": "WR",
+        "publicAdp": 106.3,
+        "adpDifference": 12.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5904,6 +7472,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 99,
         "player": "Michael Pittman",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 81.5,
+        "adpDifference": -17.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5914,6 +7485,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 118,
         "player": "Ezekiel Elliott",
         "position": "RB",
+        "publicAdp": 134.8,
+        "adpDifference": 16.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5924,6 +7497,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "Bills",
         "position": "DST",
+        "publicAdp": 108.5,
+        "adpDifference": -14.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5934,6 +7509,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 142,
         "player": "Jerick McKinnon",
         "position": "RB",
+        "publicAdp": 125.3,
+        "adpDifference": -16.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5944,6 +7521,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 147,
         "player": "Gerald Everett",
         "position": "TE",
+        "publicAdp": 162,
+        "adpDifference": 15,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5954,6 +7533,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 166,
         "player": "Graham Gano",
         "position": "K",
+        "publicAdp": 155.3,
+        "adpDifference": -10.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5964,6 +7545,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 171,
         "player": "Chuba Hubbard",
         "position": "RB",
+        "team": "CAR",
+        "publicAdp": 206,
+        "adpDifference": 35,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5974,6 +7558,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 8,
         "player": "CeeDee Lamb",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 2.6,
+        "adpDifference": -5.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5984,6 +7571,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 17,
         "player": "Derrick Henry",
         "position": "RB",
+        "team": "BAL",
+        "publicAdp": 18,
+        "adpDifference": 1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -5994,6 +7584,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 32,
         "player": "Aaron Jones",
         "position": "RB",
+        "team": "MIN",
+        "publicAdp": 59.2,
+        "adpDifference": 27.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6004,6 +7597,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 41,
         "player": "Deebo Samuel",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 32,
+        "adpDifference": -9,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6014,6 +7610,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 56,
         "player": "Lamar Jackson",
         "position": "QB",
+        "team": "BAL",
+        "publicAdp": 37.2,
+        "adpDifference": -18.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6024,6 +7623,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 65,
         "player": "Zack Moss",
         "position": "RB",
+        "publicAdp": 98,
+        "adpDifference": 33,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6034,6 +7635,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 80,
         "player": "Calvin Ridley",
         "position": "WR",
+        "team": "TEN",
+        "publicAdp": 74.4,
+        "adpDifference": -5.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6044,6 +7648,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Brock Bowers",
         "position": "TE",
+        "team": "LV",
+        "publicAdp": 100.6,
+        "adpDifference": 11.6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -6054,6 +7661,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 104,
         "player": "DeAndre Hopkins",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 107.6,
+        "adpDifference": 3.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6064,6 +7674,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "Jerry Jeudy",
         "position": "WR",
+        "team": "CLE",
+        "publicAdp": 143.8,
+        "adpDifference": 30.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6074,6 +7687,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 128,
         "player": "Khalil Herbert",
         "position": "RB",
+        "publicAdp": 192.2,
+        "adpDifference": 64.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6084,6 +7699,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 137,
         "player": "Bills",
         "position": "DST",
+        "publicAdp": 164.8,
+        "adpDifference": 27.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6094,6 +7711,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 152,
         "player": "Cairo Santos",
         "position": "K",
+        "team": "CHI",
+        "publicAdp": 202,
+        "adpDifference": 50,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6104,6 +7724,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 161,
         "player": "Kirk Cousins",
         "position": "QB",
+        "team": "LV",
+        "publicAdp": 142.6,
+        "adpDifference": -18.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6114,6 +7737,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 176,
         "player": "Zach Ertz",
         "position": "TE",
+        "publicAdp": 224.6,
+        "adpDifference": 48.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6124,6 +7749,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 6,
         "player": "CeeDee Lamb",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 5,
+        "adpDifference": -1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6134,6 +7762,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 19,
         "player": "Bucky Irving",
         "position": "RB",
+        "team": "TB",
+        "publicAdp": 21.8,
+        "adpDifference": 2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6144,6 +7775,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 30,
         "player": "Lamar Jackson",
         "position": "QB",
+        "team": "BAL",
+        "publicAdp": 21.5,
+        "adpDifference": -8.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6154,6 +7788,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 43,
         "player": "Mark Andrews",
         "position": "TE",
+        "team": "BAL",
+        "publicAdp": 74.3,
+        "adpDifference": 31.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6164,6 +7801,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 54,
         "player": "DJ Moore",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 49.7,
+        "adpDifference": -4.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6174,6 +7814,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 67,
         "player": "David Montgomery",
         "position": "RB",
+        "team": "HOU",
+        "publicAdp": 60.5,
+        "adpDifference": -6.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6184,6 +7827,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 78,
         "player": "Stefon Diggs",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 87.5,
+        "adpDifference": 9.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6194,6 +7840,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 91,
         "player": "Michael Pittman",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 112.3,
+        "adpDifference": 21.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6204,6 +7853,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 102,
         "player": "Tank Bigsby",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 135.2,
+        "adpDifference": 33.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6214,6 +7866,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 115,
         "player": "Vikings",
         "position": "DST",
+        "publicAdp": 145,
+        "adpDifference": 30,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6224,6 +7878,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 126,
         "player": "Khalil Shakir",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 105.7,
+        "adpDifference": -20.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6234,6 +7891,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 139,
         "player": "Jayden Reed",
         "position": "WR",
+        "team": "GB",
+        "publicAdp": 129,
+        "adpDifference": -10,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6244,6 +7904,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 150,
         "player": "C.J. Stroud",
         "position": "QB",
+        "team": "HOU",
+        "publicAdp": 130.8,
+        "adpDifference": -19.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6254,6 +7917,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 163,
         "player": "Chase McLaughlin",
         "position": "K",
+        "team": "TB",
+        "publicAdp": 145.8,
+        "adpDifference": -17.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6264,6 +7930,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 174,
         "player": "Dalton Kincaid",
         "position": "TE",
+        "team": "BUF",
+        "publicAdp": 129.8,
+        "adpDifference": -44.2,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -6288,29 +7957,54 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 7.9,
+    "reachRate": 0.456,
+    "valueRate": 0.282,
     "earlyQbRate": 0.171,
     "earlyTeRate": 0.029,
     "rbHeavyRate": 0.276,
     "wrHeavyRate": 0.343,
-    "teamBias": {},
-    "bearsDraftRate": 0,
-    "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "teamBias": {
+      "MIN": 0.078,
+      "DEN": 0.039,
+      "IND": 0.02,
+      "BAL": 0.176,
+      "DAL": 0.078,
+      "BUF": 0.078,
+      "ATL": 0.02,
+      "KC": 0.02,
+      "WAS": 0.039,
+      "NYG": 0.039,
+      "PIT": 0.078,
+      "LAR": 0.02,
+      "SF": 0.039,
+      "NE": 0.02,
+      "JAC": 0.02,
+      "CAR": 0.02,
+      "TEN": 0.02,
+      "LV": 0.039,
+      "CLE": 0.02,
+      "CHI": 0.02,
+      "TB": 0.039,
+      "HOU": 0.039,
+      "PHI": 0.02,
+      "GB": 0.02
+    },
+    "bearsDraftRate": 0.01,
+    "bearsReachRate": 1,
+    "averageBearsAdpReach": 50,
     "rookieDraftRate": 0.01,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 1,
+    "averageRookieAdpReach": 11.6,
     "earlyRoundRookieRate": 0,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 79.5,
     "predictabilityScore": 34.3
   },
   {
     "id": 7,
     "name": "Rice-A-Ronnie72",
-    "draftSlot": 7,
+    "draftSlot": 6,
     "tendency": "Balanced",
     "preferredPositions": [
       "RB",
@@ -6325,6 +8019,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 7,
         "player": "David Johnson",
         "position": "RB",
+        "publicAdp": 2.6,
+        "adpDifference": -4.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6335,6 +8031,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 18,
         "player": "Joe Mixon",
         "position": "RB",
+        "publicAdp": 23.8,
+        "adpDifference": 5.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6345,6 +8043,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 31,
         "player": "Stefon Diggs",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 29.8,
+        "adpDifference": -1.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6355,6 +8056,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 42,
         "player": "Golden Tate",
         "position": "WR",
+        "publicAdp": 45.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6365,6 +8068,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 55,
         "player": "Cooper Kupp",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 85,
+        "adpDifference": 30,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6375,6 +8081,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 66,
         "player": "Marshawn Lynch",
         "position": "RB",
+        "publicAdp": 61.4,
+        "adpDifference": -4.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6385,6 +8093,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 79,
         "player": "Mark Ingram",
         "position": "RB",
+        "publicAdp": 52.2,
+        "adpDifference": -26.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6395,6 +8105,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 90,
         "player": "Marquise Goodwin",
         "position": "WR",
+        "publicAdp": 67,
+        "adpDifference": -23,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6405,6 +8117,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 103,
         "player": "Mike Williams",
         "position": "WR",
+        "publicAdp": 177.2,
+        "adpDifference": 74.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6415,6 +8129,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 114,
         "player": "Jordan Reed",
         "position": "TE",
+        "publicAdp": 84.6,
+        "adpDifference": -29.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6425,6 +8141,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 127,
         "player": "Patrick Mahomes",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 120.8,
+        "adpDifference": -6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6435,6 +8154,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 138,
         "player": "Robbie Gould",
         "position": "K",
+        "publicAdp": 194.4,
+        "adpDifference": 56.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6445,6 +8166,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 151,
         "player": "Eli Manning",
         "position": "QB",
+        "publicAdp": 176.5,
+        "adpDifference": 25.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6455,6 +8178,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 162,
         "player": "Patriots",
         "position": "DST",
+        "publicAdp": 171.8,
+        "adpDifference": 9.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6465,6 +8190,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 175,
         "player": "Austin Hooper",
         "position": "TE",
+        "team": "ATL",
+        "publicAdp": 195.7,
+        "adpDifference": 20.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6475,6 +8203,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 8,
         "player": "Davante Adams",
         "position": "WR",
+        "team": "LAR",
+        "publicAdp": 7.5,
+        "adpDifference": -0.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6485,6 +8216,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 17,
         "player": "Dalvin Cook",
         "position": "RB",
+        "publicAdp": 18,
+        "adpDifference": 1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6495,6 +8228,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 32,
         "player": "Chris Godwin",
         "position": "WR",
+        "team": "TB",
+        "publicAdp": 46,
+        "adpDifference": 14,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6505,6 +8241,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 41,
         "player": "Aaron Jones",
         "position": "RB",
+        "team": "MIN",
+        "publicAdp": 32.3,
+        "adpDifference": -8.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6515,6 +8254,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 56,
         "player": "Tevin Coleman",
         "position": "RB",
+        "publicAdp": 68.7,
+        "adpDifference": 12.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6525,6 +8266,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 65,
         "player": "O.J. Howard",
         "position": "TE",
+        "publicAdp": 57.5,
+        "adpDifference": -7.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6535,6 +8278,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 80,
         "player": "DJ Moore",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 64.7,
+        "adpDifference": -15.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6545,6 +8291,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Mitch Trubisky",
         "position": "QB",
+        "team": "TEN",
+        "publicAdp": 147.5,
+        "adpDifference": 58.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6555,6 +8304,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 104,
         "player": "Latavius Murray",
         "position": "RB",
+        "publicAdp": 93.2,
+        "adpDifference": -10.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6565,6 +8316,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "Mecole Hardman",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 170.3,
+        "adpDifference": 57.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -6575,6 +8329,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 128,
         "player": "Michael Gallup",
         "position": "WR",
+        "publicAdp": 131.2,
+        "adpDifference": 3.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6585,6 +8341,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 137,
         "player": "Alexander Mattison",
         "position": "RB",
+        "publicAdp": 176.7,
+        "adpDifference": 39.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -6595,6 +8353,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 152,
         "player": "Cowboys",
         "position": "DST",
+        "publicAdp": 176.7,
+        "adpDifference": 24.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6605,6 +8365,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 161,
         "player": "Sam Darnold",
         "position": "QB",
+        "team": "SEA",
+        "publicAdp": 190.3,
+        "adpDifference": 29.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6615,6 +8378,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 176,
         "player": "Mike Badgley",
         "position": "K",
+        "publicAdp": 200,
+        "adpDifference": 24,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6625,6 +8390,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 6,
         "player": "Davante Adams",
         "position": "WR",
+        "team": "LAR",
+        "publicAdp": 6.6,
+        "adpDifference": 0.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6635,6 +8403,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 19,
         "player": "Nick Chubb",
         "position": "RB",
+        "publicAdp": 10.4,
+        "adpDifference": -8.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6645,6 +8415,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 30,
         "player": "CeeDee Lamb",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 32.8,
+        "adpDifference": 2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6665,6 +8438,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 54,
         "player": "Aaron Rodgers",
         "position": "QB",
+        "team": "PIT",
+        "publicAdp": 54.4,
+        "adpDifference": 0.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6675,6 +8451,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 67,
         "player": "Kareem Hunt",
         "position": "RB",
+        "publicAdp": 57.2,
+        "adpDifference": -9.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6685,6 +8463,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 78,
         "player": "Logan Thomas",
         "position": "TE",
+        "publicAdp": 81.2,
+        "adpDifference": 3.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6695,6 +8475,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 91,
         "player": "Deebo Samuel",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 88,
+        "adpDifference": -3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6705,6 +8488,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 102,
         "player": "Darnell Mooney",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 128.6,
+        "adpDifference": 26.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6715,6 +8501,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 115,
         "player": "Tyler Higbee",
         "position": "TE",
+        "team": "LAR",
+        "publicAdp": 112,
+        "adpDifference": -3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6725,6 +8514,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 126,
         "player": "Jamaal Williams",
         "position": "RB",
+        "publicAdp": 116.4,
+        "adpDifference": -9.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6745,6 +8536,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 150,
         "player": "Jason Sanders",
         "position": "K",
+        "team": "NYJ",
+        "publicAdp": 163.4,
+        "adpDifference": 13.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6755,6 +8549,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 163,
         "player": "Corey Davis",
         "position": "WR",
+        "publicAdp": 95.6,
+        "adpDifference": -67.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6765,6 +8561,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 174,
         "player": "Panthers",
         "position": "DST",
+        "publicAdp": 245.8,
+        "adpDifference": 71.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6775,6 +8573,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 8,
         "player": "Cooper Kupp",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 4,
+        "adpDifference": -4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6785,6 +8586,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 17,
         "player": "D'Andre Swift",
         "position": "RB",
+        "team": "CHI",
+        "publicAdp": 15.5,
+        "adpDifference": -1.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6795,6 +8599,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 32,
         "player": "Kyle Pitts",
         "position": "TE",
+        "team": "ATL",
+        "publicAdp": 32.8,
+        "adpDifference": 0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6805,6 +8612,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 41,
         "player": "DJ Moore",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 43.8,
+        "adpDifference": 2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6815,6 +8625,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 56,
         "player": "Joe Burrow",
         "position": "QB",
+        "team": "CIN",
+        "publicAdp": 60.3,
+        "adpDifference": 4.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6825,6 +8638,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 65,
         "player": "AJ Dillon",
         "position": "RB",
+        "team": "CAR",
+        "publicAdp": 67.8,
+        "adpDifference": 2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6835,6 +8651,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 80,
         "player": "Gabe Davis",
         "position": "WR",
+        "publicAdp": 67.3,
+        "adpDifference": -12.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6845,6 +8663,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "DeAndre Hopkins",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 83.3,
+        "adpDifference": -5.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6855,6 +8676,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 104,
         "player": "Melvin Gordon",
         "position": "RB",
+        "publicAdp": 107.5,
+        "adpDifference": 3.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6865,6 +8688,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "Brian Robinson Jr.",
         "position": "RB",
+        "team": "ATL",
+        "publicAdp": 153.8,
+        "adpDifference": 40.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -6875,6 +8701,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 128,
         "player": "Skyy Moore",
         "position": "WR",
+        "team": "GB",
+        "publicAdp": 142.8,
+        "adpDifference": 14.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -6885,6 +8714,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 137,
         "player": "Kenneth Gainwell",
         "position": "RB",
+        "team": "TB",
+        "publicAdp": 146.8,
+        "adpDifference": 9.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6895,6 +8727,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 152,
         "player": "Tyler Boyd",
         "position": "WR",
+        "publicAdp": 137.8,
+        "adpDifference": -14.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6905,6 +8739,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 161,
         "player": "Browns",
         "position": "DST",
+        "publicAdp": 198,
+        "adpDifference": 37,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6915,6 +8751,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 176,
         "player": "Dustin Hopkins",
         "position": "K",
+        "publicAdp": 217,
+        "adpDifference": 41,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6925,6 +8763,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 4,
         "player": "Travis Kelce",
         "position": "TE",
+        "team": "KC",
+        "publicAdp": 5.8,
+        "adpDifference": 1.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6935,6 +8776,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 21,
         "player": "Amon-Ra St. Brown",
         "position": "WR",
+        "team": "DET",
+        "publicAdp": 18.8,
+        "adpDifference": -2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6945,6 +8789,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 28,
         "player": "Garrett Wilson",
         "position": "WR",
+        "team": "NYJ",
+        "publicAdp": 17.3,
+        "adpDifference": -10.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6955,6 +8802,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 45,
         "player": "Javonte Williams",
         "position": "RB",
+        "team": "DAL",
+        "publicAdp": 72.8,
+        "adpDifference": 27.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6965,6 +8815,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 52,
         "player": "David Montgomery",
         "position": "RB",
+        "team": "HOU",
+        "publicAdp": 86,
+        "adpDifference": 34,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6975,6 +8828,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 69,
         "player": "Brian Robinson Jr.",
         "position": "RB",
+        "team": "ATL",
+        "publicAdp": 109.3,
+        "adpDifference": 40.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6985,6 +8841,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 76,
         "player": "Brandon Aiyuk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 72,
+        "adpDifference": -4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -6995,6 +8854,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 93,
         "player": "Antonio Gibson",
         "position": "RB",
+        "publicAdp": 112.5,
+        "adpDifference": 19.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7005,6 +8866,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 100,
         "player": "Romeo Doubs",
         "position": "WR",
+        "team": "NE",
+        "publicAdp": 180.3,
+        "adpDifference": 80.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7015,6 +8879,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 117,
         "player": "Dak Prescott",
         "position": "QB",
+        "team": "DAL",
+        "publicAdp": 89.5,
+        "adpDifference": -27.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7025,6 +8892,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 124,
         "player": "Tyler Allgeier",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 160,
+        "adpDifference": 36,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7035,6 +8905,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 141,
         "player": "Cowboys",
         "position": "DST",
+        "publicAdp": 118.3,
+        "adpDifference": -22.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7045,6 +8917,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 148,
         "player": "Anthony Richardson",
         "position": "QB",
+        "team": "IND",
+        "publicAdp": 120.3,
+        "adpDifference": -27.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7055,6 +8930,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 165,
         "player": "Daniel Carlson",
         "position": "K",
+        "team": "LV",
+        "publicAdp": 114.3,
+        "adpDifference": -50.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7065,6 +8943,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 172,
         "player": "Tyjae Spears",
         "position": "RB",
+        "team": "TEN",
+        "publicAdp": 207.7,
+        "adpDifference": 35.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7075,6 +8956,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 7,
         "player": "Amon-Ra St. Brown",
         "position": "WR",
+        "team": "DET",
+        "publicAdp": 6.2,
+        "adpDifference": -0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7085,6 +8969,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 18,
         "player": "Isiah Pacheco",
         "position": "RB",
+        "team": "DET",
+        "publicAdp": 20.2,
+        "adpDifference": 2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7095,6 +8982,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 31,
         "player": "Cooper Kupp",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 34.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7105,6 +8995,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 42,
         "player": "DK Metcalf",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 41.2,
+        "adpDifference": -0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7115,6 +9008,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 55,
         "player": "Rhamondre Stevenson",
         "position": "RB",
+        "team": "NE",
+        "publicAdp": 66.6,
+        "adpDifference": 11.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7125,6 +9021,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 66,
         "player": "Evan Engram",
         "position": "TE",
+        "team": "DEN",
+        "publicAdp": 65,
+        "adpDifference": -1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7135,6 +9034,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 79,
         "player": "Anthony Richardson",
         "position": "QB",
+        "team": "IND",
+        "publicAdp": 57.6,
+        "adpDifference": -21.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7145,6 +9047,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 90,
         "player": "Jonathon Brooks",
         "position": "RB",
+        "team": "CAR",
+        "publicAdp": 101.4,
+        "adpDifference": 11.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7155,6 +9060,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 103,
         "player": "Gus Edwards",
         "position": "RB",
+        "publicAdp": 113.6,
+        "adpDifference": 10.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7165,6 +9072,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 114,
         "player": "Chuba Hubbard",
         "position": "RB",
+        "team": "CAR",
+        "publicAdp": 132.4,
+        "adpDifference": 18.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7175,6 +9085,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 127,
         "player": "Brandon Aubrey",
         "position": "K",
+        "team": "DAL",
+        "publicAdp": 113.4,
+        "adpDifference": -13.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7185,6 +9098,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 138,
         "player": "Khalil Shakir",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 132,
+        "adpDifference": -6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7195,6 +9111,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 151,
         "player": "Antonio Gibson",
         "position": "RB",
+        "publicAdp": 173.8,
+        "adpDifference": 22.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7205,6 +9123,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 162,
         "player": "Steelers",
         "position": "DST",
+        "publicAdp": 158.6,
+        "adpDifference": -3.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7215,6 +9135,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 175,
         "player": "Geno Smith",
         "position": "QB",
+        "team": "NYJ",
+        "publicAdp": 192.4,
+        "adpDifference": 17.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7225,6 +9148,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 7,
         "player": "Ashton Jeanty",
         "position": "RB",
+        "team": "LV",
+        "publicAdp": 10.7,
+        "adpDifference": 3.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7235,6 +9161,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 18,
         "player": "Brian Thomas Jr.",
         "position": "WR",
+        "team": "JAC",
+        "publicAdp": 15.5,
+        "adpDifference": -2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7245,6 +9174,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 31,
         "player": "George Kittle",
         "position": "TE",
+        "team": "SF",
+        "publicAdp": 38.2,
+        "adpDifference": 7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7255,6 +9187,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 42,
         "player": "TreVeyon Henderson",
         "position": "RB",
+        "team": "NE",
+        "publicAdp": 44.7,
+        "adpDifference": 2.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7265,6 +9200,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 55,
         "player": "Garrett Wilson",
         "position": "WR",
+        "team": "NYJ",
+        "publicAdp": 40.3,
+        "adpDifference": -14.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7275,6 +9213,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 66,
         "player": "Rashee Rice",
         "position": "WR",
+        "team": "KC",
+        "publicAdp": 71.2,
+        "adpDifference": 5.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7285,6 +9226,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 79,
         "player": "Calvin Ridley",
         "position": "WR",
+        "team": "TEN",
+        "publicAdp": 63.7,
+        "adpDifference": -15.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7295,6 +9239,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 90,
         "player": "Zach Charbonnet",
         "position": "RB",
+        "team": "SEA",
+        "publicAdp": 110,
+        "adpDifference": 20,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7305,6 +9252,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 103,
         "player": "Chris Olave",
         "position": "WR",
+        "team": "NO",
+        "publicAdp": 82.3,
+        "adpDifference": -20.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7315,6 +9265,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 114,
         "player": "Rhamondre Stevenson",
         "position": "RB",
+        "team": "NE",
+        "publicAdp": 114.2,
+        "adpDifference": 0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7325,6 +9278,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 127,
         "player": "Justin Fields",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 116.7,
+        "adpDifference": -10.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7335,6 +9291,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 138,
         "player": "Jordan Love",
         "position": "QB",
+        "team": "GB",
+        "publicAdp": 135.7,
+        "adpDifference": -2.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7345,6 +9304,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 151,
         "player": "Cameron Dicker",
         "position": "K",
+        "team": "LAC",
+        "publicAdp": 133.5,
+        "adpDifference": -17.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7355,6 +9317,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 162,
         "player": "Chris Rodriguez Jr.",
         "position": "RB",
+        "team": "JAC",
+        "publicAdp": 274,
+        "adpDifference": 112,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7365,6 +9330,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 175,
         "player": "49ers",
         "position": "DST",
+        "publicAdp": 166,
+        "adpDifference": -9,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -7389,29 +9356,59 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 7.1,
+    "reachRate": 0.369,
+    "valueRate": 0.262,
     "earlyQbRate": 0.057,
     "earlyTeRate": 0.086,
     "rbHeavyRate": 0.343,
     "wrHeavyRate": 0.324,
-    "teamBias": {},
-    "bearsDraftRate": 0,
+    "teamBias": {
+      "WAS": 0.015,
+      "SEA": 0.075,
+      "KC": 0.06,
+      "ATL": 0.06,
+      "LAR": 0.045,
+      "TB": 0.03,
+      "MIN": 0.015,
+      "BUF": 0.06,
+      "TEN": 0.045,
+      "DAL": 0.06,
+      "PIT": 0.03,
+      "SF": 0.045,
+      "NYG": 0.015,
+      "NYJ": 0.06,
+      "CHI": 0.015,
+      "CIN": 0.015,
+      "CAR": 0.045,
+      "BAL": 0.015,
+      "GB": 0.03,
+      "DET": 0.045,
+      "HOU": 0.015,
+      "NE": 0.06,
+      "ARI": 0.015,
+      "IND": 0.03,
+      "LV": 0.03,
+      "DEN": 0.015,
+      "JAC": 0.03,
+      "NO": 0.015,
+      "LAC": 0.015
+    },
+    "bearsDraftRate": 0.01,
     "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "averageBearsAdpReach": -1.5,
     "rookieDraftRate": 0.086,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.667,
+    "averageRookieAdpReach": 19.8,
     "earlyRoundRookieRate": 0.057,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 75.3,
     "predictabilityScore": 34.3
   },
   {
     "id": 8,
     "name": "GiveMeYourMoneyNow",
-    "draftSlot": 8,
+    "draftSlot": 12,
     "tendency": "Balanced",
     "preferredPositions": [
       "WR",
@@ -7426,6 +9423,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 9,
         "player": "DeAndre Hopkins",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 8.8,
+        "adpDifference": -0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7436,6 +9436,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 16,
         "player": "Odell Beckham Jr.",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 11,
+        "adpDifference": -5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7446,6 +9449,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 33,
         "player": "Alex Collins",
         "position": "RB",
+        "publicAdp": 37.4,
+        "adpDifference": 4.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7456,6 +9461,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 40,
         "player": "Zach Ertz",
         "position": "TE",
+        "publicAdp": 35,
+        "adpDifference": -5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7466,6 +9473,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 57,
         "player": "Jay Ajayi",
         "position": "RB",
+        "publicAdp": 43.8,
+        "adpDifference": -13.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7476,6 +9485,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 64,
         "player": "Allen Robinson",
         "position": "WR",
+        "publicAdp": 48,
+        "adpDifference": -16,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7486,6 +9497,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 81,
         "player": "Drew Brees",
         "position": "QB",
+        "publicAdp": 71.4,
+        "adpDifference": -9.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7496,6 +9509,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 88,
         "player": "Sony Michel",
         "position": "RB",
+        "publicAdp": 82.8,
+        "adpDifference": -5.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7506,6 +9521,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 105,
         "player": "Jimmy Garoppolo",
         "position": "QB",
+        "team": "LAR",
+        "publicAdp": 105.2,
+        "adpDifference": 0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7516,6 +9534,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 112,
         "player": "Isaiah Crowell",
         "position": "RB",
+        "publicAdp": 94.8,
+        "adpDifference": -17.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7526,6 +9546,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 129,
         "player": "C.J. Anderson",
         "position": "RB",
+        "publicAdp": 130.2,
+        "adpDifference": 1.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7536,6 +9558,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 136,
         "player": "Chris Carson",
         "position": "RB",
+        "publicAdp": 90.4,
+        "adpDifference": -45.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7546,6 +9570,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 153,
         "player": "Courtland Sutton",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 194.4,
+        "adpDifference": 41.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7556,6 +9583,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 160,
         "player": "Texans",
         "position": "DST",
+        "publicAdp": 138.3,
+        "adpDifference": -21.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7566,6 +9595,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 177,
         "player": "Dan Bailey",
         "position": "K",
+        "publicAdp": 266,
+        "adpDifference": 89,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7576,6 +9607,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 2,
         "player": "Saquon Barkley",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 1,
+        "adpDifference": -1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7586,6 +9620,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 23,
         "player": "Travis Kelce",
         "position": "TE",
+        "team": "KC",
+        "publicAdp": 15.2,
+        "adpDifference": -7.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7596,6 +9633,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 26,
         "player": "Odell Beckham Jr.",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 12.8,
+        "adpDifference": -13.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7606,6 +9646,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 47,
         "player": "Kenny Golladay",
         "position": "WR",
+        "publicAdp": 44.5,
+        "adpDifference": -2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7616,6 +9658,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 50,
         "player": "Tyler Lockett",
         "position": "WR",
+        "team": "LV",
+        "publicAdp": 46.2,
+        "adpDifference": -3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7626,6 +9671,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 71,
         "player": "Drew Brees",
         "position": "QB",
+        "publicAdp": 78.5,
+        "adpDifference": 7.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7636,6 +9683,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 74,
         "player": "Sony Michel",
         "position": "RB",
+        "publicAdp": 48,
+        "adpDifference": -26,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7646,6 +9695,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 95,
         "player": "Mike Williams",
         "position": "WR",
+        "publicAdp": 61.7,
+        "adpDifference": -33.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7656,6 +9707,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 98,
         "player": "Robbie Chosen",
         "position": "WR",
+        "publicAdp": 78.3,
+        "adpDifference": -19.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7666,6 +9719,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 119,
         "player": "Rashaad Penny",
         "position": "RB",
+        "publicAdp": 102.5,
+        "adpDifference": -16.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7676,6 +9731,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 122,
         "player": "Matt Breida",
         "position": "RB",
+        "publicAdp": 108,
+        "adpDifference": -14,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7686,6 +9743,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 143,
         "player": "Jaguars",
         "position": "DST",
+        "publicAdp": 118.5,
+        "adpDifference": -24.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7696,6 +9755,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 146,
         "player": "Russell Wilson",
         "position": "QB",
+        "publicAdp": 84.7,
+        "adpDifference": -61.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7706,6 +9767,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 167,
         "player": "Keke Coutee",
         "position": "WR",
+        "publicAdp": 148.5,
+        "adpDifference": -18.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7716,6 +9779,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 170,
         "player": "Harrison Butker",
         "position": "K",
+        "team": "KC",
+        "publicAdp": 132.8,
+        "adpDifference": -37.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7726,6 +9792,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 2,
         "player": "Dalvin Cook",
         "position": "RB",
+        "publicAdp": 2,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7736,6 +9804,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 23,
         "player": "A.J. Brown",
         "position": "WR",
+        "team": "NE",
+        "publicAdp": 23.8,
+        "adpDifference": 0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7746,6 +9817,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 26,
         "player": "Justin Jefferson",
         "position": "WR",
+        "team": "MIN",
+        "publicAdp": 23.4,
+        "adpDifference": -2.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7756,6 +9830,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 47,
         "player": "Chris Carson",
         "position": "RB",
+        "publicAdp": 32.4,
+        "adpDifference": -14.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7766,6 +9842,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 50,
         "player": "DJ Moore",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 53.4,
+        "adpDifference": 3.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7776,6 +9855,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 71,
         "player": "Noah Fant",
         "position": "TE",
+        "team": "NO",
+        "publicAdp": 84.2,
+        "adpDifference": 13.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7786,6 +9868,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 74,
         "player": "Javonte Williams",
         "position": "RB",
+        "team": "DAL",
+        "publicAdp": 60.6,
+        "adpDifference": -13.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7796,6 +9881,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 95,
         "player": "Jalen Hurts",
         "position": "QB",
+        "team": "PHI",
+        "publicAdp": 97,
+        "adpDifference": 2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7806,6 +9894,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 98,
         "player": "Joe Burrow",
         "position": "QB",
+        "team": "CIN",
+        "publicAdp": 111.2,
+        "adpDifference": 13.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7816,6 +9907,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 119,
         "player": "Harrison Butker",
         "position": "K",
+        "team": "KC",
+        "publicAdp": 127.8,
+        "adpDifference": 8.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7826,6 +9920,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 122,
         "player": "Zack Moss",
         "position": "RB",
+        "publicAdp": 106.6,
+        "adpDifference": -15.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7836,6 +9932,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 143,
         "player": "Curtis Samuel",
         "position": "WR",
+        "publicAdp": 118.2,
+        "adpDifference": -24.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7846,6 +9944,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 146,
         "player": "Commanders",
         "position": "DST",
+        "publicAdp": 120,
+        "adpDifference": -26,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7856,6 +9956,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 167,
         "player": "Mike Williams",
         "position": "WR",
+        "publicAdp": 123,
+        "adpDifference": -44,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7866,6 +9968,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 170,
         "player": "Jonnu Smith",
         "position": "TE",
+        "publicAdp": 123,
+        "adpDifference": -47,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7876,6 +9980,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 3,
         "player": "Austin Ekeler",
         "position": "RB",
+        "publicAdp": 3.8,
+        "adpDifference": 0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7886,6 +9992,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 22,
         "player": "Deebo Samuel",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 17,
+        "adpDifference": -5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7896,6 +10005,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 27,
         "player": "Josh Allen",
         "position": "QB",
+        "team": "BUF",
+        "publicAdp": 20.8,
+        "adpDifference": -6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7906,6 +10018,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 46,
         "player": "Courtland Sutton",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 58,
+        "adpDifference": 12,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7916,6 +10031,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 51,
         "player": "Diontae Johnson",
         "position": "WR",
+        "publicAdp": 43.8,
+        "adpDifference": -7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7926,6 +10043,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 70,
         "player": "Dallas Goedert",
         "position": "TE",
+        "team": "PHI",
+        "publicAdp": 70.5,
+        "adpDifference": 0.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7936,6 +10056,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 75,
         "player": "Clyde Edwards-Helaire",
         "position": "RB",
+        "publicAdp": 64,
+        "adpDifference": -11,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7946,6 +10068,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 94,
         "player": "Elijah Moore",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 90,
+        "adpDifference": -4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7956,6 +10081,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 99,
         "player": "Russell Wilson",
         "position": "QB",
+        "publicAdp": 77.5,
+        "adpDifference": -21.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7966,6 +10093,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 118,
         "player": "Pat Freiermuth",
         "position": "TE",
+        "team": "PIT",
+        "publicAdp": 108.5,
+        "adpDifference": -9.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -7976,6 +10106,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "James Cook",
         "position": "RB",
+        "team": "BUF",
+        "publicAdp": 120,
+        "adpDifference": -3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7986,6 +10119,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 142,
         "player": "Jahan Dotson",
         "position": "WR",
+        "team": "ATL",
+        "publicAdp": 174.8,
+        "adpDifference": 32.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -7996,6 +10132,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 147,
         "player": "Michael Carter",
         "position": "RB",
+        "team": "TEN",
+        "publicAdp": 117,
+        "adpDifference": -30,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8006,6 +10145,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 166,
         "player": "Patriots",
         "position": "DST",
+        "publicAdp": 166,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8016,6 +10157,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 171,
         "player": "Daniel Carlson",
         "position": "K",
+        "team": "LV",
+        "publicAdp": 132.3,
+        "adpDifference": -38.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8026,6 +10170,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 6,
         "player": "Bijan Robinson",
         "position": "RB",
+        "team": "ATL",
+        "publicAdp": 8,
+        "adpDifference": 2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -8036,6 +10183,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 19,
         "player": "Patrick Mahomes",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 14.5,
+        "adpDifference": -4.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8046,6 +10196,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 30,
         "player": "Jaylen Waddle",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 24.5,
+        "adpDifference": -5.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8056,6 +10209,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 43,
         "player": "Travis Etienne",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 28.8,
+        "adpDifference": -14.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8066,6 +10222,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 54,
         "player": "DK Metcalf",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 31.3,
+        "adpDifference": -22.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8076,6 +10235,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 67,
         "player": "Dallas Goedert",
         "position": "TE",
+        "team": "PHI",
+        "publicAdp": 63.8,
+        "adpDifference": -3.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8086,6 +10248,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 78,
         "player": "Mike Williams",
         "position": "WR",
+        "publicAdp": 60.8,
+        "adpDifference": -17.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8096,6 +10260,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 91,
         "player": "Dalvin Cook",
         "position": "RB",
+        "publicAdp": 63.5,
+        "adpDifference": -27.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8106,6 +10272,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 102,
         "player": "Saints",
         "position": "DST",
+        "publicAdp": 154,
+        "adpDifference": 52,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8116,6 +10284,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 115,
         "player": "Rashod Bateman",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 152,
+        "adpDifference": 37,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8126,6 +10297,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 126,
         "player": "Justin Tucker",
         "position": "K",
+        "publicAdp": 90.3,
+        "adpDifference": -35.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8136,6 +10309,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 139,
         "player": "Darnell Mooney",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 174,
+        "adpDifference": 35,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8146,6 +10322,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 150,
         "player": "Kenny Pickett",
         "position": "QB",
+        "team": "CAR",
+        "publicAdp": 168.3,
+        "adpDifference": 18.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8156,6 +10335,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 163,
         "player": "Chigoziem Okonkwo",
         "position": "TE",
+        "team": "WAS",
+        "publicAdp": 154.5,
+        "adpDifference": -8.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8166,6 +10348,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 174,
         "player": "Austin Watkins Jr.",
         "position": "WR",
+        "publicAdp": 269,
+        "adpDifference": 95,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8176,6 +10360,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 11,
         "player": "Ja'Marr Chase",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 6.6,
+        "adpDifference": -4.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8186,6 +10373,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 14,
         "player": "Justin Jefferson",
         "position": "WR",
+        "team": "MIN",
+        "publicAdp": 7,
+        "adpDifference": -7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8196,6 +10386,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 35,
         "player": "Josh Allen",
         "position": "QB",
+        "team": "BUF",
+        "publicAdp": 24.2,
+        "adpDifference": -10.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8206,6 +10399,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 38,
         "player": "D'Andre Swift",
         "position": "RB",
+        "team": "CHI",
+        "publicAdp": 60.6,
+        "adpDifference": 22.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8216,6 +10412,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 59,
         "player": "Najee Harris",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 70.8,
+        "adpDifference": 11.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8226,6 +10425,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 62,
         "player": "Dalton Kincaid",
         "position": "TE",
+        "team": "BUF",
+        "publicAdp": 53.6,
+        "adpDifference": -8.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8236,6 +10438,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 83,
         "player": "Terry McLaurin",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 71.6,
+        "adpDifference": -11.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8246,6 +10451,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 86,
         "player": "Jake Ferguson",
         "position": "TE",
+        "team": "DAL",
+        "publicAdp": 81.6,
+        "adpDifference": -4.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8256,6 +10464,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 107,
         "player": "Jaxon Smith-Njigba",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 99.8,
+        "adpDifference": -7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8266,6 +10477,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 110,
         "player": "49ers",
         "position": "DST",
+        "publicAdp": 116,
+        "adpDifference": 6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8276,6 +10489,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 131,
         "player": "Jayden Daniels",
         "position": "QB",
+        "team": "WAS",
+        "publicAdp": 102.6,
+        "adpDifference": -28.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -8286,6 +10502,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 134,
         "player": "MarShawn Lloyd",
         "position": "RB",
+        "team": "GB",
+        "publicAdp": 182,
+        "adpDifference": 48,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -8296,6 +10515,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 155,
         "player": "Jason Myers",
         "position": "K",
+        "team": "SEA",
+        "publicAdp": 196.4,
+        "adpDifference": 41.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8306,6 +10528,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 158,
         "player": "Jaylen Wright",
         "position": "RB",
+        "team": "MIA",
+        "publicAdp": 169.8,
+        "adpDifference": 11.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -8316,6 +10541,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 179,
         "player": "Kenneth Gainwell",
         "position": "RB",
+        "team": "TB",
+        "publicAdp": 229.3,
+        "adpDifference": 50.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8326,6 +10554,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 8,
         "player": "Christian McCaffrey",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 8.2,
+        "adpDifference": 0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8336,6 +10567,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 17,
         "player": "Nico Collins",
         "position": "WR",
+        "team": "HOU",
+        "publicAdp": 13.2,
+        "adpDifference": -3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8346,6 +10580,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 32,
         "player": "Josh Allen",
         "position": "QB",
+        "team": "BUF",
+        "publicAdp": 20.2,
+        "adpDifference": -11.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8356,6 +10593,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 41,
         "player": "Chuba Hubbard",
         "position": "RB",
+        "team": "CAR",
+        "publicAdp": 46.2,
+        "adpDifference": 5.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8366,6 +10606,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 56,
         "player": "DK Metcalf",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 49.3,
+        "adpDifference": -6.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8376,6 +10619,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 65,
         "player": "Marvin Harrison Jr.",
         "position": "WR",
+        "team": "ARI",
+        "publicAdp": 41.8,
+        "adpDifference": -23.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8386,6 +10632,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 80,
         "player": "Tyrone Tracy Jr.",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 80.7,
+        "adpDifference": 0.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8396,6 +10645,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Matthew Golden",
         "position": "WR",
+        "team": "GB",
+        "publicAdp": 92.2,
+        "adpDifference": 3.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -8406,6 +10658,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 104,
         "player": "Jake Ferguson",
         "position": "TE",
+        "team": "DAL",
+        "publicAdp": 137.5,
+        "adpDifference": 33.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8416,6 +10671,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "Javonte Williams",
         "position": "RB",
+        "team": "DAL",
+        "publicAdp": 111.7,
+        "adpDifference": -1.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8426,6 +10684,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 128,
         "player": "Steelers",
         "position": "DST",
+        "publicAdp": 133.7,
+        "adpDifference": 5.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8436,6 +10696,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 137,
         "player": "Jaydon Blue",
         "position": "RB",
+        "team": "DAL",
+        "publicAdp": 142.3,
+        "adpDifference": 5.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -8446,6 +10709,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 152,
         "player": "Jake Bates",
         "position": "K",
+        "team": "DET",
+        "publicAdp": 130.5,
+        "adpDifference": -21.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8456,6 +10722,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 161,
         "player": "Brenton Strange",
         "position": "TE",
+        "team": "JAC",
+        "publicAdp": 197.5,
+        "adpDifference": 36.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8466,6 +10735,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 176,
         "player": "Matthew Stafford",
         "position": "QB",
+        "team": "LAR",
+        "publicAdp": 180.5,
+        "adpDifference": 4.5,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -8490,29 +10762,58 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": -2.6,
+    "reachRate": 0.2,
+    "valueRate": 0.448,
     "earlyQbRate": 0.114,
     "earlyTeRate": 0.057,
     "rbHeavyRate": 0.295,
     "wrHeavyRate": 0.324,
-    "teamBias": {},
-    "bearsDraftRate": 0,
-    "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "teamBias": {
+      "BAL": 0.031,
+      "NYG": 0.077,
+      "LAR": 0.031,
+      "DEN": 0.046,
+      "PHI": 0.077,
+      "KC": 0.062,
+      "LV": 0.031,
+      "NE": 0.015,
+      "MIN": 0.031,
+      "BUF": 0.092,
+      "NO": 0.031,
+      "DAL": 0.077,
+      "CIN": 0.031,
+      "SF": 0.031,
+      "PIT": 0.046,
+      "ATL": 0.031,
+      "TEN": 0.015,
+      "CAR": 0.031,
+      "WAS": 0.046,
+      "CHI": 0.015,
+      "SEA": 0.031,
+      "GB": 0.031,
+      "MIA": 0.015,
+      "TB": 0.015,
+      "HOU": 0.015,
+      "ARI": 0.015,
+      "DET": 0.015,
+      "JAC": 0.015
+    },
+    "bearsDraftRate": 0.01,
+    "bearsReachRate": 1,
+    "averageBearsAdpReach": 22.6,
     "rookieDraftRate": 0.105,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.364,
+    "averageRookieAdpReach": 8.6,
     "earlyRoundRookieRate": 0.029,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 50.8,
     "predictabilityScore": 32.4
   },
   {
     "id": 9,
     "name": "Siurek",
-    "draftSlot": 9,
+    "draftSlot": 10,
     "tendency": "Balanced",
     "preferredPositions": [
       "WR",
@@ -8527,6 +10828,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 5,
         "player": "Antonio Brown",
         "position": "WR",
+        "publicAdp": 5.2,
+        "adpDifference": 0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8537,6 +10840,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 20,
         "player": "LeSean McCoy",
         "position": "RB",
+        "publicAdp": 26.8,
+        "adpDifference": 6.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8547,6 +10852,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 29,
         "player": "Mike Evans",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 23.4,
+        "adpDifference": -5.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8557,6 +10865,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 44,
         "player": "Cam Newton",
         "position": "QB",
+        "publicAdp": 63.4,
+        "adpDifference": 19.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8567,6 +10877,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 53,
         "player": "Lamar Miller",
         "position": "RB",
+        "publicAdp": 46.8,
+        "adpDifference": -6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8577,6 +10889,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 68,
         "player": "Jordy Nelson",
         "position": "WR",
+        "publicAdp": 93.2,
+        "adpDifference": 25.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8587,6 +10901,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 77,
         "player": "Kyle Rudolph",
         "position": "TE",
+        "publicAdp": 77.2,
+        "adpDifference": 0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8597,6 +10913,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 92,
         "player": "Emmanuel Sanders",
         "position": "WR",
+        "publicAdp": 67,
+        "adpDifference": -25,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8607,6 +10925,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 101,
         "player": "Carlos Hyde",
         "position": "RB",
+        "publicAdp": 65.8,
+        "adpDifference": -35.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8617,6 +10937,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 116,
         "player": "Mohamed Sanu",
         "position": "WR",
+        "publicAdp": 158,
+        "adpDifference": 42,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8627,6 +10949,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 125,
         "player": "Jake Elliott",
         "position": "K",
+        "team": "PHI",
+        "publicAdp": 185.4,
+        "adpDifference": 60.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8637,6 +10962,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 140,
         "player": "Alex Smith",
         "position": "QB",
+        "publicAdp": 134.4,
+        "adpDifference": -5.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8647,6 +10974,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 149,
         "player": "Ty Montgomery",
         "position": "WR",
+        "publicAdp": 137.2,
+        "adpDifference": -11.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8657,6 +10986,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 164,
         "player": "Cowboys",
         "position": "DST",
+        "publicAdp": 250,
+        "adpDifference": 86,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8667,6 +10998,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 173,
         "player": "DeVante Parker",
         "position": "WR",
+        "publicAdp": 125.2,
+        "adpDifference": -47.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8677,6 +11010,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 9,
         "player": "Julio Jones",
         "position": "WR",
+        "publicAdp": 10.5,
+        "adpDifference": 1.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8687,6 +11022,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 16,
         "player": "David Johnson",
         "position": "RB",
+        "publicAdp": 6.7,
+        "adpDifference": -9.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8697,6 +11034,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 33,
         "player": "Devonta Freeman",
         "position": "RB",
+        "publicAdp": 29.8,
+        "adpDifference": -3.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8707,6 +11046,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 40,
         "player": "Bears",
         "position": "DST",
+        "publicAdp": 83.7,
+        "adpDifference": 43.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8717,6 +11058,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 57,
         "player": "Tarik Cohen",
         "position": "RB",
+        "publicAdp": 68.3,
+        "adpDifference": 11.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8727,6 +11070,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 64,
         "player": "Tom Brady",
         "position": "QB",
+        "publicAdp": 116.3,
+        "adpDifference": 52.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8737,6 +11082,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 81,
         "player": "Austin Ekeler",
         "position": "RB",
+        "publicAdp": 70.8,
+        "adpDifference": -10.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8747,6 +11094,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 88,
         "player": "Marvin Jones",
         "position": "WR",
+        "publicAdp": 96.3,
+        "adpDifference": 8.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8757,6 +11106,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 105,
         "player": "David Njoku",
         "position": "TE",
+        "team": "LAC",
+        "publicAdp": 92.3,
+        "adpDifference": -12.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8767,6 +11119,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 112,
         "player": "Larry Fitzgerald",
         "position": "WR",
+        "publicAdp": 100.2,
+        "adpDifference": -11.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8777,6 +11131,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 129,
         "player": "Kareem Hunt",
         "position": "RB",
+        "publicAdp": 117.2,
+        "adpDifference": -11.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8787,6 +11143,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 136,
         "player": "Corey Davis",
         "position": "WR",
+        "publicAdp": 94.8,
+        "adpDifference": -41.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8797,6 +11155,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 153,
         "player": "Courtland Sutton",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 111.7,
+        "adpDifference": -41.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8807,6 +11168,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 160,
         "player": "Nelson Agholor",
         "position": "WR",
+        "publicAdp": 386.2,
+        "adpDifference": 226.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8817,6 +11180,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 177,
         "player": "Eddy Pineiro",
         "position": "K",
+        "team": "SF",
+        "publicAdp": 258.3,
+        "adpDifference": 81.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8827,6 +11193,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 8,
         "player": "Aaron Jones",
         "position": "RB",
+        "team": "MIN",
+        "publicAdp": 9.4,
+        "adpDifference": 1.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8837,6 +11206,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 17,
         "player": "Jonathan Taylor",
         "position": "RB",
+        "team": "IND",
+        "publicAdp": 10.4,
+        "adpDifference": -6.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8847,6 +11219,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 32,
         "player": "Clyde Edwards-Helaire",
         "position": "RB",
+        "publicAdp": 24.2,
+        "adpDifference": -7.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8857,6 +11231,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 41,
         "player": "Lamar Jackson",
         "position": "QB",
+        "team": "BAL",
+        "publicAdp": 44.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8867,6 +11244,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 56,
         "player": "Kyle Pitts",
         "position": "TE",
+        "team": "ATL",
+        "publicAdp": 47,
+        "adpDifference": -9,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -8877,6 +11257,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 65,
         "player": "Ja'Marr Chase",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 74.4,
+        "adpDifference": 9.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -8887,6 +11270,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 80,
         "player": "DJ Chark",
         "position": "WR",
+        "publicAdp": 102,
+        "adpDifference": 22,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8897,6 +11282,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Chase Claypool",
         "position": "WR",
+        "publicAdp": 69.2,
+        "adpDifference": -19.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8907,6 +11294,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 104,
         "player": "Odell Beckham Jr.",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 67.8,
+        "adpDifference": -36.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8917,6 +11307,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "49ers",
         "position": "DST",
+        "publicAdp": 136.8,
+        "adpDifference": 23.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8927,6 +11319,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 128,
         "player": "T.Y. Hilton",
         "position": "WR",
+        "publicAdp": 210.5,
+        "adpDifference": 82.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8937,6 +11331,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 137,
         "player": "Marvin Jones",
         "position": "WR",
+        "publicAdp": 122.4,
+        "adpDifference": -14.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8947,6 +11343,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 152,
         "player": "Mecole Hardman",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 132.8,
+        "adpDifference": -19.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8967,6 +11366,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 176,
         "player": "Mason Crosby",
         "position": "K",
+        "publicAdp": 195,
+        "adpDifference": 19,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8977,6 +11378,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 9,
         "player": "Justin Jefferson",
         "position": "WR",
+        "team": "MIN",
+        "publicAdp": 5.5,
+        "adpDifference": -3.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8987,6 +11391,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 16,
         "player": "Alvin Kamara",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 13.3,
+        "adpDifference": -2.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -8997,6 +11404,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 33,
         "player": "Ezekiel Elliott",
         "position": "RB",
+        "publicAdp": 30.3,
+        "adpDifference": -2.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9007,6 +11416,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 40,
         "player": "A.J. Brown",
         "position": "WR",
+        "team": "NE",
+        "publicAdp": 30.8,
+        "adpDifference": -9.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9017,6 +11429,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 57,
         "player": "JuJu Smith-Schuster",
         "position": "WR",
+        "publicAdp": 74.3,
+        "adpDifference": 17.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9027,6 +11441,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 64,
         "player": "DK Metcalf",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 48.3,
+        "adpDifference": -15.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9037,6 +11454,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 81,
         "player": "Cam Akers",
         "position": "RB",
+        "publicAdp": 39.8,
+        "adpDifference": -41.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9047,6 +11466,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 88,
         "player": "T.J. Hockenson",
         "position": "TE",
+        "team": "MIN",
+        "publicAdp": 65.8,
+        "adpDifference": -22.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9057,6 +11479,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 105,
         "player": "Derek Carr",
         "position": "QB",
+        "publicAdp": 113.3,
+        "adpDifference": 8.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9067,6 +11491,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 112,
         "player": "Julio Jones",
         "position": "WR",
+        "publicAdp": 143.8,
+        "adpDifference": 31.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9077,6 +11503,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 129,
         "player": "Tyler Bass",
         "position": "K",
+        "team": "BUF",
+        "publicAdp": 132.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9087,6 +11516,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 136,
         "player": "James Robinson",
         "position": "RB",
+        "publicAdp": 117,
+        "adpDifference": -19,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9097,6 +11528,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 153,
         "player": "Saints",
         "position": "DST",
+        "publicAdp": 135.3,
+        "adpDifference": -17.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9107,6 +11540,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 160,
         "player": "J.D. McKissic",
         "position": "RB",
+        "publicAdp": 165.3,
+        "adpDifference": 5.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9117,6 +11552,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 177,
         "player": "Mitch Trubisky",
         "position": "QB",
+        "team": "TEN",
+        "publicAdp": 244.3,
+        "adpDifference": 67.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9127,6 +11565,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 1,
         "player": "Christian McCaffrey",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 2.3,
+        "adpDifference": 1.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9137,6 +11578,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 24,
         "player": "Jonathan Taylor",
         "position": "RB",
+        "team": "IND",
+        "publicAdp": 47.8,
+        "adpDifference": 23.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9147,6 +11591,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 25,
         "player": "Mark Andrews",
         "position": "TE",
+        "team": "BAL",
+        "publicAdp": 30.3,
+        "adpDifference": 5.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9157,6 +11604,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 48,
         "player": "Alexander Mattison",
         "position": "RB",
+        "publicAdp": 62.8,
+        "adpDifference": 14.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9167,6 +11616,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 49,
         "player": "Drake London",
         "position": "WR",
+        "team": "ATL",
+        "publicAdp": 66.8,
+        "adpDifference": 17.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9177,6 +11629,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 72,
         "player": "Mike Evans",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 75.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9187,6 +11642,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 73,
         "player": "Marquise Brown",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 91.3,
+        "adpDifference": 18.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9197,6 +11655,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 96,
         "player": "Kirk Cousins",
         "position": "QB",
+        "team": "LV",
+        "publicAdp": 109.8,
+        "adpDifference": 13.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9207,6 +11668,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 97,
         "player": "Adam Thielen",
         "position": "WR",
+        "publicAdp": 137.3,
+        "adpDifference": 40.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9217,6 +11680,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 120,
         "player": "Jets",
         "position": "DST",
+        "publicAdp": 122.3,
+        "adpDifference": 2.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9227,6 +11692,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 121,
         "player": "Elijah Mitchell",
         "position": "RB",
+        "publicAdp": 140.3,
+        "adpDifference": 19.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9237,6 +11704,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 144,
         "player": "Harrison Butker",
         "position": "K",
+        "team": "KC",
+        "publicAdp": 133.5,
+        "adpDifference": -10.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9247,6 +11717,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 145,
         "player": "Russell Wilson",
         "position": "QB",
+        "publicAdp": 148,
+        "adpDifference": 3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9257,6 +11729,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 168,
         "player": "Ty Chandler",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 208.5,
+        "adpDifference": 40.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9267,6 +11742,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 169,
         "player": "Nico Collins",
         "position": "WR",
+        "team": "HOU",
+        "publicAdp": 174,
+        "adpDifference": 5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9277,6 +11755,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 12,
         "player": "James Cook",
         "position": "RB",
+        "team": "BUF",
+        "publicAdp": 31,
+        "adpDifference": 19,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9287,6 +11768,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 13,
         "player": "Travis Etienne",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 17.4,
+        "adpDifference": 4.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9297,6 +11781,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 36,
         "player": "Davante Adams",
         "position": "WR",
+        "team": "LAR",
+        "publicAdp": 22,
+        "adpDifference": -14,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9307,6 +11794,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 37,
         "player": "Mark Andrews",
         "position": "TE",
+        "team": "BAL",
+        "publicAdp": 45.8,
+        "adpDifference": 8.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9317,6 +11807,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 60,
         "player": "Nick Chubb",
         "position": "RB",
+        "publicAdp": 100.8,
+        "adpDifference": 40.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9327,6 +11819,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 61,
         "player": "George Pickens",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 59.6,
+        "adpDifference": -1.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9337,6 +11832,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 84,
         "player": "Xavier Worthy",
         "position": "WR",
+        "team": "KC",
+        "publicAdp": 90,
+        "adpDifference": 6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -9347,6 +11845,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 85,
         "player": "Jared Goff",
         "position": "QB",
+        "team": "DET",
+        "publicAdp": 116,
+        "adpDifference": 31,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9357,6 +11858,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 108,
         "player": "Jets",
         "position": "DST",
+        "publicAdp": 128.4,
+        "adpDifference": 20.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9367,6 +11870,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 109,
         "player": "Jerome Ford",
         "position": "RB",
+        "team": "WAS",
+        "publicAdp": 113,
+        "adpDifference": 4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9377,6 +11883,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 132,
         "player": "Younghoe Koo",
         "position": "K",
+        "publicAdp": 140,
+        "adpDifference": 8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9387,6 +11895,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 133,
         "player": "T.J. Hockenson",
         "position": "TE",
+        "team": "MIN",
+        "publicAdp": 126.4,
+        "adpDifference": -6.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9397,6 +11908,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 156,
         "player": "Zach Charbonnet",
         "position": "RB",
+        "team": "SEA",
+        "publicAdp": 147.4,
+        "adpDifference": -8.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9407,6 +11921,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 157,
         "player": "Aaron Rodgers",
         "position": "QB",
+        "team": "PIT",
+        "publicAdp": 136.2,
+        "adpDifference": -20.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9417,6 +11934,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 180,
         "player": "Rashid Shaheed",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 187.6,
+        "adpDifference": 7.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9427,6 +11947,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 9,
         "player": "Justin Jefferson",
         "position": "WR",
+        "team": "MIN",
+        "publicAdp": 5,
+        "adpDifference": -4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9437,6 +11960,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 16,
         "player": "Malik Nabers",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 9.2,
+        "adpDifference": -6.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9447,6 +11973,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 33,
         "player": "James Cook",
         "position": "RB",
+        "team": "BUF",
+        "publicAdp": 29.5,
+        "adpDifference": -3.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9457,6 +11986,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 40,
         "player": "Jayden Daniels",
         "position": "QB",
+        "team": "WAS",
+        "publicAdp": 30.7,
+        "adpDifference": -9.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9467,6 +11999,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 57,
         "player": "Joe Mixon",
         "position": "RB",
+        "publicAdp": 117.5,
+        "adpDifference": 60.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9477,6 +12011,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 64,
         "player": "Tony Pollard",
         "position": "RB",
+        "team": "TEN",
+        "publicAdp": 65.2,
+        "adpDifference": 1.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9487,6 +12024,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 81,
         "player": "Jakobi Meyers",
         "position": "WR",
+        "team": "JAC",
+        "publicAdp": 90.8,
+        "adpDifference": 9.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9497,6 +12037,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 88,
         "player": "Travis Etienne",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 98.8,
+        "adpDifference": 10.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9507,6 +12050,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 105,
         "player": "Dallas Goedert",
         "position": "TE",
+        "team": "PHI",
+        "publicAdp": 142.3,
+        "adpDifference": 37.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9517,6 +12063,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 112,
         "player": "Luther Burden III",
         "position": "WR",
+        "team": "CHI",
+        "publicAdp": 176.2,
+        "adpDifference": 64.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -9527,6 +12076,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 129,
         "player": "Ravens",
         "position": "DST",
+        "publicAdp": 120.7,
+        "adpDifference": -8.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9537,6 +12088,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 136,
         "player": "Hunter Henry",
         "position": "TE",
+        "team": "NE",
+        "publicAdp": 164.7,
+        "adpDifference": 28.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9547,6 +12101,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 153,
         "player": "Cole Kmet",
         "position": "TE",
+        "team": "CHI",
+        "publicAdp": 250.5,
+        "adpDifference": 97.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9557,6 +12114,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 160,
         "player": "Jake Elliott",
         "position": "K",
+        "team": "PHI",
+        "publicAdp": 167,
+        "adpDifference": 7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9567,6 +12127,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 177,
         "player": "Adam Thielen",
         "position": "WR",
+        "publicAdp": 172.8,
+        "adpDifference": -4.2,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -9591,29 +12153,55 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0.029
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 9.7,
+    "reachRate": 0.423,
+    "valueRate": 0.317,
     "earlyQbRate": 0.086,
     "earlyTeRate": 0.086,
     "rbHeavyRate": 0.286,
     "wrHeavyRate": 0.381,
-    "teamBias": {},
-    "bearsDraftRate": 0,
-    "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "teamBias": {
+      "SF": 0.075,
+      "PHI": 0.075,
+      "LAC": 0.019,
+      "DEN": 0.019,
+      "MIN": 0.094,
+      "IND": 0.038,
+      "BAL": 0.057,
+      "ATL": 0.038,
+      "CIN": 0.019,
+      "NYG": 0.038,
+      "BUF": 0.075,
+      "NO": 0.075,
+      "NE": 0.038,
+      "PIT": 0.038,
+      "TEN": 0.038,
+      "LV": 0.019,
+      "KC": 0.038,
+      "HOU": 0.019,
+      "LAR": 0.019,
+      "DAL": 0.019,
+      "DET": 0.019,
+      "WAS": 0.038,
+      "SEA": 0.038,
+      "JAC": 0.019,
+      "CHI": 0.038
+    },
+    "bearsDraftRate": 0.019,
+    "bearsReachRate": 1,
+    "averageBearsAdpReach": 80.9,
     "rookieDraftRate": 0.038,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.5,
+    "averageRookieAdpReach": 17.7,
     "earlyRoundRookieRate": 0.029,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 82.1,
     "predictabilityScore": 38.1
   },
   {
     "id": 10,
     "name": "Constipated Commandos",
-    "draftSlot": 10,
+    "draftSlot": 2,
     "tendency": "Balanced",
     "preferredPositions": [
       "WR",
@@ -9628,6 +12216,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 12,
         "player": "Dalvin Cook",
         "position": "RB",
+        "publicAdp": 14.2,
+        "adpDifference": 2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9638,6 +12228,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 13,
         "player": "Aaron Rodgers",
         "position": "QB",
+        "team": "PIT",
+        "publicAdp": 28.2,
+        "adpDifference": 15.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9648,6 +12241,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 36,
         "player": "Royce Freeman",
         "position": "RB",
+        "publicAdp": 41.2,
+        "adpDifference": 5.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -9658,6 +12253,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 37,
         "player": "Doug Baldwin",
         "position": "WR",
+        "publicAdp": 37,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9668,6 +12265,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 60,
         "player": "Corey Davis",
         "position": "WR",
+        "publicAdp": 63.6,
+        "adpDifference": 3.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9678,6 +12277,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 61,
         "player": "David Njoku",
         "position": "TE",
+        "team": "LAC",
+        "publicAdp": 112.6,
+        "adpDifference": 51.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9688,6 +12290,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 84,
         "player": "Justin Tucker",
         "position": "K",
+        "publicAdp": 142.2,
+        "adpDifference": 58.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9698,6 +12302,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 85,
         "player": "DJ Moore",
         "position": "WR",
+        "team": "BUF",
+        "publicAdp": 139,
+        "adpDifference": 54,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -9708,6 +12315,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 108,
         "player": "Eagles",
         "position": "DST",
+        "publicAdp": 114,
+        "adpDifference": 6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9718,6 +12327,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 109,
         "player": "Ricky Seals-Jones",
         "position": "TE",
+        "publicAdp": 198.5,
+        "adpDifference": 89.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9728,6 +12339,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 132,
         "player": "Cameron Meredith",
         "position": "WR",
+        "publicAdp": 153,
+        "adpDifference": 21,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9738,6 +12351,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 133,
         "player": "Samaje Perine",
         "position": "RB",
+        "team": "CIN",
+        "publicAdp": 210.3,
+        "adpDifference": 77.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9748,6 +12364,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 156,
         "player": "Josh Doctson",
         "position": "WR",
+        "publicAdp": 148.2,
+        "adpDifference": -7.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9758,6 +12376,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 157,
         "player": "Marcus Mariota",
         "position": "QB",
+        "team": "WAS",
+        "publicAdp": 137.4,
+        "adpDifference": -19.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9768,6 +12389,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 180,
         "player": "Danny Amendola",
         "position": "WR",
+        "publicAdp": 187.6,
+        "adpDifference": 7.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9778,6 +12401,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 12,
         "player": "Kerryon Johnson",
         "position": "RB",
+        "publicAdp": 29.3,
+        "adpDifference": 17.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9788,6 +12413,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 13,
         "player": "Michael Thomas",
         "position": "WR",
+        "publicAdp": 10.7,
+        "adpDifference": -2.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9798,6 +12425,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 36,
         "player": "Melvin Gordon",
         "position": "RB",
+        "publicAdp": 44.2,
+        "adpDifference": 8.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9808,6 +12437,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 37,
         "player": "George Kittle",
         "position": "TE",
+        "team": "SF",
+        "publicAdp": 28.2,
+        "adpDifference": -8.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9818,6 +12450,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 60,
         "player": "Deshaun Watson",
         "position": "QB",
+        "team": "CLE",
+        "publicAdp": 44.3,
+        "adpDifference": -15.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9828,6 +12463,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 61,
         "player": "Alshon Jeffery",
         "position": "WR",
+        "publicAdp": 67.7,
+        "adpDifference": 6.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9838,6 +12475,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 84,
         "player": "Emmanuel Sanders",
         "position": "WR",
+        "publicAdp": 97.8,
+        "adpDifference": 13.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9848,6 +12487,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 85,
         "player": "Miles Sanders",
         "position": "RB",
+        "publicAdp": 73.5,
+        "adpDifference": -11.5,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -9858,6 +12499,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 108,
         "player": "Donte Moncrief",
         "position": "WR",
+        "publicAdp": 134.3,
+        "adpDifference": 26.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9868,6 +12511,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 109,
         "player": "Wil Lutz",
         "position": "K",
+        "team": "DEN",
+        "publicAdp": 141.5,
+        "adpDifference": 32.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9878,6 +12524,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 132,
         "player": "Jaylen Samuels",
         "position": "RB",
+        "publicAdp": 135,
+        "adpDifference": 3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9888,6 +12536,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 133,
         "player": "Patriots",
         "position": "DST",
+        "publicAdp": 159.5,
+        "adpDifference": 26.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9898,6 +12548,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 156,
         "player": "Zay Jones",
         "position": "WR",
+        "publicAdp": 386.4,
+        "adpDifference": 230.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9908,6 +12560,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 157,
         "player": "Nyheim Miller-Hines",
         "position": "RB",
+        "publicAdp": 156.3,
+        "adpDifference": -0.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9918,6 +12572,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 180,
         "player": "Marquise Goodwin",
         "position": "WR",
+        "publicAdp": 250.2,
+        "adpDifference": 70.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9928,6 +12584,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 10,
         "player": "DeAndre Hopkins",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 17.2,
+        "adpDifference": 7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9938,6 +12597,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 15,
         "player": "Najee Harris",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 15.6,
+        "adpDifference": 0.6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -9948,6 +12610,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 34,
         "player": "Josh Jacobs",
         "position": "RB",
+        "team": "GB",
+        "publicAdp": 36.4,
+        "adpDifference": 2.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9958,6 +12623,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 39,
         "player": "T.J. Hockenson",
         "position": "TE",
+        "team": "MIN",
+        "publicAdp": 58.2,
+        "adpDifference": 19.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9968,6 +12636,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 58,
         "player": "Dallas Goedert",
         "position": "TE",
+        "team": "PHI",
+        "publicAdp": 99.2,
+        "adpDifference": 41.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9978,6 +12649,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 63,
         "player": "Ryan Tannehill",
         "position": "QB",
+        "publicAdp": 93.4,
+        "adpDifference": 30.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9988,6 +12661,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 82,
         "player": "Will Fuller",
         "position": "WR",
+        "publicAdp": 109.8,
+        "adpDifference": 27.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -9998,6 +12673,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 87,
         "player": "Buccaneers",
         "position": "DST",
+        "publicAdp": 105.4,
+        "adpDifference": 18.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10008,6 +12685,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 106,
         "player": "Laviska Shenault Jr.",
         "position": "WR",
+        "publicAdp": 91.8,
+        "adpDifference": -14.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10018,6 +12697,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "Greg Zuerlein",
         "position": "K",
+        "publicAdp": 177.6,
+        "adpDifference": 66.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10028,6 +12709,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 130,
         "player": "Russell Gage",
         "position": "WR",
+        "publicAdp": 148.8,
+        "adpDifference": 18.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10038,6 +12721,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 135,
         "player": "Matt Ryan",
         "position": "QB",
+        "publicAdp": 141.8,
+        "adpDifference": 6.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10048,6 +12733,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 154,
         "player": "Michael Pittman",
         "position": "WR",
+        "team": "PIT",
+        "publicAdp": 106.4,
+        "adpDifference": -47.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10058,6 +12746,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 159,
         "player": "Chuba Hubbard",
         "position": "RB",
+        "team": "CAR",
+        "publicAdp": 176.6,
+        "adpDifference": 17.6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10068,6 +12759,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 178,
         "player": "Jalen Reagor",
         "position": "WR",
+        "team": "MIA",
+        "publicAdp": 187.4,
+        "adpDifference": 9.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10078,6 +12772,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 4,
         "player": "Najee Harris",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 8,
+        "adpDifference": 4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10088,6 +12785,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 21,
         "player": "Mark Andrews",
         "position": "TE",
+        "team": "BAL",
+        "publicAdp": 21.8,
+        "adpDifference": 0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10098,6 +12798,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 28,
         "player": "Patrick Mahomes",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 29.8,
+        "adpDifference": 1.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10108,6 +12811,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 45,
         "player": "Dameon Pierce",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 83.5,
+        "adpDifference": 38.5,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10118,6 +12824,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 52,
         "player": "Cordarrelle Patterson",
         "position": "RB",
+        "publicAdp": 85.8,
+        "adpDifference": 33.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10128,6 +12836,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 69,
         "player": "George Pickens",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 127.8,
+        "adpDifference": 58.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10138,6 +12849,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 76,
         "player": "Bills",
         "position": "DST",
+        "publicAdp": 92,
+        "adpDifference": 16,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10148,6 +12861,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 93,
         "player": "Christian Kirk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 100.3,
+        "adpDifference": 7.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10158,6 +12874,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 100,
         "player": "Treylon Burks",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 131.8,
+        "adpDifference": 31.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10168,6 +12887,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 117,
         "player": "Chris Olave",
         "position": "WR",
+        "team": "NO",
+        "publicAdp": 110.8,
+        "adpDifference": -6.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10178,6 +12900,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 124,
         "player": "Isaiah Spiller",
         "position": "RB",
+        "publicAdp": 199.7,
+        "adpDifference": 75.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10188,6 +12912,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 141,
         "player": "Russell Gage",
         "position": "WR",
+        "publicAdp": 145.5,
+        "adpDifference": 4.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10198,6 +12924,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 148,
         "player": "Matt Gay",
         "position": "K",
+        "team": "LV",
+        "publicAdp": 135.8,
+        "adpDifference": -12.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10208,6 +12937,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 165,
         "player": "Zamir White",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 201.3,
+        "adpDifference": 36.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10218,6 +12950,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 172,
         "player": "Romeo Doubs",
         "position": "WR",
+        "team": "NE",
+        "publicAdp": 176.3,
+        "adpDifference": 4.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10228,6 +12963,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 2,
         "player": "Austin Ekeler",
         "position": "RB",
+        "publicAdp": 3.8,
+        "adpDifference": 1.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10238,6 +12975,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 23,
         "player": "Lamar Jackson",
         "position": "QB",
+        "team": "BAL",
+        "publicAdp": 34,
+        "adpDifference": 11,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10248,6 +12988,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 26,
         "player": "George Kittle",
         "position": "TE",
+        "team": "SF",
+        "publicAdp": 49.5,
+        "adpDifference": 23.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10258,6 +13001,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 47,
         "player": "Deebo Samuel",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 38,
+        "adpDifference": -9,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10268,6 +13014,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 50,
         "player": "Dameon Pierce",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 46.3,
+        "adpDifference": -3.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10278,6 +13027,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 71,
         "player": "Terry McLaurin",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 54.3,
+        "adpDifference": -16.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10288,6 +13040,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 74,
         "player": "D'Andre Swift",
         "position": "RB",
+        "team": "CHI",
+        "publicAdp": 74.3,
+        "adpDifference": 0.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10298,6 +13053,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 95,
         "player": "George Pickens",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 83,
+        "adpDifference": -12,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10308,6 +13066,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 98,
         "player": "Roschon Johnson",
         "position": "RB",
+        "team": "CHI",
+        "publicAdp": 195,
+        "adpDifference": 97,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10318,6 +13079,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 119,
         "player": "Bears",
         "position": "DST",
+        "publicAdp": 222,
+        "adpDifference": 103,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10328,6 +13091,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 122,
         "player": "Jamaal Williams",
         "position": "RB",
+        "publicAdp": 103.8,
+        "adpDifference": -18.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10338,6 +13103,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 143,
         "player": "Odell Beckham Jr.",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 106.3,
+        "adpDifference": -36.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10348,6 +13116,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 146,
         "player": "Younghoe Koo",
         "position": "K",
+        "publicAdp": 139,
+        "adpDifference": -7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10358,6 +13128,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 167,
         "player": "Gus Edwards",
         "position": "RB",
+        "publicAdp": 223.5,
+        "adpDifference": 56.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10368,6 +13140,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 170,
         "player": "Sam LaPorta",
         "position": "TE",
+        "team": "DET",
+        "publicAdp": 168.3,
+        "adpDifference": -1.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10378,6 +13153,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 10,
         "player": "Joe Mixon",
         "position": "RB",
+        "publicAdp": 38.6,
+        "adpDifference": 28.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10388,6 +13165,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 15,
         "player": "Josh Jacobs",
         "position": "RB",
+        "team": "GB",
+        "publicAdp": 28.2,
+        "adpDifference": 13.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10398,6 +13178,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 34,
         "player": "Sam LaPorta",
         "position": "TE",
+        "team": "DET",
+        "publicAdp": 31.8,
+        "adpDifference": -2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10408,6 +13191,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 39,
         "player": "Joe Burrow",
         "position": "QB",
+        "team": "CIN",
+        "publicAdp": 61.8,
+        "adpDifference": 22.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10418,6 +13204,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 58,
         "player": "Stefon Diggs",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 43,
+        "adpDifference": -15,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10428,6 +13217,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 63,
         "player": "Zay Flowers",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 63.2,
+        "adpDifference": 0.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10438,6 +13230,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 82,
         "player": "Jayden Reed",
         "position": "WR",
+        "team": "GB",
+        "publicAdp": 87.2,
+        "adpDifference": 5.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10448,6 +13243,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 87,
         "player": "Ezekiel Elliott",
         "position": "RB",
+        "publicAdp": 113.2,
+        "adpDifference": 26.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10458,6 +13255,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 106,
         "player": "Ravens",
         "position": "DST",
+        "publicAdp": 128.2,
+        "adpDifference": 22.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10468,6 +13267,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "Ladd McConkey",
         "position": "WR",
+        "team": "LAC",
+        "publicAdp": 105.4,
+        "adpDifference": -5.6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10478,6 +13280,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 130,
         "player": "Dak Prescott",
         "position": "QB",
+        "team": "DAL",
+        "publicAdp": 68.4,
+        "adpDifference": -61.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10488,6 +13293,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 135,
         "player": "Ka'imi Fairbairn",
         "position": "K",
+        "team": "HOU",
+        "publicAdp": 149,
+        "adpDifference": 14,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10498,6 +13306,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 154,
         "player": "Curtis Samuel",
         "position": "WR",
+        "publicAdp": 143.6,
+        "adpDifference": -10.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10508,6 +13318,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 159,
         "player": "Brandin Cooks",
         "position": "WR",
+        "publicAdp": 169.2,
+        "adpDifference": 10.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10518,6 +13330,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 178,
         "player": "Tyrone Tracy Jr.",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 217,
+        "adpDifference": 39,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10528,6 +13343,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 10,
         "player": "Josh Jacobs",
         "position": "RB",
+        "team": "GB",
+        "publicAdp": 16,
+        "adpDifference": 6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10538,6 +13356,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 15,
         "player": "De'Von Achane",
         "position": "RB",
+        "team": "MIA",
+        "publicAdp": 15,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10548,6 +13369,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 34,
         "player": "Joe Burrow",
         "position": "QB",
+        "team": "CIN",
+        "publicAdp": 33.3,
+        "adpDifference": -0.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10558,6 +13382,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 39,
         "player": "Sam LaPorta",
         "position": "TE",
+        "team": "DET",
+        "publicAdp": 53.2,
+        "adpDifference": 14.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10568,6 +13395,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 58,
         "player": "Zay Flowers",
         "position": "WR",
+        "team": "BAL",
+        "publicAdp": 61.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10578,6 +13408,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 63,
         "player": "Terry McLaurin",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 39.3,
+        "adpDifference": -23.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10588,6 +13421,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 82,
         "player": "Cooper Kupp",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 92.5,
+        "adpDifference": 10.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10598,6 +13434,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 87,
         "player": "Ricky Pearsall",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 87.5,
+        "adpDifference": 0.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10608,6 +13447,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 106,
         "player": "Broncos",
         "position": "DST",
+        "publicAdp": 105.2,
+        "adpDifference": -0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10618,6 +13459,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 111,
         "player": "Ollie Gordon II",
         "position": "RB",
+        "team": "MIA",
+        "publicAdp": 161.2,
+        "adpDifference": 50.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10628,6 +13472,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 130,
         "player": "Bears",
         "position": "DST",
+        "publicAdp": 211.4,
+        "adpDifference": 81.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10638,6 +13484,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 135,
         "player": "Jared Goff",
         "position": "QB",
+        "team": "DET",
+        "publicAdp": 105.7,
+        "adpDifference": -29.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10648,6 +13497,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 154,
         "player": "Wan'Dale Robinson",
         "position": "WR",
+        "team": "TEN",
+        "publicAdp": 189.3,
+        "adpDifference": 35.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10658,6 +13510,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 159,
         "player": "Ka'imi Fairbairn",
         "position": "K",
+        "team": "HOU",
+        "publicAdp": 171.2,
+        "adpDifference": 12.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10668,6 +13523,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 178,
         "player": "Isaac Guerendo",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 202.4,
+        "adpDifference": 24.4,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -10692,29 +13550,55 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 16.4,
+    "reachRate": 0.533,
+    "valueRate": 0.19,
     "earlyQbRate": 0.171,
     "earlyTeRate": 0.2,
     "rbHeavyRate": 0.286,
     "wrHeavyRate": 0.371,
-    "teamBias": {},
-    "bearsDraftRate": 0,
-    "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "teamBias": {
+      "PIT": 0.033,
+      "LAC": 0.033,
+      "BUF": 0.017,
+      "CIN": 0.05,
+      "WAS": 0.083,
+      "SF": 0.117,
+      "CLE": 0.017,
+      "DEN": 0.017,
+      "BAL": 0.083,
+      "NYG": 0.067,
+      "GB": 0.067,
+      "MIN": 0.017,
+      "PHI": 0.05,
+      "CAR": 0.017,
+      "MIA": 0.05,
+      "KC": 0.017,
+      "DAL": 0.05,
+      "NO": 0.017,
+      "LV": 0.017,
+      "NE": 0.017,
+      "CHI": 0.033,
+      "DET": 0.067,
+      "HOU": 0.033,
+      "SEA": 0.017,
+      "TEN": 0.017
+    },
+    "bearsDraftRate": 0.019,
+    "bearsReachRate": 0.5,
+    "averageBearsAdpReach": 48.7,
     "rookieDraftRate": 0.162,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.588,
+    "averageRookieAdpReach": 28.5,
     "earlyRoundRookieRate": 0.086,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 98.8,
     "predictabilityScore": 37.1
   },
   {
     "id": 11,
     "name": "Schmontz Nation",
-    "draftSlot": 11,
+    "draftSlot": 1,
     "tendency": "Balanced",
     "preferredPositions": [
       "WR",
@@ -10729,6 +13613,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 11,
         "player": "Leonard Fournette",
         "position": "RB",
+        "publicAdp": 10,
+        "adpDifference": -1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10739,6 +13625,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 14,
         "player": "Christian McCaffrey",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 14.8,
+        "adpDifference": 0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10749,6 +13638,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 35,
         "player": "T.Y. Hilton",
         "position": "WR",
+        "publicAdp": 28.2,
+        "adpDifference": -6.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10759,6 +13650,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 38,
         "player": "Tyreek Hill",
         "position": "WR",
+        "publicAdp": 26.8,
+        "adpDifference": -11.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10769,6 +13662,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 59,
         "player": "Trey Burton",
         "position": "TE",
+        "publicAdp": 85.6,
+        "adpDifference": 26.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10779,6 +13674,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 62,
         "player": "Ben Roethlisberger",
         "position": "QB",
+        "publicAdp": 100.6,
+        "adpDifference": 38.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10789,6 +13686,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 83,
         "player": "Jared Goff",
         "position": "QB",
+        "team": "DET",
+        "publicAdp": 121,
+        "adpDifference": 38,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10799,6 +13699,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 86,
         "player": "Robert Woods",
         "position": "WR",
+        "publicAdp": 82.4,
+        "adpDifference": -3.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10809,6 +13711,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 107,
         "player": "Rashaad Penny",
         "position": "RB",
+        "publicAdp": 83.6,
+        "adpDifference": -23.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -10819,6 +13723,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 110,
         "player": "Ted Ginn",
         "position": "WR",
+        "publicAdp": 187.7,
+        "adpDifference": 77.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10829,6 +13735,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 131,
         "player": "Broncos",
         "position": "DST",
+        "publicAdp": 151.5,
+        "adpDifference": 20.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10839,6 +13747,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 134,
         "player": "Brandon Marshall",
         "position": "WR",
+        "publicAdp": 259,
+        "adpDifference": 125,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10849,6 +13759,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 155,
         "player": "Jack Doyle",
         "position": "TE",
+        "publicAdp": 108.6,
+        "adpDifference": -46.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10859,6 +13771,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 158,
         "player": "Matt Prater",
         "position": "K",
+        "publicAdp": 202.2,
+        "adpDifference": 44.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10869,6 +13783,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 179,
         "player": "Matt Breida",
         "position": "RB",
+        "publicAdp": 134.8,
+        "adpDifference": -44.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10879,6 +13795,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 1,
         "player": "Christian McCaffrey",
         "position": "RB",
+        "team": "SF",
+        "publicAdp": 2.5,
+        "adpDifference": 1.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10889,6 +13808,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 24,
         "player": "Zach Ertz",
         "position": "TE",
+        "publicAdp": 28.5,
+        "adpDifference": 4.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10899,6 +13820,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 25,
         "player": "Mike Evans",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 21.2,
+        "adpDifference": -3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10909,6 +13833,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 48,
         "player": "Duke Johnson",
         "position": "RB",
+        "publicAdp": 77.2,
+        "adpDifference": 29.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10919,6 +13845,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 49,
         "player": "Matt Ryan",
         "position": "QB",
+        "publicAdp": 67.3,
+        "adpDifference": 18.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10929,6 +13857,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 72,
         "player": "Sammy Watkins",
         "position": "WR",
+        "publicAdp": 84.5,
+        "adpDifference": 12.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10939,6 +13869,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 73,
         "player": "Baker Mayfield",
         "position": "QB",
+        "team": "TB",
+        "publicAdp": 59.7,
+        "adpDifference": -13.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10949,6 +13882,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 96,
         "player": "Geronimo Allison",
         "position": "WR",
+        "publicAdp": 119.8,
+        "adpDifference": 23.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10959,6 +13894,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 97,
         "player": "Vikings",
         "position": "DST",
+        "publicAdp": 130.8,
+        "adpDifference": 33.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10969,6 +13906,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 120,
         "player": "Peyton Barber",
         "position": "RB",
+        "publicAdp": 122.2,
+        "adpDifference": 2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10979,6 +13918,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 121,
         "player": "Anthony Miller",
         "position": "WR",
+        "publicAdp": 148.7,
+        "adpDifference": 27.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10989,6 +13930,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 144,
         "player": "Golden Tate",
         "position": "WR",
+        "publicAdp": 138,
+        "adpDifference": -6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -10999,6 +13942,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 145,
         "player": "Tyrell Williams",
         "position": "WR",
+        "publicAdp": 147.5,
+        "adpDifference": 2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11009,6 +13954,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 168,
         "player": "Devin Funchess",
         "position": "TE",
+        "publicAdp": 339.2,
+        "adpDifference": 171.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11019,6 +13966,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 169,
         "player": "Mason Crosby",
         "position": "K",
+        "publicAdp": 200.8,
+        "adpDifference": 31.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11029,6 +13978,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 5,
         "player": "Travis Kelce",
         "position": "TE",
+        "team": "KC",
+        "publicAdp": 8.4,
+        "adpDifference": 3.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11039,6 +13991,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 20,
         "player": "Joe Mixon",
         "position": "RB",
+        "publicAdp": 20.8,
+        "adpDifference": 0.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11049,6 +14003,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 29,
         "player": "Terry McLaurin",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 29.6,
+        "adpDifference": 0.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11059,6 +14016,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 44,
         "player": "D'Andre Swift",
         "position": "RB",
+        "team": "CHI",
+        "publicAdp": 36.8,
+        "adpDifference": -7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11069,6 +14029,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 53,
         "player": "Russell Wilson",
         "position": "QB",
+        "publicAdp": 55.6,
+        "adpDifference": 2.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11079,6 +14041,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 68,
         "player": "Adam Thielen",
         "position": "WR",
+        "publicAdp": 50.6,
+        "adpDifference": -17.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11089,6 +14053,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 77,
         "player": "Robbie Chosen",
         "position": "WR",
+        "publicAdp": 77.4,
+        "adpDifference": 0.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11099,6 +14065,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 92,
         "player": "Antonio Brown",
         "position": "WR",
+        "publicAdp": 94.6,
+        "adpDifference": 2.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11109,6 +14077,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 101,
         "player": "Justin Fields",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 140.8,
+        "adpDifference": 39.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11119,6 +14090,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 116,
         "player": "Kenyan Drake",
         "position": "RB",
+        "publicAdp": 106.4,
+        "adpDifference": -9.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11129,6 +14102,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 125,
         "player": "Cole Beasley",
         "position": "WR",
+        "publicAdp": 143.8,
+        "adpDifference": 18.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11139,6 +14114,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 140,
         "player": "Patriots",
         "position": "DST",
+        "publicAdp": 158.8,
+        "adpDifference": 18.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11149,6 +14126,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 149,
         "player": "Zach Ertz",
         "position": "TE",
+        "publicAdp": 165.2,
+        "adpDifference": 16.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11159,6 +14138,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 164,
         "player": "John Brown",
         "position": "WR",
+        "publicAdp": 273.7,
+        "adpDifference": 109.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11169,6 +14150,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 173,
         "player": "Rodrigo Blankenship",
         "position": "K",
+        "publicAdp": 177.6,
+        "adpDifference": 4.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11179,6 +14162,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 2,
         "player": "Derrick Henry",
         "position": "RB",
+        "team": "BAL",
+        "publicAdp": 5.3,
+        "adpDifference": 3.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11189,6 +14175,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 23,
         "player": "Keenan Allen",
         "position": "WR",
+        "team": "IND",
+        "publicAdp": 28.3,
+        "adpDifference": 5.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11199,6 +14188,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 26,
         "player": "David Montgomery",
         "position": "RB",
+        "team": "HOU",
+        "publicAdp": 36.5,
+        "adpDifference": 10.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11209,6 +14201,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 47,
         "player": "Breece Hall",
         "position": "RB",
+        "team": "NYJ",
+        "publicAdp": 52.3,
+        "adpDifference": 5.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11219,6 +14214,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 50,
         "player": "Kyler Murray",
         "position": "QB",
+        "team": "MIN",
+        "publicAdp": 53.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11229,6 +14227,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 71,
         "player": "Kareem Hunt",
         "position": "RB",
+        "publicAdp": 85.3,
+        "adpDifference": 14.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11239,6 +14239,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 74,
         "player": "Adam Thielen",
         "position": "WR",
+        "publicAdp": 73.3,
+        "adpDifference": -0.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11249,6 +14251,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 95,
         "player": "Drake London",
         "position": "WR",
+        "team": "ATL",
+        "publicAdp": 98.5,
+        "adpDifference": 3.5,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11259,6 +14264,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 98,
         "player": "Dawson Knox",
         "position": "TE",
+        "team": "BUF",
+        "publicAdp": 90,
+        "adpDifference": -8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11269,6 +14277,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 119,
         "player": "DeVante Parker",
         "position": "WR",
+        "publicAdp": 161.5,
+        "adpDifference": 42.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11279,6 +14289,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 122,
         "player": "Kirk Cousins",
         "position": "QB",
+        "team": "LV",
+        "publicAdp": 125.3,
+        "adpDifference": 3.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11289,6 +14302,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 143,
         "player": "Gerald Everett",
         "position": "TE",
+        "publicAdp": 189.3,
+        "adpDifference": 46.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11299,6 +14314,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 146,
         "player": "Khalil Herbert",
         "position": "RB",
+        "publicAdp": 181.3,
+        "adpDifference": 35.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11309,6 +14326,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 167,
         "player": "Rams",
         "position": "DST",
+        "publicAdp": 129,
+        "adpDifference": -38,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11319,6 +14338,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 170,
         "player": "Nick Folk",
         "position": "K",
+        "team": "ATL",
+        "publicAdp": 172,
+        "adpDifference": 2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11329,6 +14351,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 8,
         "player": "Cooper Kupp",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 13.8,
+        "adpDifference": 5.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11339,6 +14364,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 17,
         "player": "CeeDee Lamb",
         "position": "WR",
+        "team": "DAL",
+        "publicAdp": 13.3,
+        "adpDifference": -3.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11349,6 +14377,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 32,
         "player": "Jahmyr Gibbs",
         "position": "RB",
+        "team": "DET",
+        "publicAdp": 33,
+        "adpDifference": 1,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11359,6 +14390,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 41,
         "player": "Justin Herbert",
         "position": "QB",
+        "team": "LAC",
+        "publicAdp": 43.5,
+        "adpDifference": 2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11369,6 +14403,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 56,
         "player": "James Conner",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 64.5,
+        "adpDifference": 8.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11379,6 +14416,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 65,
         "player": "Amari Cooper",
         "position": "WR",
+        "publicAdp": 42,
+        "adpDifference": -23,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11389,6 +14428,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 80,
         "player": "Evan Engram",
         "position": "TE",
+        "team": "DEN",
+        "publicAdp": 78.3,
+        "adpDifference": -1.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11399,6 +14441,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 89,
         "player": "Tank Bigsby",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 169.8,
+        "adpDifference": 80.8,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11409,6 +14454,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 104,
         "player": "49ers",
         "position": "DST",
+        "publicAdp": 82.8,
+        "adpDifference": -21.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11419,6 +14466,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 113,
         "player": "Jaxon Smith-Njigba",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 97.5,
+        "adpDifference": -15.5,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11429,6 +14479,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 128,
         "player": "Courtland Sutton",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 106,
+        "adpDifference": -22,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11439,6 +14492,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 137,
         "player": "D'Onta Foreman",
         "position": "RB",
+        "publicAdp": 170.7,
+        "adpDifference": 33.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11449,6 +14504,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 152,
         "player": "Brock Purdy",
         "position": "QB",
+        "team": "SF",
+        "publicAdp": 167,
+        "adpDifference": 15,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11459,6 +14517,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 161,
         "player": "Evan McPherson",
         "position": "K",
+        "team": "CIN",
+        "publicAdp": 130.3,
+        "adpDifference": -30.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11469,6 +14530,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 176,
         "player": "Tyler Higbee",
         "position": "TE",
+        "team": "LAR",
+        "publicAdp": 136.3,
+        "adpDifference": -39.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11479,6 +14543,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 9,
         "player": "Jahmyr Gibbs",
         "position": "RB",
+        "team": "DET",
+        "publicAdp": 12.8,
+        "adpDifference": 3.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11489,6 +14556,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 16,
         "player": "A.J. Brown",
         "position": "WR",
+        "team": "NE",
+        "publicAdp": 10.2,
+        "adpDifference": -5.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11499,6 +14569,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 33,
         "player": "Alvin Kamara",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 39.6,
+        "adpDifference": 6.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11509,6 +14582,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 40,
         "player": "Chris Olave",
         "position": "WR",
+        "team": "NO",
+        "publicAdp": 26.2,
+        "adpDifference": -13.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11519,6 +14595,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 57,
         "player": "Jaylen Waddle",
         "position": "WR",
+        "team": "DEN",
+        "publicAdp": 42.6,
+        "adpDifference": -14.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11529,6 +14608,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 64,
         "player": "Raheem Mostert",
         "position": "RB",
+        "team": "LV",
+        "publicAdp": 74.6,
+        "adpDifference": 10.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11539,6 +14621,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 81,
         "player": "Brock Purdy",
         "position": "QB",
+        "team": "SF",
+        "publicAdp": 91.8,
+        "adpDifference": 10.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11549,6 +14634,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 88,
         "player": "Tank Dell",
         "position": "WR",
+        "team": "HOU",
+        "publicAdp": 65,
+        "adpDifference": -23,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11559,6 +14647,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 105,
         "player": "Austin Ekeler",
         "position": "RB",
+        "publicAdp": 91,
+        "adpDifference": -14,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11569,6 +14659,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 112,
         "player": "Cole Kmet",
         "position": "TE",
+        "team": "CHI",
+        "publicAdp": 141,
+        "adpDifference": 29,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11579,6 +14672,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 129,
         "player": "Tua Tagovailoa",
         "position": "QB",
+        "team": "ATL",
+        "publicAdp": 115.8,
+        "adpDifference": -13.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11599,6 +14695,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 153,
         "player": "Romeo Doubs",
         "position": "WR",
+        "team": "NE",
+        "publicAdp": 142,
+        "adpDifference": -11,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11609,6 +14708,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 160,
         "player": "Cowboys",
         "position": "DST",
+        "publicAdp": 128,
+        "adpDifference": -32,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11619,6 +14720,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 177,
         "player": "Jason Sanders",
         "position": "K",
+        "team": "NYJ",
+        "publicAdp": 199.4,
+        "adpDifference": 22.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11629,6 +14733,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 11,
         "player": "Puka Nacua",
         "position": "WR",
+        "team": "LAR",
+        "publicAdp": 11.3,
+        "adpDifference": 0.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11639,6 +14746,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 14,
         "player": "Chase Brown",
         "position": "RB",
+        "team": "CIN",
+        "publicAdp": 21.2,
+        "adpDifference": 7.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11649,6 +14759,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 35,
         "player": "Tee Higgins",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 31.3,
+        "adpDifference": -3.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11659,6 +14772,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 38,
         "player": "James Conner",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 47.3,
+        "adpDifference": 9.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11669,6 +14785,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 59,
         "player": "David Njoku",
         "position": "TE",
+        "team": "LAC",
+        "publicAdp": 84.2,
+        "adpDifference": 25.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11679,6 +14798,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 62,
         "player": "Bo Nix",
         "position": "QB",
+        "team": "DEN",
+        "publicAdp": 70.7,
+        "adpDifference": 8.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11689,6 +14811,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 83,
         "player": "Deebo Samuel",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 84,
+        "adpDifference": 1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11699,6 +14824,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 86,
         "player": "Colston Loveland",
         "position": "TE",
+        "team": "CHI",
+        "publicAdp": 115.7,
+        "adpDifference": 29.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11709,6 +14837,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 107,
         "player": "Chris Godwin",
         "position": "WR",
+        "team": "TB",
+        "publicAdp": 107,
+        "adpDifference": 0,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11719,6 +14850,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 110,
         "player": "Dak Prescott",
         "position": "QB",
+        "team": "DAL",
+        "publicAdp": 100.5,
+        "adpDifference": -9.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11729,6 +14863,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 131,
         "player": "Rachaad White",
         "position": "RB",
+        "team": "WAS",
+        "publicAdp": 145.5,
+        "adpDifference": 14.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11739,6 +14876,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 134,
         "player": "Jets",
         "position": "DST",
+        "publicAdp": 223.5,
+        "adpDifference": 89.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11749,6 +14888,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 155,
         "player": "DJ Giddens",
         "position": "RB",
+        "team": "IND",
+        "publicAdp": 243.5,
+        "adpDifference": 88.5,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11759,6 +14901,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 158,
         "player": "Kyle Williams",
         "position": "WR",
+        "team": "NE",
+        "publicAdp": 200.3,
+        "adpDifference": 42.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11769,6 +14914,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 179,
         "player": "Jason Sanders",
         "position": "K",
+        "team": "NYJ",
+        "publicAdp": 194,
+        "adpDifference": 15,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -11793,29 +14941,54 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 11,
+    "reachRate": 0.423,
+    "valueRate": 0.24,
     "earlyQbRate": 0.114,
     "earlyTeRate": 0.114,
     "rbHeavyRate": 0.267,
     "wrHeavyRate": 0.343,
-    "teamBias": {},
-    "bearsDraftRate": 0,
-    "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "teamBias": {
+      "SF": 0.107,
+      "DET": 0.054,
+      "TB": 0.036,
+      "KC": 0.036,
+      "WAS": 0.036,
+      "CHI": 0.054,
+      "BAL": 0.018,
+      "IND": 0.036,
+      "HOU": 0.036,
+      "NYJ": 0.054,
+      "MIN": 0.018,
+      "ATL": 0.054,
+      "BUF": 0.018,
+      "LV": 0.036,
+      "SEA": 0.036,
+      "DAL": 0.036,
+      "LAC": 0.036,
+      "ARI": 0.036,
+      "DEN": 0.071,
+      "PHI": 0.018,
+      "CIN": 0.054,
+      "LAR": 0.036,
+      "NE": 0.054,
+      "NO": 0.036
+    },
+    "bearsDraftRate": 0.029,
+    "bearsReachRate": 0.667,
+    "averageBearsAdpReach": 17.2,
     "rookieDraftRate": 0.095,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.5,
+    "averageRookieAdpReach": 25.2,
     "earlyRoundRookieRate": 0.057,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 84.7,
     "predictabilityScore": 34.3
   },
   {
     "id": 12,
     "name": "Yeah Daaavvveee!!!",
-    "draftSlot": 12,
+    "draftSlot": 5,
     "tendency": "Balanced",
     "preferredPositions": [
       "WR",
@@ -11830,6 +15003,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 12,
         "player": "Josh Allen",
         "position": "QB",
+        "team": "BUF",
+        "publicAdp": 30,
+        "adpDifference": 18,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11840,6 +15016,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 13,
         "player": "Darren Waller",
         "position": "TE",
+        "team": "CAR",
+        "publicAdp": 22.4,
+        "adpDifference": 9.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11850,6 +15029,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 36,
         "player": "Mike Evans",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 35.4,
+        "adpDifference": -0.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11860,6 +15042,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 37,
         "player": "Mike Davis",
         "position": "RB",
+        "publicAdp": 56.8,
+        "adpDifference": 19.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11870,6 +15054,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 60,
         "player": "Diontae Johnson",
         "position": "WR",
+        "publicAdp": 51.8,
+        "adpDifference": -8.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11880,6 +15066,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 61,
         "player": "Miles Sanders",
         "position": "RB",
+        "publicAdp": 38.2,
+        "adpDifference": -22.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11890,6 +15078,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 84,
         "player": "Michael Carter",
         "position": "RB",
+        "team": "TEN",
+        "publicAdp": 93.4,
+        "adpDifference": 9.4,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11900,6 +15091,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 85,
         "player": "Rams",
         "position": "DST",
+        "publicAdp": 107.8,
+        "adpDifference": 22.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11910,6 +15103,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 108,
         "player": "Brandin Cooks",
         "position": "WR",
+        "publicAdp": 92.8,
+        "adpDifference": -15.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11920,6 +15115,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 109,
         "player": "Latavius Murray",
         "position": "RB",
+        "publicAdp": 194.2,
+        "adpDifference": 85.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11930,6 +15127,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 132,
         "player": "Tyler Bass",
         "position": "K",
+        "team": "BUF",
+        "publicAdp": 155,
+        "adpDifference": 23,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11940,6 +15140,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 133,
         "player": "Trevor Lawrence",
         "position": "QB",
+        "team": "JAC",
+        "publicAdp": 128,
+        "adpDifference": -5,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -11950,6 +15153,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 156,
         "player": "Sterling Shepard",
         "position": "WR",
+        "publicAdp": 172.4,
+        "adpDifference": 16.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11960,6 +15165,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 157,
         "player": "Tony Pollard",
         "position": "RB",
+        "team": "TEN",
+        "publicAdp": 132.6,
+        "adpDifference": -24.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11970,6 +15178,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 180,
         "player": "Evan Engram",
         "position": "TE",
+        "team": "DEN",
+        "publicAdp": 159.8,
+        "adpDifference": -20.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11980,6 +15191,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 12,
         "player": "Leonard Fournette",
         "position": "RB",
+        "publicAdp": 22,
+        "adpDifference": 10,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -11990,6 +15203,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 13,
         "player": "Stefon Diggs",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 12.5,
+        "adpDifference": -0.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12000,6 +15216,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 36,
         "player": "Josh Jacobs",
         "position": "RB",
+        "team": "GB",
+        "publicAdp": 49.5,
+        "adpDifference": 13.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12010,6 +15229,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 37,
         "player": "Justin Herbert",
         "position": "QB",
+        "team": "LAC",
+        "publicAdp": 34.5,
+        "adpDifference": -2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12020,6 +15242,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 60,
         "player": "Dalton Schultz",
         "position": "TE",
+        "team": "HOU",
+        "publicAdp": 57.3,
+        "adpDifference": -2.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12030,6 +15255,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 61,
         "player": "Terry McLaurin",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 41,
+        "adpDifference": -20,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12040,6 +15268,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 84,
         "player": "Devin Singletary",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 82.5,
+        "adpDifference": -1.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12050,6 +15281,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 85,
         "player": "Hunter Renfrow",
         "position": "WR",
+        "publicAdp": 83.3,
+        "adpDifference": -1.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12060,6 +15293,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 108,
         "player": "DeVonta Smith",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 90.3,
+        "adpDifference": -17.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12070,6 +15306,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 109,
         "player": "Dak Prescott",
         "position": "QB",
+        "team": "DAL",
+        "publicAdp": 82,
+        "adpDifference": -27,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12080,6 +15319,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 132,
         "player": "Buccaneers",
         "position": "DST",
+        "publicAdp": 112.3,
+        "adpDifference": -19.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12090,6 +15331,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 133,
         "player": "Jakobi Meyers",
         "position": "WR",
+        "team": "JAC",
+        "publicAdp": 162.3,
+        "adpDifference": 29.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12100,6 +15344,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 156,
         "player": "Evan Engram",
         "position": "TE",
+        "team": "DEN",
+        "publicAdp": 193.8,
+        "adpDifference": 37.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12110,6 +15357,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 157,
         "player": "Harrison Butker",
         "position": "K",
+        "team": "KC",
+        "publicAdp": 129,
+        "adpDifference": -28,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12120,6 +15370,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 180,
         "player": "Matt Breida",
         "position": "RB",
+        "publicAdp": 205,
+        "adpDifference": 25,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12130,6 +15382,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 12,
         "player": "Tony Pollard",
         "position": "RB",
+        "team": "TEN",
+        "publicAdp": 16,
+        "adpDifference": 4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12140,6 +15395,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 13,
         "player": "Stefon Diggs",
         "position": "WR",
+        "team": "WAS",
+        "publicAdp": 10,
+        "adpDifference": -3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12150,6 +15408,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 36,
         "player": "Joe Burrow",
         "position": "QB",
+        "team": "CIN",
+        "publicAdp": 34.8,
+        "adpDifference": -1.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12160,6 +15421,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 37,
         "player": "Darren Waller",
         "position": "TE",
+        "team": "CAR",
+        "publicAdp": 50.5,
+        "adpDifference": 13.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12170,6 +15434,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 60,
         "player": "James Cook",
         "position": "RB",
+        "team": "BUF",
+        "publicAdp": 71.3,
+        "adpDifference": 11.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12180,6 +15447,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 61,
         "player": "Chris Godwin",
         "position": "WR",
+        "team": "TB",
+        "publicAdp": 67,
+        "adpDifference": 6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12190,6 +15460,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 84,
         "player": "JuJu Smith-Schuster",
         "position": "WR",
+        "publicAdp": 109.3,
+        "adpDifference": 25.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12200,6 +15472,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 85,
         "player": "AJ Dillon",
         "position": "RB",
+        "team": "CAR",
+        "publicAdp": 94.5,
+        "adpDifference": 9.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12210,6 +15485,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 108,
         "player": "Brandin Cooks",
         "position": "WR",
+        "publicAdp": 95,
+        "adpDifference": -13,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12220,6 +15497,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 109,
         "player": "Daniel Jones",
         "position": "QB",
+        "team": "IND",
+        "publicAdp": 120.8,
+        "adpDifference": 11.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12230,6 +15510,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 132,
         "player": "Devin Singletary",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 159.3,
+        "adpDifference": 27.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12240,6 +15523,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 133,
         "player": "Chiefs",
         "position": "DST",
+        "publicAdp": 166.5,
+        "adpDifference": 33.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12250,6 +15535,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 156,
         "player": "Greg Zuerlein",
         "position": "K",
+        "publicAdp": 180,
+        "adpDifference": 24,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12260,6 +15547,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 157,
         "player": "Hunter Renfrow",
         "position": "WR",
+        "publicAdp": 224.8,
+        "adpDifference": 67.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12270,6 +15559,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 180,
         "player": "Juwan Johnson",
         "position": "TE",
+        "team": "NO",
+        "publicAdp": 147.3,
+        "adpDifference": -32.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12280,6 +15572,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 6,
         "player": "Jonathan Taylor",
         "position": "RB",
+        "team": "IND",
+        "publicAdp": 10.4,
+        "adpDifference": 4.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12290,6 +15585,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 19,
         "player": "Puka Nacua",
         "position": "WR",
+        "team": "LAR",
+        "publicAdp": 14.2,
+        "adpDifference": -4.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12300,6 +15598,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 30,
         "player": "Patrick Mahomes",
         "position": "QB",
+        "team": "KC",
+        "publicAdp": 29,
+        "adpDifference": -1,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12310,6 +15611,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 43,
         "player": "James Conner",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 56,
+        "adpDifference": 13,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12320,6 +15624,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 54,
         "player": "Amari Cooper",
         "position": "WR",
+        "publicAdp": 56.8,
+        "adpDifference": 2.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12330,6 +15636,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 67,
         "player": "George Kittle",
         "position": "TE",
+        "team": "SF",
+        "publicAdp": 56.6,
+        "adpDifference": -10.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12340,6 +15649,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 78,
         "player": "Tee Higgins",
         "position": "WR",
+        "team": "CIN",
+        "publicAdp": 62.2,
+        "adpDifference": -15.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12350,6 +15662,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 91,
         "player": "Keenan Allen",
         "position": "WR",
+        "team": "IND",
+        "publicAdp": 79.4,
+        "adpDifference": -11.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12360,6 +15675,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 102,
         "player": "Devin Singletary",
         "position": "RB",
+        "team": "NYG",
+        "publicAdp": 94.4,
+        "adpDifference": -7.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12370,6 +15688,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 115,
         "player": "Trey Benson",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 133.6,
+        "adpDifference": 18.6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -12380,6 +15701,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 126,
         "player": "Chiefs",
         "position": "DST",
+        "publicAdp": 160,
+        "adpDifference": 34,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12390,6 +15713,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 139,
         "player": "Harrison Butker",
         "position": "K",
+        "team": "KC",
+        "publicAdp": 112.2,
+        "adpDifference": -26.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12400,6 +15726,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 150,
         "player": "Justin Herbert",
         "position": "QB",
+        "team": "LAC",
+        "publicAdp": 130.8,
+        "adpDifference": -19.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12410,6 +15739,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 163,
         "player": "Clyde Edwards-Helaire",
         "position": "RB",
+        "publicAdp": 231.5,
+        "adpDifference": 68.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12420,6 +15751,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 174,
         "player": "Mike Williams",
         "position": "WR",
+        "publicAdp": 149.8,
+        "adpDifference": -24.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12430,6 +15763,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 12,
         "player": "Kyren Williams",
         "position": "RB",
+        "team": "LAR",
+        "publicAdp": 24.2,
+        "adpDifference": 12.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12440,6 +15776,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 13,
         "player": "Amon-Ra St. Brown",
         "position": "WR",
+        "team": "DET",
+        "publicAdp": 9.7,
+        "adpDifference": -3.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12450,6 +15789,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 36,
         "player": "D'Andre Swift",
         "position": "RB",
+        "team": "CHI",
+        "publicAdp": 56.2,
+        "adpDifference": 20.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12460,6 +15802,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 37,
         "player": "Jalen Hurts",
         "position": "QB",
+        "team": "PHI",
+        "publicAdp": 35.2,
+        "adpDifference": -1.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12470,6 +15815,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 60,
         "player": "Travis Kelce",
         "position": "TE",
+        "team": "KC",
+        "publicAdp": 62.5,
+        "adpDifference": 2.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12480,6 +15828,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 61,
         "player": "Xavier Worthy",
         "position": "WR",
+        "team": "KC",
+        "publicAdp": 54.8,
+        "adpDifference": -6.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12490,6 +15841,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 84,
         "player": "Jerry Jeudy",
         "position": "WR",
+        "team": "CLE",
+        "publicAdp": 74.5,
+        "adpDifference": -9.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12510,6 +15864,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 108,
         "player": "Darnell Mooney",
         "position": "WR",
+        "team": "NYG",
+        "publicAdp": 139.5,
+        "adpDifference": 31.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12520,6 +15877,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 109,
         "player": "Bills",
         "position": "DST",
+        "publicAdp": 136.7,
+        "adpDifference": 27.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12530,6 +15889,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 132,
         "player": "Rashid Shaheed",
         "position": "WR",
+        "team": "SEA",
+        "publicAdp": 145.5,
+        "adpDifference": 13.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12540,6 +15902,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 133,
         "player": "Raheem Mostert",
         "position": "RB",
+        "team": "LV",
+        "publicAdp": 228.4,
+        "adpDifference": 95.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12550,6 +15915,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 156,
         "player": "Christian Kirk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 151,
+        "adpDifference": -5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12560,6 +15928,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 157,
         "player": "Tua Tagovailoa",
         "position": "QB",
+        "team": "ATL",
+        "publicAdp": 175.3,
+        "adpDifference": 18.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12570,6 +15941,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 180,
         "player": "Tyler Bass",
         "position": "K",
+        "team": "BUF",
+        "publicAdp": 167.8,
+        "adpDifference": -12.2,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -12594,23 +15968,50 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 6.6,
+    "reachRate": 0.446,
+    "valueRate": 0.297,
     "earlyQbRate": 0.2,
     "earlyTeRate": 0.16,
     "rbHeavyRate": 0.293,
     "wrHeavyRate": 0.333,
-    "teamBias": {},
-    "bearsDraftRate": 0,
-    "bearsReachRate": 0,
-    "averageBearsAdpReach": 0,
+    "teamBias": {
+      "BUF": 0.075,
+      "CAR": 0.057,
+      "SF": 0.057,
+      "TEN": 0.057,
+      "JAC": 0.038,
+      "DEN": 0.038,
+      "WAS": 0.057,
+      "GB": 0.019,
+      "LAC": 0.038,
+      "HOU": 0.019,
+      "NYG": 0.075,
+      "PHI": 0.038,
+      "DAL": 0.019,
+      "KC": 0.094,
+      "CIN": 0.038,
+      "TB": 0.019,
+      "IND": 0.057,
+      "NO": 0.019,
+      "LAR": 0.038,
+      "ARI": 0.038,
+      "DET": 0.019,
+      "CHI": 0.019,
+      "CLE": 0.019,
+      "SEA": 0.019,
+      "LV": 0.019,
+      "ATL": 0.019
+    },
+    "bearsDraftRate": 0.013,
+    "bearsReachRate": 1,
+    "averageBearsAdpReach": 20.2,
     "rookieDraftRate": 0.04,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.667,
+    "averageRookieAdpReach": 7.7,
     "earlyRoundRookieRate": 0,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 76.6,
     "predictabilityScore": 33.3
   },
   {
@@ -12631,6 +16032,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 4,
         "player": "Alvin Kamara",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 6.2,
+        "adpDifference": 2.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12641,6 +16045,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 21,
         "player": "Tom Brady",
         "position": "QB",
+        "publicAdp": 47.8,
+        "adpDifference": 26.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12661,6 +16067,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 45,
         "player": "Alshon Jeffery",
         "position": "WR",
+        "publicAdp": 73.4,
+        "adpDifference": 28.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12671,6 +16079,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 52,
         "player": "Tevin Coleman",
         "position": "RB",
+        "publicAdp": 71.8,
+        "adpDifference": 19.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12681,6 +16091,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 69,
         "player": "Jaguars",
         "position": "DST",
+        "publicAdp": 86,
+        "adpDifference": 17,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12691,6 +16103,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 76,
         "player": "Jimmy Graham",
         "position": "TE",
+        "publicAdp": 54.4,
+        "adpDifference": -21.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12701,6 +16115,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 93,
         "player": "Greg Zuerlein",
         "position": "K",
+        "publicAdp": 134.2,
+        "adpDifference": 41.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12711,6 +16127,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 100,
         "player": "Sammy Watkins",
         "position": "WR",
+        "publicAdp": 80.2,
+        "adpDifference": -19.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12721,6 +16139,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 117,
         "player": "Dak Prescott",
         "position": "QB",
+        "team": "DAL",
+        "publicAdp": 141.8,
+        "adpDifference": 24.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12731,6 +16152,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 124,
         "player": "Tyrell Williams",
         "position": "WR",
+        "publicAdp": 183,
+        "adpDifference": 59,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12741,6 +16164,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 141,
         "player": "Kenny Stills",
         "position": "WR",
+        "publicAdp": 115.8,
+        "adpDifference": -25.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12751,6 +16176,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 148,
         "player": "Marqise Lee",
         "position": "WR",
+        "publicAdp": 156,
+        "adpDifference": 8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12761,6 +16188,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 165,
         "player": "Falcons",
         "position": "DST",
+        "publicAdp": 216.3,
+        "adpDifference": 51.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12771,6 +16200,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 172,
         "player": "Eric Ebron",
         "position": "TE",
+        "publicAdp": 175.5,
+        "adpDifference": 3.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12781,6 +16212,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 7,
         "player": "James Conner",
         "position": "RB",
+        "team": "ARI",
+        "publicAdp": 10.3,
+        "adpDifference": 3.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12791,6 +16225,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 18,
         "player": "David Montgomery",
         "position": "RB",
+        "team": "HOU",
+        "publicAdp": 45.3,
+        "adpDifference": 27.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -12801,6 +16238,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 31,
         "player": "Josh Jacobs",
         "position": "RB",
+        "team": "GB",
+        "publicAdp": 34.2,
+        "adpDifference": 3.2,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -12811,6 +16251,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 42,
         "player": "Kyler Murray",
         "position": "QB",
+        "team": "MIN",
+        "publicAdp": 114.7,
+        "adpDifference": 72.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -12821,6 +16264,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 55,
         "player": "Deebo Samuel",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 194.3,
+        "adpDifference": 139.3,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -12831,6 +16277,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 66,
         "player": "Jared Goff",
         "position": "QB",
+        "team": "DET",
+        "publicAdp": 88.3,
+        "adpDifference": 22.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12841,6 +16290,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 79,
         "player": "Jared Cook",
         "position": "TE",
+        "publicAdp": 71.3,
+        "adpDifference": -7.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12851,6 +16302,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 90,
         "player": "Broncos",
         "position": "DST",
+        "publicAdp": 155.7,
+        "adpDifference": 65.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12861,6 +16314,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 103,
         "player": "Christian Kirk",
         "position": "WR",
+        "team": "SF",
+        "publicAdp": 92,
+        "adpDifference": -11,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12871,6 +16327,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 114,
         "player": "Cam Newton",
         "position": "QB",
+        "publicAdp": 86.7,
+        "adpDifference": -27.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12881,6 +16339,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 127,
         "player": "Robbie Gould",
         "position": "K",
+        "publicAdp": 172.8,
+        "adpDifference": 45.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12891,6 +16351,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 138,
         "player": "Mohamed Sanu",
         "position": "WR",
+        "publicAdp": 177.5,
+        "adpDifference": 39.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -12901,6 +16363,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 151,
         "player": "Marquise Brown",
         "position": "WR",
+        "team": "PHI",
+        "publicAdp": 191.6,
+        "adpDifference": 40.6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -12911,6 +16376,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 162,
         "player": "T.J. Hockenson",
         "position": "TE",
+        "team": "MIN",
+        "publicAdp": 153,
+        "adpDifference": -9,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -12921,6 +16389,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 175,
         "player": "Eagles",
         "position": "DST",
+        "publicAdp": 179.7,
+        "adpDifference": 4.7,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -12945,23 +16415,33 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 21.5,
+    "reachRate": 0.586,
+    "valueRate": 0.241,
     "earlyQbRate": 0.2,
     "earlyTeRate": 0,
     "rbHeavyRate": 0.2,
     "wrHeavyRate": 0.3,
-    "teamBias": {},
+    "teamBias": {
+      "NO": 0.091,
+      "DAL": 0.091,
+      "ARI": 0.091,
+      "HOU": 0.091,
+      "GB": 0.091,
+      "MIN": 0.182,
+      "SF": 0.182,
+      "DET": 0.091,
+      "PHI": 0.091
+    },
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
     "rookieDraftRate": 0.2,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.667,
+    "averageRookieAdpReach": 45.7,
     "earlyRoundRookieRate": 0.4,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 100,
     "predictabilityScore": 30
   },
   {
@@ -12982,6 +16462,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 6,
         "player": "Saquon Barkley",
         "position": "RB",
+        "team": "PHI",
+        "publicAdp": 6.6,
+        "adpDifference": 0.6,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -12992,6 +16475,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 19,
         "player": "Russell Wilson",
         "position": "QB",
+        "publicAdp": 54.4,
+        "adpDifference": 35.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13002,6 +16487,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 30,
         "player": "Jarvis Landry",
         "position": "WR",
+        "publicAdp": 38.4,
+        "adpDifference": 8.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13012,6 +16499,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 43,
         "player": "Evan Engram",
         "position": "TE",
+        "team": "DEN",
+        "publicAdp": 66.4,
+        "adpDifference": 23.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13022,6 +16512,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 54,
         "player": "Michael Crabtree",
         "position": "WR",
+        "publicAdp": 66.4,
+        "adpDifference": 12.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13032,6 +16524,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 67,
         "player": "Stephen Gostkowski",
         "position": "K",
+        "publicAdp": 136.2,
+        "adpDifference": 69.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13042,6 +16536,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 78,
         "player": "Vikings",
         "position": "DST",
+        "publicAdp": 112,
+        "adpDifference": 34,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13052,6 +16548,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 91,
         "player": "Pierre Garcon",
         "position": "WR",
+        "publicAdp": 92.6,
+        "adpDifference": 1.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13062,6 +16560,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 102,
         "player": "Tarik Cohen",
         "position": "RB",
+        "publicAdp": 85.6,
+        "adpDifference": -16.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13072,6 +16572,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 115,
         "player": "Mitch Trubisky",
         "position": "QB",
+        "team": "TEN",
+        "publicAdp": 175.8,
+        "adpDifference": 60.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13082,6 +16585,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 126,
         "player": "Sterling Shepard",
         "position": "WR",
+        "publicAdp": 105.6,
+        "adpDifference": -20.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13092,6 +16597,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 139,
         "player": "James White",
         "position": "RB",
+        "publicAdp": 116,
+        "adpDifference": -23,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13102,6 +16609,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 150,
         "player": "Bilal Powell",
         "position": "RB",
+        "publicAdp": 142.4,
+        "adpDifference": -7.6,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13112,6 +16621,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 163,
         "player": "Jared Cook",
         "position": "TE",
+        "publicAdp": 171,
+        "adpDifference": 8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13122,6 +16633,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 174,
         "player": "Austin Ekeler",
         "position": "RB",
+        "publicAdp": 178.3,
+        "adpDifference": 4.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13132,6 +16645,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 3,
         "player": "Alvin Kamara",
         "position": "RB",
+        "team": "NO",
+        "publicAdp": 2.5,
+        "adpDifference": -0.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13142,6 +16658,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 22,
         "player": "Damien Williams",
         "position": "RB",
+        "publicAdp": 34.3,
+        "adpDifference": 12.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13152,6 +16670,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 27,
         "player": "Todd Gurley",
         "position": "RB",
+        "publicAdp": 13.2,
+        "adpDifference": -13.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13162,6 +16682,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 46,
         "player": "Robert Woods",
         "position": "WR",
+        "publicAdp": 41.8,
+        "adpDifference": -4.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13172,6 +16694,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 51,
         "player": "Aaron Rodgers",
         "position": "QB",
+        "team": "PIT",
+        "publicAdp": 50.5,
+        "adpDifference": -0.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13182,6 +16707,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 70,
         "player": "T.Y. Hilton",
         "position": "WR",
+        "publicAdp": 40.7,
+        "adpDifference": -29.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13192,6 +16719,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 75,
         "player": "Saints",
         "position": "DST",
+        "publicAdp": 162.8,
+        "adpDifference": 87.8,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13202,6 +16731,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 94,
         "player": "Jordan Reed",
         "position": "TE",
+        "publicAdp": 156.3,
+        "adpDifference": 62.3,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13212,6 +16743,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 99,
         "player": "Dion Lewis",
         "position": "RB",
+        "publicAdp": 142.5,
+        "adpDifference": 43.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13222,6 +16755,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 118,
         "player": "Chris Thompson",
         "position": "RB",
+        "publicAdp": 319.4,
+        "adpDifference": 201.4,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13232,6 +16767,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 123,
         "player": "Darwin Thompson",
         "position": "RB",
+        "publicAdp": 148.7,
+        "adpDifference": 25.7,
         "isRookie": true,
         "wasKeeper": false
       },
@@ -13242,6 +16779,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 142,
         "player": "Kalen Ballage",
         "position": "RB",
+        "publicAdp": 134.3,
+        "adpDifference": -7.7,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13252,6 +16791,8 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 147,
         "player": "Ito Smith",
         "position": "RB",
+        "publicAdp": 295.2,
+        "adpDifference": 148.2,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13262,6 +16803,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 166,
         "player": "Josh Allen",
         "position": "QB",
+        "team": "BUF",
+        "publicAdp": 171.5,
+        "adpDifference": 5.5,
         "isRookie": false,
         "wasKeeper": false
       },
@@ -13272,6 +16816,9 @@ export const generatedManagers: ManagerProfile[] = [
         "overallPick": 171,
         "player": "Ka'imi Fairbairn",
         "position": "K",
+        "team": "HOU",
+        "publicAdp": 157.2,
+        "adpDifference": -13.8,
         "isRookie": false,
         "wasKeeper": false
       }
@@ -13296,23 +16843,31 @@ export const generatedManagers: ManagerProfile[] = [
       "DST": 0
     },
     "roundProfiles": [],
-    "averageAdpReach": 0,
-    "reachRate": 0,
-    "valueRate": 0,
+    "averageAdpReach": 23.6,
+    "reachRate": 0.5,
+    "valueRate": 0.267,
     "earlyQbRate": 0.2,
     "earlyTeRate": 0.1,
     "rbHeavyRate": 0.433,
     "wrHeavyRate": 0.2,
-    "teamBias": {},
+    "teamBias": {
+      "PHI": 0.143,
+      "DEN": 0.143,
+      "TEN": 0.143,
+      "NO": 0.143,
+      "PIT": 0.143,
+      "BUF": 0.143,
+      "HOU": 0.143
+    },
     "bearsDraftRate": 0,
     "bearsReachRate": 0,
     "averageBearsAdpReach": 0,
     "rookieDraftRate": 0.067,
-    "rookieReachRate": 0,
-    "averageRookieAdpReach": 0,
+    "rookieReachRate": 0.5,
+    "averageRookieAdpReach": 13.1,
     "earlyRoundRookieRate": 0.1,
     "keeperRate": 0,
-    "aggressionScore": 50,
+    "aggressionScore": 100,
     "predictabilityScore": 43.3
   }
 ]

@@ -763,14 +763,18 @@ nav button.active {
 }
 
 .manager-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px 20px;
+  align-items: start;
   padding: 18px;
   border: 1px solid #dce5ee;
   border-radius: 14px;
   background: #f8fafc;
+}
+
+.manager-audit {
+  grid-column: 1 / -1;
 }
 
 .manager-card > div:first-child strong,
@@ -3186,4 +3190,42 @@ nav button.active {
     .manager-watch-grid {
         grid-template-columns: 1fr;
     }
+}
+.manager-audit {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(90px, 1fr));
+  gap: 8px;
+  width: 100%;
+  padding-top: 12px;
+  border-top: 1px solid #dce5ee;
+}
+
+.manager-audit-row {
+  padding: 8px 10px;
+  border: 1px solid #dce5ee;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.manager-audit-row strong,
+.manager-audit-row span {
+  display: block;
+}
+
+.manager-audit-row strong {
+  margin-bottom: 5px;
+  color: #172033;
+  font-size: 13px;
+}
+
+.manager-audit-row span {
+  color: #718196;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .manager-audit {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

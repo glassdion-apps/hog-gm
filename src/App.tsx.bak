@@ -8,7 +8,7 @@ import MyTeam from './pages/MyTeam'
 import Managers from './pages/Managers'
 import PlayerEncyclopedia from './pages/PlayerEncyclopedia'
 import { draftManagers } from './data/managers'
-import { getManagerPrediction } from './utils/managerPrediction'
+import { getBestPlayerForManager } from './utils/draftAI'
 import DraftHub from './pages/DraftHub'
 import type { DraftStoryEvent } from './utils/draftStory'
 import { getNewDraftStoryEvents } from './utils/draftStoryEngine'
@@ -260,18 +260,10 @@ function App() {
     const currentManager =
       draftManagers[currentPickIndex % draftManagers.length]
 
-    const prediction = getManagerPrediction(
+    const player = getBestPlayerForManager(
       currentManager,
-      managerRosters[currentManager.name] ?? [],
       draftedPlayerNames,
-      {
-        round: Math.floor(currentPickIndex / draftManagers.length) + 1,
-        pickInRound: (currentPickIndex % draftManagers.length) + 1,
-        overallPick: currentPickIndex + 1,
-      },
     )
-
-    const player = prediction?.players[0]
 
     if (!player) {
       return
