@@ -403,11 +403,7 @@ export function getHondaForecast({
             }
         })
 
-    console.table(twoPickPaths)
-    console.table(positionalWaitCosts)
-
-
-
+   
     const futureCandidate =
         currentRankings.find(
             (entry) => {
@@ -692,6 +688,8 @@ export function getHondaForecast({
 
         positionalWaitCosts,
 
+        twoPickPaths,
+        
         projectedScore,
 
         costOfWaiting,

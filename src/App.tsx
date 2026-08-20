@@ -9,9 +9,11 @@ import Managers from './pages/Managers'
 import PlayerEncyclopedia from './pages/PlayerEncyclopedia'
 import { draftManagers } from './data/managers'
 import { getManagerPrediction } from './utils/managerPrediction'
+import { getHondaDecision } from './utils/hondaDecisionEngine'
 import DraftHub from './pages/DraftHub'
 import type { DraftStoryEvent } from './utils/draftStory'
 import { getNewDraftStoryEvents } from './utils/draftStoryEngine'
+import { players } from './data/players'
 
 import {
   getActiveDraft,
@@ -62,7 +64,14 @@ function App() {
     getActiveDraftId(),
   )
   const [draftHistory, setDraftHistory] = useState<
-    { player: string; manager: string; pick: number }[]
+    {
+      player: string
+      manager: string
+      pick: number
+      hondaPick: string | null
+      predictedPick: string | null
+      predictionConfidence: number | null
+    }[]
   >(
     savedDraft?.draftHistory ?? [],
   )
@@ -229,9 +238,63 @@ function App() {
       return
     }
 
-    const currentManager =
-      draftManagers[currentPickIndex % draftManagers.length]
+    const roundIndex = Math.floor(currentPickIndex / draftManagers.length)
+    const positionInRound = currentPickIndex % draftManagers.length
 
+    const managerIndex =
+      roundIndex % 2 === 0
+        ? positionInRound
+        : draftManagers.length - 1 - positionInRound
+
+    const currentManager = draftManagers[managerIndex]
+    const currentManagerRoster =
+      managerRosters[currentManager.name] ?? []
+
+    const currentManagerRosterCounts = {
+      QB: 0,
+      RB: 0,
+      WR: 0,
+      TE: 0,
+    }
+
+    for (const playerName of currentManagerRoster) {
+      const rosterPlayer = players.find(
+        (player) => player.name === playerName,
+      )
+
+      if (
+        rosterPlayer?.position === 'QB' ||
+        rosterPlayer?.position === 'RB' ||
+        rosterPlayer?.position === 'WR' ||
+        rosterPlayer?.position === 'TE'
+      ) {
+        currentManagerRosterCounts[
+          rosterPlayer.position
+        ] += 1
+      }
+    }
+
+    const hondaDecision =
+      getHondaDecision(
+        draftedPlayerNames,
+        currentPickIndex,
+        currentManagerRosterCounts,
+        currentManagerRoster,
+      )
+
+    const currentPrediction =
+      currentManager.name !== 'GiveMeYourMoneyNow'
+        ? getManagerPrediction(
+          currentManager,
+          currentManagerRoster,
+          draftedPlayerNames,
+          {
+            round: roundIndex + 1,
+            pickInRound: positionInRound + 1,
+            overallPick: currentPickIndex + 1,
+          },
+        )
+        : null
     setDraftedPlayerNames((current) => [
       ...current,
       playerName,
@@ -243,6 +306,12 @@ function App() {
         player: playerName,
         manager: currentManager.name,
         pick: currentPickIndex + 1,
+        hondaPick:
+          hondaDecision?.player.name ?? null,
+        predictedPick:
+          currentPrediction?.players[0]?.name ?? null,
+        predictionConfidence:
+          currentPrediction?.confidence ?? null,
       },
     ])
 
@@ -257,8 +326,25 @@ function App() {
     setCurrentPickIndex((current) => current + 1)
   }
   function simulateNextPick() {
+    const roundIndex =
+      Math.floor(
+        currentPickIndex /
+        draftManagers.length,
+      )
+
+    const positionInRound =
+      currentPickIndex %
+      draftManagers.length
+
+    const managerIndex =
+      roundIndex % 2 === 0
+        ? positionInRound
+        : draftManagers.length -
+        1 -
+        positionInRound
+
     const currentManager =
-      draftManagers[currentPickIndex % draftManagers.length]
+      draftManagers[managerIndex]
 
     const prediction = getManagerPrediction(
       currentManager,
@@ -266,7 +352,7 @@ function App() {
       draftedPlayerNames,
       {
         round: Math.floor(currentPickIndex / draftManagers.length) + 1,
-        pickInRound: (currentPickIndex % draftManagers.length) + 1,
+        pickInRound: positionInRound + 1,
         overallPick: currentPickIndex + 1,
       },
     )
@@ -367,7 +453,10 @@ function App() {
           />
         )}
         {page === 'managers' && (
-          <Managers managerRosters={managerRosters} />
+          <Managers
+            managerRosters={managerRosters}
+            draftHistory={draftHistory}
+          />
         )}
 
         {page === 'encyclopedia' && (

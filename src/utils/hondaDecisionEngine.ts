@@ -15,6 +15,7 @@ export function getHondaDecision(
     draftedPlayerNames: string[],
     currentPickIndex: number,
     liveRosterCounts?: LiveRosterCounts,
+    managerRosterNames?: string[],
 ) {
 
 
@@ -55,7 +56,7 @@ export function getHondaDecision(
     )
 
     const rosterFit = getRosterFitScore(
-        draftedPlayerNames,
+        managerRosterNames ?? draftedPlayerNames,
         player.position,
     )
 

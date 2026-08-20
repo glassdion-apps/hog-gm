@@ -37,6 +37,9 @@ type WarRoomProps = {
         player: string
         manager: string
         pick: number
+        hondaPick: string | null
+        predictedPick: string | null
+        predictionConfidence: number | null
     }[]
     draftedPlayerNames: string[]
     onDraftPlayer: (playerName: string) => void
@@ -103,6 +106,7 @@ export default function WarRoom({
         draftedPlayerNames,
         currentPickIndex,
         liveRosterCounts,
+        myRosterNames,
     )
 
     const recommendation = decision?.player
@@ -264,6 +268,20 @@ export default function WarRoom({
                 selectedManagerUpcomingPick.round,
             )
             : undefined
+    const currentManagerPrediction =
+        getManagerPrediction(
+            currentManager,
+            managerRosters[
+            currentManager.name
+            ] ?? [],
+            draftedPlayerNames,
+            {
+                round: roundNumber,
+                pickInRound,
+                overallPick:
+                    currentPickIndex + 1,
+            },
+        )
 
     const managerPrediction =
         selectedManager
@@ -426,6 +444,32 @@ export default function WarRoom({
 
                     <p className="eyebrow light">
                         On the Clock
+                    </p>
+
+                    <h2>{currentManager.name}</h2>
+
+                    {currentManager.name !== 'GiveMeYourMoneyNow' &&
+                        currentManagerPrediction && (
+                            <div className="hero-prediction">
+                                <span>
+                                    Predicted Pick
+                                </span>
+
+                                <strong>
+                                    {currentManagerPrediction.players[0]?.name ??
+                                        'No strong prediction'}
+                                </strong>
+
+                                <small>
+                                    {currentManagerPrediction.position}
+                                    {' · '}
+                                    {currentManagerPrediction.confidence}% confidence
+                                </small>
+                            </div>
+                        )}
+
+                    <p className="hero-recommendation-label">
+                        Honda Recommends
                     </p>
 
                     <h2>{recommendation?.name}</h2>
@@ -911,7 +955,7 @@ export default function WarRoom({
 
                                 <button
                                     className="manager-watch-card"
-                                    key={alert.manager}
+                                    key={`${alert.manager}-${alert.round}-${alert.pickInRound}`}
                                     onClick={() => {
                                         setSelectedManagerName(
                                             alert.manager,
@@ -1779,18 +1823,14 @@ export default function WarRoom({
                     <div className="draft-history-list compact-draft-history">
 
                         {draftHistory.length === 0 ? (
-
                             <p className="empty-state">
                                 No picks have been made yet.
                             </p>
-
                         ) : (
-
                             [...draftHistory]
                                 .reverse()
                                 .slice(0, 8)
                                 .map((pick) => {
-
                                     const draftedPlayer =
                                         players.find(
                                             (player) =>
@@ -1815,7 +1855,6 @@ export default function WarRoom({
                                             className="draft-history-row"
                                             key={pick.pick}
                                         >
-
                                             <span className="draft-history-pick">
                                                 {pickRound}.
                                                 {String(
@@ -1823,26 +1862,36 @@ export default function WarRoom({
                                                 ).padStart(2, '0')}
                                             </span>
 
-
                                             <div className="recent-pick-player">
-
                                                 <strong>
                                                     {pick.player}
                                                 </strong>
 
                                                 <small>
-                                                    {draftedPlayer?.position ??
-                                                        '—'}
+                                                    {draftedPlayer?.position ?? '—'}
                                                     {' · '}
                                                     {pick.manager}
                                                 </small>
 
-                                            </div>
+                                                <div className="recent-pick-comparison">
+                                                    <small>
+                                                        Actual: {pick.player}
+                                                    </small>
 
+                                                    <small>
+                                                        Predicted:{' '}
+                                                        {pick.predictedPick ?? '—'}
+                                                    </small>
+
+                                                    <small>
+                                                        Honda:{' '}
+                                                        {pick.hondaPick ?? '—'}
+                                                    </small>
+                                                </div>
+                                            </div>
                                         </div>
                                     )
                                 })
-
                         )}
 
                     </div>

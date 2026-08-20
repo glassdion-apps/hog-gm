@@ -2180,6 +2180,49 @@ nav button.active {
   align-items: stretch;
 }
 
+.hero-recommendation-label {
+  margin: 14px 0 4px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.8;
+}
+
+.hero-prediction {
+  margin: 10px 0 14px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.hero-prediction span,
+.hero-prediction strong,
+.hero-prediction small {
+  display: block;
+}
+
+.hero-prediction span {
+  margin-bottom: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.75;
+}
+
+.hero-prediction strong {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.hero-prediction small {
+  margin-top: 3px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
 .hero-player {
   padding: 24px 28px;
 }
@@ -3320,4 +3363,40 @@ nav button.active {
   .manager-audit {
     grid-template-columns: repeat(2, 1fr);
   }
+}.manager-team-comparison {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.manager-team-column {
+  padding: 12px;
+  border: 1px solid #d8e1ec;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.manager-team-column > strong {
+  display: block;
+  margin-bottom: 9px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.manager-team-column > span {
+  display: block;
+  padding: 5px 0;
+  border-bottom: 1px solid #edf1f5;
+  font-size: 13px;
+}
+
+.manager-team-column > span:last-child {
+  border-bottom: 0;
+}
+
+.manager-team-column > small {
+  display: block;
+  color: #78869a;
+  font-size: 12px;
 }

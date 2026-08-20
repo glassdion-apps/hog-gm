@@ -10,6 +10,10 @@ export type DraftSession = {
         player: string
         manager: string
         pick: number
+
+        hondaPick: string | null
+        predictedPick: string | null
+        predictionConfidence: number | null
     }[]
 
     draftedPlayerNames: string[]
