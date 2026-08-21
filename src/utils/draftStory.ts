@@ -12,6 +12,25 @@ type DraftPick = {
     pick: number
 }
 
+export function getHondaDraftDelta(
+    playerName: string,
+    pickNumber: number,
+) {
+    const player = players.find(
+        (item) => item.name === playerName,
+    )
+
+    if (!player) {
+        return null
+    }
+
+    return {
+        player,
+        delta:
+            pickNumber - player.rank,
+    }
+}
+
 export function generateDraftStory(
     draftHistory: DraftPick[],
 ): DraftStoryEvent[] {
@@ -53,9 +72,20 @@ export function generateDraftStory(
                 })
             }
         })
-        const hondaDelta = pick.pick - player.rank
+        const hondaDraftDelta =
+            getHondaDraftDelta(
+                pick.player,
+                pick.pick,
+            )
 
-        if (hondaDelta >= 2) {
+        if (!hondaDraftDelta) {
+            return
+        }
+
+        const hondaDelta =
+            hondaDraftDelta.delta
+
+        if (hondaDelta >= 8) {
             story.push({
                 type: 'value',
                 title: `${player.name} was a Honda value`,
@@ -65,7 +95,7 @@ export function generateDraftStory(
             })
         }
 
-        if (hondaDelta <= -2) {
+        if (hondaDelta <= -8) {
             story.push({
                 type: 'reach',
                 title: `${player.name} was a Honda reach`,

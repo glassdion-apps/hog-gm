@@ -69,6 +69,10 @@ function App() {
     draftSessions.find(
       (draft) => draft.id === activeDraftId,
     )?.name ?? null
+
+
+
+
   const [draftHistory, setDraftHistory] = useState<
     {
       player: string
@@ -131,6 +135,25 @@ function App() {
   const [currentPickIndex, setCurrentPickIndex] = useState(
     savedDraft?.currentPickIndex ?? 0,
   )
+
+  const currentRoundIndex =
+    Math.floor(
+      currentPickIndex / draftManagers.length,
+    )
+
+  const currentPositionInRound =
+    currentPickIndex % draftManagers.length
+
+  const currentManagerIndex =
+    currentRoundIndex % 2 === 0
+      ? currentPositionInRound
+      : draftManagers.length -
+      1 -
+      currentPositionInRound
+
+  const currentManagerName =
+    draftManagers[currentManagerIndex]?.name ?? ''
+
   useEffect(() => {
     if (!activeDraftId) {
       return
@@ -561,7 +584,10 @@ function App() {
         {page === 'dashboard' && (
           <Dashboard
             draftedPlayerNames={draftedPlayerNames}
+            currentPickIndex={currentPickIndex}
+            currentManagerName={currentManagerName}
             onSelectPlayer={openPlayer}
+            onDraftPlayer={draftPlayer}
           />
         )}
 
@@ -611,6 +637,8 @@ function App() {
         {page === 'encyclopedia' && (
           <PlayerEncyclopedia
             initialSelectedPlayerName={selectedPlayerName}
+            draftedPlayerNames={draftedPlayerNames}
+            onDraftPlayer={draftPlayer}
           />
         )}
       </main>

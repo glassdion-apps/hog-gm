@@ -1,6 +1,9 @@
 type DashboardProps = {
   draftedPlayerNames: string[]
+  currentPickIndex: number
+  currentManagerName: string
   onSelectPlayer: (playerName: string) => void
+  onDraftPlayer: (playerName: string) => void
 }
 
 import { players } from '../data/players'
@@ -25,18 +28,34 @@ function Metric({
 
 export default function Dashboard({
   draftedPlayerNames,
+  currentPickIndex,
+  currentManagerName,
   onSelectPlayer,
+  onDraftPlayer,
 }: DashboardProps) {
+
+
   const availablePlayers = players.filter(
     (player) => !draftedPlayerNames.includes(player.name),
   )
   const recommendation = availablePlayers[0]
+
+  const round =
+    Math.floor(currentPickIndex / 12) + 1
+
+  const pickInRound =
+    (currentPickIndex % 12) + 1
+
+  const pickLabel =
+    `${round}.${String(pickInRound).padStart(2, '0')}`
   return (
     <>
       <section className="hero">
         <div>
-          <p className="eyebrow light">On the clock · Pick 1.12</p>
-      
+          <p className="eyebrow light">
+            On the clock · {currentManagerName} · {pickLabel} · Overall {currentPickIndex + 1}
+          </p>
+
           <h2>{recommendation?.name ?? 'Draft Complete'}</h2>
 
           <p className="hero-text">
@@ -45,16 +64,16 @@ export default function Dashboard({
               : 'No available players remain on the board.'}
           </p>
 
-          </div>
-             <div className="recommendation">
-            <span>Recommendation</span>
-            <strong>{recommendation?.action ?? 'DONE'}</strong>
-            <small>
-              {recommendation
-                ? `${Math.round(recommendation.score)}% confidence`
-                : 'All players drafted'}
-            </small>
-          </div>
+        </div>
+        <div className="recommendation">
+          <span>Recommendation</span>
+          <strong>{recommendation?.action ?? 'DONE'}</strong>
+          <small>
+            {recommendation
+              ? `${Math.round(recommendation.score)}% confidence`
+              : 'All players drafted'}
+          </small>
+        </div>
       </section>
 
       <section className="metrics">
@@ -78,26 +97,39 @@ export default function Dashboard({
 
         <div className="player-list">
           {availablePlayers.map((player) => (
-            <button
-              className="player-row dashboard-player-button"
+            <div
+              className="player-row dashboard-player-button dashboard-player-row"
               key={player.name}
-              onClick={() => onSelectPlayer(player.name)}
             >
-              <div className="player-position">{player.position}</div>
-
-              <div className="player-info">
-                <strong>{player.name}</strong>
-                <span>{player.tier}</span>
-              </div>
-
-              <span
-                className={`command ${player.action
-                  .toLowerCase()
-                  .replaceAll(' ', '-')}`}
+              <button
+                className="dashboard-player-open"
+                onClick={() => onSelectPlayer(player.name)}
               >
-                {player.action}
-              </span>
-            </button>
+                <div className="player-position">
+                  {player.position}
+                </div>
+
+                <div className="player-info">
+                  <strong>{player.name}</strong>
+                  <span>{player.tier}</span>
+                </div>
+
+                <span
+                  className={`command ${player.action
+                    .toLowerCase()
+                    .replaceAll(' ', '-')}`}
+                >
+                  {player.action}
+                </span>
+              </button>
+
+              <button
+                className="dashboard-draft-button"
+                onClick={() => onDraftPlayer(player.name)}
+              >
+                Draft
+              </button>
+            </div>
           ))}
         </div>
       </section>

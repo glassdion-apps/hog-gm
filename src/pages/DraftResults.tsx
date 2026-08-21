@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { draftManagers } from '../data/managers'
+import { getHondaDraftDelta } from '../utils/draftStory'
 
 type DraftPick = {
     player: string
@@ -116,6 +117,53 @@ export default function DraftResults({
         predictionEligiblePicks.length -
         resolvedPredictionDistances.length
 
+    const biggestHondaReaches =
+        draftHistory
+            .map((pick) => {
+                const result =
+                    getHondaDraftDelta(
+                        pick.player,
+                        pick.pick,
+                    )
+
+                if (
+                    !result ||
+                    result.delta >= -1
+                ) {
+                    return null
+                }
+
+                return {
+                    player: pick.player,
+                    manager: pick.manager,
+                    pick: pick.pick,
+                    hondaRank:
+                        result.player.rank,
+                    distance:
+                        Math.abs(
+                            Math.round(
+                                result.delta,
+                            ),
+                        ),
+                }
+            })
+            .filter(
+                (
+                    reach,
+                ): reach is {
+                    player: string
+                    manager: string
+                    pick: number
+                    hondaRank: number
+                    distance: number
+                } => reach !== null,
+            )
+            .sort(
+                (a, b) =>
+                    b.distance - a.distance,
+            )
+            .slice(0, 5)
+
     const hondaEligiblePicks =
         draftHistory.filter(
             (pick) => pick.hondaPick !== null,
@@ -136,6 +184,188 @@ export default function DraftResults({
                 ) * 100,
             )
             : 0
+
+    const managerPredictionAccuracy =
+        draftManagers.map((manager) => {
+            const managerPicks =
+                predictionEligiblePicks.filter(
+                    (pick) =>
+                        pick.manager === manager.name,
+                )
+
+            const exactMatches =
+                managerPicks.filter(
+                    (pick) =>
+                        pick.predictedPick === pick.player,
+                ).length
+            const resolvedDistances =
+                managerPicks
+                    .map((pick) => {
+                        if (pick.predictedPick === pick.player) {
+                            return 0
+                        }
+
+                        const actualPredictedPlayerPick =
+                            draftHistory.find(
+                                (laterPick) =>
+                                    laterPick.pick > pick.pick &&
+                                    laterPick.player === pick.predictedPick,
+                            )
+
+                        if (!actualPredictedPlayerPick) {
+                            return null
+                        }
+
+                        return (
+                            actualPredictedPlayerPick.pick -
+                            pick.pick
+                        )
+                    })
+                    .filter(
+                        (distance): distance is number =>
+                            distance !== null,
+                    )
+
+            const averageDistance =
+                resolvedDistances.length > 0
+                    ? (
+                        resolvedDistances.reduce(
+                            (total, distance) =>
+                                total + distance,
+                            0,
+                        ) /
+                        resolvedDistances.length
+                    ).toFixed(1)
+                    : '—'
+
+
+            const accuracy =
+                managerPicks.length > 0
+                    ? Math.round(
+                        (
+                            exactMatches /
+                            managerPicks.length
+                        ) * 100,
+                    )
+                    : 0
+
+            return {
+                manager: manager.name,
+                eligiblePicks:
+                    managerPicks.length,
+                averageDistance,
+                exactMatches,
+                accuracy,
+            }
+        })
+
+    const bestPredictedManagers =
+        [...managerPredictionAccuracy]
+            .filter(
+                (manager) =>
+                    manager.eligiblePicks > 0,
+            )
+            .sort(
+                (a, b) =>
+                    b.accuracy - a.accuracy,
+            )
+
+    const biggestPredictionMisses =
+        predictionEligiblePicks
+            .map((pick) => {
+                if (
+                    !pick.predictedPick ||
+                    pick.predictedPick === pick.player
+                ) {
+                    return null
+                }
+
+                const actualPredictedPlayerPick =
+                    draftHistory.find(
+                        (laterPick) =>
+                            laterPick.pick > pick.pick &&
+                            laterPick.player === pick.predictedPick,
+                    )
+
+                if (!actualPredictedPlayerPick) {
+                    return null
+                }
+
+                return {
+                    manager: pick.manager,
+                    pick: pick.pick,
+                    actualPlayer: pick.player,
+                    predictedPlayer: pick.predictedPick,
+                    distance:
+                        actualPredictedPlayerPick.pick -
+                        pick.pick,
+                }
+            })
+            .filter(
+                (
+                    miss,
+                ): miss is {
+                    manager: string
+                    pick: number
+                    actualPlayer: string
+                    predictedPlayer: string
+                    distance: number
+                } => miss !== null,
+            )
+            .sort(
+                (a, b) =>
+                    b.distance - a.distance,
+            )
+            .slice(0, 5)
+
+    const predictionConfidenceBuckets = [
+        {
+            label: 'High',
+            min: 70,
+            max: 100,
+        },
+        {
+            label: 'Medium',
+            min: 50,
+            max: 69.999,
+        },
+        {
+            label: 'Low',
+            min: 0,
+            max: 49.999,
+        },
+    ].map((bucket) => {
+        const picks =
+            predictionEligiblePicks.filter(
+                (pick) =>
+                    pick.predictionConfidence !== null &&
+                    pick.predictionConfidence >= bucket.min &&
+                    pick.predictionConfidence <= bucket.max,
+            )
+
+        const exactMatches =
+            picks.filter(
+                (pick) =>
+                    pick.predictedPick === pick.player,
+            ).length
+
+        const accuracy =
+            picks.length > 0
+                ? Math.round(
+                    (
+                        exactMatches /
+                        picks.length
+                    ) * 100,
+                )
+                : 0
+
+        return {
+            label: bucket.label,
+            picks: picks.length,
+            exactMatches,
+            accuracy,
+        }
+    })
 
     const activeBoardHistory =
         boardView === 'actual'
@@ -288,6 +518,153 @@ export default function DraftResults({
                         <small>
                             Based on real draft picks
                         </small>
+                    </div>
+                </div>
+
+                <div className="prediction-confidence-panel">
+                    <div className="prediction-confidence-header">
+                        <span>Prediction Confidence</span>
+                        <small>
+                            Does higher confidence actually mean higher accuracy?
+                        </small>
+                    </div>
+
+                    <div className="prediction-confidence-grid">
+                        {predictionConfidenceBuckets.map((bucket) => (
+                            <div
+                                className="prediction-confidence-card"
+                                key={bucket.label}
+                            >
+                                <span>{bucket.label} Confidence</span>
+
+                                <strong>
+                                    {bucket.accuracy}%
+                                </strong>
+
+                                <small>
+                                    {bucket.exactMatches} of{' '}
+                                    {bucket.picks} exact
+                                </small>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                <div className="manager-accuracy-panel">
+                    <div className="manager-accuracy-header">
+                        <div>
+                            <span>Manager Prediction Accuracy</span>
+
+                            <small>
+                                Exact player matches by manager
+                            </small>
+                        </div>
+                    </div>
+
+                    <div className="prediction-misses-panel">
+                        <div className="prediction-misses-header">
+                            <div>
+                                <span>Biggest Prediction Misses</span>
+
+                                <small>
+                                    Resolved predictions with the largest pick gap
+                                </small>
+                            </div>
+                        </div>
+
+
+                        <div className="prediction-misses-grid">
+                            {biggestPredictionMisses.map((miss) => (
+                                <div
+                                    className="prediction-miss-card"
+                                    key={`${miss.manager}-${miss.pick}`}
+                                >
+                                    <strong>
+                                        {miss.manager}
+                                    </strong>
+
+                                    <small>
+                                        Pick {miss.pick}
+                                    </small>
+
+                                    <span>
+                                        Predicted: {miss.predictedPlayer}
+                                    </span>
+
+                                    <span>
+                                        Actual: {miss.actualPlayer}
+                                    </span>
+
+                                    <b>
+                                        {miss.distance} picks apart
+                                    </b>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="honda-reaches-panel">
+                        <div className="honda-reaches-header">
+                            <div>
+                                <span>Biggest Honda Reaches</span>
+
+                                <small>
+                                    Actual picks made earliest versus Honda Rank
+                                </small>
+                            </div>
+                        </div>
+
+                        <div className="honda-reaches-grid">
+                            {biggestHondaReaches.map((reach) => (
+                                <div
+                                    className="honda-reach-card"
+                                    key={`${reach.manager}-${reach.pick}-${reach.player}`}
+                                >
+                                    <strong>
+                                        {reach.player}
+                                    </strong>
+
+                                    <small>
+                                        {reach.manager} · Pick {reach.pick}
+                                    </small>
+
+                                    <span>
+                                        Honda Rank #{reach.hondaRank}
+                                    </span>
+
+                                    <b>
+                                        {reach.distance} picks early
+                                    </b>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="manager-accuracy-grid">
+                        {bestPredictedManagers.map((manager) => (
+                            <div
+                                className="manager-accuracy-card"
+                                key={manager.manager}
+                            >
+                                <strong>
+                                    {manager.manager}
+                                </strong>
+
+                                <span>
+                                    {manager.accuracy}%
+                                </span>
+
+                                <small>
+                                    {manager.exactMatches} of{' '}
+                                    {manager.eligiblePicks} exact
+                                </small>
+
+                                <small>
+                                    Avg distance: {manager.averageDistance} picks
+                                </small>
+
+                            </div>
+                        ))}
                     </div>
                 </div>
                 {activeBoardHistory.length === 0 ? (

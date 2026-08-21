@@ -3701,3 +3701,284 @@ nav button.active {
   font-size: 11px;
   color: #718096;
 }
+
+/* Manager prediction accuracy */
+
+.manager-accuracy-panel {
+  margin: 16px 0 20px;
+  padding: 16px;
+  border: 1px solid #d8e1ec;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.manager-accuracy-header {
+  margin-bottom: 12px;
+}
+
+.manager-accuracy-header>div {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.manager-accuracy-header span {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #53677f;
+}
+
+.manager-accuracy-header small {
+  font-size: 11px;
+  color: #8291a5;
+}
+
+.manager-accuracy-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.manager-accuracy-card {
+  min-width: 0;
+  padding: 10px 11px;
+  border: 1px solid #dce4ee;
+  border-radius: 9px;
+  background: #ffffff;
+}
+
+.manager-accuracy-card strong {
+  display: block;
+  min-height: 28px;
+  font-size: 11px;
+  line-height: 1.15;
+  color: #16253b;
+  overflow-wrap: anywhere;
+}
+
+.manager-accuracy-card span {
+  display: block;
+  margin-top: 5px;
+  font-size: 19px;
+  line-height: 1;
+  font-weight: 800;
+  color: #2856d8;
+}
+
+.manager-accuracy-card small {
+  display: block;
+  margin-top: 4px;
+  font-size: 10px;
+  color: #74859a;
+}
+
+/* Biggest prediction misses */
+
+.prediction-misses-panel {
+  margin: 10px 14px 14px;
+  padding: 12px;
+  border: 1px solid #d8e1ec;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.prediction-misses-header {
+  margin-bottom: 10px;
+}
+
+.prediction-misses-header>div {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.prediction-misses-header span {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #53677f;
+}
+
+.prediction-misses-header small {
+  font-size: 11px;
+  color: #8291a5;
+}
+
+.prediction-misses-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.prediction-miss-card {
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #dce4ee;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.prediction-miss-card strong {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 11px;
+  color: #16253b;
+  overflow-wrap: anywhere;
+}
+
+.prediction-miss-card small {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 10px;
+  color: #74859a;
+}
+
+.prediction-miss-card span {
+  display: block;
+  margin-top: 3px;
+  font-size: 10px;
+  line-height: 1.25;
+  color: #53677f;
+}
+
+.prediction-miss-card b {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #b42318;
+}
+
+/* Biggest Honda reaches */
+
+.honda-reaches-panel {
+  margin: 10px 14px 14px;
+  padding: 12px;
+  border: 1px solid #d8e1ec;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.honda-reaches-header {
+  margin-bottom: 10px;
+}
+
+.honda-reaches-header>div {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.honda-reaches-header span {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #53677f;
+}
+
+.honda-reaches-header small {
+  font-size: 11px;
+  color: #8291a5;
+}
+
+.honda-reaches-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.honda-reach-card {
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #dce4ee;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.honda-reach-card strong {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 11px;
+  color: #16253b;
+  overflow-wrap: anywhere;
+}
+
+.honda-reach-card small {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 10px;
+  color: #74859a;
+}
+
+.honda-reach-card span {
+  display: block;
+  margin-top: 3px;
+  font-size: 10px;
+  color: #53677f;
+}
+
+.honda-reach-card b {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #b42318;
+}
+
+/* Dashboard Best Available draft rows */
+
+.dashboard-player-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 90px;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.dashboard-player-row .player-info {
+  min-width: 0;
+}
+
+.dashboard-player-row .player-info strong {
+  display: block;
+}
+
+.dashboard-player-row .player-info span {
+  display: block;
+}
+
+.dashboard-draft-button {
+  width: 90px;
+  padding: 9px 14px;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dashboard-draft-button:hover {
+  background: #1d4ed8;
+}
+
+.dashboard-player-open {
+  display: grid;
+  grid-template-columns: 48px minmax(220px, 1fr) auto;
+  align-items: center;
+  gap: 16px;
+
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+
+  border: 0;
+  background: transparent;
+
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}

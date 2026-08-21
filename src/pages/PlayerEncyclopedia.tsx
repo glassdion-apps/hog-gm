@@ -3,11 +3,16 @@ import { players } from '../data/players'
 
 type PlayerEncyclopediaProps = {
   initialSelectedPlayerName?: string
+  draftedPlayerNames: string[]
+  onDraftPlayer: (playerName: string) => void
 }
 
 export default function PlayerEncyclopedia({
   initialSelectedPlayerName = '',
+  draftedPlayerNames,
+  onDraftPlayer,
 }: PlayerEncyclopediaProps) {
+
   const [search, setSearch] = useState('')
 
   const [selectedPlayerName, setSelectedPlayerName] = useState(
@@ -150,15 +155,33 @@ export default function PlayerEncyclopedia({
           </div>
 
           <div className="profile-command">
-            <span>Draft Command</span>
+            <div>
+              <span>Draft Command</span>
 
-            <strong
-              className={`command ${selectedPlayer.action
-                .toLowerCase()
-                .replaceAll(' ', '-')}`}
+              <strong
+                className={`command ${selectedPlayer.action
+                  .toLowerCase()
+                  .replaceAll(' ', '-')}`}
+              >
+                {selectedPlayer.action}
+              </strong>
+            </div>
+
+            <button
+              className="profile-draft-button"
+              disabled={draftedPlayerNames.includes(
+                selectedPlayer.name,
+              )}
+              onClick={() =>
+                onDraftPlayer(selectedPlayer.name)
+              }
             >
-              {selectedPlayer.action}
-            </strong>
+              {draftedPlayerNames.includes(
+                selectedPlayer.name,
+              )
+                ? 'Drafted'
+                : `Draft ${selectedPlayer.name}`}
+            </button>
           </div>
 
           <div className="profile-notes">
