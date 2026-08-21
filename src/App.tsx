@@ -34,6 +34,7 @@ import type {
 import {
   getHondaManagerName,
 } from './utils/hondaManager'
+import DraftResults from './pages/DraftResults'
 
 type Page =
   | 'hub'
@@ -42,6 +43,7 @@ type Page =
   | 'warroom'
   | 'team'
   | 'managers'
+  | 'results'
   | 'encyclopedia'
 
 function App() {
@@ -63,6 +65,10 @@ function App() {
   const [activeDraftId, setActiveDraftId] = useState<string | null>(
     getActiveDraftId(),
   )
+  const activeDraftName =
+    draftSessions.find(
+      (draft) => draft.id === activeDraftId,
+    )?.name ?? null
   const [draftHistory, setDraftHistory] = useState<
     {
       player: string
@@ -164,6 +170,7 @@ function App() {
     warroom: 'War Room',
     team: 'My Team',
     managers: 'Managers',
+    results: 'Draft Results',
     encyclopedia: 'Player Encyclopedia',
   }
 
@@ -523,6 +530,8 @@ function App() {
       <Sidebar
         currentPage={page}
         onPageChange={(newPage) => setPage(newPage as Page)}
+        activeDraftName={activeDraftName}
+        currentPickIndex={currentPickIndex}
       />
 
       <main className="main">
@@ -592,7 +601,13 @@ function App() {
             hondaDraftHistory={hondaDraftHistory}
           />
         )}
-
+        {page === 'results' && (
+          <DraftResults
+            draftHistory={draftHistory}
+            predictedDraftHistory={predictedDraftHistory}
+            hondaDraftHistory={hondaDraftHistory}
+          />
+        )}
         {page === 'encyclopedia' && (
           <PlayerEncyclopedia
             initialSelectedPlayerName={selectedPlayerName}

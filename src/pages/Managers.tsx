@@ -44,12 +44,7 @@ export default function Managers({
         {draftManagers.map((manager) => {
           const roster =
             managerRosters[manager.name] ?? []
-          const managerHistory =
-            draftHistory.filter(
-              (pick) =>
-                pick.manager === manager.name,
-            )
-
+        
           const predictedRoster =
             predictedDraftHistory
               .filter(

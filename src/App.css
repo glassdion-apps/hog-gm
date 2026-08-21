@@ -3363,7 +3363,9 @@ nav button.active {
   .manager-audit {
     grid-template-columns: repeat(2, 1fr);
   }
-}.manager-team-comparison {
+}
+
+.manager-team-comparison {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
@@ -3377,26 +3379,325 @@ nav button.active {
   background: #ffffff;
 }
 
-.manager-team-column > strong {
+.manager-team-column>strong {
   display: block;
   margin-bottom: 9px;
   font-size: 13px;
   font-weight: 800;
 }
 
-.manager-team-column > span {
+.manager-team-column>span {
   display: block;
   padding: 5px 0;
   border-bottom: 1px solid #edf1f5;
   font-size: 13px;
 }
 
-.manager-team-column > span:last-child {
+.manager-team-column>span:last-child {
   border-bottom: 0;
 }
 
-.manager-team-column > small {
+.manager-team-column>small {
   display: block;
   color: #78869a;
   font-size: 12px;
+}
+
+.sidebar-active-draft {
+  margin: 4px 0 18px;
+  padding: 12px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.sidebar-active-draft span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.sidebar-active-draft strong {
+  display: block;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.sidebar-active-draft small {
+  display: block;
+  margin-top: 4px;
+  font-size: 11px;
+  opacity: 0.65;
+}
+
+/* Draft Results */
+
+.draft-results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 18px;
+  border: 1px solid #d8e2ef;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.draft-results-row {
+  display: grid;
+  grid-template-columns:
+    70px minmax(180px, 1.2fr) minmax(180px, 1fr) minmax(180px, 1fr) minmax(180px, 1fr);
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5ebf3;
+  background: #ffffff;
+}
+
+.draft-results-row:last-child {
+  border-bottom: none;
+}
+
+.draft-results-row:nth-child(even) {
+  background: #f8fafc;
+}
+
+.draft-results-row strong {
+  color: #13233f;
+  font-weight: 800;
+}
+
+.draft-results-row span {
+  min-width: 0;
+  line-height: 1.35;
+}
+
+.draft-results-row span:nth-child(2) {
+  font-weight: 700;
+  color: #243752;
+}
+
+.draft-results-row span:nth-child(3) {
+  color: #111827;
+}
+
+.draft-results-row span:nth-child(4) {
+  color: #53657d;
+}
+
+.draft-results-row span:nth-child(5) {
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+/* =========================================
+   DRAFT RESULTS BOARD
+   ========================================= */
+
+.draft-board-scroll {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+  padding-bottom: 8px;
+}
+
+.draft-board-grid {
+  min-width: 1320px;
+}
+
+.draft-board-grid>.draft-board-corner,
+.draft-board-grid>.draft-board-manager {
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.draft-board-corner {
+  width: 58px;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 800;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.draft-board-manager {
+  width: 100px;
+  height: 72px;
+  padding: 8px 6px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-left: 1px solid #e2e8f0;
+}
+
+.draft-board-manager strong {
+  font-size: 10px;
+  line-height: 1.15;
+  color: #17233b;
+  overflow-wrap: anywhere;
+}
+
+.draft-board-manager span {
+  margin-top: 4px;
+  font-size: 9px;
+  color: #8290a5;
+}
+
+.draft-board-round {
+  display: grid;
+  grid-template-columns: 58px repeat(12, 100px);
+  min-height: 70px;
+}
+
+.draft-board-round-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #dce4ee;
+  font-size: 12px;
+  font-weight: 800;
+  color: #64748b;
+  background: #f8fafc;
+}
+
+.draft-board-cell {
+  min-height: 70px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-top: 1px solid #dce4ee;
+  border-left: 1px solid #dce4ee;
+  background: #f8fafc;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.draft-board-cell small {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 9px;
+  font-weight: 700;
+  color: #8290a5;
+}
+
+.draft-board-cell strong {
+  font-size: 11px;
+  line-height: 1.2;
+  color: #17233b;
+  overflow-wrap: anywhere;
+}
+
+.draft-board-cell>span {
+  color: #cbd5e1;
+}
+
+.draft-board-cell.filled {
+  background: #ffffff;
+}
+
+.draft-board-round:nth-child(even) .draft-board-cell.filled {
+  background: #f5f8fc;
+}
+
+/* Draft Results board view buttons */
+
+.draft-board-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0 18px;
+}
+
+.draft-board-tabs button {
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+/* Actual Draft */
+.draft-board-tabs button:nth-child(1) {
+  background: #eef2f7;
+  color: #243b5a;
+}
+
+.draft-board-tabs button:nth-child(1).active {
+  background: #243b5a;
+  border-color: #243b5a;
+  color: white;
+}
+
+/* Predicted Draft */
+.draft-board-tabs button:nth-child(2) {
+  background: #eef3f8;
+  color: #526b8a;
+}
+
+.draft-board-tabs button:nth-child(2).active {
+  background: #526b8a;
+  border-color: #526b8a;
+  color: white;
+}
+
+/* Honda Draft */
+.draft-board-tabs button:nth-child(3) {
+  background: #edf3ff;
+  color: #2454d8;
+}
+
+.draft-board-tabs button:nth-child(3).active {
+  background: #2454d8;
+  border-color: #2454d8;
+  color: white;
+}
+
+/* Draft Results summary */
+
+.draft-results-summary {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.draft-results-summary-card {
+  padding: 14px 16px;
+  border: 1px solid #d9e2ee;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+.draft-results-summary-card span {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+.draft-results-summary-card strong {
+  display: block;
+  font-size: 24px;
+  line-height: 1.1;
+  color: #17233b;
+}
+
+.draft-results-summary-card small {
+  display: block;
+  margin-top: 5px;
+  font-size: 11px;
+  color: #718096;
 }
