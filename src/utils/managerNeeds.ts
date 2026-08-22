@@ -56,5 +56,20 @@ export function getManagerNeeds(
           ? 'High'
           : 'Low',
     },
+    {
+      position: 'K',
+      need:
+        positionCounts.K === 0
+          ? 'High'
+          : 'Low',
+    },
+    {
+      position: 'DST',
+      need:
+        positionCounts.DST === 0
+          ? 'High'
+          : 'Low',
+    },
+
   ]
 }

@@ -3608,6 +3608,29 @@ nav button.active {
   background: #f5f8fc;
 }
 
+.draft-board-cell.position-qb {
+  background: #e7f6ec;
+}
+
+.draft-board-cell.position-rb {
+  background: #e7f0ff;
+}
+
+.draft-board-cell.position-wr {
+  background: #fdeaea;
+}
+
+.draft-board-cell.position-te {
+  background: #f1e9fb;
+}
+
+.draft-board-cell.position-k {
+  background: #fff6d8;
+}
+
+.draft-board-cell.position-dst {
+  background: #e7f4f3;
+}
 /* Draft Results board view buttons */
 
 .draft-board-tabs {
@@ -3981,4 +4004,22 @@ nav button.active {
   font: inherit;
   text-align: left;
   cursor: pointer;
+}
+.dashboard-view-player-button {
+  margin-top: 8px;
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dashboard-view-player-button:hover {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.55);
 }

@@ -26,6 +26,19 @@ function ratingOutOfFive(
         : 0
 }
 
+export function getTierPressureScore(
+    player: Player,
+) {
+    const tier =
+        player.fantasyProsTier ??
+        20
+
+    return Math.max(
+        0,
+        15 - tier,
+    ) * 3
+}
+
 function getOpponentDraftScore(
     player: Player,
 ) {
@@ -39,9 +52,7 @@ function getOpponentDraftScore(
         player.publicAdpOverall ??
         999
 
-    const tier =
-        player.fantasyProsTier ??
-        20
+    
 
     const upside =
         ratingOutOfFive(
@@ -66,10 +77,7 @@ function getOpponentDraftScore(
         )
 
     const tierPressure =
-        Math.max(
-            0,
-            15 - tier,
-        ) * 3
+    getTierPressureScore(player)
 
     const upsidePressure =
         upside * 2

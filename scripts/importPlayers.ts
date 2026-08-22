@@ -14,6 +14,8 @@ const rosterTargets = {
   RB: 5,
   WR: 6,
   TE: 2,
+  K: 1,
+  DST: 1,
 } as const
 
 function parseCsvLine(line: string): string[] {
@@ -491,6 +493,141 @@ function readTeProjections(
   return players
 }
 
+type KickerProjection = {
+  name: string
+  team: string
+  fieldGoalsMade: number
+  fieldGoalsAttempted: number
+  extraPointsMade: number
+  fantasyProsPoints: number
+}
+
+function readKickerProjections(
+  filePath: string,
+): KickerProjection[] {
+  const lines = readLines(filePath)
+
+  const dataLines = lines.slice(1)
+
+  const players: KickerProjection[] = []
+
+  for (const line of dataLines) {
+    const columns = parseCsvLine(line)
+
+    /*
+      K projection columns:
+
+      0 Player
+      1 Team
+      2 FG
+      3 FGA
+      4 XPT
+      5 FPTS
+    */
+
+    const name =
+      columns[0]?.trim() ?? ''
+
+    if (!name) {
+      continue
+    }
+
+    players.push({
+      name,
+      team:
+        columns[1]?.trim().toUpperCase() ?? '',
+      fieldGoalsMade:
+        toNumber(columns[2]),
+      fieldGoalsAttempted:
+        toNumber(columns[3]),
+      extraPointsMade:
+        toNumber(columns[4]),
+      fantasyProsPoints:
+        toNumber(columns[5]),
+    })
+  }
+
+  return players
+}
+
+
+type DstProjection = {
+  name: string
+  team: string
+  sacks: number
+  defensiveInterceptions: number
+  defensiveFumbleRecoveries: number
+  forcedFumbles: number
+  defensiveTouchdowns: number
+  safeties: number
+  pointsAllowed: number
+  yardsAllowed: number
+  fantasyProsPoints: number
+}
+
+function readDstProjections(
+  filePath: string,
+): DstProjection[] {
+  const lines = readLines(filePath)
+
+  const dataLines = lines.slice(1)
+
+  const players: DstProjection[] = []
+
+  for (const line of dataLines) {
+    const columns = parseCsvLine(line)
+
+    /*
+      DST projection columns:
+
+      0 Player
+      1 Team
+      2 SACK
+      3 INT
+      4 FR
+      5 FF
+      6 TD
+      7 SAFETY
+      8 PA
+      9 YDS_AGN
+      10 FPTS
+    */
+
+    const name =
+      columns[0]?.trim() ?? ''
+
+    if (!name) {
+      continue
+    }
+
+    players.push({
+      name,
+      team:
+        columns[1]?.trim().toUpperCase() ?? '',
+      sacks:
+        toNumber(columns[2]),
+      defensiveInterceptions:
+        toNumber(columns[3]),
+      defensiveFumbleRecoveries:
+        toNumber(columns[4]),
+      forcedFumbles:
+        toNumber(columns[5]),
+      defensiveTouchdowns:
+        toNumber(columns[6]),
+      safeties:
+        toNumber(columns[7]),
+      pointsAllowed:
+        toNumber(columns[8]),
+      yardsAllowed:
+        toNumber(columns[9]),
+      fantasyProsPoints:
+        toNumber(columns[10]),
+    })
+  }
+
+  return players
+}
+
 function main() {
   const files = fs
     .readdirSync(importsFolder)
@@ -526,11 +663,27 @@ function main() {
   )
 
 
+
+
   const teProjectionFile = files.find(
     (file) =>
       file
         .toLowerCase()
         .includes('projections-te'),
+  )
+
+  const kickerProjectionFile = files.find(
+    (file) =>
+      file
+        .toLowerCase()
+        .includes('projections_k'),
+  )
+
+  const dstProjectionFile = files.find(
+    (file) =>
+      file
+        .toLowerCase()
+        .includes('projections_dst'),
   )
 
   if (!ratingsFile) {
@@ -562,6 +715,20 @@ function main() {
       'TE projections file not found.',
     )
   }
+
+  if (!kickerProjectionFile) {
+    throw new Error(
+      'K projections file not found.',
+    )
+  }
+
+  if (!dstProjectionFile) {
+    throw new Error(
+      'DST projections file not found.',
+    )
+  }
+
+
 
   const ratings = readRatings(
     path.join(
@@ -600,6 +767,30 @@ function main() {
         teProjectionFile,
       ),
     )
+
+  const kickerProjections =
+    readKickerProjections(
+      path.join(
+        importsFolder,
+        kickerProjectionFile,
+      ),
+    )
+
+  const dstProjections =
+    readDstProjections(
+      path.join(
+        importsFolder,
+        dstProjectionFile,
+      ),
+    )
+
+  console.log(
+    `K projections: ${kickerProjections.length}`,
+  )
+
+  console.log(
+    `DST projections: ${dstProjections.length}`,
+  )
 
   console.log('')
   console.log(
@@ -1126,6 +1317,159 @@ function main() {
   )
 
   console.log('')
+
+  const mergedKickers = kickerProjections
+    .map((projection) => {
+      const rating = ratings.find(
+        (player) =>
+          player.name === projection.name,
+      )
+
+      return {
+        name: projection.name,
+        team: projection.team,
+
+        fantasyProsRank:
+          rating?.rank ?? null,
+
+        fantasyProsTier:
+          rating?.tier ?? null,
+
+        positionRank:
+          rating?.positionRank ?? null,
+
+        byeWeek:
+          rating?.byeWeek ?? null,
+
+        upside:
+          rating?.upside ?? null,
+
+        bust:
+          rating?.bust ?? null,
+
+        strengthOfSchedule:
+          rating?.strengthOfSchedule ?? null,
+
+        ecrVsAdp:
+          rating?.ecrVsAdp ?? null,
+
+        projectedStats: {
+          fieldGoalsMade:
+            projection.fieldGoalsMade,
+
+          fieldGoalsAttempted:
+            projection.fieldGoalsAttempted,
+
+          extraPointsMade:
+            projection.extraPointsMade,
+        },
+
+        fantasyProsPoints:
+          projection.fantasyProsPoints,
+
+        hondaProjectedPoints:
+          projection.fantasyProsPoints,
+      }
+    })
+    .sort(
+      (a, b) =>
+        b.hondaProjectedPoints -
+        a.hondaProjectedPoints,
+    )
+
+  console.log('')
+  console.log('Top 15 Honda Kickers:')
+  console.log('')
+
+  mergedKickers
+    .slice(0, 15)
+    .forEach((player, index) => {
+      console.log(
+        `${index + 1}. ${player.name} | Honda ${player.hondaProjectedPoints} | FP ${player.fantasyProsPoints}`,
+      )
+    })
+
+  console.log('')
+
+  const mergedDsts = dstProjections
+    .map((projection) => {
+      const rating = ratings.find(
+        (player) =>
+          player.name === projection.name,
+      )
+
+      return {
+        name: projection.name,
+        team: projection.team,
+
+        fantasyProsRank:
+          rating?.rank ?? null,
+
+        fantasyProsTier:
+          rating?.tier ?? null,
+
+        positionRank:
+          rating?.positionRank ?? null,
+
+        byeWeek:
+          rating?.byeWeek ?? null,
+
+        upside:
+          rating?.upside ?? null,
+
+        bust:
+          rating?.bust ?? null,
+
+        strengthOfSchedule:
+          rating?.strengthOfSchedule ?? null,
+
+        ecrVsAdp:
+          rating?.ecrVsAdp ?? null,
+
+        projectedStats: {
+          sacks:
+            projection.sacks,
+
+          defensiveInterceptions:
+            projection.defensiveInterceptions,
+
+          defensiveFumbleRecoveries:
+            projection.defensiveFumbleRecoveries,
+
+          defensiveTouchdowns:
+            projection.defensiveTouchdowns,
+
+          safeties:
+            projection.safeties,
+        },
+
+        fantasyProsPoints:
+          projection.fantasyProsPoints,
+
+        hondaProjectedPoints:
+          projection.fantasyProsPoints,
+      }
+    })
+    .sort(
+      (a, b) =>
+        b.hondaProjectedPoints -
+        a.hondaProjectedPoints,
+    )
+
+  console.log('')
+  console.log('Top 15 Honda DSTs:')
+  console.log('')
+
+  mergedDsts
+    .slice(0, 15)
+    .forEach((player, index) => {
+      console.log(
+        `${index + 1}. ${player.name} | Honda ${player.hondaProjectedPoints} | FP ${player.fantasyProsPoints}`,
+      )
+    })
+
+  console.log('')
+
   const canonicalPlayers = [
     ...mergedQbs.map((player) => ({
       ...player,
@@ -1146,7 +1490,19 @@ function main() {
       ...player,
       position: 'TE',
     })),
+
+    ...mergedKickers.map((player) => ({
+      ...player,
+      position: 'K',
+    })),
+
+    ...mergedDsts.map((player) => ({
+      ...player,
+      position: 'DST',
+    })),
   ]
+
+
 
   const canonicalOutputPath = path.join(
     outputFolder,
@@ -1158,10 +1514,12 @@ function main() {
     RB: 31,
     WR: 37,
     TE: 13,
+    K: 13,
+    DST: 13,
   } as const
 
   function getReplacementPoints(
-    position: 'QB' | 'RB' | 'WR' | 'TE',
+    position: 'QB' | 'RB' | 'WR' | 'TE' | 'K' | 'DST',
   ) {
     const positionPlayers = canonicalPlayers
       .filter(
@@ -1188,6 +1546,8 @@ function main() {
     RB: getReplacementPoints('RB'),
     WR: getReplacementPoints('WR'),
     TE: getReplacementPoints('TE'),
+    K: getReplacementPoints('K'),
+    DST: getReplacementPoints('DST'),
   }
 
   console.log('')
@@ -1210,6 +1570,14 @@ function main() {
     `TE13: ${replacementPoints.TE}`,
   )
 
+  console.log(
+    `K13: ${replacementPoints.K}`,
+  )
+
+  console.log(
+    `DST13: ${replacementPoints.DST}`,
+  )
+
   const playersWithVor =
     canonicalPlayers.map((player) => {
       const position =
@@ -1218,6 +1586,8 @@ function main() {
         | 'RB'
         | 'WR'
         | 'TE'
+        | 'K'
+        | 'DST'
 
       const replacement =
         replacementPoints[position]
@@ -1239,7 +1609,7 @@ function main() {
     })
 
   const playersWithPositionRank =
-    ['QB', 'RB', 'WR', 'TE'].flatMap(
+    ['QB', 'RB', 'WR', 'TE', 'K', 'DST'].flatMap(
       (position) => {
         const positionPlayers =
           playersWithVor
@@ -1285,19 +1655,40 @@ function main() {
       marketLabel: 'Pending ADP',
     }))
 
+  const playersWithDraftPriority =
+    playersWithDraftValue.map((player) => {
+      const specialTeamsPenalty =
+        player.position === 'K' ||
+          player.position === 'DST'
+          ? 30
+          : 0
+
+      return {
+        ...player,
+
+        draftPriorityScore:
+          Number(
+            (
+              player.valueOverReplacement -
+              specialTeamsPenalty
+            ).toFixed(1),
+          ),
+      }
+    })
+
   const hondaOverall =
-    [...playersWithDraftValue]
+    [...playersWithDraftPriority]
       .sort(
         (a, b) =>
-          b.valueOverReplacement -
-          a.valueOverReplacement,
+          b.draftPriorityScore -
+          a.draftPriorityScore,
       )
       .map((player, index) => ({
         ...player,
         hondaOverallRank:
           index + 1,
-      }))
 
+      }))
   console.log('')
   console.log('Top 25 Honda Overall:')
   console.log('')
@@ -1334,10 +1725,12 @@ function main() {
     RB: 80,
     WR: 110,
     TE: 38,
+    K: 16,
+    DST: 16,
   } as const
 
   const draftablePlayers = (
-    ['QB', 'RB', 'WR', 'TE'] as const
+    ['QB', 'RB', 'WR', 'TE', 'K', 'DST'] as const
   ).flatMap((position) =>
     hondaOverall
       .filter(
@@ -1603,6 +1996,8 @@ function main() {
       RB: 0,
       WR: 0,
       TE: 0,
+      K: 0,
+      DST: 0,
     },
   ) {
 
@@ -1638,6 +2033,8 @@ function main() {
             | 'RB'
             | 'WR'
             | 'TE'
+            | 'K'
+            | 'DST'
 
           return (
             currentRoster[position] <
@@ -1872,6 +2269,8 @@ function main() {
           'RB',
           'WR',
           'TE',
+          'K',
+          'DST',
         ] as const
         const playerOnePosition =
           playerOne.position as
@@ -1879,6 +2278,8 @@ function main() {
           | 'RB'
           | 'WR'
           | 'TE'
+          | 'K'
+          | 'DST'
 
         const playerTwoPosition =
           playerTwo.position as
@@ -1886,6 +2287,9 @@ function main() {
           | 'RB'
           | 'WR'
           | 'TE'
+          | 'K'
+          | 'DST'
+
 
         projectedRoster[playerOnePosition] += 1
         projectedRoster[playerTwoPosition] += 1
@@ -1897,6 +2301,8 @@ function main() {
               'RB',
               'WR',
               'TE',
+              'K',
+              'DST',
             ] as const
           ).some(
             (position) =>
@@ -2310,6 +2716,8 @@ function main() {
       RB: 0,
       WR: 0,
       TE: 0,
+      K: 0,
+      DST: 0,
     }
 
     const draftPath = []
@@ -2667,6 +3075,8 @@ function main() {
               | 'RB'
               | 'WR'
               | 'TE'
+              | 'K'
+              | 'DST'
 
             return (
               rosterCounts[position] <
@@ -2972,6 +3382,8 @@ function main() {
         RB: number
         WR: number
         TE: number
+        K: number
+        DST: number
       }
     >()
 
@@ -2980,6 +3392,8 @@ function main() {
     RB: 0,
     WR: 0,
     TE: 0,
+    K: 0,
+    DST: 0,
   }
 
   for (
@@ -3174,12 +3588,20 @@ function main() {
     }
 
     function getPositionNeedScore(
-      position: 'QB' | 'RB' | 'WR' | 'TE',
+      position:
+        | 'QB'
+        | 'RB'
+        | 'WR'
+        | 'TE'
+        | 'K'
+        | 'DST',
       roster: {
         QB: number
         RB: number
         WR: number
         TE: number
+        K: number
+        DST: number
       },
       turnNumber: number,
     ) {
@@ -3273,6 +3695,8 @@ function main() {
               RB: 0,
               WR: 0,
               TE: 0,
+              K: 0,
+              DST: 0,
             }
           )
 
@@ -3318,6 +3742,8 @@ function main() {
                 | 'RB'
                 | 'WR'
                 | 'TE'
+                | 'K'
+                | 'DST'
                 | undefined
 
               const positionNeedScore =

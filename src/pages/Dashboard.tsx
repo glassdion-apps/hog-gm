@@ -1,3 +1,6 @@
+import { useState } from 'react'
+import { getTierPressureScore } from '../utils/hondaWaitRisk'
+
 type DashboardProps = {
   draftedPlayerNames: string[]
   currentPickIndex: number
@@ -40,6 +43,27 @@ export default function Dashboard({
   )
   const recommendation = availablePlayers[0]
 
+  const [dashboardSelectedPlayerName, setDashboardSelectedPlayerName] =
+    useState('')
+
+  const dashboardSelectedPlayer =
+    availablePlayers.find(
+      (player) =>
+        player.name === dashboardSelectedPlayerName,
+    ) ?? recommendation
+
+  const tierPressureScore =
+    dashboardSelectedPlayer
+      ? getTierPressureScore(dashboardSelectedPlayer)
+      : 0
+
+  const tierPressureLabel =
+    tierPressureScore >= 30
+      ? 'High'
+      : tierPressureScore >= 15
+        ? 'Medium'
+        : 'Low'
+
   const round =
     Math.floor(currentPickIndex / 12) + 1
 
@@ -56,32 +80,66 @@ export default function Dashboard({
             On the clock · {currentManagerName} · {pickLabel} · Overall {currentPickIndex + 1}
           </p>
 
-          <h2>{recommendation?.name ?? 'Draft Complete'}</h2>
+          <h2>{dashboardSelectedPlayer?.name ?? 'Draft Complete'}</h2>
 
           <p className="hero-text">
-            {recommendation
-              ? recommendation.xFactor
+            {dashboardSelectedPlayer
+              ? dashboardSelectedPlayer.xFactor
               : 'No available players remain on the board.'}
           </p>
 
         </div>
         <div className="recommendation">
           <span>Recommendation</span>
-          <strong>{recommendation?.action ?? 'DONE'}</strong>
+          <strong>{dashboardSelectedPlayer?.action ?? 'DONE'}</strong>
           <small>
-            {recommendation
-              ? `${Math.round(recommendation.score)}% confidence`
+            {dashboardSelectedPlayer
+              ? `${Math.round(dashboardSelectedPlayer.score)}% confidence`
               : 'All players drafted'}
           </small>
+
+          {dashboardSelectedPlayer && (
+            <button
+              className="dashboard-view-player-button"
+              onClick={() =>
+                onSelectPlayer(dashboardSelectedPlayer.name)
+              }
+            >
+              View Player
+            </button>
+          )}
+
         </div>
       </section>
 
       <section className="metrics">
-        <Metric label="Honda Edge" value="+5.0" detail="Above room cost" />
+        <Metric
+          label="Honda Edge"
+          value={
+            dashboardSelectedPlayer
+              ? `${currentPickIndex + 1 - dashboardSelectedPlayer.hondaAdpOverall >= 0 ? '+' : ''}${currentPickIndex + 1 - dashboardSelectedPlayer.hondaAdpOverall}`
+              : '—'
+          }
+          detail={
+            dashboardSelectedPlayer
+              ? currentPickIndex + 1 - dashboardSelectedPlayer.hondaAdpOverall > 0
+                ? `${currentPickIndex + 1 - dashboardSelectedPlayer.hondaAdpOverall} picks past Honda value`
+                : currentPickIndex + 1 - dashboardSelectedPlayer.hondaAdpOverall < 0
+                  ? `${Math.abs(
+                    currentPickIndex + 1 - dashboardSelectedPlayer.hondaAdpOverall,
+                  )} picks ahead of Honda value`
+                  : 'At Honda value'
+              : 'No player selected'
+          }
+        />
         <Metric
           label="Tier Pressure"
-          value="High"
-          detail="Franchise QB available"
+          value={tierPressureLabel}
+          detail={
+            dashboardSelectedPlayer
+              ? `${dashboardSelectedPlayer.tier} · pressure score ${tierPressureScore}`
+              : 'No player selected'
+          }
         />
         <Metric label="Next Run" value="RB" detail="71% probability" />
         <Metric label="Roster Grade" value="—" detail="Draft not started" />
@@ -103,7 +161,7 @@ export default function Dashboard({
             >
               <button
                 className="dashboard-player-open"
-                onClick={() => onSelectPlayer(player.name)}
+                onClick={() => setDashboardSelectedPlayerName(player.name)}
               >
                 <div className="player-position">
                   {player.position}

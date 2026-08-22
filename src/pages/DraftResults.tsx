@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { draftManagers } from '../data/managers'
 import { getHondaDraftDelta } from '../utils/draftStory'
+import { players } from '../data/players'
 
 type DraftPick = {
     player: string
@@ -407,7 +408,14 @@ export default function DraftResults({
             pickInRound,
         ).padStart(2, '0')}`
     }
-
+    function getPlayerPosition(playerName: string) {
+        return (
+            players.find(
+                (player) =>
+                    player.name === playerName,
+            )?.position ?? null
+        )
+    }
     return (
         <>
             <section className="panel">
@@ -719,7 +727,9 @@ export default function DraftResults({
                                                 <div
                                                     className={
                                                         pick
-                                                            ? 'draft-board-cell filled'
+                                                            ? `draft-board-cell filled position-${getPlayerPosition(
+                                                                pick.player,
+                                                            )?.toLowerCase()}`
                                                             : 'draft-board-cell'
                                                     }
                                                     key={`${round}-${manager.name}`}

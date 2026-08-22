@@ -31,6 +31,60 @@ export function getHondaDraftDelta(
     }
 }
 
+export function getCurrentPositionRun(
+    draftHistory: DraftPick[],
+) {
+    const recentPicks =
+        draftHistory.slice(-5)
+
+    const recentPositions =
+        recentPicks
+            .map((pick) => {
+                const player =
+                    players.find(
+                        (item) =>
+                            item.name === pick.player,
+                    )
+
+                return player?.position
+            })
+            .filter(Boolean)
+
+    const positionCounts = {
+        QB: recentPositions.filter(
+            (position) => position === 'QB',
+        ).length,
+        RB: recentPositions.filter(
+            (position) => position === 'RB',
+        ).length,
+        WR: recentPositions.filter(
+            (position) => position === 'WR',
+        ).length,
+        TE: recentPositions.filter(
+            (position) => position === 'TE',
+        ).length,
+    }
+
+    const strongestRun =
+        Object.entries(positionCounts)
+            .filter(([, count]) => count >= 3)
+            .sort(
+                ([, countA], [, countB]) =>
+                    countB - countA,
+            )[0]
+
+    if (!strongestRun) {
+        return null
+    }
+
+    return {
+        position: strongestRun[0],
+        count: strongestRun[1],
+        recentPickCount:
+            recentPicks.length,
+    }
+}
+
 export function generateDraftStory(
     draftHistory: DraftPick[],
 ): DraftStoryEvent[] {
